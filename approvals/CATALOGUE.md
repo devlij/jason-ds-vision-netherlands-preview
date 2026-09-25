@@ -1,7 +1,12 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-032. IDs are not reused.
+NL-01-001 through NL-01-048. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
+NL-01-033 through NL-01-048 swaps:
+- NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Swapped to Schröder House, Utrecht.
+- NL-01-038: suggested Cube Houses, Rotterdam was already NL-01-008, and Rotterdam already has Erasmus Bridge, Markthal, and Euromast. Swapped to Van Abbemuseum, Eindhoven.
+- NL-01-044: Domburg has a beach and the Badpaviljoen, not a pier. No pier was invented.
+- The other suggested sites in this batch were not already used.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
 - NL-01-002 — Prinsengracht, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:39+02:00
@@ -35,3 +40,19 @@ NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Hol
 - NL-01-030 — Scheveningen pier, The Hague — 25 September 2026 · 23:05 Europe/Amsterdam — retrieved 2026-09-25T23:05:36+02:00
 - NL-01-031 — Markt, Gouda — 25 September 2026 · 23:06 Europe/Amsterdam — retrieved 2026-09-25T23:06:33+02:00
 - NL-01-032 — Grote Kerk, Dordrecht — 25 September 2026 · 23:06 Europe/Amsterdam — retrieved 2026-09-25T23:06:36+02:00
+- NL-01-033 — Schröder House, Utrecht — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:22+02:00
+- NL-01-034 — Oudegracht, Utrecht — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:24+02:00
+- NL-01-035 — Koppelpoort, Amersfoort — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:25+02:00
+- NL-01-036 — Duurstede Castle, Wijk bij Duurstede — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:27+02:00
+- NL-01-037 — St. John's Cathedral, 's-Hertogenbosch — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:29+02:00
+- NL-01-038 — Van Abbemuseum, Eindhoven — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:31+02:00
+- NL-01-039 — Breda Castle, Breda — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:33+02:00
+- NL-01-040 — Middelburg Abbey, Middelburg — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:35+02:00
+- NL-01-041 — Town Hall, Veere — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:36+02:00
+- NL-01-042 — Noordhavenpoort, Zierikzee — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:38+02:00
+- NL-01-043 — Oosterscheldekering, Neeltje Jans — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:40+02:00
+- NL-01-044 — Badpaviljoen, Domburg — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:42+02:00
+- NL-01-045 — Lebuinuskerk, Deventer — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:44+02:00
+- NL-01-046 — John Frost Bridge, Arnhem — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:46+02:00
+- NL-01-047 — Waalbrug, Nijmegen — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:47+02:00
+- NL-01-048 — Paleis Het Loo, Apeldoorn — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:49+02:00

@@ -670,5 +670,341 @@
       "The church body meets the quay under a clear night sky"
     ],
     "solar": "Full night under a clear sky. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 23:06 quay lamps light the brick and the water."
+  },
+  {
+    "entry_id": "NL-01-033",
+    "region": "Utrecht",
+    "city": "Utrecht",
+    "folder": "Utrecht",
+    "caption": "Schröder House, Utrecht",
+    "composition": "Street view of the white De Stijl house at the end of the brick terrace · AI-generated artistic interpretation",
+    "description": "The Rietveld Schröder House is seen from Prins Hendriklaan at night: white and grey planes, thin black lines, and small red, blue, and yellow accents, built against the end of an ordinary brick terrace. The Dom Tower was already used, so this is the Utrecht swap. The sky is clear, about 15.2°C, with wind near 9.0 km/h. Sunset was 19:31, and 23:41 is lamp light only.",
+    "alt_text": "AI-generated artistic interpretation of the Rietveld Schröder House exterior in Utrecht on a clear night",
+    "viewpoint": "Dom Tower was already NL-01-010, so this scene is the Schröder House. Public street view from Prins Hendriklaan, looking at the white end house where it meets the brick terrace. A surveyed tripod mark was not pinned. No Pictoright photograph was supplied to the generator.",
+    "references": [
+      "https://whc.unesco.org/en/list/965/",
+      "https://en.wikipedia.org/wiki/Rietveld_Schröder_House"
+    ],
+    "anchors": [
+      "A small white house of intersecting planes ends a brick terrace",
+      "Black lines and small red, blue, and yellow accents mark the frames",
+      "A quiet residential street at night, with no tower as the subject"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 23:41 the house is lit by street lamps, about four hours after sunset."
+  },
+  {
+    "entry_id": "NL-01-034",
+    "region": "Utrecht",
+    "city": "Utrecht",
+    "folder": "Utrecht",
+    "caption": "Oudegracht, Utrecht",
+    "composition": "Two-level canal, wharf cellars at the water and the street above · AI-generated artistic interpretation",
+    "description": "Along the Oudegracht the canal has two levels: arched brick cellars open onto a low wharf at the water, and the street with gabled houses sits a storey higher. A bridge crosses in the middle distance. The Dom Tower is not the subject. It is clear, about 15.1°C, wind near 9.0 km/h. Sunset was 19:31, so the wharves are lamp-lit.",
+    "alt_text": "AI-generated artistic interpretation of the Oudegracht wharves in Utrecht on a clear night, with cellar arches at the water",
+    "viewpoint": "From a bridge on the Oudegracht near the Stadhuisbrug stretch, looking along the canal so both the lower wharf and the upper street read together. The public bridge is the viewpoint; a single railing joint was not surveyed. The Dom Tower is intentionally left out of the subject.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Oudegracht",
+      "https://www.routesinutrecht.nl/routes/3833169755/wandelroute-grachten-en-werven"
+    ],
+    "anchors": [
+      "Canal water fills the lower foreground",
+      "Arched brick cellars open onto a wharf at water level",
+      "The street and gabled houses sit above a retaining wall"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 23:41 lamps light the brick and reflect in the canal."
+  },
+  {
+    "entry_id": "NL-01-035",
+    "region": "Utrecht",
+    "city": "Amersfoort",
+    "folder": "Amersfoort",
+    "caption": "Koppelpoort, Amersfoort",
+    "composition": "Brick land-and-water gate over the river, twin towers · AI-generated artistic interpretation",
+    "description": "The Koppelpoort spans the river at the edge of Amersfoort: a brick land gate with flanking towers joined to a water gate over dark water. Floodlights pick out the brick. The sky is clear, about 15.0°C, with wind near 8.3 km/h. Sunset was 19:30, and the gate is quiet.",
+    "alt_text": "AI-generated artistic interpretation of the Koppelpoort in Amersfoort on a clear night, the brick gate over the river",
+    "viewpoint": "From the riverbank outside the old wall, looking at the combined land and water gate. The public bank is the viewpoint. The wooden treadmill sits in the water-gate range; this frame keeps the twin towers and the span as the readable mass.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Koppelpoort",
+      "https://www.discover-utrecht.com/location/koppelpoort-amersfoort-land-and-water-gate/"
+    ],
+    "anchors": [
+      "Dark river water fills the foreground",
+      "Brick towers flank the land-gate passage",
+      "The water gate continues across the river under a steep roof"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 23:41 floodlights light the brick; there is no daylight."
+  },
+  {
+    "entry_id": "NL-01-036",
+    "region": "Utrecht",
+    "city": "Wijk bij Duurstede",
+    "folder": "Wijk bij Duurstede",
+    "caption": "Duurstede Castle, Wijk bij Duurstede",
+    "composition": "Ruin across the moat, round Burgundian tower and square donjon · AI-generated artistic interpretation",
+    "description": "Duurstede Castle is a ruin in its park: a massive round brick tower with a conical roof stands beside a lower square donjon, with broken walls between them and a moat in front. Late September trees are still mostly green. It is clear and cooler, about 12.3°C, wind near 8.3 km/h. Sunset was 19:30. No intact palace is invented.",
+    "alt_text": "AI-generated artistic interpretation of the Duurstede Castle ruin in Wijk bij Duurstede on a clear night",
+    "viewpoint": "From the public park across the moat, looking at the round Burgundian tower and the square donjon together. The park path is the viewpoint; an exact stake in the grass was not surveyed.",
+    "references": [
+      "https://www.monumenten.nl/monument/454308",
+      "https://nl.wikipedia.org/wiki/Kasteel_Duurstede"
+    ],
+    "anchors": [
+      "Moat water fills the foreground",
+      "A huge round brick tower with a conical roof stands on the island",
+      "A lower square donjon and broken walls remain beside it"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 23:41 a few park lamps light the brick. The air is the coolest of the Utrecht group."
+  },
+  {
+    "entry_id": "NL-01-037",
+    "region": "North Brabant",
+    "city": "'s-Hertogenbosch",
+    "folder": "s-Hertogenbosch",
+    "caption": "St. John's Cathedral, 's-Hertogenbosch",
+    "composition": "Parade square at night, Gothic exterior and flying buttresses · AI-generated artistic interpretation",
+    "description": "From the Parade, St. John's Cathedral shows its Gothic exterior: a tall stone tower, flying buttresses with small figures, and pinnacles, floodlit over empty paving. The interior is not the subject. The sky is clear, about 12.8°C, wind near 9.0 km/h. Sunset was 19:30, so the square is fully dark except for the floodlights.",
+    "alt_text": "AI-generated artistic interpretation of St. John's Cathedral exterior in 's-Hertogenbosch on a clear night",
+    "viewpoint": "From the Parade on the west side of the cathedral, the open square that gives the whole exterior. The public square is the viewpoint. A single pavement joint was not surveyed.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sint-Janskathedraal_('s-Hertogenbosch)",
+      "https://www.sint-jan.nl/"
+    ],
+    "anchors": [
+      "Open paving fills the foreground, without stalls",
+      "A tall Gothic tower rises from the stone church",
+      "Flying buttresses and pinnacles carry small stone figures"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 23:41 floodlights light the stone and the square is empty."
+  },
+  {
+    "entry_id": "NL-01-038",
+    "region": "North Brabant",
+    "city": "Eindhoven",
+    "folder": "Eindhoven",
+    "caption": "Van Abbemuseum, Eindhoven",
+    "composition": "Red-brick block and grey leaning tower beside the Dommel at night · AI-generated artistic interpretation",
+    "description": "The Van Abbemuseum exterior pairs the older red-brick block with Abel Cahen's grey slate extension and its leaning tower of diagonal walls. The broadened Dommel reflects the lamps. No artwork is the subject. It is clear, about 15.8°C, wind near 8.6 km/h. Sunset was 19:29. Cube Houses were not repeated.",
+    "alt_text": "AI-generated artistic interpretation of the Van Abbemuseum exterior in Eindhoven on a clear night, brick block and grey leaning tower by the river",
+    "viewpoint": "Cube Houses were already NL-01-008, and Rotterdam already has four scenes, so this is the Van Abbemuseum. From the Dommel side, looking at the brick block and the grey extension together. The public river edge is the viewpoint.",
+    "references": [
+      "https://vanabbemuseum.nl/",
+      "https://www.archined.nl/2003/01/van-abbemuseum-vernieuwd-en-uitgebreid/"
+    ],
+    "anchors": [
+      "River water fills the foreground",
+      "A red-brick museum block stands beside a grey slate extension",
+      "A leaning tower with diagonal walls rises from the new wing; no artwork"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 23:41 window light and quay lamps light the brick and the grey stone."
+  },
+  {
+    "entry_id": "NL-01-039",
+    "region": "North Brabant",
+    "city": "Breda",
+    "folder": "Breda",
+    "caption": "Breda Castle, Breda",
+    "composition": "Spanjaardsgat water gate, two octagonal towers across the moat · AI-generated artistic interpretation",
+    "description": "Breda Castle is seen at the Spanjaardsgat: two octagonal brick towers with dark spires flank a water-gate opening, and the castle mass sits behind them across the moat. The Grote Kerk is a different viewpoint and is not in this frame. It is clear and mild, about 17.0°C, wind near 10.1 km/h. Sunset was 19:32.",
+    "alt_text": "AI-generated artistic interpretation of Breda Castle at the Spanjaardsgat on a clear night",
+    "viewpoint": "From the public side of the moat at the Spanjaardsgat, the water gate of Breda Castle. The open bank is the viewpoint. The Grote Markt and Grote Kerk are a separate view and were not combined into this frame.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Breda_Castle",
+      "https://nl.wikipedia.org/wiki/Spanjaardsgat"
+    ],
+    "anchors": [
+      "Moat water fills the foreground",
+      "Two octagonal brick towers with dark spires flank the water gate",
+      "The castle walls continue behind the towers"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 23:41 floodlights light the brick and the moat is calm."
+  },
+  {
+    "entry_id": "NL-01-040",
+    "region": "Zeeland",
+    "city": "Middelburg",
+    "folder": "Middelburg",
+    "caption": "Middelburg Abbey, Middelburg",
+    "composition": "Abdijplein at night, octagonal Lange Jan and the abbey roofs · AI-generated artistic interpretation",
+    "description": "On Abdijplein the octagonal stone tower Lange Jan rises from the abbey, with a tall spire above the church roofs and the quiet square below. The sky is fully overcast, cloud cover 100%, the mildest of this batch at about 18.4°C, wind near 11.5 km/h, and no rain. Sunset was 19:37.",
+    "alt_text": "AI-generated artistic interpretation of Middelburg Abbey and the Lange Jan tower on an overcast night",
+    "viewpoint": "From Abdijplein, looking up at Lange Jan where it meets the abbey church. The open square is the viewpoint. Access to the square is public; the tower interior is not this frame.",
+    "references": [
+      "https://scheldedelta.eu/en/middelburg-abbey",
+      "https://en.wikipedia.org/wiki/Middelburg_Abbey"
+    ],
+    "anchors": [
+      "The paved abbey square fills the foreground",
+      "An octagonal stone tower rises from the abbey roofs",
+      "A tall spire caps the tower under a fully overcast night sky"
+    ],
+    "solar": "Full night under complete cloud. Model sunset 19:37 Europe/Amsterdam and model is_day 0. At 23:41 lamps light the stone against a dark grey sky, with no rain."
+  },
+  {
+    "entry_id": "NL-01-041",
+    "region": "Zeeland",
+    "city": "Veere",
+    "folder": "Veere",
+    "caption": "Town Hall, Veere",
+    "composition": "Harbour with the town-hall tower and the Campveerse Toren · AI-generated artistic interpretation",
+    "description": "Veere's harbour holds moored boats on the Veerse Meer, with the slender town-hall clock tower and a shorter church tower behind the houses, and the round Campveerse Toren at the water. The sky is fully overcast, cloud cover 100%, about 15.5°C, wind near 10.8 km/h, and no rain. Sunset was 19:37. This is a lake harbour, not the open North Sea.",
+    "alt_text": "AI-generated artistic interpretation of Veere harbour and the town-hall tower on an overcast night",
+    "viewpoint": "From the public quay along the harbour, looking toward the town-hall tower with the Campveerse Toren at the harbour edge. The quay is the viewpoint; a single bollard was not fixed as a survey mark.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Veere",
+      "https://nl.wikipedia.org/wiki/Stadhuis_van_Veere"
+    ],
+    "anchors": [
+      "Harbour water and moored boats fill the foreground",
+      "A slender town-hall clock tower rises behind the houses",
+      "A round brick tower stands at the water under a fully overcast sky"
+    ],
+    "solar": "Full night under complete cloud. Model sunset 19:37 Europe/Amsterdam and model is_day 0. At 23:41 harbour lamps light the towers and the water, with no rain."
+  },
+  {
+    "entry_id": "NL-01-042",
+    "region": "Zeeland",
+    "city": "Zierikzee",
+    "folder": "Zierikzee",
+    "caption": "Noordhavenpoort, Zierikzee",
+    "composition": "Brick harbour gate with two round towers · AI-generated artistic interpretation",
+    "description": "The Noordhavenpoort stands at the harbour in Zierikzee: two heavy round brick towers and a central arch, with a few boats in the water and houses behind. The sky is fully overcast, cloud cover 100%, about 16.6°C, wind near 11.5 km/h, and no rain. Sunset was 19:36.",
+    "alt_text": "AI-generated artistic interpretation of the Noordhavenpoort at the harbour in Zierikzee on an overcast night",
+    "viewpoint": "From the harbour side of the Noordhavenpoort, looking at the twin round towers and the arch. The public quay is the viewpoint. The land gate elsewhere in town is not this frame.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Zierikzee",
+      "https://nl.wikipedia.org/wiki/Noordhavenpoort"
+    ],
+    "anchors": [
+      "Harbour water sits in the foreground",
+      "Two round brick towers flank a central arch",
+      "Historic houses continue behind the gate under a solid overcast sky"
+    ],
+    "solar": "Full night under complete cloud. Model sunset 19:36 Europe/Amsterdam and model is_day 0. At 23:41 lamps light the brick and there is no rain."
+  },
+  {
+    "entry_id": "NL-01-043",
+    "region": "Zeeland",
+    "city": "Neeltje Jans",
+    "folder": "Neeltje Jans",
+    "caption": "Oosterscheldekering, Neeltje Jans",
+    "composition": "Receding concrete piers and a lit roadway over the water · AI-generated artistic interpretation",
+    "description": "From Neeltje Jans the Oosterscheldekering runs as a row of huge concrete piers in the sea, with a roadway and lamps along the top. It is an open barrier, not a solid dam and not a beach pier. The sky is partly cloudy, cloud cover about 62%, about 17.4°C, with a fresher wind near 15.5 km/h and no rain. Sunset was 19:36.",
+    "alt_text": "AI-generated artistic interpretation of the Oosterscheldekering at night, concrete piers receding over the water from Neeltje Jans",
+    "viewpoint": "From the public viewpoint on Neeltje Jans, looking along the barrier as the piers recede. The visitor-side overlook is the viewpoint. An exact metre-mark on the embankment was not surveyed.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Oosterscheldekering",
+      "https://www.neeltjejans.nl/"
+    ],
+    "anchors": [
+      "Dark water fills the foreground",
+      "A row of massive concrete piers recedes toward the horizon",
+      "A roadway with lamps runs along the top; the barrier is not a solid wall"
+    ],
+    "solar": "Full night under broken cloud. Model sunset 19:36 Europe/Amsterdam and model is_day 0. At 23:41 the roadway lamps are the light, and the wind is the freshest of this batch."
+  },
+  {
+    "entry_id": "NL-01-044",
+    "region": "Zeeland",
+    "city": "Domburg",
+    "folder": "Domburg",
+    "caption": "Badpaviljoen, Domburg",
+    "composition": "Quiet late-September beach and the dune pavilion, no pier · AI-generated artistic interpretation",
+    "description": "The beach at Domburg is quiet at night, with a low surf and the neo-renaissance Badpaviljoen on the dune: stepped gables and a few warm windows. There is no pier, so none is shown. The sky is partly cloudy, cloud cover about 55%, about 16.2°C, wind near 13.0 km/h, and no rain. Sunset was 19:37. It is not a summer crowd.",
+    "alt_text": "AI-generated artistic interpretation of the Badpaviljoen and beach at Domburg on a partly cloudy night, with no pier",
+    "viewpoint": "Domburg has no pier. From the beach below the Badpaviljoen, looking back at the pavilion on the dune with the sea at the side. The public beach at that entrance is the viewpoint.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Badpaviljoen_(Domburg)",
+      "https://domburg.com/en/beach.php"
+    ],
+    "anchors": [
+      "Empty sand and a low surf fill the foreground",
+      "The ornate pavilion with stepped gables sits on the dune",
+      "There is no pier and no packed beach"
+    ],
+    "solar": "Full night under partial cloud. Model sunset 19:37 Europe/Amsterdam and model is_day 0. At 23:41 a few lamps light the pavilion and the beach is empty."
+  },
+  {
+    "entry_id": "NL-01-045",
+    "region": "Overijssel",
+    "city": "Deventer",
+    "folder": "Deventer",
+    "caption": "Lebuinuskerk, Deventer",
+    "composition": "Brink at night, Gothic church and the smaller weigh house · AI-generated artistic interpretation",
+    "description": "On the Brink the Gothic Lebuinuskerk and its tower stand floodlit beside the smaller weigh house, and the paving is empty of a market. It is the coolest scene in the batch, clear, about 11.8°C, wind near 9.0 km/h. Sunset was 19:27, earlier than on the coast, so 23:41 is deep night.",
+    "alt_text": "AI-generated artistic interpretation of the Lebuinuskerk and the Brink in Deventer on a clear night",
+    "viewpoint": "From the open Brink, looking toward the Lebuinuskerk with the Waag on the square. The public square is the viewpoint. The Bergkwartier hillside is a different walk and is not this frame.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Deventer",
+      "https://nl.wikipedia.org/wiki/Lebuïnuskerk"
+    ],
+    "anchors": [
+      "Open paving fills the foreground, without stalls",
+      "The Gothic church and its tower dominate the square",
+      "A smaller weigh house with its own turret sits on the Brink"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 23:41 floodlights light the church. The air is about 11.8°C."
+  },
+  {
+    "entry_id": "NL-01-046",
+    "region": "Gelderland",
+    "city": "Arnhem",
+    "folder": "Arnhem",
+    "caption": "John Frost Bridge, Arnhem",
+    "composition": "Grey steel tied-arch over the Nederrijn, seen from the quay · AI-generated artistic interpretation",
+    "description": "The John Frost Bridge is the standing road bridge over the Nederrijn: one grey steel tied arch, the deck hung beneath it, lamps along the roadway, and the river in front. It is the rebuilt bridge, not a wartime ruin. The sky is clear, about 14.5°C, and the wind is light, about 3.6 km/h. Sunset was 19:27.",
+    "alt_text": "AI-generated artistic interpretation of the John Frost Bridge over the Rhine at Arnhem on a clear night",
+    "viewpoint": "From the north-bank quay, looking at the tied-arch span over the Nederrijn. The public quay is the viewpoint. The scene shows the bridge as it stands, not the 1944 destruction.",
+    "references": [
+      "https://en.wikipedia.org/wiki/John_Frost_Bridge",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/529907"
+    ],
+    "anchors": [
+      "The river fills the foreground",
+      "One grey steel arch rises over the roadway",
+      "The span is intact, with lamps along the deck"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 23:41 the bridge lamps light the steel and the wind is light."
+  },
+  {
+    "entry_id": "NL-01-047",
+    "region": "Gelderland",
+    "city": "Nijmegen",
+    "folder": "Nijmegen",
+    "caption": "Waalbrug, Nijmegen",
+    "composition": "White steel arch over the Waal, church tower on the ridge · AI-generated artistic interpretation",
+    "description": "From the Waalkade the Waalbrug crosses the river as a white steel arch, not the older green paint, with the historic centre and the Stevenskerk tower on the ridge behind. The sky is clear, about 16.6°C, wind near 10.1 km/h. Sunset was 19:28. The river is wide and dark under the lamps.",
+    "alt_text": "AI-generated artistic interpretation of the white Waalbrug and the Nijmegen ridge on a clear night",
+    "viewpoint": "From the Waalkade, looking along the river so the white arch and the church tower on the ridge share the frame. The public quay is the viewpoint. The Valkhof hill is part of that skyline, not a separate close-up.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Waalbrug",
+      "https://en.wikipedia.org/wiki/Nijmegen"
+    ],
+    "anchors": [
+      "The wide Waal fills the foreground",
+      "A white steel arch, not a green one, spans the river",
+      "A church tower sits on the ridge of the historic centre"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 23:41 deck lamps light the white arch."
+  },
+  {
+    "entry_id": "NL-01-048",
+    "region": "Gelderland",
+    "city": "Apeldoorn",
+    "folder": "Apeldoorn",
+    "caption": "Paleis Het Loo, Apeldoorn",
+    "composition": "Garden axis at night, brick palace and clipped parterres · AI-generated artistic interpretation",
+    "description": "From the baroque garden the symmetrical brick palace closes the axis, with clipped evergreen parterres and a still fountain basin. The gardens are closed at this hour, so the basin is not spraying and there is no summer flower show. It is clear, about 13.5°C, with a light wind near 5.4 km/h. Sunset was 19:27. The glass forecourt of the renovation is not this view.",
+    "alt_text": "AI-generated artistic interpretation of Paleis Het Loo from the baroque garden in Apeldoorn on a clear night",
+    "viewpoint": "From the central axis of the upper baroque garden, looking toward the garden facade. The garden walk is the viewpoint. The forecourt, where the 2023 works replaced parterres with glass, is a different side of the palace and is not shown.",
+    "references": [
+      "https://www.paleishetloo.nl/en/",
+      "https://en.wikipedia.org/wiki/Het_Loo_Palace"
+    ],
+    "anchors": [
+      "Clipped evergreen parterres and gravel lead to the palace",
+      "A symmetrical brick facade with white windows closes the view",
+      "A fountain basin is still, and the garden is empty"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 23:41 a few facade lamps light the brick. The gardens are closed."
   }
 ]

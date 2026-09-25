@@ -512,8 +512,13 @@ def main() -> None:
     lines = [
         "# Netherlands sequence log",
         "",
-        "NL-01-001 through NL-01-032. IDs are not reused.",
+        "NL-01-001 through NL-01-048. IDs are not reused.",
         "NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.",
+        "NL-01-033 through NL-01-048 swaps:",
+        "- NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Swapped to Schröder House, Utrecht.",
+        "- NL-01-038: suggested Cube Houses, Rotterdam was already NL-01-008, and Rotterdam already has Erasmus Bridge, Markthal, and Euromast. Swapped to Van Abbemuseum, Eindhoven.",
+        "- NL-01-044: Domburg has a beach and the Badpaviljoen, not a pier. No pier was invented.",
+        "- The other suggested sites in this batch were not already used.",
         "",
     ]
     for row in catalogue:
