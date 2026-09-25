@@ -4,12 +4,18 @@
   "region": "North Holland",
   "city": "Amsterdam",
   "caption": "Dam Square, Amsterdam",
-  "scenario_label": "25 September 2026 \u00b7 23:05 Europe/Amsterdam",
-  "composition": "Night square with the Royal Palace, the Nieuwe Kerk, and the National Monument \u00b7 AI-generated artistic interpretation",
-  "description": "Dam Square at night holds the floodlit sandstone Royal Palace, the Gothic Nieuwe Kerk beside it, and the pale National Monument on the open paving. The square is quiet, without stalls. It is mainly clear, cloud cover about 23%, about 16.8\u00b0C, with wind near 10.1 km/h. The scene is lamp-lit, hours after the 19:32 sunset.",
+  "scenario_label": "25 September 2026 · 23:05 Europe/Amsterdam",
+  "composition": "Night square with the Royal Palace, the Nieuwe Kerk, and the National Monument · AI-generated artistic interpretation",
+  "description": "Dam Square at night holds the floodlit sandstone Royal Palace, the Gothic Nieuwe Kerk beside it, and the pale National Monument on the open paving. The square is quiet, without stalls. It is mainly clear, cloud cover about 23%, about 16.8°C, with wind near 10.1 km/h. The scene is lamp-lit, hours after the 19:32 sunset.",
   "alt_text": "AI-generated artistic interpretation of Dam Square in Amsterdam at night, with the Royal Palace, the Nieuwe Kerk, and the National Monument",
   "file_16x9": "Netherlands/Amsterdam/nl-01-018-16x9.png",
   "file_4x5": "Netherlands/Amsterdam/nl-01-018-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 PASS: Dam Square at night — floodlit Royal Palace with cupola left, Nieuwe Kerk's tall tower center, National Monument obelisk right, empty square under dark sky; exact Dam composition, no artifacts. G2: exact dims verified; on-image 'Dam Square, Amsterdam', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:04+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public square, documented only. G5: complete.",
+  "approved_at": "2026-09-25T23:45:11.030715+00:00",
+  "sha256_16x9": "88a9fd1f04216f7677d312166af01b4a6c083d0d6a7c3cc59c222f2f2728015d",
+  "sha256_4x5": "547a19b0bacd2f7350bc80c9c870b5f2f9ee4e5d2054476c5a96c620bb9edaba"
 }
