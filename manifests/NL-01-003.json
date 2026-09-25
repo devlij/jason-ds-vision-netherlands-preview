@@ -4,12 +4,18 @@
   "region": "South Holland",
   "city": "Kinderdijk",
   "caption": "Kinderdijk windmills, Kinderdijk",
-  "scenario_label": "25 September 2026 \u00b7 18:26 Europe/Amsterdam",
-  "composition": "Nederwaard canal, brick tower mills receding in a line \u00b7 AI-generated artistic interpretation",
-  "description": "Along the Nederwaard canal at Kinderdijk, brick tower mills stand in a line, each with a dark cap and lattice sails, shrinking toward the flat horizon. Reed banks and pasture fill the foreground. The sky is clear, about 21.0\u00b0C, with wind near 7.9 km/h. No flower display is shown.",
+  "scenario_label": "25 September 2026 · 18:26 Europe/Amsterdam",
+  "composition": "Nederwaard canal, brick tower mills receding in a line · AI-generated artistic interpretation",
+  "description": "Along the Nederwaard canal at Kinderdijk, brick tower mills stand in a line, each with a dark cap and lattice sails, shrinking toward the flat horizon. Reed banks and pasture fill the foreground. The sky is clear, about 21.0°C, with wind near 7.9 km/h. No flower display is shown.",
   "alt_text": "AI-generated artistic interpretation of the brick windmill row along the canal at Kinderdijk on a clear late afternoon",
   "file_16x9": "Netherlands/Kinderdijk/nl-01-003-16x9.png",
   "file_4x5": "Netherlands/Kinderdijk/nl-01-003-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Cosmo QC 5/5 2026-09-25",
+  "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Kinderdijk windmill row along the drainage canal, late-afternoon golden light on the sails; late-afternoon light matches the 18:26 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:26:40+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:26 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
+  "approved_at": "2026-09-25T22:29:15.920991+00:00",
+  "sha256_16x9": "8c8261f7bce58b2612bcee6213c97aaf0d8ecca98fffa2f8dd227af5bfdfc546",
+  "sha256_4x5": "3d246eb034526d46af8413eed91f647a95788a4382ac803158be93283cef282c"
 }
