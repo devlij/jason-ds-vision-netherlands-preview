@@ -4,12 +4,18 @@
   "region": "North Holland",
   "city": "Hoorn",
   "caption": "Hoofdtoren, Hoorn",
-  "scenario_label": "25 September 2026 \u00b7 23:05 Europe/Amsterdam",
-  "composition": "Wide stone harbor tower and wooden jetty at night \u00b7 AI-generated artistic interpretation",
-  "description": "The Hoofdtoren is a wide stone defense tower at the Hoorn harbour, with a dark pointed roof and a wooden jetty in front, not a lighthouse lantern. A few boats sit in calm water. The sky is partly cloudy, cloud cover about 72%, the air about 13.8\u00b0C, and the wind is nearly still, about 1.4 km/h. Sunset was 19:31.",
+  "scenario_label": "25 September 2026 · 23:05 Europe/Amsterdam",
+  "composition": "Wide stone harbor tower and wooden jetty at night · AI-generated artistic interpretation",
+  "description": "The Hoofdtoren is a wide stone defense tower at the Hoorn harbour, with a dark pointed roof and a wooden jetty in front, not a lighthouse lantern. A few boats sit in calm water. The sky is partly cloudy, cloud cover about 72%, the air about 13.8°C, and the wind is nearly still, about 1.4 km/h. Sunset was 19:31.",
   "alt_text": "AI-generated artistic interpretation of the Hoofdtoren and harbour jetty in Hoorn on a cloudy night",
   "file_16x9": "Netherlands/Hoorn/nl-01-025-16x9.png",
   "file_4x5": "Netherlands/Hoorn/nl-01-025-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 PASS: Hoofdtoren in Hoorn at night — massive stone defensive tower with conical roof floodlit by the harbour, moored sailboats, wooden jetty in foreground, moody cloud sky; plausible, no artifacts. G2: exact dims verified; on-image 'Hoofdtoren, Hoorn', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:23+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public harbour landmark, documented only. G5: complete.",
+  "approved_at": "2026-09-25T23:46:28.076181+00:00",
+  "sha256_16x9": "b431770ec6e6087866ae6c26da0f7e4260d6177a840d19471932f3d4e13f7949",
+  "sha256_4x5": "ceef13c01f76dde6ca3c0ef4f98144f8df71e1f5e865c4a59b280236b31ca56e"
 }
