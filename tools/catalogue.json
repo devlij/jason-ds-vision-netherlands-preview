@@ -2014,5 +2014,341 @@
       "A rose window sits above the door on an empty square"
     ],
     "solar": "Full night under a clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 00:38 a few lamps light the stone. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-097",
+    "region": "North Brabant",
+    "city": "Bergen op Zoom",
+    "folder": "Bergen op Zoom",
+    "caption": "Markiezenhof, Bergen op Zoom",
+    "composition": "Late-Gothic street front, white stone bands, and an octagonal stair tower · AI-generated artistic interpretation",
+    "description": "The Markiezenhof street front fills a small square on Steenbergsestraat in Bergen op Zoom. The long facade is brick with horizontal bands of white stone, red iron window baskets, stepped gables, and a slate roof. An octagonal stair tower with a spire stands at the left, beside a Tudor-arched gate. The sky is partly cloudy, about 17.7°C, with wind near 10.1 km/h. This is not the Grote Markt and not the Peperbus.",
+    "alt_text": "AI-generated artistic interpretation of the Markiezenhof street front in Bergen op Zoom on a partly cloudy night",
+    "viewpoint": "From the small square on Steenbergsestraat, looking at the long west front. The public square is the viewpoint. A surveyed tripod mark was not pinned. The Grote Markt is a different square and is not in this frame.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Markiezenhof",
+      "https://www.arch-vault.com/building/340"
+    ],
+    "anchors": [
+      "A long brick front with white stone bands",
+      "Red iron window baskets and stepped gables",
+      "An octagonal stair tower and a Tudor-arched gate at the left"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 01:04 a few lamps light the brick. Cloud cover is about 72%."
+  },
+  {
+    "entry_id": "NL-01-098",
+    "region": "North Brabant",
+    "city": "'s-Hertogenbosch",
+    "folder": "s-Hertogenbosch",
+    "caption": "Bossche Broek, 's-Hertogenbosch",
+    "composition": "Wet meadows from the Dommel dike, with a distant cathedral spire · AI-generated artistic interpretation",
+    "description": "From the dike along the Dommel, wet meadows and reeds of the Bossche Broek fill the foreground. Far off, the tall Gothic spire of St John's rises over the city. The sky is clear, about 12.3°C, with wind near 11.9 km/h. This is the marsh viewpoint. The cathedral close remains a separate scene. No chapel sculpture is the subject.",
+    "alt_text": "AI-generated artistic interpretation of the Bossche Broek wetlands south of 's-Hertogenbosch on a clear night, with a distant spire",
+    "viewpoint": "From the public dike path south of the city, looking north across the Bossche Broek toward the distant spire. A surveyed tripod mark was not pinned. The cathedral square is not the foreground.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Bossche_Broek",
+      "https://degroenevesting.nl/de-linie/nieuwe-blik-op-het-bossche-broek/"
+    ],
+    "anchors": [
+      "Wet meadow and reeds fill the foreground",
+      "A low dike path is the standing point",
+      "One tall Gothic spire is distant, not a close facade"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 01:04 a few lamps mark the dike path. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-099",
+    "region": "North Brabant",
+    "city": "Tilburg",
+    "folder": "Tilburg",
+    "caption": "LocHal, Tilburg",
+    "composition": "Glass and black-steel locomotive hall in the Spoorzone · AI-generated artistic interpretation",
+    "description": "The LocHal stands in Tilburg's Spoorzone as a long former locomotive shed, its black-steel glass wall showing the old industrial frame inside. Warm interior light shows through the glass. The sky is clear, about 14.7°C, with wind near 8.6 km/h. No name is written on the glass.",
+    "alt_text": "AI-generated artistic interpretation of the LocHal locomotive hall in Tilburg on a clear night",
+    "viewpoint": "From the open yard on the south side of the LocHal, looking at the glass wall of the former locomotive shed. The public ground is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/LocHal",
+      "https://www.arup.com/en-us/projects/lochal/"
+    ],
+    "anchors": [
+      "A long industrial hall, not a church",
+      "Black steel mullions and large glass panes",
+      "The shed sits in an open former railway yard"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 01:04 interior light glows through the glass. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-100",
+    "region": "North Brabant",
+    "city": "Helmond",
+    "folder": "Helmond",
+    "caption": "Helmond Castle, Helmond",
+    "composition": "Square moated castle, four round corner towers, and a gatehouse · AI-generated artistic interpretation",
+    "description": "Helmond Castle sits in its city moat: a square brick water castle with a round tower at each corner, each capped by a slate spire. The north side is a gatehouse with two square towers and a stepped gable over the gate, reached by a stone bridge. The sky is clear, about 13.9°C, with wind near 8.6 km/h. The park is empty.",
+    "alt_text": "AI-generated artistic interpretation of the moated Helmond Castle on a clear night",
+    "viewpoint": "From the public park across the moat, looking at the north gatehouse and the round corner towers. The park bank is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Helmond_Castle",
+      "https://museumhelmond.nl/kasteel-helmond/over-kasteel-helmond/kasteel-helmond/"
+    ],
+    "anchors": [
+      "Four round corner towers on a square plan",
+      "A gatehouse with two square towers and a stepped gable",
+      "A moat and a stone bridge in a town park"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 01:04 lamps reflect in the moat. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-101",
+    "region": "Limburg",
+    "city": "Venlo",
+    "folder": "Venlo",
+    "caption": "St. Martinuskerk, Venlo",
+    "composition": "Gothic brick hall church and a square tower with a copper onion dome · AI-generated artistic interpretation",
+    "description": "The Sint-Martinusbasiliek fills a street in central Venlo. The body is a brick Gothic hall church with pointed windows and buttresses. The west tower, finished in 1953, is a sober square brick tower with a copper onion dome, not a neo-Gothic spire. The sky is clear, about 14.8°C, with wind near 9.4 km/h. The Maas boulevard is several streets away and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Sint-Martinusbasiliek in Venlo on a clear night, with its square tower and copper onion dome",
+    "viewpoint": "From Grote Kerkstraat, looking at the west tower and the brick church. The public street is the viewpoint. A surveyed tripod mark was not pinned. The Maasboulevard is not in this frame.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sint-Martinusbasiliek_(Venlo)",
+      "https://www.christelijk-bouwen-door-de-eeuwen-heen.nl/gotische-architectuur-nederland-overzicht/sint-martinusbasiliek-venlo"
+    ],
+    "anchors": [
+      "A brick Gothic church with buttresses and pointed windows",
+      "A square post-war tower, not a needle spire",
+      "A copper onion dome on the tower"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 01:04 street lamps light the brick. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-102",
+    "region": "Limburg",
+    "city": "Sittard",
+    "folder": "Sittard",
+    "caption": "St. Peter's Basilica, Sittard",
+    "composition": "West tower with marl bands and a neo-Gothic octagonal crown · AI-generated artistic interpretation",
+    "description": "From Kerkplein the Sint-Petrusbasiliek west tower rises about eighty metres. The lower stages alternate red brick and white marl. Above them a neo-Gothic octagonal lantern, small corner turrets, and a spire complete the crown. The sky is clear, about 14.8°C, with wind near 10.8 km/h. The viewpoint is Kerkplein, beside the market streets.",
+    "alt_text": "AI-generated artistic interpretation of the Sint-Petrusbasiliek tower in Sittard on a clear night",
+    "viewpoint": "From Kerkplein, looking at the west tower. The public square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sint-Petrus%27_Stoel_van_Antiochi%C3%ABkerk_(Sittard)",
+      "https://www.archimon.nl/limburg/sittardpetrus.html"
+    ],
+    "anchors": [
+      "A very tall west tower with small flanking turrets",
+      "Horizontal bands of brick and white marl on the lower stages",
+      "An octagonal upper stage and a spire"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 01:04 a few lamps light the tower base. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-103",
+    "region": "Limburg",
+    "city": "Heerlen",
+    "folder": "Heerlen",
+    "caption": "Pancratiuskerk, Heerlen",
+    "composition": "Medieval church, rubble-stone Schelmentoren, and a glass block on Pancratiusplein · AI-generated artistic interpretation",
+    "description": "Pancratiusplein in Heerlen holds three different buildings. The Sint-Pancratiuskerk has a heavy medieval tower and a Romanesque nave. Beside it stands the shorter Schelmentoren, a rubble-stone defensive tower. Across the square is the Glaspaleis, a glass cube from the 1930s, with no lettering. The sky is clear, about 15.6°C, with wind near 12.6 km/h.",
+    "alt_text": "AI-generated artistic interpretation of Pancratiusplein in Heerlen on a clear night, with the church, the Schelmentoren, and the glass palace",
+    "viewpoint": "From Pancratiusplein, looking across the open square at the church tower and the Schelmentoren, with the glass block at the side. The public square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Pancratiusplein",
+      "https://rijksmonumenten.nl/monument/21228/st-pancratiuskerk/heerlen/"
+    ],
+    "anchors": [
+      "A heavy stone church tower",
+      "A shorter rubble-stone tower beside the church",
+      "A glass cube on the same square, with no lettering"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 01:04 lamps light the square. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-104",
+    "region": "Limburg",
+    "city": "Kerkrade",
+    "folder": "Kerkrade",
+    "caption": "Rolduc Abbey, Kerkrade",
+    "composition": "Sandstone Romanesque westwork, central tower, and a baroque lantern spire · AI-generated artistic interpretation",
+    "description": "Rolduc Abbey stands on a plateau above the Worm valley. The church westwork is sandstone: a tall rectangular central tower with a baroque spire and lantern, flanked by two lower side towers, with abbey wings to the side. The sky is clear, about 14.2°C, with wind near 10.1 km/h. The forecourt is empty.",
+    "alt_text": "AI-generated artistic interpretation of the Rolduc Abbey westwork in Kerkrade on a clear night",
+    "viewpoint": "From the abbey forecourt, looking at the sandstone westwork and its central tower. The public approach is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Abdijkerk_Rolduc",
+      "https://nl.wikipedia.org/wiki/Rolduc"
+    ],
+    "anchors": [
+      "Sandstone, not red brick",
+      "A tall rectangular central tower between two lower towers",
+      "A baroque spire with a lantern, and long abbey wings"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 01:04 a few lamps light the stone. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-105",
+    "region": "Zeeland",
+    "city": "Vlissingen",
+    "folder": "Vlissingen",
+    "caption": "Boulevard, Vlissingen",
+    "composition": "Round Gevangentoren on the sea boulevard and the Westerschelde · AI-generated artistic interpretation",
+    "description": "On Boulevard de Ruyter the round Gevangentoren stands between the walk and the Westerschelde. The tower is brick banded with stone and has a pointed cap. Dark water fills the far side of the frame. The sky is clear, about 17.9°C, with wind near 7.9 km/h. Koopmanshaven, the inner basin, is not in this frame. No restaurant name is shown.",
+    "alt_text": "AI-generated artistic interpretation of the Gevangentoren on the Vlissingen boulevard beside the Westerschelde on a clear night",
+    "viewpoint": "From Boulevard de Ruyter, looking at the round tower with the Westerschelde beyond. The public walk is the viewpoint. A surveyed tripod mark was not pinned. Koopmanshaven is not in this frame.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Gevangentoren_(Vlissingen)",
+      "https://www.vlissingen.nl/gevangentoren"
+    ],
+    "anchors": [
+      "A round tower with brick and stone bands and a pointed cap",
+      "A sea boulevard and dike in the foreground",
+      "The wide Westerschelde, not an inland harbour"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:35 Europe/Amsterdam and model is_day 0. At 01:04 a few boulevard lamps light the tower. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-106",
+    "region": "Zeeland",
+    "city": "Westkapelle",
+    "folder": "Westkapelle",
+    "caption": "Lighthouse, Westkapelle",
+    "composition": "Square Gothic tower with an iron lantern, seen from the sea dike · AI-generated artistic interpretation",
+    "description": "From the sea dike at Westkapelle the square brick tower of the former Sint-Willibrorduskerk rises in the village. Heavy buttresses and stone corner blocks mark the Gothic stages. An iron lantern sits on the top instead of a church spire, and the nave is gone. The North Sea lies beside the grass dike. The sky is partly cloudy, about 17.6°C, with wind near 11.5 km/h.",
+    "alt_text": "AI-generated artistic interpretation of the Westkapelle high light, a square church tower with an iron lantern, seen from the sea dike on a partly cloudy night",
+    "viewpoint": "From the sea dike west of the village, looking inland at the square tower. The public dike is the viewpoint. A surveyed tripod mark was not pinned. The tower stands in the village, not in the surf.",
+    "references": [
+      "https://www.rijkswaterstaat.nl/over-ons/onze-organisatie/onze-historie/onze-monumenten/vuurtoren-hoge-licht",
+      "https://www.vuurtorens.org/vuurtoren/westkapelle-hoge-licht/"
+    ],
+    "anchors": [
+      "A grass sea dike in the foreground",
+      "A square brick tower with buttresses, standing in the village",
+      "An iron lantern on the roof, not a stone spire, and no church nave"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:35 Europe/Amsterdam and model is_day 0. At 01:04 the lantern and a few village lamps are the lights. Cloud cover is about 76%."
+  },
+  {
+    "entry_id": "NL-01-107",
+    "region": "Zeeland",
+    "city": "Yerseke",
+    "folder": "Yerseke",
+    "caption": "Oyster harbour, Yerseke",
+    "composition": "Inland oyster basins, posts, and sheds beside the Oosterschelde · AI-generated artistic interpretation",
+    "description": "Inside the dike at Yerseke, rectangular oyster basins hold dark water, separated by low walls, with small loading cuts and wooden mooring posts. Low sheds sit on the banks. The Oosterschelde lies beyond the dike. The sky is mainly clear, about 15.0°C, with wind near 9.7 km/h. No company names are shown. The basins are quiet.",
+    "alt_text": "AI-generated artistic interpretation of the oyster basins at Yerseke on a mainly clear night",
+    "viewpoint": "From the Havendijk, looking over the inland oyster basins toward the sea dike. The public dike path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.oesterputtenyerseke.nl/pages/english.php",
+      "https://www.zeeland.com/nl-nl/visit/2401_nl/proef-de-oosterschelde"
+    ],
+    "anchors": [
+      "Rectangular basins of water inside the dike",
+      "Low sheds and wooden posts",
+      "The sea dike and the Oosterschelde beyond"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:33 Europe/Amsterdam and model is_day 0. At 01:04 a few shed lamps reflect in the basins. Cloud cover is about 41%."
+  },
+  {
+    "entry_id": "NL-01-108",
+    "region": "Zeeland",
+    "city": "Goes",
+    "folder": "Goes",
+    "caption": "Harbour, Goes",
+    "composition": "Stadshaven quay and the distant crossing tower of the Grote Kerk · AI-generated artistic interpretation",
+    "description": "The stadshaven at Goes is a still basin with brick quay walls and a few moored boats. Behind the roofs, the stone crossing tower of the Grote of Maria Magdalenakerk rises. The church itself stands inland, not in the water. The sky is mainly clear, about 16.8°C, with wind near 10.4 km/h. This is not the town hall on the market.",
+    "alt_text": "AI-generated artistic interpretation of the town harbour in Goes on a mainly clear night, with the Grote Kerk crossing tower behind the roofs",
+    "viewpoint": "From the public quay of the stadshaven, looking along the brick walls toward the roofs and the distant crossing tower. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.grotekerkgoes.nl/over-de-kerk",
+      "https://nl.wikipedia.org/wiki/Goes"
+    ],
+    "anchors": [
+      "A harbour basin with brick quay walls",
+      "Moored boats and gabled roofs",
+      "A modest stone crossing tower behind the roofs, not a giant west tower"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:33 Europe/Amsterdam and model is_day 0. At 01:04 quay lamps reflect in the basin. Cloud cover is about 28%."
+  },
+  {
+    "entry_id": "NL-01-109",
+    "region": "Gelderland",
+    "city": "Culemborg",
+    "folder": "Culemborg",
+    "caption": "Lek bridge, Culemborg",
+    "composition": "Steel tied-arch railway bridge over the Lek, seen from the harbour · AI-generated artistic interpretation",
+    "description": "From the harbour head at Culemborg the Lek fills the foreground and the railway bridge crosses it: a steel tied arch on the piers of the older crossing, with approach spans over the floodplain. The sky is clear, about 12.9°C, with wind near 10.1 km/h. The 1868 truss is gone. The Binnenpoort stands in the walled centre and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the tied-arch railway bridge over the Lek at Culemborg on a clear night",
+    "viewpoint": "From the harbour head near the Veerweg, looking across the Lek at the railway bridge. The public bank is the viewpoint. A surveyed tripod mark was not pinned. The Binnenpoort is not in this frame.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Culemborg_railway_bridge",
+      "https://nl.wikipedia.org/wiki/Kuilenburgse_spoorbrug"
+    ],
+    "anchors": [
+      "A wide river in the foreground",
+      "One steel tied-arch span, not a stone bridge and not the demolished truss",
+      "Long approach spans on piers across the floodplain"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 01:04 a few quay lamps light the bank. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-110",
+    "region": "Gelderland",
+    "city": "Tiel",
+    "folder": "Tiel",
+    "caption": "Waterfront, Tiel",
+    "composition": "Waal dike and the brick Waterpoort · AI-generated artistic interpretation",
+    "description": "On the Waalkade at Tiel the wide Waal runs past the dike. The Waterpoort, a brick gate rebuilt after 1944, closes a gap in the wall where the old harbour arm entered the town. The sky is clear, about 12.5°C, with wind near 11.2 km/h. The Grote Kerk stands on Kerkplein inside the town and is not on the river. No mascot figure is shown.",
+    "alt_text": "AI-generated artistic interpretation of the Waterpoort on the Waal dike at Tiel on a clear night",
+    "viewpoint": "From the Waalkade, looking at the Waterpoort in the dike with the Waal beside it. The public dike is the viewpoint. A surveyed tripod mark was not pinned. The Grote Kerk is not in this frame.",
+    "references": [
+      "https://www.anwb.nl/wandelen/routes/monumentenroute-tiel",
+      "https://nl.wikipedia.org/wiki/Tiel"
+    ],
+    "anchors": [
+      "The wide dark Waal and a grass dike",
+      "A brick water gate in the dike wall",
+      "No church on the quay"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 01:04 a few lamps light the gate. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-111",
+    "region": "Gelderland",
+    "city": "Wageningen",
+    "folder": "Wageningen",
+    "caption": "Hotel De Wereld, Wageningen",
+    "composition": "Red-brick hotel with a glass veranda on 5 Mei Plein · AI-generated artistic interpretation",
+    "description": "Hotel De Wereld faces 5 Mei Plein in Wageningen: a red-brick nineteenth-century hotel with white window frames and a glass-enclosed veranda, with chestnut trees on the square. The sky is clear, about 11.3°C, with wind near 10.1 km/h. The Nederrijn dike is outside the town centre and is not in this frame. No ceremony and no readable name are shown.",
+    "alt_text": "AI-generated artistic interpretation of Hotel De Wereld on 5 Mei Plein in Wageningen on a clear night",
+    "viewpoint": "From 5 Mei Plein, looking at the hotel front and its glass veranda. The public square is the viewpoint. A surveyed tripod mark was not pinned. The Rhine dike is not in this frame.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Hotel_de_Wereld",
+      "https://www.hoteldewereld.nl/en/"
+    ],
+    "anchors": [
+      "A red-brick hotel of three storeys, not a white palace",
+      "A glass veranda along the front",
+      "Chestnut trees on an empty square"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 01:04 a few windows and square lamps are lit. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-112",
+    "region": "Gelderland",
+    "city": "Radio Kootwijk",
+    "folder": "Radio Kootwijk",
+    "caption": "Radio Kootwijk",
+    "composition": "Concrete transmitter hall, square tower, and a squat dome on open heath · AI-generated artistic interpretation",
+    "description": "Building A at Radio Kootwijk stands alone on open Veluwe heath: a reinforced-concrete hall with a square tower and a low overhanging dome. A cooling pond lies in front. The sky is clear, about 12.8°C, with wind near 8.6 km/h. It is concrete, not brick, and it is not a church. No lettering is readable. This is not the Kröller-Müller Museum at Otterlo.",
+    "alt_text": "AI-generated artistic interpretation of the concrete transmitter building at Radio Kootwijk on a clear night",
+    "viewpoint": "From the open heath across the cooling pond, looking at the east front of Building A. The public ground is the viewpoint. A surveyed tripod mark was not pinned. Otterlo and the Kröller-Müller Museum are a different place.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Gebouw_A_(Radio_Kootwijk)",
+      "https://www.staatsbosbeheer.nl/uit-in-de-natuur/locaties/radio-kootwijk/monumentaal-zendcomplex"
+    ],
+    "anchors": [
+      "A concrete mass on open heath and sand",
+      "A square tower with a squat overhanging dome",
+      "A still pond in the foreground"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 01:04 the building is a dark mass with a few small lights. Cloud cover is about 0%."
   }
 ]

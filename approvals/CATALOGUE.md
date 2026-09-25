@@ -1,6 +1,6 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-096. IDs are not reused.
+NL-01-001 through NL-01-112. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
 NL-01-033 through NL-01-048 swaps:
 - NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.
@@ -20,6 +20,19 @@ NL-01-081 through NL-01-096 swaps:
 - NL-01-081: Holwerd ferry terminal, not Lauwersoog. The Ameland ferry is not running after midnight, so the quay is empty and no ship name or operator mark is shown.
 - NL-01-094: the Dolfinarium facade carries brand marks, so the scene is the Vischpoort and the boulevard harbour on the Wolderwijd, a Veluwe border lake. The Dolfinarium is outside the frame.
 - NL-01-096: the Munsterkerk stands on Munsterplein. The Markt is a separate square, so this view is the church front, not the town hall.
+- The other suggested sites in this batch were not already used.
+NL-01-097 through NL-01-112 swaps:
+- NL-01-097: the Markiezenhof stands on Steenbergsestraat, a short walk from the Grote Markt, not on the market itself. The scene is the palace front. The Peperbus is not in the frame.
+- NL-01-098: St John's Cathedral remains NL-01-037. This scene is the Bossche Broek from the Dommel dike, with the spire only as a distant skyline. 's-Hertogenbosch has no Maas boulevard; the Dieze and the Dommel are the city waters, so that option was not used.
+- NL-01-101: the Sint-Martinusbasiliek stands on Grote Kerkstraat. The Maasboulevard is several streets away and is not in the frame. The tower is the 1953 square brick tower with a copper onion dome, not the lost neo-Gothic spire.
+- NL-01-102: the basilica fronts Kerkplein, beside the market streets. The viewpoint is Kerkplein.
+- NL-01-103: the square is Pancratiusplein, not a separate Raadhuisplein. The church, the rubble-stone Schelmentoren, and the glass Glaspaleis share that square.
+- NL-01-105: the Gevangentoren stands on Boulevard de Ruyter beside the Westerschelde. Koopmanshaven is the inner basin and is not in this frame. No restaurant name is shown.
+- NL-01-106: the high light is the former church tower in the village, seen from the sea dike. The nave is gone. An iron lantern replaces the old spire. The tower does not stand in the surf.
+- NL-01-109: the frame is the 1983 steel tied-arch railway bridge from the harbour. The 1868 truss is gone. The Binnenpoort is in the walled centre and is not in this frame.
+- NL-01-110: the Waterpoort and the Waal dike are the waterfront. The Grote Kerk stands on Kerkplein inside the town and is not on the river.
+- NL-01-111: Hotel De Wereld is the red-brick hotel on 5 Mei Plein. The Nederrijn dike is outside the centre and is not in this frame.
+- NL-01-112: the Ede / Otterloseweg heath edge sits against the Hoge Veluwe already represented by the Kröller-Müller Museum, Otterlo (NL-01-016), and a bare night heath would also echo Dwingelderveld (NL-01-063). Swapped to Radio Kootwijk Building A, a concrete transmitter hall on open Veluwe heath, which was not already used.
 - The other suggested sites in this batch were not already used.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
@@ -118,3 +131,19 @@ NL-01-081 through NL-01-096 swaps:
 - NL-01-094 — Vischpoort, Harderwijk — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:34+02:00
 - NL-01-095 — Harbour, Doesburg — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:36+02:00
 - NL-01-096 — Munsterkerk, Roermond — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:39+02:00
+- NL-01-097 — Markiezenhof, Bergen op Zoom — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:10+02:00
+- NL-01-098 — Bossche Broek, 's-Hertogenbosch — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:13+02:00
+- NL-01-099 — LocHal, Tilburg — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:16+02:00
+- NL-01-100 — Helmond Castle, Helmond — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:18+02:00
+- NL-01-101 — St. Martinuskerk, Venlo — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:21+02:00
+- NL-01-102 — St. Peter's Basilica, Sittard — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:24+02:00
+- NL-01-103 — Pancratiuskerk, Heerlen — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:26+02:00
+- NL-01-104 — Rolduc Abbey, Kerkrade — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:29+02:00
+- NL-01-105 — Boulevard, Vlissingen — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:32+02:00
+- NL-01-106 — Lighthouse, Westkapelle — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:34+02:00
+- NL-01-107 — Oyster harbour, Yerseke — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:37+02:00
+- NL-01-108 — Harbour, Goes — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:40+02:00
+- NL-01-109 — Lek bridge, Culemborg — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:42+02:00
+- NL-01-110 — Waterfront, Tiel — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:45+02:00
+- NL-01-111 — Hotel De Wereld, Wageningen — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:48+02:00
+- NL-01-112 — Radio Kootwijk — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:50+02:00
