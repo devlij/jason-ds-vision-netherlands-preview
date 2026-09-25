@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 import sys
+from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -22,20 +23,39 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
+MONTHS = [
+    "",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+]
+
+
 def month_name_valid(label: str) -> str:
     # scenario_label is already "25 September 2026 · 18:26 Europe/Amsterdam"
     return label
+
+
+def valid_display(weather: dict) -> str:
+    mt = datetime.fromisoformat(weather["model_time"])
+    tz_name = weather.get("timezone") or "Europe/Amsterdam"
+    return f"{mt.day} {MONTHS[mt.month]} {mt.year} {mt.strftime('%H:%M')} {tz_name}"
 
 
 def approval_md(row: dict, weather: dict, sha16: str, sha45: str) -> str:
     refs = "\n".join(f"  {i}. {url}" for i, url in enumerate(row["references"], 1))
     anchors = "\n".join(f"  {i}. {text}" for i, text in enumerate(row["anchors"], 1))
     hour = weather["retrieval_timestamp"][11:13]
-    valid_display = (
-        "25 September 2026 "
-        + weather["model_time"][11:16]
-        + " Europe/Amsterdam"
-    )
+    valid_display_text = valid_display(weather)
     sky_words = {
         0: "Clear sky",
         1: "Mainly clear",
@@ -56,7 +76,7 @@ This note is an internal checklist for Cosmo QC. It does not approve the scene.
 {refs}
 - **Geometry anchors:**
 {anchors}
-- **Weather:** Model data from Open-Meteo, retrieved {weather['retrieval_display']}, valid {valid_display} (model-valid hour {hour}:00–{hour}:59) — not a verified on-site observation. {sky_words} (WMO code {weather['weather_code']}), cloud cover {weather['cloud_cover']}%, about {weather['temperature_2m']}°C, wind about {weather['wind_speed_10m']} km/h, precipitation {weather['precipitation']} mm, model is_day {weather['is_day']}. Provider: Open-Meteo. Request coordinates: {weather['latitude']}, {weather['longitude']}.
+- **Weather:** Model data from Open-Meteo, retrieved {weather['retrieval_display']}, valid {valid_display_text} (model-valid hour {hour}:00–{hour}:59) — not a verified on-site observation. {sky_words} (WMO code {weather['weather_code']}), cloud cover {weather['cloud_cover']}%, about {weather['temperature_2m']}°C, wind about {weather['wind_speed_10m']} km/h, precipitation {weather['precipitation']} mm, model is_day {weather['is_day']}. Provider: Open-Meteo. Request coordinates: {weather['latitude']}, {weather['longitude']}.
 - **Retrieval timestamp (unique to the second):** {weather['retrieval_timestamp']}
 - **Model time from this retrieval:** {weather['model_time']} ({weather['timezone']}, interval {weather['model_interval_seconds']} seconds)
 - **Scenario:** Scenario: {weather['scenario_label']}. The scenario minute sits inside the model-valid hour of this scene's own retrieval.
@@ -512,7 +532,7 @@ def main() -> None:
     lines = [
         "# Netherlands sequence log",
         "",
-        "NL-01-001 through NL-01-048. IDs are not reused.",
+        "NL-01-001 through NL-01-064. IDs are not reused.",
         "NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.",
         "NL-01-033 through NL-01-048 swaps:",
         "- NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.",
@@ -520,6 +540,9 @@ def main() -> None:
         "- NL-01-038: suggested Cube Houses, Rotterdam was already NL-01-008. Corrected to Evoluon, Eindhoven.",
         "- NL-01-044: Domburg has a beach and the Badpaviljoen, not a pier. No pier was invented.",
         "- The other suggested sites in this batch were not already used.",
+        "NL-01-049 through NL-01-064: no site swaps. The suggested Limburg, Flevoland, Friesland, Groningen, Drenthe, and Kralendijk anchors were not already in the catalogue.",
+        "- NL-01-053 depiction note: the Batavia replica left the Lelystad berth on 19 September 2026 for a dry dock in Amsterdam and is scheduled to return on a pontoon on 1 October 2026. The scene shows the Bataviawerf harbour without that ship.",
+        "- NL-01-064 uses America/Kralendijk. Bonaire is not on Europe/Amsterdam time. The scenario minute sits inside that retrieval's model-valid hour.",
         "",
     ]
     for row in catalogue:

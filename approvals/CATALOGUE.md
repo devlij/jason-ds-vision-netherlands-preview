@@ -1,6 +1,6 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-048. IDs are not reused.
+NL-01-001 through NL-01-064. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
 NL-01-033 through NL-01-048 swaps:
 - NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.
@@ -8,6 +8,9 @@ NL-01-033 through NL-01-048 swaps:
 - NL-01-038: suggested Cube Houses, Rotterdam was already NL-01-008. Corrected to Evoluon, Eindhoven.
 - NL-01-044: Domburg has a beach and the Badpaviljoen, not a pier. No pier was invented.
 - The other suggested sites in this batch were not already used.
+NL-01-049 through NL-01-064: no site swaps. The suggested Limburg, Flevoland, Friesland, Groningen, Drenthe, and Kralendijk anchors were not already in the catalogue.
+- NL-01-053 depiction note: the Batavia replica left the Lelystad berth on 19 September 2026 for a dry dock in Amsterdam and is scheduled to return on a pontoon on 1 October 2026. The scene shows the Bataviawerf harbour without that ship.
+- NL-01-064 uses America/Kralendijk. Bonaire is not on Europe/Amsterdam time. The scenario minute sits inside that retrieval's model-valid hour.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
 - NL-01-002 — Prinsengracht, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:39+02:00
@@ -57,3 +60,19 @@ NL-01-033 through NL-01-048 swaps:
 - NL-01-046 — John Frost Bridge, Arnhem — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:46+02:00
 - NL-01-047 — Waalbrug, Nijmegen — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:47+02:00
 - NL-01-048 — Paleis Het Loo, Apeldoorn — 25 September 2026 · 23:41 Europe/Amsterdam — retrieved 2026-09-25T23:41:49+02:00
+- NL-01-049 — Basilica of Saint Servatius, Maastricht — 26 September 2026 · 00:00 Europe/Amsterdam — retrieved 2026-09-26T00:00:37+02:00
+- NL-01-050 — Valkenburg Castle, Valkenburg — 26 September 2026 · 00:00 Europe/Amsterdam — retrieved 2026-09-26T00:00:40+02:00
+- NL-01-051 — Abbey square, Thorn — 26 September 2026 · 00:00 Europe/Amsterdam — retrieved 2026-09-26T00:00:42+02:00
+- NL-01-052 — Vaalserberg, Vaals — 26 September 2026 · 00:00 Europe/Amsterdam — retrieved 2026-09-26T00:00:45+02:00
+- NL-01-053 — Bataviawerf, Lelystad — 26 September 2026 · 00:00 Europe/Amsterdam — retrieved 2026-09-26T00:00:48+02:00
+- NL-01-054 — Harbour, Urk — 26 September 2026 · 00:00 Europe/Amsterdam — retrieved 2026-09-26T00:00:51+02:00
+- NL-01-055 — Schokland Museum, Schokland — 26 September 2026 · 00:00 Europe/Amsterdam — retrieved 2026-09-26T00:00:53+02:00
+- NL-01-056 — Oldehove, Leeuwarden — 26 September 2026 · 00:00 Europe/Amsterdam — retrieved 2026-09-26T00:00:56+02:00
+- NL-01-057 — Harbour, Harlingen — 26 September 2026 · 00:00 Europe/Amsterdam — retrieved 2026-09-26T00:00:59+02:00
+- NL-01-058 — Eise Eisinga Planetarium, Franeker — 26 September 2026 · 00:01 Europe/Amsterdam — retrieved 2026-09-26T00:01:01+02:00
+- NL-01-059 — Waterfront, Hindeloopen — 26 September 2026 · 00:01 Europe/Amsterdam — retrieved 2026-09-26T00:01:04+02:00
+- NL-01-060 — Martinitoren, Groningen — 26 September 2026 · 00:01 Europe/Amsterdam — retrieved 2026-09-26T00:01:07+02:00
+- NL-01-061 — Vesting Bourtange, Bourtange — 26 September 2026 · 00:01 Europe/Amsterdam — retrieved 2026-09-26T00:01:09+02:00
+- NL-01-062 — Hunebed D27, Borger — 26 September 2026 · 00:01 Europe/Amsterdam — retrieved 2026-09-26T00:01:12+02:00
+- NL-01-063 — Dwingelderveld, Dwingeloo — 26 September 2026 · 00:01 Europe/Amsterdam — retrieved 2026-09-26T00:01:15+02:00
+- NL-01-064 — Waterfront, Kralendijk — 25 September 2026 · 18:01 America/Kralendijk — retrieved 2026-09-25T18:01:17-04:00

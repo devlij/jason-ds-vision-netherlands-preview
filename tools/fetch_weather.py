@@ -13,7 +13,6 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "evidence" / "weather"
-TZ = ZoneInfo("Europe/Amsterdam")
 MONTHS = [
     "",
     "January",
@@ -31,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-017", "Van Gogh Museum", "Amsterdam", 52.3580, 4.8811),
-    ("NL-01-018", "Dam Square", "Amsterdam", 52.3731, 4.8922),
-    ("NL-01-019", "Anne Frank House", "Amsterdam", 52.3752, 4.8840),
-    ("NL-01-020", "Vondelpark", "Amsterdam", 52.3579, 4.8686),
-    ("NL-01-021", "NEMO", "Amsterdam", 52.3740, 4.9122),
-    ("NL-01-022", "Harbour", "Volendam", 52.4950, 5.0714),
-    ("NL-01-023", "Harbour", "Marken", 52.4597, 5.1056),
-    ("NL-01-024", "Waag", "Alkmaar", 52.6317, 4.7486),
-    ("NL-01-025", "Hoofdtoren", "Hoorn", 52.6383, 5.0594),
-    ("NL-01-026", "Zuiderzeemuseum", "Enkhuizen", 52.7075, 5.2980),
-    ("NL-01-027", "Markthal", "Rotterdam", 51.9200, 4.4867),
-    ("NL-01-028", "Euromast", "Rotterdam", 51.9054, 4.4668),
-    ("NL-01-029", "Peace Palace", "The Hague", 52.0865, 4.2958),
-    ("NL-01-030", "Scheveningen pier", "The Hague", 52.1155, 4.2785),
-    ("NL-01-031", "Markt", "Gouda", 52.0115, 4.7104),
-    ("NL-01-032", "Grote Kerk", "Dordrecht", 51.8142, 4.6901),
+    ("NL-01-049", "Basilica of Saint Servatius", "Maastricht", 50.8481, 5.6876, "Europe/Amsterdam"),
+    ("NL-01-050", "Valkenburg Castle", "Valkenburg", 50.8628, 5.8308, "Europe/Amsterdam"),
+    ("NL-01-051", "Abbey square", "Thorn", 51.1617, 5.8419, "Europe/Amsterdam"),
+    ("NL-01-052", "Vaalserberg", "Vaals", 50.7545, 6.0208, "Europe/Amsterdam"),
+    ("NL-01-053", "Bataviawerf", "Lelystad", 52.5215, 5.4358, "Europe/Amsterdam"),
+    ("NL-01-054", "Harbour", "Urk", 52.6616, 5.5928, "Europe/Amsterdam"),
+    ("NL-01-055", "Schokland Museum", "Schokland", 52.6406, 5.7759, "Europe/Amsterdam"),
+    ("NL-01-056", "Oldehove", "Leeuwarden", 53.2030, 5.7894, "Europe/Amsterdam"),
+    ("NL-01-057", "Harbour", "Harlingen", 53.1748, 5.4098, "Europe/Amsterdam"),
+    ("NL-01-058", "Eise Eisinga Planetarium", "Franeker", 53.1865, 5.5412, "Europe/Amsterdam"),
+    ("NL-01-059", "Waterfront", "Hindeloopen", 52.9428, 5.4015, "Europe/Amsterdam"),
+    ("NL-01-060", "Martinitoren", "Groningen", 53.2194, 6.5682, "Europe/Amsterdam"),
+    ("NL-01-061", "Vesting Bourtange", "Bourtange", 53.0068, 7.1918, "Europe/Amsterdam"),
+    ("NL-01-062", "Hunebed D27", "Borger", 52.9302, 6.7974, "Europe/Amsterdam"),
+    ("NL-01-063", "Dwingelderveld", "Dwingeloo", 52.8240, 6.3780, "Europe/Amsterdam"),
+    ("NL-01-064", "Waterfront", "Kralendijk", 12.1504, -68.2772, "America/Kralendijk"),
 ]
 
 
@@ -58,23 +57,32 @@ def existing_stamps() -> set[str]:
     return stamps
 
 
-def fetch_one(entry_id: str, site: str, city: str, lat: float, lon: float, stamps: set[str]) -> dict:
+def fetch_one(
+    entry_id: str,
+    site: str,
+    city: str,
+    lat: float,
+    lon: float,
+    tz_name: str,
+    stamps: set[str],
+) -> dict:
+    tz = ZoneInfo(tz_name)
     params = {
         "latitude": lat,
         "longitude": lon,
         "current": "temperature_2m,weather_code,cloud_cover,wind_speed_10m,is_day,precipitation",
         "daily": "sunrise,sunset",
-        "timezone": "Europe/Amsterdam",
+        "timezone": tz_name,
         "forecast_days": 1,
     }
     url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(params)
     # Gap so this response second cannot collide with the previous scene.
     time.sleep(2.0)
-    request_started = datetime.now(TZ)
+    request_started = datetime.now(tz)
     req = urllib.request.Request(url, headers={"User-Agent": "jasons-vision-netherlands/1.3"})
     with urllib.request.urlopen(req, timeout=90) as resp:
         body = resp.read()
-    retrieval = datetime.now(TZ)
+    retrieval = datetime.now(tz)
     stamp = retrieval.isoformat(timespec="seconds")
     if stamp in stamps:
         raise SystemExit(f"{entry_id} retrieval second collided: {stamp}")
@@ -91,12 +99,12 @@ def fetch_one(entry_id: str, site: str, city: str, lat: float, lon: float, stamp
         "retrieval_timestamp": stamp,
         "retrieval_display": (
             f"{retrieval.day} {MONTHS[retrieval.month]} {retrieval.year} "
-            f"{retrieval.strftime('%H:%M:%S')} Europe/Amsterdam"
+            f"{retrieval.strftime('%H:%M:%S')} {tz_name}"
         ),
         "request_started": request_started.isoformat(timespec="seconds"),
         "model_time": current["time"],
         "model_interval_seconds": current.get("interval", 900),
-        "timezone": payload.get("timezone", "Europe/Amsterdam"),
+        "timezone": payload.get("timezone", tz_name),
         "temperature_2m": current["temperature_2m"],
         "weather_code": current["weather_code"],
         "cloud_cover": current["cloud_cover"],
@@ -108,7 +116,7 @@ def fetch_one(entry_id: str, site: str, city: str, lat: float, lon: float, stamp
         "model_valid_hour_start": retrieval.strftime("%Y-%m-%dT%H:00"),
         "scenario_label": (
             f"{retrieval.day} {MONTHS[retrieval.month]} {retrieval.year} · "
-            f"{retrieval.strftime('%H:%M')} Europe/Amsterdam"
+            f"{retrieval.strftime('%H:%M')} {tz_name}"
         ),
     }
     (OUT / f"{entry_id}.json").write_text(json.dumps(record, indent=2) + "\n")

@@ -32,8 +32,8 @@ def main() -> None:
     errors: list[str] = []
     approvals = sorted((ROOT / "approvals").glob("NL-*.md"))
     manifests = sorted((ROOT / "manifests").glob("NL-*.json"))
-    if len(approvals) != 48 or len(manifests) != 48:
-        errors.append(f"expected 48 notes, found approvals={len(approvals)} manifests={len(manifests)}")
+    if len(approvals) != 64 or len(manifests) != 64:
+        errors.append(f"expected 64 notes, found approvals={len(approvals)} manifests={len(manifests)}")
     stamps = []
     for path in approvals:
         text = path.read_text()
@@ -54,14 +54,17 @@ def main() -> None:
         if "Model data from Open-Meteo, retrieved" not in text:
             errors.append(f"{path.name} missing retrieval wording")
         m = re.search(
-            r"Retrieval timestamp \(unique to the second\):\**\s*(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\+\d{2}:\d{2})",
+            r"Retrieval timestamp \(unique to the second\):\**\s*(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[+-]\d{2}:\d{2})",
             text,
         )
         if not m:
             errors.append(f"{path.name} missing retrieval timestamp")
         else:
             stamps.append(m.group(1))
-        sm = re.search(r"Scenario: (\d+ \w+ \d+) · (\d{2}):(\d{2}) Europe/Amsterdam", text)
+        sm = re.search(
+            r"Scenario: (\d+ \w+ \d+) · (\d{2}):(\d{2}) (Europe/Amsterdam|America/Kralendijk)",
+            text,
+        )
         if not sm:
             errors.append(f"{path.name} scenario label missing")
         elif m:
@@ -158,7 +161,7 @@ def main() -> None:
             errors.append(f"index missing {needle}")
     if "dataset.src45" in index or "dataset.src16" in index:
         errors.append("index uses camelCase dataset")
-    if index.count("NL-01-") < 48:
+    if index.count("NL-01-") < 64:
         errors.append("index does not list all entry ids")
 
     if errors:

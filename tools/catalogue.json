@@ -1006,5 +1006,341 @@
       "A fountain basin is still, and the garden is empty"
     ],
     "solar": "Full night under a clear sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 23:41 a few facade lamps light the brick. The gardens are closed."
+  },
+  {
+    "entry_id": "NL-01-049",
+    "region": "Limburg",
+    "city": "Maastricht",
+    "folder": "Maastricht",
+    "caption": "Basilica of Saint Servatius, Maastricht",
+    "composition": "South side from Henric van Veldekeplein, westwork and Bergportaal · AI-generated artistic interpretation",
+    "description": "From Henric van Veldekeplein the south wall of the Basilica of Saint Servatius runs between the heavy Romanesque westwork and the lighter Gothic aisle, with the sculpted Bergportaal in the south front. This is not the Vrijthof pairing with the red tower of Sint-Janskerk. The sky is clear, about 15.3°C, with wind near 10.4 km/h. Sunset was 19:26, so midnight is lamp light on the stone.",
+    "alt_text": "AI-generated artistic interpretation of the south side of the Basilica of Saint Servatius in Maastricht on a clear night",
+    "viewpoint": "From Henric van Veldekeplein, looking at the south facade and the Bergportaal. The open square is the viewpoint. A surveyed tripod mark was not pinned. The Vrijthof westwork view is a different scene.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sint-Servaasbasiliek_(Maastricht)",
+      "https://www.zichtopmaastricht.nl/locaties/sint-servaasbasiliek-bergportaal"
+    ],
+    "anchors": [
+      "The Romanesque westwork towers stand at one end of the south wall",
+      "Gothic aisle windows and flying buttresses run along the nave",
+      "The early Gothic Bergportaal is set into the south front"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 00:00 the stone is lit by lamps, about four and a half hours after sunset."
+  },
+  {
+    "entry_id": "NL-01-050",
+    "region": "Limburg",
+    "city": "Valkenburg",
+    "folder": "Valkenburg",
+    "caption": "Valkenburg Castle, Valkenburg",
+    "composition": "Limestone ruins on the hill above the Geul valley · AI-generated artistic interpretation",
+    "description": "From the castle terrace the ruined walls and a broken tower of pale marl stone stand over the dark Geul valley, with the town lights scattered below. The castle is a ruin, not a restored palace, and there is no scaffolding in this view. It is clear, about 13.6°C, with wind near 10.1 km/h. Sunset was 19:26.",
+    "alt_text": "AI-generated artistic interpretation of the Valkenburg castle ruins above the town on a clear night",
+    "viewpoint": "From the public terrace inside the castle ruins on the hill, looking across a broken parapet toward the valley. The ruin walk is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.kasteelvalkenburg.nl/",
+      "https://en.wikipedia.org/wiki/Valkenburg_Castle"
+    ],
+    "anchors": [
+      "Broken limestone walls and a ruined tower occupy the foreground",
+      "The hill drops toward the Geul valley",
+      "Town lights sit below the ruins, and the castle is not roofed as a palace"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 00:00 a few lamps light the stone. There is no daylight."
+  },
+  {
+    "entry_id": "NL-01-051",
+    "region": "Limburg",
+    "city": "Thorn",
+    "folder": "Thorn",
+    "caption": "Abbey square, Thorn",
+    "composition": "Whitewashed houses and the abbey church on the Wijngaard · AI-generated artistic interpretation",
+    "description": "The Wijngaard in Thorn is lined with whitewashed houses, and the pale baroque front and tower of the former abbey church close the square. Shutters and roofs are dark against the white walls. It is clear, about 12.7°C, with wind near 7.9 km/h. Sunset was 19:26. The square is empty at this hour, with no festival dressing.",
+    "alt_text": "AI-generated artistic interpretation of the white abbey square in Thorn on a clear night",
+    "viewpoint": "From the Wijngaard, looking toward the abbey church. The square itself is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Thorn_(Nederland)",
+      "https://www.visitlimburg.nl/nl/te-doen-in-limburg/steden-en-dorpen/thorn"
+    ],
+    "anchors": [
+      "Whitewashed houses ring the square",
+      "The abbey church has a pale baroque front and a tower",
+      "Dark shutters and steep roofs contrast with the white walls"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 00:00 street lamps light the white walls."
+  },
+  {
+    "entry_id": "NL-01-052",
+    "region": "Limburg",
+    "city": "Vaals",
+    "folder": "Vaals",
+    "caption": "Vaalserberg, Vaals",
+    "composition": "Tripoint marker on the dark hill, flags lowered · AI-generated artistic interpretation",
+    "description": "At the Vaalserberg tripoint a border stone marks where the Netherlands, Belgium, and Germany meet, with three flagpoles and paths coming together on the wooded hill. The site is closed at midnight, so the scene does not invent a flag display or a crowd. It is clear and cool, about 12.4°C, with wind near 9.4 km/h. Sunset was 19:25. The viewing tower is only a distant shape, not the subject.",
+    "alt_text": "AI-generated artistic interpretation of the Vaalserberg tripoint marker near Vaals on a clear night",
+    "viewpoint": "At the border marker on the Vaalserberg, where the three territories meet. The marker is the viewpoint. Whether flags stay flying after dark was not verified, so no midnight flag display is shown. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Vaalserberg",
+      "https://www.visitvaals.nl/"
+    ],
+    "anchors": [
+      "A border stone sits where three paths meet",
+      "Three flagpoles stand by the marker, without a crowd",
+      "Woodland covers the hill, and a viewing tower is only distant"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 00:00 the hill is dark, with only a few path lamps."
+  },
+  {
+    "entry_id": "NL-01-053",
+    "region": "Flevoland",
+    "city": "Lelystad",
+    "folder": "Lelystad",
+    "caption": "Bataviawerf, Lelystad",
+    "composition": "Shipyard harbour at night, the Batavia berth empty · AI-generated artistic interpretation",
+    "description": "The Bataviawerf harbour at Museum Batavialand shows the museum sheds and the quay lamps over a calm basin. The wooden Batavia replica is not in this picture: it left Lelystad on 19 September 2026 for a dry dock in Amsterdam and is scheduled to return on a pontoon on 1 October. The sky is mainly clear, about 14.8°C, with wind near 9.0 km/h and no rain. Sunset was 19:27.",
+    "alt_text": "AI-generated artistic interpretation of the Bataviawerf harbour in Lelystad at night, with the ship berth empty",
+    "viewpoint": "From the public quay at Bataviawerf, looking along the museum harbour. The quay is the viewpoint. The replica's absence follows the museum's September 2026 move, not a guess. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.batavialand.nl/en/agenda/batavia-aan-land-volg-de-verplaatsing/",
+      "https://swzmaritime.nl/news/2026/09/21/video-batavia-replica-ship-arrives-at-damen-shiprepair/"
+    ],
+    "anchors": [
+      "Museum sheds and a quay line the harbour basin",
+      "The water where the replica usually lies is empty",
+      "No three-masted wooden retourschip is moored in the scene"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 00:00 quay lamps light the sheds. Cloud cover is about 31%."
+  },
+  {
+    "entry_id": "NL-01-054",
+    "region": "Flevoland",
+    "city": "Urk",
+    "folder": "Urk",
+    "caption": "Harbour, Urk",
+    "composition": "Old harbour, fishing boats, and the brick lighthouse on the dike · AI-generated artistic interpretation",
+    "description": "From the old harbour at Urk, fishing boats sit against the quay and the square brick lighthouse, with its white lantern, stands on the dike above them. The water is dark and the quay is quiet. It is clear, about 14.6°C, with a light wind near 6.5 km/h. Sunset was 19:26. Boat names are not treated as real lettering.",
+    "alt_text": "AI-generated artistic interpretation of the old fishing harbour and lighthouse at Urk on a clear night",
+    "viewpoint": "From the old harbour quay, looking toward the boats and the lighthouse on the dike. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Urk",
+      "https://www.visitflevoland.nl/en/locaties/4452866666/lighthouse-urk"
+    ],
+    "anchors": [
+      "Fishing boats are moored in the old harbour",
+      "A square brick lighthouse with a white lantern stands on the dike",
+      "The dike rises behind the quay"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 00:00 harbour lamps light the boats and the tower. Cloud cover is about 12%."
+  },
+  {
+    "entry_id": "NL-01-055",
+    "region": "Flevoland",
+    "city": "Schokland",
+    "folder": "Schokland",
+    "caption": "Schokland Museum, Schokland",
+    "composition": "Wooden church on the former island, flat polder beyond · AI-generated artistic interpretation",
+    "description": "Schokland rises only slightly out of the Noordoostpolder. The dark wooden Enserkerk and the low museum houses sit on that former island, with a small light structure nearby and flat fields running to the horizon. The sky is mainly clear, about 12.4°C, with wind near 8.3 km/h. Sunset was 19:26. No crowd is on the terp.",
+    "alt_text": "AI-generated artistic interpretation of the Schokland museum church on the former island at night",
+    "viewpoint": "From the polder approach to Middelbuurt, looking toward the wooden church on the former island. The public approach is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://whc.unesco.org/en/list/739/",
+      "https://www.museumschokland.nl/"
+    ],
+    "anchors": [
+      "A low rise carries a dark wooden church",
+      "Museum houses sit with the church on the former island",
+      "Flat polder fields stretch to the horizon"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 00:00 a few lamps light the church. Cloud cover is about 27%."
+  },
+  {
+    "entry_id": "NL-01-056",
+    "region": "Friesland",
+    "city": "Leeuwarden",
+    "folder": "Leeuwarden",
+    "caption": "Oldehove, Leeuwarden",
+    "composition": "Unfinished leaning brick tower alone on the square · AI-generated artistic interpretation",
+    "description": "The Oldehove stands alone on the Oldehoofsterkerkhof: an unfinished brick tower with a blunt top, no spire, and a visible lean. The church that once stood beside it is gone. The sky is mainly clear, about 12.6°C, with a light wind near 5.8 km/h. Sunset was 19:25. The paving is empty.",
+    "alt_text": "AI-generated artistic interpretation of the leaning unfinished Oldehove tower in Leeuwarden on a mainly clear night",
+    "viewpoint": "From the Oldehoofsterkerkhof, looking at the tower. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Oldehove_(tower)",
+      "https://www.oldehove.nu/"
+    ],
+    "anchors": [
+      "A brick tower with a flat unfinished top stands on an open square",
+      "The tower leans, and it has no spire",
+      "No church nave remains beside it"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 00:00 lamps light the brick. Cloud cover is about 32%."
+  },
+  {
+    "entry_id": "NL-01-057",
+    "region": "Friesland",
+    "city": "Harlingen",
+    "folder": "Harlingen",
+    "caption": "Harbour, Harlingen",
+    "composition": "Noorderhaven, brick warehouses and moored vessels · AI-generated artistic interpretation",
+    "description": "Along the Noorderhaven in Harlingen, tall brick warehouses with hoist beams face a basin of moored traditional vessels. Lamps reflect in calm water and the quays are quiet. It is clear, about 16.7°C, the mildest of this night group, with wind near 6.5 km/h. Sunset was 19:27. Hull names are not treated as real lettering.",
+    "alt_text": "AI-generated artistic interpretation of the Noorderhaven in Harlingen on a clear night",
+    "viewpoint": "From the Noorderhaven quay, looking along the warehouse front and the moored vessels. The public quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Harlingen,_Netherlands",
+      "https://www.visitwadden.nl/en/visit/towns-villages/harlingen"
+    ],
+    "anchors": [
+      "A harbour basin fills the foreground",
+      "Tall brick warehouses with hoist beams line the quay",
+      "Traditional vessels are moored in the basin"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 00:00 harbour lamps light the brick and the water. Cloud cover is about 10%."
+  },
+  {
+    "entry_id": "NL-01-058",
+    "region": "Friesland",
+    "city": "Franeker",
+    "folder": "Franeker",
+    "caption": "Eise Eisinga Planetarium, Franeker",
+    "composition": "Brick clock-gable house on the canal street, no dome · AI-generated artistic interpretation",
+    "description": "The Eise Eisinga Planetarium is a modest brick house with a clock gable and a steep roof on a narrow Franeker street, with a small canal and a bridge in front. The working model is inside the ceiling, so the exterior has no dome and no telescope. It is clear, about 11.9°C, with a light wind near 5.4 km/h. Sunset was 19:26. A few windows are lit, and the gable stone is not given readable lettering.",
+    "alt_text": "AI-generated artistic interpretation of the Eise Eisinga Planetarium house in Franeker on a clear night",
+    "viewpoint": "From the street in front of Eise Eisingastraat 3, looking at the clock-gable facade, with the canal and bridge in the foreground. The public street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://whc.unesco.org/en/list/1683/",
+      "https://www.eisinga-planetarium.nl/en/"
+    ],
+    "anchors": [
+      "A one-storey brick house has a clock gable and a steep roof",
+      "A narrow canal and a bridge sit in front of the house",
+      "There is no observatory dome and no roof telescope"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 00:01 window light and a street lamp light the brick. Cloud cover is about 3%."
+  },
+  {
+    "entry_id": "NL-01-059",
+    "region": "Friesland",
+    "city": "Hindeloopen",
+    "folder": "Hindeloopen",
+    "caption": "Waterfront, Hindeloopen",
+    "composition": "Harbour and lock toward the IJsselmeer, church tower behind · AI-generated artistic interpretation",
+    "description": "The Hindeloopen waterfront opens through a small harbour and lock toward the dark IJsselmeer, with traditional houses along the dike and a brick church tower behind them. The sky is partly cloudy and the wind is the lightest of this group, about 1.8 km/h. It is about 12.7°C. Sunset was 19:27. There is no ice and no readable shop lettering.",
+    "alt_text": "AI-generated artistic interpretation of the Hindeloopen harbour and church tower on a partly cloudy night",
+    "viewpoint": "From the harbour side, looking across the lock toward the IJsselmeer with the church tower in the town. The public waterfront is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Hindeloopen",
+      "https://www.visitfriesland.nl/en/places/hindeloopen"
+    ],
+    "anchors": [
+      "A small harbour and lock open toward open water",
+      "Traditional houses line the dike",
+      "A brick church tower rises behind the houses"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 00:01 harbour lamps light the lock. Cloud cover is about 66%."
+  },
+  {
+    "entry_id": "NL-01-060",
+    "region": "Groningen",
+    "city": "Groningen",
+    "folder": "Groningen",
+    "caption": "Martinitoren, Groningen",
+    "composition": "Gothic brick tower and church from the Grote Markt · AI-generated artistic interpretation",
+    "description": "From the Grote Markt the Martinitoren rises as a tall Gothic brick tower with corner turrets, an open stone lantern, and a spire, beside the lower roof of the Martinikerk. The square is empty at midnight, with no market stalls. The sky is partly cloudy, about 12.9°C, with wind near 8.3 km/h. Sunset was 19:22.",
+    "alt_text": "AI-generated artistic interpretation of the Martinitoren from the Grote Markt in Groningen on a partly cloudy night",
+    "viewpoint": "From the Grote Markt, looking at the Martinitoren and the church beside it. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Martinitoren",
+      "https://www.visitgroningen.nl/en/locations/martinitoren"
+    ],
+    "anchors": [
+      "The open market square fills the foreground",
+      "A tall Gothic brick tower has corner turrets, a lantern, and a spire",
+      "The lower church roof stands beside the tower"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:22 Europe/Amsterdam and model is_day 0. At 00:01 floodlights light the brick. Cloud cover is about 55%."
+  },
+  {
+    "entry_id": "NL-01-061",
+    "region": "Groningen",
+    "city": "Bourtange",
+    "folder": "Bourtange",
+    "caption": "Vesting Bourtange, Bourtange",
+    "composition": "Moat, earthen bastion, and the entrance bridge · AI-generated artistic interpretation",
+    "description": "From outside Vesting Bourtange the moat reflects a grass-covered earthen bastion, and a wooden bridge leads to the brick gate. The sails of the mill inside the fort show above the rampart. The whole star plan is only partly visible from the ground. It is clear and the coolest of this group, about 9.7°C, with wind near 9.7 km/h. Sunset was 19:20. The village inside is quiet.",
+    "alt_text": "AI-generated artistic interpretation of the moat and entrance bridge at Vesting Bourtange on a clear night",
+    "viewpoint": "From the approach outside the moat, looking toward the entrance bridge and one bastion. The public approach is the viewpoint. An aerial view of the whole star was not used. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.vestingbourtange.nl/en/",
+      "https://en.wikipedia.org/wiki/Bourtange"
+    ],
+    "anchors": [
+      "Still moat water fills the foreground",
+      "A grass-covered earthen bastion and a wooden bridge lead to a brick gate",
+      "Mill sails rise above the rampart"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:20 Europe/Amsterdam and model is_day 0. At 00:01 a few lamps light the gate and the bridge."
+  },
+  {
+    "entry_id": "NL-01-062",
+    "region": "Drenthe",
+    "city": "Borger",
+    "folder": "Borger",
+    "caption": "Hunebed D27, Borger",
+    "composition": "Long row of capstones on the grass beside the museum · AI-generated artistic interpretation",
+    "description": "Hunebed D27 at Borger is a long passage grave of grey capstones resting on upright boulders, set in grass. Sources describe nine capstones. The modern museum building sits back from the stones and is not the subject. It is clear and cool, about 10.4°C, with wind near 7.2 km/h. Sunset was 19:22. Only a few low path lamps light the site.",
+    "alt_text": "AI-generated artistic interpretation of hunebed D27 at Borger on a clear night",
+    "viewpoint": "From the grass beside D27, looking along the row of capstones, with the Hunebedcentrum set back. The public grass is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/D27_(hunebed)",
+      "https://www.hunebedcentrum.eu/en/"
+    ],
+    "anchors": [
+      "A long row of grey capstones rests on upright boulders",
+      "Grass surrounds the passage grave",
+      "The museum building is set back and does not cover the stones"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:22 Europe/Amsterdam and model is_day 0. At 00:01 a few low path lamps light the stones. There is no festival lighting."
+  },
+  {
+    "entry_id": "NL-01-063",
+    "region": "Drenthe",
+    "city": "Dwingeloo",
+    "folder": "Dwingeloo",
+    "caption": "Dwingelderveld, Dwingeloo",
+    "composition": "Late-September heath, faded ling, juniper, and pines · AI-generated artistic interpretation",
+    "description": "On the Dwingelderveld heath between Dwingeloo and Ruinen, a sand path crosses open heath at the end of September. The ling is mostly rust-brown, with only dull leftover mauve, and juniper and Scots pines edge the view. The sky is partly cloudy, about 10.9°C, with wind near 6.1 km/h. Sunset was 19:23. There is no August purple carpet and no snow.",
+    "alt_text": "AI-generated artistic interpretation of late-September heath at Dwingelderveld near Dwingeloo on a partly cloudy night",
+    "viewpoint": "From a sand path on the open heath in Dwingelderveld, between Dwingeloo and Ruinen. The path is the viewpoint. A surveyed tripod mark on the heath was not pinned.",
+    "references": [
+      "https://www.nationaalpark-dwingelderveld.nl/",
+      "https://en.wikipedia.org/wiki/Dwingelderveld_National_Park"
+    ],
+    "anchors": [
+      "A sand path crosses open heath",
+      "Ling is rust-brown with only dull leftover mauve",
+      "Juniper bushes and Scots pines edge the heath"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:23 Europe/Amsterdam and model is_day 0. At 00:01 the heath is dark. Cloud cover is about 75%."
+  },
+  {
+    "entry_id": "NL-01-064",
+    "region": "Caribbean Netherlands",
+    "city": "Kralendijk",
+    "folder": "Kralendijk",
+    "caption": "Waterfront, Kralendijk",
+    "composition": "Late-afternoon promenade, pastel houses, pier, and the sea · AI-generated artistic interpretation",
+    "description": "The Kralendijk waterfront faces the Caribbean with pastel two-storey houses, palms, and a stone pier. It is still day here: clear, about 29.0°C, with a fresh breeze near 23.9 km/h, small whitecaps, and no rain. Sunset is 18:26 America/Kralendijk, so the 18:01 scenario is warm low sun, about twenty-five minutes before sunset. Shop signs are not given readable lettering.",
+    "alt_text": "AI-generated artistic interpretation of the Kralendijk waterfront on Bonaire in late-afternoon sun",
+    "viewpoint": "From the waterfront promenade in Kralendijk, looking along the pastel houses toward the pier and the sea. The public promenade is the viewpoint. A surveyed tripod mark was not pinned. Local time is America/Kralendijk, not Europe/Amsterdam.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Kralendijk",
+      "https://www.tourismbonaire.com/"
+    ],
+    "anchors": [
+      "Pastel two-storey houses line the promenade",
+      "Palms and a stone pier stand against the sea",
+      "The water has small whitecaps under a clear late-afternoon sky"
+    ],
+    "solar": "Late afternoon, sun still up. Model sunset 18:26 America/Kralendijk and model is_day 1. At 18:01 the sun is low in the west, about twenty-five minutes before sunset. Cloud cover is about 5%."
   }
 ]
