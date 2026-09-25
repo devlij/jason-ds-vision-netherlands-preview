@@ -1,6 +1,6 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-112. IDs are not reused.
+NL-01-001 through NL-01-128. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
 NL-01-033 through NL-01-048 swaps:
 - NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.
@@ -33,6 +33,23 @@ NL-01-097 through NL-01-112 swaps:
 - NL-01-110: the Waterpoort and the Waal dike are the waterfront. The Grote Kerk stands on Kerkplein inside the town and is not on the river.
 - NL-01-111: Hotel De Wereld is the red-brick hotel on 5 Mei Plein. The Nederrijn dike is outside the centre and is not in this frame.
 - NL-01-112: the Ede / Otterloseweg heath edge sits against the Hoge Veluwe already represented by the Kröller-Müller Museum, Otterlo (NL-01-016), and a bare night heath would also echo Dwingelderveld (NL-01-063). Swapped to Radio Kootwijk Building A, a concrete transmitter hall on open Veluwe heath, which was not already used.
+- The other suggested sites in this batch were not already used.
+NL-01-113 through NL-01-128 swaps:
+- NL-01-113: the Nes ferry dam is in renovation through mid-October 2026. Exact temporary works were not pinned, so no scaffolding was invented. The scene is Waddenhaven, the yacht basin beside the terminal, not the working ferry quay. Holwerd remains NL-01-081.
+- NL-01-114: Brandarisplein works are planned from November 2026, so the square is not a construction site. No exterior scaffold on the tower was verified. The tower is unpainted brick with a red lantern roof, in the village, not on the beach.
+- NL-01-115: the yacht harbour is about 800 metres east of the village, and the Vuurduin lighthouse is in the dunes. This scene is the veerdam at Oost-Vlieland. No ferry is alongside, and no operator name is shown.
+- NL-01-116: the working lighthouse is the red Noordertoren in the dunes, about 3 km from the village. The white Zuidertoren in the village is a different building and is not in the frame.
+- NL-01-117: the Stevinsluizen stand east of the village, and the Lely statue has stood by the Vlietermonument since 2007. This frame is the fishing harbour.
+- NL-01-118: Breezanddijk is the geographic midpoint. The monument is the Vlietermonument at the 1932 closure, closer to Den Oever. The rest area stays closed through the works due in 2027. The restored tower is the view. The in-dike extension sits behind it and is not shown as a new wing. No scaffold is shown on the tower.
+- NL-01-119: the Zuiderzeemuseum remains NL-01-026. This is the Drommedaris at the Oude Haven.
+- NL-01-120: the castle is not a complete four-tower square. The exterior is the L-shaped wing, one round tower, and a low stump, from the public moat.
+- NL-01-121: the Koemarkt does not hold the carillon tower. The tower belongs to the 1912 former town hall on the Kaasmarkt. Edam’s Speeltoren remains NL-01-091.
+- NL-01-122: the Laurenskerk tower and the neoclassical town hall stand on Nieuwstraat, inland. This scene is the Lange Vechtbrug and the Hoogstraat quay.
+- NL-01-123: the university grounds are closed at this hour. The viewpoint is the public road across the moat, not the inner court.
+- NL-01-125: the Markt and the Gothic Stadhuis remain NL-01-031. This is the classicist Waag in the north wall of the square. The Stadhuis is behind the camera.
+- NL-01-126: the Nederwaard brick row remains NL-01-003. This is the thatched pair at Nieuw-Lekkerland, not the Kinderdijk avenue.
+- NL-01-127: the Waag stands on the Dam, not on the Haven house-row. No restaurant name is shown.
+- NL-01-128: the Grote Kerk fronts the Voorstraat. The Lek quay and the Lekpoort are not in this frame. The church is closed at this hour.
 - The other suggested sites in this batch were not already used.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
@@ -147,3 +164,19 @@ NL-01-097 through NL-01-112 swaps:
 - NL-01-110 — Waterfront, Tiel — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:45+02:00
 - NL-01-111 — Hotel De Wereld, Wageningen — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:48+02:00
 - NL-01-112 — Radio Kootwijk — 26 September 2026 · 01:04 Europe/Amsterdam — retrieved 2026-09-26T01:04:50+02:00
+- NL-01-113 — Waddenhaven, Nes — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:18+02:00
+- NL-01-114 — Brandaris, West-Terschelling — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:20+02:00
+- NL-01-115 — Veerdam, Oost-Vlieland — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:23+02:00
+- NL-01-116 — Noordertoren, Schiermonnikoog — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:25+02:00
+- NL-01-117 — Harbour, Den Oever — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:28+02:00
+- NL-01-118 — Vlietermonument, Afsluitdijk — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:30+02:00
+- NL-01-119 — Drommedaris, Enkhuizen — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:33+02:00
+- NL-01-120 — Radboud Castle, Medemblik — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:35+02:00
+- NL-01-121 — Kaasmarkt, Purmerend — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:38+02:00
+- NL-01-122 — Lange Vechtbrug, Weesp — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:40+02:00
+- NL-01-123 — Nijenrode Castle, Breukelen — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:43+02:00
+- NL-01-124 — Woerden Castle, Woerden — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:45+02:00
+- NL-01-125 — Waag, Gouda — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:47+02:00
+- NL-01-126 — Hoge Molen, Nieuw-Lekkerland — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:50+02:00
+- NL-01-127 — Waag, Schoonhoven — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:52+02:00
+- NL-01-128 — Grote Kerk, Vianen — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:55+02:00

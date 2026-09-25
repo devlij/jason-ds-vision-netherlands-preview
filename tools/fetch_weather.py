@@ -30,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-097", "Markiezenhof", "Bergen op Zoom", 51.4948, 4.2876, "Europe/Amsterdam"),
-    ("NL-01-098", "Bossche Broek", "'s-Hertogenbosch", 51.6820, 5.3040, "Europe/Amsterdam"),
-    ("NL-01-099", "LocHal", "Tilburg", 51.5617, 5.0832, "Europe/Amsterdam"),
-    ("NL-01-100", "Helmond Castle", "Helmond", 51.4785, 5.6556, "Europe/Amsterdam"),
-    ("NL-01-101", "St. Martinuskerk", "Venlo", 51.3701, 6.1685, "Europe/Amsterdam"),
-    ("NL-01-102", "St. Peter's Basilica", "Sittard", 51.0015, 5.8690, "Europe/Amsterdam"),
-    ("NL-01-103", "Pancratiuskerk", "Heerlen", 50.8876, 5.9792, "Europe/Amsterdam"),
-    ("NL-01-104", "Rolduc Abbey", "Kerkrade", 50.8686, 6.0825, "Europe/Amsterdam"),
-    ("NL-01-105", "Boulevard", "Vlissingen", 51.4426, 3.5735, "Europe/Amsterdam"),
-    ("NL-01-106", "Lighthouse", "Westkapelle", 51.5292, 3.4473, "Europe/Amsterdam"),
-    ("NL-01-107", "Oyster harbour", "Yerseke", 51.4930, 4.0550, "Europe/Amsterdam"),
-    ("NL-01-108", "Harbour", "Goes", 51.5088, 3.8885, "Europe/Amsterdam"),
-    ("NL-01-109", "Lek bridge", "Culemborg", 51.9606, 5.2133, "Europe/Amsterdam"),
-    ("NL-01-110", "Waterfront", "Tiel", 51.8888, 5.4295, "Europe/Amsterdam"),
-    ("NL-01-111", "Hotel De Wereld", "Wageningen", 51.9675, 5.6678, "Europe/Amsterdam"),
-    ("NL-01-112", "Radio Kootwijk", "Radio Kootwijk", 52.1667, 5.8167, "Europe/Amsterdam"),
+    ("NL-01-113", "Waddenhaven", "Nes", 53.4374921, 5.7755243, "Europe/Amsterdam"),
+    ("NL-01-114", "Brandaris", "West-Terschelling", 53.3603213, 5.2142392, "Europe/Amsterdam"),
+    ("NL-01-115", "Veerdam", "Oost-Vlieland", 53.2963601, 5.0753435, "Europe/Amsterdam"),
+    ("NL-01-116", "Noordertoren", "Schiermonnikoog", 53.4868377, 6.1465305, "Europe/Amsterdam"),
+    ("NL-01-117", "Harbour", "Den Oever", 52.9297180, 5.0296561, "Europe/Amsterdam"),
+    ("NL-01-118", "Vlietermonument", "Afsluitdijk", 52.9689621, 5.1089810, "Europe/Amsterdam"),
+    ("NL-01-119", "Drommedaris", "Enkhuizen", 52.7007438, 5.2929862, "Europe/Amsterdam"),
+    ("NL-01-120", "Radboud Castle", "Medemblik", 52.7724319, 5.1131257, "Europe/Amsterdam"),
+    ("NL-01-121", "Kaasmarkt", "Purmerend", 52.5097279, 4.9459736, "Europe/Amsterdam"),
+    ("NL-01-122", "Lange Vechtbrug", "Weesp", 52.3071340, 5.0450156, "Europe/Amsterdam"),
+    ("NL-01-123", "Nijenrode Castle", "Breukelen", 52.1639837, 5.0093589, "Europe/Amsterdam"),
+    ("NL-01-124", "Woerden Castle", "Woerden", 52.0851688, 4.8878214, "Europe/Amsterdam"),
+    ("NL-01-125", "Waag", "Gouda", 52.0123264, 4.7108844, "Europe/Amsterdam"),
+    ("NL-01-126", "Hoge Molen", "Nieuw-Lekkerland", 51.8858428, 4.6490561, "Europe/Amsterdam"),
+    ("NL-01-127", "Waag", "Schoonhoven", 51.9467115, 4.8516204, "Europe/Amsterdam"),
+    ("NL-01-128", "Grote Kerk", "Vianen", 51.9924001, 5.0934907, "Europe/Amsterdam"),
 ]
 
 

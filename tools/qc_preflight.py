@@ -32,8 +32,8 @@ def main() -> None:
     errors: list[str] = []
     approvals = sorted((ROOT / "approvals").glob("NL-*.md"))
     manifests = sorted((ROOT / "manifests").glob("NL-*.json"))
-    if len(approvals) != 112 or len(manifests) != 112:
-        errors.append(f"expected 112 notes, found approvals={len(approvals)} manifests={len(manifests)}")
+    if len(approvals) != 128 or len(manifests) != 128:
+        errors.append(f"expected 128 notes, found approvals={len(approvals)} manifests={len(manifests)}")
     stamps = []
     for path in approvals:
         text = path.read_text()
@@ -161,8 +161,10 @@ def main() -> None:
             errors.append(f"index missing {needle}")
     if "dataset.src45" in index or "dataset.src16" in index:
         errors.append("index uses camelCase dataset")
-    if index.count("NL-01-") < 112:
-        errors.append("index does not list all entry ids")
+    for n in range(1, 129):
+        token = f"NL-01-{n:03d}"
+        if token not in index:
+            errors.append(f"index missing {token}")
     for n in range(1, 11):
         approved = json.loads((ROOT / "manifests" / f"NL-01-{n:03d}.json").read_text())
         if approved.get("approval_status") != "Approved":

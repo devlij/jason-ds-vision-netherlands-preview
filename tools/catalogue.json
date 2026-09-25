@@ -2350,5 +2350,341 @@
       "A still pond in the foreground"
     ],
     "solar": "Full night under a clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 01:04 the building is a dark mass with a few small lights. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-113",
+    "region": "Friesland",
+    "city": "Nes",
+    "folder": "Nes",
+    "caption": "Waddenhaven, Nes",
+    "composition": "Yacht basin and the low brick edge of Nes · AI-generated artistic interpretation",
+    "description": "Waddenhaven at Nes is the yacht basin on the south side of Ameland, with moored boats, wooden jetties, and the low brick houses of the village behind. The ferry dam next to it is under renovation through mid-October 2026, so that working quay is not this view. The sky is overcast, about 14.3°C, with wind near 6.1 km/h. No ship name is readable. Holwerd, on the mainland, is a different place.",
+    "alt_text": "AI-generated artistic interpretation of the yacht harbour at Nes on Ameland under an overcast night sky",
+    "viewpoint": "From the public edge of Waddenhaven Ameland, looking across the basin toward the village. The marina, not the ferry dam, is the viewpoint. A surveyed tripod mark was not pinned. The ferry-dam works were not entered.",
+    "references": [
+      "https://www.vvvameland.nl/webcam/webcam-haven",
+      "https://www.wpd.nl/nieuws/update-werkzaamheden-veerdam-nes"
+    ],
+    "anchors": [
+      "A marina basin with moored boats in the foreground",
+      "Low brick houses, not a lighthouse and not a ferry ship",
+      "No construction crane on the quay"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 01:22 the moon is hidden. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-114",
+    "region": "Friesland",
+    "city": "West-Terschelling",
+    "folder": "West-Terschelling",
+    "caption": "Brandaris, West-Terschelling",
+    "composition": "Square brick lighthouse and red lantern roof on the village square · AI-generated artistic interpretation",
+    "description": "The Brandaris stands in West-Terschelling, a heavy square tower of unpainted brick with four stages, a gallery, and a red lantern roof. Low houses close the quiet square around it. The sky is overcast, about 15.0°C, with wind near 6.1 km/h. The lantern is lit. It is a village tower, not a dune light, and no scaffold is shown.",
+    "alt_text": "AI-generated artistic interpretation of the Brandaris lighthouse in West-Terschelling on an overcast night",
+    "viewpoint": "From Brandarisplein, looking at the south side of the tower and its entrance. The public square is the viewpoint. A surveyed tripod mark was not pinned. The beach is not in this frame.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Brandaris",
+      "https://www.vuurtorens.org/vuurtoren/brandaris/"
+    ],
+    "anchors": [
+      "A square unpainted brick tower, not a round painted shaft",
+      "A red lantern roof above a gallery",
+      "Low village houses and paving, not dunes"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 01:22 the lantern is lit and the moon is hidden. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-115",
+    "region": "Friesland",
+    "city": "Oost-Vlieland",
+    "folder": "Oost-Vlieland",
+    "caption": "Veerdam, Oost-Vlieland",
+    "composition": "Empty ferry landing and the low brick village · AI-generated artistic interpretation",
+    "description": "The veerdam at Oost-Vlieland is a plain landing on the Wadden, with the low brick houses of the only village just behind it. The sky is overcast, about 15.9°C, with wind near 7.9 km/h. No ferry is alongside and no operator name is shown. The yacht harbour lies further east, and the dune lighthouse is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the ferry landing at Oost-Vlieland on an overcast night",
+    "viewpoint": "From the public side of the veerdam, looking toward the village edge and the Wadden water. The landing is the viewpoint. A surveyed tripod mark was not pinned. The eastern yacht harbour is not in this frame.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Veerdam_(Vlieland)",
+      "https://nl.wikipedia.org/wiki/Oost-Vlieland_(plaats)"
+    ],
+    "anchors": [
+      "Dark Wadden water and a plain empty landing",
+      "A low shed and a short row of brick houses",
+      "No red lighthouse and no large marina"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 01:22 a few lamps light the landing. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-116",
+    "region": "Friesland",
+    "city": "Schiermonnikoog",
+    "folder": "Schiermonnikoog",
+    "caption": "Noordertoren, Schiermonnikoog",
+    "composition": "Red cylindrical lighthouse alone in the dunes · AI-generated artistic interpretation",
+    "description": "The Noordertoren is a red cylindrical lighthouse in the dunes northwest of Schiermonnikoog village, with a white lantern and a pale dome. Marram grass and sand fill the foreground. The sky is overcast, about 15.3°C, with wind near 9.0 km/h. The lantern is lit. The white Zuidertoren in the village is a different building and is not here.",
+    "alt_text": "AI-generated artistic interpretation of the red Noordertoren lighthouse in the dunes of Schiermonnikoog on an overcast night",
+    "viewpoint": "From the dune path near Vuurtorenpad, looking at the red tower. The open dune is the viewpoint. A surveyed tripod mark was not pinned. The village street is about 3 km away and is not in this frame.",
+    "references": [
+      "https://en.wikivoyage.org/wiki/Schiermonnikoog",
+      "https://www.vvvschiermonnikoog.com/schiermonnikoog/bezienswaardigheden/vuurtoren?language=en"
+    ],
+    "anchors": [
+      "A red round tower, not a white tower and not square brick",
+      "A white lantern and dome",
+      "Marram dunes, with no village street"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 01:22 the lantern is lit and the moon is hidden. Cloud cover is about 91%."
+  },
+  {
+    "entry_id": "NL-01-117",
+    "region": "North Holland",
+    "city": "Den Oever",
+    "folder": "Den Oever",
+    "caption": "Harbour, Den Oever",
+    "composition": "Fishing boats and low halls on the harbour basin · AI-generated artistic interpretation",
+    "description": "The harbour at Den Oever is a working basin on the former island of Wieringen, with fishing boats and low halls along the quay. The sky is overcast, about 13.6°C, with wind near 5.0 km/h. The Stevinsluizen stand further east at the start of the Afsluitdijk and are not in this frame. No boat name is readable.",
+    "alt_text": "AI-generated artistic interpretation of the fishing harbour at Den Oever on an overcast night",
+    "viewpoint": "From the public quay at the Den Oever harbour, looking across the basin at the moored boats and the halls. The quay is the viewpoint. A surveyed tripod mark was not pinned. The sluices and the Lely statue are not in this frame.",
+    "references": [
+      "https://uitkijktorens.nl/route/wandelroute-den-oever/",
+      "https://rijksmonumenten.nl/monument/510382/stevinsluizen/den-oever/"
+    ],
+    "anchors": [
+      "A working harbour basin, not a yacht-only marina",
+      "Low halls along the quay",
+      "No sluice towers and no bronze statue"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 01:22 a few quay lamps light the boats. Cloud cover is about 96%."
+  },
+  {
+    "entry_id": "NL-01-118",
+    "region": "North Holland",
+    "city": "Afsluitdijk",
+    "folder": "Afsluitdijk",
+    "caption": "Vlietermonument, Afsluitdijk",
+    "composition": "Dudok tower, wide canopy, and dark IJsselmeer · AI-generated artistic interpretation",
+    "description": "The Vlietermonument marks the 1932 closure of the Afsluitdijk: a concrete tower by Dudok, with a basalt base, a wide canopy, and a copper roof, standing over the IJsselmeer. The sky is overcast, about 16.6°C, with wind near 9.4 km/h. The public rest area is closed while works continue, so no terrace crowd is shown, and no scaffold stands on the tower. Breezanddijk, the midpoint hamlet, is a different place.",
+    "alt_text": "AI-generated artistic interpretation of the Vlietermonument on the Afsluitdijk on an overcast night",
+    "viewpoint": "From the IJsselmeer side of the dike, looking at the restored tower. The dike edge is the viewpoint. A surveyed tripod mark was not pinned. The closed rest area and the in-dike extension behind the tower are not the subject.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Vlietermonument",
+      "https://deafsluitdijk.nl/projecten/restauratie-vlietermonument-afsluitdijk/"
+    ],
+    "anchors": [
+      "One concrete tower with a wide overhanging canopy",
+      "A basalt base and a copper roof with a small finial",
+      "Dark water in front and an empty dike, with no cafe crowd"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 01:22 the moon is hidden. Cloud cover is about 98%."
+  },
+  {
+    "entry_id": "NL-01-119",
+    "region": "North Holland",
+    "city": "Enkhuizen",
+    "folder": "Enkhuizen",
+    "caption": "Drommedaris, Enkhuizen",
+    "composition": "Round brick harbour tower, smaller half-round tower, and a water gate · AI-generated artistic interpretation",
+    "description": "The Drommedaris guards the Oude Haven at Enkhuizen: a large round brick tower with a steep slate roof and a small bell cupola, joined by an arched water gate to a smaller half-round tower. Dark harbour water fills the foreground. The sky is overcast, about 14.7°C, with wind near 5.0 km/h. This is not the Zuiderzeemuseum village. No inscription is readable.",
+    "alt_text": "AI-generated artistic interpretation of the Drommedaris at the harbour in Enkhuizen on an overcast night",
+    "viewpoint": "From the public quay at the Oude Haven mouth, looking at the water gate and the round tower. The quay is the viewpoint. A surveyed tripod mark was not pinned. The outdoor museum is elsewhere in the town.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Drommedaris",
+      "https://rijksmonumenten.nl/monument/464878/drommedaris/enkhuizen/"
+    ],
+    "anchors": [
+      "A large round brick tower with a slate tent roof and a small cupola",
+      "A smaller half-round tower beside an arched water gate",
+      "Harbour water in the foreground, not a museum street"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 01:22 a few quay lamps light the brick. Cloud cover is about 90%."
+  },
+  {
+    "entry_id": "NL-01-120",
+    "region": "North Holland",
+    "city": "Medemblik",
+    "folder": "Medemblik",
+    "caption": "Radboud Castle, Medemblik",
+    "composition": "L-shaped brick wing, one round tower, and a moat · AI-generated artistic interpretation",
+    "description": "Kasteel Radboud at Medemblik is an incomplete water castle: an L-shaped brick wing, one round tower with a conical roof, and a low stump where another tower once stood, all inside a moat. The sky is overcast, about 13.4°C, with wind near 4.7 km/h. It is not a square of four equal towers. The museum is closed, and the view is the exterior from the public moat.",
+    "alt_text": "AI-generated artistic interpretation of Radboud Castle in Medemblik across its moat on an overcast night",
+    "viewpoint": "From the public side of the moat at Oudevaartsgat, looking at the surviving wing and the round tower. The street edge is the viewpoint. A surveyed tripod mark was not pinned. The interior was not entered.",
+    "references": [
+      "https://monumentenbezit.nl/en/monumenten/kasteel-radboud/",
+      "https://www.cchin.nl/kastelenlexicon/lexobject.xql?id=lx1775"
+    ],
+    "anchors": [
+      "A moat in the foreground",
+      "One tall round tower on an L-shaped brick wing",
+      "A low stump, not three more matching towers"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 01:22 only a few small windows are lit. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-121",
+    "region": "North Holland",
+    "city": "Purmerend",
+    "folder": "Purmerend",
+    "caption": "Kaasmarkt, Purmerend",
+    "composition": "Neo-Renaissance town hall and its slender carillon tower · AI-generated artistic interpretation",
+    "description": "The former town hall on the Kaasmarkt in Purmerend is a 1912 neo-Renaissance brick block with sandstone trim and one slender tower, an open lantern, and a small spire. The square is empty. The sky is overcast, about 13.7°C, with wind near 8.3 km/h. The Koemarkt is a different square and is not this view. Edam’s tower is a different building.",
+    "alt_text": "AI-generated artistic interpretation of the former town hall and its tower on the Kaasmarkt in Purmerend on an overcast night",
+    "viewpoint": "From the Kaasmarkt paving, looking at the town-hall facade and its tower. The square is the viewpoint. A surveyed tripod mark was not pinned. The Koemarkt cow sculpture is not in this frame.",
+    "references": [
+      "https://purmerend.nl/geboorte-huwelijk-en-overlijden/huwelijk-en-partnerschap/voormalig-stadhuis-op-de-kaasmarkt",
+      "https://nl.wikipedia.org/wiki/Koemarkt_(Purmerend)"
+    ],
+    "anchors": [
+      "A rectangular brick town hall, not a church",
+      "One slender tower with an open lantern",
+      "Empty paving, with no cattle-market statue"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 01:22 street lamps light the facade. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-122",
+    "region": "North Holland",
+    "city": "Weesp",
+    "folder": "Weesp",
+    "caption": "Lange Vechtbrug, Weesp",
+    "composition": "Wooden drawbridge and gabled houses along the Vecht · AI-generated artistic interpretation",
+    "description": "The Lange Vechtbrug is a double wooden drawbridge over the Vecht in Weesp. From it, narrow brick houses and warehouses with stepped and bell gables line the Hoogstraat quay. The sky is mainly clear, about 12.3°C, with wind near 1.8 km/h, and a bright moon is up. The church tower and the neoclassical town hall stand inland on Nieuwstraat and are not the subject.",
+    "alt_text": "AI-generated artistic interpretation of the Lange Vechtbrug and the Hoogstraat quay in Weesp under a mainly clear night sky",
+    "viewpoint": "From the Lange Vechtbrug, looking along the Vecht at the Hoogstraat houses. The public bridge is the viewpoint. A surveyed tripod mark was not pinned. Nieuwstraat is not this vista.",
+    "references": [
+      "https://rijksmonumenten.nl/monument/38533/lange-vechtbrug/weesp/",
+      "https://onh.nl/verhaal/aan-de-vecht-toont-weesp-het-rijke-verleden"
+    ],
+    "anchors": [
+      "A double wooden drawbridge over the river",
+      "A row of narrow gabled brick houses on the quay",
+      "Calm water, not a church close-up"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 01:22 a bright moon is up; the full moon falls later on 26 September, so the disc looks full. Cloud cover is about 26%."
+  },
+  {
+    "entry_id": "NL-01-123",
+    "region": "Utrecht",
+    "city": "Breukelen",
+    "folder": "Breukelen",
+    "caption": "Nijenrode Castle, Breukelen",
+    "composition": "Brick water castle, one tall tower, and a moat · AI-generated artistic interpretation",
+    "description": "Kasteel Nijenrode stands on a moated island beside the Vecht at Breukelen: a brick castle with a tall tower, stepped gables, and a drawbridge, seen from the public road. The sky is overcast, about 13.4°C, with wind near 6.1 km/h. The grounds are closed at this hour, so the inner court is not shown. No name is readable.",
+    "alt_text": "AI-generated artistic interpretation of Nijenrode Castle at Breukelen across its moat on an overcast night",
+    "viewpoint": "From the public Straatweg across the moat, looking at the castle exterior. The road edge is the viewpoint. A surveyed tripod mark was not pinned. The gate was not entered.",
+    "references": [
+      "https://rijksmonumenten.nl/monument/520609/nijenrode/breukelen/",
+      "https://www.visitgooivecht.nl/nl/locaties/2289861813/kasteel-nijenrode"
+    ],
+    "anchors": [
+      "A moat in the foreground",
+      "A brick castle with one tall tower and stepped gables",
+      "A drawbridge, with dark trees and no banners"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 01:22 only a few windows are lit. Cloud cover is about 90%."
+  },
+  {
+    "entry_id": "NL-01-124",
+    "region": "Utrecht",
+    "city": "Woerden",
+    "folder": "Woerden",
+    "caption": "Woerden Castle, Woerden",
+    "composition": "Square brick castle, round towers, and a moat · AI-generated artistic interpretation",
+    "description": "Kasteel van Woerden is a square brick castle in the town, with three round towers, one rectangular tower, a drawbridge, and a moat along the public side. The sky is mainly clear, about 12.6°C, with wind near 6.8 km/h, and a bright moon shows through broken cloud. The later church stands nearby and is not the subject. No guests are shown.",
+    "alt_text": "AI-generated artistic interpretation of Woerden Castle across its moat under a mainly clear night sky",
+    "viewpoint": "From the public singel beside the moat, looking at the castle exterior and the drawbridge. The street edge is the viewpoint. A surveyed tripod mark was not pinned. The courtyard was not entered.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Kasteel_van_Woerden",
+      "https://kasteelwoerden.nl/"
+    ],
+    "anchors": [
+      "A moat across the foreground",
+      "A square brick castle with round towers and one rectangular tower",
+      "A drawbridge, and no church filling the frame"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 01:22 a bright moon is up between clouds; the full moon falls later on 26 September, so the disc looks full. Cloud cover is about 36%."
+  },
+  {
+    "entry_id": "NL-01-125",
+    "region": "South Holland",
+    "city": "Gouda",
+    "folder": "Gouda",
+    "caption": "Waag, Gouda",
+    "composition": "Classicist brick weigh house in the wall of the Markt · AI-generated artistic interpretation",
+    "description": "The Waag in Gouda is a Dutch-classicist brick weigh house in the north wall of the Markt, with a hipped roof, stone-framed windows, and a sculpted pediment. The paving in front is empty. The sky is overcast, about 12.8°C, with wind near 6.1 km/h. The Gothic Stadhuis stands free in the middle of the same square and is behind the camera, not in this frame. No lettering is readable.",
+    "alt_text": "AI-generated artistic interpretation of the Waag on the Markt in Gouda on an overcast night",
+    "viewpoint": "From the Markt paving, looking north at the Waag facade. The square is the viewpoint. A surveyed tripod mark was not pinned. The Stadhuis is behind this camera position.",
+    "references": [
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/16858",
+      "https://www.canonvannederland.nl/nl/zuid-holland/gouda/de-waag-"
+    ],
+    "anchors": [
+      "A brick classicist block set in the square wall, not freestanding Gothic",
+      "A hipped roof and a sculpted pediment without readable letters",
+      "Empty paving, with no cheese stalls"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 01:22 street lamps light the facade. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-126",
+    "region": "South Holland",
+    "city": "Nieuw-Lekkerland",
+    "folder": "Nieuw-Lekkerland",
+    "caption": "Hoge Molen, Nieuw-Lekkerland",
+    "composition": "Two thatched octagonal mills beside a narrow canal · AI-generated artistic interpretation",
+    "description": "De Hoge Molen at Nieuw-Lekkerland is a thatched octagonal wooden drainage mill on a brick base, with its sails at rest beside a narrow boezem. A second thatched mill stands further along the same bank. The sky is overcast, about 14.6°C, with wind near 6.8 km/h. These are not the round brick towers of the Nederwaard row at Kinderdijk.",
+    "alt_text": "AI-generated artistic interpretation of the thatched Hoge Molen and a second mill at Nieuw-Lekkerland on an overcast night",
+    "viewpoint": "From the bank by the Boezemkade, looking at De Hoge Molen with the second thatched mill beyond it. The public bank is the viewpoint. A surveyed tripod mark was not pinned. The Nederwaard avenue is a different canal.",
+    "references": [
+      "https://www.waardkenner.nl/molens-nieuw-lekkerland/",
+      "https://nl.wikipedia.org/wiki/Kinderdijkse_molens"
+    ],
+    "anchors": [
+      "A thatched eight-sided mill, not a round brick tower",
+      "A second thatched mill further along the bank",
+      "A narrow canal, reeds, and flat pasture"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 01:22 the sails are still and the moon is hidden. Cloud cover is about 95%."
+  },
+  {
+    "entry_id": "NL-01-127",
+    "region": "South Holland",
+    "city": "Schoonhoven",
+    "folder": "Schoonhoven",
+    "caption": "Waag, Schoonhoven",
+    "composition": "Compact brick weigh house with an overhanging roof on the Dam · AI-generated artistic interpretation",
+    "description": "The Waag in Schoonhoven is a compact brick weigh house on the Dam, with a roof overhanging on wooden corbels and pale corner pilasters. Neighbouring houses close the small square. The sky is clear, about 12.2°C, with wind near 6.1 km/h, and a bright moon is up. The Haven house-row is a different street. No restaurant name is readable.",
+    "alt_text": "AI-generated artistic interpretation of the Waag on the Dam in Schoonhoven under a clear night sky",
+    "viewpoint": "From the Dam, looking at the Waag front. The small square is the viewpoint. A surveyed tripod mark was not pinned. The Haven quay is not this frame.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Waag_(Schoonhoven)",
+      "https://rijksmonumenten.nl/monument/33422/waag/schoonhoven/"
+    ],
+    "anchors": [
+      "A small brick weigh house, not a classicist palace",
+      "An overhanging roof on wooden corbels",
+      "A modest square between neighbouring houses"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 01:22 a bright moon is up; the full moon falls later on 26 September, so the disc looks full. Cloud cover is about 17%."
+  },
+  {
+    "entry_id": "NL-01-128",
+    "region": "Utrecht",
+    "city": "Vianen",
+    "folder": "Vianen",
+    "caption": "Grote Kerk, Vianen",
+    "composition": "Voorstraat leading to a Gothic church with a blunt tower · AI-generated artistic interpretation",
+    "description": "The Grote Kerk in Vianen closes the Voorstraat: a late Gothic church of brick and pale stone, with a square tower and a short blunt spire. The street of historic houses is empty. The sky is clear, about 13.0°C, with wind near 7.6 km/h, and a bright moon is up. The Lek quay and the Lekpoort are not in this frame. The church is closed at this hour.",
+    "alt_text": "AI-generated artistic interpretation of the Grote Kerk from the Voorstraat in Vianen under a clear night sky",
+    "viewpoint": "From the Voorstraat, looking toward the church front and its blunt tower. The street is the viewpoint. A surveyed tripod mark was not pinned. The Lek is outside this frame.",
+    "references": [
+      "https://www.bezoeklekenlinge.nl/nl/ontdek-tussen-lek-linge/vianen/monumentje/monumenten",
+      "https://www.grotekerkvianen.nl/kunst-en-cultuur/historie-en-bezienswaardigheden/"
+    ],
+    "anchors": [
+      "A street of brick houses leading to the church",
+      "A square tower with a short blunt spire, not a needle",
+      "No river and no city gate"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 01:22 a bright moon is up; the full moon falls later on 26 September, so the disc looks full. Cloud cover is about 9%."
   }
 ]
