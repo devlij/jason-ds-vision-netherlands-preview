@@ -4,12 +4,18 @@
   "region": "South Holland",
   "city": "Rotterdam",
   "caption": "Erasmus Bridge, Rotterdam",
-  "scenario_label": "25 September 2026 \u00b7 18:27 Europe/Amsterdam",
-  "composition": "North-bank view of the white asymmetric pylon over the Nieuwe Maas \u00b7 AI-generated artistic interpretation",
-  "description": "From the north bank of the Nieuwe Maas, the white Erasmus Bridge crosses the river with its single bent pylon and fanning cables. The deck and the water lead the eye, and the city stays behind the span. It is clear, about 22.0\u00b0C, with wind near 8.6 km/h. Late-afternoon sun warms the white steel.",
+  "scenario_label": "25 September 2026 · 18:27 Europe/Amsterdam",
+  "composition": "North-bank view of the white asymmetric pylon over the Nieuwe Maas · AI-generated artistic interpretation",
+  "description": "From the north bank of the Nieuwe Maas, the white Erasmus Bridge crosses the river with its single bent pylon and fanning cables. The deck and the water lead the eye, and the city stays behind the span. It is clear, about 22.0°C, with wind near 8.6 km/h. Late-afternoon sun warms the white steel.",
   "alt_text": "AI-generated artistic interpretation of the Erasmus Bridge in Rotterdam from the north bank on a clear late afternoon",
   "file_16x9": "Netherlands/Rotterdam/nl-01-007-16x9.png",
   "file_4x5": "Netherlands/Rotterdam/nl-01-007-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Cosmo QC 5/5 2026-09-25",
+  "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Erasmus Bridge white cable-stayed pylon (The Swan), deck over the Maas, Rotterdam skyline behind; late-afternoon light matches the 18:27 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:27:50+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:27 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
+  "approved_at": "2026-09-25T22:29:32.523780+00:00",
+  "sha256_16x9": "e361091f59582883c35c964b34cc58f00303fb2bdc8aaa98c3780fc41b89e2b5",
+  "sha256_4x5": "4a65fe3d77da4893a51b1a14cfcf52d02076d64a1cf52f350b75ea51ad63a87d"
 }
