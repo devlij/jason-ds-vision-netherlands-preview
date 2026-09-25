@@ -676,27 +676,6 @@
     "region": "Utrecht",
     "city": "Utrecht",
     "folder": "Utrecht",
-    "caption": "Schröder House, Utrecht",
-    "composition": "Street view of the white De Stijl house at the end of the brick terrace · AI-generated artistic interpretation",
-    "description": "The Rietveld Schröder House is seen from Prins Hendriklaan at night: white and grey planes, thin black lines, and small red, blue, and yellow accents, built against the end of an ordinary brick terrace. The Dom Tower was already used, so this is the Utrecht swap. The sky is clear, about 15.2°C, with wind near 9.0 km/h. Sunset was 19:31, and 23:41 is lamp light only.",
-    "alt_text": "AI-generated artistic interpretation of the Rietveld Schröder House exterior in Utrecht on a clear night",
-    "viewpoint": "Dom Tower was already NL-01-010, so this scene is the Schröder House. Public street view from Prins Hendriklaan, looking at the white end house where it meets the brick terrace. A surveyed tripod mark was not pinned. No Pictoright photograph was supplied to the generator.",
-    "references": [
-      "https://whc.unesco.org/en/list/965/",
-      "https://en.wikipedia.org/wiki/Rietveld_Schröder_House"
-    ],
-    "anchors": [
-      "A small white house of intersecting planes ends a brick terrace",
-      "Black lines and small red, blue, and yellow accents mark the frames",
-      "A quiet residential street at night, with no tower as the subject"
-    ],
-    "solar": "Full night under a clear sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 23:41 the house is lit by street lamps, about four hours after sunset."
-  },
-  {
-    "entry_id": "NL-01-034",
-    "region": "Utrecht",
-    "city": "Utrecht",
-    "folder": "Utrecht",
     "caption": "Oudegracht, Utrecht",
     "composition": "Two-level canal, wharf cellars at the water and the street above · AI-generated artistic interpretation",
     "description": "Along the Oudegracht the canal has two levels: arched brick cellars open onto a low wharf at the water, and the street with gabled houses sits a storey higher. A bridge crosses in the middle distance. The Dom Tower is not the subject. It is clear, about 15.1°C, wind near 9.0 km/h. Sunset was 19:31, so the wharves are lamp-lit.",
@@ -712,6 +691,27 @@
       "The street and gabled houses sit above a retaining wall"
     ],
     "solar": "Full night under a clear sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 23:41 lamps light the brick and reflect in the canal."
+  },
+  {
+    "entry_id": "NL-01-034",
+    "region": "Utrecht",
+    "city": "Utrecht",
+    "folder": "Utrecht",
+    "caption": "Schröder House, Utrecht",
+    "composition": "Street view of the white De Stijl house at the end of the brick terrace · AI-generated artistic interpretation",
+    "description": "The Rietveld Schröder House is seen from Prins Hendriklaan at night: white and grey planes, thin black lines, and small red, blue, and yellow accents, built against the end of an ordinary brick terrace. The Oudegracht wharves are NL-01-033, so this unused Utrecht house takes the next slot. The sky is clear, about 15.2°C, with wind near 9.0 km/h. Sunset was 19:31, and 23:41 is lamp light only.",
+    "alt_text": "AI-generated artistic interpretation of the Rietveld Schröder House exterior in Utrecht on a clear night",
+    "viewpoint": "Oudegracht wharves are NL-01-033, per the correction that Dom Tower was already NL-01-010. This slot is the Schröder House. Public street view from Prins Hendriklaan, looking at the white end house where it meets the brick terrace. A surveyed tripod mark was not pinned. No Pictoright photograph was supplied to the generator.",
+    "references": [
+      "https://whc.unesco.org/en/list/965/",
+      "https://en.wikipedia.org/wiki/Rietveld_Schröder_House"
+    ],
+    "anchors": [
+      "A small white house of intersecting planes ends a brick terrace",
+      "Black lines and small red, blue, and yellow accents mark the frames",
+      "A quiet residential street at night, with no tower as the subject"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 23:41 the house is lit by street lamps, about four hours after sunset."
   },
   {
     "entry_id": "NL-01-035",
@@ -781,21 +781,21 @@
     "region": "North Brabant",
     "city": "Eindhoven",
     "folder": "Eindhoven",
-    "caption": "Van Abbemuseum, Eindhoven",
-    "composition": "Red-brick block and grey leaning tower beside the Dommel at night · AI-generated artistic interpretation",
-    "description": "The Van Abbemuseum exterior pairs the older red-brick block with Abel Cahen's grey slate extension and its leaning tower of diagonal walls. The broadened Dommel reflects the lamps. No artwork is the subject. It is clear, about 15.8°C, wind near 8.6 km/h. Sunset was 19:29. Cube Houses were not repeated.",
-    "alt_text": "AI-generated artistic interpretation of the Van Abbemuseum exterior in Eindhoven on a clear night, brick block and grey leaning tower by the river",
-    "viewpoint": "Cube Houses were already NL-01-008, and Rotterdam already has four scenes, so this is the Van Abbemuseum. From the Dommel side, looking at the brick block and the grey extension together. The public river edge is the viewpoint.",
+    "caption": "Evoluon, Eindhoven",
+    "composition": "White saucer on splayed columns, seen from the lawn at night · AI-generated artistic interpretation",
+    "description": "The Evoluon is a white concrete disc raised on splayed columns, with a glass band under the rim and lawn in front. It is closed at this hour, so the frame stays outside. The sky is clear, about 16.1°C, wind near 10.1 km/h. Sunset was 19:29, and 23:53 is lamp light from below the disc. Cube Houses were not repeated.",
+    "alt_text": "AI-generated artistic interpretation of the Evoluon in Eindhoven on a clear night, the white saucer raised on columns",
+    "viewpoint": "Cube Houses were already NL-01-008, so this is the Evoluon. From the public lawn beside Noord Brabantlaan, looking at the saucer. The lawn is the viewpoint; a surveyed stake was not pinned. No interior exhibition is shown.",
     "references": [
-      "https://vanabbemuseum.nl/",
-      "https://www.archined.nl/2003/01/van-abbemuseum-vernieuwd-en-uitgebreid/"
+      "https://en.wikipedia.org/wiki/Evoluon",
+      "https://nextnature.org/en/museum/evoluon"
     ],
     "anchors": [
-      "River water fills the foreground",
-      "A red-brick museum block stands beside a grey slate extension",
-      "A leaning tower with diagonal walls rises from the new wing; no artwork"
+      "A lawn fills the foreground",
+      "A white circular disc is raised on splayed concrete columns",
+      "A glass band sits under the rim; no readable logo"
     ],
-    "solar": "Full night under a clear sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 23:41 window light and quay lamps light the brick and the grey stone."
+    "solar": "Full night under a clear sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 23:53 lamps under the disc light the concrete, about four and a half hours after sunset."
   },
   {
     "entry_id": "NL-01-039",
