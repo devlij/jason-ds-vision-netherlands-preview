@@ -2686,5 +2686,341 @@
       "No river and no city gate"
     ],
     "solar": "Full night under a clear sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 01:22 a bright moon is up; the full moon falls later on 26 September, so the disc looks full. Cloud cover is about 9%."
+  },
+  {
+    "entry_id": "NL-01-129",
+    "region": "North Holland",
+    "city": "Haarlem",
+    "folder": "Haarlem",
+    "caption": "Teylers Museum, Haarlem",
+    "composition": "1885 Spaarne facade with a columned portico and pediment · AI-generated artistic interpretation",
+    "description": "From the opposite quay the Teylers Museum facade fronts the Spaarne. Brown brick and pale stone, a central portico, an upper loggia, and a pediment with a sculpture group. The museum is closed and the windows are dark. The sky is overcast, about 15.9°C, with wind near 8.6 km/h. St Bavo and the Grote Markt are outside this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Teylers Museum facade on the Spaarne in Haarlem on an overcast night",
+    "viewpoint": "From the Korte Spaarne quay, looking across the water at the 1885 museum facade. The public quay is the viewpoint. A surveyed tripod mark was not pinned. The Grote Markt is not in this frame.",
+    "references": [
+      "https://teylersmuseum.nl/en/discover/building/19th-century-expansions",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/513441"
+    ],
+    "anchors": [
+      "The Spaarne fills the foreground",
+      "A three-bay facade with a columned portico and an upper loggia",
+      "A pediment and sculpture group, with no church tower"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 01:37 quay lamps light the facade. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-130",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "caption": "Centraal Station, Amsterdam",
+    "composition": "IJ-side train shed, quay, and ferry pontoons · AI-generated artistic interpretation",
+    "description": "From the IJ the north side of Amsterdam Centraal is a long iron-and-glass train shed behind the De Ruijterkade and the ferry pontoons. Dark water fills the foreground. The sky is overcast, about 15.7°C, with wind near 7.9 km/h. The ornate twin-tower facade faces Stationsplein, on the other side of the station, and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the IJ side of Amsterdam Centraal Station on an overcast night, with the train shed and ferry quay",
+    "viewpoint": "From the IJ, looking south at the station's north side, the train-shed roof, and the ferry quay on De Ruijterkade. The water is the viewpoint. A surveyed tripod mark was not pinned. Stationsplein is on the far side of the building.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Amsterdam_Centraal_railway_station",
+      "https://nl.wikipedia.org/wiki/De_Ruijterkade"
+    ],
+    "anchors": [
+      "Dark IJ water and ferry pontoons in the foreground",
+      "A long iron-and-glass train-shed roof",
+      "No palace facade and no twin ornamental towers facing the water"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 01:37 quay lamps light the shed. Cloud cover is about 99%."
+  },
+  {
+    "entry_id": "NL-01-131",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "caption": "Overhoeks tower, Amsterdam",
+    "composition": "Rectangular tower with a glazed crown on the north bank of the IJ · AI-generated artistic interpretation",
+    "description": "The Overhoeks tower stands on the north bank of the IJ, a tall rectangular block with a glazed observation crown. A small swing frame sits on the roof edge and is empty, because the lookout is closed. The sky is overcast, about 15.7°C, with wind near 7.9 km/h. No brand letters are shown. The white EYE building is outside the frame.",
+    "alt_text": "AI-generated artistic interpretation of the Overhoeks tower on the IJ in Amsterdam-Noord on an overcast night",
+    "viewpoint": "From the IJpromenade at the foot of the tower, looking up at the crown. The public waterfront is the viewpoint. A surveyed tripod mark was not pinned. The EYE museum is not in this frame.",
+    "references": [
+      "https://www.adamlookout.com/en/skydeck/",
+      "https://www.iamsterdam.com/en/whats-on/calendar/attractions-and-sights/attractions/adam-lookout"
+    ],
+    "anchors": [
+      "A tall rectangular tower on the water",
+      "A glazed crown stepping out at the top",
+      "An empty roof swing, and no readable wordmark"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 01:37 some windows and quay lamps are lit. Cloud cover is about 99%."
+  },
+  {
+    "entry_id": "NL-01-132",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "caption": "Scheepvaartmuseum, Amsterdam",
+    "composition": "17th-century arsenal on the Oosterdok, with a moored sailing ship · AI-generated artistic interpretation",
+    "description": "The Scheepvaartmuseum occupies the old naval arsenal on the Oosterdok: a large square storehouse of pale stone-colored plaster, with angled buttresses and a central pediment. A wooden full-rigged ship lies quiet alongside, with no readable name. The sky is overcast, about 16.2°C, with wind near 7.6 km/h. The glass courtyard roof is indoors. NEMO is outside this frame. The museum is closed.",
+    "alt_text": "AI-generated artistic interpretation of the Scheepvaartmuseum arsenal on the Oosterdok in Amsterdam on an overcast night",
+    "viewpoint": "From the Oosterdok side, looking at the arsenal exterior and the moored ship. The public quay is the viewpoint. A surveyed tripod mark was not pinned. The courtyard is not entered.",
+    "references": [
+      "https://www.hetscheepvaartmuseum.com/whats-on/the-building",
+      "https://ney.partners/project/glass-roof-dutch-maritime-museum/"
+    ],
+    "anchors": [
+      "A pale arsenal block with a central pediment and angled buttresses",
+      "Dark dock water in the foreground",
+      "A moored wooden sailing ship, and no green copper building"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 01:37 a few exterior lamps light the stone. Cloud cover is about 97%."
+  },
+  {
+    "entry_id": "NL-01-133",
+    "region": "South Holland",
+    "city": "Rotterdam",
+    "folder": "Rotterdam",
+    "caption": "Hotel New York, Rotterdam",
+    "composition": "Pier-head building with two corner turrets in the Maas · AI-generated artistic interpretation",
+    "description": "Hotel New York stands at the tip of Wilhelminapier, a pale historic building with two corner turrets and steep roofs, surrounded by the Maas. The quay is quiet. The sky is overcast, about 16.6°C, with wind near 8.6 km/h. No hotel name is readable. The Erasmus Bridge is outside this frame.",
+    "alt_text": "AI-generated artistic interpretation of Hotel New York at the tip of Wilhelminapier in Rotterdam on an overcast night",
+    "viewpoint": "From the water beside the pier head, looking at the turreted building. The public waterside is the viewpoint. A surveyed tripod mark was not pinned. The Erasmus Bridge is not in this frame.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Hotel_New_York_(Rotterdam)",
+      "https://nl.wikipedia.org/wiki/Hotel_New_York_(Rotterdam)"
+    ],
+    "anchors": [
+      "A building at the end of a pier, with water around it",
+      "Two corner turrets and steep roofs",
+      "No cable-stayed bridge and no readable name"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 01:37 quay lamps light the stone. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-134",
+    "region": "South Holland",
+    "city": "Rotterdam",
+    "folder": "Rotterdam",
+    "caption": "De Rotterdam, Rotterdam",
+    "composition": "Three offset glass slabs on Wilhelminapier · AI-generated artistic interpretation",
+    "description": "De Rotterdam rises on Wilhelminapier as three tall glass slabs, shifted against one another, with scattered window lights. Dark water fills the foreground. The sky is overcast, about 16.6°C, with wind near 8.6 km/h. The turreted Hotel New York is a different building and is outside this frame.",
+    "alt_text": "AI-generated artistic interpretation of the De Rotterdam towers on Wilhelminapier on an overcast night",
+    "viewpoint": "From across the water, looking at the stacked glass slabs. The far bank is the viewpoint. A surveyed tripod mark was not pinned. Hotel New York is not in this frame.",
+    "references": [
+      "https://www.oma.com/projects/de-rotterdam",
+      "https://en.wikipedia.org/wiki/De_Rotterdam"
+    ],
+    "anchors": [
+      "Three offset rectangular glass towers",
+      "Scattered lit windows",
+      "Dark water, and no historic turrets"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 01:37 window lights mark the slabs. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-135",
+    "region": "South Holland",
+    "city": "The Hague",
+    "folder": "The Hague",
+    "caption": "Kunstmuseum, The Hague",
+    "composition": "Yellow-brick museum beyond two ponds and a glass walkway · AI-generated artistic interpretation",
+    "description": "The Kunstmuseum, Berlage's yellow-brick museum on Stadhouderslaan, sits beyond two long reflecting ponds and a glass-covered walk. The wings are low and horizontal. The sky is overcast, about 14.7°C, with wind near 7.6 km/h. The museum is closed. This building was called the Gemeentemuseum until 2019.",
+    "alt_text": "AI-generated artistic interpretation of the Kunstmuseum in The Hague from the pond walk on an overcast night",
+    "viewpoint": "From Stadhouderslaan, looking along the glass walk between the two ponds toward the yellow-brick entrance. The public approach is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.kunstmuseum.nl/en/museum/our-story/museum-building",
+      "https://monumentenzorgdenhaag.nl/monumenten/stadhouderslaan-41"
+    ],
+    "anchors": [
+      "Two rectangular ponds in the foreground",
+      "A glass walk between the ponds",
+      "Low yellow-brick wings, with no posters"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 01:37 a few lamps reflect in the ponds. Cloud cover is about 92%."
+  },
+  {
+    "entry_id": "NL-01-136",
+    "region": "South Holland",
+    "city": "The Hague",
+    "folder": "The Hague",
+    "caption": "Paleis Noordeinde, The Hague",
+    "composition": "Neoclassical palace facade and an equestrian statue on the street axis · AI-generated artistic interpretation",
+    "description": "Paleis Noordeinde closes the view down the street: a pale neoclassical facade with a central pediment, set behind an iron fence. An equestrian statue stands on the street axis in front of the gates. The sky is overcast, about 15.2°C, with wind near 7.2 km/h. The street is empty. This is not the Binnenhof.",
+    "alt_text": "AI-generated artistic interpretation of Paleis Noordeinde from the street in The Hague on an overcast night",
+    "viewpoint": "From Noordeinde, looking at the palace front and the equestrian statue. The public street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.royal-house.nl/topics/palaces/noordeinde-palace",
+      "https://en.wikipedia.org/wiki/Noordeinde_Palace"
+    ],
+    "anchors": [
+      "A pale neoclassical facade with a central pediment",
+      "An iron fence and a forecourt",
+      "An equestrian statue in the middle of the street"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 01:38 street lamps light the facade. Cloud cover is about 95%."
+  },
+  {
+    "entry_id": "NL-01-137",
+    "region": "South Holland",
+    "city": "Leiden",
+    "folder": "Leiden",
+    "caption": "Burcht, Leiden",
+    "composition": "Open circular brick keep on a mound above the river split · AI-generated artistic interpretation",
+    "description": "The Burcht in Leiden is a circular brick shell keep with crenellations and no roof, standing on a grassy mound where the river branches meet. Trees cover the slope, and a stair climbs to a small gate. The sky is overcast, about 15.9°C, with wind near 7.9 km/h. Rapenburg is a different canal and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Burcht shell keep on its mound in Leiden on an overcast night",
+    "viewpoint": "From the water at the foot of the mound, looking up at the brick ring. The public bank is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Burcht_van_Leiden",
+      "https://www.visitleiden.nl/en/locations/2065675949/de-burcht"
+    ],
+    "anchors": [
+      "A round brick wall with battlements and no roof",
+      "A wooded mound and a stair",
+      "Dark water at the base, and no church spire"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 01:38 a few path lamps light the brick. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-138",
+    "region": "South Holland",
+    "city": "Delft",
+    "folder": "Delft",
+    "caption": "Oostpoort, Delft",
+    "composition": "Brick gate with octagonal tower tops and a side water gate · AI-generated artistic interpretation",
+    "description": "Oostpoort is Delft's remaining city gate, spanning a canal. Two brick towers turn octagonal near the top and carry slender spires. A smaller water gate sits at a right angle, joined by a short wall. The sky is overcast, about 16.4°C, with wind near 7.6 km/h. The Markt and the Oude Kerk are other places and are not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Oostpoort gate over a canal in Delft on an overcast night",
+    "viewpoint": "From the canal bank, looking at the land gate and the water gate. The public quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Eastern_Gate_(Delft)",
+      "https://www.monumenten.nl/monument/11968"
+    ],
+    "anchors": [
+      "Two brick towers with octagonal upper stages and slender spires",
+      "A canal and a small bridge",
+      "A smaller water gate set to the side"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 01:38 lamps reflect in the canal. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-139",
+    "region": "South Holland",
+    "city": "Dordrecht",
+    "folder": "Dordrecht",
+    "caption": "Huis Van Gijn, Dordrecht",
+    "composition": "Louis XIV canal house with a straight cornice on Nieuwe Haven · AI-generated artistic interpretation",
+    "description": "Huis Van Gijn fronts Nieuwe Haven, beside Wolwevershaven: a wide 1729 house with a straight cornice, a hipped roof, five window bays, and an ornate doorway with a stoop. Dark water fills the foreground. The sky is mainly clear, about 16.5°C, with wind near 8.6 km/h, and a bright moon is up. The Grote Kerk is outside this frame. The museum is closed.",
+    "alt_text": "AI-generated artistic interpretation of Huis Van Gijn on the harbor in Dordrecht under a mainly clear night sky",
+    "viewpoint": "From the opposite quay of Nieuwe Haven, looking at the house front. The public quay is the viewpoint. A surveyed tripod mark was not pinned. The Grote Kerk is not in this frame.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Huis_van_Gijn",
+      "https://www.dordtsemonumenten.nl/rm/nieuwe-haven-29"
+    ],
+    "anchors": [
+      "Harbor water in the foreground",
+      "A straight cornice and a hipped roof, not a stepped gable",
+      "Five window bays and an ornate stoop"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 01:38 a bright moon is up; the full moon falls later on 26 September, so the disc looks full. Cloud cover is about 45%."
+  },
+  {
+    "entry_id": "NL-01-140",
+    "region": "Utrecht",
+    "city": "Utrecht",
+    "folder": "Utrecht",
+    "caption": "Domplein, Utrecht",
+    "composition": "Unfinished west wall of the Domkerk and nave lines in the square · AI-generated artistic interpretation",
+    "description": "On Domplein the view looks east to the Domkerk. The west wall is a low, unfinished Gothic front, because the nave between church and tower fell in 1674. Pale lines in the cobbles mark that missing nave. The sky is partly cloudy, about 14.3°C, with wind near 8.3 km/h. The freestanding Dom Tower is behind the camera and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of Domplein in Utrecht at night, looking at the Domkerk's unfinished west wall",
+    "viewpoint": "From the west side of Domplein, looking east at the Domkerk, with the Dom Tower behind the camera. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/St._Martin%27s_Cathedral,_Utrecht",
+      "https://nl.wikipedia.org/wiki/Domplein"
+    ],
+    "anchors": [
+      "A low unfinished church wall, not a tall tower",
+      "Cobbles with pale lines marking a missing nave",
+      "No freestanding spire in the frame"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 01:38 the moon is mostly behind cloud. Cloud cover is about 72%."
+  },
+  {
+    "entry_id": "NL-01-141",
+    "region": "North Brabant",
+    "city": "Breda",
+    "folder": "Breda",
+    "caption": "Mastbos, Breda",
+    "composition": "Straight sandy lane of pines and beech at the forest edge · AI-generated artistic interpretation",
+    "description": "At the Mastbos edge near Ginneken a straight sandy lane runs between Scots pines and beeches. The trees are still in leaf in late September, with a little early yellow and no flower color. The sky is clear, about 11.5°C, with wind near 6.5 km/h, and a bright moon is up. Breda Castle is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of a sandy lane at the edge of Mastbos near Breda under a clear night sky",
+    "viewpoint": "From a public lane at the northern edge of Mastbos, near Ginneken, looking into the trees. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Mastbos",
+      "https://www.staatsbosbeheer.nl/uit-in-de-natuur/boswachterijen/mastbos"
+    ],
+    "anchors": [
+      "A straight sandy forest lane",
+      "Tall pines and beeches still in leaf",
+      "No castle and no houses"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 01:38 a bright moon is up; the full moon falls later on 26 September, so the disc looks full. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-142",
+    "region": "North Brabant",
+    "city": "Eindhoven",
+    "folder": "Eindhoven",
+    "caption": "Lichttoren, Eindhoven",
+    "composition": "White seven-sided concrete factory tower on a rounded corner block · AI-generated artistic interpretation",
+    "description": "The Lichttoren at the Emmasingel is a white concrete factory tower, about seven-sided, rising from a rounded corner block with long horizontal wings. A few windows are lit. The sky is clear, about 13.8°C, with wind near 8.3 km/h, and a bright moon is up. No company wordmark is shown. The Evoluon is a different building and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the white Lichttoren in Eindhoven under a clear night sky",
+    "viewpoint": "From the Emmasingel corner, looking at the white tower and the adjoining wings. The public street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Lichttoren_(Eindhoven)",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/518717"
+    ],
+    "anchors": [
+      "A white concrete tower, not a brick church",
+      "A rounded corner block and horizontal wings",
+      "No wordmark and no saucer-shaped building"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 01:38 a bright moon is up; the full moon falls later on 26 September, so the disc looks full. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-143",
+    "region": "Limburg",
+    "city": "Maastricht",
+    "folder": "Maastricht",
+    "caption": "Helpoort, Maastricht",
+    "composition": "Coal-sandstone gate with two round towers and a city wall · AI-generated artistic interpretation",
+    "description": "Helpoort stands at the south edge of the old city: grey-brown coal sandstone, two semicircular towers with slate conical roofs, and a narrow passage between them. A stretch of city wall runs toward a smaller round tower. The sky is clear, about 14.5°C, with wind near 11.5 km/h, and a bright moon is up. Vrijthof and Saint Servatius are not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Helpoort gate in Maastricht under a clear night sky",
+    "viewpoint": "From the field side by the Stadspark, looking at the two towers and the wall. The public path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Helpoort_(Maastricht)",
+      "https://www.visitmaastricht.com/en/locations/906385495/helpoort-gate"
+    ],
+    "anchors": [
+      "Two round towers with slate caps",
+      "A narrow gate passage of coal sandstone",
+      "A city wall running to the side"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 01:38 a bright moon is up; the full moon falls later on 26 September, so the disc looks full. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-144",
+    "region": "Groningen",
+    "city": "Groningen",
+    "folder": "Groningen",
+    "caption": "Forum, Groningen",
+    "composition": "Stacked stone-and-glass blocks from the west side · AI-generated artistic interpretation",
+    "description": "Forum Groningen, seen from the west, is a stack of irregular stone and glass blocks with a stepped silhouette. Some interior lights are on. The sky is partly cloudy, about 12.5°C, with wind near 7.2 km/h. The Martinitoren stands on the other side of the building and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of Forum Groningen from the west side on a partly cloudy night",
+    "viewpoint": "From the west side, toward Nieuwe Markt, looking at the stacked blocks. The public square is the viewpoint. A surveyed tripod mark was not pinned. The Martinitoren is behind the building.",
+    "references": [
+      "https://www.forum.nl/en",
+      "https://nl.wikipedia.org/wiki/Forum_Groningen"
+    ],
+    "anchors": [
+      "Irregular stacked rectangular blocks",
+      "Stone and glass, with interior lights",
+      "No church tower in the frame"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:22 Europe/Amsterdam and model is_day 0. At 01:38 street lamps light the base, and the moon shows only in breaks. Cloud cover is about 58%."
   }
 ]

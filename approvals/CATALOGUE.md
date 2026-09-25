@@ -1,6 +1,6 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-128. IDs are not reused.
+NL-01-001 through NL-01-144. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
 NL-01-033 through NL-01-048 swaps:
 - NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.
@@ -50,6 +50,24 @@ NL-01-113 through NL-01-128 swaps:
 - NL-01-126: the Nederwaard brick row remains NL-01-003. This is the thatched pair at Nieuw-Lekkerland, not the Kinderdijk avenue.
 - NL-01-127: the Waag stands on the Dam, not on the Haven house-row. No restaurant name is shown.
 - NL-01-128: the Grote Kerk fronts the Voorstraat. The Lek quay and the Lekpoort are not in this frame. The church is closed at this hour.
+- The other suggested sites in this batch were not already used.
+NL-01-129 through NL-01-144 swaps:
+- NL-01-129: Grote Markt and St Bavo remain NL-01-012. This is the Teylers Museum facade on the Spaarne, from the opposite quay. The church is outside the frame.
+- NL-01-130: the Cuypers palace facade faces Stationsplein, away from the water. This frame is the IJ side: the train-shed roof, De Ruijterkade, and the ferry quay. The twin-tower front is not shown.
+- NL-01-131: the lookout closes at 22:00, so the roof swing is empty. Brand letters are not shown. The caption is Overhoeks tower, Amsterdam. The EYE building is outside the frame.
+- NL-01-132: the glass courtyard roof is indoors, and the museum is closed at this hour. The scene is the arsenal exterior on the Oosterdok. NEMO remains NL-01-021 and is outside the frame.
+- NL-01-133: Hotel New York is the pier-head building. The Erasmus Bridge remains NL-01-007 and is outside the frame. No hotel name is readable.
+- NL-01-134: De Rotterdam is the offset glass slabs. Hotel New York is a separate scene and is outside the frame.
+- NL-01-135: the museum was the Gemeentemuseum until 2019 and is now the Kunstmuseum. The viewpoint is the pond walk on Stadhouderslaan. Binnenhof, Peace Palace, Scheveningen pier, and Kurhaus are other scenes.
+- NL-01-136: Paleis Noordeinde from the street, with the equestrian statue on the axis. Not the Binnenhof.
+- NL-01-137: the Burcht is the open brick ring on the mound. Rapenburg remains NL-01-013.
+- NL-01-138: Oostpoort is the land gate with octagonal upper stages plus the side water gate. Markt remains NL-01-011 and Oude Kerk remains NL-01-080.
+- NL-01-139: Grote Kerk remains NL-01-032. This is Huis Van Gijn, a straight-cornice house on Nieuwe Haven beside Wolwevershaven. The church is outside the frame.
+- NL-01-140: the Beatrix Theatre is a hall inside the Beatrixgebouw, whose public face carries changing advertising, so that exterior was not used. Schröder House remains NL-01-034 and the Dom Tower remains NL-01-010. This is Domplein looking east at the Domkerk’s unfinished west wall, with the tower behind the camera.
+- NL-01-141: Breda Castle remains NL-01-039. The Begijnhof was unused, and the requested frame is the Mastbos edge near Ginneken. Late September: trees still in leaf, a little early yellow, no flower display.
+- NL-01-142: Evoluon remains NL-01-038. The recognizable exterior is the white Lichttoren. No company wordmark is shown.
+- NL-01-143: Helpoort is coal sandstone with two round towers, not a brick gate. Vrijthof remains NL-01-014 and Saint Servatius remains NL-01-049.
+- NL-01-144: Martinitoren remains NL-01-060. This is Forum from the west side, so the church tower is behind the camera.
 - The other suggested sites in this batch were not already used.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
@@ -180,3 +198,19 @@ NL-01-113 through NL-01-128 swaps:
 - NL-01-126 — Hoge Molen, Nieuw-Lekkerland — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:50+02:00
 - NL-01-127 — Waag, Schoonhoven — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:52+02:00
 - NL-01-128 — Grote Kerk, Vianen — 26 September 2026 · 01:22 Europe/Amsterdam — retrieved 2026-09-26T01:22:55+02:00
+- NL-01-129 — Teylers Museum, Haarlem — 26 September 2026 · 01:37 Europe/Amsterdam — retrieved 2026-09-26T01:37:41+02:00
+- NL-01-130 — Centraal Station, Amsterdam — 26 September 2026 · 01:37 Europe/Amsterdam — retrieved 2026-09-26T01:37:44+02:00
+- NL-01-131 — Overhoeks tower, Amsterdam — 26 September 2026 · 01:37 Europe/Amsterdam — retrieved 2026-09-26T01:37:46+02:00
+- NL-01-132 — Scheepvaartmuseum, Amsterdam — 26 September 2026 · 01:37 Europe/Amsterdam — retrieved 2026-09-26T01:37:49+02:00
+- NL-01-133 — Hotel New York, Rotterdam — 26 September 2026 · 01:37 Europe/Amsterdam — retrieved 2026-09-26T01:37:52+02:00
+- NL-01-134 — De Rotterdam, Rotterdam — 26 September 2026 · 01:37 Europe/Amsterdam — retrieved 2026-09-26T01:37:54+02:00
+- NL-01-135 — Kunstmuseum, The Hague — 26 September 2026 · 01:37 Europe/Amsterdam — retrieved 2026-09-26T01:37:57+02:00
+- NL-01-136 — Paleis Noordeinde, The Hague — 26 September 2026 · 01:38 Europe/Amsterdam — retrieved 2026-09-26T01:38:00+02:00
+- NL-01-137 — Burcht, Leiden — 26 September 2026 · 01:38 Europe/Amsterdam — retrieved 2026-09-26T01:38:03+02:00
+- NL-01-138 — Oostpoort, Delft — 26 September 2026 · 01:38 Europe/Amsterdam — retrieved 2026-09-26T01:38:05+02:00
+- NL-01-139 — Huis Van Gijn, Dordrecht — 26 September 2026 · 01:38 Europe/Amsterdam — retrieved 2026-09-26T01:38:08+02:00
+- NL-01-140 — Domplein, Utrecht — 26 September 2026 · 01:38 Europe/Amsterdam — retrieved 2026-09-26T01:38:11+02:00
+- NL-01-141 — Mastbos, Breda — 26 September 2026 · 01:38 Europe/Amsterdam — retrieved 2026-09-26T01:38:13+02:00
+- NL-01-142 — Lichttoren, Eindhoven — 26 September 2026 · 01:38 Europe/Amsterdam — retrieved 2026-09-26T01:38:16+02:00
+- NL-01-143 — Helpoort, Maastricht — 26 September 2026 · 01:38 Europe/Amsterdam — retrieved 2026-09-26T01:38:19+02:00
+- NL-01-144 — Forum, Groningen — 26 September 2026 · 01:38 Europe/Amsterdam — retrieved 2026-09-26T01:38:21+02:00

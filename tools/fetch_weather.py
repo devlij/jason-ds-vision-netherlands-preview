@@ -30,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-113", "Waddenhaven", "Nes", 53.4374921, 5.7755243, "Europe/Amsterdam"),
-    ("NL-01-114", "Brandaris", "West-Terschelling", 53.3603213, 5.2142392, "Europe/Amsterdam"),
-    ("NL-01-115", "Veerdam", "Oost-Vlieland", 53.2963601, 5.0753435, "Europe/Amsterdam"),
-    ("NL-01-116", "Noordertoren", "Schiermonnikoog", 53.4868377, 6.1465305, "Europe/Amsterdam"),
-    ("NL-01-117", "Harbour", "Den Oever", 52.9297180, 5.0296561, "Europe/Amsterdam"),
-    ("NL-01-118", "Vlietermonument", "Afsluitdijk", 52.9689621, 5.1089810, "Europe/Amsterdam"),
-    ("NL-01-119", "Drommedaris", "Enkhuizen", 52.7007438, 5.2929862, "Europe/Amsterdam"),
-    ("NL-01-120", "Radboud Castle", "Medemblik", 52.7724319, 5.1131257, "Europe/Amsterdam"),
-    ("NL-01-121", "Kaasmarkt", "Purmerend", 52.5097279, 4.9459736, "Europe/Amsterdam"),
-    ("NL-01-122", "Lange Vechtbrug", "Weesp", 52.3071340, 5.0450156, "Europe/Amsterdam"),
-    ("NL-01-123", "Nijenrode Castle", "Breukelen", 52.1639837, 5.0093589, "Europe/Amsterdam"),
-    ("NL-01-124", "Woerden Castle", "Woerden", 52.0851688, 4.8878214, "Europe/Amsterdam"),
-    ("NL-01-125", "Waag", "Gouda", 52.0123264, 4.7108844, "Europe/Amsterdam"),
-    ("NL-01-126", "Hoge Molen", "Nieuw-Lekkerland", 51.8858428, 4.6490561, "Europe/Amsterdam"),
-    ("NL-01-127", "Waag", "Schoonhoven", 51.9467115, 4.8516204, "Europe/Amsterdam"),
-    ("NL-01-128", "Grote Kerk", "Vianen", 51.9924001, 5.0934907, "Europe/Amsterdam"),
+    ("NL-01-129", "Teylers Museum", "Haarlem", 52.3804, 4.6402, "Europe/Amsterdam"),
+    ("NL-01-130", "Centraal Station", "Amsterdam", 52.3799, 4.9003, "Europe/Amsterdam"),
+    ("NL-01-131", "Overhoeks tower", "Amsterdam", 52.3841, 4.9022, "Europe/Amsterdam"),
+    ("NL-01-132", "Scheepvaartmuseum", "Amsterdam", 52.3716, 4.9148, "Europe/Amsterdam"),
+    ("NL-01-133", "Hotel New York", "Rotterdam", 51.9042, 4.4847, "Europe/Amsterdam"),
+    ("NL-01-134", "De Rotterdam", "Rotterdam", 51.9066, 4.4873, "Europe/Amsterdam"),
+    ("NL-01-135", "Kunstmuseum", "The Hague", 52.0880, 4.2806, "Europe/Amsterdam"),
+    ("NL-01-136", "Paleis Noordeinde", "The Hague", 52.0804, 4.3069, "Europe/Amsterdam"),
+    ("NL-01-137", "Burcht", "Leiden", 52.1588, 4.4925, "Europe/Amsterdam"),
+    ("NL-01-138", "Oostpoort", "Delft", 52.0111, 4.3681, "Europe/Amsterdam"),
+    ("NL-01-139", "Huis Van Gijn", "Dordrecht", 51.8156, 4.6672, "Europe/Amsterdam"),
+    ("NL-01-140", "Domplein", "Utrecht", 52.0908, 5.1216, "Europe/Amsterdam"),
+    ("NL-01-141", "Mastbos", "Breda", 51.5455, 4.7760, "Europe/Amsterdam"),
+    ("NL-01-142", "Lichttoren", "Eindhoven", 51.4406, 5.4788, "Europe/Amsterdam"),
+    ("NL-01-143", "Helpoort", "Maastricht", 50.8436, 5.6922, "Europe/Amsterdam"),
+    ("NL-01-144", "Forum", "Groningen", 53.2192, 6.5680, "Europe/Amsterdam"),
 ]
 
 
