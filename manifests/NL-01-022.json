@@ -4,12 +4,18 @@
   "region": "North Holland",
   "city": "Volendam",
   "caption": "Harbour, Volendam",
-  "scenario_label": "25 September 2026 \u00b7 23:05 Europe/Amsterdam",
-  "composition": "Night harbour, dark wooden houses along the dike, moored boats \u00b7 AI-generated artistic interpretation",
-  "description": "Volendam harbour at night shows dark wooden houses with white window frames along the dike, and fishing boats in lamp-lit water. The air is cooler here, about 13.4\u00b0C, mainly clear with cloud cover about 43% and wind near 8.6 km/h. No costume group is the subject. Sunset was 19:31, so the harbour is fully dark except for lamps.",
+  "scenario_label": "25 September 2026 · 23:05 Europe/Amsterdam",
+  "composition": "Night harbour, dark wooden houses along the dike, moored boats · AI-generated artistic interpretation",
+  "description": "Volendam harbour at night shows dark wooden houses with white window frames along the dike, and fishing boats in lamp-lit water. The air is cooler here, about 13.4°C, mainly clear with cloud cover about 43% and wind near 8.6 km/h. No costume group is the subject. Sunset was 19:31, so the harbour is fully dark except for lamps.",
   "alt_text": "AI-generated artistic interpretation of Volendam harbour at night, with wooden houses and moored boats",
   "file_16x9": "Netherlands/Volendam/nl-01-022-16x9.png",
   "file_4x5": "Netherlands/Volendam/nl-01-022-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 PASS: Volendam harbour at night — row of traditional dark-green gabled houses on the dike with warm lit windows, fishing boats moored along the quay, reflections on dark water; plausible, no artifacts. G2: exact dims verified; on-image 'Harbour, Volendam', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:15+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public harbour, documented only. G5: complete.",
+  "approved_at": "2026-09-25T23:46:16.528298+00:00",
+  "sha256_16x9": "2f6ed6d99946962b53cefac79706fd2b674978ecd84d441b19572c78a036d999",
+  "sha256_4x5": "beecd70e828ddd6121412ae44a2a05d67373f5d6561c70562fafd1eadd3d2b13"
 }
