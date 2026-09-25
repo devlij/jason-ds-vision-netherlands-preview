@@ -32,8 +32,8 @@ def main() -> None:
     errors: list[str] = []
     approvals = sorted((ROOT / "approvals").glob("NL-*.md"))
     manifests = sorted((ROOT / "manifests").glob("NL-*.json"))
-    if len(approvals) != 80 or len(manifests) != 80:
-        errors.append(f"expected 80 notes, found approvals={len(approvals)} manifests={len(manifests)}")
+    if len(approvals) != 96 or len(manifests) != 96:
+        errors.append(f"expected 96 notes, found approvals={len(approvals)} manifests={len(manifests)}")
     stamps = []
     for path in approvals:
         text = path.read_text()
@@ -161,8 +161,14 @@ def main() -> None:
             errors.append(f"index missing {needle}")
     if "dataset.src45" in index or "dataset.src16" in index:
         errors.append("index uses camelCase dataset")
-    if index.count("NL-01-") < 80:
+    if index.count("NL-01-") < 96:
         errors.append("index does not list all entry ids")
+    for n in range(1, 11):
+        approved = json.loads((ROOT / "manifests" / f"NL-01-{n:03d}.json").read_text())
+        if approved.get("approval_status") != "Approved":
+            errors.append(f"NL-01-{n:03d} lost Cosmo approval_status")
+        if f'"entry_id": "NL-01-{n:03d}"' not in index or '"approval_status": "Approved"' not in index:
+            errors.append("index missing an Approved scene")
 
     if errors:
         print("QC FAIL")

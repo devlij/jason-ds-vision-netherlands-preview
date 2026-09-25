@@ -1678,5 +1678,341 @@
       "Canal houses and trees in leaf stand opposite"
     ],
     "solar": "Full night under an overcast sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 00:19 lamps reflect in the canal. Cloud cover is about 90%."
+  },
+  {
+    "entry_id": "NL-01-081",
+    "region": "Friesland",
+    "city": "Holwerd",
+    "folder": "Holwerd",
+    "caption": "Ferry terminal, Holwerd",
+    "composition": "Empty Wadden pier and dark berth at the Ameland ferry terminal · AI-generated artistic interpretation",
+    "description": "From the dike at Holwerd the concrete pier and steel ramps run out to an empty berth on the Wadden Sea. No ferry is alongside after midnight. The terminal is a low dark block with a few lamps. The sky is partly cloudy, about 12.1°C, with wind near 6.8 km/h and no rain. Sunset was 19:25. The channel is dark water; a measured tide was not retrieved.",
+    "alt_text": "AI-generated artistic interpretation of the empty Holwerd ferry terminal on the Wadden Sea on a partly cloudy night",
+    "viewpoint": "From the public approach at the ferry terminal on Grândyk, Holwerd, looking along the pier to the berth. A surveyed tripod mark was not pinned. Lauwersoog was not used.",
+    "references": [
+      "https://www.vvvameland.com/practical/transport-on-to-ameland/ferry-timetable",
+      "https://www.fietsnetwerk.nl/en/places/ferry-service-holwerd-ameland-holwerd/"
+    ],
+    "anchors": [
+      "A long concrete pier and steel ramps lead to an empty berth",
+      "No ferry and no queue of cars",
+      "Flat dark water and a low terminal with a few lamps"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 00:37 a few terminal lamps light the empty pier. Cloud cover is about 57%."
+  },
+  {
+    "entry_id": "NL-01-082",
+    "region": "Groningen",
+    "city": "Zoutkamp",
+    "folder": "Zoutkamp",
+    "caption": "Harbour, Zoutkamp",
+    "composition": "Painted cottages along the inner harbour on the Reitdiep · AI-generated artistic interpretation",
+    "description": "The inner harbour at Zoutkamp is quiet after midnight. Small wooden cottages painted red, ochre, green, and blue line the Reitdiep, and a few boats lie moored with sails down. This is not the Whitsun return of the shrimp fleet. The sky is partly cloudy, about 9.2°C, with wind near 5.8 km/h and no rain. Sunset was 19:23. Hulls carry no readable names.",
+    "alt_text": "AI-generated artistic interpretation of Zoutkamp harbour and the painted cottages on a partly cloudy night",
+    "viewpoint": "From the Reitdiepskade, looking across the inner harbour at the painted cottages. The public quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.visitgroningen.nl/en/locations/760620856/harbour-of-salt-camp",
+      "https://www.visitgroningen.nl/en/places/waddenland/salt-camp"
+    ],
+    "anchors": [
+      "Dark harbour water fills the foreground",
+      "A row of small brightly painted wooden cottages lines the quay",
+      "Boats are moored with sails down"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:23 Europe/Amsterdam and model is_day 0. At 00:38 a few windows and quay lamps are lit. Cloud cover is about 55%."
+  },
+  {
+    "entry_id": "NL-01-083",
+    "region": "Drenthe",
+    "city": "Assen",
+    "folder": "Assen",
+    "caption": "Drents Museum, Assen",
+    "composition": "Brick coach house on a low dark glass strip, museum closed · AI-generated artistic interpretation",
+    "description": "The Drents Museum entrance in Assen is the old brick coach house, raised only a short step on a glass strip, with its historic facade kept. After midnight the museum is closed, so the glass is dark and only a path lamp lights the brick. A low grass roof with a curved skylight sits beside it. The sky is mainly clear, about 11.2°C, with wind near 7.2 km/h. Sunset was 19:22. Trees are still in leaf.",
+    "alt_text": "AI-generated artistic interpretation of the closed Drents Museum coach-house entrance in Assen on a mainly clear night",
+    "viewpoint": "From the path at the coach-house entrance on the museum side of the Brink. The public path is the viewpoint. A surveyed tripod mark was not pinned. The glass plinth is the low strip described by the museum, not a glass storey.",
+    "references": [
+      "https://drentsmuseum.nl/en/ons-gebouw",
+      "https://www.dezeen.com/2011/10/27/drents-museum-by-erick-van-egeraat/"
+    ],
+    "anchors": [
+      "A brick coach house with a tiled roof is the entrance",
+      "It sits on a low dark glass strip, not a glowing hall",
+      "A grass roof and one curved skylight lie beside the path"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:22 Europe/Amsterdam and model is_day 0. At 00:38 one path lamp lights the closed entrance. Cloud cover is about 37%."
+  },
+  {
+    "entry_id": "NL-01-084",
+    "region": "Utrecht",
+    "city": "Amerongen",
+    "folder": "Amerongen",
+    "caption": "Amerongen Castle, Amerongen",
+    "composition": "Dutch Baroque brick house, one corner tower, and a moat · AI-generated artistic interpretation",
+    "description": "Kasteel Amerongen is a sober brick house across a moat, with regular white-framed windows, a hipped roof, and one older corner tower. It is not a turreted fairy-tale castle. The house is closed, so the windows are dark. The sky is clear, about 10.8°C, with wind near 10.4 km/h. Sunset was 19:27. A brick stair bridge crosses the moat. Trees are still in leaf.",
+    "alt_text": "AI-generated artistic interpretation of Amerongen Castle across its moat on a clear night",
+    "viewpoint": "From the outer bank of the moat, looking at the Baroque front and the surviving corner tower. The public bank is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Castle_Amerongen",
+      "https://www.kasteleninnederland.nl/kasteel-fotos.php?id=2"
+    ],
+    "anchors": [
+      "A symmetrical brick house stands across a moat",
+      "One older corner tower is lower than a fantasy spire",
+      "A brick stair bridge leads to a dark front"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 00:38 a few exterior lamps light the brick. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-085",
+    "region": "Gelderland",
+    "city": "Poederoijen",
+    "folder": "Poederoijen",
+    "caption": "Slot Loevestein, Poederoijen",
+    "composition": "Two square towers, a gate wall, and a round powder tower · AI-generated artistic interpretation",
+    "description": "Slot Loevestein stands in its moat at Poederoijen, a medieval brick castle with two square towers joined by a gate wall, and a round powder tower on the grass rampart. The museum is closed and no ferry is at the bank. The sky is clear, about 12.9°C, with wind near 11.2 km/h. Sunset was 19:29. The windows are dark.",
+    "alt_text": "AI-generated artistic interpretation of Slot Loevestein at Poederoijen on a clear night",
+    "viewpoint": "From outside the moat, looking at the two square towers and the round powder tower on the rampart. The public outer bank is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Slot_Loevestein",
+      "https://www.slotloevestein.nl/"
+    ],
+    "anchors": [
+      "Two square brick towers flank a gate wall",
+      "A round tower stands on the grass rampart",
+      "Dark moat water fills the foreground and no boat is alongside"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 00:38 modest wall lamps light the brick. Cloud cover is about 4%."
+  },
+  {
+    "entry_id": "NL-01-086",
+    "region": "South Holland",
+    "city": "Gorinchem",
+    "folder": "Gorinchem",
+    "caption": "Linge harbour, Gorinchem",
+    "composition": "Narrow town harbour and the church tower beyond the gables · AI-generated artistic interpretation",
+    "description": "From a low bridge the Linge harbour in Gorinchem runs between brick gabled houses, with boats moored and the tall church tower closing the view. Terraces are empty after midnight. The sky is clear, about 14.0°C, with wind near 11.2 km/h. Sunset was 19:29. Hulls carry no readable names. This frame is the harbour, not the Dalempoort.",
+    "alt_text": "AI-generated artistic interpretation of the Linge harbour in Gorinchem on a clear night",
+    "viewpoint": "From the Korenbrug, looking along the Lingehaven toward the Grote Kerk tower. The public bridge is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.lingehavengorinchem.nl/",
+      "https://en.wikipedia.org/wiki/Gorinchem"
+    ],
+    "anchors": [
+      "Narrow harbour water runs between brick quays",
+      "Gabled houses line both sides",
+      "A tall brick church tower closes the vista"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 00:38 quay lamps reflect in the water. Cloud cover is about 2%."
+  },
+  {
+    "entry_id": "NL-01-087",
+    "region": "South Holland",
+    "city": "Brielle",
+    "folder": "Brielle",
+    "caption": "Harbour, Brielle",
+    "composition": "Brick city gate and the Catharijnekerk tower over the harbour · AI-generated artistic interpretation",
+    "description": "Across the harbour at Brielle, a brick city gate with one arch sits in front of the grass rampart, and the tall brick tower of the Sint-Catharijnekerk rises behind it. The sky is overcast, about 14.6°C, with wind near 9.0 km/h and no rain. Sunset was 19:32. A few boats are moored without readable names. The quay is empty.",
+    "alt_text": "AI-generated artistic interpretation of Brielle harbour, the city gate, and the church tower on an overcast night",
+    "viewpoint": "From the harbour, looking toward the city gate and the Sint-Catharijnekerk tower. The public water side is the viewpoint. A surveyed tripod mark was not pinned. The exact overlap of gate and tower is the standing approach, not a surveyed camera mark.",
+    "references": [
+      "https://www.catharijnekerk.nl/",
+      "https://www.opvoorneputten.nl/routes/2104575486/de-brielse-stadswallen"
+    ],
+    "anchors": [
+      "Dark harbour water fills the foreground",
+      "A brick gate with one arch stands by the rampart",
+      "A tall brick church tower rises behind the gate"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 00:38 quay lamps light the gate and the tower. Cloud cover is about 98%."
+  },
+  {
+    "entry_id": "NL-01-088",
+    "region": "South Holland",
+    "city": "Hoek van Holland",
+    "folder": "Hoek van Holland",
+    "caption": "Beach, Hoek van Holland",
+    "composition": "Empty sand and the stone pier at the harbour mouth · AI-generated artistic interpretation",
+    "description": "The beach at Hoek van Holland is empty after midnight. Wet sand runs to the sea, and a long stone pier reaches into the dark water with one small light at the harbour mouth. The sky is overcast, about 17.0°C, with wind near 8.3 km/h and no rain. Sunset was 19:32. No beach-club fronts are in the frame.",
+    "alt_text": "AI-generated artistic interpretation of the empty beach and harbour-mouth pier at Hoek van Holland on an overcast night",
+    "viewpoint": "From the sand north of the Nieuwe Waterweg, looking toward the north pier at the harbour mouth. The beach is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Hook_of_Holland",
+      "https://en.wikipedia.org/wiki/Nieuwe_Waterweg"
+    ],
+    "anchors": [
+      "Empty sand fills the foreground",
+      "A long stone pier runs into the sea",
+      "One small light marks the far end of the pier"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 00:38 the pier light and wet sand are the only brightness. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-089",
+    "region": "South Holland",
+    "city": "Katwijk",
+    "folder": "Katwijk",
+    "caption": "Lighthouse, Katwijk",
+    "composition": "Short white square vuurbaak behind the boulevard · AI-generated artistic interpretation",
+    "description": "The Katwijk vuurbaak is a short white square tower, about three storeys, with a flat roof and no lantern gallery. It stands just behind the boulevard, with the dark beach beyond. The sky is partly cloudy, about 16.0°C, with wind near 8.6 km/h and no rain. Sunset was 19:31. The boulevard is empty. This is not the tall lighthouse at Noordwijk.",
+    "alt_text": "AI-generated artistic interpretation of the short white square lighthouse at Katwijk on a partly cloudy night",
+    "viewpoint": "From the boulevard side of Vuurbaakplein, looking at the white tower with the beach beyond. The public square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Vuurbaak_van_Katwijk_aan_Zee",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/23540"
+    ],
+    "anchors": [
+      "A short white square tower stands by the boulevard",
+      "The roof is flat, with no lantern gallery",
+      "The dark beach lies beyond the tower"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 00:38 boulevard lamps light the white brick. Cloud cover is about 68%."
+  },
+  {
+    "entry_id": "NL-01-090",
+    "region": "South Holland",
+    "city": "Noordwijk",
+    "folder": "Noordwijk",
+    "caption": "Lighthouse, Noordwijk",
+    "composition": "White square lighthouse and lantern gallery on the boulevard · AI-generated artistic interpretation",
+    "description": "The Noordwijk lighthouse is a taller white square tower on the boulevard, with a lantern room and gallery at the top and the beach beside it. The lamp room has a soft glow. The sky is partly cloudy, about 15.0°C, with wind near 9.4 km/h and no rain. Sunset was 19:31. The pavement is empty. This is not the short flat-roofed tower at Katwijk.",
+    "alt_text": "AI-generated artistic interpretation of the white square lighthouse at Noordwijk on a partly cloudy night",
+    "viewpoint": "From the pavement on Koningin Wilhelminaboulevard at the foot of the lighthouse, with the beach to one side. The public boulevard is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Vuurtoren_van_Noordwijk_aan_Zee",
+      "https://www.noordwijk.info/nl/locatie-overzicht/3864289797/vuurtoren-noordwijk"
+    ],
+    "anchors": [
+      "A white square tower rises from the boulevard",
+      "A lantern room and gallery cap the tower",
+      "The dark beach lies beside the pavement"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 00:38 the lantern glows and boulevard lamps are on. Cloud cover is about 59%."
+  },
+  {
+    "entry_id": "NL-01-091",
+    "region": "North Holland",
+    "city": "Edam",
+    "folder": "Edam",
+    "caption": "Speeltoren, Edam",
+    "composition": "Slender leaning brick carillon tower on an empty square · AI-generated artistic interpretation",
+    "description": "The Speeltoren stands on the Dam in Edam, a slender brick tower with a slight lean, an open carillon stage, and a short spire. The square is empty. There is no cheese market, which is a summer daytime event. The sky is partly cloudy, about 13.0°C, with wind near 8.6 km/h and no rain. Sunset was 19:29. Clock faces are dark discs without a readable legend.",
+    "alt_text": "AI-generated artistic interpretation of the Speeltoren on the Dam in Edam on a partly cloudy night",
+    "viewpoint": "From the Dam, looking at the Speeltoren. The public square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Speeltoren_(Edam)",
+      "https://en.wikipedia.org/wiki/Edam,_Netherlands"
+    ],
+    "anchors": [
+      "A slender brick tower rises from a quiet square",
+      "An open belfry and short spire crown the tower",
+      "No market stalls stand on the paving"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 00:38 a few lamps light the brick. Cloud cover is about 56%."
+  },
+  {
+    "entry_id": "NL-01-092",
+    "region": "North Holland",
+    "city": "Monnickendam",
+    "folder": "Monnickendam",
+    "caption": "Harbour, Monnickendam",
+    "composition": "Harbour, moored boats, and the church spire over the roofs · AI-generated artistic interpretation",
+    "description": "Monnickendam harbour is quiet after midnight. Dark water, boats with sails down, and brick gabled houses lead the eye to the tall church spire. The sky is partly cloudy, about 12.5°C, with a light wind near 5.8 km/h and no rain. Sunset was 19:29. Hulls carry no readable names.",
+    "alt_text": "AI-generated artistic interpretation of Monnickendam harbour and the church spire on a partly cloudy night",
+    "viewpoint": "From the harbour quay, looking across the moored boats toward the church tower. The public quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Monnickendam",
+      "https://nl.wikipedia.org/wiki/Grote_of_Sint-Nicolaaskerk_(Monnickendam)"
+    ],
+    "anchors": [
+      "Dark harbour water and moored boats fill the foreground",
+      "Brick gabled houses line the quay",
+      "A tall church spire rises behind the roofs"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 00:38 quay lamps reflect on the water. Cloud cover is about 52%."
+  },
+  {
+    "entry_id": "NL-01-093",
+    "region": "Utrecht",
+    "city": "Spakenburg",
+    "folder": "Spakenburg",
+    "caption": "Botter harbour, Spakenburg",
+    "composition": "Traditional botters with furled sails in the old harbour · AI-generated artistic interpretation",
+    "description": "In the old harbour at Spakenburg, dark wooden botters lie moored with leeboards up and sails furled. It is not a festival night, so the quay is empty. Low brick sheds stand behind the boats. The sky is partly cloudy, about 12.4°C, with wind near 7.9 km/h and no rain. Sunset was 19:27. Hulls carry no readable registration.",
+    "alt_text": "AI-generated artistic interpretation of botters in the old harbour at Spakenburg on a partly cloudy night",
+    "viewpoint": "From the edge of the Oude Haven, looking along the moored botters. The public quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Spakenburg",
+      "https://en.wikipedia.org/wiki/Botter"
+    ],
+    "anchors": [
+      "Dark wooden botters fill the harbour",
+      "Leeboards are raised and sails are furled",
+      "Low brick sheds stand behind the boats"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 00:38 quay lamps light the hulls. Cloud cover is about 58%."
+  },
+  {
+    "entry_id": "NL-01-094",
+    "region": "Gelderland",
+    "city": "Harderwijk",
+    "folder": "Harderwijk",
+    "caption": "Vischpoort, Harderwijk",
+    "composition": "Brick water gate opening onto the harbour boulevard · AI-generated artistic interpretation",
+    "description": "The Vischpoort at Harderwijk is a brick water gate with one arch and a short roof, beside a stretch of old wall. Dark harbour water of the Wolderwijd lies in front, with a few boats moored. The sky is partly cloudy, about 15.7°C, with wind near 9.0 km/h and no rain. Sunset was 19:26. The Dolfinarium is outside this frame, so no brand mark is the subject.",
+    "alt_text": "AI-generated artistic interpretation of the Vischpoort and harbour at Harderwijk on a partly cloudy night",
+    "viewpoint": "From the boulevard in front of the Vischpoort, looking at the gate with the harbour water in the foreground. The public boulevard is the viewpoint. A surveyed tripod mark was not pinned. The Dolfinarium is kept out of the frame.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Vischpoort_(Harderwijk)",
+      "https://heerlijkharderwijk.nl/plan-je-bezoek/veel-gestelde-vragen/"
+    ],
+    "anchors": [
+      "A brick gate with one large arch faces the water",
+      "A short stretch of old wall stands beside the gate",
+      "Harbour water and moored boats fill the foreground"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 00:38 quay lamps light the brick gate. Cloud cover is about 52%."
+  },
+  {
+    "entry_id": "NL-01-095",
+    "region": "Gelderland",
+    "city": "Doesburg",
+    "folder": "Doesburg",
+    "caption": "Harbour, Doesburg",
+    "composition": "IJssel quay, gabled houses, and the Martinikerk tower · AI-generated artistic interpretation",
+    "description": "From the IJssel quay at Doesburg the dark river fills the foreground, gabled houses line the bank, and the tall brick tower of the Grote of Martinikerk rises over the roofs. The sky is clear, about 9.5°C, with almost no wind, about 1.8 km/h. Sunset was 19:24. The quay is quiet. No shop lettering is treated as real signage.",
+    "alt_text": "AI-generated artistic interpretation of the IJssel quay and church tower at Doesburg on a clear night",
+    "viewpoint": "From the IJsselkade near the Turfhaven, looking along the river toward the Martinikerk tower. The public quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://ontdekdoesburg.nl/",
+      "https://en.wikipedia.org/wiki/Doesburg"
+    ],
+    "anchors": [
+      "The wide dark IJssel fills the foreground",
+      "Stepped-gable houses line the quay",
+      "A tall brick church tower with a slender spire rises over the roofs"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 00:38 a few quay lamps light the gables. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-096",
+    "region": "Limburg",
+    "city": "Roermond",
+    "folder": "Roermond",
+    "caption": "Munsterkerk, Roermond",
+    "composition": "West front, two towers with rhomboid helms, and a rose window · AI-generated artistic interpretation",
+    "description": "The Munsterkerk west front fills Munsterplein in Roermond: pale stone, two square towers capped with rhomboid helms, and a rose window over the door. The square is empty and the church is closed. The sky is clear, about 13.9°C, with wind near 9.0 km/h. Sunset was 19:25. This is not the Markt and not the town hall.",
+    "alt_text": "AI-generated artistic interpretation of the Munsterkerk west front in Roermond on a clear night",
+    "viewpoint": "From Munsterplein, looking at the west front and its two towers. The public square is the viewpoint. A surveyed tripod mark was not pinned. The Markt is a separate square and is not in this frame.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Munsterkerk",
+      "https://www.hartvanlimburg.nl/en/locatie/munsterkerk-roermond"
+    ],
+    "anchors": [
+      "Two square towers frame the west front",
+      "Each tower has a rhomboid helm, not a needle spire",
+      "A rose window sits above the door on an empty square"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 00:38 a few lamps light the stone. Cloud cover is about 0%."
   }
 ]

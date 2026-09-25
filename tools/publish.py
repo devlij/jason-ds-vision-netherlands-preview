@@ -532,7 +532,7 @@ def main() -> None:
     lines = [
         "# Netherlands sequence log",
         "",
-        "NL-01-001 through NL-01-080. IDs are not reused.",
+        "NL-01-001 through NL-01-096. IDs are not reused.",
         "NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.",
         "NL-01-033 through NL-01-048 swaps:",
         "- NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.",
@@ -548,13 +548,31 @@ def main() -> None:
         "- NL-01-073: the suggested name Berkeltoren is the Berkelpoort (Berkelruïne), a low brick water gate with two small turrets over the Berkel. It is not the tall Drogenapstoren and not the Wijnhuistoren.",
         "- NL-01-079: Madurodam is closed after midnight and the miniature city is not a public night view. Swapped to Kurhaus, The Hague, the Scheveningen beachfront hotel. Scheveningen pier remains NL-01-030 and is not this scene.",
         "- The other suggested sites in this batch were not already used. Sint Eustatius and Saba use America/Kralendijk, the same Atlantic zone as Bonaire.",
+        "NL-01-081 through NL-01-096 swaps:",
+        "- NL-01-081: Holwerd ferry terminal, not Lauwersoog. The Ameland ferry is not running after midnight, so the quay is empty and no ship name or operator mark is shown.",
+        "- NL-01-094: the Dolfinarium facade carries brand marks, so the scene is the Vischpoort and the boulevard harbour on the Wolderwijd, a Veluwe border lake. The Dolfinarium is outside the frame.",
+        "- NL-01-096: the Munsterkerk stands on Munsterplein. The Markt is a separate square, so this view is the church front, not the town hall.",
+        "- The other suggested sites in this batch were not already used.",
         "",
     ]
     for row in catalogue:
         weather = json.loads((ROOT / "evidence" / "weather" / f"{row['entry_id']}.json").read_text())
+        existing_manifest = ROOT / "manifests" / f"{row['entry_id']}.json"
+        if existing_manifest.exists():
+            old_manifest = json.loads(existing_manifest.read_text())
+            if old_manifest.get("approval_status") == "Approved":
+                scenes.append(old_manifest)
+                lines.append(
+                    f"- {row['entry_id']} — {row['caption']} — {weather['scenario_label']} — retrieved {weather['retrieval_timestamp']}"
+                )
+                print(row["entry_id"], "preserved Cosmo approval")
+                continue
         raw16 = Path("/opt/cursor/artifacts/assets") / f"{row['entry_id'].lower()}-16x9-raw.png"
         raw45 = Path("/opt/cursor/artifacts/assets") / f"{row['entry_id'].lower()}-4x5-raw.png"
-        if raw16.exists() and raw45.exists():
+        # Cosmo-approved masters are skipped above. Never composite them.
+        if row["entry_id"] <= "NL-01-010":
+            pass
+        elif raw16.exists() and raw45.exists():
             composite_one(row["entry_id"], row["folder"], row["caption"], weather["scenario_label"])
         else:
             have16 = (ROOT / "library" / "world" / "Netherlands" / row["folder"] / f"{row['entry_id'].lower()}-16x9.png").exists()
@@ -567,21 +585,36 @@ def main() -> None:
         path45 = ROOT / "library" / "world" / file45
         digest16 = sha256(path16)
         digest45 = sha256(path45)
-        manifest = {
-            "entry_id": row["entry_id"],
-            "country": "Netherlands",
-            "region": row["region"],
-            "city": row["city"],
-            "caption": row["caption"],
-            "scenario_label": weather["scenario_label"],
-            "composition": row["composition"],
-            "description": row["description"],
-            "alt_text": row["alt_text"],
-            "file_16x9": file16,
-            "file_4x5": file45,
-            "license_badge": "Free · no credit needed",
-            "license_anchor": "#license",
-        }
+        manifest = {"entry_id": row["entry_id"]}
+        existing_manifest = ROOT / "manifests" / f"{row['entry_id']}.json"
+        if existing_manifest.exists():
+            old = json.loads(existing_manifest.read_text())
+            for key in (
+                "approval_status",
+                "qc_status",
+                "approval_basis",
+                "approved_at",
+                "sha256_16x9",
+                "sha256_4x5",
+            ):
+                if key in old:
+                    manifest[key] = old[key]
+        manifest.update(
+            {
+                "country": "Netherlands",
+                "region": row["region"],
+                "city": row["city"],
+                "caption": row["caption"],
+                "scenario_label": weather["scenario_label"],
+                "composition": row["composition"],
+                "description": row["description"],
+                "alt_text": row["alt_text"],
+                "file_16x9": file16,
+                "file_4x5": file45,
+                "license_badge": "Free · no credit needed",
+                "license_anchor": "#license",
+            }
+        )
         (ROOT / "manifests" / f"{row['entry_id']}.json").write_text(json.dumps(manifest, indent=2) + "\n")
         (ROOT / "approvals" / f"{row['entry_id']}.md").write_text(
             approval_md(row, weather, digest16, digest45)

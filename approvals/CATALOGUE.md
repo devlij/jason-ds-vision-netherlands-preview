@@ -1,6 +1,6 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-080. IDs are not reused.
+NL-01-001 through NL-01-096. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
 NL-01-033 through NL-01-048 swaps:
 - NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.
@@ -16,6 +16,11 @@ NL-01-065 through NL-01-080 swaps:
 - NL-01-073: the suggested name Berkeltoren is the Berkelpoort (Berkelruïne), a low brick water gate with two small turrets over the Berkel. It is not the tall Drogenapstoren and not the Wijnhuistoren.
 - NL-01-079: Madurodam is closed after midnight and the miniature city is not a public night view. Swapped to Kurhaus, The Hague, the Scheveningen beachfront hotel. Scheveningen pier remains NL-01-030 and is not this scene.
 - The other suggested sites in this batch were not already used. Sint Eustatius and Saba use America/Kralendijk, the same Atlantic zone as Bonaire.
+NL-01-081 through NL-01-096 swaps:
+- NL-01-081: Holwerd ferry terminal, not Lauwersoog. The Ameland ferry is not running after midnight, so the quay is empty and no ship name or operator mark is shown.
+- NL-01-094: the Dolfinarium facade carries brand marks, so the scene is the Vischpoort and the boulevard harbour on the Wolderwijd, a Veluwe border lake. The Dolfinarium is outside the frame.
+- NL-01-096: the Munsterkerk stands on Munsterplein. The Markt is a separate square, so this view is the church front, not the town hall.
+- The other suggested sites in this batch were not already used.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
 - NL-01-002 — Prinsengracht, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:39+02:00
@@ -97,3 +102,19 @@ NL-01-065 through NL-01-080 swaps:
 - NL-01-078 — Kasteel de Haar, Haarzuilens — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:43+02:00
 - NL-01-079 — Kurhaus, The Hague — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:46+02:00
 - NL-01-080 — Oude Kerk, Delft — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:49+02:00
+- NL-01-081 — Ferry terminal, Holwerd — 26 September 2026 · 00:37 Europe/Amsterdam — retrieved 2026-09-26T00:37:59+02:00
+- NL-01-082 — Harbour, Zoutkamp — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:02+02:00
+- NL-01-083 — Drents Museum, Assen — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:04+02:00
+- NL-01-084 — Amerongen Castle, Amerongen — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:07+02:00
+- NL-01-085 — Slot Loevestein, Poederoijen — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:10+02:00
+- NL-01-086 — Linge harbour, Gorinchem — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:12+02:00
+- NL-01-087 — Harbour, Brielle — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:15+02:00
+- NL-01-088 — Beach, Hoek van Holland — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:18+02:00
+- NL-01-089 — Lighthouse, Katwijk — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:20+02:00
+- NL-01-090 — Lighthouse, Noordwijk — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:23+02:00
+- NL-01-091 — Speeltoren, Edam — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:26+02:00
+- NL-01-092 — Harbour, Monnickendam — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:28+02:00
+- NL-01-093 — Botter harbour, Spakenburg — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:31+02:00
+- NL-01-094 — Vischpoort, Harderwijk — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:34+02:00
+- NL-01-095 — Harbour, Doesburg — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:36+02:00
+- NL-01-096 — Munsterkerk, Roermond — 26 September 2026 · 00:38 Europe/Amsterdam — retrieved 2026-09-26T00:38:39+02:00
