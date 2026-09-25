@@ -36,6 +36,12 @@ def approval_md(row: dict, weather: dict, sha16: str, sha45: str) -> str:
         + weather["model_time"][11:16]
         + " Europe/Amsterdam"
     )
+    sky_words = {
+        0: "Clear sky",
+        1: "Mainly clear",
+        2: "Partly cloudy",
+        3: "Overcast",
+    }.get(weather["weather_code"], "Model sky")
     return f"""# {row['entry_id']} — {row['caption']}
 
 approval_status: Candidate
@@ -50,7 +56,7 @@ This note is an internal checklist for Cosmo QC. It does not approve the scene.
 {refs}
 - **Geometry anchors:**
 {anchors}
-- **Weather:** Model data from Open-Meteo, retrieved {weather['retrieval_display']}, valid {valid_display} (model-valid hour {hour}:00–{hour}:59) — not a verified on-site observation. Clear sky (WMO code {weather['weather_code']}), cloud cover {weather['cloud_cover']}%, about {weather['temperature_2m']}°C, wind about {weather['wind_speed_10m']} km/h, precipitation {weather['precipitation']} mm, model is_day {weather['is_day']}. Provider: Open-Meteo. Request coordinates: {weather['latitude']}, {weather['longitude']}.
+- **Weather:** Model data from Open-Meteo, retrieved {weather['retrieval_display']}, valid {valid_display} (model-valid hour {hour}:00–{hour}:59) — not a verified on-site observation. {sky_words} (WMO code {weather['weather_code']}), cloud cover {weather['cloud_cover']}%, about {weather['temperature_2m']}°C, wind about {weather['wind_speed_10m']} km/h, precipitation {weather['precipitation']} mm, model is_day {weather['is_day']}. Provider: Open-Meteo. Request coordinates: {weather['latitude']}, {weather['longitude']}.
 - **Retrieval timestamp (unique to the second):** {weather['retrieval_timestamp']}
 - **Model time from this retrieval:** {weather['model_time']} ({weather['timezone']}, interval {weather['model_interval_seconds']} seconds)
 - **Scenario:** Scenario: {weather['scenario_label']}. The scenario minute sits inside the model-valid hour of this scene's own retrieval.
@@ -503,10 +509,24 @@ PAGE = r"""<!DOCTYPE html>
 def main() -> None:
     catalogue = json.loads((ROOT / "tools" / "catalogue.json").read_text())
     scenes = []
-    lines = ["# Netherlands sequence log", "", "Starter NL-01-001 through NL-01-016. IDs are not reused.", ""]
+    lines = [
+        "# Netherlands sequence log",
+        "",
+        "NL-01-001 through NL-01-032. IDs are not reused.",
+        "NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.",
+        "",
+    ]
     for row in catalogue:
         weather = json.loads((ROOT / "evidence" / "weather" / f"{row['entry_id']}.json").read_text())
-        composite_one(row["entry_id"], row["folder"], row["caption"], weather["scenario_label"])
+        raw16 = Path("/opt/cursor/artifacts/assets") / f"{row['entry_id'].lower()}-16x9-raw.png"
+        raw45 = Path("/opt/cursor/artifacts/assets") / f"{row['entry_id'].lower()}-4x5-raw.png"
+        if raw16.exists() and raw45.exists():
+            composite_one(row["entry_id"], row["folder"], row["caption"], weather["scenario_label"])
+        else:
+            have16 = (ROOT / "library" / "world" / "Netherlands" / row["folder"] / f"{row['entry_id'].lower()}-16x9.png").exists()
+            have45 = (ROOT / "library" / "world" / "Netherlands" / row["folder"] / f"{row['entry_id'].lower()}-4x5.png").exists()
+            if not (have16 and have45):
+                raise SystemExit(f"missing raw and master for {row['entry_id']}")
         file16 = f"Netherlands/{row['folder']}/{row['entry_id'].lower()}-16x9.png"
         file45 = f"Netherlands/{row['folder']}/{row['entry_id'].lower()}-4x5.png"
         path16 = ROOT / "library" / "world" / file16

@@ -334,5 +334,341 @@
       "A sandy path and late-September undergrowth, without a heather carpet or a featured sculpture"
     ],
     "solar": "Clear late afternoon. Model sunset 19:28 Europe/Amsterdam. At 18:28 the sun is low in the west, filtering through the pines."
+  },
+  {
+    "entry_id": "NL-01-017",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "caption": "Van Gogh Museum, Amsterdam",
+    "composition": "Museumplein at night, glass entrance in front of the rectangular museum block · AI-generated artistic interpretation",
+    "description": "From Museumplein at night the Van Gogh Museum shows a lit glass entrance pavilion in front of the pale rectangular block behind it. No paintings are in the frame. The sky is mainly clear, cloud cover about 37%, and the air is about 16.7°C with wind near 10.4 km/h. Sunset was 19:32, so 23:05 is full night, lit by the interior glow and the square.",
+    "alt_text": "AI-generated artistic interpretation of the Van Gogh Museum exterior from Museumplein in Amsterdam on a mainly clear night",
+    "viewpoint": "Tourist viewpoint on Museumplein, looking toward the museum’s glass entrance and the block behind it. A surveyed tripod mark on the lawn was not pinned; the open square is the viewpoint.",
+    "references": [
+      "https://www.vangoghmuseum.nl/en",
+      "https://en.wikipedia.org/wiki/Van_Gogh_Museum"
+    ],
+    "anchors": [
+      "Museumplein grass and paths occupy the foreground",
+      "A glass entrance pavilion glows in front of a rectangular museum block",
+      "No paintings, no letter sculpture, and no daylight"
+    ],
+    "solar": "Full night. Model sunset 19:32 Europe/Amsterdam and model is_day 0. The 23:05 scenario is about three and a half hours after sunset, with lamp and interior light only."
+  },
+  {
+    "entry_id": "NL-01-018",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "caption": "Dam Square, Amsterdam",
+    "composition": "Night square with the Royal Palace, the Nieuwe Kerk, and the National Monument · AI-generated artistic interpretation",
+    "description": "Dam Square at night holds the floodlit sandstone Royal Palace, the Gothic Nieuwe Kerk beside it, and the pale National Monument on the open paving. The square is quiet, without stalls. It is mainly clear, cloud cover about 23%, about 16.8°C, with wind near 10.1 km/h. The scene is lamp-lit, hours after the 19:32 sunset.",
+    "alt_text": "AI-generated artistic interpretation of Dam Square in Amsterdam at night, with the Royal Palace, the Nieuwe Kerk, and the National Monument",
+    "viewpoint": "From the open paving of Dam Square, looking toward the Royal Palace with the Nieuwe Kerk to one side and the National Monument in the square. The usual standing area in the square is the viewpoint; a single pavement joint was not surveyed.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Dam_Square",
+      "https://en.wikipedia.org/wiki/Royal_Palace_of_Amsterdam"
+    ],
+    "anchors": [
+      "The classical palace facade faces the open square",
+      "The Gothic Nieuwe Kerk stands beside the palace",
+      "The National Monument rises from the paving; no market stalls"
+    ],
+    "solar": "Full night. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 23:05 the square is lit by facade floodlights, not by the sun."
+  },
+  {
+    "entry_id": "NL-01-019",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "caption": "Anne Frank House, Amsterdam",
+    "composition": "Public canal-side exterior at night, Westerkerk crown behind the house · AI-generated artistic interpretation",
+    "description": "From the Prinsengracht the view stays outside: a brick neck-gable canal house at the water, with the Westerkerk’s crowned tower rising behind it. No interior and no diary are shown. Cloud cover is about 46%, the air about 17.0°C, and the wind near 10.8 km/h, under a mainly clear night sky. Street lamps reflect in the canal.",
+    "alt_text": "AI-generated artistic interpretation of the Anne Frank House exterior on the Prinsengracht in Amsterdam at night, with the Westerkerk crown behind it",
+    "viewpoint": "Public street view from the Prinsengracht quay, looking at the canal-house exterior with the Westerkerk crown behind it. The secret annex is not on this street face. An exact doorway survey point was not pinned.",
+    "references": [
+      "https://www.annefrank.org/en/",
+      "https://en.wikipedia.org/wiki/Anne_Frank_House"
+    ],
+    "anchors": [
+      "Canal water fills the foreground",
+      "A brick neck-gable house stands at the quay",
+      "The Westerkerk imperial crown rises behind the house; no interior"
+    ],
+    "solar": "Full night. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 23:05 the canal and the tower are lit by street lamps."
+  },
+  {
+    "entry_id": "NL-01-020",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "caption": "Vondelpark, Amsterdam",
+    "composition": "Night pond, footbridge, and the round Blauwe Theehuis · AI-generated artistic interpretation",
+    "description": "In Vondelpark a lamp-lit pond and a wooden footbridge lead to the round Blauwe Theehuis, its flat overhanging roof pale against the trees. Late September leaves are still mostly green, with a little early yellow. It is mainly clear, about 16.7°C, cloud cover about 37%, wind near 10.4 km/h. Paths are quiet after the 19:32 sunset.",
+    "alt_text": "AI-generated artistic interpretation of Vondelpark in Amsterdam at night, with the pond and the round Blauwe Theehuis",
+    "viewpoint": "From the path beside the pond near the Blauwe Theehuis in Vondelpark. The public path is the viewpoint; a surveyed stake in the grass was not fixed.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Vondelpark",
+      "https://en.wikipedia.org/wiki/Blauwe_Theehuis"
+    ],
+    "anchors": [
+      "A pond and a wooden footbridge occupy the foreground",
+      "The round pavilion with a flat overhanging roof stands by the water",
+      "Late-September trees; no flower beds as the subject"
+    ],
+    "solar": "Full night. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 23:05 the park is lit by path lamps, not by the sun."
+  },
+  {
+    "entry_id": "NL-01-021",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "caption": "NEMO, Amsterdam",
+    "composition": "Green copper ship-form of NEMO over the Oosterdok at night · AI-generated artistic interpretation",
+    "description": "From the water, NEMO’s green copper hull rises like a ship bow, with a sloping roof and a warm glass seam. The Oosterdok fills the foreground. No interior exhibit is the subject. The sky is mainly clear, cloud cover about 23%, about 16.9°C, wind near 10.1 km/h. It is full night after the 19:32 sunset.",
+    "alt_text": "AI-generated artistic interpretation of NEMO Science Museum in Amsterdam at night, the green copper building over the water",
+    "viewpoint": "From the Oosterdok waterfront, looking at the copper exterior and the roof plane of NEMO. The public quay is the viewpoint; a precise bollard was not surveyed.",
+    "references": [
+      "https://www.nemosciencemuseum.nl/en/",
+      "https://en.wikipedia.org/wiki/NEMO_(museum)"
+    ],
+    "anchors": [
+      "Dark water fills the foreground",
+      "A green copper hull rises in a ship-like bow",
+      "The sloping roof reads above the hull; no exhibit interior"
+    ],
+    "solar": "Full night. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 23:05 the copper is lit by its own glass and by quay lamps."
+  },
+  {
+    "entry_id": "NL-01-022",
+    "region": "North Holland",
+    "city": "Volendam",
+    "folder": "Volendam",
+    "caption": "Harbour, Volendam",
+    "composition": "Night harbour, dark wooden houses along the dike, moored boats · AI-generated artistic interpretation",
+    "description": "Volendam harbour at night shows dark wooden houses with white window frames along the dike, and fishing boats in lamp-lit water. The air is cooler here, about 13.4°C, mainly clear with cloud cover about 43% and wind near 8.6 km/h. No costume group is the subject. Sunset was 19:31, so the harbour is fully dark except for lamps.",
+    "alt_text": "AI-generated artistic interpretation of Volendam harbour at night, with wooden houses and moored boats",
+    "viewpoint": "From the harbour quay at Volendam, looking along the dike houses and the moored boats. The public quay is the viewpoint; a single mooring post was not fixed as a survey mark.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Volendam",
+      "https://www.edam-volendam.nl/"
+    ],
+    "anchors": [
+      "Harbour water and small boats fill the foreground",
+      "Dark wooden houses with white frames line the dike",
+      "No market and no costume group as the subject"
+    ],
+    "solar": "Full night. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 23:05 the dike is lit by harbour lamps."
+  },
+  {
+    "entry_id": "NL-01-023",
+    "region": "North Holland",
+    "city": "Marken",
+    "folder": "Marken",
+    "caption": "Harbour, Marken",
+    "composition": "Small harbour and dark green wooden houses at night · AI-generated artistic interpretation",
+    "description": "Marken’s harbour is a tight cluster of wooden houses painted dark green and black with white trim, some slightly raised, with little boats in still water. The sky is clear, cloud cover about 1%, about 14.7°C, and the wind is fresher, near 12.2 km/h. This is a smaller scale than the Volendam dike. Sunset was 19:31.",
+    "alt_text": "AI-generated artistic interpretation of Marken harbour at night, with dark green wooden houses and small boats",
+    "viewpoint": "From the harbour edge in Marken’s Havenbuurt, looking across the small basin at the wooden houses. The public harbour edge is the viewpoint.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Marken",
+      "https://www.markermuseum.nl/"
+    ],
+    "anchors": [
+      "A small harbour basin sits in the foreground",
+      "Wooden houses are dark green and black with white trim",
+      "The cluster is low and compact, not a long dike of tall houses"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 23:05 house lamps and a few quay lights carry the scene."
+  },
+  {
+    "entry_id": "NL-01-024",
+    "region": "North Holland",
+    "city": "Alkmaar",
+    "folder": "Alkmaar",
+    "caption": "Waag, Alkmaar",
+    "composition": "Empty night square and the floodlit weigh house · AI-generated artistic interpretation",
+    "description": "The Waag in Alkmaar stands floodlit in the middle of the square, a stone weigh house with a central tower. It is 23:05, so the Friday cheese market is not on: the paving is empty of stalls and cheese. The sky is partly cloudy, cloud cover about 57%, about 16.6°C, with a light wind near 2.9 km/h. Sunset was 19:32.",
+    "alt_text": "AI-generated artistic interpretation of the Waag in Alkmaar at night, the square empty of the cheese market",
+    "viewpoint": "From the open square around the Waag in Alkmaar, looking at the weigh-house tower. The public square is the viewpoint. The cheese market is a morning event and is not depicted at this hour.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Alkmaar",
+      "https://www.inalkmaar.nl/en-gb"
+    ],
+    "anchors": [
+      "Open paving fills the foreground, without stalls",
+      "The stone weigh house and its tower stand in the square",
+      "No cheese wheels and no market tents"
+    ],
+    "solar": "Full night. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 23:05 floodlights light the stone; the wind is light."
+  },
+  {
+    "entry_id": "NL-01-025",
+    "region": "North Holland",
+    "city": "Hoorn",
+    "folder": "Hoorn",
+    "caption": "Hoofdtoren, Hoorn",
+    "composition": "Wide stone harbor tower and wooden jetty at night · AI-generated artistic interpretation",
+    "description": "The Hoofdtoren is a wide stone defense tower at the Hoorn harbour, with a dark pointed roof and a wooden jetty in front, not a lighthouse lantern. A few boats sit in calm water. The sky is partly cloudy, cloud cover about 72%, the air about 13.8°C, and the wind is nearly still, about 1.4 km/h. Sunset was 19:31.",
+    "alt_text": "AI-generated artistic interpretation of the Hoofdtoren and harbour jetty in Hoorn on a cloudy night",
+    "viewpoint": "From the harbour side of the Hoofdtoren in Hoorn, with the wooden jetty in the foreground. The public quay is the viewpoint; the tower is the old defense tower, not the city’s later lighthouse.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Hoofdtoren",
+      "https://komnaarhoorn.nl/"
+    ],
+    "anchors": [
+      "A wide stone tower stands in the harbour",
+      "A wooden jetty projects in front of the tower",
+      "A dark pointed roof, not a glass lighthouse lantern"
+    ],
+    "solar": "Full night under substantial cloud. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 23:05 the stone is lit by harbour lamps and the water is calm."
+  },
+  {
+    "entry_id": "NL-01-026",
+    "region": "North Holland",
+    "city": "Enkhuizen",
+    "folder": "Enkhuizen",
+    "caption": "Zuiderzeemuseum, Enkhuizen",
+    "composition": "Outdoor-museum harbour quarter at night, wooden houses along a quay · AI-generated artistic interpretation",
+    "description": "The outdoor Zuiderzeemuseum’s harbour quarter is closed and quiet: historic wooden houses along a quay, a few exterior lamps, and dark water. No ferry crowd and no festival are shown. The sky is overcast, cloud cover about 93%, about 15.3°C, with wind near 2.9 km/h and no rain. Sunset was 19:30.",
+    "alt_text": "AI-generated artistic interpretation of the Zuiderzee Museum outdoor harbour at Enkhuizen on an overcast night",
+    "viewpoint": "From the water side of the outdoor museum’s harbour quarter at Enkhuizen, looking along the relocated wooden houses. The public approach to that waterfront is the viewpoint. The indoor museum block is not this frame.",
+    "references": [
+      "https://www.zuiderzeemuseum.nl/en",
+      "https://en.wikipedia.org/wiki/Zuiderzee_Museum"
+    ],
+    "anchors": [
+      "Dark water and a quay fill the foreground",
+      "A row of historic wooden houses lines the harbour",
+      "The quarter is closed and quiet, without a crowd"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 23:05 only a few exterior lamps light the houses."
+  },
+  {
+    "entry_id": "NL-01-027",
+    "region": "South Holland",
+    "city": "Rotterdam",
+    "folder": "Rotterdam",
+    "caption": "Markthal, Rotterdam",
+    "composition": "Night exterior of the horseshoe arch, mural not the subject · AI-generated artistic interpretation",
+    "description": "Outside the Markthal, the horseshoe arch of apartments spans the street, grey panels and a grid of windows, with warm light in the opening. The ceiling mural is not the subject; the camera stays outside. It is partly cloudy, cloud cover about 65%, the warmest of this night set at about 18.7°C, wind near 12.6 km/h. Sunset was 19:33.",
+    "alt_text": "AI-generated artistic interpretation of the Markthal exterior in Rotterdam at night, the apartment arch seen from the street",
+    "viewpoint": "From the Binnenrotte side of the Markthal, outside the arch, looking at the horseshoe of apartments. The public street is the viewpoint. The interior artwork is intentionally left out of the subject.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Markthal",
+      "https://www.markthalrotterdam.nl/"
+    ],
+    "anchors": [
+      "Street paving fills the foreground",
+      "A huge arch of apartment windows spans the frame",
+      "The opening glows, and no ceiling mural is the subject"
+    ],
+    "solar": "Full night. Model sunset 19:33 Europe/Amsterdam and model is_day 0. At 23:05 the arch is lit by windows and street lamps."
+  },
+  {
+    "entry_id": "NL-01-028",
+    "region": "South Holland",
+    "city": "Rotterdam",
+    "folder": "Rotterdam",
+    "caption": "Euromast, Rotterdam",
+    "composition": "Concrete tower, circular deck, and mast above the park at night · AI-generated artistic interpretation",
+    "description": "The Euromast rises at night as a concrete shaft with a wide circular deck of lit windows and a thinner mast above it. Trees and a glimpse of harbour water sit at the base. The sky is partly cloudy, cloud cover about 64%, about 17.9°C, with wind near 12.2 km/h. Sunset was 19:33.",
+    "alt_text": "AI-generated artistic interpretation of the Euromast in Rotterdam at night, with its circular deck and upper mast",
+    "viewpoint": "From the park edge at Het Park, looking up at the Euromast with the harbour nearby. The public ground around the tower is the viewpoint.",
+    "references": [
+      "https://euromast.nl/en/",
+      "https://en.wikipedia.org/wiki/Euromast"
+    ],
+    "anchors": [
+      "A concrete shaft rises out of trees",
+      "A wide circular observation deck sits midway, with lit windows",
+      "A thinner mast continues above the deck"
+    ],
+    "solar": "Full night. Model sunset 19:33 Europe/Amsterdam and model is_day 0. At 23:05 the deck windows and mast lights read against a partly cloudy sky."
+  },
+  {
+    "entry_id": "NL-01-029",
+    "region": "South Holland",
+    "city": "The Hague",
+    "folder": "The Hague",
+    "caption": "Peace Palace, The Hague",
+    "composition": "Floodlit brick palace, formal garden, and fountain at night · AI-generated artistic interpretation",
+    "description": "The Peace Palace is floodlit at night: red brick and pale stone, towers, and a steep roof, with a formal garden and a fountain in front. Inscriptions are not readable. The sky is fully overcast, cloud cover 100%, about 17.8°C, wind near 9.0 km/h, and no rain. Sunset was 19:34.",
+    "alt_text": "AI-generated artistic interpretation of the Peace Palace exterior in The Hague on an overcast night",
+    "viewpoint": "From the garden side on Carnegieplein, looking at the Peace Palace facade across the fountain. The public garden approach is the viewpoint.",
+    "references": [
+      "https://www.vredespaleis.nl/",
+      "https://en.wikipedia.org/wiki/Peace_Palace"
+    ],
+    "anchors": [
+      "A fountain and formal garden fill the foreground",
+      "The brick-and-stone palace and its towers face the garden",
+      "The sky is a solid overcast night, with no readable inscription"
+    ],
+    "solar": "Full night under complete cloud. Model sunset 19:34 Europe/Amsterdam and model is_day 0. At 23:05 floodlights light the brick against a dark grey sky."
+  },
+  {
+    "entry_id": "NL-01-030",
+    "region": "South Holland",
+    "city": "The Hague",
+    "folder": "The Hague",
+    "caption": "Scheveningen pier, The Hague",
+    "composition": "Lit pier over the North Sea from a quiet late-September beach · AI-generated artistic interpretation",
+    "description": "The Scheveningen pier runs on pilings from a quiet beach out over the North Sea, lamps along the deck and a pavilion toward the end. Late September night is not a summer crowd, and no wheel is shown. The sky is fully overcast, cloud cover 100%, about 18.1°C, wind near 10.8 km/h, with no rain. Sunset was 19:34.",
+    "alt_text": "AI-generated artistic interpretation of Scheveningen pier at night, seen from the beach in The Hague",
+    "viewpoint": "From the beach at Scheveningen, looking along the pier as it leaves the boulevard and crosses the North Sea. The public beach is the viewpoint. Scheveningen is part of The Hague; that is why the caption names The Hague.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Scheveningen",
+      "https://en.wikipedia.org/wiki/Scheveningen_Pier"
+    ],
+    "anchors": [
+      "A quiet sandy beach fills the foreground",
+      "The pier on pilings runs out over dark water",
+      "A pavilion sits toward the seaward end; the sky is fully overcast"
+    ],
+    "solar": "Full night under complete cloud. Model sunset 19:34 Europe/Amsterdam and model is_day 0. At 23:05 the pier lamps are the light, and the wind is moderate, not a storm."
+  },
+  {
+    "entry_id": "NL-01-031",
+    "region": "South Holland",
+    "city": "Gouda",
+    "folder": "Gouda",
+    "caption": "Markt, Gouda",
+    "composition": "Gothic Stadhuis standing free in the empty Markt at night · AI-generated artistic interpretation",
+    "description": "The Gothic Stadhuis stands free in the middle of Gouda’s Markt, floodlit, with the wide paving empty around it. It is 23:06, so there is no cheese market. The sky is clear, cloud cover 0%, and the air is cooler, about 14.1°C, with wind near 10.8 km/h. Sunset was 19:32.",
+    "alt_text": "AI-generated artistic interpretation of the Markt and Stadhuis in Gouda on a clear night, the square empty",
+    "viewpoint": "From the open Markt in Gouda, looking at the freestanding Stadhuis. The square itself is the viewpoint. The cheese market is not in this night scene.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Gouda,_South_Holland",
+      "https://nl.wikipedia.org/wiki/Stadhuis_van_Gouda"
+    ],
+    "anchors": [
+      "Wide empty paving surrounds the building",
+      "The ornate Gothic town hall stands free in the square",
+      "A central tower rises from the Stadhuis; no market stalls"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 23:06 floodlights light the stone and the square is empty."
+  },
+  {
+    "entry_id": "NL-01-032",
+    "region": "South Holland",
+    "city": "Dordrecht",
+    "folder": "Dordrecht",
+    "caption": "Grote Kerk, Dordrecht",
+    "composition": "Square brick tower without a needle spire, harbour in the foreground · AI-generated artistic interpretation",
+    "description": "The Grote Kerk at Dordrecht shows a massive square brick tower with corner turrets and no needle spire, beside a harbour of moored boats. Lamp light reflects in calm water under a clear sky. Cloud cover is 0%, about 16.3°C, wind near 10.1 km/h. Sunset was 19:32, and the 23:06 scenario is full night.",
+    "alt_text": "AI-generated artistic interpretation of the Grote Kerk and harbour in Dordrecht on a clear night",
+    "viewpoint": "From the harbour quay beside the Grote Kerk, looking toward the square brick tower with boats in the foreground. The public quay is the viewpoint.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Grote_Kerk,_Dordrecht",
+      "https://www.grotekerk-dordrecht.nl/"
+    ],
+    "anchors": [
+      "Harbour water and boats fill the foreground",
+      "A massive square brick tower has corner turrets and no needle spire",
+      "The church body meets the quay under a clear night sky"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 23:06 quay lamps light the brick and the water."
   }
 ]
