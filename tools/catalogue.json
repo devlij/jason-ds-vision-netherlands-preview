@@ -1,0 +1,338 @@
+[
+  {
+    "entry_id": "NL-01-001",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "caption": "Rijksmuseum, Amsterdam",
+    "composition": "Museumplein looking north at the south facade and central passageway · AI-generated artistic interpretation",
+    "description": "From the lawn on Museumplein the view looks north to the Rijksmuseum’s south facade. Two brick towers frame the central arched passageway through the building, with slate roofs over the gables. It is a clear late afternoon, about 20.8°C, and the sun is low in the west. The square is open grass and paths, without a letter sculpture.",
+    "alt_text": "AI-generated artistic interpretation of the Rijksmuseum south facade from Museumplein in Amsterdam on a clear late afternoon",
+    "viewpoint": "Tourist viewpoint on Museumplein, south of the museum, looking north at Pierre Cuypers’ south facade and the public passageway. A surveyed tripod mark on the lawn was not pinned; the open square is the viewpoint.",
+    "references": [
+      "https://www.rijksmuseum.nl/en",
+      "https://en.wikipedia.org/wiki/Rijksmuseum"
+    ],
+    "anchors": [
+      "Museumplein lawn and paths occupy the foreground",
+      "Two towers flank a large central arch that opens through the building",
+      "Red-brown brick and slate roofs; no giant letter sculpture on the square"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:32 Europe/Amsterdam, so the 18:26 scenario is about an hour before sunset, with the sun low in the west."
+  },
+  {
+    "entry_id": "NL-01-002",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "caption": "Prinsengracht, Amsterdam",
+    "composition": "Jordaan bridge looking along Prinsengracht toward the Westerkerk · AI-generated artistic interpretation",
+    "description": "From a bridge in the Jordaan the Prinsengracht runs between narrow brick gabled houses, with trees and small boats along the quays. The Westerkerk tower and its crown spire close the view. It is clear, about 20.7°C, and the low western sun warms the brick and the water. Shopfront lettering is not treated as real signage.",
+    "alt_text": "AI-generated artistic interpretation of the Prinsengracht in the Jordaan, Amsterdam, with canal houses and the Westerkerk in late-afternoon light",
+    "viewpoint": "From the bridge where the Egelantiersgracht meets the Prinsengracht, looking north along the canal toward the Westerkerk. This is a standard Jordaan tourist standing point, not a surveyed camera mark.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Prinsengracht",
+      "https://www.iamsterdam.com/en/explore/neighbourhoods/centrum/jordaan"
+    ],
+    "anchors": [
+      "The canal is centered, with gabled houses on both quays",
+      "A bridge and parked bicycles sit in the near foreground",
+      "The Westerkerk crown spire closes the vista"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:32 Europe/Amsterdam. The 18:26 scenario has the sun low in the west, with warm light on the west-facing brick and reflections in the canal."
+  },
+  {
+    "entry_id": "NL-01-003",
+    "region": "South Holland",
+    "city": "Kinderdijk",
+    "folder": "Kinderdijk",
+    "caption": "Kinderdijk windmills, Kinderdijk",
+    "composition": "Nederwaard canal, brick tower mills receding in a line · AI-generated artistic interpretation",
+    "description": "Along the Nederwaard canal at Kinderdijk, brick tower mills stand in a line, each with a dark cap and lattice sails, shrinking toward the flat horizon. Reed banks and pasture fill the foreground. The sky is clear, about 21.0°C, with wind near 7.9 km/h. No flower display is shown.",
+    "alt_text": "AI-generated artistic interpretation of the brick windmill row along the canal at Kinderdijk on a clear late afternoon",
+    "viewpoint": "From the visitor path beside the Nederwaard canal, looking along the row of brick tower mills. The path is the usual tourist walk; an exact metre-mark on the bank was not surveyed.",
+    "references": [
+      "https://kinderdijk.com/en/",
+      "https://whc.unesco.org/en/list/818/"
+    ],
+    "anchors": [
+      "A straight canal leads past a receding row of brick tower mills",
+      "The nearest mill is larger, with smaller mills toward the horizon",
+      "Flat polder, grass, and reeds; no tulip color"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:33 Europe/Amsterdam. Side light from the west at 18:26 falls across the brick bodies and sails."
+  },
+  {
+    "entry_id": "NL-01-004",
+    "region": "North Holland",
+    "city": "Zaandam",
+    "folder": "Zaandam",
+    "caption": "Zaanse Schans, Zaandam",
+    "composition": "Green wooden mills along the river Zaan · AI-generated artistic interpretation",
+    "description": "From the riverbank at Zaanse Schans, green wooden mills and dark wooden houses stand over the Zaan, with a footbridge and reflections in the water. The mills are timber, unlike the brick towers at Kinderdijk. It is clear, about 21.1°C, and the wind is light, about 5.8 km/h. The low sun lights the green wood from the west.",
+    "alt_text": "AI-generated artistic interpretation of the green wooden windmills at Zaanse Schans in Zaandam on a clear late afternoon",
+    "viewpoint": "From the Zaan riverbank by the Kalverringdijk mill row, looking across the water at the wooden mills. The public bank is the viewpoint; a single tripod coordinate was not fixed.",
+    "references": [
+      "https://www.dezaanseschans.nl/en/",
+      "https://en.wikipedia.org/wiki/Zaanse_Schans"
+    ],
+    "anchors": [
+      "The river Zaan fills the foreground",
+      "Green wooden mills with dark caps line the far bank",
+      "Dark wooden houses and a footbridge sit with the mills"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:32 Europe/Amsterdam. At 18:26 the sun is low in the west, warming the green timber and the water."
+  },
+  {
+    "entry_id": "NL-01-005",
+    "region": "South Holland",
+    "city": "Lisse",
+    "folder": "Lisse",
+    "caption": "Bulb fields, Lisse",
+    "composition": "Out-of-season bulb fields near Keukenhof, dark soil and ditches · AI-generated artistic interpretation",
+    "description": "The commercial bulb fields near Lisse are shown as they are in late September: strips of dark turned soil and low green cover, divided by straight ditches. Keukenhof’s gardens are closed outside spring, and no tulips are in bloom. It is clear, about 21.0°C, with wind near 8.3 km/h. Long shadows cross the empty beds.",
+    "alt_text": "AI-generated artistic interpretation of bulb fields near Lisse in late September, dark soil and ditches with no tulips in bloom",
+    "viewpoint": "From a public road among the bulb fields west of Lisse, near Keukenhof but outside the closed garden. There is no single named overlook; the working fields themselves are the view. That missing pin is a research gap, not a claim that the garden was entered.",
+    "references": [
+      "https://keukenhof.nl/en/",
+      "https://en.wikipedia.org/wiki/Keukenhof"
+    ],
+    "anchors": [
+      "Parallel ditches divide dark soil and low green cover",
+      "No flower stripes and no tulip color",
+      "A flat horizon of trees and distant glasshouse roofs"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:33 Europe/Amsterdam. At 18:27 the sun is low in the west, throwing long shadows across the beds."
+  },
+  {
+    "entry_id": "NL-01-006",
+    "region": "Overijssel",
+    "city": "Giethoorn",
+    "folder": "Giethoorn",
+    "caption": "Giethoorn, Giethoorn",
+    "composition": "Village canal, thatched farmhouses, and a wooden footbridge · AI-generated artistic interpretation",
+    "description": "A narrow canal in Giethoorn is seen from a wooden footbridge, with thickly thatched farmhouses on the banks and a punt moored in still water. Reeds and trees line the edges. It is clear and cooler here, about 17.9°C, with a light wind near 4.7 km/h. The low sun warms the thatch.",
+    "alt_text": "AI-generated artistic interpretation of a Giethoorn canal and thatched farmhouses on a clear late afternoon",
+    "viewpoint": "From a wooden footbridge on the main village canal in the old part of Giethoorn, looking along the water between thatched houses. The exact bridge was not surveyed; it is the usual pedestrian view.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Giethoorn",
+      "https://www.holland.com/global/tourism/getting-around/interests/traditional/giethoorn"
+    ],
+    "anchors": [
+      "A narrow canal runs through the center of the frame",
+      "Farmhouses with thick thatched roofs stand on the banks",
+      "A wooden footbridge and a punt sit over still water"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:27 Europe/Amsterdam, a little earlier than on the coast. At 18:27 the sun is low in the west."
+  },
+  {
+    "entry_id": "NL-01-007",
+    "region": "South Holland",
+    "city": "Rotterdam",
+    "folder": "Rotterdam",
+    "caption": "Erasmus Bridge, Rotterdam",
+    "composition": "North-bank view of the white asymmetric pylon over the Nieuwe Maas · AI-generated artistic interpretation",
+    "description": "From the north bank of the Nieuwe Maas, the white Erasmus Bridge crosses the river with its single bent pylon and fanning cables. The deck and the water lead the eye, and the city stays behind the span. It is clear, about 22.0°C, with wind near 8.6 km/h. Late-afternoon sun warms the white steel.",
+    "alt_text": "AI-generated artistic interpretation of the Erasmus Bridge in Rotterdam from the north bank on a clear late afternoon",
+    "viewpoint": "From the north quay of the Nieuwe Maas, in the Willemskade / Boompjes area, looking south toward the harp-shaped pylon. The quay is the tourist viewpoint; a precise standing stone was not fixed.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Erasmusbrug",
+      "https://www.rotterdam.info/en/"
+    ],
+    "anchors": [
+      "One white asymmetric pylon rises over the span",
+      "Cables fan from the pylon down to the deck",
+      "The Nieuwe Maas is in the foreground and the city stays secondary"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:33 Europe/Amsterdam. At 18:27 the sun is low in the west, lighting the white steel."
+  },
+  {
+    "entry_id": "NL-01-008",
+    "region": "South Holland",
+    "city": "Rotterdam",
+    "folder": "Rotterdam",
+    "caption": "Cube Houses, Rotterdam",
+    "composition": "Tilted cubes at Blaak, seen from the pedestrian street, pencil tower behind · AI-generated artistic interpretation",
+    "description": "At Blaak the cube houses tilt on their points above the pedestrian street, grey-yellow cladding over hexagonal bases. The narrow pencil-shaped tower rises behind the cluster. It is clear, about 21.9°C, with wind near 8.6 km/h. Shop signs are not given readable lettering.",
+    "alt_text": "AI-generated artistic interpretation of the Cube Houses at Blaak in Rotterdam on a clear late afternoon, with the pencil tower behind them",
+    "viewpoint": "From the pedestrian level of Overblaak, looking up at Piet Blom’s tilted cubes, with the Blaaktoren (the pencil tower) behind. The public walkway is the viewpoint.",
+    "references": [
+      "https://www.kubuswoning.nl/",
+      "https://en.wikipedia.org/wiki/Cube_house"
+    ],
+    "anchors": [
+      "Tilted cubes are seen from below",
+      "Hexagonal bases carry the cubes",
+      "The tall narrow pencil tower stands behind the cluster"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:33 Europe/Amsterdam. At 18:27 the sun is low in the west between the cubes."
+  },
+  {
+    "entry_id": "NL-01-009",
+    "region": "South Holland",
+    "city": "The Hague",
+    "folder": "The Hague",
+    "caption": "Binnenhof, The Hague",
+    "composition": "Across the Hofvijver to the Ridderzaal and the Torentje · AI-generated artistic interpretation",
+    "description": "From the north side of the Hofvijver the pond fills the foreground and reflects the Binnenhof. The Ridderzaal’s paired round towers sit across the water, and the small octagonal Torentje meets the pond’s edge. It is clear, about 21.9°C, with wind near 9.7 km/h. Banners are not given readable words.",
+    "alt_text": "AI-generated artistic interpretation of the Binnenhof and Hofvijver in The Hague on a clear late afternoon",
+    "viewpoint": "From Lange Vijverberg on the north side of the Hofvijver, looking south across the water to the Binnenhof and the Torentje. This is the usual postcard standing line; an exact pavement joint was not surveyed.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Binnenhof",
+      "https://en.wikipedia.org/wiki/Hofvijver"
+    ],
+    "anchors": [
+      "The Hofvijver occupies the foreground",
+      "The Ridderzaal’s twin round towers stand across the pond",
+      "The small octagonal Torentje meets the water at the near edge of the complex"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:34 Europe/Amsterdam. At 18:27 the sun is low in the west, with reflections on the pond."
+  },
+  {
+    "entry_id": "NL-01-010",
+    "region": "Utrecht",
+    "city": "Utrecht",
+    "folder": "Utrecht",
+    "caption": "Dom Tower, Utrecht",
+    "composition": "Free-standing Gothic tower on Domplein, choir separated by the open square · AI-generated artistic interpretation",
+    "description": "On Domplein the Gothic Dom Tower stands free, its square lower stages rising to an octagonal top. The choir of the Domkerk is a separate stone mass across the open square, not joined to the tower. It is clear, about 21.5°C, with wind near 7.9 km/h. Low western sun rakes the stone.",
+    "alt_text": "AI-generated artistic interpretation of the free-standing Dom Tower on Domplein in Utrecht on a clear late afternoon",
+    "viewpoint": "From Domplein, in the open gap between the tower and the choir, looking toward the tower with the choir remaining in the same wide view. The square itself is the viewpoint.",
+    "references": [
+      "https://www.domtoren.nl/en/",
+      "https://en.wikipedia.org/wiki/Dom_Tower_of_Utrecht"
+    ],
+    "anchors": [
+      "The Gothic tower stands free of the church",
+      "Square lower stages and an octagonal upper stage",
+      "The Domkerk choir is a separate building across the open square"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:31 Europe/Amsterdam. At 18:27 the sun is low in the west on the stone."
+  },
+  {
+    "entry_id": "NL-01-011",
+    "region": "South Holland",
+    "city": "Delft",
+    "folder": "Delft",
+    "caption": "Markt, Delft",
+    "composition": "Open Markt with the Nieuwe Kerk tower and the Stadhuis opposite · AI-generated artistic interpretation",
+    "description": "The Markt in Delft is an open paved square on this Friday afternoon, not a stall day. The tall brick tower of the Nieuwe Kerk rises on one side, and the Stadhuis Renaissance front stands opposite. It is clear and warm, about 22.1°C, with wind near 8.3 km/h. Shop names are not written as real signs.",
+    "alt_text": "AI-generated artistic interpretation of the Markt in Delft, with the Nieuwe Kerk and the Stadhuis, on a clear late afternoon",
+    "viewpoint": "From the open center of the Markt, with the Nieuwe Kerk to the east and the Stadhuis to the west. The square’s middle is the tourist viewpoint.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Nieuwe_Kerk,_Delft",
+      "https://en.wikipedia.org/wiki/Delft_City_Hall"
+    ],
+    "anchors": [
+      "Open paving fills the foreground, without a market of stalls",
+      "The Nieuwe Kerk’s tall brick Gothic tower stands on one side",
+      "The Stadhuis Renaissance facade and older tower stand opposite"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:34 Europe/Amsterdam. At 18:27 the sun is low in the west across the square."
+  },
+  {
+    "entry_id": "NL-01-012",
+    "region": "North Holland",
+    "city": "Haarlem",
+    "folder": "Haarlem",
+    "caption": "Grote Markt, Haarlem",
+    "composition": "St. Bavo in the square, Vleeshal gables at the side · AI-generated artistic interpretation",
+    "description": "On the Grote Markt the broad stone mass of St. Bavo, the Grote Kerk, sits in the square, with a modest lantern tower rather than a huge stone spire. The stepped gables of the Vleeshal edge the paving. It is clear, about 21.3°C, and the wind is light, about 5.0 km/h. Cafe fronts carry no readable brands.",
+    "alt_text": "AI-generated artistic interpretation of Haarlem’s Grote Markt and St. Bavo on a clear late afternoon",
+    "viewpoint": "From the west side of the Grote Markt, looking toward St. Bavo in the middle of the square, with the Vleeshal’s gables to one side. The open markt is the viewpoint.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Grote_Kerk,_Haarlem",
+      "https://www.visithaarlem.com/"
+    ],
+    "anchors": [
+      "St. Bavo’s broad Gothic body occupies the square",
+      "The tower is a modest lantern, not a giant stone spire",
+      "The Vleeshal’s ornate stepped gables sit at the edge of the Markt"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:33 Europe/Amsterdam. At 18:28 the sun is low in the west on the stone."
+  },
+  {
+    "entry_id": "NL-01-013",
+    "region": "South Holland",
+    "city": "Leiden",
+    "folder": "Leiden",
+    "caption": "Rapenburg, Leiden",
+    "composition": "Canal view toward the Academy Building pediment · AI-generated artistic interpretation",
+    "description": "Along the Rapenburg, calm water passes brick canal houses and a stone bridge toward the Academy Building, whose pale pediment faces the canal. Trees break the roofline. It is clear, about 21.8°C, with wind near 8.6 km/h. No shop signs are treated as readable lettering.",
+    "alt_text": "AI-generated artistic interpretation of the Rapenburg canal and the Academy Building in Leiden on a clear late afternoon",
+    "viewpoint": "From the Nonnenbrug area, looking along the Rapenburg so the Academy Building’s pediment reads across the canal. The bridge is a usual tourist stop; the exact rail position was not surveyed.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Rapenburg",
+      "https://www.universiteitleiden.nl/en/locations/academy-building"
+    ],
+    "anchors": [
+      "The Rapenburg canal leads through the frame",
+      "The Academy Building’s classical pediment faces the water",
+      "A stone bridge and brick canal houses continue along the quay"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:33 Europe/Amsterdam. At 18:28 the sun is low in the west, with reflections in the canal."
+  },
+  {
+    "entry_id": "NL-01-014",
+    "region": "Limburg",
+    "city": "Maastricht",
+    "folder": "Maastricht",
+    "caption": "Vrijthof, Maastricht",
+    "composition": "Square with grey Sint-Servaas and the red tower of Sint-Jan · AI-generated artistic interpretation",
+    "description": "Across the paved Vrijthof, the grey Romanesque westwork of Sint-Servaas stands beside the Gothic Sint-Janskerk and its tall red tower. Cafe fronts ring the square without readable names. It is clear and the warmest of this set, about 22.7°C, with wind near 7.2 km/h. The low sun falls across the paving.",
+    "alt_text": "AI-generated artistic interpretation of Vrijthof in Maastricht, with Sint-Servaas and the red tower of Sint-Jan, on a clear late afternoon",
+    "viewpoint": "From the west side of Vrijthof, looking east toward Sint-Servaasbasiliek and Sint-Janskerk side by side. The open square is the viewpoint.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Vrijthof",
+      "https://www.visitmaastricht.com/en"
+    ],
+    "anchors": [
+      "Wide paved square in the foreground",
+      "Grey Romanesque westwork of Sint-Servaas",
+      "Bright red Gothic tower of Sint-Janskerk immediately beside it"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:28 Europe/Amsterdam, earlier than in the west of the country. At 18:28 the sun is low in the west."
+  },
+  {
+    "entry_id": "NL-01-015",
+    "region": "North Holland",
+    "city": "De Cocksdorp",
+    "folder": "De Cocksdorp",
+    "caption": "Lighthouse, De Cocksdorp",
+    "composition": "Red Eierland tower in the dunes, white lantern, sea at the side · AI-generated artistic interpretation",
+    "description": "The Eierland lighthouse stands in the dunes north of De Cocksdorp: a round red brick tower with a white lantern and gallery, and the North Sea off to one side. It is clear and cooler, about 18.2°C, with a fresher wind near 18.0 km/h. Dune grass bends, and the sky stays cloudless.",
+    "alt_text": "AI-generated artistic interpretation of the red Eierland lighthouse in the dunes near De Cocksdorp, Texel, on a clear late afternoon",
+    "viewpoint": "From the dune path approaching Vuurtoren Eierland, with the North Sea to the west of the tower. The public path is the viewpoint. The tower is brick with a red coating and a white lantern, not a cast-iron shaft.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Eierland_Lighthouse",
+      "https://www.vuurtorens.org/vuurtoren/eierland/"
+    ],
+    "anchors": [
+      "A red cylindrical brick tower is centered in the dunes",
+      "A white lantern room and gallery cap the tower",
+      "Dune grass and a glimpse of the sea; no town skyline"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:32 Europe/Amsterdam. At 18:28 the sun is low in the west over the dunes, with a fresher wind in the grass."
+  },
+  {
+    "entry_id": "NL-01-016",
+    "region": "Gelderland",
+    "city": "Otterlo",
+    "folder": "Otterlo",
+    "caption": "Kröller-Müller Museum, Otterlo",
+    "composition": "Low museum exterior among Scots pines at the woodland edge · AI-generated artistic interpretation",
+    "description": "The Kröller-Müller Museum exterior sits low among Scots pines: a long flat-roofed volume of glass and warm brick on a sandy path. Late September here is green and brown undergrowth, not a carpet of purple heather, and no sculpture is the subject. It is clear, about 19.4°C, with a light wind near 4.7 km/h.",
+    "alt_text": "AI-generated artistic interpretation of the Kröller-Müller Museum exterior among pines near Otterlo on a clear late September afternoon",
+    "viewpoint": "From the public approach to the museum entrance in the woods of De Hoge Veluwe. The open heath and this exterior are different places in the park; this frame does not invent a building standing in the middle of the heath. That separation is recorded as a research gap, not merged into one false overlook.",
+    "references": [
+      "https://krollermuller.nl/en/",
+      "https://www.hogeveluwe.nl/en/"
+    ],
+    "anchors": [
+      "A low, long museum volume sits among pines",
+      "Horizontal glass and brick under a flat roof",
+      "A sandy path and late-September undergrowth, without a heather carpet or a featured sculpture"
+    ],
+    "solar": "Clear late afternoon. Model sunset 19:28 Europe/Amsterdam. At 18:28 the sun is low in the west, filtering through the pines."
+  }
+]

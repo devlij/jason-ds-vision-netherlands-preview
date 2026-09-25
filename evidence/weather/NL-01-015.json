@@ -1,0 +1,23 @@
+{
+  "entry_id": "NL-01-015",
+  "site": "Lighthouse",
+  "city": "De Cocksdorp",
+  "latitude": 53.1816,
+  "longitude": 4.8559,
+  "provider": "Open-Meteo",
+  "retrieval_timestamp": "2026-09-25T18:28:06+02:00",
+  "retrieval_display": "25 September 2026 18:28:06 Europe/Amsterdam",
+  "model_time": "2026-09-25T18:15",
+  "model_interval_seconds": 900,
+  "timezone": "Europe/Amsterdam",
+  "temperature_2m": 18.2,
+  "weather_code": 0,
+  "cloud_cover": 0,
+  "wind_speed_10m": 18.0,
+  "is_day": 1,
+  "precipitation": 0.0,
+  "sunrise": "2026-09-25T07:31",
+  "sunset": "2026-09-25T19:32",
+  "model_valid_hour_start": "2026-09-25T18:00",
+  "scenario_label": "25 September 2026 \u00b7 18:28 Europe/Amsterdam"
+}

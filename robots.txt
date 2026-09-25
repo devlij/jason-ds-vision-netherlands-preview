@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://devlij.github.io/jason-ds-vision-netherlands-preview/sitemap.xml
