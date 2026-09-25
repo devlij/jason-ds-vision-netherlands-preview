@@ -1342,5 +1342,341 @@
       "The water has small whitecaps under a clear late-afternoon sky"
     ],
     "solar": "Late afternoon, sun still up. Model sunset 18:26 America/Kralendijk and model is_day 1. At 18:01 the sun is low in the west, about twenty-five minutes before sunset. Cloud cover is about 5%."
+  },
+  {
+    "entry_id": "NL-01-065",
+    "region": "Caribbean Netherlands",
+    "city": "Oranjestad",
+    "folder": "Oranjestad",
+    "caption": "Fort Oranje, Oranjestad",
+    "composition": "Cliff-top cannons over Lower Town and Oranje Bay at dusk · AI-generated artistic interpretation",
+    "description": "Fort Oranje sits on the cliff above Oranjestad on Sint Eustatius, with a row of cannons along the parapet and the Lower Town roofs and warehouse ruins below. The bay is quiet. It is clear and warm, about 29.0°C, with a breeze near 20.7 km/h and no rain. Sunset was 18:05 America/Kralendijk, so 18:19 is dusk, about fourteen minutes after sunset, with afterglow still over the sea.",
+    "alt_text": "AI-generated artistic interpretation of Fort Oranje above Oranjestad on Sint Eustatius at dusk",
+    "viewpoint": "From the seaward parapet of Fort Oranje in Upper Town, looking west over the cannons toward Oranje Bay and the Lower Town. The open fort is the viewpoint. A surveyed tripod mark was not pinned. This Oranjestad is on Sint Eustatius, not Aruba. Local time is America/Kralendijk.",
+    "references": [
+      "https://www.thetripverdict.com/fort-oranje-first-salute-sint-eustatius",
+      "https://www.erikastravels.com/sint-eustatius-an-island-guide/"
+    ],
+    "anchors": [
+      "A low stone parapet holds a row of cannons facing the sea",
+      "Lower Town roofs and warehouse ruins sit below the cliff",
+      "The bay is quiet under a dusk afterglow"
+    ],
+    "solar": "Dusk, sun down. Model sunset 18:05 America/Kralendijk and model is_day 0. At 18:19 the western sky still holds afterglow, about fourteen minutes after sunset. Cloud cover is about 12%."
+  },
+  {
+    "entry_id": "NL-01-066",
+    "region": "Caribbean Netherlands",
+    "city": "The Bottom",
+    "folder": "The Bottom",
+    "caption": "The Bottom, The Bottom",
+    "composition": "Crater village and the dark mass of Mount Scenery at dusk · AI-generated artistic interpretation",
+    "description": "From the road just above The Bottom, small houses with red roofs sit in the green crater and Mount Scenery rises behind them. The stepped trail most visitors use starts in Windwardside, so this is the village view, not that trailhead and not the closed summit platform. It is clear and warm, about 27.9°C, with wind near 22.8 km/h. Sunset was 18:06 America/Kralendijk, so 18:19 is dusk, about thirteen minutes after sunset.",
+    "alt_text": "AI-generated artistic interpretation of The Bottom on Saba, with Mount Scenery behind the village at dusk",
+    "viewpoint": "From the road just above The Bottom, looking across the crater village toward Mount Scenery. The public road is the viewpoint. A surveyed tripod mark was not pinned. The Windwardside trailhead is a different place. Local time is America/Kralendijk.",
+    "references": [
+      "https://sabapark.org/mount-scenery-national-park/plan-your-hike/",
+      "https://en.wikipedia.org/wiki/The_Bottom"
+    ],
+    "anchors": [
+      "Red-roofed houses sit in a green volcanic bowl",
+      "Forested slopes rise to Mount Scenery",
+      "The summit platform and its tower are not in the view"
+    ],
+    "solar": "Dusk, sun down. Model sunset 18:06 America/Kralendijk and model is_day 0. At 18:19 a pale afterglow remains, about thirteen minutes after sunset. Cloud cover is about 2%."
+  },
+  {
+    "entry_id": "NL-01-067",
+    "region": "Caribbean Netherlands",
+    "city": "Bonaire",
+    "folder": "Bonaire",
+    "caption": "Salt pans, Bonaire",
+    "composition": "White salt pyramids and shallow copper and blue-green pans · AI-generated artistic interpretation",
+    "description": "From the public road in southern Bonaire, white salt pyramids stand beside shallow pans. Some water is pale copper-pink and some is blue-green, not one neon lake. The industrial yard itself is not entered. It is still day: clear, about 28.9°C, with a breeze near 23.8 km/h and no rain. Sunset is 18:26 America/Kralendijk, so 18:19 is low sun, about seven minutes before sunset. This is not the Kralendijk waterfront.",
+    "alt_text": "AI-generated artistic interpretation of the southern Bonaire salt pans in low late-day sun",
+    "viewpoint": "From the public coastal road beside the southern salt pans, looking across the pyramids and evaporation basins. The road is the viewpoint. Entry into the works is not the viewpoint. A surveyed tripod mark was not pinned. Local time is America/Kralendijk.",
+    "references": [
+      "https://bonaire.com/en/sightseeing/salt-pans/",
+      "https://www.plazaresortbonaire.com/en/blog/salt-pans"
+    ],
+    "anchors": [
+      "White salt pyramids stand in a row",
+      "Shallow pans are pale copper-pink and blue-green",
+      "The public road is empty, with the sea on the horizon"
+    ],
+    "solar": "Late day, sun still up. Model sunset 18:26 America/Kralendijk and model is_day 1. At 18:19 the sun is low, about seven minutes before sunset. Cloud cover is about 4%."
+  },
+  {
+    "entry_id": "NL-01-068",
+    "region": "North Brabant",
+    "city": "Heusden",
+    "folder": "Heusden",
+    "caption": "Harbour, Heusden",
+    "composition": "Three wooden post mills on the rampart beside a quiet harbour · AI-generated artistic interpretation",
+    "description": "At the Heusden harbour, three wooden post mills stand on the grass rampart, each a timber body on an open trestle with lattice sails. They are the mills rebuilt in the 1970s, not brick tower mills. The harbour is quiet after midnight, with empty moorings. The sky is clear, about 12.2°C, with wind near 9.7 km/h. Sunset was 19:28.",
+    "alt_text": "AI-generated artistic interpretation of the Heusden harbour and three post mills on a clear night",
+    "viewpoint": "From the harbour side, looking at the three post mills on the rampart and the quiet water. The public quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://molensheusdenvesting.com/geschiedenis/",
+      "https://en.wikipedia.org/wiki/Heusden"
+    ],
+    "anchors": [
+      "Three wooden post mills stand on the grass rampart",
+      "Each mill has an open trestle and lattice sails",
+      "Harbour water and a drawbridge sit in front of the wall"
+    ],
+    "solar": "Full night under a mostly clear sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 00:19 lamps light the mills and the quay. Cloud cover is about 17%."
+  },
+  {
+    "entry_id": "NL-01-069",
+    "region": "North Brabant",
+    "city": "Nuenen",
+    "folder": "Nuenen",
+    "caption": "Van Gogh Church, Nuenen",
+    "composition": "Small 1824 brick hall church and open roof turret in a churchyard · AI-generated artistic interpretation",
+    "description": "The Van Gogh church in Nuenen is the small 1824 hall church on Papenvoort, with an open wooden roof turret and a short spire, standing in a leafy churchyard. It is not the medieval tower Van Gogh painted, which was later taken down, and it is not a painting. The church is closed. The sky is clear, about 11.8°C, with wind near 10.8 km/h. Sunset was 19:27. Trees are still in leaf.",
+    "alt_text": "AI-generated artistic interpretation of the Van Gogh church in Nuenen on a clear night",
+    "viewpoint": "From the churchyard at Papenvoort, looking at the brick hall and its roof turret. The public yard is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Van_Goghkerkje_(Nuenen)",
+      "https://www.brabantorgel.nl/nuenen-van-goghkerkje/"
+    ],
+    "anchors": [
+      "A small brick hall church stands in a churchyard",
+      "An open wooden turret and short spire sit on the roof",
+      "Pointed windows and trees still in leaf surround the building"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 00:19 a porch lamp lights the closed church. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-070",
+    "region": "Overijssel",
+    "city": "Zwolle",
+    "folder": "Zwolle",
+    "caption": "Sassenpoort, Zwolle",
+    "composition": "Brick gate with four corner turrets on an empty night street · AI-generated artistic interpretation",
+    "description": "The Sassenpoort is Zwolle's brick city gate, with four octagonal corner turrets, pale stone bands, and a steep roof, seen from the street. The sky is overcast, about 14.2°C, with wind near 8.3 km/h and no rain. Sunset was 19:24. The street is quiet.",
+    "alt_text": "AI-generated artistic interpretation of the Sassenpoort in Zwolle on an overcast night",
+    "viewpoint": "From the street in front of the Sassenpoort, looking at the gate and its four turrets. The public street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Sassenpoort",
+      "https://en.wikipedia.org/wiki/Zwolle"
+    ],
+    "anchors": [
+      "A brick gate fills the street view",
+      "Four corner turrets rise at the corners",
+      "Pale stone bands cross the brick under a steep roof"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 00:19 street lamps light the gate. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-071",
+    "region": "Overijssel",
+    "city": "Kampen",
+    "folder": "Kampen",
+    "caption": "Stadsbrug, Kampen",
+    "composition": "IJssel quay, gabled houses, Bovenkerk tower, and the city bridge · AI-generated artistic interpretation",
+    "description": "From the IJssel bank at Kampen, gabled houses line the quay and the tall brick Bovenkerk tower rises over the roofs. The city bridge crosses at one side with its lamps. The sky is overcast, about 11.9°C, with wind near 7.6 km/h and no rain. Sunset was 19:25. House names are not written as real signs.",
+    "alt_text": "AI-generated artistic interpretation of the Kampen skyline and IJssel bridge on an overcast night",
+    "viewpoint": "From the IJssel bank, looking along the historic quay toward the Bovenkerk, with the Stadsbrug at one side. The public bank is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.visitoost.nl/mooiste-plekkie/kampen/",
+      "https://en.wikipedia.org/wiki/Kampen,_Overijssel"
+    ],
+    "anchors": [
+      "The IJssel fills the foreground",
+      "Gabled houses line the quay under the Bovenkerk tower",
+      "A lamp-lit road bridge crosses at one side"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 00:19 lamps light the quay and the bridge. Cloud cover is about 93%."
+  },
+  {
+    "entry_id": "NL-01-072",
+    "region": "Gelderland",
+    "city": "Elburg",
+    "folder": "Elburg",
+    "caption": "Harbour, Elburg",
+    "composition": "Vischpoort, a lit harbour lantern, and moored boats with furled sails · AI-generated artistic interpretation",
+    "description": "Outside the Vischpoort at Elburg, the brick gate closes the harbour and its lantern is lit. Wooden boats lie moored with sails furled, and several berths are empty. It is not a summer sailing day. The sky is overcast, about 12.3°C, with wind near 6.5 km/h and no rain. Sunset was 19:25. Hulls carry no readable marks.",
+    "alt_text": "AI-generated artistic interpretation of Elburg harbour and the Vischpoort on an overcast night",
+    "viewpoint": "From the harbour, looking toward the Vischpoort and the moored boats. The public harbour side is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.visithansaholland.com/hansa-towns/elburg/",
+      "https://www.visafslagelburg.nl/vischpoort/"
+    ],
+    "anchors": [
+      "The brick Vischpoort stands at the end of the harbour",
+      "A harbour lantern on the gate is lit",
+      "Boats are moored with sails furled, and some berths are empty"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 00:19 the gate lantern and quay lamps are on. Cloud cover is about 86%."
+  },
+  {
+    "entry_id": "NL-01-073",
+    "region": "Gelderland",
+    "city": "Zutphen",
+    "folder": "Zutphen",
+    "caption": "Berkelpoort, Zutphen",
+    "composition": "Low brick water gate with two small turrets over the Berkel · AI-generated artistic interpretation",
+    "description": "The Berkelpoort in Zutphen is a low brick water gate over the Berkel, with two small turrets and open arches, and a ruined top. It is not the tall Drogenapstoren. The sky is mostly clear, about 12.2°C, with wind near 8.6 km/h. Sunset was 19:24. The water is quiet.",
+    "alt_text": "AI-generated artistic interpretation of the Berkelpoort water gate in Zutphen on a clear night",
+    "viewpoint": "From the bank of the Berkel, looking at the water gate and its two small turrets. The public bank is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.inzutphen.nl/en/locations/4088798008/berkel-ruin",
+      "https://www.inzutphen.nl/en/welcome-to-zutphen/blog/the-most-beautiful-towers-of-zutphen-special-places-to-discover"
+    ],
+    "anchors": [
+      "A low brick gate spans a narrow river",
+      "Two small turrets flank the arches",
+      "The top is ruined, with no tall spire"
+    ],
+    "solar": "Full night under a mostly clear sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 00:19 lamps light the brick and the water. Cloud cover is about 18%."
+  },
+  {
+    "entry_id": "NL-01-074",
+    "region": "Gelderland",
+    "city": "Arnhem",
+    "folder": "Arnhem",
+    "caption": "Sonsbeek Park, Arnhem",
+    "composition": "White neoclassical villa above a dark lawn · AI-generated artistic interpretation",
+    "description": "Huis Sonsbeek, the white villa in Sonsbeek Park, stands on the hill above a dark lawn and old trees. The building is closed, so most windows are dark and only path lamps are on. This is not the John Frost Bridge. The sky is mainly clear, about 13.4°C, with wind near 7.9 km/h. Sunset was 19:25. The trees still hold early-autumn leaves.",
+    "alt_text": "AI-generated artistic interpretation of the white villa in Sonsbeek Park, Arnhem, on a mainly clear night",
+    "viewpoint": "From the lawn below Huis Sonsbeek, looking up at the white facade. The public park lawn is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Huis_Sonsbeek",
+      "https://stadsvillasonsbeek.nl/over-ons/"
+    ],
+    "anchors": [
+      "A white symmetrical villa sits on a rise",
+      "A dark lawn and old trees fill the foreground",
+      "Most windows are dark"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 00:19 a few path lamps light the lawn. Cloud cover is about 20%."
+  },
+  {
+    "entry_id": "NL-01-075",
+    "region": "Gelderland",
+    "city": "Nijmegen",
+    "folder": "Nijmegen",
+    "caption": "Valkhof, Nijmegen",
+    "composition": "Polygonal chapel and the Barbarossa apse above the Waal · AI-generated artistic interpretation",
+    "description": "On the Valkhof hill, the polygonal stone chapel with its arched niches stands apart from the ruined Barbarossa apse, and the Waal lies below in the dark. This is not the Waalbrug scene. The sky is clear, about 16.5°C, with wind near 11.9 km/h. Sunset was 19:25.",
+    "alt_text": "AI-generated artistic interpretation of the Valkhof chapel and ruins above the Waal at Nijmegen on a clear night",
+    "viewpoint": "From the Valkhof plateau, looking across the chapel and the Barbarossa ruin toward the Waal. The park path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.visitnijmegen.com/locaties/683555987/valkhofpark",
+      "https://rijksmonumenten.nl/monument/31192/het-valkhof-sint-nicolaaskapel-barbarossa-ruine/nijmegen/"
+    ],
+    "anchors": [
+      "A polygonal stone chapel with arched niches stands on the hill",
+      "A separate ruined apse stands nearby",
+      "The dark Waal lies below the plateau"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 00:19 path lamps light the stone. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-076",
+    "region": "North Holland",
+    "city": "Naarden",
+    "folder": "Naarden",
+    "caption": "Vesting, Naarden",
+    "composition": "Pointed bastion in a still moat · AI-generated artistic interpretation",
+    "description": "From the outer bank at Naarden, a pointed grass bastion juts into the moat, with a low brick edge along the rampart. The sky is partly cloudy, about 14.2°C, with a light wind near 5.4 km/h and no rain. Sunset was 19:28. The water is still.",
+    "alt_text": "AI-generated artistic interpretation of a Naarden bastion and moat on a partly cloudy night",
+    "viewpoint": "From the outer bank, looking across the moat at one pointed bastion. The public bank is the viewpoint. A surveyed tripod mark was not pinned. This is a ground view, not an aerial view.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Naarden",
+      "https://whc.unesco.org/en/list/759/"
+    ],
+    "anchors": [
+      "A pointed grass bastion extends into the moat",
+      "A low brick wall edges the rampart",
+      "The water is still under broken cloud"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 00:19 a few lamps light the rampart. Cloud cover is about 71%."
+  },
+  {
+    "entry_id": "NL-01-077",
+    "region": "North Holland",
+    "city": "Muiden",
+    "folder": "Muiden",
+    "caption": "Muiderslot, Muiden",
+    "composition": "Brick castle, four round towers, and a moat · AI-generated artistic interpretation",
+    "description": "Muiderslot is a square red-brick castle with four round corner towers and dark conical roofs, standing in its moat. The museum is closed, so the windows are dark. The sky is partly cloudy, about 11.5°C, with a light wind near 4.7 km/h. Sunset was 19:28.",
+    "alt_text": "AI-generated artistic interpretation of Muiderslot in Muiden on a partly cloudy night",
+    "viewpoint": "From the outer bank of the moat, looking at the four round towers. The public bank is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Muiderslot",
+      "https://www.muiderslot.nl/en/"
+    ],
+    "anchors": [
+      "A red-brick castle stands in a moat",
+      "Four round towers have dark conical roofs",
+      "The windows are dark"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 00:19 a few exterior lamps light the brick. Cloud cover is about 77%."
+  },
+  {
+    "entry_id": "NL-01-078",
+    "region": "Utrecht",
+    "city": "Haarzuilens",
+    "folder": "Haarzuilens",
+    "caption": "Kasteel de Haar, Haarzuilens",
+    "composition": "Neo-gothic brick castle, turrets, and a moat · AI-generated artistic interpretation",
+    "description": "Kasteel de Haar at Haarzuilens is an ornate neo-gothic castle of red brick and pale stone, with many turrets, a moat, and trees still in early-autumn leaf. It is closed, so the lighting is modest and most windows are dark. The sky is partly cloudy, about 12.8°C, with wind near 11.2 km/h. Sunset was 19:29.",
+    "alt_text": "AI-generated artistic interpretation of Kasteel de Haar at Haarzuilens on a partly cloudy night",
+    "viewpoint": "From the park side of the moat, looking at the turreted exterior. The public grounds edge is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/De_Haar_Castle",
+      "https://www.kasteeldehaar.nl/en/"
+    ],
+    "anchors": [
+      "Red brick and pale stone form an ornate castle",
+      "Many turrets rise above a moat",
+      "Trees still hold early-autumn leaves"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:29 Europe/Amsterdam and model is_day 0. At 00:19 modest exterior lamps light the walls. Cloud cover is about 63%."
+  },
+  {
+    "entry_id": "NL-01-079",
+    "region": "South Holland",
+    "city": "The Hague",
+    "folder": "The Hague",
+    "caption": "Kurhaus, The Hague",
+    "composition": "Cream seaside hotel and an empty beach, without the pier · AI-generated artistic interpretation",
+    "description": "The Kurhaus faces the Scheveningen beach: a cream curved hotel with a central dome, seen from the sand. The beach is almost empty, and the pier is not in this view. The sky is overcast, about 16.5°C, with wind near 8.6 km/h and no rain. Sunset was 19:32. A few hotel windows are lit. The building name is not written on the facade.",
+    "alt_text": "AI-generated artistic interpretation of the Kurhaus at Scheveningen in The Hague on an overcast night",
+    "viewpoint": "From the beach in front of the Kurhaus, looking at the curved facade and dome. The sand is the viewpoint. The pier, already used as NL-01-030, is kept out of the frame. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Kurhaus_(Scheveningen)",
+      "https://www.denhaag.com/en/scheveningen"
+    ],
+    "anchors": [
+      "A cream curved hotel with a central dome faces the beach",
+      "The sand in front is almost empty",
+      "The pier is outside the frame"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:32 Europe/Amsterdam and model is_day 0. At 00:19 boulevard lamps and a few windows light the facade. Cloud cover is about 100%."
+  },
+  {
+    "entry_id": "NL-01-080",
+    "region": "South Holland",
+    "city": "Delft",
+    "folder": "Delft",
+    "caption": "Oude Kerk, Delft",
+    "composition": "Leaning brick tower beside the canal · AI-generated artistic interpretation",
+    "description": "The Oude Kerk stands beside the Oude Delft canal, a brick gothic church whose tower leans slightly toward the water, with canal houses and trees still in leaf opposite. This is not the Markt and not the Nieuwe Kerk. The sky is overcast, about 16.8°C, with wind near 6.5 km/h and no rain. Sunset was 19:31. The canal is quiet.",
+    "alt_text": "AI-generated artistic interpretation of the Oude Kerk beside the canal in Delft on an overcast night",
+    "viewpoint": "From the Oude Delft canal bank, looking at the leaning tower and the church along the water. The public quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Oude_Kerk_(Delft)",
+      "https://en.wikipedia.org/wiki/Delft"
+    ],
+    "anchors": [
+      "A brick gothic tower leans slightly toward the canal",
+      "The church runs along the water, not a market square",
+      "Canal houses and trees in leaf stand opposite"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 00:19 lamps reflect in the canal. Cloud cover is about 90%."
   }
 ]

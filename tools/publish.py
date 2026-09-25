@@ -532,7 +532,7 @@ def main() -> None:
     lines = [
         "# Netherlands sequence log",
         "",
-        "NL-01-001 through NL-01-064. IDs are not reused.",
+        "NL-01-001 through NL-01-080. IDs are not reused.",
         "NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.",
         "NL-01-033 through NL-01-048 swaps:",
         "- NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.",
@@ -543,6 +543,11 @@ def main() -> None:
         "NL-01-049 through NL-01-064: no site swaps. The suggested Limburg, Flevoland, Friesland, Groningen, Drenthe, and Kralendijk anchors were not already in the catalogue.",
         "- NL-01-053 depiction note: the Batavia replica left the Lelystad berth on 19 September 2026 for a dry dock in Amsterdam and is scheduled to return on a pontoon on 1 October 2026. The scene shows the Bataviawerf harbour without that ship.",
         "- NL-01-064 uses America/Kralendijk. Bonaire is not on Europe/Amsterdam time. The scenario minute sits inside that retrieval's model-valid hour.",
+        "NL-01-065 through NL-01-080 swaps:",
+        "- NL-01-066: the stepped Mount Scenery trail most visitors use starts in Windwardside, opposite the Trail Shop, not in The Bottom. This scene is the view from the road just above The Bottom, across the crater village toward the mountain. A 2026 tower project closed the Windwardside lookout and the communication-tower path, so the closed summit platform is not shown.",
+        "- NL-01-073: the suggested name Berkeltoren is the Berkelpoort (Berkelruïne), a low brick water gate with two small turrets over the Berkel. It is not the tall Drogenapstoren and not the Wijnhuistoren.",
+        "- NL-01-079: Madurodam is closed after midnight and the miniature city is not a public night view. Swapped to Kurhaus, The Hague, the Scheveningen beachfront hotel. Scheveningen pier remains NL-01-030 and is not this scene.",
+        "- The other suggested sites in this batch were not already used. Sint Eustatius and Saba use America/Kralendijk, the same Atlantic zone as Bonaire.",
         "",
     ]
     for row in catalogue:

@@ -1,6 +1,6 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-064. IDs are not reused.
+NL-01-001 through NL-01-080. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
 NL-01-033 through NL-01-048 swaps:
 - NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.
@@ -11,6 +11,11 @@ NL-01-033 through NL-01-048 swaps:
 NL-01-049 through NL-01-064: no site swaps. The suggested Limburg, Flevoland, Friesland, Groningen, Drenthe, and Kralendijk anchors were not already in the catalogue.
 - NL-01-053 depiction note: the Batavia replica left the Lelystad berth on 19 September 2026 for a dry dock in Amsterdam and is scheduled to return on a pontoon on 1 October 2026. The scene shows the Bataviawerf harbour without that ship.
 - NL-01-064 uses America/Kralendijk. Bonaire is not on Europe/Amsterdam time. The scenario minute sits inside that retrieval's model-valid hour.
+NL-01-065 through NL-01-080 swaps:
+- NL-01-066: the stepped Mount Scenery trail most visitors use starts in Windwardside, opposite the Trail Shop, not in The Bottom. This scene is the view from the road just above The Bottom, across the crater village toward the mountain. A 2026 tower project closed the Windwardside lookout and the communication-tower path, so the closed summit platform is not shown.
+- NL-01-073: the suggested name Berkeltoren is the Berkelpoort (Berkelruïne), a low brick water gate with two small turrets over the Berkel. It is not the tall Drogenapstoren and not the Wijnhuistoren.
+- NL-01-079: Madurodam is closed after midnight and the miniature city is not a public night view. Swapped to Kurhaus, The Hague, the Scheveningen beachfront hotel. Scheveningen pier remains NL-01-030 and is not this scene.
+- The other suggested sites in this batch were not already used. Sint Eustatius and Saba use America/Kralendijk, the same Atlantic zone as Bonaire.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
 - NL-01-002 — Prinsengracht, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:39+02:00
@@ -76,3 +81,19 @@ NL-01-049 through NL-01-064: no site swaps. The suggested Limburg, Flevoland, Fr
 - NL-01-062 — Hunebed D27, Borger — 26 September 2026 · 00:01 Europe/Amsterdam — retrieved 2026-09-26T00:01:12+02:00
 - NL-01-063 — Dwingelderveld, Dwingeloo — 26 September 2026 · 00:01 Europe/Amsterdam — retrieved 2026-09-26T00:01:15+02:00
 - NL-01-064 — Waterfront, Kralendijk — 25 September 2026 · 18:01 America/Kralendijk — retrieved 2026-09-25T18:01:17-04:00
+- NL-01-065 — Fort Oranje, Oranjestad — 25 September 2026 · 18:19 America/Kralendijk — retrieved 2026-09-25T18:19:08-04:00
+- NL-01-066 — The Bottom, The Bottom — 25 September 2026 · 18:19 America/Kralendijk — retrieved 2026-09-25T18:19:11-04:00
+- NL-01-067 — Salt pans, Bonaire — 25 September 2026 · 18:19 America/Kralendijk — retrieved 2026-09-25T18:19:14-04:00
+- NL-01-068 — Harbour, Heusden — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:17+02:00
+- NL-01-069 — Van Gogh Church, Nuenen — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:19+02:00
+- NL-01-070 — Sassenpoort, Zwolle — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:22+02:00
+- NL-01-071 — Stadsbrug, Kampen — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:25+02:00
+- NL-01-072 — Harbour, Elburg — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:27+02:00
+- NL-01-073 — Berkelpoort, Zutphen — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:30+02:00
+- NL-01-074 — Sonsbeek Park, Arnhem — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:33+02:00
+- NL-01-075 — Valkhof, Nijmegen — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:35+02:00
+- NL-01-076 — Vesting, Naarden — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:38+02:00
+- NL-01-077 — Muiderslot, Muiden — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:41+02:00
+- NL-01-078 — Kasteel de Haar, Haarzuilens — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:43+02:00
+- NL-01-079 — Kurhaus, The Hague — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:46+02:00
+- NL-01-080 — Oude Kerk, Delft — 26 September 2026 · 00:19 Europe/Amsterdam — retrieved 2026-09-26T00:19:49+02:00

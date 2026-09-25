@@ -30,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-049", "Basilica of Saint Servatius", "Maastricht", 50.8481, 5.6876, "Europe/Amsterdam"),
-    ("NL-01-050", "Valkenburg Castle", "Valkenburg", 50.8628, 5.8308, "Europe/Amsterdam"),
-    ("NL-01-051", "Abbey square", "Thorn", 51.1617, 5.8419, "Europe/Amsterdam"),
-    ("NL-01-052", "Vaalserberg", "Vaals", 50.7545, 6.0208, "Europe/Amsterdam"),
-    ("NL-01-053", "Bataviawerf", "Lelystad", 52.5215, 5.4358, "Europe/Amsterdam"),
-    ("NL-01-054", "Harbour", "Urk", 52.6616, 5.5928, "Europe/Amsterdam"),
-    ("NL-01-055", "Schokland Museum", "Schokland", 52.6406, 5.7759, "Europe/Amsterdam"),
-    ("NL-01-056", "Oldehove", "Leeuwarden", 53.2030, 5.7894, "Europe/Amsterdam"),
-    ("NL-01-057", "Harbour", "Harlingen", 53.1748, 5.4098, "Europe/Amsterdam"),
-    ("NL-01-058", "Eise Eisinga Planetarium", "Franeker", 53.1865, 5.5412, "Europe/Amsterdam"),
-    ("NL-01-059", "Waterfront", "Hindeloopen", 52.9428, 5.4015, "Europe/Amsterdam"),
-    ("NL-01-060", "Martinitoren", "Groningen", 53.2194, 6.5682, "Europe/Amsterdam"),
-    ("NL-01-061", "Vesting Bourtange", "Bourtange", 53.0068, 7.1918, "Europe/Amsterdam"),
-    ("NL-01-062", "Hunebed D27", "Borger", 52.9302, 6.7974, "Europe/Amsterdam"),
-    ("NL-01-063", "Dwingelderveld", "Dwingeloo", 52.8240, 6.3780, "Europe/Amsterdam"),
-    ("NL-01-064", "Waterfront", "Kralendijk", 12.1504, -68.2772, "America/Kralendijk"),
+    ("NL-01-065", "Fort Oranje", "Oranjestad", 17.4829, -62.9865, "America/Kralendijk"),
+    ("NL-01-066", "The Bottom", "The Bottom", 17.6262, -63.2490, "America/Kralendijk"),
+    ("NL-01-067", "Salt pans", "Bonaire", 12.0930, -68.2800, "America/Kralendijk"),
+    ("NL-01-068", "Harbour", "Heusden", 51.7336, 5.1378, "Europe/Amsterdam"),
+    ("NL-01-069", "Van Gogh Church", "Nuenen", 51.4777, 5.5532, "Europe/Amsterdam"),
+    ("NL-01-070", "Sassenpoort", "Zwolle", 52.5098, 6.0907, "Europe/Amsterdam"),
+    ("NL-01-071", "Stadsbrug", "Kampen", 52.5578, 5.9145, "Europe/Amsterdam"),
+    ("NL-01-072", "Harbour", "Elburg", 52.4492, 5.8432, "Europe/Amsterdam"),
+    ("NL-01-073", "Berkelpoort", "Zutphen", 52.1424, 6.2012, "Europe/Amsterdam"),
+    ("NL-01-074", "Sonsbeek Park", "Arnhem", 51.9833, 5.9000, "Europe/Amsterdam"),
+    ("NL-01-075", "Valkhof", "Nijmegen", 51.8472, 5.8710, "Europe/Amsterdam"),
+    ("NL-01-076", "Vesting", "Naarden", 52.2953, 5.1622, "Europe/Amsterdam"),
+    ("NL-01-077", "Muiderslot", "Muiden", 52.3361, 5.0703, "Europe/Amsterdam"),
+    ("NL-01-078", "Kasteel de Haar", "Haarzuilens", 52.1214, 4.9868, "Europe/Amsterdam"),
+    ("NL-01-079", "Kurhaus", "The Hague", 52.1135, 4.2817, "Europe/Amsterdam"),
+    ("NL-01-080", "Oude Kerk", "Delft", 52.0125, 4.3557, "Europe/Amsterdam"),
 ]
 
 
