@@ -4,12 +4,18 @@
   "region": "North Holland",
   "city": "Amsterdam",
   "caption": "Anne Frank House, Amsterdam",
-  "scenario_label": "25 September 2026 \u00b7 23:05 Europe/Amsterdam",
-  "composition": "Public canal-side exterior at night, Westerkerk crown behind the house \u00b7 AI-generated artistic interpretation",
-  "description": "From the Prinsengracht the view stays outside: a brick neck-gable canal house at the water, with the Westerkerk\u2019s crowned tower rising behind it. No interior and no diary are shown. Cloud cover is about 46%, the air about 17.0\u00b0C, and the wind near 10.8 km/h, under a mainly clear night sky. Street lamps reflect in the canal.",
+  "scenario_label": "25 September 2026 · 23:05 Europe/Amsterdam",
+  "composition": "Public canal-side exterior at night, Westerkerk crown behind the house · AI-generated artistic interpretation",
+  "description": "From the Prinsengracht the view stays outside: a brick neck-gable canal house at the water, with the Westerkerk’s crowned tower rising behind it. No interior and no diary are shown. Cloud cover is about 46%, the air about 17.0°C, and the wind near 10.8 km/h, under a mainly clear night sky. Street lamps reflect in the canal.",
   "alt_text": "AI-generated artistic interpretation of the Anne Frank House exterior on the Prinsengracht in Amsterdam at night, with the Westerkerk crown behind it",
   "file_16x9": "Netherlands/Amsterdam/nl-01-019-16x9.png",
   "file_4x5": "Netherlands/Amsterdam/nl-01-019-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 PASS: Prinsengracht at night from the classic Anne Frank House viewpoint — row of lit gabled canal houses along the water with the illuminated Westertoren rising behind, warm reflections; plausible, no artifacts. G2: exact dims verified; on-image 'Anne Frank House, Amsterdam', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:07+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public canal view, documented only. G5: complete.",
+  "approved_at": "2026-09-25T23:45:15.058121+00:00",
+  "sha256_16x9": "c32bddb3acdbfcc638642e08b5b4466903eaece9542e506c3d202ed20a36edc4",
+  "sha256_4x5": "699d2eea12b8c1afbf2e563ad64cf46d9fd4a48b3b4776961ccfc029eaa7c17f"
 }
