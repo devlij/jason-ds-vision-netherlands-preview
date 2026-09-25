@@ -4,12 +4,18 @@
   "region": "South Holland",
   "city": "The Hague",
   "caption": "Binnenhof, The Hague",
-  "scenario_label": "25 September 2026 \u00b7 18:27 Europe/Amsterdam",
-  "composition": "Across the Hofvijver to the Ridderzaal and the Torentje \u00b7 AI-generated artistic interpretation",
-  "description": "From the north side of the Hofvijver the pond fills the foreground and reflects the Binnenhof. The Ridderzaal\u2019s paired round towers sit across the water, and the small octagonal Torentje meets the pond\u2019s edge. It is clear, about 21.9\u00b0C, with wind near 9.7 km/h. Banners are not given readable words.",
+  "scenario_label": "25 September 2026 · 18:27 Europe/Amsterdam",
+  "composition": "Across the Hofvijver to the Ridderzaal and the Torentje · AI-generated artistic interpretation",
+  "description": "From the north side of the Hofvijver the pond fills the foreground and reflects the Binnenhof. The Ridderzaal’s paired round towers sit across the water, and the small octagonal Torentje meets the pond’s edge. It is clear, about 21.9°C, with wind near 9.7 km/h. Banners are not given readable words.",
   "alt_text": "AI-generated artistic interpretation of the Binnenhof and Hofvijver in The Hague on a clear late afternoon",
   "file_16x9": "Netherlands/The Hague/nl-01-009-16x9.png",
   "file_4x5": "Netherlands/The Hague/nl-01-009-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Cosmo QC 5/5 2026-09-25",
+  "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Binnenhof Ridderzaal with twin corner towers on the Hofvijver, clean water reflections; late-afternoon light matches the 18:27 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:27:54+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:27 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
+  "approved_at": "2026-09-25T22:29:41.141968+00:00",
+  "sha256_16x9": "5f566e9aba60d82ac0a83845c9aa19d34991c0b43fc7f6c3edf4deeef4ea169a",
+  "sha256_4x5": "b7d946acdd2b33db406135ca54d92e7589c79a763a32ead834cea30f42c5be85"
 }
