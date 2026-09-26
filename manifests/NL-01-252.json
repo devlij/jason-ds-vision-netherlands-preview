@@ -4,12 +4,18 @@
   "region": "Groningen",
   "city": "Termunterzijl",
   "caption": "Boog van Ziel, Termunterzijl",
-  "scenario_label": "26 September 2026 \u00b7 03:59 Europe/Amsterdam",
-  "composition": "Brick sea lock and stone parapet on the harbour channel \u00b7 AI-generated artistic interpretation",
-  "description": "The Boog van Ziel is the 1725 brick lock at Termunterzijl, with a stone parapet over the channel to the Dollard. The coats of arms are not readable. It is overcast, about 10.3\u00b0C, with wind near 8.3 km/h and cloud cover about 100%. It is not a lighthouse. The exact tide was not retrieved, so the water level is not stated. No boat name is shown.",
+  "scenario_label": "26 September 2026 · 03:59 Europe/Amsterdam",
+  "composition": "Brick sea lock and stone parapet on the harbour channel · AI-generated artistic interpretation",
+  "description": "The Boog van Ziel is the 1725 brick lock at Termunterzijl, with a stone parapet over the channel to the Dollard. The coats of arms are not readable. It is overcast, about 10.3°C, with wind near 8.3 km/h and cloud cover about 100%. It is not a lighthouse. The exact tide was not retrieved, so the water level is not stated. No boat name is shown.",
   "alt_text": "AI-generated artistic interpretation of the Boog van Ziel lock at Termunterzijl at night",
   "file_16x9": "Netherlands/Termunterzijl/nl-01-252-16x9.png",
   "file_4x5": "Netherlands/Termunterzijl/nl-01-252-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: the 1725 brick lock chamber at night — brick arch bridge with stone balustrade parapet and carved piers over dark channel water, brick lock walls receding, overcast sky; 16x9 three-quarter side view vs 4x5 head-on arch view depict the same bridge and parapet with no defining-feature conflict (one or two balusters render slightly uneven in the dark 16x9 side view, regular in the frontal 4x5 — below the glaring-defect bar). Gate 2: exact 1920x1080/864x1080 masters, caption 'Boog van Ziel, Termunterzijl', scenario '26 September 2026 · 03:59 Europe/Amsterdam' inside the model-valid hour of the recorded Open-Meteo retrieval 2026-09-26T03:59:45+02:00 (verified unique to the second across all 288 Netherlands evidence files), exact curly-apostrophe signature and disclosure legible, Art. 50 PNG metadata present on both masters. Gate 3: evidence card claims text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, no logos; historic public waterwork — documented only. Gate 5: card fields complete, no open blockers.",
+  "approved_at": "2026-09-26T16:56:55.545024+00:00",
+  "sha256_16x9": "1d1ca13433607a2152697fca5c801e9c85d52a1adb2411739472453cfdd66e47",
+  "sha256_4x5": "9d53452313b3aea40eefebbd6a837193bd37675fe239b398221439e196abf926"
 }
