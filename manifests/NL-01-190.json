@@ -4,12 +4,18 @@
   "region": "Caribbean Netherlands",
   "city": "Oranjestad",
   "caption": "Lower Town, Oranjestad",
-  "scenario_label": "25 September 2026 \u00b7 20:37 America/Kralendijk",
-  "composition": "Partial brick warehouse walls along the bay, cliff behind \u00b7 AI-generated artistic interpretation",
-  "description": "Lower Town on Sint Eustatius is a broken line of brick and stone warehouse walls along Oranje Bay, with the cliff rising behind them. Many buildings are only foundations and partial walls. The row is not restored to a complete eighteenth-century street. Fort Oranje stays up on the cliff and is outside this frame. The sky is overcast, about 29.5\u00b0C, with wind near 20.7 km/h and cloud cover about 80%. No hotel name is shown.",
+  "scenario_label": "25 September 2026 · 20:37 America/Kralendijk",
+  "composition": "Partial brick warehouse walls along the bay, cliff behind · AI-generated artistic interpretation",
+  "description": "Lower Town on Sint Eustatius is a broken line of brick and stone warehouse walls along Oranje Bay, with the cliff rising behind them. Many buildings are only foundations and partial walls. The row is not restored to a complete eighteenth-century street. Fort Oranje stays up on the cliff and is outside this frame. The sky is overcast, about 29.5°C, with wind near 20.7 km/h and cloud cover about 80%. No hotel name is shown.",
   "alt_text": "AI-generated artistic interpretation of Lower Town in Oranjestad, Sint Eustatius, at night, ruined warehouse walls along a dark bay",
   "file_16x9": "Netherlands/Oranjestad/nl-01-190-16x9.png",
   "file_4x5": "Netherlands/Oranjestad/nl-01-190-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Night. G1 visual pass: broken brick-and-stone warehouse wall fragments along a dark bay, lit warmly at the water's edge, vegetated cliff rising behind — matching the note's anchors (water-edge walls, dark bay, cliff backdrop), plausible tourist viewpoint from the shore path. G2 technical pass: exact 1920x1080/864x1080; caption 'Lower Town, Oranjestad', scenario '25 September 2026 · 20:37 America/Kralendijk', AI-interpretation disclosure and 'Jason D's Vision' signature all legible on-image; Open-Meteo retrieval 2026-09-25T20:37:19-04:00 verified unique to the second across all 288 Netherlands evidence files (zero shared timestamps), scenario minute inside the 20:00-20:59 model-valid hour; Art.50 disclosure in PNG Comment/Description/Software identical to the approved NL baseline. G3: note documents text-prompt-only lineage, no photographic input. G4: no visible people or logos; badge 'Free · no credit needed' — documented only. G5: manifest card fields complete.",
+  "approved_at": "2026-09-26T12:42:26.399059+00:00",
+  "sha256_16x9": "e3663d75138518a08bb3b2527b903dacfb6ddbeac7e09206fb98a9aaa6732b92",
+  "sha256_4x5": "bf87e0ca95f2326e0a01f9e05207df604171c2f998504464006153ba4c304618"
 }
