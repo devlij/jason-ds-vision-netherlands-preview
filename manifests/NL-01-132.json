@@ -4,12 +4,18 @@
   "region": "North Holland",
   "city": "Amsterdam",
   "caption": "Scheepvaartmuseum, Amsterdam",
-  "scenario_label": "26 September 2026 \u00b7 01:37 Europe/Amsterdam",
-  "composition": "17th-century arsenal on the Oosterdok, with a moored sailing ship \u00b7 AI-generated artistic interpretation",
-  "description": "The Scheepvaartmuseum occupies the old naval arsenal on the Oosterdok: a large square storehouse of pale stone-colored plaster, with angled buttresses and a central pediment. A wooden full-rigged ship lies quiet alongside, with no readable name. The sky is overcast, about 16.2\u00b0C, with wind near 7.6 km/h. The glass courtyard roof is indoors. NEMO is outside this frame. The museum is closed.",
+  "scenario_label": "26 September 2026 · 01:37 Europe/Amsterdam",
+  "composition": "17th-century arsenal on the Oosterdok, with a moored sailing ship · AI-generated artistic interpretation",
+  "description": "The Scheepvaartmuseum occupies the old naval arsenal on the Oosterdok: a large square storehouse of pale stone-colored plaster, with angled buttresses and a central pediment. A wooden full-rigged ship lies quiet alongside, with no readable name. The sky is overcast, about 16.2°C, with wind near 7.6 km/h. The glass courtyard roof is indoors. NEMO is outside this frame. The museum is closed.",
   "alt_text": "AI-generated artistic interpretation of the Scheepvaartmuseum arsenal on the Oosterdok in Amsterdam on an overcast night",
   "file_16x9": "Netherlands/Amsterdam/nl-01-132-16x9.png",
   "file_4x5": "Netherlands/Amsterdam/nl-01-132-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: long pale neoclassical waterfront facade with a moored tall ship, masts and rigging to the right, lantern reflections on dark water — recognizably the Scheepvaartmuseum's 's Lands Zeemagazijn with the Amsterdam replica ship; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Scheepvaartmuseum, Amsterdam' + scenario '26 September 2026 · 01:37 Europe/Amsterdam' + disclosure + signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:37:49+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
+  "approved_at": "2026-09-26T08:37:32.283366+00:00",
+  "sha256_16x9": "ff3a859c686aa44ff6388956d07e483b1daabdcf2f1842c39891245d319b368f",
+  "sha256_4x5": "8bb5c7b1789562fba2defb114267fa0e68113ba54c1b9fc2863cd9d9eb982c04"
 }
