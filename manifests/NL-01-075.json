@@ -4,12 +4,18 @@
   "region": "Gelderland",
   "city": "Nijmegen",
   "caption": "Valkhof, Nijmegen",
-  "scenario_label": "26 September 2026 \u00b7 00:19 Europe/Amsterdam",
-  "composition": "Polygonal chapel and the Barbarossa apse above the Waal \u00b7 AI-generated artistic interpretation",
-  "description": "On the Valkhof hill, the polygonal stone chapel with its arched niches stands apart from the ruined Barbarossa apse, and the Waal lies below in the dark. This is not the Waalbrug scene. The sky is clear, about 16.5\u00b0C, with wind near 11.9 km/h. Sunset was 19:25.",
+  "scenario_label": "26 September 2026 · 00:19 Europe/Amsterdam",
+  "composition": "Polygonal chapel and the Barbarossa apse above the Waal · AI-generated artistic interpretation",
+  "description": "On the Valkhof hill, the polygonal stone chapel with its arched niches stands apart from the ruined Barbarossa apse, and the Waal lies below in the dark. This is not the Waalbrug scene. The sky is clear, about 16.5°C, with wind near 11.9 km/h. Sunset was 19:25.",
   "alt_text": "AI-generated artistic interpretation of the Valkhof chapel and ruins above the Waal at Nijmegen on a clear night",
   "file_16x9": "Netherlands/Nijmegen/nl-01-075-16x9.png",
   "file_4x5": "Netherlands/Nijmegen/nl-01-075-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 PASS: Valkhof Nijmegen — round Romanesque chapel left and ruined abbey church right on the hill above the river with city lights across the Waal; matches the known Valkhof ensemble, clean framing. G2 PASS: exact dims; on-image caption 'Valkhof, Nijmegen', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:35+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public monument. G5 PASS: card fields complete.",
+  "approved_at": "2026-09-26T04:38:09.626410+00:00",
+  "sha256_16x9": "6061e724536fe97c430fd35a078e43f1deebf1ab0db14e6449c421329cb4b29a",
+  "sha256_4x5": "4d63fe2ab81c75b279b7bfb5015e74a3301aac6a079a2eab6b0d57fbc1b6e0ad"
 }
