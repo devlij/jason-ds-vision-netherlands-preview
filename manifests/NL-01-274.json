@@ -4,12 +4,18 @@
   "region": "Overijssel",
   "city": "Hasselt",
   "caption": "Sint-Stephanuskerk, Hasselt",
-  "scenario_label": "26 September 2026 \u00b7 04:36 Europe/Amsterdam",
-  "composition": "Late Gothic hall church and heavy west tower from the market \u00b7 AI-generated artistic interpretation",
-  "description": "The Sint-Stephanuskerk at Hasselt in Overijssel is a late Gothic brick hall church with a heavy west tower built into the church. The present spire dates from the rebuild after the 1725 fire. It is partly cloudy, about 9.4\u00b0C, with wind near 3.2 km/h and cloud cover about 73%. The church is closed. This is not Hasselt in Belgium.",
+  "scenario_label": "26 September 2026 · 04:36 Europe/Amsterdam",
+  "composition": "Late Gothic hall church and heavy west tower from the market · AI-generated artistic interpretation",
+  "description": "The Sint-Stephanuskerk at Hasselt in Overijssel is a late Gothic brick hall church with a heavy west tower built into the church. The present spire dates from the rebuild after the 1725 fire. It is partly cloudy, about 9.4°C, with wind near 3.2 km/h and cloud cover about 73%. The church is closed. This is not Hasselt in Belgium.",
   "alt_text": "AI-generated artistic interpretation of the Sint-Stephanuskerk in Hasselt, Overijssel, at night",
   "file_16x9": "Netherlands/Hasselt/nl-01-274-16x9.png",
   "file_4x5": "Netherlands/Hasselt/nl-01-274-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Night scene of the Sint-Stephanuskerk at Hasselt from the Markt: heavy brick west tower with tall spire rising beside a high hall-church roof with traceried windows, market paving with lit lamps in the foreground, town rooftops at the frame edges. Gate 1 visual PASS — matches the card's documented anchors (heavy brick west tower, hall-church roof). Gate 2 technical PASS — masters 1920x1080 + 864x1080, exact curly-apostrophe 'Jason D's Vision' signature bottom-right, exact caption 'Sint-Stephanuskerk, Hasselt' + 'Scenario: 26 September 2026 · 04:36 Europe/Amsterdam' + 'AI-generated artistic interpretation · Not a photograph.' bottom-left on gradient scrim, Art. 50 PNG metadata (Title/Description/Copyright/Software + EU AI Act Art. 50 Comment); Open-Meteo retrieval 2026-09-26T04:36:44+02:00 unique to the second repo-wide (288/288 unique), scenario minute 04:36 inside the 04:00–04:59 model hour. Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people, logos, or private property; license badge 'Free · no credit needed' (documented only, not a certified clearance). Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T18:41:01.571405+00:00",
+  "sha256_16x9": "a84c41478e054b9f92eadb4a5374b1f615767aab5bfab16eb820546187dd24c1",
+  "sha256_4x5": "f767f12a801ae59eede6e0e6d85377e2efc42a4771b89fc0a7be5440c827ed97"
 }
