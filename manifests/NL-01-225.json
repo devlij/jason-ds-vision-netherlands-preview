@@ -4,12 +4,18 @@
   "region": "Flevoland",
   "city": "Marknesse",
   "caption": "Waterloopbos, Marknesse",
-  "scenario_label": "26 September 2026 \u00b7 03:37 Europe/Amsterdam",
-  "composition": "Concrete wave basin and weir in the night forest \u00b7 AI-generated artistic interpretation",
-  "description": "From the public path by the visitor pavilion, the restored concrete Golfbak and its weir sit among trees in the Waterloopbos. Moss and ferns cover the old test channels. It is partly cloudy, about 9.2\u00b0C, with wind near 3.2 km/h and cloud cover about 72%. The pavilion is closed. The later artwork at the entrance is not this view.",
+  "scenario_label": "26 September 2026 · 03:37 Europe/Amsterdam",
+  "composition": "Concrete wave basin and weir in the night forest · AI-generated artistic interpretation",
+  "description": "From the public path by the visitor pavilion, the restored concrete Golfbak and its weir sit among trees in the Waterloopbos. Moss and ferns cover the old test channels. It is partly cloudy, about 9.2°C, with wind near 3.2 km/h and cloud cover about 72%. The pavilion is closed. The later artwork at the entrance is not this view.",
   "alt_text": "AI-generated artistic interpretation of the concrete wave basin in the Waterloopbos at Marknesse at night",
   "file_16x9": "Netherlands/Marknesse/nl-01-225-16x9.png",
   "file_4x5": "Netherlands/Marknesse/nl-01-225-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Moss-covered rectangular concrete water-testing basin of the Waterloopbos in dense forest, small cascades at the far end, heavy overcast sky; caption 'Waterloopbos, Marknesse' and scenario '26 September 2026 · 03:37 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:37 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:37:36+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
+  "approved_at": "2026-09-26T14:42:53.666596+00:00",
+  "sha256_16x9": "ae12c2d1f94f7f609fce5ebe0e4bad9f320b1cafde6a73c1f022e0934d6721ef",
+  "sha256_4x5": "d9d9f00fda3c8166abbe45d60d4cf9e98eec17cc9a21927ae115782b4dfc568e"
 }
