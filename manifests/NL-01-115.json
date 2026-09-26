@@ -4,12 +4,18 @@
   "region": "Friesland",
   "city": "Oost-Vlieland",
   "caption": "Veerdam, Oost-Vlieland",
-  "scenario_label": "26 September 2026 \u00b7 01:22 Europe/Amsterdam",
-  "composition": "Empty ferry landing and the low brick village \u00b7 AI-generated artistic interpretation",
-  "description": "The veerdam at Oost-Vlieland is a plain landing on the Wadden, with the low brick houses of the only village just behind it. The sky is overcast, about 15.9\u00b0C, with wind near 7.9 km/h. No ferry is alongside and no operator name is shown. The yacht harbour lies further east, and the dune lighthouse is not in this frame.",
+  "scenario_label": "26 September 2026 · 01:22 Europe/Amsterdam",
+  "composition": "Empty ferry landing and the low brick village · AI-generated artistic interpretation",
+  "description": "The veerdam at Oost-Vlieland is a plain landing on the Wadden, with the low brick houses of the only village just behind it. The sky is overcast, about 15.9°C, with wind near 7.9 km/h. No ferry is alongside and no operator name is shown. The yacht harbour lies further east, and the dune lighthouse is not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the ferry landing at Oost-Vlieland on an overcast night",
   "file_16x9": "Netherlands/Oost-Vlieland/nl-01-115-16x9.png",
   "file_4x5": "Netherlands/Oost-Vlieland/nl-01-115-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Veerdam, Oost-Vlieland: dark Wadden water in the foreground, a plain empty landing, a low shed and a lit row of brick houses, matching the card's geometry anchors; no red lighthouse in frame. On-image caption 'Veerdam, Oost-Vlieland', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature (curly apostrophe) verified legible bottom-left/bottom-right on a gradient scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment carrying the EU AI Act Art. 50 note). Weather: Open-Meteo retrieval 2026-09-26T01:22:23+02:00 — verified unique to the second across all 288 Netherlands weather files via the GitHub API; scenario minute 01:22 inside this scene's own model-valid hour 01:00–01:59. Card claims text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass; card fields complete.",
+  "approved_at": "2026-09-26T07:36:29.589020+00:00",
+  "sha256_16x9": "16733cb34c61b8db5dce97355bc0a612189700543216f50f7d51fc5cddb0783f",
+  "sha256_4x5": "95ecf052292530be665d6c2fbb8ead9a6917d329138aaeaebc0e43c981170781"
 }
