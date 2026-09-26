@@ -4,12 +4,19 @@
   "region": "Zeeland",
   "city": "Burgh-Haamstede",
   "caption": "Plompe Toren, Burgh-Haamstede",
-  "scenario_label": "26 September 2026 \u00b7 02:56 Europe/Amsterdam",
-  "composition": "Solitary brick church tower in a hollow of the sea dike \u00b7 AI-generated artistic interpretation",
-  "description": "The Plompe Toren is the only standing piece of Koudekerke, a village the Oosterschelde took. The nave was taken down in 1583. The brick tower, about 23 metres, stands in a hollow of the inner dike slope, with dark sea water beyond the dike. It is partly cloudy, about 16.1\u00b0C, with wind near 10.1 km/h and cloud cover about 62%. No nave is shown.",
+  "scenario_label": "26 September 2026 · 02:56 Europe/Amsterdam",
+  "composition": "Solitary brick church tower in a hollow of the sea dike · AI-generated artistic interpretation",
+  "description": "The Plompe Toren is the only standing piece of Koudekerke, a village the Oosterschelde took. The nave was taken down in 1583. The brick tower, about 23 metres, stands in a hollow of the inner dike slope, with dark sea water beyond the dike. It is partly cloudy, about 16.1°C, with wind near 10.1 km/h and cloud cover about 62%. No nave is shown.",
   "alt_text": "AI-generated artistic interpretation of the solitary Plompe Toren at night in the Oosterschelde dike",
   "file_16x9": "Netherlands/Burgh-Haamstede/nl-01-205-16x9.png",
   "file_4x5": "Netherlands/Burgh-Haamstede/nl-01-205-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "qc_notes": [
+    {
+      "at": "2026-09-26T13:41:27.766485+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 hold (Cosmo QC 2026-09-26): the two format masters disagree on the tower's top — the 16:9 master shows the Plompe Toren with a pointed pyramidal roof while the 4:5 master shows an open crenellated (roofless) top, the tower's defining feature as documented in its evidence card (a lone brick tower with no nave, roofless remnant of Koudekerke). One master misrepresents the site. Builder to correct the 16:9 render and re-push; approval awaits corrected masters."
+    }
+  ]
 }
