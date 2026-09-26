@@ -4,12 +4,18 @@
   "region": "Friesland",
   "city": "West-Terschelling",
   "caption": "Brandaris, West-Terschelling",
-  "scenario_label": "26 September 2026 \u00b7 01:22 Europe/Amsterdam",
-  "composition": "Square brick lighthouse and red lantern roof on the village square \u00b7 AI-generated artistic interpretation",
-  "description": "The Brandaris stands in West-Terschelling, a heavy square tower of unpainted brick with four stages, a gallery, and a red lantern roof. Low houses close the quiet square around it. The sky is overcast, about 15.0\u00b0C, with wind near 6.1 km/h. The lantern is lit. It is a village tower, not a dune light, and no scaffold is shown.",
+  "scenario_label": "26 September 2026 · 01:22 Europe/Amsterdam",
+  "composition": "Square brick lighthouse and red lantern roof on the village square · AI-generated artistic interpretation",
+  "description": "The Brandaris stands in West-Terschelling, a heavy square tower of unpainted brick with four stages, a gallery, and a red lantern roof. Low houses close the quiet square around it. The sky is overcast, about 15.0°C, with wind near 6.1 km/h. The lantern is lit. It is a village tower, not a dune light, and no scaffold is shown.",
   "alt_text": "AI-generated artistic interpretation of the Brandaris lighthouse in West-Terschelling on an overcast night",
   "file_16x9": "Netherlands/West-Terschelling/nl-01-114-16x9.png",
   "file_4x5": "Netherlands/West-Terschelling/nl-01-114-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1: night view of the Brandaris on West-Terschelling from Brandarisplein: square unpainted brick tower with red lantern roof above the gallery, low village houses with lit windows on the cobbled square; no misconfiguration. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Brandaris, West-Terschelling', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and signature legible; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:22:20+02:00 unique across all 288 NL scenes; scenario minute 01:22 inside model hour 01:00. G3: builder note documents text-prompt-only generation, no photographic input. G4: no people or logos visible; documented only. G5: card fields complete.",
+  "approved_at": "2026-09-26T06:40:05.392416+00:00",
+  "sha256_16x9": "2a411d2d941062a6e9a32ea7b1f1973d001bc1cccdf358a5edea7fd028f40957",
+  "sha256_4x5": "1b99d0f9d61bc9bfc288d1692dd29c2395eec2e1cc5fc93586403a984b148b7a"
 }
