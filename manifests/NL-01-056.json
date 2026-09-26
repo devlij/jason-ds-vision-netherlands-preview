@@ -4,12 +4,18 @@
   "region": "Friesland",
   "city": "Leeuwarden",
   "caption": "Oldehove, Leeuwarden",
-  "scenario_label": "26 September 2026 \u00b7 00:00 Europe/Amsterdam",
-  "composition": "Unfinished leaning brick tower alone on the square \u00b7 AI-generated artistic interpretation",
-  "description": "The Oldehove stands alone on the Oldehoofsterkerkhof: an unfinished brick tower with a blunt top, no spire, and a visible lean. The church that once stood beside it is gone. The sky is mainly clear, about 12.6\u00b0C, with a light wind near 5.8 km/h. Sunset was 19:25. The paving is empty.",
+  "scenario_label": "26 September 2026 · 00:00 Europe/Amsterdam",
+  "composition": "Unfinished leaning brick tower alone on the square · AI-generated artistic interpretation",
+  "description": "The Oldehove stands alone on the Oldehoofsterkerkhof: an unfinished brick tower with a blunt top, no spire, and a visible lean. The church that once stood beside it is gone. The sky is mainly clear, about 12.6°C, with a light wind near 5.8 km/h. Sunset was 19:25. The paving is empty.",
   "alt_text": "AI-generated artistic interpretation of the leaning unfinished Oldehove tower in Leeuwarden on a mainly clear night",
   "file_16x9": "Netherlands/Leeuwarden/nl-01-056-16x9.png",
   "file_4x5": "Netherlands/Leeuwarden/nl-01-056-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual pass: night view of the leaning unfinished brick Oldehove from the Oldehoofsterkerkhof plaza — blunt flat top, no spire, floodlit warm brick against a deep-blue sky, streetlamps and gabled houses on the left, clean framing with no artifacts. G2: 1920x1080 + 864x1080 exact; 'Jason D's Vision' signature bottom-right, caption 'Oldehove, Leeuwarden', scenario '26 September 2026 · 00:00 Europe/Amsterdam' and AI disclosure legible bottom-left; Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment) present on both masters; Open-Meteo retrieval 2026-09-26T00:00:56+02:00 is unique repo-wide (verified 288 unique timestamps of 288 scenes via the GitHub API, zero duplicates), and the scenario minute sits inside the cited model-valid hour 00:00. G3: evidence card documents text-prompt-only lineage — no photographic reference supplied to the generator. G4: no visible people or focal logos; license badge 'Free · no credit needed' (documented only, Jason holds the commercial-use call). G5: manifest and card fields complete.",
+  "approved_at": "2026-09-26T03:41:56.282545+00:00",
+  "sha256_16x9": "6c3c054a41c3ec3ceed5b63ef3c3440abefa6a48d034cb2b8a13090a3dff58a2",
+  "sha256_4x5": "74f82057bca3265b53e116e281c319bd79c26c9aac39c5765d95c0050086895c"
 }
