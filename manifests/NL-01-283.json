@@ -4,12 +4,18 @@
   "region": "North Brabant",
   "city": "Woudrichem",
   "caption": "Gevangenpoort, Woudrichem",
-  "scenario_label": "26 September 2026 \u00b7 04:37 Europe/Amsterdam",
-  "composition": "Brick water gate with one remaining corner turret \u00b7 AI-generated artistic interpretation",
-  "description": "The Gevangenpoort at Woudrichem is a rectangular brick water gate with a gabled roof and pointed arches. One corbelled polygonal turret remains on a corner. The matching turret is gone and is not rebuilt. It is overcast, about 12.1\u00b0C, with wind near 7.9 km/h and cloud cover about 100%. No restaurant name is readable. The statue nearby is not the subject. Slot Loevestein is across the river and is not in this frame.",
+  "scenario_label": "26 September 2026 · 04:37 Europe/Amsterdam",
+  "composition": "Brick water gate with one remaining corner turret · AI-generated artistic interpretation",
+  "description": "The Gevangenpoort at Woudrichem is a rectangular brick water gate with a gabled roof and pointed arches. One corbelled polygonal turret remains on a corner. The matching turret is gone and is not rebuilt. It is overcast, about 12.1°C, with wind near 7.9 km/h and cloud cover about 100%. No restaurant name is readable. The statue nearby is not the subject. Slot Loevestein is across the river and is not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the Gevangenpoort in Woudrichem at night",
   "file_16x9": "Netherlands/Woudrichem/nl-01-283-16x9.png",
   "file_4x5": "Netherlands/Woudrichem/nl-01-283-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: 16:9 master shows the Gevangenpoort as a night-lit brick water gate — rectangular brick mass with gabled roof, large pointed water arch, one small corbelled corner turret with a pointed cap, dark river water and a stone quay in the foreground, a lit quay lamp, overcast sky; the 4:5 shows the same gate frontally from the water with the same arched passage and turret, formats agree. Gate 2: masters exactly 1920x1080 / 864x1080; on-image caption 'Gevangenpoort, Woudrichem', scenario '26 September 2026 · 04:37 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature legible on the scrim; Art. 50 PNG metadata present on both masters; scenario minute 04:37 inside model-valid hour 04:00–04:59; Open-Meteo retrieval timestamp 2026-09-26T04:37:57+02:00 verified unique to the second across all 288 Netherlands evidence files via the GitHub API. Gate 3: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no readable logos, no copyrighted artwork; license badge 'Free · no credit needed' — documented only. Gate 5: card fields complete. Modelled scenario, never a verified capture.",
+  "approved_at": "2026-09-26T20:39:33.838763+00:00",
+  "sha256_16x9": "b1cf2b16a8c59270ec6c2ffe48480285affc8f954943ac66c0a1784297d06a70",
+  "sha256_4x5": "6966e67f1e2d04d232b77c6d64412ca5e14c917386c64a3285d32ea6c56061ed"
 }
