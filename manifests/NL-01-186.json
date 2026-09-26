@@ -4,12 +4,18 @@
   "region": "Groningen",
   "city": "Ter Apel",
   "caption": "Klooster Ter Apel, Ter Apel",
-  "scenario_label": "26 September 2026 \u00b7 02:37 Europe/Amsterdam",
-  "composition": "Late Gothic brick south church of the monastery, seen from the public side \u00b7 AI-generated artistic interpretation",
-  "description": "Klooster Ter Apel shows its late Gothic brick south church, a long range with tall traceried windows under a steep tile roof, among trees. Three medieval wings remain around the cloister. The west front was lost after 1755 and is not drawn as a fourth medieval wing. The museum is closed. It is mainly clear, about 9.6\u00b0C, with wind near 7.6 km/h and cloud cover about 23%.",
+  "scenario_label": "26 September 2026 · 02:37 Europe/Amsterdam",
+  "composition": "Late Gothic brick south church of the monastery, seen from the public side · AI-generated artistic interpretation",
+  "description": "Klooster Ter Apel shows its late Gothic brick south church, a long range with tall traceried windows under a steep tile roof, among trees. Three medieval wings remain around the cloister. The west front was lost after 1755 and is not drawn as a fourth medieval wing. The museum is closed. It is mainly clear, about 9.6°C, with wind near 7.6 km/h and cloud cover about 23%.",
   "alt_text": "AI-generated artistic interpretation of Klooster Ter Apel at night, a long brick monastery church among trees",
   "file_16x9": "Netherlands/Ter Apel/nl-01-186-16x9.png",
   "file_4x5": "Netherlands/Ter Apel/nl-01-186-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: Klooster Ter Apel at night from the public ground south of the church range — brick gothic monastery church with steep tiled roof and tall tracery windows under a bright full moon, one wall lamp glowing warm, tree canopy left; recognizable monastery composition, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Klooster Ter Apel, Ter Apel', scenario '26 September 2026 · 02:37 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:37 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:37:08+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
+  "approved_at": "2026-09-26T11:55:13.102179+00:00",
+  "sha256_16x9": "65a011d9b09629234ff6a5fa21dfc55be1a3f9c215b91346ad3c66a9f1409af8",
+  "sha256_4x5": "4c1f6fc2da1f51d1ce1063a802caf03cf8245825d47211e2b867cbd4ae5e6004"
 }
