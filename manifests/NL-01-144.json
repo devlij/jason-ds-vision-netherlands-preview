@@ -4,12 +4,18 @@
   "region": "Groningen",
   "city": "Groningen",
   "caption": "Forum, Groningen",
-  "scenario_label": "26 September 2026 \u00b7 01:38 Europe/Amsterdam",
-  "composition": "Stacked stone-and-glass blocks from the west side \u00b7 AI-generated artistic interpretation",
-  "description": "Forum Groningen, seen from the west, is a stack of irregular stone and glass blocks with a stepped silhouette. Some interior lights are on. The sky is partly cloudy, about 12.5\u00b0C, with wind near 7.2 km/h. The Martinitoren stands on the other side of the building and is not in this frame.",
+  "scenario_label": "26 September 2026 · 01:38 Europe/Amsterdam",
+  "composition": "Stacked stone-and-glass blocks from the west side · AI-generated artistic interpretation",
+  "description": "Forum Groningen, seen from the west, is a stack of irregular stone and glass blocks with a stepped silhouette. Some interior lights are on. The sky is partly cloudy, about 12.5°C, with wind near 7.2 km/h. The Martinitoren stands on the other side of the building and is not in this frame.",
   "alt_text": "AI-generated artistic interpretation of Forum Groningen from the west side on a partly cloudy night",
   "file_16x9": "Netherlands/Groningen/nl-01-144-16x9.png",
   "file_4x5": "Netherlands/Groningen/nl-01-144-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: stacked travertine blocks with a lit glass-box top under a cloudy night sky, plaza lamps in the foreground — recognizably the Forum in Groningen; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Forum, Groningen' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:21+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
+  "approved_at": "2026-09-26T08:40:22.905367+00:00",
+  "sha256_16x9": "1996f315c235e32e0819c95ec69bcd326088a954bab7c838e8c9e36a81084d90",
+  "sha256_4x5": "ae2a15a6206ef2c9471eb9b3c5feff753d74dabd7b340fd97c7d3ea689b67be7"
 }
