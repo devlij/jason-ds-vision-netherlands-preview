@@ -4,12 +4,18 @@
   "region": "Drenthe",
   "city": "Orvelte",
   "caption": "Brink, Orvelte",
-  "scenario_label": "26 September 2026 \u00b7 02:18 Europe/Amsterdam",
-  "composition": "Thatched hall-farmhouses around the village green \u00b7 AI-generated artistic interpretation",
-  "description": "On the brink at Orvelte, thatched Saxon hall-farmhouses stand around an open green and a small pond. Trees still hold late September leaf, with no snow. The sky is mainly clear, about 7.9\u00b0C, with wind near 6.1 km/h and cloud cover about 20%, and a bright moon is up. There is no canal. Giethoorn is a different village.",
+  "scenario_label": "26 September 2026 · 02:18 Europe/Amsterdam",
+  "composition": "Thatched hall-farmhouses around the village green · AI-generated artistic interpretation",
+  "description": "On the brink at Orvelte, thatched Saxon hall-farmhouses stand around an open green and a small pond. Trees still hold late September leaf, with no snow. The sky is mainly clear, about 7.9°C, with wind near 6.1 km/h and cloud cover about 20%, and a bright moon is up. There is no canal. Giethoorn is a different village.",
   "alt_text": "AI-generated artistic interpretation of the brink at Orvelte at night, thatched farmhouses under a mainly clear sky",
   "file_16x9": "Netherlands/Orvelte/nl-01-165-16x9.png",
   "file_4x5": "Netherlands/Orvelte/nl-01-165-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Observed in the 16:9 master: thatched Saxon farmhouses ringing the village green with a small pond, lit windows, full moon, wispy cloud, matching the weather model (is_day 0, WMO 1). G1: Orvelte's museum-village brink of thatched farmhouses matches the known village-green composition, no artifacts. G2: sweep-verified 1920x1080 and 864x1080 PNGs; exact caption, scenario line '26 September 2026 · 02:18 Europe/Amsterdam', AI disclosure and 'Jason D’s Vision' signature (curly apostrophe) legible on the bottom edge; EU AI Act Art. 50 PNG metadata present; scenario minute sits inside model-valid hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:18:14+02:00 verified unique to the second across all 288 Netherlands scenes. G3: evidence card documents text-prompt-only lineage, no photographic inputs. G4: no visible people, logos, or readable private property; license badge 'Free · no credit needed' recorded, final commercial-use call is Jason's. G5: manifest card fields complete, no open blockers.",
+  "approved_at": "2026-09-26T10:38:37.379198+00:00",
+  "sha256_16x9": "ec25e843cb5d40a949428fb0be770ea3ed76cee9627e327d113d8497d66e246f",
+  "sha256_4x5": "5cafe6561de6b8a63f512e0ddf06348295b841e993020255a1aae78ab5b2b8f0"
 }
