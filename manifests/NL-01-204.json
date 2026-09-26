@@ -4,12 +4,18 @@
   "region": "Groningen",
   "city": "Zeerijp",
   "caption": "Jacobuskerk, Zeerijp",
-  "scenario_label": "26 September 2026 \u00b7 02:56 Europe/Amsterdam",
-  "composition": "Cruciform brick church and a free-standing saddle-roof tower \u00b7 AI-generated artistic interpretation",
-  "description": "The Jacobuskerk at Zeerijp is a medieval cruciform brick church with romanogothic arched brickwork. The bell tower stands apart from the church and has a saddle roof. A partial moat and an iron gate with block piers mark the churchyard. The church is closed. It is overcast, about 8.3\u00b0C, with wind near 7.6 km/h and cloud cover about 95%.",
+  "scenario_label": "26 September 2026 · 02:56 Europe/Amsterdam",
+  "composition": "Cruciform brick church and a free-standing saddle-roof tower · AI-generated artistic interpretation",
+  "description": "The Jacobuskerk at Zeerijp is a medieval cruciform brick church with romanogothic arched brickwork. The bell tower stands apart from the church and has a saddle roof. A partial moat and an iron gate with block piers mark the churchyard. The church is closed. It is overcast, about 8.3°C, with wind near 7.6 km/h and cloud cover about 95%.",
   "alt_text": "AI-generated artistic interpretation of the Jacobuskerk and its free-standing tower at Zeerijp at night",
   "file_16x9": "Netherlands/Zeerijp/nl-01-204-16x9.png",
   "file_4x5": "Netherlands/Zeerijp/nl-01-204-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Night. G1 visual pass: the Jacobuskerk brick nave with stepped gables and its detached saddle-roof bell tower inside the walled churchyard with stone gate pillars — a convincing Zeerijp prospect under an overcast sky, no artifacts. G2 technical pass: exact 1920x1080/864x1080; caption 'Jacobuskerk, Zeerijp', scenario '26 September 2026 · 02:56 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:56:08+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure present. G3: text-prompt-only, no photographic input. G4: church and churchyard, no people or logos; documented only. G5: card fields complete.",
+  "approved_at": "2026-09-26T12:43:25.528213+00:00",
+  "sha256_16x9": "0e12409cb7efb9c123eaa346707450d4e72cc43474bd66bab9241c859bdb1c10",
+  "sha256_4x5": "74fb78b37e2ae775d8f71ccf63bb8f4143e8322d725fb4d827275bff8028ab82"
 }
