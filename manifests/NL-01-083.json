@@ -4,12 +4,18 @@
   "region": "Drenthe",
   "city": "Assen",
   "caption": "Drents Museum, Assen",
-  "scenario_label": "26 September 2026 \u00b7 00:38 Europe/Amsterdam",
-  "composition": "Brick coach house on a low dark glass strip, museum closed \u00b7 AI-generated artistic interpretation",
-  "description": "The Drents Museum entrance in Assen is the old brick coach house, raised only a short step on a glass strip, with its historic facade kept. After midnight the museum is closed, so the glass is dark and only a path lamp lights the brick. A low grass roof with a curved skylight sits beside it. The sky is mainly clear, about 11.2\u00b0C, with wind near 7.2 km/h. Sunset was 19:22. Trees are still in leaf.",
+  "scenario_label": "26 September 2026 · 00:38 Europe/Amsterdam",
+  "composition": "Brick coach house on a low dark glass strip, museum closed · AI-generated artistic interpretation",
+  "description": "The Drents Museum entrance in Assen is the old brick coach house, raised only a short step on a glass strip, with its historic facade kept. After midnight the museum is closed, so the glass is dark and only a path lamp lights the brick. A low grass roof with a curved skylight sits beside it. The sky is mainly clear, about 11.2°C, with wind near 7.2 km/h. Sunset was 19:22. Trees are still in leaf.",
   "alt_text": "AI-generated artistic interpretation of the closed Drents Museum coach-house entrance in Assen on a mainly clear night",
   "file_16x9": "Netherlands/Assen/nl-01-083-16x9.png",
   "file_4x5": "Netherlands/Assen/nl-01-083-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 PASS: Drents Museum Assen — brick farmhouse-style museum building with lit wall lamp and green-roofed annex at night; plausible for the museum's rural heritage wing. G2 PASS: exact dims; on-image caption 'Drents Museum, Assen', scenario '26 September 2026 · 00:38 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:38:04+02:00 unique repo-wide; scenario 00:38 inside model window 00:30–00:45. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public museum. G5 PASS: card fields complete.",
+  "approved_at": "2026-09-26T04:38:42.819345+00:00",
+  "sha256_16x9": "45e53283cc6a1801e9e082be56313e037ef78f38a25e1f3a84e8660825a61546",
+  "sha256_4x5": "e64659db044761c237223188668c52a06985e13cfdff8793b0aee175996e4601"
 }
