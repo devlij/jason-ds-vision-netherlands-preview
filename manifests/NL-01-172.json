@@ -4,12 +4,18 @@
   "region": "Zeeland",
   "city": "Haamstede",
   "caption": "Slot Haamstede, Haamstede",
-  "scenario_label": "26 September 2026 \u00b7 02:20 Europe/Amsterdam",
-  "composition": "Round brick keep and later wings across the moat \u00b7 AI-generated artistic interpretation",
-  "description": "Slot Haamstede shows a large round brick keep and later wings across a dark moat, in the middle of the village. The sky is overcast, about 13.6\u00b0C, with wind near 3.6 km/h and cloud cover about 90%. The interior is closed. No hotel name is shown, and the white church across the street is not the subject.",
+  "scenario_label": "26 September 2026 · 02:20 Europe/Amsterdam",
+  "composition": "Round brick keep and later wings across the moat · AI-generated artistic interpretation",
+  "description": "Slot Haamstede shows a large round brick keep and later wings across a dark moat, in the middle of the village. The sky is overcast, about 13.6°C, with wind near 3.6 km/h and cloud cover about 90%. The interior is closed. No hotel name is shown, and the white church across the street is not the subject.",
   "alt_text": "AI-generated artistic interpretation of Slot Haamstede at night, a round brick keep and moat under an overcast sky",
   "file_16x9": "Netherlands/Haamstede/nl-01-172-16x9.png",
   "file_4x5": "Netherlands/Haamstede/nl-01-172-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Observed in the 16:9 master: moated brick castle with round corner tower and dark water reflection, white village church with spire at left, lamps along the quay, matching the weather model (is_day 0, WMO 3). G1: Slot Haamstede's moated castle with the village church beside it verified against anchors, no artifacts. G2: sweep-verified 1920x1080 and 864x1080 PNGs; exact caption, scenario line '26 September 2026 · 02:20 Europe/Amsterdam', AI disclosure and 'Jason D’s Vision' signature (curly apostrophe) legible on the bottom edge; EU AI Act Art. 50 PNG metadata present; scenario minute sits inside model-valid hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:20:19+02:00 verified unique to the second across all 288 Netherlands scenes. G3: evidence card documents text-prompt-only lineage, no photographic inputs. G4: no visible people, logos, or readable private property; license badge 'Free · no credit needed' recorded, final commercial-use call is Jason's. G5: manifest card fields complete, no open blockers.",
+  "approved_at": "2026-09-26T10:39:10.010417+00:00",
+  "sha256_16x9": "60efe6ef20582eb58c1af08225895cf33f09226da2afab05d559f08c086f24ba",
+  "sha256_4x5": "9aeeea1cfc5e38ca36b351ea29a5844fec7605f42d3462d23ea12db8a6922fb6"
 }
