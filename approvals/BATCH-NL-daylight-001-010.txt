@@ -1,0 +1,161 @@
+BATCH NL daylight variants NL-01-001 through NL-01-010
+Date: 2026-09-26
+Country: Netherlands
+Scenes: 10. Variant masters: 20 (16x9 1920x1080 and 4x5 864x1080).
+Night masters: byte-unchanged. SHA-256 recorded before any work and again after the variant write. Pre and post are identical for every night file. No night image was regenerated.
+On-image text, exact, on every variant: caption identical to the night master; signature Jason D’s Vision (curly apostrophe U+2019); disclosure AI-generated artistic interpretation · Not a photograph.; plus ☀ Daylight variant · derived from the night interpretation. No weather claim. No scenario timestamp.
+Metadata: EU AI Act Art. 50 five PNG chunks (Title iTXt, Description tEXt, Copyright iTXt, Software tEXt, Comment tEXt), Country = Netherlands, embedded with the finished pixels.
+Derivative disclosure: daylight re-interpretation of the same viewpoint and composition as the night master. Not a new scene. Not an independently modelled weather scenario.
+Gallery: Netherlands preview cards for NL-01-001 through NL-01-010 carry file_16x9_day / file_4x5_day and a Daylight toggle, matching the Denmark night/day button. Cards NL-01-011 onward are unchanged. Cosmo approval fields on the night cards were not rewritten.
+
+NL-01-001  Rijksmuseum, Amsterdam
+  night 16x9  library/world/Netherlands/Amsterdam/nl-01-001-16x9.png
+    sha256 before  7b05158d1165b0c3466dd9b78315973df36e3067b71eafb9487e68bdfc4882e9
+    sha256 after   7b05158d1165b0c3466dd9b78315973df36e3067b71eafb9487e68bdfc4882e9
+    night master   IDENTICAL
+  variant 16x9  library/world/Netherlands/Amsterdam/nl-01-001-daylight-16x9.png
+    sha256         7ce236ef215aa719af22808269e710253b67eae210b221d5d6e184de4540f915
+  night 4x5  library/world/Netherlands/Amsterdam/nl-01-001-4x5.png
+    sha256 before  643f350ff8f136cdf41f3d6c64810acd5c8ef374ec72701e1cc14573bfeb8ac6
+    sha256 after   643f350ff8f136cdf41f3d6c64810acd5c8ef374ec72701e1cc14573bfeb8ac6
+    night master   IDENTICAL
+  variant 4x5  library/world/Netherlands/Amsterdam/nl-01-001-daylight-4x5.png
+    sha256         a6dca9e019e6d2b5113b302341792744f31efdee0631f32a9f9136fa793827c5
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+NL-01-002  Prinsengracht, Amsterdam
+  night 16x9  library/world/Netherlands/Amsterdam/nl-01-002-16x9.png
+    sha256 before  31c917b5266fb9dd695e50e2f1eb7a04b5b322ae0ae8600d330db320a2eecadf
+    sha256 after   31c917b5266fb9dd695e50e2f1eb7a04b5b322ae0ae8600d330db320a2eecadf
+    night master   IDENTICAL
+  variant 16x9  library/world/Netherlands/Amsterdam/nl-01-002-daylight-16x9.png
+    sha256         47ed2bbffe550e013c7160b9715448f31098cb70a72703651e92f535eb281182
+  night 4x5  library/world/Netherlands/Amsterdam/nl-01-002-4x5.png
+    sha256 before  39820a34ac1f6ab2e369a4e52e5d9373729a6d1ce14897f4aa48282e26ab0349
+    sha256 after   39820a34ac1f6ab2e369a4e52e5d9373729a6d1ce14897f4aa48282e26ab0349
+    night master   IDENTICAL
+  variant 4x5  library/world/Netherlands/Amsterdam/nl-01-002-daylight-4x5.png
+    sha256         2c830dbdf9253cf0901f7ccdfcdd5bdbe7782400b26eb47a7308d98ab22f38ad
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+NL-01-003  Kinderdijk windmills, Kinderdijk
+  night 16x9  library/world/Netherlands/Kinderdijk/nl-01-003-16x9.png
+    sha256 before  8c8261f7bce58b2612bcee6213c97aaf0d8ecca98fffa2f8dd227af5bfdfc546
+    sha256 after   8c8261f7bce58b2612bcee6213c97aaf0d8ecca98fffa2f8dd227af5bfdfc546
+    night master   IDENTICAL
+  variant 16x9  library/world/Netherlands/Kinderdijk/nl-01-003-daylight-16x9.png
+    sha256         67ab3081384dcb594309efbf4f15400586d570bb70275fa847749406f1206238
+  night 4x5  library/world/Netherlands/Kinderdijk/nl-01-003-4x5.png
+    sha256 before  3d246eb034526d46af8413eed91f647a95788a4382ac803158be93283cef282c
+    sha256 after   3d246eb034526d46af8413eed91f647a95788a4382ac803158be93283cef282c
+    night master   IDENTICAL
+  variant 4x5  library/world/Netherlands/Kinderdijk/nl-01-003-daylight-4x5.png
+    sha256         3ad6cbaed658e00982c7fe8b552ad2de3a1b0bbe7c9e83e2d382bf1f6e60490a
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+NL-01-004  Zaanse Schans, Zaandam
+  night 16x9  library/world/Netherlands/Zaandam/nl-01-004-16x9.png
+    sha256 before  d3b3963535f96a8aa9a8903871611a6d843201aeee2715e03ace955c2ac49310
+    sha256 after   d3b3963535f96a8aa9a8903871611a6d843201aeee2715e03ace955c2ac49310
+    night master   IDENTICAL
+  variant 16x9  library/world/Netherlands/Zaandam/nl-01-004-daylight-16x9.png
+    sha256         8077e2ebefbeee18ee3ccb84eabc54144326656958ebbbcacb8ffaac498ee798
+  night 4x5  library/world/Netherlands/Zaandam/nl-01-004-4x5.png
+    sha256 before  fb896876f52ab6bce319faaa2abdfbd339b46fc10ff743909212dcbb48f0ae90
+    sha256 after   fb896876f52ab6bce319faaa2abdfbd339b46fc10ff743909212dcbb48f0ae90
+    night master   IDENTICAL
+  variant 4x5  library/world/Netherlands/Zaandam/nl-01-004-daylight-4x5.png
+    sha256         a880876c608622cd7c559ea96ccdcd1e7f070f07ddf0c29d33070b28e9a0e99e
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+NL-01-005  Bulb fields, Lisse
+  night 16x9  library/world/Netherlands/Lisse/nl-01-005-16x9.png
+    sha256 before  2629d5a6ba292d8caa9fa766999c053f895e359f1a5b06e67dab9fd2e5d0009f
+    sha256 after   2629d5a6ba292d8caa9fa766999c053f895e359f1a5b06e67dab9fd2e5d0009f
+    night master   IDENTICAL
+  variant 16x9  library/world/Netherlands/Lisse/nl-01-005-daylight-16x9.png
+    sha256         c2684fca37a6e93babace5b56ff7ff5b9986262420fa3785e6a63c33955b170d
+  night 4x5  library/world/Netherlands/Lisse/nl-01-005-4x5.png
+    sha256 before  c7b802aa88fb6430610b729cfbb36492b9d726039c03b543a68d3de50fb26329
+    sha256 after   c7b802aa88fb6430610b729cfbb36492b9d726039c03b543a68d3de50fb26329
+    night master   IDENTICAL
+  variant 4x5  library/world/Netherlands/Lisse/nl-01-005-daylight-4x5.png
+    sha256         0fd52026b750edec3e7f4f4d8caf8632d77a96f6d0a00235aeb0a18cf0b8d786
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+NL-01-006  Giethoorn, Giethoorn
+  night 16x9  library/world/Netherlands/Giethoorn/nl-01-006-16x9.png
+    sha256 before  f8998be313196246c6853ea5c004d93d9551bdbbad8daab7ef041102ae16099e
+    sha256 after   f8998be313196246c6853ea5c004d93d9551bdbbad8daab7ef041102ae16099e
+    night master   IDENTICAL
+  variant 16x9  library/world/Netherlands/Giethoorn/nl-01-006-daylight-16x9.png
+    sha256         7a944be8484033097aae91c33386a500f77e2f7052aaee2fe48b07607b0b1d46
+  night 4x5  library/world/Netherlands/Giethoorn/nl-01-006-4x5.png
+    sha256 before  9b591349bedeb83b0380c869b5c51da9a68b101876d33e1772d0502c0937bb4f
+    sha256 after   9b591349bedeb83b0380c869b5c51da9a68b101876d33e1772d0502c0937bb4f
+    night master   IDENTICAL
+  variant 4x5  library/world/Netherlands/Giethoorn/nl-01-006-daylight-4x5.png
+    sha256         a472d4f9ff5f37821ec356d4dfc982899dc247aeb37cf12a6397311b3226d62b
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+NL-01-007  Erasmus Bridge, Rotterdam
+  night 16x9  library/world/Netherlands/Rotterdam/nl-01-007-16x9.png
+    sha256 before  e361091f59582883c35c964b34cc58f00303fb2bdc8aaa98c3780fc41b89e2b5
+    sha256 after   e361091f59582883c35c964b34cc58f00303fb2bdc8aaa98c3780fc41b89e2b5
+    night master   IDENTICAL
+  variant 16x9  library/world/Netherlands/Rotterdam/nl-01-007-daylight-16x9.png
+    sha256         c37f5a3a09653aaf44b4fb4c1f4a9bcfdfeb689781ae82081d72f3b1757ce057
+  night 4x5  library/world/Netherlands/Rotterdam/nl-01-007-4x5.png
+    sha256 before  4a65fe3d77da4893a51b1a14cfcf52d02076d64a1cf52f350b75ea51ad63a87d
+    sha256 after   4a65fe3d77da4893a51b1a14cfcf52d02076d64a1cf52f350b75ea51ad63a87d
+    night master   IDENTICAL
+  variant 4x5  library/world/Netherlands/Rotterdam/nl-01-007-daylight-4x5.png
+    sha256         e9ea4dcd5ef0f968835fbdb9c44e8906f6eb7175f2848d9f85497e3c93d8fd24
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+NL-01-008  Cube Houses, Rotterdam
+  night 16x9  library/world/Netherlands/Rotterdam/nl-01-008-16x9.png
+    sha256 before  b0acb0a074d87cf02ef9466a4257d61157a6d65da4f78f7c1debc1ac59cbf4ad
+    sha256 after   b0acb0a074d87cf02ef9466a4257d61157a6d65da4f78f7c1debc1ac59cbf4ad
+    night master   IDENTICAL
+  variant 16x9  library/world/Netherlands/Rotterdam/nl-01-008-daylight-16x9.png
+    sha256         7acc36cb3416eedbf262e10e038da101849019e67bd05e79bba2bddbe1c9ac71
+  night 4x5  library/world/Netherlands/Rotterdam/nl-01-008-4x5.png
+    sha256 before  8cfbf1964c25cdc04518f1f0a2ef9dad66498cc0b09efccb995927d390497ec9
+    sha256 after   8cfbf1964c25cdc04518f1f0a2ef9dad66498cc0b09efccb995927d390497ec9
+    night master   IDENTICAL
+  variant 4x5  library/world/Netherlands/Rotterdam/nl-01-008-daylight-4x5.png
+    sha256         e5b158acbe927a3b2fd4fe357aa4b545d0f104021e62d93fa9d63e02fde12f32
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+NL-01-009  Binnenhof, The Hague
+  night 16x9  library/world/Netherlands/The Hague/nl-01-009-16x9.png
+    sha256 before  5f566e9aba60d82ac0a83845c9aa19d34991c0b43fc7f6c3edf4deeef4ea169a
+    sha256 after   5f566e9aba60d82ac0a83845c9aa19d34991c0b43fc7f6c3edf4deeef4ea169a
+    night master   IDENTICAL
+  variant 16x9  library/world/Netherlands/The Hague/nl-01-009-daylight-16x9.png
+    sha256         d80240e5f46340ce7235d7cadf3267c15c3421508172533213df622be5207160
+  night 4x5  library/world/Netherlands/The Hague/nl-01-009-4x5.png
+    sha256 before  b7d946acdd2b33db406135ca54d92e7589c79a763a32ead834cea30f42c5be85
+    sha256 after   b7d946acdd2b33db406135ca54d92e7589c79a763a32ead834cea30f42c5be85
+    night master   IDENTICAL
+  variant 4x5  library/world/Netherlands/The Hague/nl-01-009-daylight-4x5.png
+    sha256         403500fd07242a8bf7a8c93dff73cab7a64656d396c56a65d2c8dd4a64b78cd9
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+NL-01-010  Dom Tower, Utrecht
+  night 16x9  library/world/Netherlands/Utrecht/nl-01-010-16x9.png
+    sha256 before  186e40a2f28a9e3aefbc0f11629a20a5254dd1207cda591ce0832d12906d7112
+    sha256 after   186e40a2f28a9e3aefbc0f11629a20a5254dd1207cda591ce0832d12906d7112
+    night master   IDENTICAL
+  variant 16x9  library/world/Netherlands/Utrecht/nl-01-010-daylight-16x9.png
+    sha256         5bba27ba9a38ea3a5998ffca1719c2caf8794ce36ba976df1bdf4b5b19fa95df
+  night 4x5  library/world/Netherlands/Utrecht/nl-01-010-4x5.png
+    sha256 before  9849c724dff73716582282f9bf18d1b3d2710f32908b27240701c819db4c6b80
+    sha256 after   9849c724dff73716582282f9bf18d1b3d2710f32908b27240701c819db4c6b80
+    night master   IDENTICAL
+  variant 4x5  library/world/Netherlands/Utrecht/nl-01-010-daylight-4x5.png
+    sha256         15ad9691f4e5fe0a3461848f3a6fe7f3a796b6ca0fb0b3eefa4b0a3c10042c97
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+Confirmation: all 20 night masters (10 scenes x 16x9 and 4x5) are byte-unchanged. Pre-work and post-work SHA-256 match for every night file.

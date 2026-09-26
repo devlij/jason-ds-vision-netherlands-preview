@@ -17,5 +17,37 @@
   "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Rijksmuseum south facade with twin towers flanking the central passageway, Museumplein lawn in the foreground, no invented letter sculpture; late-afternoon light matches the 18:26 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:26:37+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:26 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
   "approved_at": "2026-09-25T22:29:06.914137+00:00",
   "sha256_16x9": "7b05158d1165b0c3466dd9b78315973df36e3067b71eafb9487e68bdfc4882e9",
-  "sha256_4x5": "643f350ff8f136cdf41f3d6c64810acd5c8ef374ec72701e1cc14573bfeb8ac6"
+  "sha256_4x5": "643f350ff8f136cdf41f3d6c64810acd5c8ef374ec72701e1cc14573bfeb8ac6",
+  "file_16x9_day": "Netherlands/Amsterdam/nl-01-001-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Amsterdam/nl-01-001-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-001",
+    "derived_from": "Approved night master Netherlands/Amsterdam/nl-01-001-16x9.png (16:9) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Amsterdam/nl-01-001-16x9.png",
+        "sha256": "7b05158d1165b0c3466dd9b78315973df36e3067b71eafb9487e68bdfc4882e9"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Amsterdam/nl-01-001-4x5.png",
+        "sha256": "643f350ff8f136cdf41f3d6c64810acd5c8ef374ec72701e1cc14573bfeb8ac6"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Amsterdam/nl-01-001-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Amsterdam/nl-01-001-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "7ce236ef215aa719af22808269e710253b67eae210b221d5d6e184de4540f915",
+      "4x5": "a6dca9e019e6d2b5113b302341792744f31efdee0631f32a9f9136fa793827c5"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Rijksmuseum, Amsterdam",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

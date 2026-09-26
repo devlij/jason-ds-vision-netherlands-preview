@@ -17,5 +17,37 @@
   "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Giethoorn thatched-roof farmhouses, canal, wooden footbridges, punt boat among reeds; late-afternoon light matches the 18:27 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:27:48+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:27 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
   "approved_at": "2026-09-25T22:29:28.446149+00:00",
   "sha256_16x9": "f8998be313196246c6853ea5c004d93d9551bdbbad8daab7ef041102ae16099e",
-  "sha256_4x5": "9b591349bedeb83b0380c869b5c51da9a68b101876d33e1772d0502c0937bb4f"
+  "sha256_4x5": "9b591349bedeb83b0380c869b5c51da9a68b101876d33e1772d0502c0937bb4f",
+  "file_16x9_day": "Netherlands/Giethoorn/nl-01-006-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Giethoorn/nl-01-006-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-006",
+    "derived_from": "Approved night master Netherlands/Giethoorn/nl-01-006-16x9.png (16:9) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Giethoorn/nl-01-006-16x9.png",
+        "sha256": "f8998be313196246c6853ea5c004d93d9551bdbbad8daab7ef041102ae16099e"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Giethoorn/nl-01-006-4x5.png",
+        "sha256": "9b591349bedeb83b0380c869b5c51da9a68b101876d33e1772d0502c0937bb4f"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Giethoorn/nl-01-006-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Giethoorn/nl-01-006-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "7a944be8484033097aae91c33386a500f77e2f7052aaee2fe48b07607b0b1d46",
+      "4x5": "a472d4f9ff5f37821ec356d4dfc982899dc247aeb37cf12a6397311b3226d62b"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Giethoorn, Giethoorn",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
