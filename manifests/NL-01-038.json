@@ -4,12 +4,18 @@
   "region": "North Brabant",
   "city": "Eindhoven",
   "caption": "Evoluon, Eindhoven",
-  "scenario_label": "25 September 2026 \u00b7 23:53 Europe/Amsterdam",
-  "composition": "White saucer on splayed columns, seen from the lawn at night \u00b7 AI-generated artistic interpretation",
-  "description": "The Evoluon is a white concrete disc raised on splayed columns, with a glass band under the rim and lawn in front. It is closed at this hour, so the frame stays outside. The sky is clear, about 16.1\u00b0C, wind near 10.1 km/h. Sunset was 19:29, and 23:53 is lamp light from below the disc. Cube Houses were not repeated.",
+  "scenario_label": "25 September 2026 · 23:53 Europe/Amsterdam",
+  "composition": "White saucer on splayed columns, seen from the lawn at night · AI-generated artistic interpretation",
+  "description": "The Evoluon is a white concrete disc raised on splayed columns, with a glass band under the rim and lawn in front. It is closed at this hour, so the frame stays outside. The sky is clear, about 16.1°C, wind near 10.1 km/h. Sunset was 19:29, and 23:53 is lamp light from below the disc. Cube Houses were not repeated.",
   "alt_text": "AI-generated artistic interpretation of the Evoluon in Eindhoven on a clear night, the white saucer raised on columns",
   "file_16x9": "Netherlands/Eindhoven/nl-01-038-16x9.png",
   "file_4x5": "Netherlands/Eindhoven/nl-01-038-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: I read the master — the Evoluon at night, its white flying-saucer disc on angled concrete pilotis glowing from under-disc lamps, dark glass band of windows, lawn foreground, plausible public-grounds viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Evoluon, Eindhoven' + scenario '25 September 2026 · 23:53 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:53:41+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:45 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T01:39:59.678359+00:00",
+  "sha256_16x9": "ccf49374443fdb05c2fb396cdaef1e0fbe7cc0c5ebcbee945a70ba765d01514c",
+  "sha256_4x5": "ff66561de0552f3e54fea18ca8832e3507242f2397f8201db496d2b174a54daa"
 }
