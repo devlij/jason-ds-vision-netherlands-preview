@@ -4,12 +4,19 @@
   "region": "Overijssel",
   "city": "Kampen",
   "caption": "Cellebroederspoort, Kampen",
-  "scenario_label": "26 September 2026 \u00b7 04:36 Europe/Amsterdam",
-  "composition": "Land gate with two spired towers from the park side \u00b7 AI-generated artistic interpretation",
-  "description": "The Cellebroederspoort at Kampen is a brick land gate. A rectangular middle under a wolf roof sits between two towers whose lower parts are round and whose upper stages are fourteen-sided, each with a tall spire. It is overcast, about 12.1\u00b0C, with wind near 7.2 km/h and cloud cover about 100%. The carved lions and the year are not readable. The Koornmarktspoort is the river gate and is not this frame.",
+  "scenario_label": "26 September 2026 · 04:36 Europe/Amsterdam",
+  "composition": "Land gate with two spired towers from the park side · AI-generated artistic interpretation",
+  "description": "The Cellebroederspoort at Kampen is a brick land gate. A rectangular middle under a wolf roof sits between two towers whose lower parts are round and whose upper stages are fourteen-sided, each with a tall spire. It is overcast, about 12.1°C, with wind near 7.2 km/h and cloud cover about 100%. The carved lions and the year are not readable. The Koornmarktspoort is the river gate and is not this frame.",
   "alt_text": "AI-generated artistic interpretation of the Cellebroederspoort in Kampen at night",
   "file_16x9": "Netherlands/Kampen/nl-01-273-16x9.png",
   "file_4x5": "Netherlands/Kampen/nl-01-273-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "qc_notes": [
+    {
+      "at": "2026-09-26T18:41:38.974357+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 hold (Cosmo QC 2026-09-26, verified by Cosmo's own read of the 16:9 master): the scene does not recognizably depict the Cellebroederspoort at Kampen — the master shows a floodlit double-tower castle gatehouse with two tall spired round towers flanking a central arched block, while the Cellebroederspoort is a single plain brick medieval tower gate; the evidence card's own geometry anchors ('two brick towers with tall spires') contradict the documented site. Hold until the builder re-renders the single-tower gate and re-pushes."
+    }
+  ]
 }
