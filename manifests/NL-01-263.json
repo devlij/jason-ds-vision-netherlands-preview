@@ -26,5 +26,11 @@
   ],
   "file_9x16": "Netherlands/Schiermonnikoog/nl-01-263-9x16.png",
   "sha256_9x16": "be8aaaada65142e90093b5edb294f992d5958b50a29de9858c8eb91fa65eeb34",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: both formats show the white round shaft of the Zuidertoren rising from marram-grass dunes under dark clouds, closed by the copper dome with its small finial figure, small square window near the crown and dark arched door at the base in both - matching the card's 'copper dome, not a glass lantern' anchor; the earlier inter-format discrepancy is resolved in the 20:49 UTC re-render. Gate 2: label bar exact - 'Zuidertoren, Schiermonnikoog', 'Scenario: 26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T04:18:37+02:00, unique to the second repo-wide, scenario minute 04:18 inside model-valid hour 04:00-04:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage per evidence card, no photographic inputs. Gate 4: no identifiable people, no logos, no credit required - documented only. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T21:41:31.530361+00:00",
+  "sha256_16x9": "24e3b0db7e5a4e244373280f1671b137a9eba02ab86c9042756616f91c803e62",
+  "sha256_4x5": "6dad7feea40e7b7d88931f2218d2e5420a3a12b1a7d93226198ab756e96b97e5"
 }
