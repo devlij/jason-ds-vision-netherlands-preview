@@ -4,12 +4,18 @@
   "region": "Overijssel",
   "city": "Blokzijl",
   "caption": "Havenkolk, Blokzijl",
-  "scenario_label": "26 September 2026 \u00b7 02:36 Europe/Amsterdam",
-  "composition": "Merchant houses around the inner basin and the lock drawbridge \u00b7 AI-generated artistic interpretation",
-  "description": "The Havenkolk at Blokzijl is an inner basin lined with brick merchant houses, with the 1912\u201313 lock and its drawbridge at the town end. A few small boats lie at the quays. It is not a thatched canal village. It is partly cloudy, about 8.0\u00b0C, with wind near 3.2 km/h and cloud cover about 68%. No restaurant name is shown.",
+  "scenario_label": "26 September 2026 · 02:36 Europe/Amsterdam",
+  "composition": "Merchant houses around the inner basin and the lock drawbridge · AI-generated artistic interpretation",
+  "description": "The Havenkolk at Blokzijl is an inner basin lined with brick merchant houses, with the 1912–13 lock and its drawbridge at the town end. A few small boats lie at the quays. It is not a thatched canal village. It is partly cloudy, about 8.0°C, with wind near 3.2 km/h and cloud cover about 68%. No restaurant name is shown.",
   "alt_text": "AI-generated artistic interpretation of the Havenkolk in Blokzijl at night, brick houses around a harbour basin",
   "file_16x9": "Netherlands/Blokzijl/nl-01-182-16x9.png",
   "file_4x5": "Netherlands/Blokzijl/nl-01-182-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: Havenkolk Blokzijl at night from the quay — basin ringed by gabled brick merchant houses with lit windows, white wooden drawbridge raised on the right, moored boats, lamplit reflections doubling on still water; recognizable harbor composition, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Havenkolk, Blokzijl', scenario '26 September 2026 · 02:36 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:36 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:36:57+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
+  "approved_at": "2026-09-26T11:53:57.030457+00:00",
+  "sha256_16x9": "34ae9b8a90651afcc70e2b503d439f83804a916621082f6a1e7f7083555d9465",
+  "sha256_4x5": "c1cbad6519b13f4a7968130ca46d3c147ba6d31a542b429f9817c15c70c24e53"
 }
