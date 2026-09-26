@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Golden hour",
   "approval_basis": "G1 visual pass: late-afternoon waterfront at Kralendijk, Bonaire — pastel two-storey colonial houses with shutters and a stone seawall, palms leaning over the promenade, a small pier and turquoise water under a clear sky, about 25 minutes before sunset. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Waterfront, Kralendijk', scenario '25 September 2026 · 18:01 America/Kralendijk' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T18:01:17-04:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 18:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:31.840990+00:00",
-  "sha256_16x9": "ae3f5fea676cc4824f29f6a011dce7113d0ae5adb020f36357510fc0daa9204d",
-  "sha256_4x5": "0aee0feabdb2b4912072705f7f794e4d953fd425d4379aefcdbee4d7a66785c6"
+  "sha256_16x9": "cbe0f2eeabc7e466ddc607d82df2ccd9a01fd5e31fe70a1ef7fa0db405db6c85",
+  "sha256_4x5": "92ada5599a8b2f8abe32d279c1a894be5bb31cfeccff514dc7a6608ed8386453",
+  "file_9x16": "Netherlands/Kralendijk/nl-01-064-9x16.png",
+  "sha256_9x16": "a5d062cc7b61983506ab0d0362b6b0df35d2bb3544578287a385a51ba7ed6f7c",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ae3f5fea676cc4824f29f6a011dce7113d0ae5adb020f36357510fc0daa9204d. Source SHA-256 4:5 0aee0feabdb2b4912072705f7f794e4d953fd425d4379aefcdbee4d7a66785c6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

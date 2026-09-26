@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Hoofdtoren in Hoorn at night — massive stone defensive tower with conical roof floodlit by the harbour, moored sailboats, wooden jetty in foreground, moody cloud sky; plausible, no artifacts. G2: exact dims verified; on-image 'Hoofdtoren, Hoorn', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:23+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public harbour landmark, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:46:28.076181+00:00",
-  "sha256_16x9": "b431770ec6e6087866ae6c26da0f7e4260d6177a840d19471932f3d4e13f7949",
-  "sha256_4x5": "ceef13c01f76dde6ca3c0ef4f98144f8df71e1f5e865c4a59b280236b31ca56e"
+  "sha256_16x9": "86e64cac4d1bd15338a732744a52cb98d4eb32f25e4bb1bee78445daa50fbc65",
+  "sha256_4x5": "546fe435c4b89c1645d84c5e8b44a2e168e07105571eaa5644c1d4279390608c",
+  "file_9x16": "Netherlands/Hoorn/nl-01-025-9x16.png",
+  "sha256_9x16": "28137354984194d998a148173344b809a61014dbe56c9478983acd4ff9b40f92",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b431770ec6e6087866ae6c26da0f7e4260d6177a840d19471932f3d4e13f7949. Source SHA-256 4:5 ceef13c01f76dde6ca3c0ef4f98144f8df71e1f5e865c4a59b280236b31ca56e. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

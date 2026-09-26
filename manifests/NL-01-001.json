@@ -10,14 +10,15 @@
   "alt_text": "AI-generated artistic interpretation of the Rijksmuseum south facade from Museumplein in Amsterdam on a clear late afternoon",
   "file_16x9": "Netherlands/Amsterdam/nl-01-001-16x9.png",
   "file_4x5": "Netherlands/Amsterdam/nl-01-001-4x5.png",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-001-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
   "qc_status": "Cosmo QC 5/5 2026-09-25",
   "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Rijksmuseum south facade with twin towers flanking the central passageway, Museumplein lawn in the foreground, no invented letter sculpture; late-afternoon light matches the 18:26 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:26:37+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:26 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
   "approved_at": "2026-09-25T22:29:06.914137+00:00",
-  "sha256_16x9": "7b05158d1165b0c3466dd9b78315973df36e3067b71eafb9487e68bdfc4882e9",
-  "sha256_4x5": "643f350ff8f136cdf41f3d6c64810acd5c8ef374ec72701e1cc14573bfeb8ac6",
+  "sha256_16x9": "aa9b4c3bd07c50263ac063d09b68b6d3277187f88087a7970db6e69bdab9a7a1",
+  "sha256_4x5": "852c621d5c9291894ead241ce84f98216269bc690a6e5e20640553090e089a9d",
   "file_16x9_day": "Netherlands/Amsterdam/nl-01-001-daylight-16x9.png",
   "file_4x5_day": "Netherlands/Amsterdam/nl-01-001-daylight-4x5.png",
   "daylight_variant": {
@@ -49,5 +50,8 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_9x16": "b5f6d6d0c57e1bdc1a26b59b2883925240caeb537b0271ed43c326bd91fdd5fc",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 7b05158d1165b0c3466dd9b78315973df36e3067b71eafb9487e68bdfc4882e9. Source SHA-256 4:5 643f350ff8f136cdf41f3d6c64810acd5c8ef374ec72701e1cc14573bfeb8ac6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Amerongen Castle — long brick manor facade with dormered slate roof, domed corner tower, steps down to the moat, night; matches the known Amerongen house. G2 PASS: exact dims; on-image caption 'Amerongen Castle, Amerongen', scenario '26 September 2026 · 00:38 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:38:07+02:00 unique repo-wide; scenario 00:38 inside model window 00:30–00:45. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public castle. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:47.120088+00:00",
-  "sha256_16x9": "c55f3ffb6dd767a50924fc4c901902c9055cca912b27975ec5f1abda83909f48",
-  "sha256_4x5": "55b3b220d9876843477185f98c116771716da68d0d137a9e8934b7b15669becf"
+  "sha256_16x9": "542882a27f2a65c1d331b2348223982227144efff24b03c907686c4d9dcb26d1",
+  "sha256_4x5": "6e2768ebfb3a1399a55e1af4ec9af93353c6809084bfcdd1408cee429c6556fd",
+  "file_9x16": "Netherlands/Amerongen/nl-01-084-9x16.png",
+  "sha256_9x16": "d708c5876442d7eb1ca625e0af2a2dfb27e26f0c2e58e05d436106a31c87f311",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c55f3ffb6dd767a50924fc4c901902c9055cca912b27975ec5f1abda83909f48. Source SHA-256 4:5 55b3b220d9876843477185f98c116771716da68d0d137a9e8934b7b15669becf. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

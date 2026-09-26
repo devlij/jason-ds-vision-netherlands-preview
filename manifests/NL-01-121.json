@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Kaasmarkt, Purmerend: the monumental brick town-hall facade with its tall clock tower, floodlit on the empty market square at night, period street lanterns glowing. On-image caption 'Kaasmarkt, Purmerend', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:38+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:38:36.767750+00:00",
-  "sha256_16x9": "542d74709a11c46cb1084b65d8c7e8b59e43a56e70187e2aaf9e5af3f39ace84",
-  "sha256_4x5": "62426ce0fa251dc1a7f12f4e5076c1818ca72ca9ce451909df291f52f705117d"
+  "sha256_16x9": "485f375799ff801be874b12c5f28c8e839e3521e115377c8d3096d5192c69e6e",
+  "sha256_4x5": "c6599e459141f97d1df9e442ed1e7c4017fd0665c05ed6666107890dbd996f11",
+  "file_9x16": "Netherlands/Purmerend/nl-01-121-9x16.png",
+  "sha256_9x16": "c19176eced98fe3755b6a2ede9bee07355a8ecd7db6fa0ed7d70bc0d54f14afa",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 542d74709a11c46cb1084b65d8c7e8b59e43a56e70187e2aaf9e5af3f39ace84. Source SHA-256 4:5 62426ce0fa251dc1a7f12f4e5076c1818ca72ca9ce451909df291f52f705117d. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

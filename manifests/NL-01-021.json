@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: NEMO at night — the iconic green-copper ship-like hull lit from within, glowing reflections on the water, city lights and Nieuwe Kerk tower on the far shore; unmistakable and clean, no artifacts. G2: exact dims verified; on-image 'NEMO, Amsterdam', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:12+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; museum exterior, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:45:24.229818+00:00",
-  "sha256_16x9": "7e4de608a388f5799477ee9e2379b5ea8beaa5a70dfea91af5cf19e6d6eaa7aa",
-  "sha256_4x5": "93fb408748ac2a00aaafbaa1261cb1f59422e22d81f1206271fbb709a8573362"
+  "sha256_16x9": "a471a39b47969e3cd44f3de5b20c0bdd0702b148b19a6d23529ea7f081ea713f",
+  "sha256_4x5": "1f3f0d83c6476be6ac31c2dfcd47ff7719ff4641faa678198757202e5ecfc412",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-021-9x16.png",
+  "sha256_9x16": "60e1ce4cb1073dd0524a206b30cec47e36c6ae0c312cd0d0510787d2c7488a61",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 7e4de608a388f5799477ee9e2379b5ea8beaa5a70dfea91af5cf19e6d6eaa7aa. Source SHA-256 4:5 93fb408748ac2a00aaafbaa1261cb1f59422e22d81f1206271fbb709a8573362. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

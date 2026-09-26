@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Oude Haven Vollenhove at night from the passantenhaven quay — oval basin fronted by a grassy mound, gothic Grote Kerk floodlit left, detached brick tower right, moored sailboats and lamplit quay, long golden reflections; recognizable Vollenhove waterfront, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Oude Haven, Vollenhove', scenario '26 September 2026 · 02:37 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:37 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:37:00+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
   "approved_at": "2026-09-26T11:54:13.658257+00:00",
-  "sha256_16x9": "db98b2d1b045512f4508889e4ed869c599f3e7c44e794368887d7e4a8f674374",
-  "sha256_4x5": "667fab670e40ff21921e6ee5c960a698df8f4b4a3dd6497fd45abb452d0e1825"
+  "sha256_16x9": "ca46bc27b708f3dde5a39ae2bd73045660745929bdb30939e1d82e572af08c03",
+  "sha256_4x5": "a0b950cbaa9f4b76d5855ba176f5fe4673465d7ff71a47547187faba11afd001",
+  "file_9x16": "Netherlands/Vollenhove/nl-01-183-9x16.png",
+  "sha256_9x16": "5f221b32de3891476a9c6378e3d2d440486ea77138d5a6a20a7fdc17ea28eeec",
+  "format_9x16_approval_status": "Candidate"
 }

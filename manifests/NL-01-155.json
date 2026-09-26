@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: white double-leaf timber drawbridge with its two raised leaves lit warm from below, spanning the Amstel against an overcast night sky; left bank lined with stepped- and neck-gabled canal houses with amber window glow doubled in rippled water reflections, moored boat at the right abutment, lamps along the quay — recognizably the Magere Brug. Gate 2 PASS: exact 1920x1080/864x1080; on-image 'Magere Brug, Amsterdam', scenario '26 September 2026 · 01:57 Europe/Amsterdam', disclosure 'AI-generated artistic interpretation · Not a photograph.' and curly-apostrophe 'Jason D's Vision' signature legible on the gradient scrim; Art. 50 metadata present on both masters; scenario minute 01:57 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:57:01+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: no prominent identifiable people, no focal logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
   "approved_at": "2026-09-26T09:45:25.424536+00:00",
-  "sha256_16x9": "8db56594580387a52792670c102df696cbcc45aec1b65fc610d956063a489d2a",
-  "sha256_4x5": "f72d817462f50d84ca5d22f1ab0dd3b1a7aac4e077c802be200ff923def4c75c"
+  "sha256_16x9": "b01540292ce1b6be6e8ac240363098e3798cae40ba46464e5e64f260457ef691",
+  "sha256_4x5": "f5ce362fec49a7df6c586d25739b21676cdece51a64175d4702db2b587e279f9",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-155-9x16.png",
+  "sha256_9x16": "6b57dacbd68ea36bd4129a00febbd91442ffe18d38ae38f46849b898c03ef18d",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 8db56594580387a52792670c102df696cbcc45aec1b65fc610d956063a489d2a. Source SHA-256 4:5 f72d817462f50d84ca5d22f1ab0dd3b1a7aac4e077c802be200ff923def4c75c. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

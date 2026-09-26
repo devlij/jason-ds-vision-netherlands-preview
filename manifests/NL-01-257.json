@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night view of the 1000 Steps dive site — rocky limestone cliff descending to a dark sea cove, stone stair flights, scrub and cacti on the cliff top, starry moonlit sky; plausible tourist viewpoint; 16x9 shows two parallel flights while the 4x5 shows one straight flight — the card describes the stair as zigzagging down the rock, so different legs of the same switchback are viewpoint-consistent, not a structural contradiction. Gate 2: exact 1920x1080/864x1080 masters, caption '1000 Steps, Bonaire', scenario '25 September 2026 · 22:18 America/Kralendijk' inside the model-valid hour of the recorded Open-Meteo retrieval 2026-09-25T22:18:22-04:00 (verified unique to the second across all 288 Netherlands evidence files), exact curly-apostrophe signature and disclosure legible, Art. 50 PNG metadata present on both masters. Gate 3: evidence card claims text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, no logos; natural coastline — documented only. Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T16:57:16.251933+00:00",
-  "sha256_16x9": "c93ec05de764949b94517ca5f6db6bc2e5f7298f3bfc458995d56a18cd9b6e10",
-  "sha256_4x5": "cbc8a49d8eb137e84c2ed51ff6bcbda665fc502916c6aaf88100a89600198cc8"
+  "sha256_16x9": "946364f3903795e9372d07a9d82997aa5eeb050ba3bda8c157a566e76f418478",
+  "sha256_4x5": "18ddfd34ed91c11dbc2bb38ce5d4c458caf177571992929e4295980e0d316abd",
+  "file_9x16": "Netherlands/Bonaire/nl-01-257-9x16.png",
+  "sha256_9x16": "83f7e05febf8c4dca94102e5c38f78e663f5e36675b35e9831ad772886473e4d",
+  "format_9x16_approval_status": "Candidate"
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: neoclassical palace facade behind an iron fence with the equestrian statue of William of Orange centered in front and lit lanterns — recognizably Paleis Noordeinde; 4:5 crop spot-checked, on-image text legible; no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Paleis Noordeinde, The Hague' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:00+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:38:29.038904+00:00",
-  "sha256_16x9": "a4c6590f28e8d9513810be8ef7a9e545fdc413c8cce789e5648b25d6021af360",
-  "sha256_4x5": "d6e4c826e43b51447227ed473390de900ae84a1c4c7271f8c94e0f0db61bc5b8"
+  "sha256_16x9": "17c274c8059cb9df7b52f2c65716e780700c164a9a6f8c5313d457aa21957602",
+  "sha256_4x5": "0ad73d6241f91a1dccf475b2817fbeb4f2a200c80468d103cc87b735d650511b",
+  "file_9x16": "Netherlands/The Hague/nl-01-136-9x16.png",
+  "sha256_9x16": "4b9fbdbadaba5d3a6423f57d55ec0dc19e8d8c026b49c29d1b3d0ce6448f0309",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a4c6590f28e8d9513810be8ef7a9e545fdc413c8cce789e5648b25d6021af360. Source SHA-256 4:5 d6e4c826e43b51447227ed473390de900ae84a1c4c7271f8c94e0f0db61bc5b8. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

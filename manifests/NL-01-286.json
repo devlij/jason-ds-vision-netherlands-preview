@@ -4,12 +4,15 @@
   "region": "Friesland",
   "city": "Sneek",
   "caption": "Stadhuis, Sneek",
-  "scenario_label": "26 September 2026 \u00b7 04:38 Europe/Amsterdam",
-  "composition": "Rococo town-hall front and small cupola from the Marktstraat \u00b7 AI-generated artistic interpretation",
-  "description": "The Stadhuis at Sneek shows the rococo street front of 1760-1763, with the stone stair and balcony of 1745 kept in front. A hipped roof carries a small octagonal cupola. It is overcast, about 13.0\u00b0C, with wind near 6.1 km/h and cloud cover about 100%. The offices are closed. The coat of arms is not readable. The Waterpoort is another scene and is not in this frame.",
+  "scenario_label": "26 September 2026 · 04:38 Europe/Amsterdam",
+  "composition": "Rococo town-hall front and small cupola from the Marktstraat · AI-generated artistic interpretation",
+  "description": "The Stadhuis at Sneek shows the rococo street front of 1760-1763, with the stone stair and balcony of 1745 kept in front. A hipped roof carries a small octagonal cupola. It is overcast, about 13.0°C, with wind near 6.1 km/h and cloud cover about 100%. The offices are closed. The coat of arms is not readable. The Waterpoort is another scene and is not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the Stadhuis in Sneek at night",
   "file_16x9": "Netherlands/Sneek/nl-01-286-16x9.png",
   "file_4x5": "Netherlands/Sneek/nl-01-286-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "file_9x16": "Netherlands/Sneek/nl-01-286-9x16.png",
+  "sha256_9x16": "c3273fc8e2348d3d86401f2c8d9bc0e1246675ad36494b873f5f54053fa926e8",
+  "format_9x16_approval_status": "Candidate"
 }

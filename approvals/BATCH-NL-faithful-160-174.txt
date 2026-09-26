@@ -1,0 +1,134 @@
+Netherlands faithful re-finish — NL-01-160 through NL-01-174 — 2026-09-26
+
+Parent tip: cd569dfc05c9604f2d0c2cc3dcca5c5ca9d4487f
+Source of truth: origin/main 18096697dfeed937aaef904b6c48653dde1bc2b6
+Approved IDs re-read from origin/main manifests at batch start: NL-01-001 through NL-01-174 (174 scenes, one continuous range). Authority is the manifests. No manifest from NL-01-175 through NL-01-288 is Approved.
+Branch tip: 6604b469fbc5fbff0a7a883665dd0e5bc260d132
+The commit above is the one that adds these faithful masters. A later commit only writes this SHA into this note.
+
+Method
+The branch still had regenerated 1920×1270 label-bar masters for these 15 scenes, without Approved badges. Those files were replaced with the origin/main approved scrim masters (1920×1080 and 864×1080) and the origin/main manifests before the re-finish. The regenerated 9:16 masters and pre-text for these IDs were removed. tools/faithful_refinish.py then inverted the 4c6f044 scrim and on-image type on that restored master. Rows above y = int(height * 0.68) are copied unchanged. No GenerateImage and no new composition. Cleaned 16:9 and cleaned 4:5 are the durable pre-text. 9:16 is a center crop of the cleaned 16:9, then the label bar. tools/composite_masters.py appends the 190px #0e0e12 bar, the 2px hairline, and Art. 50 chunks. No 9:16 pretext was kept.
+
+Result
+15 scenes passed. 0 failed the pixel-match. Above-scrim changed pixels are 0 on 16:9 and 4:5 for every ID, measured against the origin/main scrim master. Glyph miss 0. Unreachable unmasked 0. Scrim recomposite max abs 0. Baked photo area matches the cleaned source. Bar sizes 1920×1270, 864×1270, 1080×2110. Bar pixel (14,14,18). Hairline (228,228,234).
+Scene approval_status stays Approved on the manifest and in the gallery, so these cards show Approved. format_9x16_approval_status is Candidate. The new 9:16 frame does not inherit the 16:9 or 4:5 approval. SHA-256 anchors for all three masters are written into the manifest and the Candidate approval note. Weather and Scenario lines are unchanged from origin/main.
+Page shell of index.html, with the scene list stripped, still matches origin/main 18096697. Badges, word-of-day, lightbox, format tabs, downloads, country switcher, flag, and analytics were not restyled.
+Shared folders were written only for NL-01-164 (Groningen), NL-01-168 (Breda), and NL-01-169 and NL-01-170 (Rotterdam).
+
+Gallery
+NL-01-160 and NL-01-174 load 1920×1270, 864×1270, and 1080×2110 on the three tabs. Both cards show Approved. Tabs sit at the bottom edge of the image. Downloads stay inside .actions. No daylight on these cards. No View image control.
+NL-01-159 stays the previous faithful card. NL-01-001 still has daylight. NL-01-175 stays the label-bar card at 1920×1270 and does not show Approved.
+file_9x16 count is 248. Approved badges are 174. format_9x16_approval_status Candidate count is 134. Daylight file_16x9_day count stays 10. QC PASS 288 scenes.
+
+Further approved IDs still on regenerated label-bar
+None. origin/main approves NL-01-001 through NL-01-174 only. NL-01-175 through NL-01-288 are not Approved on those manifests. On this branch they remain the existing label-bar masters.
+
+Left untouched
+NL-01-011–025 and NL-01-056–159 stay the previous faithful re-finish. NL-01-175–288 label-bar masters were not rewritten. Cosmo locks NL-01-001–010 and NL-01-026–055 were not touched. Nothing beyond NL-01-288. Denmark was not started. Weather JSON was not rewritten.
+
+Scenes
+NL-01-160	Basilica, Oudenbosch	26 September 2026 · 01:58 Europe/Amsterdam
+  source 16:9 008dba949075a2cd87933c7508bb8163af28c539e24902b2842a9a00a1200c72
+  source 4:5 48a4be26df544ef76ccf4c2ba20ab215cfa896e1a96f22fb36820b5032514503
+  master 16:9 Netherlands/Oudenbosch/nl-01-160-16x9.png 6a0fe9cb96955cac4e65e71fc574bb691122e2d68cec94da1cd0b541d191b84d
+  master 4:5 Netherlands/Oudenbosch/nl-01-160-4x5.png 7ec5f24fe36503eb9e77a3c8de26582898561cafde496ccf88e4c2e7582ac280
+  master 9:16 Netherlands/Oudenbosch/nl-01-160-9x16.png c463d9836276ec2f9c0f4341f6fb0163f5be76e524ca99f8c9e250df308ef75a
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 35941 4:5 10535
+NL-01-161	Waterpoort, Sneek	26 September 2026 · 02:16 Europe/Amsterdam
+  source 16:9 b3db95c25973b260ecfb3d6ca562b35b3be99e41751db4ad0f6c2b9dc886c8c6
+  source 4:5 2cea1c09f51d733ad1a75ed6845768844789f7dcd337c008af7f4970f0572a0f
+  master 16:9 Netherlands/Sneek/nl-01-161-16x9.png 22dda9cb8a86ea9cf87d7952ff3e046d6a0b1ce1282f4443170f57c55c035f32
+  master 4:5 Netherlands/Sneek/nl-01-161-4x5.png 0e4dc167c1d9858cac4d173990f5eaa71a19caa60ccdc91076bfa58a207d4859
+  master 9:16 Netherlands/Sneek/nl-01-161-9x16.png edd59e5834f66c608b32e51bb564d144ae62d32ef0fec7ed962b5ce40e7149eb
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 34838 4:5 10275
+NL-01-162	Woudagemaal, Lemmer	26 September 2026 · 02:18 Europe/Amsterdam
+  source 16:9 bad5c97b72809923cdc1d34f52a7ebbca3e83106229f0e95ba5dd367f0b449e2
+  source 4:5 1973caefd90a93f00fd425b7a19887bc7eeded447e64bc99dd74821d6bb5e763
+  master 16:9 Netherlands/Lemmer/nl-01-162-16x9.png 87b7c0defadb52d4996e31c765876b7e144dd21e309f3ba15e03ff6d77a66ee9
+  master 4:5 Netherlands/Lemmer/nl-01-162-4x5.png 83c8b1c62f0ec4146c23f5e35273e1e3983a16ee59a6a182dc1d65979554f2d9
+  master 9:16 Netherlands/Lemmer/nl-01-162-9x16.png 08e28d4cd0119f2d3a29ee209a5753ae9bddefb5b6b2b009d757447da4786be0
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 36584 4:5 10725
+NL-01-163	Menkemaborg, Uithuizen	26 September 2026 · 02:18 Europe/Amsterdam
+  source 16:9 8304e641b7eaad1d8371bdba4134e5f103fd83a454338c391a51f2a08602ef5a
+  source 4:5 7f637b7bac041e924ab90e1622a6c5bb213484499c1ca802872f0762c910d956
+  master 16:9 Netherlands/Uithuizen/nl-01-163-16x9.png 0ed6245f937686efbd24aa1840d1eec759bf72c599c04ea95b61f3b9898c7545
+  master 4:5 Netherlands/Uithuizen/nl-01-163-4x5.png 49619eb56cf0b8a05e79e584abad7b1c3b03f0bc7315f04e27d73c28772287b8
+  master 9:16 Netherlands/Uithuizen/nl-01-163-9x16.png 0521c303eaf2e5a5bdd01ad4c88988d75db7d1da486623ed95624dae24daf748
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 37490 4:5 10940
+NL-01-164	Groninger Museum, Groningen	26 September 2026 · 02:18 Europe/Amsterdam
+  source 16:9 6857249c7bb15de98c09ab338c3ee4624f30c9a5c17fb26e45b29fa1ae78aba9
+  source 4:5 0a7f086e27a7fe10b861fb9f195a0edc2a7cc8f5fa37d952483fb2fde4dca5a2
+  master 16:9 Netherlands/Groningen/nl-01-164-16x9.png 61bafbb22a622d65befcd729f8c1a6e73a7a01275ac8123436b21de8b7c5e76f
+  master 4:5 Netherlands/Groningen/nl-01-164-4x5.png e891d927d3036f63fcc6a5b0e926249af935a5375befb4668c90dedcfcb10198
+  master 9:16 Netherlands/Groningen/nl-01-164-9x16.png 2ca994f791cac8df166999ab327cb0640a6b7e715dfd5c41bd702e9e24f29d1d
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 39390 4:5 11509
+NL-01-165	Brink, Orvelte	26 September 2026 · 02:18 Europe/Amsterdam
+  source 16:9 ec25e843cb5d40a949428fb0be770ea3ed76cee9627e327d113d8497d66e246f
+  source 4:5 5cafe6561de6b8a63f512e0ddf06348295b841e993020255a1aae78ab5b2b8f0
+  master 16:9 Netherlands/Orvelte/nl-01-165-16x9.png aebb101404a24e949e88218187df5b09e5a03b48ceb2efa51d939a2f1507da4b
+  master 4:5 Netherlands/Orvelte/nl-01-165-4x5.png 57350148f64983314215f5bce499f817e4c0bd1639c40f0d5c38c597a2545cda
+  master 9:16 Netherlands/Orvelte/nl-01-165-9x16.png 6e7f700918b1a57c69c053f5af04ab48469763fac0e4c63a38dd54b3822ae3e1
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 32936 4:5 9756
+NL-01-166	Grote Kerk, Enschede	26 September 2026 · 02:18 Europe/Amsterdam
+  source 16:9 15c9a38108d0c129a8933b948766994a02f434bda09aeec526e04c0ec37822f2
+  source 4:5 9b8f2b8f2b3bdbd506677b93174716f3aadd7f0ffe0a5c7d96eb6a18278127d6
+  master 16:9 Netherlands/Enschede/nl-01-166-16x9.png dfc0aab32df9f4b2182e74d7d634bc7e978523b5eec2c6746bb13fadaad13b63
+  master 4:5 Netherlands/Enschede/nl-01-166-4x5.png c797eadf3fc8fc8264d47ed1e9ff7c67d66d1e1f997f36c175898956242574c6
+  master 9:16 Netherlands/Enschede/nl-01-166-9x16.png 76213ad0edcd1ed0694e38c022a08fad8040fa6e797101ced49de47dfed83244
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 35779 4:5 10549
+NL-01-167	Cuneratoren, Rhenen	26 September 2026 · 02:20 Europe/Amsterdam
+  source 16:9 82cbab402fddae778a19c8b5a6bb5ca8450dfebb803bfdefdb30f96f54d6e771
+  source 4:5 122ef6ef7635a329f2e58a4a6d4bb3b41a3406c77539cc472f47c94f2b095899
+  master 16:9 Netherlands/Rhenen/nl-01-167-16x9.png f1c73393fc593298fbc5f6c046446c4269c3d66ed964faebf65a370c446878b4
+  master 4:5 Netherlands/Rhenen/nl-01-167-4x5.png 5ccc45d2e915d49364b38196bf5d8dcb9c19e62a60852e35d447afe9039bd1b7
+  master 9:16 Netherlands/Rhenen/nl-01-167-9x16.png 9cc47b0da5baa1ceedbc7b6dfbc3325ee0c57e785da3403df36a07a96f600242
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 35546 4:5 10465
+NL-01-168	Grote Kerk, Breda	26 September 2026 · 02:20 Europe/Amsterdam
+  source 16:9 97c15fcffd1fabee14bdf1107f31fd6cc55716ff9de09124b71a19a456ae9f37
+  source 4:5 fc2b0a9ed81a3ba837a65f0db34c1d16ff51dfd9fc4c2a73f24b40aeb84a6a62
+  master 16:9 Netherlands/Breda/nl-01-168-16x9.png ec9f870f1cad7f9fadca571fb8dffc01edb37945e328dc449c7b16a0bc3941e0
+  master 4:5 Netherlands/Breda/nl-01-168-4x5.png 503d41d66edda5dc308eb95eaaca57db45c7681fe66bdbaa44f189421c1f6bd5
+  master 9:16 Netherlands/Breda/nl-01-168-9x16.png b5e0fcb69353b52f9ed95bcd8f5dfcc27427987028c23acdfd60dddc3e68034a
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 34350 4:5 10163
+NL-01-169	Laurenskerk, Rotterdam	26 September 2026 · 02:20 Europe/Amsterdam
+  source 16:9 52d58603030a2d5d27afff835bc6fec63c2a118aa7c9a28035698a4e44494487
+  source 4:5 76bff62c7cd388b83a57c5b563c1e435aa740885fb91132ab948c0c871eae4d8
+  master 16:9 Netherlands/Rotterdam/nl-01-169-16x9.png 268124c47063ab73f884c641ecaee461e7aeb629ee379f141b839eeeb3d8d9c6
+  master 4:5 Netherlands/Rotterdam/nl-01-169-4x5.png 1deeaca7126e936b570a51b732e80e19dd13e0a56a09a9551b27210d98dc76c6
+  master 9:16 Netherlands/Rotterdam/nl-01-169-9x16.png 1e4878a18f6f7dd2fa83d1a0749782a3796bab3134b1adb206f1afb1848a9cbc
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 36806 4:5 10823
+NL-01-170	Delfshaven, Rotterdam	26 September 2026 · 02:20 Europe/Amsterdam
+  source 16:9 47302525654a7289159087da1e12ffc4ff99501b595cbf5958ab023b5dc5b2f0
+  source 4:5 bc7b6962c41aae51f690455e23f3d6efc64a63cc4d1f8c4c7f5e6896cd228b83
+  master 16:9 Netherlands/Rotterdam/nl-01-170-16x9.png 251bf388f5a10635746fd56790ea7bd1423d342aa52fef9729daa931f9d51030
+  master 4:5 Netherlands/Rotterdam/nl-01-170-4x5.png b66c5f7282e42dca79663c0338450ce41eae3ef1e23e8cfd3391bd9187296be2
+  master 9:16 Netherlands/Rotterdam/nl-01-170-9x16.png 036aab626be57ce55bc5cf34d4edb1afaf33ea00a3b34025dc05074045cf1962
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 36603 4:5 10713
+NL-01-171	Stadhuis, Middelburg	26 September 2026 · 02:20 Europe/Amsterdam
+  source 16:9 62c18247e1ef8fe5a256e972252e9134bc019d6faf85577b9b47d09052aa4616
+  source 4:5 2faeb6cc1f2d583ac4766bc59431a44e404db46a22349c5f93512ec10a03a193
+  master 16:9 Netherlands/Middelburg/nl-01-171-16x9.png fb6e89eaddbe91293392b6f0698a86a2217d773ed06fef1d00cc773b15e9a625
+  master 4:5 Netherlands/Middelburg/nl-01-171-4x5.png e216cf09c60dc0bf59f31715f32063212ae4026faad49217299b0575dc60a054
+  master 9:16 Netherlands/Middelburg/nl-01-171-9x16.png 515cd1070b4ed23a17c15dea16901d54382b7c2bb404f1f15e3c0a2e9ef8169d
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 36431 4:5 10644
+NL-01-172	Slot Haamstede, Haamstede	26 September 2026 · 02:20 Europe/Amsterdam
+  source 16:9 60efe6ef20582eb58c1af08225895cf33f09226da2afab05d559f08c086f24ba
+  source 4:5 9aeeea1cfc5e38ca36b351ea29a5844fec7605f42d3462d23ea12db8a6922fb6
+  master 16:9 Netherlands/Haamstede/nl-01-172-16x9.png 1f6e79aedb108b62c966b55084b508d3852a81b27f842206bcf3f5285c8d9253
+  master 4:5 Netherlands/Haamstede/nl-01-172-4x5.png 6ad5a3f06f5b3900c191a03891214de3ee6a8851f26ac839ff5b55b83f28f0aa
+  master 9:16 Netherlands/Haamstede/nl-01-172-9x16.png 7d13e0cc29a3c799e4c4b3868884879c0b23f15a79d8f1bd29f96546c9b245ce
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 38531 4:5 11276
+NL-01-173	Lighthouse, Egmond aan Zee	26 September 2026 · 02:20 Europe/Amsterdam
+  source 16:9 eea5e3267a787c366e88dbf7e0af50c31ae463115abf9e7156ea298659af101f
+  source 4:5 60315c50fe1c91a48e9c70842ecf8eb7fd5e385042a82142ec70594dac078e4b
+  master 16:9 Netherlands/Egmond aan Zee/nl-01-173-16x9.png 74b4ab2af354d497e5fbdaf28844b0e02ce7e0b46ce988c2b8676cda8741d0d6
+  master 4:5 Netherlands/Egmond aan Zee/nl-01-173-4x5.png ac16d85b82eb299d95df6534bd15ea6d8dc9f0d359db3f0ee784d80cf7dd214c
+  master 9:16 Netherlands/Egmond aan Zee/nl-01-173-9x16.png c873e52b94a9dae1cb94bbbfce53bb9ef755254835fac80d1091f129841f5626
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 38665 4:5 11379
+NL-01-174	Kasteel Hoensbroek, Hoensbroek	26 September 2026 · 02:20 Europe/Amsterdam
+  source 16:9 deba731e2e0839fa93aafa2c86f9ea286cf69f78cdfb3f795cfe80feefae5413
+  source 4:5 a636991d025dd5423df2aff60199ff37f2d1d1721e1a2ee03424e694b4ae62fd
+  master 16:9 Netherlands/Hoensbroek/nl-01-174-16x9.png 9783f819d0e52a5e7e6a50930f62bbe5deaf8e0f95dd20adf9c29766874f7eb3
+  master 4:5 Netherlands/Hoensbroek/nl-01-174-4x5.png ae783b66efcdc929eefa6438d026dfefd68311b1e908c64e01e20146ba13a679
+  master 9:16 Netherlands/Hoensbroek/nl-01-174-9x16.png b7cc61e00328de20eda0f2e388fe7f6fe37fa1f786c024a14229b423dcbc9b68
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 40360 4:5 11807

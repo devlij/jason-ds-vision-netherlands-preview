@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night. G1 visual pass: the small red-brick Lichtwachterswoning on its grassy terp mound, dark water and old wooden mooring posts in the foreground under a starry sky — matches the Schokland setting, tranquil framing. G2 technical pass: exact 1920x1080/864x1080; caption 'Lichtwachterswoning, Schokland', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:46+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure present. G3: text-prompt-only, no photographic input. G4: no people or logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T12:42:52.264965+00:00",
-  "sha256_16x9": "da086910a187e10b03dac9b717fc7c100ea0eff118ea5e5d43365d01c27e14e6",
-  "sha256_4x5": "e69d10d5bb90b54c2e4e17f5f8e2e3531bc96ca4bd961087ae2d1edd995ff902"
+  "sha256_16x9": "bc6265f15d568c9bdb1326c33c2a813c35904a00deeb6577af67c15904181665",
+  "sha256_4x5": "2081698284ddd9f7175bd7bcf29dced554eccbba721c4b5acdfb01acc7215769",
+  "file_9x16": "Netherlands/Schokland/nl-01-196-9x16.png",
+  "sha256_9x16": "0fcf0d6504e01f287d6cc9f50aec85be2ab8db50f6064707068d89e85291d1a6",
+  "format_9x16_approval_status": "Candidate"
 }

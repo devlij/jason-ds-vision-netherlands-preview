@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: symmetrical brick front with stone stair, balcony and curved side wings under the same dark roof, forecourt avenue in the foreground; 16:9 and 4:5 agree on subject identity (framing differs only); clean night render, no artifacts. Gate 2: Open-Meteo retrieval 2026-09-26T04:37:47+02:00 unique to the second repo-wide across all 288 NL evidence files; scenario 04:37 inside the model-valid hour 04:00-04:59 Europe/Amsterdam; exact 1920x1080/864x1080; exact caption, scenario, disclosure and curly-apostrophe Jason D's Vision signature on both formats; Art. 50 EU AI Act metadata present. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or logos; license badge documented only. Gate 5: manifest card fields complete.",
   "approved_at": "2026-09-26T19:38:59.955025+00:00",
-  "sha256_16x9": "449505ed65b57b5068007eb97a6b9ae21482fc5b35fe38d362c9ec184fa2fb62",
-  "sha256_4x5": "a52c351357cc87b0a3f88ec347297f48ccf7015d7a7cfb74a9824393c64a513f"
+  "sha256_16x9": "9c8126cf1759daa5ba02397fbb86d603a4aa69849feeb85441451b2293e3d705",
+  "sha256_4x5": "9441aee729dfd6a1d9ff9628f495cc6ec6bbe3eea31c06ddf8b13c5e8ce9eae4",
+  "file_9x16": "Netherlands/Baarn/nl-01-278-9x16.png",
+  "sha256_9x16": "0feedf80d2f4dbf7a07d24645039dba4302a71ceac3fc1f9e7d295ed91530a2d",
+  "format_9x16_approval_status": "Candidate"
 }

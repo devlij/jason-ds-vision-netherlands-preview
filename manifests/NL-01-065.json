@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 visual pass: twilight from Fort Oranje's rampart — four cannon on a stone parapet in the foreground, the lit town of Oranjestad below and a jetty, the sea horizon glowing orange after sunset. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Fort Oranje, Oranjestad', scenario '25 September 2026 · 18:19 America/Kralendijk' and AI disclosure legible (4x5 crop spot-checked, text legible); Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T18:19:08-04:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 18:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:35.803389+00:00",
-  "sha256_16x9": "ca2d2c3872fdc2db24afd124efa137d1ddcea5d6a66967c566c79c4847578742",
-  "sha256_4x5": "e60ee73bce96b19cf2c9c77642037b5914b7821b536cc0b3d7c663ab39b19048"
+  "sha256_16x9": "978e95fafde4e93e659040de014cf5f29497d94f6501388d944c9658019ec8b0",
+  "sha256_4x5": "c111233b425bfcb2efb775a5a54d5575757871416bbbbf0be6dd75d04e0537a4",
+  "file_9x16": "Netherlands/Oranjestad/nl-01-065-9x16.png",
+  "sha256_9x16": "2e798c974dd048c38b3ae0b598b960e77117d4f1619117ea83455b4b86b792cc",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ca2d2c3872fdc2db24afd124efa137d1ddcea5d6a66967c566c79c4847578742. Source SHA-256 4:5 e60ee73bce96b19cf2c9c77642037b5914b7821b536cc0b3d7c663ab39b19048. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

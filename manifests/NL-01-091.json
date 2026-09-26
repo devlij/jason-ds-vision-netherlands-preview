@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Speeltoren, Edam. Brick carillon tower with slated spire, clock faces and open belfry arches on a lamplit town square, gabled brick houses at both frame edges under broken cloud. Scenario '26 September 2026 · 00:38 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T00:38:26+02:00 (retrieved; model-valid hour 00:30), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:39:48.429960+00:00",
-  "sha256_16x9": "e92e7019d33a42150e9e37a4700764dc2deb578e22c2286e56c66420787f6c3d",
-  "sha256_4x5": "a599ce5075c60bb6c5ff63514a950c6ce0f57e2bce45bc0405e5ad1e7dd5b31b"
+  "sha256_16x9": "eae80548cacc79943ed3ab765eee1048fb137d70ed21d06a9c5db54e611c2ffb",
+  "sha256_4x5": "59528e92bedffcd9acd404ac13e7571bd9d464937610e5817c4dda10372b3762",
+  "file_9x16": "Netherlands/Edam/nl-01-091-9x16.png",
+  "sha256_9x16": "54241f0298ddc127a0a6859ea760fa34b191c90ae3f22f2b124901c417dd8e8f",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 e92e7019d33a42150e9e37a4700764dc2deb578e22c2286e56c66420787f6c3d. Source SHA-256 4:5 a599ce5075c60bb6c5ff63514a950c6ce0f57e2bce45bc0405e5ad1e7dd5b31b. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

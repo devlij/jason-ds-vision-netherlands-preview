@@ -18,5 +18,8 @@
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26): the two format masters disagree on the tower's top — the 16:9 master shows the Plompe Toren with a pointed pyramidal roof while the 4:5 master shows an open crenellated (roofless) top, the tower's defining feature as documented in its evidence card (a lone brick tower with no nave, roofless remnant of Koudekerke). One master misrepresents the site. Builder to correct the 16:9 render and re-push; approval awaits corrected masters."
     }
-  ]
+  ],
+  "file_9x16": "Netherlands/Burgh-Haamstede/nl-01-205-9x16.png",
+  "sha256_9x16": "d9f24df03b2b69a0951d12751e2d268ef951f0f07d209601921e45232b51a0de",
+  "format_9x16_approval_status": "Candidate"
 }

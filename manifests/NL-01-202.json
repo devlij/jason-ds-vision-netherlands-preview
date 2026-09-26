@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night. G1 visual pass: the twin-spired brick Koornmarktspoort gatehouse set in the city wall, lamplight glowing on the masonry, dark water in the foreground — a faithful Kampen gate prospect, night lighting plausible. G2 technical pass: exact 1920x1080/864x1080; caption 'Koornmarktspoort, Kampen', scenario '26 September 2026 · 02:56 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:56:02+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure present. G3: text-prompt-only, no photographic input. G4: public monument, no people or logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T12:43:17.212196+00:00",
-  "sha256_16x9": "a5a39c375fb6da6fda1b50562ce96c3a6bed22a1e4fbd3ecbf8fc84f4f83896c",
-  "sha256_4x5": "10d0aef3acf9135aafcd9227f3807c5b40278937c760de4fe8372a2254a0088c"
+  "sha256_16x9": "25210d737949f1b315cb8d9b20d1e42acf5a24160c0e35ef73200d0e7a872ba0",
+  "sha256_4x5": "0d327e4b8e6236f28857417ef372a727c8cdc4133e70811e5dd2129152cb225b",
+  "file_9x16": "Netherlands/Kampen/nl-01-202-9x16.png",
+  "sha256_9x16": "5ba761122d7b040cc9aa7fb71946cb5a622f905cd62ef778ee3d42a5f35bc9d6",
+  "format_9x16_approval_status": "Candidate"
 }

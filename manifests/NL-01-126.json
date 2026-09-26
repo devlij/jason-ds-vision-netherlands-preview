@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Hoge Molen, Nieuw-Lekkerland: two polder windmills along a still canal, the near mill's sails crossed above its thatched smock, moody grey overcast sky that matches the 100% model cloud cover. On-image caption 'Hoge Molen, Nieuw-Lekkerland', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible; 4x5 crop checked for on-image text legibility. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:50+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:39:12.332936+00:00",
-  "sha256_16x9": "69f55ce9e7d89557119a6ac1353003ade69a38723b81ccfff9a635e1704b9684",
-  "sha256_4x5": "47e473fd6b9973fa9a65efe1051a938214c3133cb5e1db12b22667945a2bdd3b"
+  "sha256_16x9": "5866d0a6b0ece3950524f02c70c17343ecc3e8f3c02bc8b5d6c72a38bba216f4",
+  "sha256_4x5": "30bf35241f8c7c5fd1d6358dabe54dae17ab368524eb4c7fe6a0fe23db5082e4",
+  "file_9x16": "Netherlands/Nieuw-Lekkerland/nl-01-126-9x16.png",
+  "sha256_9x16": "2f70d462450d89c36e63db61b11ec9d0d0b3f718a5975b63041631d3bd7d55fa",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 69f55ce9e7d89557119a6ac1353003ade69a38723b81ccfff9a635e1704b9684. Source SHA-256 4:5 47e473fd6b9973fa9a65efe1051a938214c3133cb5e1db12b22667945a2bdd3b. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

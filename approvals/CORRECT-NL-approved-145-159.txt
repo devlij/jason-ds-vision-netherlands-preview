@@ -1,0 +1,92 @@
+Correction — NL-01-145 through NL-01-159 are Cosmo-approved — 2026-09-26
+
+Parent of this correction: c40174c1f4b15f931df2a54ab00b4b98d1d95f12
+Source of truth: origin/main d3676cf3cce1927c00543117465e5543cd2c043d
+
+What was wrong
+The standing split treated NL-01-145–288 as never-approved label-bar work. origin/main manifests for NL-01-145 through NL-01-159 say Approved · Cosmo QC 5/5. The tip had regenerated label-bar masters for those 15 (1920×1270, with 9:16 and pre-text). Those files did not match origin/main.
+
+Tip action
+Restored origin/main 16:9 and 4:5 masters, manifests, and approval notes for each ID below. Deleted the label-bar 9:16 masters and durable pre-text for those IDs only. Gallery objects in index.html were replaced with the origin/main objects, so the cards are Approved again and have no file_9x16. Blob hashes match origin/main. These 15 are marked for faithful re-finish only. Do not regenerate them.
+
+Standing plan
+Approved faithful/preserve set: NL-01-011–025, NL-01-056–144, and NL-01-145–159.
+Never-approved label-bar path that may stay: NL-01-160–288.
+NL-01-011–025 and NL-01-056–071 are already faithful re-finishes. NL-01-072–144 and NL-01-145–159 still need that same faithful path. Cosmo locks NL-01-001–010 and NL-01-026–055 were not rebaked. Nothing past NL-01-288. Denmark was not started.
+
+IDs
+NL-01-145	The Quill, Oranjestad
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 c20d68fea5e4e532668a44e5317be41a545f6fe9e54be729e36a8d9bcb348a03
+  source SHA-256 4:5 45979d4a914cd9d805ebc3b461ba0988ca5837b0b43a76975038d408bbf32571
+NL-01-146	Lac Bay, Bonaire
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 976c35cd294f30ad87f654ca27f518c2f71b795675a029feb63acb7159b701f4
+  source SHA-256 4:5 b2944bf1beffb3670967e35458a29196c66decceb0a6960d47c8ab75e12758fb
+NL-01-147	Windwardside, Windwardside
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 d3f15480da41893f14603e7b31730816b150eaa36fd7b5c5753b48649e0e4186
+  source SHA-256 4:5 e9f382c69e6df336f0d8d2e98ac3dd1a0edb44422e678f2807b9232cbcc7d322
+NL-01-148	Poldertoren, Emmeloord
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 78629b64112e5fa5be0220ac7650a875b020193898667bed66c1f9efc2996fd4
+  source SHA-256 4:5 fd0289bce3c232c17e589d398c6d396f7ce326e89f504c7286553a571c030879
+NL-01-149	Coevorden Castle, Coevorden
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 320d3cb80580aaf04f53551cd4a00d2d380b00e8a1ff002a3e9b1c9161b0efcd
+  source SHA-256 4:5 005b6c4e92eabe0d0d4668091b0e77319537244d4759db2b99f7886687d4eec3
+NL-01-150	Dwingeloo telescope, Dwingeloo
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 afa696f2ff588c8c70e2d5075564d7993f6448b7de8c281a02a13bbbe0640c5c
+  source SHA-256 4:5 7f6aa43a058ea6fec03e388837e8d7e5bacccb7d1e42575af0a90093d3aaca2b
+NL-01-151	Hanging kitchens, Appingedam
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 035a97f9be2cc5e402ef778a333b1298b55a0f7e17e0b46444df78739840ef15
+  source SHA-256 4:5 b37df958b63ef10ed0584d6620a152a6828560b075623d46b1381897842962e2
+NL-01-152	Markt, Ootmarsum
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 f074c9a0979676987663f45f78eb158af6ebe5db016afbf58a381c421d895bfc
+  source SHA-256 4:5 c0d059ebb61d4538b8ecb37f334060f96506ee751816e4753a71d4429144648f
+NL-01-153	Windmills, Schiedam
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 a95adbfa0eb55256f7530790219a57e1236129851b7d4d4665a87f6c147a8187
+  source SHA-256 4:5 3c99ec799d0a768f54e028719bcf3980cf88d0f0530e5ab687022678f436c0b0
+NL-01-154	Maeslantkering, Hoek van Holland
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 e2ee88aecfc682593db6e8828553732f3267d3d33b334f2043aca43c6aa230b6
+  source SHA-256 4:5 179032a9c1e03a29aa6488716dc4476eb0ef4d2575e72b7707a93391bc0d018d
+NL-01-155	Magere Brug, Amsterdam
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 8db56594580387a52792670c102df696cbcc45aec1b65fc610d956063a489d2a
+  source SHA-256 4:5 f72d817462f50d84ca5d22f1ab0dd3b1a7aac4e077c802be200ff923def4c75c
+NL-01-156	De Adriaan, Haarlem
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 1239b8b858807f93a0d91f07b90a25a55524e363f7d3e7e72f2241ab7fde36fe
+  source SHA-256 4:5 4c8bfeef19b50e104d49c7e057b50b372dc6d307f6533ea6943e703f2fe3a280
+NL-01-157	Eusebiuskerk, Arnhem
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 5dd49c10fefd792bc61bbf11334dcfbd3c20e5f044f29fc36036114baa8456a2
+  source SHA-256 4:5 36b8b712621659f585def19c7ea3e31400be8c4a6fc156290a42f046964c93c0
+NL-01-158	Basilica, Hulst
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 d8e1439cebbb420f5e6e1edba475ed04bdf967b6780314ad40c0ad54790dc186
+  source SHA-256 4:5 15205316fdbbede4c420e3006430fad674d6be96fd27bca0693eb8c3c89b379d
+NL-01-159	Sint Servaasbrug, Maastricht
+  main manifest: approval_status Approved; Approved · Cosmo QC 5/5 · Night
+  tip action: restored origin/main masters, manifest, and approval note; removed 9:16 and pre-text; gallery object matches origin/main
+  source SHA-256 16:9 fd015fa76cc56e0699470e8b1d360dda94d6355843711735c061efcb4f137d11
+  source SHA-256 4:5 6cacb825c3143903920ed6a36ec6719b3973d89bf476b99f0bfcd0d934e3a051

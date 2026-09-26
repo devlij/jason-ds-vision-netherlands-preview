@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows the Bergkerk's two west towers side by side — pale tuff lower stages, brick upper stages, slate spires — rising over the lit cobbled square with rows of gabled houses at left and right; matches the captioned church and card anchors exactly, dramatic cloudy night; no artifacts. Gate 2: exact dims via git blob API; on-image 'Bergkerk, Deventer', 'Scenario: 26 September 2026 · 03:37 Europe/Amsterdam', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-26T03:37:59+02:00 in evidence/weather/NL-01-236.json, unique to the second across all 288 Netherlands files, scenario inside the 03:00–03:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T15:44:46.352262+00:00",
-  "sha256_16x9": "6d0a8b5b524b60521cd907f5fa926362d34ebc026326623e014c9ab292ee782a",
-  "sha256_4x5": "dee7cf1d3962b3d917d3e0ee02f4d7af6ac925b3f466586854a299b039e13974"
+  "sha256_16x9": "3156f2c909908511a8b4a904bed5c86936d40830219dc81f363f0ed3a5e4e627",
+  "sha256_4x5": "4eb0cdf6b3cb631916aaf1da13a4dedf846543c18b49567624051c71e1913cad",
+  "file_9x16": "Netherlands/Deventer/nl-01-236-9x16.png",
+  "sha256_9x16": "515553f355ae8821090905dbbb182c9e1c52c62a42ef56c84bfb877a4bf66f54",
+  "format_9x16_approval_status": "Candidate"
 }

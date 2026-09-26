@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1: night waterfront view of Tiel: the brick Waterpoort gatehouse with its arch tunnel through the grass dike, lamplight reflections on the Waal, distant shore lights; plausible and clean. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Waterfront, Tiel', scenario '26 September 2026 · 01:04 Europe/Amsterdam', disclosure and signature legible; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:04:45+02:00, unique across all 288 NL scenes; scenario minute inside model hour 01:00. G3: builder note documents text-prompt-only generation, no photographic input. G4: no prominent people or focal logos; internal documentation only. G5: card fields complete.",
   "approved_at": "2026-09-26T06:39:35.938043+00:00",
-  "sha256_16x9": "6c818f9429dd84926b9666dc16f92ba5f220620bfa99fe1c935c6ae002def77d",
-  "sha256_4x5": "0f9c1aefc357891b1367d0296ca9b9d13a0c50db700d1ccbf2a98fa7b05df1e7"
+  "sha256_16x9": "697a9bbc2e8894ad147837fb9354f7ffe14ee9b2ff8ddb253b0a7bb0ba39b990",
+  "sha256_4x5": "c049f95509c761cf6e4d93a1b7418efaf07478350dbe95c105111cf470988f75",
+  "file_9x16": "Netherlands/Tiel/nl-01-110-9x16.png",
+  "sha256_9x16": "86540ee15d8f5e774b930e6e9633add2028c48df3328d441f27045ff7cec4dc3",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6c818f9429dd84926b9666dc16f92ba5f220620bfa99fe1c935c6ae002def77d. Source SHA-256 4:5 0f9c1aefc357891b1367d0296ca9b9d13a0c50db700d1ccbf2a98fa7b05df1e7. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

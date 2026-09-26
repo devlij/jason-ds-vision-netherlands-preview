@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: circular brick shell-keep crowning a grassy motte with a stone stair rising to the arched entrance, water at the motte's foot — recognizably the Burcht van Leiden; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Burcht, Leiden' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + curly-apostrophe signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:03+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:38:49.282983+00:00",
-  "sha256_16x9": "45f821e7be8fa65bf0383b40d5169f02d0d90ba261ada800c760947d816caa19",
-  "sha256_4x5": "1727b0ea3eb0ee037d88b393529f69067c7144cf8507e5831634f774cf289571"
+  "sha256_16x9": "29ab63df75f07bc000b8c0e23d88302e872df1c47c73e739eaba96e279d3a0ab",
+  "sha256_4x5": "00385feaf8329ad060712cd20dea2fbb53d6c6867d90c35b2bea958f9e49f6d8",
+  "file_9x16": "Netherlands/Leiden/nl-01-137-9x16.png",
+  "sha256_9x16": "b1e703106c91a5fe08e4d245c487a68f489d716154338f1e1e9b3b67c908254f",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 45f821e7be8fa65bf0383b40d5169f02d0d90ba261ada800c760947d816caa19. Source SHA-256 4:5 1727b0ea3eb0ee037d88b393529f69067c7144cf8507e5831634f774cf289571. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

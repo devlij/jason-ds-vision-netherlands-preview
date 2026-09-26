@@ -18,5 +18,8 @@
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26): the two format masters depict different buildings - the 16x9 is a grey stone crenellated keep, while the 4x5 is a red-brick tower with three large through-arches at the base and small corner stubs instead of crenellations. The card's own geometry anchors (square brick tower, large arches at the base, lower wing with neck gable) match the 4x5 and contradict the 16x9. Builder to align the renders and re-push."
     }
-  ]
+  ],
+  "file_9x16": "Netherlands/Feanwalden/nl-01-253-9x16.png",
+  "sha256_9x16": "8f3bd492fe8e401814553106fffc835d9f95075da8669ded64bf2e6f58b4e24c",
+  "format_9x16_approval_status": "Candidate"
 }

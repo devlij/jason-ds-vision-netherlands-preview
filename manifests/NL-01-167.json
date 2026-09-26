@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Observed in the 16:9 master: tall brick church tower with dark spire, attached nave, cobbled square with lamps under heavy cloud night sky, matching the weather model (is_day 0, WMO 3). G1: Cuneratoren's tall brick tower composition verified against anchors, no artifacts. G2: sweep-verified 1920x1080 and 864x1080 PNGs; exact caption, scenario line '26 September 2026 · 02:20 Europe/Amsterdam', AI disclosure and 'Jason D’s Vision' signature (curly apostrophe) legible on the bottom edge; EU AI Act Art. 50 PNG metadata present; scenario minute sits inside model-valid hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:20:03+02:00 verified unique to the second across all 288 Netherlands scenes. G3: evidence card documents text-prompt-only lineage, no photographic inputs. G4: no visible people, logos, or readable private property; license badge 'Free · no credit needed' recorded, final commercial-use call is Jason's. G5: manifest card fields complete, no open blockers.",
   "approved_at": "2026-09-26T10:38:47.583782+00:00",
-  "sha256_16x9": "82cbab402fddae778a19c8b5a6bb5ca8450dfebb803bfdefdb30f96f54d6e771",
-  "sha256_4x5": "122ef6ef7635a329f2e58a4a6d4bb3b41a3406c77539cc472f47c94f2b095899"
+  "sha256_16x9": "f1c73393fc593298fbc5f6c046446c4269c3d66ed964faebf65a370c446878b4",
+  "sha256_4x5": "5ccc45d2e915d49364b38196bf5d8dcb9c19e62a60852e35d447afe9039bd1b7",
+  "file_9x16": "Netherlands/Rhenen/nl-01-167-9x16.png",
+  "sha256_9x16": "9cc47b0da5baa1ceedbc7b6dfbc3325ee0c57e785da3403df36a07a96f600242",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 82cbab402fddae778a19c8b5a6bb5ca8450dfebb803bfdefdb30f96f54d6e771. Source SHA-256 4:5 122ef6ef7635a329f2e58a4a6d4bb3b41a3406c77539cc472f47c94f2b095899. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Zoutkamp harbour at night — row of coloured wooden sheds (red, yellow, green, blue) with lit windows, moored boats and reflections, stone quay right; plausible fishing-harbour scene. G2 PASS: exact dims; on-image caption 'Harbour, Zoutkamp', scenario '26 September 2026 · 00:38 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:38:02+02:00 unique repo-wide; scenario 00:38 inside model window 00:30–00:45. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:38.939574+00:00",
-  "sha256_16x9": "b4d377ae462036a979fe5c397b1f873c437abd7a1ac7d0d7051e79069175aba0",
-  "sha256_4x5": "5e9c4b4840156330dc5bad522a74488d60fbc2b2286ea64718b57a758a0ea559"
+  "sha256_16x9": "b9b722a7243967fe9dd77cb464253cb038847de62427f50add2cf5f7bd47feeb",
+  "sha256_4x5": "1468e242cd57579a388dd3973a095af2a299473248b3138d0ea466d1e0819efb",
+  "file_9x16": "Netherlands/Zoutkamp/nl-01-082-9x16.png",
+  "sha256_9x16": "7ce48fd1d98280f5e1b1128d2092cd5bc3618970f63d06a93b5d82bf257b7561",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b4d377ae462036a979fe5c397b1f873c437abd7a1ac7d0d7051e79069175aba0. Source SHA-256 4:5 5e9c4b4840156330dc5bad522a74488d60fbc2b2286ea64718b57a758a0ea559. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

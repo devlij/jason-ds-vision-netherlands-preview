@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Observed in the 16:9 master: tall brick tower with octagonal lantern crown, attached brick nave, city square with modern buildings, storm-cloud night, matching the weather model (is_day 0, WMO 3). G1: Laurenskerk's lantern-crowned brick tower in the city centre verified against anchors, no artifacts. G2: sweep-verified 1920x1080 and 864x1080 PNGs; exact caption, scenario line '26 September 2026 · 02:20 Europe/Amsterdam', AI disclosure and 'Jason D’s Vision' signature (curly apostrophe) legible on the bottom edge; EU AI Act Art. 50 PNG metadata present; scenario minute sits inside model-valid hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:20:09+02:00 verified unique to the second across all 288 Netherlands scenes. G3: evidence card documents text-prompt-only lineage, no photographic inputs. G4: no visible people, logos, or readable private property; license badge 'Free · no credit needed' recorded, final commercial-use call is Jason's. G5: manifest card fields complete, no open blockers.",
   "approved_at": "2026-09-26T10:38:55.995720+00:00",
-  "sha256_16x9": "52d58603030a2d5d27afff835bc6fec63c2a118aa7c9a28035698a4e44494487",
-  "sha256_4x5": "76bff62c7cd388b83a57c5b563c1e435aa740885fb91132ab948c0c871eae4d8"
+  "sha256_16x9": "268124c47063ab73f884c641ecaee461e7aeb629ee379f141b839eeeb3d8d9c6",
+  "sha256_4x5": "1deeaca7126e936b570a51b732e80e19dd13e0a56a09a9551b27210d98dc76c6",
+  "file_9x16": "Netherlands/Rotterdam/nl-01-169-9x16.png",
+  "sha256_9x16": "1e4878a18f6f7dd2fa83d1a0749782a3796bab3134b1adb206f1afb1848a9cbc",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 52d58603030a2d5d27afff835bc6fec63c2a118aa7c9a28035698a4e44494487. Source SHA-256 4:5 76bff62c7cd388b83a57c5b563c1e435aa740885fb91132ab948c0c871eae4d8. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

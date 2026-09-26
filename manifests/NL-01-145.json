@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: broad green volcanic cone rising behind a moonlit waterfront street — small warm-lit houses with red roofs, palms, street lamps, curved bay road in the foreground; no crater interior, no cliff fort in frame, matching the Lower Town viewpoint claim. Gate 2 PASS: exact 1920x1080/864x1080, on-image caption 'The Quill, Oranjestad', scenario '25 September 2026 · 19:56 America/Kralendijk', disclosure 'AI-generated artistic interpretation · Not a photograph.', curly-apostrophe 'Jason D's Vision' signature bottom-right — all legible on the gradient scrim; Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment with the EU AI Act Art. 50 note) present on both masters; scenario minute 19:56 inside the model-valid hour 19:00–19:59 of Open-Meteo retrieval 2026-09-25T19:56:36-04:00, unique to the second across all 288 Netherlands weather files (zero duplicates). Gate 3 PASS: card documents text-prompt-only lineage, no photographic inputs. Gate 4 documented-only: no identifiable people, no focal logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
   "approved_at": "2026-09-26T09:44:39.958792+00:00",
-  "sha256_16x9": "c20d68fea5e4e532668a44e5317be41a545f6fe9e54be729e36a8d9bcb348a03",
-  "sha256_4x5": "45979d4a914cd9d805ebc3b461ba0988ca5837b0b43a76975038d408bbf32571"
+  "sha256_16x9": "630b5f546472094f4805438d9538d77d15a8a8b7590e4bff8c8e2d6072982ab4",
+  "sha256_4x5": "546f282f3aa5e37f7da178249af0c6ffb0bee3b82209967280c865136477c2d2",
+  "file_9x16": "Netherlands/Oranjestad/nl-01-145-9x16.png",
+  "sha256_9x16": "8e0011566e2b102d809262559ddfe0060fb0caa5df500db1281e5fb7f261f2e4",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c20d68fea5e4e532668a44e5317be41a545f6fe9e54be729e36a8d9bcb348a03. Source SHA-256 4:5 45979d4a914cd9d805ebc3b461ba0988ca5837b0b43a76975038d408bbf32571. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

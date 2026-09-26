@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Hunebed D53 at night from the grass north of Hunebeddenweg — long chamber of capstones resting on uprights, stone porch projecting right, heath and low trees, forest edge right under heavy night cloud; recognizable megalith arrangement, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Hunebed D53, Havelte', scenario '26 September 2026 · 02:36 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:36 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:36:49+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
   "approved_at": "2026-09-26T11:53:03.130037+00:00",
-  "sha256_16x9": "792dbe3551f629e7de1fcda2817f86b92a9855ce1c7d6af6621ad88d9e0c7b76",
-  "sha256_4x5": "8d08024c77f0cfbf3488160eb7ef374d9ec52e08ea9568bceb2855762a3ed1ea"
+  "sha256_16x9": "2fbf66eb8187848bdfa597e47e2a2e0188e6132905271a293da9732814f14069",
+  "sha256_4x5": "c6fa8f60e70f59f6bcd288af74bbb9a9f81eec7c82b556b820483c04d82f8655",
+  "file_9x16": "Netherlands/Havelte/nl-01-179-9x16.png",
+  "sha256_9x16": "6128fd4a9587e2b1c1b7a9e4ff42f3744db9c6a0e7c397d993d70688d9c64e2d",
+  "format_9x16_approval_status": "Candidate"
 }

@@ -18,5 +18,8 @@
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26, verified by Cosmo's own read of both masters): the two formats disagree on defining features - the 16x9 shows 5 roof dormers, chimney stacks as two close pairs, and a walled forecourt with two pyramidal-roof gate pavilions and an iron gate across the moat, while the 4x5 shows zero dormers, four clearly separated chimney stacks, a wider three-row-window massing, and no gate pavilions or forecourt walls. Builder to align the renders and re-push."
     }
-  ]
+  ],
+  "file_9x16": "Netherlands/De Wijk/nl-01-259-9x16.png",
+  "sha256_9x16": "4b7bd4ca6746945e1f64c25cd39dec86fb78d7f4c56d7c93651ec5290f7c482e",
+  "format_9x16_approval_status": "Candidate"
 }

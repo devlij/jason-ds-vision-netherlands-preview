@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 visual pass: night waterfront at Hindeloopen — church tower rising over gabled houses with lit windows, moored sailboats and a stone quay, lamp reflections on the water, dramatic clouded sky. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Waterfront, Hindeloopen', scenario '26 September 2026 · 00:01 Europe/Amsterdam' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:01:04+02:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:09.883073+00:00",
-  "sha256_16x9": "3ae30f897ce3d02938414089db36f61da473cfb3a08781738be1ec637c17f508",
-  "sha256_4x5": "1352f438aced5891ff498dc18d58ac7b58bbd308aeee0bb9a6a6e7b4d5d5f121"
+  "sha256_16x9": "730b70d29599af1e7dc605dd56b51410ca1c6dbc5c9ffec440c8344d1df77dc0",
+  "sha256_4x5": "f983b7d31c8818e8c94fe5667393291642e895faee9a3504fbdda963bc3ea226",
+  "file_9x16": "Netherlands/Hindeloopen/nl-01-059-9x16.png",
+  "sha256_9x16": "a997e000fa2e2cecac2cb282dc0808ce0d52cb5fe866d3ff6f6ce9a6690a050e",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 3ae30f897ce3d02938414089db36f61da473cfb3a08781738be1ec637c17f508. Source SHA-256 4:5 1352f438aced5891ff498dc18d58ac7b58bbd308aeee0bb9a6a6e7b4d5d5f121. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

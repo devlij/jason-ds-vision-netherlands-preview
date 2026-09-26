@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 visual pass: night harbour at Harlingen — brick gabled warehouses with lit windows lining the quay left, traditional sailing ships moored right, lamp reflections on calm water under a dark sky. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Harbour, Harlingen', scenario '26 September 2026 · 00:00 Europe/Amsterdam' and AI disclosure legible bottom-left; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:00:59+02:00 unique repo-wide (288/288 unique via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:01.349973+00:00",
-  "sha256_16x9": "519c1d4a63459124a74b973bf838537a2a396b1ab0d78b4d9cbc057840ce8b2c",
-  "sha256_4x5": "2347fe7e65135850f60d798bf910a5afc45d51b8136c0d7c84bb532a37bca19a"
+  "sha256_16x9": "841022cee2ba0a0cfe3d37042b7516c84a5616b64ec235f6bac477bb0db16a63",
+  "sha256_4x5": "707462fde1b8c5638d57a432c766b898b153eb7f1aa323f2ee61375df08e9188",
+  "file_9x16": "Netherlands/Harlingen/nl-01-057-9x16.png",
+  "sha256_9x16": "44d034711301d3d565a059b3172a2aad6149930f9fd016d304424b651221c3fa",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 519c1d4a63459124a74b973bf838537a2a396b1ab0d78b4d9cbc057840ce8b2c. Source SHA-256 4:5 2347fe7e65135850f60d798bf910a5afc45d51b8136c0d7c84bb532a37bca19a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -1,0 +1,18 @@
+Index fix — approval badges and word-of-day — 2026-09-26
+
+Parent tip: bd5ada263729e05aeefb4d35fb8eb955b35771c7
+Source: origin/main d3676cf3cce1927c00543117465e5543cd2c043d
+File: index.html
+
+Word of the day
+Restored from origin/main, unchanged:
+- CSS rules for .wotd (including the 520px day wrap)
+- The band markup: div#wotd, “Woord van de dag · Word of the day”
+- script#wotd-data (the Dutch word list)
+- The day-of-year script that fills #wotd .wotd-body and #wotd-day
+
+Approval badges
+origin/main marks 159 gallery scenes Approved. This branch already had that field on 129 of them. The 30 missing entries were NL-01-041 through NL-01-055 and NL-01-145 through NL-01-159. Each of those SCENES objects now has "approval_status": "Approved", copied from origin/main. Approved badge count is 159 again.
+
+Not changed
+Label-bar layout, file_9x16 wiring, daylight toggles, and scene artwork were not reverted in this commit. Cosmo lock masters, manifests, and approval notes for NL-01-001–010 and NL-01-026–055 were not rewritten. NL-01-145–159 artwork is handled in the following restore note.

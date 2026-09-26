@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: 16:9 master shows the Gevangenpoort as a night-lit brick water gate — rectangular brick mass with gabled roof, large pointed water arch, one small corbelled corner turret with a pointed cap, dark river water and a stone quay in the foreground, a lit quay lamp, overcast sky; the 4:5 shows the same gate frontally from the water with the same arched passage and turret, formats agree. Gate 2: masters exactly 1920x1080 / 864x1080; on-image caption 'Gevangenpoort, Woudrichem', scenario '26 September 2026 · 04:37 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature legible on the scrim; Art. 50 PNG metadata present on both masters; scenario minute 04:37 inside model-valid hour 04:00–04:59; Open-Meteo retrieval timestamp 2026-09-26T04:37:57+02:00 verified unique to the second across all 288 Netherlands evidence files via the GitHub API. Gate 3: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no readable logos, no copyrighted artwork; license badge 'Free · no credit needed' — documented only. Gate 5: card fields complete. Modelled scenario, never a verified capture.",
   "approved_at": "2026-09-26T20:39:33.838763+00:00",
-  "sha256_16x9": "b1cf2b16a8c59270ec6c2ffe48480285affc8f954943ac66c0a1784297d06a70",
-  "sha256_4x5": "6966e67f1e2d04d232b77c6d64412ca5e14c917386c64a3285d32ea6c56061ed"
+  "sha256_16x9": "368b036161722f1d56b3f376fc8fe38edd80e123d520a7a3fa950ac50631f910",
+  "sha256_4x5": "d7ca39f182b60f69f6eee1cddbccb1cf2d15af4a8b1343989e5d070caca96251",
+  "file_9x16": "Netherlands/Woudrichem/nl-01-283-9x16.png",
+  "sha256_9x16": "d2fb7408599b1c1ba1a6c10b4c3d45c4d9c676ada97bc9639a1faf54dc80aba6",
+  "format_9x16_approval_status": "Candidate"
 }

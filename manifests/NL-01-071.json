@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: night riverside view recognizably Stadsbrug Kampen — brick gabled row houses, tall church spire, bridge over the river with lamp reflections, clean framing, no artifacts. G2 PASS: masters exact 1920x1080/864x1080; on-image caption 'Stadsbrug, Kampen', scenario '26 September 2026 · 00:19 Europe/Amsterdam', 'AI-generated artistic interpretation · Not a photograph.' disclosure and exact 'Jason D\\u2019s Vision' signature verified legible bottom-left/bottom-right on a gradient scrim; Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment with EU AI Act note) present on both masters; Open-Meteo retrieval 2026-09-26T00:19:25+02:00 unique to the second across all 288 NL evidence files; scenario minute 00:19 falls inside model window 00:15–00:30. G3 PASS: evidence card documents text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no visible people, logos, or private property; public bridge/cityscape. G5 PASS: manifest card fields complete.",
   "approved_at": "2026-09-26T04:37:53.430727+00:00",
-  "sha256_16x9": "bd5cb8f75c26a9f7485fdfbb6156265a1dd2e6c445124d0d75bbb0ae921fb10e",
-  "sha256_4x5": "a05637ee4724532ffcdb25b83140a45717773c36255d2d1cc146e4b6d481f6b5"
+  "sha256_16x9": "128b6d6c8083e515f2053ba296c110b8d3f8228fd35d22663e1b0e5d44f6ec83",
+  "sha256_4x5": "5ac1f7a168d93b43a3771d7b1c656e1651d366dc2b96b7ca96868800bab9e53d",
+  "file_9x16": "Netherlands/Kampen/nl-01-071-9x16.png",
+  "sha256_9x16": "98054a7e0eed77c34a1fe12137854ed5da992c696f7df6c949e9095ed5071391",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 bd5cb8f75c26a9f7485fdfbb6156265a1dd2e6c445124d0d75bbb0ae921fb10e. Source SHA-256 4:5 a05637ee4724532ffcdb25b83140a45717773c36255d2d1cc146e4b6d481f6b5. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

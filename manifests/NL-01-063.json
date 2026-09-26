@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 visual pass: night heathland at Dwingelderveld — a winding path through heather and pine, tall pines against a dark clouded sky, the Drenthe heath character clearly readable. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Dwingelderveld, Dwingeloo', scenario '26 September 2026 · 00:01 Europe/Amsterdam' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:01:15+02:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:27.820267+00:00",
-  "sha256_16x9": "d56679051a56c78039a5b18af2f71fbab3b0e07f32edcc455effd69007687143",
-  "sha256_4x5": "e237001a121c9199e77a40ef641c5c0580604fe69addeda481394554582cd4fa"
+  "sha256_16x9": "60ff01c46d69caf981d7e993c43808f0209c498a7d2bbd219e2452fbd3be8b35",
+  "sha256_4x5": "845648860b3a6d2df1e2a581a694d1e160d82385e0337407e5d969445563b811",
+  "file_9x16": "Netherlands/Dwingeloo/nl-01-063-9x16.png",
+  "sha256_9x16": "dd1383e8e0e34d0815859043efc96ee5cdaff4363508b0d39296575a50907cd9",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d56679051a56c78039a5b18af2f71fbab3b0e07f32edcc455effd69007687143. Source SHA-256 4:5 e237001a121c9199e77a40ef641c5c0580604fe69addeda481394554582cd4fa. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

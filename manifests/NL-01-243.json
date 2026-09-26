@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows the Sint-Clemenskerk's tall brick spire with clock faces and floodlit nave with stepped gables, lit street lamps in the square, heavy overcast night sky — matches the captioned church and card anchors; no artifacts. Gate 2: exact dims via git blob API; on-image 'Sint-Clemenskerk, Steenwijk', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-26T03:59:23+02:00 in evidence/weather/NL-01-243.json, unique to the second across all 288 Netherlands files, scenario inside the 03:00–03:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T15:45:33.930402+00:00",
-  "sha256_16x9": "5463ce8b1c1ad51f6df008aafc6e94522fc613401f6baf8431eaa9df8439aabc",
-  "sha256_4x5": "bed39c1e0824b1a6350865c7a09d7b7aad4fd7ce9aecb964b9fd8db2f3fdd252"
+  "sha256_16x9": "26bf31c6e63fcb71b22b7f988e7a11d997a5df5fffb186a57df64a4cd63dc6ca",
+  "sha256_4x5": "a7242030fcb1afac1970ff3cb4554087faa5b97c383c470fbe90ba6d4bb23e27",
+  "file_9x16": "Netherlands/Steenwijk/nl-01-243-9x16.png",
+  "sha256_9x16": "eaf3bf2a6499317a7a54b5b2390761bba567b730c48f8dc733a57357300ffef8",
+  "format_9x16_approval_status": "Candidate"
 }

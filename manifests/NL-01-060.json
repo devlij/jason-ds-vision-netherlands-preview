@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 visual pass: night view of Groningen's Martinitoren — the tall floodlit tower and adjoining church on the empty Grote Markt, surrounding gabled façades with lit windows, dramatic clouds above. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Martinitoren, Groningen', scenario '26 September 2026 · 00:01 Europe/Amsterdam' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:01:07+02:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:13.858618+00:00",
-  "sha256_16x9": "6e976b85db93456dddde2a98ea8d4dd5af307a9aaf9f816951dcd55ef4b25a7d",
-  "sha256_4x5": "f62163b6cb730d220cc61640ad0797beafbac9c45d3dcec92b4ae2285a0f2c49"
+  "sha256_16x9": "630295918f595ee60bf94d8963a4d256542892f2ba9f9bdca202f0302cfafae6",
+  "sha256_4x5": "07f5197efc54e4e6015f3f62003d93c6ac890395e6f13f0bcee4564d9b4ce3fa",
+  "file_9x16": "Netherlands/Groningen/nl-01-060-9x16.png",
+  "sha256_9x16": "614c82fabbd92bb0f51e3455d3ce5858788f3ee9a3e11a53cb31694820c4cac7",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6e976b85db93456dddde2a98ea8d4dd5af307a9aaf9f816951dcd55ef4b25a7d. Source SHA-256 4:5 f62163b6cb730d220cc61640ad0797beafbac9c45d3dcec92b4ae2285a0f2c49. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

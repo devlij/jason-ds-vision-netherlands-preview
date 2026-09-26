@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: brick Romano-Gothic church on the brink green — square west tower with steep saddle roof (no spire), white-framed round-arched paired belfry windows, arched nave windows, round apse at the east end, autumn-foliage trees, two glowing street lamps, overcast dawn sky; matches the anchors (saddle-roof tower, white round-arched niches, round choir); 16x9 wide view vs closer 4x5 angle depict the same building with no identity disagreement. Gate 2: exact 1920x1080/864x1080 masters, caption 'Sint-Margaretakerk, Norg', scenario '26 September 2026 · 04:18 Europe/Amsterdam' inside the model-valid hour of the recorded Open-Meteo retrieval 2026-09-26T04:18:30+02:00 (verified unique to the second across all 288 Netherlands evidence files), exact curly-apostrophe signature and disclosure legible, Art. 50 PNG metadata present on both masters. Gate 3: evidence card claims text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, no logos — documented only. Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T16:57:59.512853+00:00",
-  "sha256_16x9": "8ba12962e3201d78896738e1af6ac1fdb3827ad4ccd52d29850b68f10e6250f2",
-  "sha256_4x5": "2dc87e68bf0aae8bbbef31f2316e990f675ff346d2557462e1d36ff7a13a62ec"
+  "sha256_16x9": "a1b6d372029096611ba2e5ca123486b4fa10f94e41541261b328f4afc80818ff",
+  "sha256_4x5": "f1735cafa6f99f067d3cebd192c444677b572e1300e554ef2f3fbf23c694d44e",
+  "file_9x16": "Netherlands/Norg/nl-01-260-9x16.png",
+  "sha256_9x16": "f1d213b9f95354157234dbcfe07081fc039ab9b48150ff77948e6f7c2c02c1ea",
+  "format_9x16_approval_status": "Candidate"
 }

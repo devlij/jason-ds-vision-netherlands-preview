@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Brick museum frontage along the Meuse at night under a star field, lit windows mirrored in the river; the 16:9 frames the long waterfront facade with corner domes while the 4:5 crop centers the museum's white Rossi dome and riverside brick tower; caption 'Bonnefantenmuseum, Maastricht' and scenario '26 September 2026 · 03:16 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:16 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:16:31+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
   "approved_at": "2026-09-26T14:42:32.807851+00:00",
-  "sha256_16x9": "1fc262d4b86ab915a80480b1bec428afe4a759e8278c4e4e93e64568fc79cb8e",
-  "sha256_4x5": "9469e15553f974dc6d156050ca1b1088034f9b357ec3d6fcd5c47269e7aa8898"
+  "sha256_16x9": "d663affb3801279d9560f8d9e9181587dd71ad7d478881b6d8e5c11a1fcc156e",
+  "sha256_4x5": "0f361caff3f36622633174f69f92eedeeb3acde555c2278861fe44cd2c3823ed",
+  "file_9x16": "Netherlands/Maastricht/nl-01-220-9x16.png",
+  "sha256_9x16": "4173af201dbf2d9e17d472419d4b957d3be434e2c911420a76684dea3a35a973",
+  "format_9x16_approval_status": "Candidate"
 }

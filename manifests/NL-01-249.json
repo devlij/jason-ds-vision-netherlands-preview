@@ -18,5 +18,8 @@
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26): the two format masters depict different chapel towers - the 16x9 shows a closed low square tower with narrow slit windows and a steep pyramidal cap, while the 4x5 shows a taller tower with an open belfry containing a visible bell and a large traceried Gothic window. Both views are essentially frontal, so viewpoint cannot explain the difference; the formats disagree on the subject's defining features. Builder to align the 16x9/4x5 renders and re-push."
     }
-  ]
+  ],
+  "file_9x16": "Netherlands/Bronkhorst/nl-01-249-9x16.png",
+  "sha256_9x16": "9c1c4f117ffc0be1958c36c8d23409809b04f77983355053cdfecfa9d88a6c47",
+  "format_9x16_approval_status": "Candidate"
 }

@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows The Ladder's steep stone steps with low side walls dropping to the sea at Ladder Bay, the small plain customs house higher on the ridge, overcast dusk sky — matches the captioned site and the card's trail-viewpoint anchors; no artifacts. Gate 2: exact dims via git blob API; on-image 'The Ladder, Saba', 'Scenario: 25 September 2026 · 21:38 America/Kralendijk', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-25T21:38:01-04:00 in evidence/weather/NL-01-237.json, unique to the second across all 288 Netherlands files, scenario inside the 21:00–21:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T15:44:52.822733+00:00",
-  "sha256_16x9": "44615ad6b26472eafa7893899b11ce6aa66e50f8059cde027b111971925feee1",
-  "sha256_4x5": "133b0b3493873c6da2824dea8126b5e261d56e5f1fcff0473cf6443782c6a5d5"
+  "sha256_16x9": "7d62907a1891278c1f4efb9a9ca3c48126474cc4359b1d72ee1016d9fa04da7f",
+  "sha256_4x5": "4b48476bf69c45e11f57a79b77ed6333d2e84b1b69a6a91772891b15b526e32c",
+  "file_9x16": "Netherlands/Saba/nl-01-237-9x16.png",
+  "sha256_9x16": "54e8872e7643379853e4fffe2799d8307505814e055db61f2de9d362b4c37cc6",
+  "format_9x16_approval_status": "Candidate"
 }

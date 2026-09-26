@@ -10,14 +10,15 @@
   "alt_text": "AI-generated artistic interpretation of a Giethoorn canal and thatched farmhouses on a clear late afternoon",
   "file_16x9": "Netherlands/Giethoorn/nl-01-006-16x9.png",
   "file_4x5": "Netherlands/Giethoorn/nl-01-006-4x5.png",
+  "file_9x16": "Netherlands/Giethoorn/nl-01-006-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
   "qc_status": "Cosmo QC 5/5 2026-09-25",
   "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Giethoorn thatched-roof farmhouses, canal, wooden footbridges, punt boat among reeds; late-afternoon light matches the 18:27 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:27:48+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:27 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
   "approved_at": "2026-09-25T22:29:28.446149+00:00",
-  "sha256_16x9": "f8998be313196246c6853ea5c004d93d9551bdbbad8daab7ef041102ae16099e",
-  "sha256_4x5": "9b591349bedeb83b0380c869b5c51da9a68b101876d33e1772d0502c0937bb4f",
+  "sha256_16x9": "1b3e32786ca15badacc949c34ec224bfe80c771d72e660def4a14753bcc8acd6",
+  "sha256_4x5": "5e26f357a0ba891507253f7ba5e01e32625db62a3d0986eea0afc2efa4e987a8",
   "file_16x9_day": "Netherlands/Giethoorn/nl-01-006-daylight-16x9.png",
   "file_4x5_day": "Netherlands/Giethoorn/nl-01-006-daylight-4x5.png",
   "daylight_variant": {
@@ -49,5 +50,8 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_9x16": "981cee41225bb128f3f0fd4cfa1928b6d9f78121352a7d6e91e2f9e8b4ee513f",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 f8998be313196246c6853ea5c004d93d9551bdbbad8daab7ef041102ae16099e. Source SHA-256 4:5 9b591349bedeb83b0380c869b5c51da9a68b101876d33e1772d0502c0937bb4f. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

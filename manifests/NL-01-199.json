@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night. G1 visual pass: turf-covered peat huts with small square windows along a muddy heath path under a stormy dark sky — a plausible Veenpark peat-colony scene, moody and artifact-free. G2 technical pass: exact 1920x1080/864x1080; caption 'Veenpark, Barger-Compascuum', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:54+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: no people or logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T12:43:04.906702+00:00",
-  "sha256_16x9": "ac6ccc5d51124b962a93a5818a6bf5b11b9df778b8f1e8e37ae22a9120a95401",
-  "sha256_4x5": "8d306ef67ff3c8e96c4125e7632280dba338dc4ded64b13ab4427f88379b3c2e"
+  "sha256_16x9": "0d4237ab6c27057721d8741be9c2e2d3c9544345dba08c6c942c6b3438a03edf",
+  "sha256_4x5": "35196bdebbf5804a88a7c15a73bc7c550147130c9feba23c7a31616a94de9d5c",
+  "file_9x16": "Netherlands/Barger-Compascuum/nl-01-199-9x16.png",
+  "sha256_9x16": "212c6b9a922a164151e4e9598deef4d06cd6f720e228633d511f3b382880b354",
+  "format_9x16_approval_status": "Candidate"
 }
