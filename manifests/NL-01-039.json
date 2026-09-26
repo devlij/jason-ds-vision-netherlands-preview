@@ -4,12 +4,18 @@
   "region": "North Brabant",
   "city": "Breda",
   "caption": "Breda Castle, Breda",
-  "scenario_label": "25 September 2026 \u00b7 23:41 Europe/Amsterdam",
-  "composition": "Spanjaardsgat water gate, two octagonal towers across the moat \u00b7 AI-generated artistic interpretation",
-  "description": "Breda Castle is seen at the Spanjaardsgat: two octagonal brick towers with dark spires flank a water-gate opening, and the castle mass sits behind them across the moat. The Grote Kerk is a different viewpoint and is not in this frame. It is clear and mild, about 17.0\u00b0C, wind near 10.1 km/h. Sunset was 19:32.",
+  "scenario_label": "25 September 2026 · 23:41 Europe/Amsterdam",
+  "composition": "Spanjaardsgat water gate, two octagonal towers across the moat · AI-generated artistic interpretation",
+  "description": "Breda Castle is seen at the Spanjaardsgat: two octagonal brick towers with dark spires flank a water-gate opening, and the castle mass sits behind them across the moat. The Grote Kerk is a different viewpoint and is not in this frame. It is clear and mild, about 17.0°C, wind near 10.1 km/h. Sunset was 19:32.",
   "alt_text": "AI-generated artistic interpretation of Breda Castle at the Spanjaardsgat on a clear night",
   "file_16x9": "Netherlands/Breda/nl-01-039-16x9.png",
   "file_4x5": "Netherlands/Breda/nl-01-039-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: I read the master — Breda Castle's twin round brick gatehouse towers with tall spires joined by an arched bridge, the whole brick mass mirrored in the calm moat at night, trees on the banks, plausible public-waterfront viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Breda Castle, Breda' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:33+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T01:40:04.198436+00:00",
+  "sha256_16x9": "f4db9aa5b12b60d2a796c987eddcb3afc9a68e3ccf60d77473ddb3837bc8d7d1",
+  "sha256_4x5": "261a21422f391fd13acb02948934270f21fec6b9f24a61328f0b2a9eee766375"
 }
