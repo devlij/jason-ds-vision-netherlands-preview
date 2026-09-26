@@ -4,12 +4,18 @@
   "region": "North Holland",
   "city": "Naarden",
   "caption": "Vesting, Naarden",
-  "scenario_label": "26 September 2026 \u00b7 00:19 Europe/Amsterdam",
-  "composition": "Pointed bastion in a still moat \u00b7 AI-generated artistic interpretation",
-  "description": "From the outer bank at Naarden, a pointed grass bastion juts into the moat, with a low brick edge along the rampart. The sky is partly cloudy, about 14.2\u00b0C, with a light wind near 5.4 km/h and no rain. Sunset was 19:28. The water is still.",
+  "scenario_label": "26 September 2026 · 00:19 Europe/Amsterdam",
+  "composition": "Pointed bastion in a still moat · AI-generated artistic interpretation",
+  "description": "From the outer bank at Naarden, a pointed grass bastion juts into the moat, with a low brick edge along the rampart. The sky is partly cloudy, about 14.2°C, with a light wind near 5.4 km/h and no rain. Sunset was 19:28. The water is still.",
   "alt_text": "AI-generated artistic interpretation of a Naarden bastion and moat on a partly cloudy night",
   "file_16x9": "Netherlands/Naarden/nl-01-076-16x9.png",
   "file_4x5": "Netherlands/Naarden/nl-01-076-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 PASS: Naarden fortress at night — grass-covered bastion earthworks and brick revetments reflected in the moat under a starry cloudy sky, plausible aerial-style tourist viewpoint of the star fort. G2 PASS: exact dims; on-image caption 'Vesting, Naarden', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:38+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos. G5 PASS: card fields complete.",
+  "approved_at": "2026-09-26T04:38:13.524332+00:00",
+  "sha256_16x9": "4c880519422b94714abb93d2cd8439ae4e15ab550b86c6b9176c2b5c99c3fb48",
+  "sha256_4x5": "814bd1a8db59da8cbf174c76ab4fee42d1278363335dd0baa2c1aacb4723f19a"
 }
