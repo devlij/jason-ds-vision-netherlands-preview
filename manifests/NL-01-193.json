@@ -4,12 +4,18 @@
   "region": "Flevoland",
   "city": "Urk",
   "caption": "Vuurtoren, Urk",
-  "scenario_label": "26 September 2026 \u00b7 02:55 Europe/Amsterdam",
-  "composition": "White lighthouse on the IJsselmeer dike, red lantern and copper dome \u00b7 AI-generated artistic interpretation",
-  "description": "The Urk lighthouse stands on the dike at the edge of the village, a white tapered brick tower with a red lantern, a gallery, and a copper dome. Dark IJsselmeer water fills the foreground. The fishing harbour is a different place and is not in this frame. It is partly cloudy, about 14.7\u00b0C, with wind near 5.0 km/h and cloud cover about 77%.",
+  "scenario_label": "26 September 2026 · 02:55 Europe/Amsterdam",
+  "composition": "White lighthouse on the IJsselmeer dike, red lantern and copper dome · AI-generated artistic interpretation",
+  "description": "The Urk lighthouse stands on the dike at the edge of the village, a white tapered brick tower with a red lantern, a gallery, and a copper dome. Dark IJsselmeer water fills the foreground. The fishing harbour is a different place and is not in this frame. It is partly cloudy, about 14.7°C, with wind near 5.0 km/h and cloud cover about 77%.",
   "alt_text": "AI-generated artistic interpretation of the white Urk lighthouse at night on the IJsselmeer dike",
   "file_16x9": "Netherlands/Urk/nl-01-193-16x9.png",
   "file_4x5": "Netherlands/Urk/nl-01-193-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Night. G1 visual pass: the tall tapered white Urk lighthouse with red lantern room and green dome beside the keeper's cottage on the dike, town lights across dark water — recognizably the Vuurtoren van Urk prospect, crisp geometry, no artifacts. G2 technical pass: exact 1920x1080/864x1080; caption 'Vuurtoren, Urk', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:38+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: no people or logos; documented only. G5: card fields complete.",
+  "approved_at": "2026-09-26T12:42:39.244444+00:00",
+  "sha256_16x9": "064f1eaa9c44bf1a7d35db6fe21d154e2ceccd1b2760a2e9fac0cd502fcaf452",
+  "sha256_4x5": "e6d273d437d76f3da62211e5e5a726318e6cf4b1071f058e7d54f842e82f1acf"
 }
