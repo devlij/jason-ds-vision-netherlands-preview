@@ -32,8 +32,8 @@ def main() -> None:
     errors: list[str] = []
     approvals = sorted((ROOT / "approvals").glob("NL-*.md"))
     manifests = sorted((ROOT / "manifests").glob("NL-*.json"))
-    if len(approvals) != 208 or len(manifests) != 208:
-        errors.append(f"expected 208 notes, found approvals={len(approvals)} manifests={len(manifests)}")
+    if len(approvals) != 224 or len(manifests) != 224:
+        errors.append(f"expected 224 notes, found approvals={len(approvals)} manifests={len(manifests)}")
     stamps = []
     for path in approvals:
         text = path.read_text()
@@ -161,7 +161,7 @@ def main() -> None:
             errors.append(f"index missing {needle}")
     if "dataset.src45" in index or "dataset.src16" in index:
         errors.append("index uses camelCase dataset")
-    for n in range(1, 209):
+    for n in range(1, 225):
         token = f"NL-01-{n:03d}"
         if token not in index:
             errors.append(f"index missing {token}")
@@ -171,6 +171,8 @@ def main() -> None:
             errors.append(f"NL-01-{n:03d} lost Cosmo approval_status")
         if f'"entry_id": "NL-01-{n:03d}"' not in index or '"approval_status": "Approved"' not in index:
             errors.append("index missing an Approved scene")
+    if index.count('"file_16x9_day"') != 10:
+        errors.append(f"expected 10 daylight masters in the gallery, found {index.count(chr(34)+'file_16x9_day'+chr(34))}")
 
     if errors:
         print("QC FAIL")

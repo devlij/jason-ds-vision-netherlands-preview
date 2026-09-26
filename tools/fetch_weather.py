@@ -30,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-193", "Vuurtoren", "Urk", 52.6611215, 5.5920149, "Europe/Amsterdam"),
-    ("NL-01-194", "Buitencentrum", "Lelystad", 52.4573335, 5.4171408, "Europe/Amsterdam"),
-    ("NL-01-195", "The Wave", "Almere", 52.3668826, 5.2158702, "Europe/Amsterdam"),
-    ("NL-01-196", "Lichtwachterswoning", "Schokland", 52.6560313, 5.7794917, "Europe/Amsterdam"),
-    ("NL-01-197", "Papeloze Kerk", "Schoonoord", 52.8225144, 6.7761768, "Europe/Amsterdam"),
-    ("NL-01-198", "Havezate Mensinge", "Roden", 53.1352526, 6.4356766, "Europe/Amsterdam"),
-    ("NL-01-199", "Veenpark", "Barger-Compascuum", 52.7563806, 7.0268358, "Europe/Amsterdam"),
-    ("NL-01-200", "Peperbus", "Zwolle", 52.5121828, 6.0897359, "Europe/Amsterdam"),
-    ("NL-01-201", "Waag", "Deventer", 52.2515098, 6.1600370, "Europe/Amsterdam"),
-    ("NL-01-202", "Koornmarktspoort", "Kampen", 52.5554269, 5.9215500, "Europe/Amsterdam"),
-    ("NL-01-203", "Aa-kerk", "Groningen", 53.21638889, 6.56222222, "Europe/Amsterdam"),
-    ("NL-01-204", "Jacobuskerk", "Zeerijp", 53.34598889, 6.75678333, "Europe/Amsterdam"),
-    ("NL-01-205", "Plompe Toren", "Burgh-Haamstede", 51.6816, 3.77245, "Europe/Amsterdam"),
-    ("NL-01-206", "Sint-Lievensmonstertoren", "Zierikzee", 51.6502809, 3.9147517, "Europe/Amsterdam"),
-    ("NL-01-207", "Fort de Windt", "Sint Eustatius", 17.465678, -62.9639628, "America/Kralendijk"),
-    ("NL-01-208", "Hell's Gate", "Saba", 17.639036, -63.2290788, "America/Kralendijk"),
+    ("NL-01-209", "De Meerpaal", "Dronten", 52.52363, 5.71976, "Europe/Amsterdam"),
+    ("NL-01-210", "Blocq van Kuffeler", "Almere", 52.41750, 5.22483, "Europe/Amsterdam"),
+    ("NL-01-211", "Kerkje aan de Zee", "Urk", 52.66232, 5.59342, "Europe/Amsterdam"),
+    ("NL-01-212", "Magnuskerk", "Anloo", 53.04310, 6.69794, "Europe/Amsterdam"),
+    ("NL-01-213", "Hunebedden", "Rolde", 52.98955, 6.64918, "Europe/Amsterdam"),
+    ("NL-01-214", "Kerk", "Niehove", 53.29103, 6.36787, "Europe/Amsterdam"),
+    ("NL-01-215", "Sint-Jozefkathedraal", "Groningen", 53.21490, 6.57278, "Europe/Amsterdam"),
+    ("NL-01-216", "Museum de Fundatie", "Zwolle", 52.51024, 6.09150, "Europe/Amsterdam"),
+    ("NL-01-217", "Bovenkerk", "Kampen", 52.55496, 5.92027, "Europe/Amsterdam"),
+    ("NL-01-218", "Stadhuis", "Bolsward", 53.06211, 5.52327, "Europe/Amsterdam"),
+    ("NL-01-219", "Vuurtoren", "Hollum", 53.44922, 5.62571, "Europe/Amsterdam"),
+    ("NL-01-220", "Bonnefantenmuseum", "Maastricht", 50.84248, 5.70134, "Europe/Amsterdam"),
+    ("NL-01-221", "Kasteel Eijsden", "Eijsden", 50.77374, 5.69959, "Europe/Amsterdam"),
+    ("NL-01-222", "Onze Lieve Vrouwetoren", "Amersfoort", 52.15517, 5.38721, "Europe/Amsterdam"),
+    ("NL-01-223", "Koepelkerk", "Willemstad", 51.69194, 4.43792, "Europe/Amsterdam"),
+    ("NL-01-224", "Sint-Ludovicuskerk", "Rincon", 12.23867, -68.32982, "America/Kralendijk"),
 ]
 
 
