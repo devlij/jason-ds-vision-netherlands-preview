@@ -4,12 +4,18 @@
   "region": "North Holland",
   "city": "Den Oever",
   "caption": "Harbour, Den Oever",
-  "scenario_label": "26 September 2026 \u00b7 01:22 Europe/Amsterdam",
-  "composition": "Fishing boats and low halls on the harbour basin \u00b7 AI-generated artistic interpretation",
-  "description": "The harbour at Den Oever is a working basin on the former island of Wieringen, with fishing boats and low halls along the quay. The sky is overcast, about 13.6\u00b0C, with wind near 5.0 km/h. The Stevinsluizen stand further east at the start of the Afsluitdijk and are not in this frame. No boat name is readable.",
+  "scenario_label": "26 September 2026 · 01:22 Europe/Amsterdam",
+  "composition": "Fishing boats and low halls on the harbour basin · AI-generated artistic interpretation",
+  "description": "The harbour at Den Oever is a working basin on the former island of Wieringen, with fishing boats and low halls along the quay. The sky is overcast, about 13.6°C, with wind near 5.0 km/h. The Stevinsluizen stand further east at the start of the Afsluitdijk and are not in this frame. No boat name is readable.",
   "alt_text": "AI-generated artistic interpretation of the fishing harbour at Den Oever on an overcast night",
   "file_16x9": "Netherlands/Den Oever/nl-01-117-16x9.png",
   "file_4x5": "Netherlands/Den Oever/nl-01-117-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Harbour, Den Oever: a working fishing harbour at night — moored trawlers along the quay, warehouse sheds, floodlit yard, calm dark water with light reflections. On-image caption 'Harbour, Den Oever', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:28+02:00 — verified unique to the second across all 288 Netherlands scenes; scenario minute 01:22 inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
+  "approved_at": "2026-09-26T07:38:07.506524+00:00",
+  "sha256_16x9": "3d99c368766e1d13809c3365f21ceb0e6741e1ae395eaed515244334dd3a9334",
+  "sha256_4x5": "f3d86f5f43eb70afa5843999786c4d7012cfcadea052fa0010e5a637457dc3c2"
 }
