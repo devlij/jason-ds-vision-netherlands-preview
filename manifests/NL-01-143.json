@@ -4,12 +4,18 @@
   "region": "Limburg",
   "city": "Maastricht",
   "caption": "Helpoort, Maastricht",
-  "scenario_label": "26 September 2026 \u00b7 01:38 Europe/Amsterdam",
-  "composition": "Coal-sandstone gate with two round towers and a city wall \u00b7 AI-generated artistic interpretation",
-  "description": "Helpoort stands at the south edge of the old city: grey-brown coal sandstone, two semicircular towers with slate conical roofs, and a narrow passage between them. A stretch of city wall runs toward a smaller round tower. The sky is clear, about 14.5\u00b0C, with wind near 11.5 km/h, and a bright moon is up. Vrijthof and Saint Servatius are not in this frame.",
+  "scenario_label": "26 September 2026 · 01:38 Europe/Amsterdam",
+  "composition": "Coal-sandstone gate with two round towers and a city wall · AI-generated artistic interpretation",
+  "description": "Helpoort stands at the south edge of the old city: grey-brown coal sandstone, two semicircular towers with slate conical roofs, and a narrow passage between them. A stretch of city wall runs toward a smaller round tower. The sky is clear, about 14.5°C, with wind near 11.5 km/h, and a bright moon is up. Vrijthof and Saint Servatius are not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the Helpoort gate in Maastricht under a clear night sky",
   "file_16x9": "Netherlands/Maastricht/nl-01-143-16x9.png",
   "file_4x5": "Netherlands/Maastricht/nl-01-143-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: twin-towered medieval stone gate with crenellated curtain wall, floodlit against a full-moon night sky — recognizably the 13th-century Helpoort in Maastricht; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Helpoort, Maastricht' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + curly-apostrophe signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:19+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
+  "approved_at": "2026-09-26T08:40:15.821001+00:00",
+  "sha256_16x9": "3843c7d229662ca3d857188a31b018de6c25ae39123cddfe45ce401650d85714",
+  "sha256_4x5": "821c65dbb4ee919767c14778b0fd81b6f12439996e6abbc54ad5d2e9326e5bb0"
 }
