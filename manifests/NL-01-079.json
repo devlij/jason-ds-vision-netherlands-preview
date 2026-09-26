@@ -4,12 +4,18 @@
   "region": "South Holland",
   "city": "The Hague",
   "caption": "Kurhaus, The Hague",
-  "scenario_label": "26 September 2026 \u00b7 00:19 Europe/Amsterdam",
-  "composition": "Cream seaside hotel and an empty beach, without the pier \u00b7 AI-generated artistic interpretation",
-  "description": "The Kurhaus faces the Scheveningen beach: a cream curved hotel with a central dome, seen from the sand. The beach is almost empty, and the pier is not in this view. The sky is overcast, about 16.5\u00b0C, with wind near 8.6 km/h and no rain. Sunset was 19:32. A few hotel windows are lit. The building name is not written on the facade.",
+  "scenario_label": "26 September 2026 · 00:19 Europe/Amsterdam",
+  "composition": "Cream seaside hotel and an empty beach, without the pier · AI-generated artistic interpretation",
+  "description": "The Kurhaus faces the Scheveningen beach: a cream curved hotel with a central dome, seen from the sand. The beach is almost empty, and the pier is not in this view. The sky is overcast, about 16.5°C, with wind near 8.6 km/h and no rain. Sunset was 19:32. A few hotel windows are lit. The building name is not written on the facade.",
   "alt_text": "AI-generated artistic interpretation of the Kurhaus at Scheveningen in The Hague on an overcast night",
   "file_16x9": "Netherlands/The Hague/nl-01-079-16x9.png",
   "file_4x5": "Netherlands/The Hague/nl-01-079-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 PASS: Kurhaus The Hague — grand seaside hotel with domed rotunda and colonnade, lit windows against the beach at night, plausible Scheveningen viewpoint. G2 PASS: exact dims; on-image caption 'Kurhaus, The Hague', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:46+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos visible; hotel exterior from public beach. G5 PASS: card fields complete.",
+  "approved_at": "2026-09-26T04:38:26.505866+00:00",
+  "sha256_16x9": "556df224e5b8f37033d9daa10896042d57262d89d6e5c1a72b8694df647e4975",
+  "sha256_4x5": "dc8fa45cf359c4cc2c7b8aa35640c067d3caef7e701daf35514643f16f09d3a6"
 }
