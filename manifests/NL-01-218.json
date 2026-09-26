@@ -4,12 +4,18 @@
   "region": "Friesland",
   "city": "Bolsward",
   "caption": "Stadhuis, Bolsward",
-  "scenario_label": "26 September 2026 \u00b7 03:16 Europe/Amsterdam",
-  "composition": "Frisian scroll-gable town hall and the 1768 stair, tower top in place \u00b7 AI-generated artistic interpretation",
-  "description": "The stadhuis at Bolsward is a Frisian mannerist brick building with a scroll gable, a stone double stair, and a small tower whose wooden top is back in place. It is overcast, about 11.5\u00b0C. The offices are closed. No sign is readable, and no scaffold is shown.",
+  "scenario_label": "26 September 2026 · 03:16 Europe/Amsterdam",
+  "composition": "Frisian scroll-gable town hall and the 1768 stair, tower top in place · AI-generated artistic interpretation",
+  "description": "The stadhuis at Bolsward is a Frisian mannerist brick building with a scroll gable, a stone double stair, and a small tower whose wooden top is back in place. It is overcast, about 11.5°C. The offices are closed. No sign is readable, and no scaffold is shown.",
   "alt_text": "AI-generated artistic interpretation of the stadhuis in Bolsward at night, scroll gable and stone stair",
   "file_16x9": "Netherlands/Bolsward/nl-01-218-16x9.png",
   "file_4x5": "Netherlands/Bolsward/nl-01-218-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: the Stadhuis reads as Bolsward's Renaissance city hall — the richly ornamented strapwork gable, the double curved entrance staircase, floodlit brick and sandstone front; clean night framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image caption 'Stadhuis, Bolsward', scenario '26 September 2026 · 03:16 Europe/Amsterdam', 'Jason D's Vision' signature and AI disclosure legible on the gradient scrim; Art. 50 PNG metadata present; per-scene Open-Meteo retrieval 2026-09-26T03:16:25+02:00 verified unique to the second across all 288 Netherlands weather files, scenario minute inside model-valid hour 03:00-03:59 (model time 03:15, is_day 0, cloud 100% matching the overcast frame). Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people or focal logos; public civic building, documented only. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T13:45:18.866737+00:00",
+  "sha256_16x9": "bb958a63894d769ff03199bad3ae47ea00158f436fa81380e4b79b9e512596d5",
+  "sha256_4x5": "9e8bd68888793b157fc684e5e09151da5a58c95b12c66356cec22bca710efda7"
 }
