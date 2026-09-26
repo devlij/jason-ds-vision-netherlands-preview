@@ -4,12 +4,18 @@
   "region": "South Holland",
   "city": "The Hague",
   "caption": "Kunstmuseum, The Hague",
-  "scenario_label": "26 September 2026 \u00b7 01:37 Europe/Amsterdam",
-  "composition": "Yellow-brick museum beyond two ponds and a glass walkway \u00b7 AI-generated artistic interpretation",
-  "description": "The Kunstmuseum, Berlage's yellow-brick museum on Stadhouderslaan, sits beyond two long reflecting ponds and a glass-covered walk. The wings are low and horizontal. The sky is overcast, about 14.7\u00b0C, with wind near 7.6 km/h. The museum is closed. This building was called the Gemeentemuseum until 2019.",
+  "scenario_label": "26 September 2026 · 01:37 Europe/Amsterdam",
+  "composition": "Yellow-brick museum beyond two ponds and a glass walkway · AI-generated artistic interpretation",
+  "description": "The Kunstmuseum, Berlage's yellow-brick museum on Stadhouderslaan, sits beyond two long reflecting ponds and a glass-covered walk. The wings are low and horizontal. The sky is overcast, about 14.7°C, with wind near 7.6 km/h. The museum is closed. This building was called the Gemeentemuseum until 2019.",
   "alt_text": "AI-generated artistic interpretation of the Kunstmuseum in The Hague from the pond walk on an overcast night",
   "file_16x9": "Netherlands/The Hague/nl-01-135-16x9.png",
   "file_4x5": "Netherlands/The Hague/nl-01-135-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: yellow-brick Berlage building flanked by symmetrical reflecting pools with a gravel approach, lamps lit under an overcast night sky — recognizably the Kunstmuseum Den Haag; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Kunstmuseum, The Hague' + scenario '26 September 2026 · 01:37 Europe/Amsterdam' + disclosure + curly-apostrophe signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:37:57+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
+  "approved_at": "2026-09-26T08:38:22.392419+00:00",
+  "sha256_16x9": "eb1ad131f521189b5e665fcb68a0f7ad24a666bec2d683bec00b0b297df7c581",
+  "sha256_4x5": "67ab0c37cf6fe0848b6d9628ebfcc0f4a3fb788b86f8e4cc184358c0c157d11d"
 }
