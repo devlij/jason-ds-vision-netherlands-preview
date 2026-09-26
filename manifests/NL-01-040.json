@@ -4,12 +4,18 @@
   "region": "Zeeland",
   "city": "Middelburg",
   "caption": "Middelburg Abbey, Middelburg",
-  "scenario_label": "25 September 2026 \u00b7 23:41 Europe/Amsterdam",
-  "composition": "Abdijplein at night, octagonal Lange Jan and the abbey roofs \u00b7 AI-generated artistic interpretation",
-  "description": "On Abdijplein the octagonal stone tower Lange Jan rises from the abbey, with a tall spire above the church roofs and the quiet square below. The sky is fully overcast, cloud cover 100%, the mildest of this batch at about 18.4\u00b0C, wind near 11.5 km/h, and no rain. Sunset was 19:37.",
+  "scenario_label": "25 September 2026 · 23:41 Europe/Amsterdam",
+  "composition": "Abdijplein at night, octagonal Lange Jan and the abbey roofs · AI-generated artistic interpretation",
+  "description": "On Abdijplein the octagonal stone tower Lange Jan rises from the abbey, with a tall spire above the church roofs and the quiet square below. The sky is fully overcast, cloud cover 100%, the mildest of this batch at about 18.4°C, wind near 11.5 km/h, and no rain. Sunset was 19:37.",
   "alt_text": "AI-generated artistic interpretation of Middelburg Abbey and the Lange Jan tower on an overcast night",
   "file_16x9": "Netherlands/Middelburg/nl-01-040-16x9.png",
   "file_4x5": "Netherlands/Middelburg/nl-01-040-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: I read the master — the Middelburg Abbey complex at night, the tall Lange Jan tower with spire rising among the lit historic courtyard buildings under a heavy overcast sky, plausible public-courtyard viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Middelburg Abbey, Middelburg' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:35+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T01:40:08.298405+00:00",
+  "sha256_16x9": "e9d5135e25c4aef42be456415d3998a19861868acbd22aad9b81dce2b379e12e",
+  "sha256_4x5": "85d070caef9e014d028e1ac5efed960e4c31583485b591b69dce650f6689bcbb"
 }
