@@ -30,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-225", "Waterloopbos", "Marknesse", 52.67619, 5.91683, "Europe/Amsterdam"),
-    ("NL-01-226", "Marker Wadden", "Lelystad", 52.58940, 5.37640, "Europe/Amsterdam"),
-    ("NL-01-227", "De Wachter", "Zuidlaren", 53.09917, 6.69556, "Europe/Amsterdam"),
-    ("NL-01-228", "Tweede Gesticht", "Veenhuizen", 53.03180, 6.39620, "Europe/Amsterdam"),
-    ("NL-01-229", "Harbour", "Noordpolderzijl", 53.43222, 6.58306, "Europe/Amsterdam"),
-    ("NL-01-230", "Borg Verhildersum", "Leens", 53.35970, 6.37580, "Europe/Amsterdam"),
-    ("NL-01-231", "Campveerse Toren", "Veere", 51.54905, 3.66780, "Europe/Amsterdam"),
-    ("NL-01-232", "Belfort", "Sluis", 51.30830, 3.38650, "Europe/Amsterdam"),
-    ("NL-01-233", "Spanjaardsgat", "Breda", 51.59020, 4.77580, "Europe/Amsterdam"),
-    ("NL-01-234", "Kasteel Heeswijk", "Heeswijk-Dinther", 51.65583, 5.44056, "Europe/Amsterdam"),
-    ("NL-01-235", "Heksenwaag", "Oudewater", 52.02460, 4.86720, "Europe/Amsterdam"),
-    ("NL-01-236", "Bergkerk", "Deventer", 52.25150, 6.16350, "Europe/Amsterdam"),
-    ("NL-01-237", "The Ladder", "Saba", 17.62680, -63.25480, "America/Kralendijk"),
-    ("NL-01-238", "Fort Amsterdam", "Sint Eustatius", 17.48000, -62.99000, "America/Kralendijk"),
-    ("NL-01-239", "Sluis", "Makkum", 53.05430, 5.40280, "Europe/Amsterdam"),
-    ("NL-01-240", "Onze-Lieve-Vrouwebasiliek", "Maastricht", 50.84770, 5.69320, "Europe/Amsterdam"),
+    ("NL-01-241", "Gemeenteweg", "Staphorst", 52.64500, 6.21111, "Europe/Amsterdam"),
+    ("NL-01-242", "Kasteel Rechteren", "Dalfsen", 52.49500, 6.29028, "Europe/Amsterdam"),
+    ("NL-01-243", "Sint-Clemenskerk", "Steenwijk", 52.78750, 6.12083, "Europe/Amsterdam"),
+    ("NL-01-244", "Slot Zuylen", "Oud-Zuilen", 52.12710, 5.07320, "Europe/Amsterdam"),
+    ("NL-01-245", "Kasteel Loenersloot", "Loenersloot", 52.22917, 5.00139, "Europe/Amsterdam"),
+    ("NL-01-246", "Fort Honswijk", "Schalkwijk", 51.97440, 5.14500, "Europe/Amsterdam"),
+    ("NL-01-247", "Oostvaardersplassen", "Lelystad", 52.45300, 5.39200, "Europe/Amsterdam"),
+    ("NL-01-248", "Haven", "Zeewolde", 52.33200, 5.52500, "Europe/Amsterdam"),
+    ("NL-01-249", "Kapel", "Bronkhorst", 52.07583, 6.17917, "Europe/Amsterdam"),
+    ("NL-01-250", "Kasteel Ammersoyen", "Ammerzoden", 51.74917, 5.22083, "Europe/Amsterdam"),
+    ("NL-01-251", "Sint-Nicolaaskerk", "Dwingeloo", 52.83417, 6.36944, "Europe/Amsterdam"),
+    ("NL-01-252", "Boog van Ziel", "Termunterzijl", 53.30083, 7.03611, "Europe/Amsterdam"),
+    ("NL-01-253", "Schierstins", "Feanwâlden", 53.23944, 5.99056, "Europe/Amsterdam"),
+    ("NL-01-254", "Watersnoodmuseum", "Ouwerkerk", 51.62050, 3.98450, "Europe/Amsterdam"),
+    ("NL-01-255", "Kasteel Arcen", "Arcen", 51.47667, 6.18056, "Europe/Amsterdam"),
+    ("NL-01-256", "Sint-Petrusbasiliek", "Oirschot", 51.50500, 5.31389, "Europe/Amsterdam"),
 ]
 
 

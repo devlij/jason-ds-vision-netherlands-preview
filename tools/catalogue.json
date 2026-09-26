@@ -4703,7 +4703,6 @@
     ],
     "solar": "Full night under a clear sky. Model sunrise 06:22 and sunset 18:27 America/Kralendijk, model is_day 0. At 21:16 house lamps and a light on the tower are on. Cloud cover is about 12%. The wind is about 22.5 km/h."
   },
-
   {
     "entry_id": "NL-01-225",
     "region": "Flevoland",
@@ -5039,5 +5038,341 @@
       "Two round stair turrets flank the block; there are no Gothic spires"
     ],
     "solar": "Full night under a clear sky. Model sunrise 07:29 and sunset 19:26 Europe/Amsterdam, model is_day 0. At 03:38 lamps on the square light the stone. Cloud cover is about 0%. The wind is about 9.4 km/h."
+  },
+  {
+    "entry_id": "NL-01-241",
+    "region": "Overijssel",
+    "city": "Staphorst",
+    "folder": "Staphorst",
+    "caption": "Gemeenteweg, Staphorst",
+    "composition": "Ribbon of thatched hall-farms along the village road at night · AI-generated artistic interpretation",
+    "description": "The Gemeenteweg at Staphorst is a long row of hall-farms. Each short gable faces the road: whitewashed brick, a thatched wolf roof, green shutters, and a blue plinth, with a weatherboard barn behind. The museum farm is closed. It is overcast, about 10.0°C, with wind near 4.0 km/h and cloud cover about 93%. No one in regional dress is shown. Late September, no snow. Giethoorn is another village and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the painted thatched farms along the Gemeenteweg in Staphorst at night",
+    "viewpoint": "From the public road along the Gemeenteweg, looking along the row of farm gables. The road is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Staphorst",
+      "https://www.monumenten.nl/monument/34196"
+    ],
+    "anchors": [
+      "Farm gables face the road in a repeating row",
+      "Thatched wolf roofs sit over white brick and green shutters",
+      "The barn ends are dark weatherboard, not a canal"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:27 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 03:59 a few street lamps light the gables. Cloud cover is about 93%. The wind is about 4.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-242",
+    "region": "Overijssel",
+    "city": "Dalfsen",
+    "folder": "Dalfsen",
+    "caption": "Kasteel Rechteren, Dalfsen",
+    "composition": "Moated brick castle with a round tower and mansard entrance wings · AI-generated artistic interpretation",
+    "description": "Kasteel Rechteren stands in a moat east of Dalfsen. A round brick tower carries an octagonal pear-shaped slate spire beside 1726 entrance wings under mansard roofs. The castle is not open. It is partly cloudy, about 8.8°C, with wind near 4.0 km/h and cloud cover about 62%. The 1890s neo-Gothic work was removed and is not shown. No coat of arms is readable.",
+    "alt_text": "AI-generated artistic interpretation of Kasteel Rechteren near Dalfsen at night",
+    "viewpoint": "From the public side of the moat on the approach to the entrance front. The bridge approach is the viewpoint. A surveyed tripod mark was not pinned. The estate is not an interior tour.",
+    "references": [
+      "https://www.stichtingvrd.nl/kasteel/",
+      "https://rijksmonumenten.nl/monument/510171/rechteren-kasteel/dalfsen/"
+    ],
+    "anchors": [
+      "Dark moat water fills the foreground",
+      "A round tower with a pear-shaped slate spire stands by the entrance",
+      "Two mansard wings form the 1726 front"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunrise 07:27 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 03:59 a few lamps light the brick. Cloud cover is about 62%. The wind is about 4.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-243",
+    "region": "Overijssel",
+    "city": "Steenwijk",
+    "folder": "Steenwijk",
+    "caption": "Sint-Clemenskerk, Steenwijk",
+    "composition": "Tall Gothic brick tower and hall church on the square · AI-generated artistic interpretation",
+    "description": "The Sint-Clemenskerk shows its tall brick tower and the present high spire, the 1913-1915 replica, beside the late Gothic hall. The church is closed. It is overcast, about 11.0°C, with wind near 6.1 km/h and cloud cover about 99%. The clock faces are not readable.",
+    "alt_text": "AI-generated artistic interpretation of the Sint-Clemenskerk tower in Steenwijk at night",
+    "viewpoint": "From the church square, looking at the west tower and the hall beside it. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Grote_of_Sint-Clemenskerk",
+      "https://www.openmonumentendag.nl/monument/steenwijker-toren/"
+    ],
+    "anchors": [
+      "A paved square fills the foreground",
+      "A tall brick tower rises with a complete high spire",
+      "The hall church sits lower beside the tower"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:28 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 03:59 lamps on the square light the brick. Cloud cover is about 99%. The wind is about 6.1 km/h."
+  },
+  {
+    "entry_id": "NL-01-244",
+    "region": "Utrecht",
+    "city": "Oud-Zuilen",
+    "folder": "Oud-Zuilen",
+    "caption": "Slot Zuylen, Oud-Zuilen",
+    "composition": "U-shaped brick manor and gatehouse across the moat · AI-generated artistic interpretation",
+    "description": "Slot Zuylen is a U-shaped brick house with a slate roof and octagonal corner turrets, seen across the moat, with a small gatehouse in the water. The museum is closed. It is overcast, about 14.3°C, with wind near 8.3 km/h and cloud cover about 100%. The date on the front is not readable. The Dom Tower is another building and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of Slot Zuylen at Oud-Zuilen at night",
+    "viewpoint": "From the public approach on Tournooiveld, looking across the moat at the entrance front. The lane is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://slotzuylen.nl/kasteel/",
+      "https://rijksmonumenten.nl/monument/519611/slot-zuylen-hoofdgebouw/oud-zuilen/"
+    ],
+    "anchors": [
+      "A moat fills the foreground",
+      "The brick house is U-shaped, with octagonal corner turrets",
+      "A small gatehouse stands in the water"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:32 and sunset 19:28 Europe/Amsterdam, model is_day 0. At 03:59 a few lamps light the brick. Cloud cover is about 100%. The wind is about 8.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-245",
+    "region": "Utrecht",
+    "city": "Loenersloot",
+    "folder": "Loenersloot",
+    "caption": "Kasteel Loenersloot, Loenersloot",
+    "composition": "Round brick donjon over lower wings across the moat · AI-generated artistic interpretation",
+    "description": "Kasteel Loenersloot shows its round brick donjon, with crenellations, rising over lower brick wings. The walls are brick. A fixed bridge crosses the moat. The interior is closed. It is overcast, about 9.8°C, with wind near 4.3 km/h and cloud cover about 100%. Nijenrode is another castle and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of Kasteel Loenersloot at night",
+    "viewpoint": "From the Rijksstraatweg side, looking across the moat at the donjon. The public bank is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Kasteel_Loenersloot",
+      "https://www.utrechtslandschap.nl/binnen-in-het-kasteel"
+    ],
+    "anchors": [
+      "A wide moat fills the foreground",
+      "A round brick donjon with crenellations rises above the wings",
+      "The bridge is fixed, not a working drawbridge"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:32 and sunset 19:29 Europe/Amsterdam, model is_day 0. At 03:59 a few lamps light the brick. Cloud cover is about 100%. The wind is about 4.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-246",
+    "region": "Utrecht",
+    "city": "Schalkwijk",
+    "folder": "Schalkwijk",
+    "caption": "Fort Honswijk, Schalkwijk",
+    "composition": "Round brick tower fort in a wet moat at night · AI-generated artistic interpretation",
+    "description": "Fort Honswijk is a round brick tower fort of the New Dutch Waterline, with a flat bomb-proof roof, standing in a wet moat and low earth ramparts. It is not a church. The interior is closed. It is overcast, about 10.2°C, with wind near 8.3 km/h and cloud cover about 86%. The Pyramide van Austerlitz is a different monument and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of Fort Honswijk at night",
+    "viewpoint": "From the dike road, looking across the wet moat at the round tower. The dike is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Fort_Honswijk",
+      "https://whc.unesco.org/en/list/759/"
+    ],
+    "anchors": [
+      "A wet moat and grassed ramparts surround the fort",
+      "The tower is a squat brick cylinder",
+      "The roof is flat; there is no church spire"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:31 and sunset 19:28 Europe/Amsterdam, model is_day 0. At 03:59 a few lamps light the brick. Cloud cover is about 86%. The wind is about 8.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-247",
+    "region": "Flevoland",
+    "city": "Lelystad",
+    "folder": "Lelystad",
+    "caption": "Oostvaardersplassen, Lelystad",
+    "composition": "Reed marsh and shallow water from the dike at night · AI-generated artistic interpretation",
+    "description": "The Oostvaardersplassen are seen from the public dike: reeds and shallow dark water under a flat horizon. No visitor building is the subject. It is overcast, about 10.5°C, with wind near 5.0 km/h and cloud cover about 98%. No animal count is claimed. The Buitencentrum is another scene and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Oostvaardersplassen wetland near Lelystad at night",
+    "viewpoint": "From the public dike path looking over the reed marsh, away from the visitor barn. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Oostvaardersplassen",
+      "https://www.staatsbosbeheer.nl/natuurgebieden/oostvaardersplassen"
+    ],
+    "anchors": [
+      "Reeds fill the foreground",
+      "Shallow dark water stretches to a flat horizon",
+      "No barn and no signboard are in the frame"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:30 and sunset 19:27 Europe/Amsterdam, model is_day 0. At 03:59 the marsh is dark under thick cloud. Cloud cover is about 98%. The wind is about 5.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-248",
+    "region": "Flevoland",
+    "city": "Zeewolde",
+    "folder": "Zeewolde",
+    "caption": "Haven, Zeewolde",
+    "composition": "Modern harbour on the Wolderwijd at night · AI-generated artistic interpretation",
+    "description": "The harbour at Zeewolde is a modern quay on the Wolderwijd, with low houses and moored boats. No historic church and no windmill were added. It is overcast, about 14.1°C, with wind near 4.3 km/h and cloud cover about 99%. No boat name is readable.",
+    "alt_text": "AI-generated artistic interpretation of the harbour at Zeewolde at night",
+    "viewpoint": "From the public quay, looking across the basin toward the low houses. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Zeewolde",
+      "https://www.zeewolde.nl/"
+    ],
+    "anchors": [
+      "Dark lake water fills the foreground",
+      "Low modern houses line the quay",
+      "Boats are moored without readable names"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:30 and sunset 19:27 Europe/Amsterdam, model is_day 0. At 03:59 quay lamps reflect in the water. Cloud cover is about 99%. The wind is about 4.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-249",
+    "region": "Gelderland",
+    "city": "Bronkhorst",
+    "folder": "Bronkhorst",
+    "caption": "Kapel, Bronkhorst",
+    "composition": "Cobbled street and small brick chapel, wooded motte behind · AI-generated artistic interpretation",
+    "description": "Bronkhorst shows a narrow cobbled street of small brick houses and a modest brick chapel with a low tower. The castle is gone. The motte is only a wooded mound. The chapel is closed. It is partly cloudy, about 6.4°C, with wind near 8.3 km/h and cloud cover about 73%. No cafe name is shown.",
+    "alt_text": "AI-generated artistic interpretation of the chapel and cobbled street in Bronkhorst at night",
+    "viewpoint": "From the cobbled street, looking toward the chapel, with the wooded motte behind the roofs. The street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://kapelbronkhorst.nl/gebouw/",
+      "https://www.achterhoekpromotie.nl/ontdek/bronkhorst"
+    ],
+    "anchors": [
+      "A cobbled street runs between small brick houses",
+      "A low chapel tower closes the view",
+      "A wooded mound has no castle on it"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunrise 07:27 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 03:59 a few lamps light the street. Cloud cover is about 73%. The wind is about 8.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-250",
+    "region": "Gelderland",
+    "city": "Ammerzoden",
+    "folder": "Ammerzoden",
+    "caption": "Kasteel Ammersoyen, Ammerzoden",
+    "composition": "Square water castle with four round corner towers · AI-generated artistic interpretation",
+    "description": "Kasteel Ammersoyen is a square brick water castle with four round corner towers and a gatehouse, seen across the moat. The museum is closed. It is mainly clear, about 10.8°C, with wind near 10.8 km/h and cloud cover about 37%. No banner text is shown. Slot Loevestein is another castle and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of Kasteel Ammersoyen at Ammerzoden at night",
+    "viewpoint": "From the public approach across the moat, looking at the gatehouse and the round corner towers. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Ammersoyen_Castle",
+      "https://www.glk.nl/seven-castles-and-houses/ammersoyen-castle"
+    ],
+    "anchors": [
+      "A moat fills the foreground",
+      "Four round brick towers mark the corners",
+      "A gatehouse faces the approach"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunrise 07:31 and sunset 19:28 Europe/Amsterdam, model is_day 0. At 03:59 a few lamps light the brick. Cloud cover is about 37%. The wind is about 10.8 km/h."
+  },
+  {
+    "entry_id": "NL-01-251",
+    "region": "Drenthe",
+    "city": "Dwingeloo",
+    "folder": "Dwingeloo",
+    "caption": "Sint-Nicolaaskerk, Dwingeloo",
+    "composition": "Brick village church with an onion spire on the brink · AI-generated artistic interpretation",
+    "description": "The Sint-Nicolaaskerk stands on the brink at Dwingeloo. The brick tower carries the onion spire called the Siepel, not a needle, beside a single-aisle Gothic nave. The church is closed. It is overcast, about 8.6°C, with wind near 4.0 km/h and cloud cover about 100%. The heath and the telescope are other scenes and are not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Sint-Nicolaaskerk in Dwingeloo at night",
+    "viewpoint": "From the brink, looking at the west tower and onion spire. The green is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sint-Nicolaaskerk_(Dwingeloo)",
+      "https://www.sintnicolaaskerk.nl/over-de-kerk/"
+    ],
+    "anchors": [
+      "The village green fills the foreground",
+      "A brick tower rises with an onion spire",
+      "The nave is a lower Gothic brick hall"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:27 and sunset 19:23 Europe/Amsterdam, model is_day 0. At 03:59 lamps on the brink light the brick. Cloud cover is about 100%. The wind is about 4.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-252",
+    "region": "Groningen",
+    "city": "Termunterzijl",
+    "folder": "Termunterzijl",
+    "caption": "Boog van Ziel, Termunterzijl",
+    "composition": "Brick sea lock and stone parapet on the harbour channel · AI-generated artistic interpretation",
+    "description": "The Boog van Ziel is the 1725 brick lock at Termunterzijl, with a stone parapet over the channel to the Dollard. The coats of arms are not readable. It is overcast, about 10.3°C, with wind near 8.3 km/h and cloud cover about 100%. It is not a lighthouse. The exact tide was not retrieved, so the water level is not stated. No boat name is shown.",
+    "alt_text": "AI-generated artistic interpretation of the Boog van Ziel lock at Termunterzijl at night",
+    "viewpoint": "From the public side of the lock, looking along the brick chamber and the parapet. The lock side is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.visitgroningen.nl/nl/plekken/eemsdelta/erfgoed-en-cultuur-eemsdelta/waterwerken-eemsdelta",
+      "https://www.dbnl.org/tekst/sten009monu04_01/sten009monu04_01_0120.php"
+    ],
+    "anchors": [
+      "Brick lock walls hold dark channel water",
+      "A stone parapet crosses the lock",
+      "No lighthouse and no red pumping house are in the frame"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:24 and sunset 19:21 Europe/Amsterdam, model is_day 0. At 03:59 a few lamps light the brick. Cloud cover is about 100%. The wind is about 8.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-253",
+    "region": "Friesland",
+    "city": "Feanwâlden",
+    "folder": "Feanwalden",
+    "caption": "Schierstins, Feanwâlden",
+    "composition": "Square medieval brick stins with a lower neck-gable wing · AI-generated artistic interpretation",
+    "description": "The Schierstins is a square medieval brick tower house at Feanwâlden, with large arches at the base and a lower wing under a neck gable. It is not a round castle. The cultural centre is closed. It is overcast, about 10.8°C, with wind near 4.0 km/h and cloud cover about 100%. No poster text is shown.",
+    "alt_text": "AI-generated artistic interpretation of the Schierstins in Feanwâlden at night",
+    "viewpoint": "From the street at Haadstrjitte, looking at the tower and the lower wing. The street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Skierstins",
+      "https://www.schierstins.nl/"
+    ],
+    "anchors": [
+      "A square brick tower stands on the street",
+      "Large arches mark the base of the tower",
+      "A lower wing with a neck gable is attached"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:28 and sunset 19:25 Europe/Amsterdam, model is_day 0. At 03:59 street lamps light the brick. Cloud cover is about 100%. The wind is about 4.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-254",
+    "region": "Zeeland",
+    "city": "Ouwerkerk",
+    "folder": "Ouwerkerk",
+    "caption": "Watersnoodmuseum, Ouwerkerk",
+    "composition": "Four concrete caissons in the dike at night · AI-generated artistic interpretation",
+    "description": "The Watersnoodmuseum occupies four concrete Phoenix caissons set in the dike at Ouwerkerk, linked by a glass passage. The museum is closed. It is overcast, about 15.4°C, with wind near 10.8 km/h and cloud cover about 98%. No banner text is shown. The Oosterscheldekering is another work and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the caissons of the Watersnoodmuseum at Ouwerkerk at night",
+    "viewpoint": "From the public path on the dike, looking at the row of caissons. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Watersnoodmuseum",
+      "https://watersnoodmuseum.nl/het-museum"
+    ],
+    "anchors": [
+      "Four large concrete boxes sit in the dike",
+      "A glass link joins the caissons",
+      "Dark creek water lies beside the grass"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:36 and sunset 19:33 Europe/Amsterdam, model is_day 0. At 03:59 a few lamps light the concrete. Cloud cover is about 98%. The wind is about 10.8 km/h."
+  },
+  {
+    "entry_id": "NL-01-255",
+    "region": "Limburg",
+    "city": "Arcen",
+    "folder": "Arcen",
+    "caption": "Kasteel Arcen, Arcen",
+    "composition": "L-shaped brick manor and octagonal gatehouse spire across the moat · AI-generated artistic interpretation",
+    "description": "Kasteel Arcen is an L-shaped brick manor with slate hipped roofs, seen with the 1653 gatehouse and its octagonal slate spire across the moat. It is not a four-tower castle. The gardens are closed and are not a flower display. It is clear, about 10.2°C, with wind near 7.6 km/h and cloud cover about 0%. No coat of arms is readable.",
+    "alt_text": "AI-generated artistic interpretation of Kasteel Arcen at night",
+    "viewpoint": "From the public bridge toward the gatehouse, with the manor on the island beyond. The bridge is the viewpoint. A surveyed tripod mark was not pinned. The paid gardens are not the frame.",
+    "references": [
+      "https://rijksmonumenten.nl/monument/521467/kasteel-arcen-hoofdgebouw/arcen/",
+      "https://rijksmonumenten.nl/monument/521470/kasteel-arcen-poortgebouw/arcen/"
+    ],
+    "anchors": [
+      "An outer moat fills the foreground",
+      "A brick gatehouse has an octagonal slate spire",
+      "The manor is L-shaped, without four round towers"
+    ],
+    "solar": "Full night under a clear sky. Model sunrise 07:27 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 03:59 a few lamps light the brick. Cloud cover is about 0%. The wind is about 7.6 km/h."
+  },
+  {
+    "entry_id": "NL-01-256",
+    "region": "North Brabant",
+    "city": "Oirschot",
+    "folder": "Oirschot",
+    "caption": "Sint-Petrusbasiliek, Oirschot",
+    "composition": "Gothic brick basilica and west tower from the market · AI-generated artistic interpretation",
+    "description": "The Sint-Petrusbasiliek at Oirschot shows a tall brick west tower and a slender spire above the Gothic nave, from the market. The church is closed. It is overcast, about 11.0°C, with wind near 9.0 km/h and cloud cover about 87%. No shop name is readable. St John's Cathedral is another church and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Sint-Petrusbasiliek in Oirschot at night",
+    "viewpoint": "From the market square, looking at the west tower. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sint-Petrusbasiliek_(Oirschot)",
+      "https://nl.wikipedia.org/wiki/Oirschot"
+    ],
+    "anchors": [
+      "Market paving fills the foreground",
+      "A tall square brick tower rises with a slender spire",
+      "The Gothic nave sits lower beside the tower"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:31 and sunset 19:28 Europe/Amsterdam, model is_day 0. At 03:59 lamps on the market light the brick. Cloud cover is about 87%. The wind is about 9.0 km/h."
   }
 ]

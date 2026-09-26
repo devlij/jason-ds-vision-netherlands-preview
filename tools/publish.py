@@ -224,9 +224,8 @@ PAGE = r"""<!DOCTYPE html>
       overflow: hidden; display: flex; flex-direction: column;
     }
     .preview { position: relative; }
-    .fmt-tabs {
-      position: absolute; top: 1.05rem; left: 1.05rem; display: flex; gap: 6px; z-index: 2;
-    }
+    .fmt-tabs { display: flex; gap: 6px; padding: 0.75rem 1.05rem 0; line-height: 1.4; }
+    .day-row { padding: 0.5rem 1.05rem 0; }
     .fmt-tab {
       background: rgba(20, 32, 47, 0.85); color: var(--text); border: 1px solid var(--line);
       border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
@@ -235,19 +234,14 @@ PAGE = r"""<!DOCTYPE html>
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
     }
-    .actions button.day-tab {
+    .day-row button.day-tab {
       display: inline-block; background: #243049; color: var(--text);
       border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
       cursor: pointer;
     }
-    .actions button.day-tab:hover { border-color: var(--accent); }
-    .actions button.day-tab.is-active {
+    .day-row button.day-tab:hover { border-color: var(--accent); }
+    .day-row button.day-tab.is-active {
       background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
-    }
-    .view-affordance {
-      position: absolute; top: 1.05rem; right: 1.05rem; z-index: 2;
-      padding: 5px 10px; border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 999px;
-      background: rgba(20, 32, 47, 0.72); color: var(--text); font-size: 11px; pointer-events: none;
     }
     .thumb {
       display: block; padding: 0.65rem 0.65rem 0; background: #101820; line-height: 0;
@@ -418,16 +412,16 @@ PAGE = r"""<!DOCTYPE html>
         const file916 = s.file_9x16 ? 'library/world/' + s.file_9x16 : null;
         card.innerHTML = `
           <div class="preview">
-            <div class="fmt-tabs" role="group" aria-label="Image size">
+            <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
+              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}"${s.file_16x9_day ? ` data-src-16-day="${esc('library/world/' + s.file_16x9_day)}" data-src-45-day="${esc('library/world/' + s.file_4x5_day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${s.file_9x16_day ? ` data-src-916-day="${esc('library/world/' + s.file_9x16_day)}"` : ""} />
+            </a>
+          </div>
+          <div class="fmt-tabs" role="group" aria-label="Image size">
               <button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>
               <button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>
               ${file916 ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
             </div>
-            <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
-              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}"${s.file_16x9_day ? ` data-src-16-day="${esc('library/world/' + s.file_16x9_day)}" data-src-45-day="${esc('library/world/' + s.file_4x5_day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${s.file_9x16_day ? ` data-src-916-day="${esc('library/world/' + s.file_9x16_day)}"` : ""} />
-              <span class="view-affordance">View image</span>
-            </a>
-          </div>
+          ${s.file_16x9_day ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
@@ -442,7 +436,7 @@ PAGE = r"""<!DOCTYPE html>
               <a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
               <a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>
               ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
-              ${s.file_16x9_day ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button>` : ""}
+              
             </div>
           </div>`;
         grid.appendChild(card);
@@ -588,7 +582,7 @@ def main() -> None:
     lines = [
         "# Netherlands sequence log",
         "",
-        "NL-01-001 through NL-01-240. IDs are not reused.",
+        "NL-01-001 through NL-01-256. IDs are not reused.",
         "NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.",
         "NL-01-033 through NL-01-048 swaps:",
         "- NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.",
@@ -764,6 +758,24 @@ def main() -> None:
         "- NL-01-238: uses America/Kralendijk. Fort Oranje remains NL-01-065, Lower Town remains NL-01-190, The Quill remains NL-01-145, and Batterij De Windt remains NL-01-207. This is the Waterfort, also called Fort Amsterdam, on the southwest shore of Oranjebaai. Only low ruins remain. Lost sections are not rebuilt. It is not a high cliff battery. Night water is dark. No hotel name is shown.",
         "- NL-01-239: a bridge crosses the brick lock. The older wooden drawbridge and the 1910 iron span were replaced, so neither is shown as the present bridge. No hotel name is readable.",
         "- NL-01-240: Vrijthof, Saint Servatius, Helpoort, the Sint Servaasbrug, and the Bonnefantenmuseum are other Maastricht scenes. This is the Romanesque westwork on Onze Lieve Vrouweplein, a heavy stone block with two round stair turrets, not Gothic spires. The church is closed. No banner text is shown.",
+        "- The other suggested sites in this batch were not already used.",
+        "NL-01-241 through NL-01-256 swaps:",
+        "- NL-01-241: Giethoorn remains NL-01-006. This is the Gemeenteweg ribbon of Staphorst hall-farms. The ridge runs perpendicular to the road, so the short gable faces the street. The living end is whitewashed brick under a thatched wolf roof; the barn end is weatherboard. Green shutters and a blue plinth are the local paint. The museum farm is closed. No one in regional dress is shown. Late September, no snow.",
+        "- NL-01-242: the castle is not open to visitors. This is the brick house across the moat: a round tower with an octagonal pear-shaped slate spire, and the 1726 entrance wings under mansard roofs. The 1890s neo-Gothic additions were removed in the 1953-1957 restoration and are not shown. No coat of arms is readable.",
+        "- NL-01-243: this is the Sint-Clemenskerk. The tower was begun in 1467. The spire blew down in 1558. The present spire is the 1913-1915 replica, so the tower is shown complete. The church is closed. Clock faces are not readable.",
+        "- NL-01-244: the Dom Tower remains NL-01-010 and Kasteel de Haar remains NL-01-078. This is Slot Zuylen from the public approach across the moat. The house is U-shaped brick with octagonal corner turrets. A 16th-century gatehouse stands in the moat. The museum is closed. The date on the front is not readable.",
+        "- NL-01-245: Nijenrode remains NL-01-123. This is Loenersloot. The round brick donjon keeps the 19th-century crenellations. The 18th-century plaster was removed, so the walls are brick. The fortified gatehouse was demolished in 1767, so the bridge is fixed, not a working drawbridge. The interior is closed.",
+        "- NL-01-246: the Pyramide van Austerlitz has been closed for maintenance since March 2026, and the exact works were not pinned, so that monument was not used and no scaffold was invented. This is Fort Honswijk, a round brick tower fort of the New Dutch Waterline, with a flat bomb-proof roof, not a church spire. The viewpoint is the dike across the wet moat. The interior is closed.",
+        "- NL-01-247: the Buitencentrum barn remains NL-01-194 and the Blocq van Kuffeler pumping station remains NL-01-210. This is the wetland itself from the public dike: reeds and shallow water. No visitor building is the subject. No animal count is claimed.",
+        "- NL-01-248: Almere, Lelystad, Urk, and Dronten are other Flevoland scenes. Zeewolde had none. This is the modern harbour on the Wolderwijd. No historic church and no windmill were added. No boat name is readable.",
+        "- NL-01-249: the castle of the lords of Bronkhorst is gone. The motte is a wooded mound, and no castle was rebuilt on it. This is the cobbled street and the small brick chapel. The chapel is closed at this hour. No cafe name is shown.",
+        "- NL-01-250: Slot Loevestein remains NL-01-085. This is Ammersoyen, a square brick water castle with four round corner towers. The museum is closed. The viewpoint is the public approach across the moat. No banner text is shown.",
+        "- NL-01-251: Dwingelderveld remains NL-01-063 and the telescope remains NL-01-150. This is the village church on the brink. The spire is the onion called the Siepel, rebuilt after the 1923 fire, not a needle. The church is closed. A later side annex, if present, is not the subject and is not drawn as a second tower.",
+        "- NL-01-252: Noordpolderzijl remains NL-01-229, Zoutkamp remains NL-01-082, and Lauwersoog remains NL-01-192. This is the Boog van Ziel, the 1725 brick lock and stone parapet at Termunterzijl. The coats of arms are not readable. It is not a lighthouse. The red houses of Gemaal Rozema are not in this frame. The exact tide was not retrieved, so the channel is dark water without a measured high-water or low-water claim. No boat name is shown.",
+        "- NL-01-253: the Waterpoort at Sneek remains NL-01-161. This is the Schierstins, the surviving medieval brick stins at Feanwâlden. The tower is square, with large arches at the base that were once buried in a mound. A lower wing with a neck gable is attached. It is not a round castle. The cultural centre is closed. No poster text is shown.",
+        "- NL-01-254: the Oosterscheldekering remains NL-01-043 and the Plompe Toren remains NL-01-205. This is the Watersnoodmuseum: four concrete Phoenix caissons in the dike at Ouwerkerk, with a glass link. The museum is closed. No banner text is shown.",
+        "- NL-01-255: Hoensbroek, Eijsden, and Valkenburg are other Limburg castles. This is Kasteel Arcen. The house is an L-shaped brick manor, not a four-tower castle; the north wing was lost in the 1806 fire and was not fully rebuilt. The 1653 gatehouse has an octagonal slate spire. The gardens are closed at this hour and are not a flower display. Late September, no rose show. No coat of arms is readable.",
+        "- NL-01-256: St John's Cathedral remains NL-01-037 and the Oudenbosch basilica remains NL-01-160. This is the Sint-Petrusbasiliek at Oirschot, a Gothic brick church with a tall west tower and a slender spire, from the market. The church is closed. No shop name is readable.",
         "- The other suggested sites in this batch were not already used.",
         "",
     ]

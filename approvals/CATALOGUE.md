@@ -1,6 +1,6 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-240. IDs are not reused.
+NL-01-001 through NL-01-256. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
 NL-01-033 through NL-01-048 swaps:
 - NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.
@@ -176,6 +176,24 @@ NL-01-225 through NL-01-240 swaps:
 - NL-01-238: uses America/Kralendijk. Fort Oranje remains NL-01-065, Lower Town remains NL-01-190, The Quill remains NL-01-145, and Batterij De Windt remains NL-01-207. This is the Waterfort, also called Fort Amsterdam, on the southwest shore of Oranjebaai. Only low ruins remain. Lost sections are not rebuilt. It is not a high cliff battery. Night water is dark. No hotel name is shown.
 - NL-01-239: a bridge crosses the brick lock. The older wooden drawbridge and the 1910 iron span were replaced, so neither is shown as the present bridge. No hotel name is readable.
 - NL-01-240: Vrijthof, Saint Servatius, Helpoort, the Sint Servaasbrug, and the Bonnefantenmuseum are other Maastricht scenes. This is the Romanesque westwork on Onze Lieve Vrouweplein, a heavy stone block with two round stair turrets, not Gothic spires. The church is closed. No banner text is shown.
+- The other suggested sites in this batch were not already used.
+NL-01-241 through NL-01-256 swaps:
+- NL-01-241: Giethoorn remains NL-01-006. This is the Gemeenteweg ribbon of Staphorst hall-farms. The ridge runs perpendicular to the road, so the short gable faces the street. The living end is whitewashed brick under a thatched wolf roof; the barn end is weatherboard. Green shutters and a blue plinth are the local paint. The museum farm is closed. No one in regional dress is shown. Late September, no snow.
+- NL-01-242: the castle is not open to visitors. This is the brick house across the moat: a round tower with an octagonal pear-shaped slate spire, and the 1726 entrance wings under mansard roofs. The 1890s neo-Gothic additions were removed in the 1953-1957 restoration and are not shown. No coat of arms is readable.
+- NL-01-243: this is the Sint-Clemenskerk. The tower was begun in 1467. The spire blew down in 1558. The present spire is the 1913-1915 replica, so the tower is shown complete. The church is closed. Clock faces are not readable.
+- NL-01-244: the Dom Tower remains NL-01-010 and Kasteel de Haar remains NL-01-078. This is Slot Zuylen from the public approach across the moat. The house is U-shaped brick with octagonal corner turrets. A 16th-century gatehouse stands in the moat. The museum is closed. The date on the front is not readable.
+- NL-01-245: Nijenrode remains NL-01-123. This is Loenersloot. The round brick donjon keeps the 19th-century crenellations. The 18th-century plaster was removed, so the walls are brick. The fortified gatehouse was demolished in 1767, so the bridge is fixed, not a working drawbridge. The interior is closed.
+- NL-01-246: the Pyramide van Austerlitz has been closed for maintenance since March 2026, and the exact works were not pinned, so that monument was not used and no scaffold was invented. This is Fort Honswijk, a round brick tower fort of the New Dutch Waterline, with a flat bomb-proof roof, not a church spire. The viewpoint is the dike across the wet moat. The interior is closed.
+- NL-01-247: the Buitencentrum barn remains NL-01-194 and the Blocq van Kuffeler pumping station remains NL-01-210. This is the wetland itself from the public dike: reeds and shallow water. No visitor building is the subject. No animal count is claimed.
+- NL-01-248: Almere, Lelystad, Urk, and Dronten are other Flevoland scenes. Zeewolde had none. This is the modern harbour on the Wolderwijd. No historic church and no windmill were added. No boat name is readable.
+- NL-01-249: the castle of the lords of Bronkhorst is gone. The motte is a wooded mound, and no castle was rebuilt on it. This is the cobbled street and the small brick chapel. The chapel is closed at this hour. No cafe name is shown.
+- NL-01-250: Slot Loevestein remains NL-01-085. This is Ammersoyen, a square brick water castle with four round corner towers. The museum is closed. The viewpoint is the public approach across the moat. No banner text is shown.
+- NL-01-251: Dwingelderveld remains NL-01-063 and the telescope remains NL-01-150. This is the village church on the brink. The spire is the onion called the Siepel, rebuilt after the 1923 fire, not a needle. The church is closed. A later side annex, if present, is not the subject and is not drawn as a second tower.
+- NL-01-252: Noordpolderzijl remains NL-01-229, Zoutkamp remains NL-01-082, and Lauwersoog remains NL-01-192. This is the Boog van Ziel, the 1725 brick lock and stone parapet at Termunterzijl. The coats of arms are not readable. It is not a lighthouse. The red houses of Gemaal Rozema are not in this frame. The exact tide was not retrieved, so the channel is dark water without a measured high-water or low-water claim. No boat name is shown.
+- NL-01-253: the Waterpoort at Sneek remains NL-01-161. This is the Schierstins, the surviving medieval brick stins at Feanwâlden. The tower is square, with large arches at the base that were once buried in a mound. A lower wing with a neck gable is attached. It is not a round castle. The cultural centre is closed. No poster text is shown.
+- NL-01-254: the Oosterscheldekering remains NL-01-043 and the Plompe Toren remains NL-01-205. This is the Watersnoodmuseum: four concrete Phoenix caissons in the dike at Ouwerkerk, with a glass link. The museum is closed. No banner text is shown.
+- NL-01-255: Hoensbroek, Eijsden, and Valkenburg are other Limburg castles. This is Kasteel Arcen. The house is an L-shaped brick manor, not a four-tower castle; the north wing was lost in the 1806 fire and was not fully rebuilt. The 1653 gatehouse has an octagonal slate spire. The gardens are closed at this hour and are not a flower display. Late September, no rose show. No coat of arms is readable.
+- NL-01-256: St John's Cathedral remains NL-01-037 and the Oudenbosch basilica remains NL-01-160. This is the Sint-Petrusbasiliek at Oirschot, a Gothic brick church with a tall west tower and a slender spire, from the market. The church is closed. No shop name is readable.
 - The other suggested sites in this batch were not already used.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
@@ -418,3 +436,19 @@ NL-01-225 through NL-01-240 swaps:
 - NL-01-238 — Fort Amsterdam, Sint Eustatius — 25 September 2026 · 21:38 America/Kralendijk — retrieved 2026-09-25T21:38:03-04:00
 - NL-01-239 — Sluis, Makkum — 26 September 2026 · 03:38 Europe/Amsterdam — retrieved 2026-09-26T03:38:05+02:00
 - NL-01-240 — Onze-Lieve-Vrouwebasiliek, Maastricht — 26 September 2026 · 03:38 Europe/Amsterdam — retrieved 2026-09-26T03:38:07+02:00
+- NL-01-241 — Gemeenteweg, Staphorst — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:18+02:00
+- NL-01-242 — Kasteel Rechteren, Dalfsen — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:21+02:00
+- NL-01-243 — Sint-Clemenskerk, Steenwijk — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:23+02:00
+- NL-01-244 — Slot Zuylen, Oud-Zuilen — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:26+02:00
+- NL-01-245 — Kasteel Loenersloot, Loenersloot — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:28+02:00
+- NL-01-246 — Fort Honswijk, Schalkwijk — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:30+02:00
+- NL-01-247 — Oostvaardersplassen, Lelystad — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:33+02:00
+- NL-01-248 — Haven, Zeewolde — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:35+02:00
+- NL-01-249 — Kapel, Bronkhorst — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:38+02:00
+- NL-01-250 — Kasteel Ammersoyen, Ammerzoden — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:40+02:00
+- NL-01-251 — Sint-Nicolaaskerk, Dwingeloo — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:43+02:00
+- NL-01-252 — Boog van Ziel, Termunterzijl — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:45+02:00
+- NL-01-253 — Schierstins, Feanwâlden — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:48+02:00
+- NL-01-254 — Watersnoodmuseum, Ouwerkerk — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:50+02:00
+- NL-01-255 — Kasteel Arcen, Arcen — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:53+02:00
+- NL-01-256 — Sint-Petrusbasiliek, Oirschot — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:55+02:00
