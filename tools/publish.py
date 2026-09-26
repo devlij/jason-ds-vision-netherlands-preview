@@ -257,6 +257,7 @@ PAGE = r"""<!DOCTYPE html>
       aspect-ratio: 16 / 9; object-fit: contain;
     }
     .thumb.tall img { aspect-ratio: 4 / 5; }
+    .thumb.tall916 img { aspect-ratio: 9 / 16; }
     .card-body { padding: 1rem 1rem 1.15rem; display: flex; flex-direction: column; gap: 0.35rem; flex: 1; }
     .entry-id { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
     .status-row { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; }
@@ -414,14 +415,16 @@ PAGE = r"""<!DOCTYPE html>
         card.className = 'card';
         const file16 = 'library/world/' + s.file_16x9;
         const file45 = 'library/world/' + s.file_4x5;
+        const file916 = s.file_9x16 ? 'library/world/' + s.file_9x16 : null;
         card.innerHTML = `
           <div class="preview">
             <div class="fmt-tabs" role="group" aria-label="Image size">
               <button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>
               <button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>
+              ${file916 ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
             </div>
             <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
-              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}"${s.file_16x9_day ? ` data-src-16-day="${esc('library/world/' + s.file_16x9_day)}" data-src-45-day="${esc('library/world/' + s.file_4x5_day)}"` : ""} />
+              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}"${s.file_16x9_day ? ` data-src-16-day="${esc('library/world/' + s.file_16x9_day)}" data-src-45-day="${esc('library/world/' + s.file_4x5_day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${s.file_9x16_day ? ` data-src-916-day="${esc('library/world/' + s.file_9x16_day)}"` : ""} />
               <span class="view-affordance">View image</span>
             </a>
           </div>
@@ -438,6 +441,7 @@ PAGE = r"""<!DOCTYPE html>
               <a class="badge" href="${esc(s.license_anchor)}">${esc(s.license_badge)}</a>
               <a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
               <a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>
+              ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
               ${s.file_16x9_day ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button>` : ""}
             </div>
           </div>`;
@@ -459,13 +463,13 @@ PAGE = r"""<!DOCTYPE html>
         const dlink = dcard.querySelector('a.thumb');
         const dimg = dlink && dlink.querySelector('img');
         if (dimg && dlink) {
-          const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
           const dnext = dimg.getAttribute(dkey);
           if (dnext) { dimg.src = dnext; dlink.href = dnext; }
         }
         dcard.querySelectorAll('a.download').forEach((a) => {
           const f = a.getAttribute('data-dl');
-          const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : f === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
           const u = dimg && dimg.getAttribute(dk);
           if (u) a.href = u;
         });
@@ -491,12 +495,15 @@ PAGE = r"""<!DOCTYPE html>
       const useDay = dayOn && dayOn.getAttribute('data-daynight') === 'day';
       const next = fmt === "4x5"
         ? (useDay && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
+        : fmt === "9x16"
+        ? (useDay && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
         : (useDay && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
       if (next) {
         img.src = next;
         link.href = next;
       }
       link.classList.toggle('tall', fmt === '4x5');
+      link.classList.toggle('tall916', fmt === '9x16');
     });
     q.addEventListener('input', render);
     region.addEventListener('change', render);
@@ -528,8 +535,8 @@ PAGE = r"""<!DOCTYPE html>
         var src='';
         var daySrc='';
         if(im){
-          if(lbDay==='day'){daySrc=(lbFormat==='4x5'?im.getAttribute('data-src-45-day'):im.getAttribute('data-src-16-day'))||'';}
-          src=daySrc||(lbFormat==='4x5'?im.getAttribute('data-src-45'):im.getAttribute('data-src-16'));
+          if(lbDay==='day'){daySrc=(lbFormat==='4x5'?im.getAttribute('data-src-45-day'):lbFormat==='9x16'?im.getAttribute('data-src-916-day'):im.getAttribute('data-src-16-day'))||'';}
+          src=daySrc||(lbFormat==='4x5'?im.getAttribute('data-src-45'):lbFormat==='9x16'?im.getAttribute('data-src-916'):im.getAttribute('data-src-16'));
         }
         if(!src){var a=c.querySelector('a.thumb');src=a?a.href:'';}
         var capT=t?t.textContent:'';
@@ -552,7 +559,7 @@ PAGE = r"""<!DOCTYPE html>
     function hide(){stopSlideshow();overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
     document.addEventListener('click',function(e){
       var a=e.target.closest?e.target.closest('a.thumb'):null;
-      if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var dtab=card.querySelector('.day-tab.is-active');lbDay=(dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';show(cards.indexOf(card));return;}
+      if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var dtab=card.querySelector('.day-tab.is-active');lbDay=(dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';show(cards.indexOf(card));return;}
       if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();
       else if(e.target.closest&&e.target.closest('.lb-play'))togglePlay();
       else if(e.target.closest&&e.target.closest('.lb-prev'))nav(-1);
