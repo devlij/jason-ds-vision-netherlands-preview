@@ -4,12 +4,18 @@
   "region": "Utrecht",
   "city": "Zeist",
   "caption": "Slot Zeist, Zeist",
-  "scenario_label": "26 September 2026 \u00b7 04:36 Europe/Amsterdam",
-  "composition": "Classicist palace across the moat from the stone bridge \u00b7 AI-generated artistic interpretation",
-  "description": "Slot Zeist is the classicist palace finished in 1686. A seven-bay main block under a slate hipped roof is linked by one-storey flat-roofed wings to two-storey side houses around a forecourt. It is overcast, about 11.5\u00b0C, with wind near 6.1 km/h and cloud cover about 100%. The interior is closed. The year on the door is not readable. The medieval castle is gone and is not rebuilt. The Broederplein houses are not this frame.",
+  "scenario_label": "26 September 2026 · 04:36 Europe/Amsterdam",
+  "composition": "Classicist palace across the moat from the stone bridge · AI-generated artistic interpretation",
+  "description": "Slot Zeist is the classicist palace finished in 1686. A seven-bay main block under a slate hipped roof is linked by one-storey flat-roofed wings to two-storey side houses around a forecourt. It is overcast, about 11.5°C, with wind near 6.1 km/h and cloud cover about 100%. The interior is closed. The year on the door is not readable. The medieval castle is gone and is not rebuilt. The Broederplein houses are not this frame.",
   "alt_text": "AI-generated artistic interpretation of Slot Zeist at night",
   "file_16x9": "Netherlands/Zeist/nl-01-276-16x9.png",
   "file_4x5": "Netherlands/Zeist/nl-01-276-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night view from the stone arch bridge across the moat at the slate-roofed classicist main block, side houses flanking the forecourt, warm windows - matches the card's three geometry anchors; clean framing, no artifacts. Gate 2: Open-Meteo retrieval 2026-09-26T04:36:48+02:00 verified unique to the second across all 288 Netherlands evidence files; scenario 26 September 2026 · 04:36 Europe/Amsterdam sits inside the model-valid hour 04:00-04:59; exact 1920x1080/864x1080; exact caption, scenario, disclosure and curly-apostrophe Jason D's Vision signature on both formats; Art. 50 EU AI Act transparency metadata present in all PNG tEXt chunks. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or logos; license badge 'Free · no credit needed' (documented only). Gate 5: manifest card fields complete.",
+  "approved_at": "2026-09-26T19:38:38.531441+00:00",
+  "sha256_16x9": "84236f415011bafffdbd6d680a6e66ca4c2b25c5b730d474e3f002e80c384510",
+  "sha256_4x5": "f9417b277bc721558a10718793ef0acc3683b7205da9e41698fc1910ef5f8670"
 }
