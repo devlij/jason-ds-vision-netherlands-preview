@@ -4,12 +4,18 @@
   "region": "Friesland",
   "city": "Harlingen",
   "caption": "Harbour, Harlingen",
-  "scenario_label": "26 September 2026 \u00b7 00:00 Europe/Amsterdam",
-  "composition": "Noorderhaven, brick warehouses and moored vessels \u00b7 AI-generated artistic interpretation",
-  "description": "Along the Noorderhaven in Harlingen, tall brick warehouses with hoist beams face a basin of moored traditional vessels. Lamps reflect in calm water and the quays are quiet. It is clear, about 16.7\u00b0C, the mildest of this night group, with wind near 6.5 km/h. Sunset was 19:27. Hull names are not treated as real lettering.",
+  "scenario_label": "26 September 2026 · 00:00 Europe/Amsterdam",
+  "composition": "Noorderhaven, brick warehouses and moored vessels · AI-generated artistic interpretation",
+  "description": "Along the Noorderhaven in Harlingen, tall brick warehouses with hoist beams face a basin of moored traditional vessels. Lamps reflect in calm water and the quays are quiet. It is clear, about 16.7°C, the mildest of this night group, with wind near 6.5 km/h. Sunset was 19:27. Hull names are not treated as real lettering.",
   "alt_text": "AI-generated artistic interpretation of the Noorderhaven in Harlingen on a clear night",
   "file_16x9": "Netherlands/Harlingen/nl-01-057-16x9.png",
   "file_4x5": "Netherlands/Harlingen/nl-01-057-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual pass: night harbour at Harlingen — brick gabled warehouses with lit windows lining the quay left, traditional sailing ships moored right, lamp reflections on calm water under a dark sky. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Harbour, Harlingen', scenario '26 September 2026 · 00:00 Europe/Amsterdam' and AI disclosure legible bottom-left; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:00:59+02:00 unique repo-wide (288/288 unique via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
+  "approved_at": "2026-09-26T03:42:01.349973+00:00",
+  "sha256_16x9": "519c1d4a63459124a74b973bf838537a2a396b1ab0d78b4d9cbc057840ce8b2c",
+  "sha256_4x5": "2347fe7e65135850f60d798bf910a5afc45d51b8136c0d7c84bb532a37bca19a"
 }
