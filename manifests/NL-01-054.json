@@ -4,12 +4,18 @@
   "region": "Flevoland",
   "city": "Urk",
   "caption": "Harbour, Urk",
-  "scenario_label": "26 September 2026 \u00b7 00:00 Europe/Amsterdam",
-  "composition": "Old harbour, fishing boats, and the brick lighthouse on the dike \u00b7 AI-generated artistic interpretation",
-  "description": "From the old harbour at Urk, fishing boats sit against the quay and the square brick lighthouse, with its white lantern, stands on the dike above them. The water is dark and the quay is quiet. It is clear, about 14.6\u00b0C, with a light wind near 6.5 km/h. Sunset was 19:26. Boat names are not treated as real lettering.",
+  "scenario_label": "26 September 2026 · 00:00 Europe/Amsterdam",
+  "composition": "Old harbour, fishing boats, and the brick lighthouse on the dike · AI-generated artistic interpretation",
+  "description": "From the old harbour at Urk, fishing boats sit against the quay and the square brick lighthouse, with its white lantern, stands on the dike above them. The water is dark and the quay is quiet. It is clear, about 14.6°C, with a light wind near 6.5 km/h. Sunset was 19:26. Boat names are not treated as real lettering.",
   "alt_text": "AI-generated artistic interpretation of the old fishing harbour and lighthouse at Urk on a clear night",
   "file_16x9": "Netherlands/Urk/nl-01-054-16x9.png",
   "file_4x5": "Netherlands/Urk/nl-01-054-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Urk's harbour at night: the fishing fleet with masts and rigging moored under the floodlit stone lighthouse on the grassy dike, lamp reflections on the dark water beneath a starry sky. Gate 1: the square Urk lighthouse and fishing harbour, plausible quayside viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Harbour, Urk', scenario '26 September 2026 · 00:00 Europe/Amsterdam' inside model-valid hour 00:00-00:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-26T00:00:51+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
+  "approved_at": "2026-09-26T02:43:15.273609+00:00",
+  "sha256_16x9": "d97b9c3b9a4c7416dd716cb4b260ee9fe49b55c415bf123c7bfbb4cd394eda9f",
+  "sha256_4x5": "0dbe3b7cc111c2b903fac4bd00152624697b18777ccfbc0c8902fc1c2e1c3b09"
 }
