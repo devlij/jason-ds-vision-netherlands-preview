@@ -5,7 +5,8 @@ Approved IDs re-read from origin/main manifests at batch start: 274 scenes.
 This batch is the first 16 Approved scenes in NL-01-175–285 that were still regenerated label-bar, not faithful: NL-01-175 through NL-01-190.
 The scrim originals were restored from pre-merge main c3b845317688bb6e3a491ceb79d2097c637b45c2, which still had the Cosmo-approved 1920×1080 and 864×1080 masters. Merged main had already replaced them with 1920×1270 regenerated label-bar files.
 Holds skipped, not in this batch: NL-01-205, 249, 253–256, 259, 263–264, 273, 284, 286–288. NL-01-026–055 were not touched.
-Branch tip: pending-commit
+Branch tip: e0e84d750bcdda790c6c0eee045e2d989ead6cbd
+The commit above is the one that adds these faithful masters. A later commit only writes this SHA into this note.
 
 Method
 tools/faithful_refinish.py inverts the 4c6f044 scrim and on-image type. Rows above y = int(height * 0.68) are copied unchanged. No GenerateImage and no new composition. 9:16 is a center crop of the cleaned 16:9, then the label bar. Sizes 1920×1270, 864×1270, 1080×2110.
