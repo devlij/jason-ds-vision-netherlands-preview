@@ -1,0 +1,103 @@
+BATCH NL-01-193 through NL-01-208
+Candidate night scenes. No daylight variants.
+Base: 36f0d376245641b42c86c33e657f46a55f14dc3a (192 scenes).
+
+IDs AND CAPTIONS
+NL-01-193 — Vuurtoren, Urk — Flevoland — Urk
+NL-01-194 — Buitencentrum, Lelystad — Flevoland — Lelystad
+NL-01-195 — The Wave, Almere — Flevoland — Almere
+NL-01-196 — Lichtwachterswoning, Schokland — Flevoland — Schokland
+NL-01-197 — Papeloze Kerk, Schoonoord — Drenthe — Schoonoord
+NL-01-198 — Havezate Mensinge, Roden — Drenthe — Roden
+NL-01-199 — Veenpark, Barger-Compascuum — Drenthe — Barger-Compascuum
+NL-01-200 — Peperbus, Zwolle — Overijssel — Zwolle
+NL-01-201 — Waag, Deventer — Overijssel — Deventer
+NL-01-202 — Koornmarktspoort, Kampen — Overijssel — Kampen
+NL-01-203 — Aa-kerk, Groningen — Groningen — Groningen
+NL-01-204 — Jacobuskerk, Zeerijp — Groningen — Zeerijp
+NL-01-205 — Plompe Toren, Burgh-Haamstede — Zeeland — Burgh-Haamstede
+NL-01-206 — Sint-Lievensmonstertoren, Zierikzee — Zeeland — Zierikzee
+NL-01-207 — Batterij De Windt, Sint Eustatius — Caribbean Netherlands — Sint Eustatius
+NL-01-208 — Hell's Gate, Saba — Caribbean Netherlands — Saba
+
+WEATHER (one Open-Meteo retrieval per scene; model data only)
+entry_id | retrieval_timestamp | model_time | scenario | code | cloud% | C | wind | is_day | tz
+NL-01-193 | 2026-09-26T02:55:38+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:55 Europe/Amsterdam | WMO 2 | 77 | 14.7 | 5.0 | is_day 0 | Europe/Amsterdam
+NL-01-194 | 2026-09-26T02:55:41+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:55 Europe/Amsterdam | WMO 2 | 53 | 10.4 | 2.2 | is_day 0 | Europe/Amsterdam
+NL-01-195 | 2026-09-26T02:55:43+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:55 Europe/Amsterdam | WMO 1 | 35 | 13.8 | 4.7 | is_day 0 | Europe/Amsterdam
+NL-01-196 | 2026-09-26T02:55:46+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:55 Europe/Amsterdam | WMO 1 | 42 | 9.6 | 1.4 | is_day 0 | Europe/Amsterdam
+NL-01-197 | 2026-09-26T02:55:49+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:55 Europe/Amsterdam | WMO 2 | 78 | 8.6 | 5.0 | is_day 0 | Europe/Amsterdam
+NL-01-198 | 2026-09-26T02:55:51+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:55 Europe/Amsterdam | WMO 3 | 98 | 9.7 | 4.3 | is_day 0 | Europe/Amsterdam
+NL-01-199 | 2026-09-26T02:55:54+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:55 Europe/Amsterdam | WMO 2 | 58 | 9.4 | 6.8 | is_day 0 | Europe/Amsterdam
+NL-01-200 | 2026-09-26T02:55:57+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:55 Europe/Amsterdam | WMO 0 | 11 | 12.5 | 9.0 | is_day 0 | Europe/Amsterdam
+NL-01-201 | 2026-09-26T02:55:59+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:55 Europe/Amsterdam | WMO 1 | 48 | 9.9 | 8.3 | is_day 0 | Europe/Amsterdam
+NL-01-202 | 2026-09-26T02:56:02+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:56 Europe/Amsterdam | WMO 1 | 23 | 10.2 | 7.2 | is_day 0 | Europe/Amsterdam
+NL-01-203 | 2026-09-26T02:56:05+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:56 Europe/Amsterdam | WMO 3 | 89 | 12.4 | 5.8 | is_day 0 | Europe/Amsterdam
+NL-01-204 | 2026-09-26T02:56:08+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:56 Europe/Amsterdam | WMO 3 | 95 | 8.3 | 7.6 | is_day 0 | Europe/Amsterdam
+NL-01-205 | 2026-09-26T02:56:10+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:56 Europe/Amsterdam | WMO 2 | 62 | 16.1 | 10.1 | is_day 0 | Europe/Amsterdam
+NL-01-206 | 2026-09-26T02:56:13+02:00 | 2026-09-26T02:45 | 26 September 2026 · 02:56 Europe/Amsterdam | WMO 1 | 34 | 15.6 | 8.3 | is_day 0 | Europe/Amsterdam
+NL-01-207 | 2026-09-25T20:56:16-04:00 | 2026-09-25T20:45 | 25 September 2026 · 20:56 America/Kralendijk | WMO 3 | 92 | 28.3 | 14.4 | is_day 0 | America/Kralendijk
+NL-01-208 | 2026-09-25T20:56:19-04:00 | 2026-09-25T20:45 | 25 September 2026 · 20:56 America/Kralendijk | WMO 3 | 82 | 27.2 | 22.8 | is_day 0 | America/Kralendijk
+
+NARROWINGS
+- NL-01-193: the fishing harbour remains NL-01-054. This is the white lighthouse on the dike, with a red lantern and a copper dome. The basin is not in the frame.
+- NL-01-194: Almere already has a city hall. This is the timber visitor barn at Kitsweg in Lelystad, glass gable and a small lookout box. It is not the black wood centre on the Almere side. The centre is closed at this hour.
+- NL-01-195: the city hall remains NL-01-178. This is The Wave, the 2004 silver housing block on the Weerwater. No shop name is shown.
+- NL-01-196: the Middelbuurt church remains NL-01-055. This is the keeper’s house on the north terp, a low brick house by a small harbour. A tall lighthouse was not invented.
+- NL-01-197: Hunebed D27 remains NL-01-062 and D53 remains NL-01-179. This is D49, the Papeloze Kerk. One half is under a restored turf mound and the other half shows the stones.
+- NL-01-198: the museum is closed. The view is the U-shaped brick manor across the moat, two lower wings, late September leaf. The inner rooms are not shown.
+- NL-01-199: the park is closed. The huts are a museum reconstruction of the early peat hamlet, not an untouched street. No shop name and no train are shown.
+- NL-01-200: the Sassenpoort remains NL-01-070. This is the Peperbus. The crown is the octagonal lantern and the copper dome from after 1815, not a needle spire. The gallery is empty.
+- NL-01-201: the Lebuinuskerk remains NL-01-045. This is the leaning Waag on the Brink. The museum is closed. The church is outside the frame.
+- NL-01-202: the city bridge remains NL-01-071. This is the river gate. The towers are brick. The nineteenth-century whitewash is not the present surface, so it is not shown.
+- NL-01-203: Martinitoren remains NL-01-060. This is the Aa-kerk from the canal. The tower crown is the baroque lantern and closed spire, not the open Gothic crown.
+- NL-01-204: the bell tower stands apart from the cruciform church and has a saddle roof. A partial moat and an iron gate remain. The church is closed.
+- NL-01-205: the lost village was Koudekerke. The nave was taken down in 1583. The tower stands alone in a hollow of the Oosterschelde dike. No nave was rebuilt.
+- NL-01-206: Noordhavenpoort remains NL-01-042. This is the unfinished tower. The church burned in 1832. The top is a low roof, not the planned spire.
+- NL-01-207: uses America/Kralendijk. Fort Oranje remains NL-01-065 and Lower Town remains NL-01-190. The popular name Fort de Windt is the wrong type. This is Batterij De Windt, a low coastal battery on the south cliff. Night water is dark. No hotel name is shown.
+- NL-01-208: uses America/Kralendijk. The Bottom remains NL-01-066 and Windwardside remains NL-01-147. Hell’s Gate is the tourist name; the official name is Zion’s Hill. This is the upper village of white houses and red roofs. The airport runway and the closed summit are not shown.
+- The other suggested sites in this batch were not already used.
+
+COSMO SHA-256 CHECK
+NL-01-001 through NL-01-010 night and daylight masters: pre-batch SHA-256 matches post-batch SHA-256. 40/40 unchanged. No daylight buttons were added to NL-01-193–208. Gallery daylight fields remain on NL-01-001–010 only.
+NL-01-001 file_16x9 7b05158d1165b0c3466dd9b78315973df36e3067b71eafb9487e68bdfc4882e9 UNCHANGED
+NL-01-001 file_4x5 643f350ff8f136cdf41f3d6c64810acd5c8ef374ec72701e1cc14573bfeb8ac6 UNCHANGED
+NL-01-001 file_16x9_day 7ce236ef215aa719af22808269e710253b67eae210b221d5d6e184de4540f915 UNCHANGED
+NL-01-001 file_4x5_day a6dca9e019e6d2b5113b302341792744f31efdee0631f32a9f9136fa793827c5 UNCHANGED
+NL-01-002 file_16x9 31c917b5266fb9dd695e50e2f1eb7a04b5b322ae0ae8600d330db320a2eecadf UNCHANGED
+NL-01-002 file_4x5 39820a34ac1f6ab2e369a4e52e5d9373729a6d1ce14897f4aa48282e26ab0349 UNCHANGED
+NL-01-002 file_16x9_day 47ed2bbffe550e013c7160b9715448f31098cb70a72703651e92f535eb281182 UNCHANGED
+NL-01-002 file_4x5_day 2c830dbdf9253cf0901f7ccdfcdd5bdbe7782400b26eb47a7308d98ab22f38ad UNCHANGED
+NL-01-003 file_16x9 8c8261f7bce58b2612bcee6213c97aaf0d8ecca98fffa2f8dd227af5bfdfc546 UNCHANGED
+NL-01-003 file_4x5 3d246eb034526d46af8413eed91f647a95788a4382ac803158be93283cef282c UNCHANGED
+NL-01-003 file_16x9_day 67ab3081384dcb594309efbf4f15400586d570bb70275fa847749406f1206238 UNCHANGED
+NL-01-003 file_4x5_day 3ad6cbaed658e00982c7fe8b552ad2de3a1b0bbe7c9e83e2d382bf1f6e60490a UNCHANGED
+NL-01-004 file_16x9 d3b3963535f96a8aa9a8903871611a6d843201aeee2715e03ace955c2ac49310 UNCHANGED
+NL-01-004 file_4x5 fb896876f52ab6bce319faaa2abdfbd339b46fc10ff743909212dcbb48f0ae90 UNCHANGED
+NL-01-004 file_16x9_day 8077e2ebefbeee18ee3ccb84eabc54144326656958ebbbcacb8ffaac498ee798 UNCHANGED
+NL-01-004 file_4x5_day a880876c608622cd7c559ea96ccdcd1e7f070f07ddf0c29d33070b28e9a0e99e UNCHANGED
+NL-01-005 file_16x9 2629d5a6ba292d8caa9fa766999c053f895e359f1a5b06e67dab9fd2e5d0009f UNCHANGED
+NL-01-005 file_4x5 c7b802aa88fb6430610b729cfbb36492b9d726039c03b543a68d3de50fb26329 UNCHANGED
+NL-01-005 file_16x9_day c2684fca37a6e93babace5b56ff7ff5b9986262420fa3785e6a63c33955b170d UNCHANGED
+NL-01-005 file_4x5_day 0fd52026b750edec3e7f4f4d8caf8632d77a96f6d0a00235aeb0a18cf0b8d786 UNCHANGED
+NL-01-006 file_16x9 f8998be313196246c6853ea5c004d93d9551bdbbad8daab7ef041102ae16099e UNCHANGED
+NL-01-006 file_4x5 9b591349bedeb83b0380c869b5c51da9a68b101876d33e1772d0502c0937bb4f UNCHANGED
+NL-01-006 file_16x9_day 7a944be8484033097aae91c33386a500f77e2f7052aaee2fe48b07607b0b1d46 UNCHANGED
+NL-01-006 file_4x5_day a472d4f9ff5f37821ec356d4dfc982899dc247aeb37cf12a6397311b3226d62b UNCHANGED
+NL-01-007 file_16x9 e361091f59582883c35c964b34cc58f00303fb2bdc8aaa98c3780fc41b89e2b5 UNCHANGED
+NL-01-007 file_4x5 4a65fe3d77da4893a51b1a14cfcf52d02076d64a1cf52f350b75ea51ad63a87d UNCHANGED
+NL-01-007 file_16x9_day c37f5a3a09653aaf44b4fb4c1f4a9bcfdfeb689781ae82081d72f3b1757ce057 UNCHANGED
+NL-01-007 file_4x5_day e9ea4dcd5ef0f968835fbdb9c44e8906f6eb7175f2848d9f85497e3c93d8fd24 UNCHANGED
+NL-01-008 file_16x9 b0acb0a074d87cf02ef9466a4257d61157a6d65da4f78f7c1debc1ac59cbf4ad UNCHANGED
+NL-01-008 file_4x5 8cfbf1964c25cdc04518f1f0a2ef9dad66498cc0b09efccb995927d390497ec9 UNCHANGED
+NL-01-008 file_16x9_day 7acc36cb3416eedbf262e10e038da101849019e67bd05e79bba2bddbe1c9ac71 UNCHANGED
+NL-01-008 file_4x5_day e5b158acbe927a3b2fd4fe357aa4b545d0f104021e62d93fa9d63e02fde12f32 UNCHANGED
+NL-01-009 file_16x9 5f566e9aba60d82ac0a83845c9aa19d34991c0b43fc7f6c3edf4deeef4ea169a UNCHANGED
+NL-01-009 file_4x5 b7d946acdd2b33db406135ca54d92e7589c79a763a32ead834cea30f42c5be85 UNCHANGED
+NL-01-009 file_16x9_day d80240e5f46340ce7235d7cadf3267c15c3421508172533213df622be5207160 UNCHANGED
+NL-01-009 file_4x5_day 403500fd07242a8bf7a8c93dff73cab7a64656d396c56a65d2c8dd4a64b78cd9 UNCHANGED
+NL-01-010 file_16x9 186e40a2f28a9e3aefbc0f11629a20a5254dd1207cda591ce0832d12906d7112 UNCHANGED
+NL-01-010 file_4x5 9849c724dff73716582282f9bf18d1b3d2710f32908b27240701c819db4c6b80 UNCHANGED
+NL-01-010 file_16x9_day 5bba27ba9a38ea3a5998ffca1719c2caf8794ce36ba976df1bdf4b5b19fa95df UNCHANGED
+NL-01-010 file_4x5_day 15ad9691f4e5fe0a3461848f3a6fe7f3a796b6ca0fb0b3eefa4b0a3c10042c97 UNCHANGED
+

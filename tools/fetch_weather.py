@@ -30,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-177", "Museum Nagele", "Nagele", 52.6439, 5.7233, "Europe/Amsterdam"),
-    ("NL-01-178", "Stadhuis", "Almere", 52.3708, 5.2214, "Europe/Amsterdam"),
-    ("NL-01-179", "Hunebed D53", "Havelte", 52.8072, 6.2167, "Europe/Amsterdam"),
-    ("NL-01-180", "Koloniehuisjes", "Frederiksoord", 52.8462, 6.1875, "Europe/Amsterdam"),
-    ("NL-01-181", "Meppeler Toren", "Meppel", 52.6956, 6.1944, "Europe/Amsterdam"),
-    ("NL-01-182", "Havenkolk", "Blokzijl", 52.7264, 5.9618, "Europe/Amsterdam"),
-    ("NL-01-183", "Oude Haven", "Vollenhove", 52.6808, 5.9518, "Europe/Amsterdam"),
-    ("NL-01-184", "Plechelmusbasiliek", "Oldenzaal", 52.3128, 6.9286, "Europe/Amsterdam"),
-    ("NL-01-185", "Fraeylemaborg", "Slochteren", 53.2154, 6.8096, "Europe/Amsterdam"),
-    ("NL-01-186", "Klooster Ter Apel", "Ter Apel", 52.8762, 7.0749, "Europe/Amsterdam"),
-    ("NL-01-187", "Lemsterpoort", "Sloten", 52.8922, 5.6458, "Europe/Amsterdam"),
-    ("NL-01-188", "Stadhuis", "Dokkum", 53.3236, 5.9998, "Europe/Amsterdam"),
-    ("NL-01-189", "Fort Bay", "Saba", 17.6164, -63.2514, "America/Kralendijk"),
-    ("NL-01-190", "Lower Town", "Oranjestad", 17.4802, -62.9872, "America/Kralendijk"),
-    ("NL-01-191", "Slave huts", "Bonaire", 12.0985, -68.2835, "America/Kralendijk"),
-    ("NL-01-192", "Ferry terminal", "Lauwersoog", 53.4098, 6.2016, "Europe/Amsterdam"),
+    ("NL-01-193", "Vuurtoren", "Urk", 52.6611215, 5.5920149, "Europe/Amsterdam"),
+    ("NL-01-194", "Buitencentrum", "Lelystad", 52.4573335, 5.4171408, "Europe/Amsterdam"),
+    ("NL-01-195", "The Wave", "Almere", 52.3668826, 5.2158702, "Europe/Amsterdam"),
+    ("NL-01-196", "Lichtwachterswoning", "Schokland", 52.6560313, 5.7794917, "Europe/Amsterdam"),
+    ("NL-01-197", "Papeloze Kerk", "Schoonoord", 52.8225144, 6.7761768, "Europe/Amsterdam"),
+    ("NL-01-198", "Havezate Mensinge", "Roden", 53.1352526, 6.4356766, "Europe/Amsterdam"),
+    ("NL-01-199", "Veenpark", "Barger-Compascuum", 52.7563806, 7.0268358, "Europe/Amsterdam"),
+    ("NL-01-200", "Peperbus", "Zwolle", 52.5121828, 6.0897359, "Europe/Amsterdam"),
+    ("NL-01-201", "Waag", "Deventer", 52.2515098, 6.1600370, "Europe/Amsterdam"),
+    ("NL-01-202", "Koornmarktspoort", "Kampen", 52.5554269, 5.9215500, "Europe/Amsterdam"),
+    ("NL-01-203", "Aa-kerk", "Groningen", 53.21638889, 6.56222222, "Europe/Amsterdam"),
+    ("NL-01-204", "Jacobuskerk", "Zeerijp", 53.34598889, 6.75678333, "Europe/Amsterdam"),
+    ("NL-01-205", "Plompe Toren", "Burgh-Haamstede", 51.6816, 3.77245, "Europe/Amsterdam"),
+    ("NL-01-206", "Sint-Lievensmonstertoren", "Zierikzee", 51.6502809, 3.9147517, "Europe/Amsterdam"),
+    ("NL-01-207", "Fort de Windt", "Sint Eustatius", 17.465678, -62.9639628, "America/Kralendijk"),
+    ("NL-01-208", "Hell's Gate", "Saba", 17.639036, -63.2290788, "America/Kralendijk"),
 ]
 
 

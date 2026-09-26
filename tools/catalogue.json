@@ -3695,7 +3695,7 @@
     ],
     "solar": "Full night under a clear sky. Model sunset 18:26 America/Kralendijk and model is_day 0. At 20:20 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 11%. The wind is fresh, about 22.9 km/h."
   },
-{
+  {
     "entry_id": "NL-01-177",
     "region": "Flevoland",
     "city": "Nagele",
@@ -4030,5 +4030,341 @@
       "Dark harbour water, with no ship name"
     ],
     "solar": "Full night under an overcast sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 02:37 no moon is visible. Cloud cover is about 97%. The wind is about 7.9 km/h."
+  },
+  {
+    "entry_id": "NL-01-193",
+    "region": "Flevoland",
+    "city": "Urk",
+    "folder": "Urk",
+    "caption": "Vuurtoren, Urk",
+    "composition": "White lighthouse on the IJsselmeer dike, red lantern and copper dome · AI-generated artistic interpretation",
+    "description": "The Urk lighthouse stands on the dike at the edge of the village, a white tapered brick tower with a red lantern, a gallery, and a copper dome. Dark IJsselmeer water fills the foreground. The fishing harbour is a different place and is not in this frame. It is partly cloudy, about 14.7°C, with wind near 5.0 km/h and cloud cover about 77%.",
+    "alt_text": "AI-generated artistic interpretation of the white Urk lighthouse at night on the IJsselmeer dike",
+    "viewpoint": "From the public dike path beside the tower, looking toward the lantern with the IJsselmeer in front. The grounds are the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Urk_Lighthouse",
+      "https://www.flevolanderfgoed.nl/home/erfgoed/noordoostpolder-2/urk-3/vuurtoren-2.html"
+    ],
+    "anchors": [
+      "A white round brick tower stands on the dike",
+      "The lantern is red, with a gallery and a copper dome",
+      "Dark lake water is in front; the fishing basin is not in the frame"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 02:55 the lantern is the light on the tower. Cloud cover is about 77%. The wind is about 5.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-194",
+    "region": "Flevoland",
+    "city": "Lelystad",
+    "folder": "Lelystad",
+    "caption": "Buitencentrum, Lelystad",
+    "composition": "Timber visitor barn and glass gable facing the dark marsh · AI-generated artistic interpretation",
+    "description": "The Oostvaardersplassen visitor centre at Kitsweg is a long timber barn with a glass gable and a small lookout box pushed through that glass. The building is closed at this hour. Reed beds and dark water lie beyond it. It is partly cloudy, about 10.4°C, with wind near 2.2 km/h and cloud cover about 53%. This is not the black wood centre on the Almere side.",
+    "alt_text": "AI-generated artistic interpretation of the timber Oostvaardersplassen visitor centre at Lelystad at night",
+    "viewpoint": "From the public approach at Kitsweg 1, looking at the glass gable and the projecting lookout. The approach is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.studiovanveen.nl/buitencentrum-oostvaardersplassen/",
+      "https://www.bouwgroepnoord.nl/projecten/bezoekerscentrum-oostvaardersplassen/"
+    ],
+    "anchors": [
+      "A long timber barn sits against the marsh",
+      "A glass gable faces the water, with a small lookout box projecting through it",
+      "Reeds and dark pools fill the distance; no sign lettering"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 02:55 the centre is closed. Cloud cover is about 53%. The wind is about 2.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-195",
+    "region": "Flevoland",
+    "city": "Almere",
+    "folder": "Almere",
+    "caption": "The Wave, Almere",
+    "composition": "Silver wave of apartment bays over the Weerwater · AI-generated artistic interpretation",
+    "description": "The Wave is a housing block on the Weerwater, finished in 2004, with a bulging north facade of silver aluminium bays, each set at its own angle. The public water side is the view. It is mainly clear, about 13.8°C, with wind near 4.7 km/h and cloud cover about 35%. The city hall is another building and is not in this frame. No shop name is shown.",
+    "alt_text": "AI-generated artistic interpretation of The Wave housing block over the Weerwater in Almere at night",
+    "viewpoint": "From the public promenade on the Weerwater, looking at the silver wave facade. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/The_Wave_(Almere)",
+      "https://www.visitalmere.com/en/routes/194967863/round-weather-water"
+    ],
+    "anchors": [
+      "Dark lake water fills the foreground",
+      "A silver facade bulges in a wave of angled bays",
+      "Six residential floors; no wordmark"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 02:55 a few windows are lit. Cloud cover is about 35%. The wind is about 4.7 km/h."
+  },
+  {
+    "entry_id": "NL-01-196",
+    "region": "Flevoland",
+    "city": "Schokland",
+    "folder": "Schokland",
+    "caption": "Lichtwachterswoning, Schokland",
+    "composition": "Keeper's house on the north terp, small harbour piles, flat polder · AI-generated artistic interpretation",
+    "description": "At the north end of former Schokland, the lighthouse keeper's house sits on the Oud-Emmeloord terp above a small harbour basin with wooden piles. It is a low brick house, not a tall light tower. The Middelbuurt church is farther south and is not in this frame. It is mainly clear, about 9.6°C, with wind near 1.4 km/h and cloud cover about 42%.",
+    "alt_text": "AI-generated artistic interpretation of the Schokland lighthouse keeper's house on the north terp at night",
+    "viewpoint": "From the public path by the reconstructed north harbour, looking at the keeper's house on the terp. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://whc.unesco.org/en/list/739/",
+      "https://www.museumschokland.nl/"
+    ],
+    "anchors": [
+      "A low brick house stands on a grassy terp",
+      "A small harbour basin has wooden piles",
+      "Flat dark polder surrounds the mound; no tall lighthouse"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 02:55 a few lamps light the house. Cloud cover is about 42%. The wind is about 1.4 km/h."
+  },
+  {
+    "entry_id": "NL-01-197",
+    "region": "Drenthe",
+    "city": "Schoonoord",
+    "folder": "Schoonoord",
+    "caption": "Papeloze Kerk, Schoonoord",
+    "composition": "Hunebed half under a turf mound, half open stones, in pine woods · AI-generated artistic interpretation",
+    "description": "Hunebed D49, the Papeloze Kerk, sits in the woods between Schoonoord and Noord-Sleen. One half is covered by a restored turf mound and the other half shows the capstones. A ring of kerb stones circles the foot. It is partly cloudy, about 8.6°C, with wind near 5.0 km/h and cloud cover about 78%. Borger and Havelte are other tombs and are not this one.",
+    "alt_text": "AI-generated artistic interpretation of the Papeloze Kerk hunebed at night, half covered by a turf mound",
+    "viewpoint": "From the public forest path at the monument, looking along the chamber so both the mound and the open stones are visible. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Papeloze_Kerk",
+      "http://www.hunebedden.nl/d49.htm"
+    ],
+    "anchors": [
+      "A turf mound covers one half of the tomb",
+      "Grey capstones remain exposed on the other half",
+      "A ring of kerb stones sits at the foot, with pines around"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:22 Europe/Amsterdam and model is_day 0. At 02:55 the woods are dark. Cloud cover is about 78%. The wind is about 5.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-198",
+    "region": "Drenthe",
+    "city": "Roden",
+    "folder": "Roden",
+    "caption": "Havezate Mensinge, Roden",
+    "composition": "U-shaped brick manor across a moat, two lower wings · AI-generated artistic interpretation",
+    "description": "Havezate Mensinge is a brick manor on a U-shaped plan, with a long two-storey front and two lower side wings, inside a rectangular moat. The museum is closed at this hour. Late September trees along the avenue are still in leaf, with a little early yellow. It is overcast, about 9.7°C, with wind near 4.3 km/h and cloud cover about 98%.",
+    "alt_text": "AI-generated artistic interpretation of Havezate Mensinge at Roden at night, seen across the moat",
+    "viewpoint": "From the public lane on the axis of the house, across the moat, not from the inner rooms. The lane is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.skbl.nl/kbl-locaties/havezate-mensinge/",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/526645"
+    ],
+    "anchors": [
+      "A moat crosses the foreground",
+      "The main range is two storeys, with two lower wings",
+      "Dark pantile roofs and an avenue of trees"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:23 Europe/Amsterdam and model is_day 0. At 02:55 the house is closed. Cloud cover is about 98%. The wind is about 4.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-199",
+    "region": "Drenthe",
+    "city": "Barger-Compascuum",
+    "folder": "Barger-Compascuum",
+    "caption": "Veenpark, Barger-Compascuum",
+    "composition": "Reconstructed sod huts of the peat hamlet at night · AI-generated artistic interpretation",
+    "description": "The Veenpark is closed at this hour. The frame is the exterior of the reconstructed sod-hut hamlet, low turf walls and turf roofs along a dirt path, with a narrow peat canal. These huts are a museum reconstruction of the early peat settlement, not a street of untouched houses. It is partly cloudy, about 9.4°C, with wind near 6.8 km/h and cloud cover about 58%. No shop name and no train are shown.",
+    "alt_text": "AI-generated artistic interpretation of the Veenpark sod huts at Barger-Compascuum at night",
+    "viewpoint": "From the public museum path through the sod-hut hamlet, outside the closed buildings. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.veenpark.nl/plaggenhutdorp-aole-compas/",
+      "https://nl.wikipedia.org/wiki/Veenpark"
+    ],
+    "anchors": [
+      "Low huts have turf walls and turf roofs",
+      "A dirt path runs between them",
+      "A narrow canal sits beside the hamlet; no lettering"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:21 Europe/Amsterdam and model is_day 0. At 02:55 the park is closed. Cloud cover is about 58%. The wind is about 6.8 km/h."
+  },
+  {
+    "entry_id": "NL-01-200",
+    "region": "Overijssel",
+    "city": "Zwolle",
+    "folder": "Zwolle",
+    "caption": "Peperbus, Zwolle",
+    "composition": "Gothic brick tower with an octagonal lantern and a copper dome · AI-generated artistic interpretation",
+    "description": "The Peperbus is the tower of the Basilica of Our Lady, a square late-Gothic brick shaft with an octagonal lantern and a copper dome. The dome, put on after the 1815 fire, is why the tower is called a pepper pot. It is not a needle spire. The gallery is empty at this hour. It is clear, about 12.5°C, with wind near 9.0 km/h and cloud cover about 11%. The Sassenpoort is another building and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Peperbus tower in Zwolle at night, with its copper dome",
+    "viewpoint": "From Ossenmarkt at the foot of the tower, looking up at the lantern and dome. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Peperbus_(Zwolle)",
+      "https://www.peperbus-zwolle.nl/pagina/lantaarn_koperen_koepel_toren"
+    ],
+    "anchors": [
+      "A square brick Gothic shaft fills the frame",
+      "An octagonal lantern sits under a copper dome",
+      "The square is empty; there is no needle spire"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 02:55 street lamps light the brick. Cloud cover is about 11%. The wind is about 9.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-201",
+    "region": "Overijssel",
+    "city": "Deventer",
+    "folder": "Deventer",
+    "caption": "Waag, Deventer",
+    "composition": "Leaning weigh house on the Brink, stone stair platform in front · AI-generated artistic interpretation",
+    "description": "The Deventer Waag stands at the south end of the Brink, a late-Gothic weigh house with corner turrets, an octagonal stair tower, and a stone platform of columns and side stairs. The building leans about eighty centimetres. The museum is closed. It is mainly clear, about 9.9°C, with wind near 8.3 km/h and cloud cover about 48%. The Lebuinuskerk is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the leaning Waag on the Brink in Deventer at night",
+    "viewpoint": "From the Brink, looking south at the weigh-house front and the stair platform. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://museumdewaag.nl/en/see-do/de-waag",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/12508"
+    ],
+    "anchors": [
+      "The brick weigh house leans",
+      "A stone platform with columns and side stairs stands in front",
+      "Corner turrets and an octagonal stair tower; the church is outside the frame"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 02:55 the square is quiet. Cloud cover is about 48%. The wind is about 8.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-202",
+    "region": "Overijssel",
+    "city": "Kampen",
+    "folder": "Kampen",
+    "caption": "Koornmarktspoort, Kampen",
+    "composition": "Brick river gate with two round towers and octagonal slate spires · AI-generated artistic interpretation",
+    "description": "The Koornmarktspoort faces the IJssel, a brick gate with two round towers and octagonal slate spires on the river side. The present surface is brick. The nineteenth-century whitewash is not shown. It is mainly clear, about 10.2°C, with wind near 7.2 km/h and cloud cover about 23%. The city bridge is another scene and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Koornmarktspoort in Kampen at night, facing the IJssel",
+    "viewpoint": "From the public IJssel quay, looking at the river front of the gate. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Koornmarktspoort",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/23445"
+    ],
+    "anchors": [
+      "Dark river water fills the foreground",
+      "Two round brick towers flank an arched passage",
+      "Octagonal slate spires crown the towers"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 02:56 quay lamps light the brick. Cloud cover is about 23%. The wind is about 7.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-203",
+    "region": "Groningen",
+    "city": "Groningen",
+    "folder": "Groningen",
+    "caption": "Aa-kerk, Groningen",
+    "composition": "Medieval brick church and baroque tower across the canal · AI-generated artistic interpretation",
+    "description": "The Aa-kerk stands on the Akerkhof beside the canal. The church is medieval brick. The tower crown is the baroque lantern and closed spire, not the open Gothic crown of the Martinitoren, which is outside this frame. It is overcast, about 12.4°C, with wind near 5.8 km/h and cloud cover about 89%. The church is closed at this hour.",
+    "alt_text": "AI-generated artistic interpretation of the Aa-kerk in Groningen at night, seen across the canal",
+    "viewpoint": "From the west side of the canal, looking at the church and its baroque tower. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Akerk",
+      "https://www.groningerkerken.nl/"
+    ],
+    "anchors": [
+      "Dark canal water fills the foreground",
+      "A brick church stands on the far quay",
+      "The tower has a baroque lantern and a closed spire"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:22 Europe/Amsterdam and model is_day 0. At 02:56 the cloud hides the sky. Cloud cover is about 89%. The wind is about 5.8 km/h."
+  },
+  {
+    "entry_id": "NL-01-204",
+    "region": "Groningen",
+    "city": "Zeerijp",
+    "folder": "Zeerijp",
+    "caption": "Jacobuskerk, Zeerijp",
+    "composition": "Cruciform brick church and a free-standing saddle-roof tower · AI-generated artistic interpretation",
+    "description": "The Jacobuskerk at Zeerijp is a medieval cruciform brick church with romanogothic arched brickwork. The bell tower stands apart from the church and has a saddle roof. A partial moat and an iron gate with block piers mark the churchyard. The church is closed. It is overcast, about 8.3°C, with wind near 7.6 km/h and cloud cover about 95%.",
+    "alt_text": "AI-generated artistic interpretation of the Jacobuskerk and its free-standing tower at Zeerijp at night",
+    "viewpoint": "From the public road at the churchyard gate, looking toward the church and the separate tower. The gate is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Jacobuskerk_(Zeerijp)",
+      "https://www.groningerkerken.nl/"
+    ],
+    "anchors": [
+      "A cruciform brick church stands on the churchyard",
+      "A free-standing brick tower has a saddle roof",
+      "An iron gate and a partial moat sit in front"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:22 Europe/Amsterdam and model is_day 0. At 02:56 the churchyard is empty. Cloud cover is about 95%. The wind is about 7.6 km/h."
+  },
+  {
+    "entry_id": "NL-01-205",
+    "region": "Zeeland",
+    "city": "Burgh-Haamstede",
+    "folder": "Burgh-Haamstede",
+    "caption": "Plompe Toren, Burgh-Haamstede",
+    "composition": "Solitary brick church tower in a hollow of the sea dike · AI-generated artistic interpretation",
+    "description": "The Plompe Toren is the only standing piece of Koudekerke, a village the Oosterschelde took. The nave was taken down in 1583. The brick tower, about 23 metres, stands in a hollow of the inner dike slope, with dark sea water beyond the dike. It is partly cloudy, about 16.1°C, with wind near 10.1 km/h and cloud cover about 62%. No nave is shown.",
+    "alt_text": "AI-generated artistic interpretation of the solitary Plompe Toren at night in the Oosterschelde dike",
+    "viewpoint": "From the field path inside the dike, looking at the tower in its hollow, with the sea dike behind it. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Plompe_Toren_(Koudekerke)",
+      "https://www.natuurmonumenten.nl/natuurgebieden/zuidkust-van-schouwen/monument/plompe-toren"
+    ],
+    "anchors": [
+      "A lone brick church tower stands in a grass hollow",
+      "The sea dike rises behind it",
+      "There is no nave and no village around the tower"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:34 Europe/Amsterdam and model is_day 0. At 02:56 the fields are dark. Cloud cover is about 62%. The wind is about 10.1 km/h."
+  },
+  {
+    "entry_id": "NL-01-206",
+    "region": "Zeeland",
+    "city": "Zierikzee",
+    "folder": "Zierikzee",
+    "caption": "Sint-Lievensmonstertoren, Zierikzee",
+    "composition": "Unfinished massive brick tower, church nave gone · AI-generated artistic interpretation",
+    "description": "The Sint-Lievensmonstertoren is a massive decorated brick tower, about 62 metres, started in the fifteenth century and never given its planned spire. The church burned in 1832, so only the tower remains. The top is a low roof, not a needle. It is mainly clear, about 15.6°C, with wind near 8.3 km/h and cloud cover about 34%. The harbour gate is another scene and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the unfinished Sint-Lievensmonstertoren in Zierikzee at night",
+    "viewpoint": "From Kerkplein at the foot of the tower, looking up at the unfinished crown. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sint-Lievensmonstertoren",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/40635"
+    ],
+    "anchors": [
+      "A huge square brick tower dominates the square",
+      "Heavy buttresses and rich brick decoration climb the shaft",
+      "The top has a low roof, and the church nave is absent"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:33 Europe/Amsterdam and model is_day 0. At 02:56 square lamps light the brick. Cloud cover is about 34%. The wind is about 8.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-207",
+    "region": "Caribbean Netherlands",
+    "city": "Sint Eustatius",
+    "folder": "Sint Eustatius",
+    "caption": "Batterij De Windt, Sint Eustatius",
+    "composition": "Low brick coastal battery on the south cliff above a dark sea · AI-generated artistic interpretation",
+    "description": "Batterij De Windt is a low brick coastal battery at the south point of Sint Eustatius, about five kilometres from Oranjestad, facing the sea toward Saint Kitts. A few cannon sit on the platform. It is overcast, about 28.3°C, with wind near 14.4 km/h and cloud cover about 92%. Night water is dark. Fort Oranje and Lower Town are other scenes. No hotel name is shown.",
+    "alt_text": "AI-generated artistic interpretation of Batterij De Windt at night on the south cliff of Sint Eustatius",
+    "viewpoint": "From the public battery platform at the south cliff, looking across the low walls to the dark sea. The platform is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Batterij_De_Windt",
+      "https://www.statiagovernment.com/"
+    ],
+    "anchors": [
+      "Low brick walls sit on a cliff",
+      "A few cannon point over the wall",
+      "Dark sea fills the distance under heavy cloud"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 18:04 America/Kralendijk and model is_day 0. At 20:56 the battery is unlit except for a faint ambient glow. Cloud cover is about 92%. The wind is about 14.4 km/h."
+  },
+  {
+    "entry_id": "NL-01-208",
+    "region": "Caribbean Netherlands",
+    "city": "Saba",
+    "folder": "Saba",
+    "caption": "Hell's Gate, Saba",
+    "composition": "White houses and red roofs on a steep ridge under cloud · AI-generated artistic interpretation",
+    "description": "Hell's Gate, officially Zion's Hill, is the ridge village above the airport road, with small white wooden houses, red roofs, and stone garden walls. It is overcast, about 27.2°C, with wind near 22.8 km/h and cloud cover about 82%. The Bottom and Windwardside are other villages and are not this frame. The closed summit path is not shown. No sign is readable.",
+    "alt_text": "AI-generated artistic interpretation of Hell's Gate on Saba at night, white houses on a cloudy ridge",
+    "viewpoint": "From the public road through the upper village, looking across white houses on the slope. The road is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Zion%27s_Hill",
+      "https://www.sabatourism.com/"
+    ],
+    "anchors": [
+      "White wooden houses with red roofs step down a steep slope",
+      "Stone garden walls follow the road",
+      "Low cloud sits on the ridge; the airport runway is not in the frame"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 18:06 America/Kralendijk and model is_day 0. At 20:56 a few house lamps glow. Cloud cover is about 82%. The wind is about 22.8 km/h."
   }
 ]

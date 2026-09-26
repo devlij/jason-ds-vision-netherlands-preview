@@ -1,6 +1,6 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-192. IDs are not reused.
+NL-01-001 through NL-01-208. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
 NL-01-033 through NL-01-048 swaps:
 - NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.
@@ -122,6 +122,24 @@ NL-01-177 through NL-01-192 swaps:
 - NL-01-190: uses America/Kralendijk. Fort Oranje remains NL-01-065 and The Quill remains NL-01-145. This is Lower Town, partial brick and stone warehouse walls along the bay. The row is not restored to a complete 18th-century street. No hotel name is shown.
 - NL-01-191: uses America/Kralendijk. The salt pyramids remain NL-01-067 and the Willemstoren remains NL-01-176. These are the small white coral-stone huts at Witte Pan, with the larger overseer’s house. Night pans are dark, not pink.
 - NL-01-192: Zoutkamp remains NL-01-082 and Holwerd remains NL-01-081. The last ferry has gone. The quay is empty. No ship name and no operator mark are shown.
+- The other suggested sites in this batch were not already used.
+NL-01-193 through NL-01-208 swaps:
+- NL-01-193: the fishing harbour remains NL-01-054. This is the white lighthouse on the dike, with a red lantern and a copper dome. The basin is not in the frame.
+- NL-01-194: Almere already has a city hall. This is the timber visitor barn at Kitsweg in Lelystad, glass gable and a small lookout box. It is not the black wood centre on the Almere side. The centre is closed at this hour.
+- NL-01-195: the city hall remains NL-01-178. This is The Wave, the 2004 silver housing block on the Weerwater. No shop name is shown.
+- NL-01-196: the Middelbuurt church remains NL-01-055. This is the keeper’s house on the north terp, a low brick house by a small harbour. A tall lighthouse was not invented.
+- NL-01-197: Hunebed D27 remains NL-01-062 and D53 remains NL-01-179. This is D49, the Papeloze Kerk. One half is under a restored turf mound and the other half shows the stones.
+- NL-01-198: the museum is closed. The view is the U-shaped brick manor across the moat, two lower wings, late September leaf. The inner rooms are not shown.
+- NL-01-199: the park is closed. The huts are a museum reconstruction of the early peat hamlet, not an untouched street. No shop name and no train are shown.
+- NL-01-200: the Sassenpoort remains NL-01-070. This is the Peperbus. The crown is the octagonal lantern and the copper dome from after 1815, not a needle spire. The gallery is empty.
+- NL-01-201: the Lebuinuskerk remains NL-01-045. This is the leaning Waag on the Brink. The museum is closed. The church is outside the frame.
+- NL-01-202: the city bridge remains NL-01-071. This is the river gate. The towers are brick. The nineteenth-century whitewash is not the present surface, so it is not shown.
+- NL-01-203: Martinitoren remains NL-01-060. This is the Aa-kerk from the canal. The tower crown is the baroque lantern and closed spire, not the open Gothic crown.
+- NL-01-204: the bell tower stands apart from the cruciform church and has a saddle roof. A partial moat and an iron gate remain. The church is closed.
+- NL-01-205: the lost village was Koudekerke. The nave was taken down in 1583. The tower stands alone in a hollow of the Oosterschelde dike. No nave was rebuilt.
+- NL-01-206: Noordhavenpoort remains NL-01-042. This is the unfinished tower. The church burned in 1832. The top is a low roof, not the planned spire.
+- NL-01-207: uses America/Kralendijk. Fort Oranje remains NL-01-065 and Lower Town remains NL-01-190. The popular name Fort de Windt is the wrong type. This is Batterij De Windt, a low coastal battery on the south cliff. Night water is dark. No hotel name is shown.
+- NL-01-208: uses America/Kralendijk. The Bottom remains NL-01-066 and Windwardside remains NL-01-147. Hell’s Gate is the tourist name; the official name is Zion’s Hill. This is the upper village of white houses and red roofs. The airport runway and the closed summit are not shown.
 - The other suggested sites in this batch were not already used.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
@@ -316,3 +334,19 @@ NL-01-177 through NL-01-192 swaps:
 - NL-01-190 — Lower Town, Oranjestad — 25 September 2026 · 20:37 America/Kralendijk — retrieved 2026-09-25T20:37:19-04:00
 - NL-01-191 — Slave huts, Bonaire — 25 September 2026 · 20:37 America/Kralendijk — retrieved 2026-09-25T20:37:21-04:00
 - NL-01-192 — Ferry terminal, Lauwersoog — 26 September 2026 · 02:37 Europe/Amsterdam — retrieved 2026-09-26T02:37:24+02:00
+- NL-01-193 — Vuurtoren, Urk — 26 September 2026 · 02:55 Europe/Amsterdam — retrieved 2026-09-26T02:55:38+02:00
+- NL-01-194 — Buitencentrum, Lelystad — 26 September 2026 · 02:55 Europe/Amsterdam — retrieved 2026-09-26T02:55:41+02:00
+- NL-01-195 — The Wave, Almere — 26 September 2026 · 02:55 Europe/Amsterdam — retrieved 2026-09-26T02:55:43+02:00
+- NL-01-196 — Lichtwachterswoning, Schokland — 26 September 2026 · 02:55 Europe/Amsterdam — retrieved 2026-09-26T02:55:46+02:00
+- NL-01-197 — Papeloze Kerk, Schoonoord — 26 September 2026 · 02:55 Europe/Amsterdam — retrieved 2026-09-26T02:55:49+02:00
+- NL-01-198 — Havezate Mensinge, Roden — 26 September 2026 · 02:55 Europe/Amsterdam — retrieved 2026-09-26T02:55:51+02:00
+- NL-01-199 — Veenpark, Barger-Compascuum — 26 September 2026 · 02:55 Europe/Amsterdam — retrieved 2026-09-26T02:55:54+02:00
+- NL-01-200 — Peperbus, Zwolle — 26 September 2026 · 02:55 Europe/Amsterdam — retrieved 2026-09-26T02:55:57+02:00
+- NL-01-201 — Waag, Deventer — 26 September 2026 · 02:55 Europe/Amsterdam — retrieved 2026-09-26T02:55:59+02:00
+- NL-01-202 — Koornmarktspoort, Kampen — 26 September 2026 · 02:56 Europe/Amsterdam — retrieved 2026-09-26T02:56:02+02:00
+- NL-01-203 — Aa-kerk, Groningen — 26 September 2026 · 02:56 Europe/Amsterdam — retrieved 2026-09-26T02:56:05+02:00
+- NL-01-204 — Jacobuskerk, Zeerijp — 26 September 2026 · 02:56 Europe/Amsterdam — retrieved 2026-09-26T02:56:08+02:00
+- NL-01-205 — Plompe Toren, Burgh-Haamstede — 26 September 2026 · 02:56 Europe/Amsterdam — retrieved 2026-09-26T02:56:10+02:00
+- NL-01-206 — Sint-Lievensmonstertoren, Zierikzee — 26 September 2026 · 02:56 Europe/Amsterdam — retrieved 2026-09-26T02:56:13+02:00
+- NL-01-207 — Batterij De Windt, Sint Eustatius — 25 September 2026 · 20:56 America/Kralendijk — retrieved 2026-09-25T20:56:16-04:00
+- NL-01-208 — Hell's Gate, Saba — 25 September 2026 · 20:56 America/Kralendijk — retrieved 2026-09-25T20:56:19-04:00
