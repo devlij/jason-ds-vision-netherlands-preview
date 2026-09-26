@@ -4,12 +4,18 @@
   "region": "Utrecht",
   "city": "Breukelen",
   "caption": "Nijenrode Castle, Breukelen",
-  "scenario_label": "26 September 2026 \u00b7 01:22 Europe/Amsterdam",
-  "composition": "Brick water castle, one tall tower, and a moat \u00b7 AI-generated artistic interpretation",
-  "description": "Kasteel Nijenrode stands on a moated island beside the Vecht at Breukelen: a brick castle with a tall tower, stepped gables, and a drawbridge, seen from the public road. The sky is overcast, about 13.4\u00b0C, with wind near 6.1 km/h. The grounds are closed at this hour, so the inner court is not shown. No name is readable.",
+  "scenario_label": "26 September 2026 · 01:22 Europe/Amsterdam",
+  "composition": "Brick water castle, one tall tower, and a moat · AI-generated artistic interpretation",
+  "description": "Kasteel Nijenrode stands on a moated island beside the Vecht at Breukelen: a brick castle with a tall tower, stepped gables, and a drawbridge, seen from the public road. The sky is overcast, about 13.4°C, with wind near 6.1 km/h. The grounds are closed at this hour, so the inner court is not shown. No name is readable.",
   "alt_text": "AI-generated artistic interpretation of Nijenrode Castle at Breukelen across its moat on an overcast night",
   "file_16x9": "Netherlands/Breukelen/nl-01-123-16x9.png",
   "file_4x5": "Netherlands/Breukelen/nl-01-123-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Nijenrode Castle, Breukelen: the moated brick castle with step gables and corner tower, warmly lit windows doubled in the dark moat, parkland at the edges, overcast night. On-image caption 'Nijenrode Castle, Breukelen', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:43+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
+  "approved_at": "2026-09-26T07:38:50.740864+00:00",
+  "sha256_16x9": "95015fab9865ad47b486e3105ce4e662d6bc8ea9f26308a3e5198c07cba65337",
+  "sha256_4x5": "cadce275ee4b6d590133723dc21d67e41dc12b86bd014ead223824629191d018"
 }
