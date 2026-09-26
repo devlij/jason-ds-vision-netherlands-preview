@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: low pale-sandstone hall church (Simon en Judaskerk) with a small wooden turret on the roof ridge and no tall west tower — honest to the anchor that the tower was removed in 1842 and never reconstructed — standing on a cobbled Markt square flanked by historic houses under a near-full moon in a starry clear sky. Gate 2 PASS: exact 1920x1080/864x1080; on-image 'Markt, Ootmarsum', scenario '26 September 2026 · 01:56 Europe/Amsterdam', disclosure and curly-apostrophe 'Jason D's Vision' signature legible both formats; all five Art. 50 metadata fields present; scenario 01:56 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:56:54+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: empty quiet square, no people or logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
   "approved_at": "2026-09-26T09:45:11.798091+00:00",
-  "sha256_16x9": "f074c9a0979676987663f45f78eb158af6ebe5db016afbf58a381c421d895bfc",
-  "sha256_4x5": "c0d059ebb61d4538b8ecb37f334060f96506ee751816e4753a71d4429144648f"
+  "sha256_16x9": "ac7ea3d87cca97c684ac338750652d88a5efe7020c983ffd8b5401374228f622",
+  "sha256_4x5": "c3dcfa398346c2e4de4794b96b91fb77fbe786193b56d7d741cd3bfe54115771",
+  "file_9x16": "Netherlands/Ootmarsum/nl-01-152-9x16.png",
+  "sha256_9x16": "885f3425941f2e9c49a2dae6110b9bccd7ae4e98bd1cc591ee2a59d59d02c0ae",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 f074c9a0979676987663f45f78eb158af6ebe5db016afbf58a381c421d895bfc. Source SHA-256 4:5 c0d059ebb61d4538b8ecb37f334060f96506ee751816e4753a71d4429144648f. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

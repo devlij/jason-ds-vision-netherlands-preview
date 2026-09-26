@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night scene of Kasteel Het Nijenhuis at Heino from the public approach across the moat: brick manor with two forward wings, central bay with balcony above the entrance, lit upper windows reflected in dark moat water, low bridge parapets closing the foreground. Gate 1 visual PASS — matches the card's documented anchors (brick manor, two forward wings, centre balcony bay, dark moat foreground). Gate 2 technical PASS — masters 1920x1080 + 864x1080, exact curly-apostrophe 'Jason D's Vision' signature bottom-right, exact caption 'Kasteel Het Nijenhuis, Heino' + 'Scenario: 26 September 2026 · 04:36 Europe/Amsterdam' + 'AI-generated artistic interpretation · Not a photograph.' bottom-left on gradient scrim, Art. 50 PNG metadata (Title/Description/Copyright/Software + EU AI Act Art. 50 Comment); Open-Meteo retrieval 2026-09-26T04:36:46+02:00 unique to the second repo-wide (288/288 unique), scenario minute 04:36 inside the 04:00–04:59 model hour. Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people, logos, or private property; license badge 'Free · no credit needed' (documented only, not a certified clearance). Gate 5: card fields complete.",
   "approved_at": "2026-09-26T18:41:20.794110+00:00",
-  "sha256_16x9": "1e18287686d449f5b19d1a68d65c281c241b006d0097df2c364afd574d247792",
-  "sha256_4x5": "5ad34f69892ca5256d75d0c80d78713396b62300f5f200f8ee47f77d920b019d"
+  "sha256_16x9": "5bc268647c1f774b80b2093fb22e1c1f1b1ad26b1943fe66c69d2713d1e0351d",
+  "sha256_4x5": "035f3e616f665797de88a013031d6cf3792eecef29ff38cb6a12db2d3490ed25",
+  "file_9x16": "Netherlands/Heino/nl-01-275-9x16.png",
+  "sha256_9x16": "218e19bc7c49588bd533dbf7d8d9d884dea5c24954658f727b66425135771573",
+  "format_9x16_approval_status": "Candidate"
 }

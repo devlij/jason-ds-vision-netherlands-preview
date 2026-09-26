@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Oude Kerk Delft — brick Gothic church with its famously off-vertical tower beside the canal and a row of gabled houses, street lamps reflecting in water; review-based pass, no forensic audit. G2 PASS: exact dims; on-image caption 'Oude Kerk, Delft', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:49+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public church. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:30.251645+00:00",
-  "sha256_16x9": "9b8e0059a87fb5ec1e0d1c9a6daa782a4df35cee08cafaa6b555457db5c9a5bb",
-  "sha256_4x5": "a124681515cdf203f44644628e740a8e5640902737bb0f3fd2a04968d49dc60e"
+  "sha256_16x9": "767e9d3ced51babe23ebb4f5e349e3100123b650fddf37146ed1e15689bd897c",
+  "sha256_4x5": "3b3a3aab477593987fd29efee5af751fe7d3486597def386db46eb9211edc3e4",
+  "file_9x16": "Netherlands/Delft/nl-01-080-9x16.png",
+  "sha256_9x16": "0d0f83ed2f3b2300a5c2e7caa7570fc42967a75e4d25155b4e799c485274eef6",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 9b8e0059a87fb5ec1e0d1c9a6daa782a4df35cee08cafaa6b555457db5c9a5bb. Source SHA-256 4:5 a124681515cdf203f44644628e740a8e5640902737bb0f3fd2a04968d49dc60e. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

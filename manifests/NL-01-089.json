@@ -23,6 +23,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1: night scene of the short white square Katwijk lighthouse tower on the boulevard with moonlit beach beyond and street lamps, clean framing, no artifacts. G2: both masters exact 1920x1080 / 864x1080; on-image caption 'Lighthouse, Katwijk', scenario '26 September 2026 · 00:38 Europe/Amsterdam', disclosure and 'Jason D’s Vision' signature legible on scrim; Art. 50 PNG metadata present both files; Open-Meteo retrieval 2026-09-26T00:38:20+02:00, verified unique to the second across all 288 NL scenes; scenario minute 00:38 inside model hour 00:00. G3: builder note documents text-prompt-only generation, no photographic input. G4: no prominent people or focal logos; internal documentation only. G5: card fields complete, manifest present as Candidate.",
   "approved_at": "2026-09-26T06:38:22.487442+00:00",
-  "sha256_16x9": "665e8f39e4ec1bf7aa12d112ce751ca2a90a617c392ee3b3eb627fdb378e358f",
-  "sha256_4x5": "ba0f7db25399f2d670e70eb57ecb98ab70a2adaee85d065056f0529e7956f85a"
+  "sha256_16x9": "9e7d738358a3d8ca6beeba8070c7c2e69d517a25295a7496b64e865e233bfd38",
+  "sha256_4x5": "fa90ec564ebdec3be7727e06a0a67857d8c7a43c535f407bc59242e4e6464ee5",
+  "file_9x16": "Netherlands/Katwijk/nl-01-089-9x16.png",
+  "sha256_9x16": "49db998e14b5312a44791a43417eac5d810e21061e164c0972c48d2bda924aa5",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 665e8f39e4ec1bf7aa12d112ce751ca2a90a617c392ee3b3eb627fdb378e358f. Source SHA-256 4:5 ba0f7db25399f2d670e70eb57ecb98ab70a2adaee85d065056f0529e7956f85a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

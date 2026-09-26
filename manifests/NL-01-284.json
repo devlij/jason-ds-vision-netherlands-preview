@@ -4,12 +4,15 @@
   "region": "Zeeland",
   "city": "Zierikzee",
   "caption": "Stadhuis, Zierikzee",
-  "scenario_label": "26 September 2026 \u00b7 04:37 Europe/Amsterdam",
-  "composition": "Stone town hall and octagonal tower from the Meelstraat \u00b7 AI-generated artistic interpretation",
-  "description": "The Stadhuis at Zierikzee is a stone-fronted town hall with an octagonal brick tower, an open lantern, and a pear-shaped crown. A small Neptune figure finishes the spire and is not a separate monument. It is overcast, about 15.3\u00b0C, with wind near 8.3 km/h and cloud cover about 100%. The museum is closed. The portrait medallions are not readable. The Noordhavenpoort and the Sint-Lievensmonstertoren are other scenes and are not in this frame.",
+  "scenario_label": "26 September 2026 · 04:37 Europe/Amsterdam",
+  "composition": "Stone town hall and octagonal tower from the Meelstraat · AI-generated artistic interpretation",
+  "description": "The Stadhuis at Zierikzee is a stone-fronted town hall with an octagonal brick tower, an open lantern, and a pear-shaped crown. A small Neptune figure finishes the spire and is not a separate monument. It is overcast, about 15.3°C, with wind near 8.3 km/h and cloud cover about 100%. The museum is closed. The portrait medallions are not readable. The Noordhavenpoort and the Sint-Lievensmonstertoren are other scenes and are not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the Stadhuis in Zierikzee at night",
   "file_16x9": "Netherlands/Zierikzee/nl-01-284-16x9.png",
   "file_4x5": "Netherlands/Zierikzee/nl-01-284-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "file_9x16": "Netherlands/Zierikzee/nl-01-284-9x16.png",
+  "sha256_9x16": "1b63ee28226182d8f8a906ede6cc6edef793e063532672a2ded0e8ed69dfa408",
+  "format_9x16_approval_status": "Candidate"
 }

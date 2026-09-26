@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Observed in the 16:9 master: twin octagonal brick towers with tall spires flanking the gatehouse arcade over the canal arch, warm quay lamps, dark water reflections, moon behind cloud, matching the weather model (78% cloud, is_day 0, WMO 2). G1: Waterpoort's two spired towers and canal arch verified against anchors, quay viewpoint, no land-gate walls, no artifacts. G2: sweep-verified 1920x1080 and 864x1080 PNGs; exact caption, scenario line '26 September 2026 · 02:16 Europe/Amsterdam', AI disclosure and 'Jason D’s Vision' signature (curly apostrophe) legible on the bottom edge; EU AI Act Art. 50 PNG metadata present; scenario minute sits inside model-valid hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:16:27+02:00 verified unique to the second across all 288 Netherlands scenes. G3: evidence card documents text-prompt-only lineage, no photographic inputs. G4: no visible people, logos, or readable private property; license badge 'Free · no credit needed' recorded, final commercial-use call is Jason's. G5: manifest card fields complete, no open blockers.",
   "approved_at": "2026-09-26T10:38:18.420750+00:00",
-  "sha256_16x9": "b3db95c25973b260ecfb3d6ca562b35b3be99e41751db4ad0f6c2b9dc886c8c6",
-  "sha256_4x5": "2cea1c09f51d733ad1a75ed6845768844789f7dcd337c008af7f4970f0572a0f"
+  "sha256_16x9": "22dda9cb8a86ea9cf87d7952ff3e046d6a0b1ce1282f4443170f57c55c035f32",
+  "sha256_4x5": "0e4dc167c1d9858cac4d173990f5eaa71a19caa60ccdc91076bfa58a207d4859",
+  "file_9x16": "Netherlands/Sneek/nl-01-161-9x16.png",
+  "sha256_9x16": "edd59e5834f66c608b32e51bb564d144ae62d32ef0fec7ed962b5ce40e7149eb",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b3db95c25973b260ecfb3d6ca562b35b3be99e41751db4ad0f6c2b9dc886c8c6. Source SHA-256 4:5 2cea1c09f51d733ad1a75ed6845768844789f7dcd337c008af7f4970f0572a0f. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

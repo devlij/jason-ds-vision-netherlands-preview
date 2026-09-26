@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night. G1 visual pass: the brick Havezate Mensinge with its two side wings reflected in the moat, avenue trees flanking the approach under an overcast sky — a faithful havezate prospect, symmetrical framing clean. G2 technical pass: exact 1920x1080/864x1080; caption 'Havezate Mensinge, Roden', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:51+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure present. G3: text-prompt-only, no photographic input. G4: no people or logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T12:43:00.713633+00:00",
-  "sha256_16x9": "aa805cd835d5b41583ddf208ff44058c2a8afd8147a6d5897e4c790191b676a2",
-  "sha256_4x5": "f47b26ba5c416baab745ad93787aaeaef0d498f84acb34b56366c511c2092db9"
+  "sha256_16x9": "316f33efd877cb3063da6c22955a98266e28621415201f62659284d0107c826d",
+  "sha256_4x5": "a3a8e82d0596163ba3a6a75a509b4252f64f274f4b42453a7be969858609d459",
+  "file_9x16": "Netherlands/Roden/nl-01-198-9x16.png",
+  "sha256_9x16": "d1c8dcaf0482048678ce4196b8155ca0fc519716dfaed0ba2374b27fc8752853",
+  "format_9x16_approval_status": "Candidate"
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: white rounded tower with lit windows rising from a curved white base under a full moon — recognizably the Lichttoren in Eindhoven; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Lichttoren, Eindhoven' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:16+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:39:53.738830+00:00",
-  "sha256_16x9": "cef294c68e45c248de56773587ffaf51662224b6a3952cd63eae3a3481fabc32",
-  "sha256_4x5": "24d4765f0cd1d14d5ecb794147876d446f1a2b779a4c0789f737facfd615c70b"
+  "sha256_16x9": "32adf663caf63d555e4d4086bbe8a58d21fe14d4363b288f8fc3b7ea37c2763a",
+  "sha256_4x5": "c89dcfa7951bacd7234295751dbceb3223f6f15327c6078caaef15287fb6dba3",
+  "file_9x16": "Netherlands/Eindhoven/nl-01-142-9x16.png",
+  "sha256_9x16": "3e4afc8d7eca191eb7e56895c1d3cdbe8b0e179f63a06ad960f1c73110cb52cb",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 cef294c68e45c248de56773587ffaf51662224b6a3952cd63eae3a3481fabc32. Source SHA-256 4:5 24d4765f0cd1d14d5ecb794147876d446f1a2b779a4c0789f737facfd615c70b. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

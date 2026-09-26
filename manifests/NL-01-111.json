@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1: night view of Hotel De Wereld Wageningen from 5 Mei Plein: red-brick three-storey facade with glass veranda, lit windows, chestnut trees on the empty square; clean framing, no artifacts. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Hotel De Wereld, Wageningen', scenario '26 September 2026 · 01:04 Europe/Amsterdam', disclosure and signature legible on scrim; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:04:48+02:00 unique across all 288 NL scenes; scenario minute inside model hour 01:00. G3: builder note documents text-prompt-only, no photographic input. G4: no people or logos visible; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T06:39:43.539138+00:00",
-  "sha256_16x9": "7a2389e1ac52fb832d77c6e0fa186627e410cb2e4d7be04e8233d697bed0349d",
-  "sha256_4x5": "23fa693b5c924d6aed080a004c8bbd667abe82b4515b89fbba01f7c52c1f63f9"
+  "sha256_16x9": "88f1ee2e1644f5b00a56ef798b282dc6fa8955637d14c40af7c352af7226dd18",
+  "sha256_4x5": "78f4a4b2f3f834de43ad21676ae48afc3b861c7fe6d3d0c6917d9305328ffe5f",
+  "file_9x16": "Netherlands/Wageningen/nl-01-111-9x16.png",
+  "sha256_9x16": "bb233b45463050efa4ad2f9b5e435b1b6bb45e25179ad549114c234e39955e63",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 7a2389e1ac52fb832d77c6e0fa186627e410cb2e4d7be04e8233d697bed0349d. Source SHA-256 4:5 23fa693b5c924d6aed080a004c8bbd667abe82b4515b89fbba01f7c52c1f63f9. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -18,5 +18,8 @@
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26): the two format masters disagree on the tower's crown - the 16x9 shows a tall square brick west tower with a flat parapet top (no spire) plus a separate slender spire rising from the crossing, while the 4x5 shows the west tower crowned by a tall pointed spire with no separate crossing spire. Card anchor #2 (tall square brick tower with a slender spire) matches the 4x5 and contradicts the 16x9. Builder to align the renders and re-push."
     }
-  ]
+  ],
+  "file_9x16": "Netherlands/Oirschot/nl-01-256-9x16.png",
+  "sha256_9x16": "7cab9cdcd73763f85cb0fba6abc9dc9e0272622d212bf0837ca188f400de2128",
+  "format_9x16_approval_status": "Candidate"
 }

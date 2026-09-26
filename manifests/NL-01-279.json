@@ -4,12 +4,15 @@
   "region": "Caribbean Netherlands",
   "city": "Bonaire",
   "caption": "Blue obelisk, Bonaire",
-  "scenario_label": "25 September 2026 \u00b7 22:37 America/Kralendijk",
-  "composition": "Single blue stone needle on the salt-pier shore \u00b7 AI-generated artistic interpretation",
-  "description": "The blue obelisk on Bonaire is one stone needle painted blue, set on the south-coast shore by the salt pier to mark the old Blauwe Pan anchorage. The other three colours stand at other pans and are not in this frame. It is mainly clear, about 28.3\u00b0C, with wind near 23.3 km/h and cloud cover about 21%. Night water is dark, not turquoise. No company name is shown. The salt pyramids and the white slave huts are other scenes.",
+  "scenario_label": "25 September 2026 · 22:37 America/Kralendijk",
+  "composition": "Single blue stone needle on the salt-pier shore · AI-generated artistic interpretation",
+  "description": "The blue obelisk on Bonaire is one stone needle painted blue, set on the south-coast shore by the salt pier to mark the old Blauwe Pan anchorage. The other three colours stand at other pans and are not in this frame. It is mainly clear, about 28.3°C, with wind near 23.3 km/h and cloud cover about 21%. Night water is dark, not turquoise. No company name is shown. The salt pyramids and the white slave huts are other scenes.",
   "alt_text": "AI-generated artistic interpretation of the blue salt obelisk on Bonaire at night",
   "file_16x9": "Netherlands/Bonaire/nl-01-279-16x9.png",
   "file_4x5": "Netherlands/Bonaire/nl-01-279-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "file_9x16": "Netherlands/Bonaire/nl-01-279-9x16.png",
+  "sha256_9x16": "9709ef542b73840e80ac119f7415b0e6b59d5ad7609ac517098027a30ca6fd65",
+  "format_9x16_approval_status": "Candidate"
 }

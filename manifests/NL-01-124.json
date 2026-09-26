@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Woerden Castle, Woerden: the great round-towered brick fortress — four massive corner towers — with its wooden drawbridge over the moat, floodlit stonework under a moonlit night sky. On-image caption 'Woerden Castle, Woerden', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:45+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:38:57.619701+00:00",
-  "sha256_16x9": "e93237250133195c52f56587d68f113c37432942c8fe0b8dc522498507a45154",
-  "sha256_4x5": "d05f2634b7a150630bb43ec3f5237b17ecb6ab19e16b5326da6f1f90f065746a"
+  "sha256_16x9": "58ba99e6a046065bd4c8e51d85ebef44c29c7aba70705a48779e68afb9d8277e",
+  "sha256_4x5": "0f9652d9e715886919306fdcab37810fdde06d83e9e9dc9a16ae1133fd83b162",
+  "file_9x16": "Netherlands/Woerden/nl-01-124-9x16.png",
+  "sha256_9x16": "3d1ebbec4b34179211689ffc0b1b6c2ba7c073d9ea4fd60cf527561c435960c7",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 e93237250133195c52f56587d68f113c37432942c8fe0b8dc522498507a45154. Source SHA-256 4:5 d05f2634b7a150630bb43ec3f5237b17ecb6ab19e16b5326da6f1f90f065746a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

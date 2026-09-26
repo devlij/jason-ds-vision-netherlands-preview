@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: stone church ruin under a starry night sky — thick roofless nave walls with arched/Gothic window openings, a three-storey square corner tower with arched openings, old gravestones in the grassy foreground, a lit street lamp at left, dark trees at the edges; matches the evidence card's anchors (roofless nave, three-storey corner tower, tombs); 16x9 and 4x5 depict the same ruin with no subject-identity disagreement. Gate 2: exact 1920x1080/864x1080 masters, caption 'Dutch Reformed Church, Oranjestad', scenario '25 September 2026 · 22:18 America/Kralendijk' inside the model-valid hour of the recorded Open-Meteo retrieval 2026-09-25T22:18:25-04:00 (verified unique to the second across all 288 Netherlands evidence files), exact curly-apostrophe signature and disclosure legible, Art. 50 PNG metadata present on both masters. Gate 3: evidence card claims text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, no logos; historic ruin with gravestones — documented only. Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T16:57:37.007229+00:00",
-  "sha256_16x9": "1879f13fcfa800187da7a6b5eff32046b8db26ee6175edeafc87cbc0d1145e1f",
-  "sha256_4x5": "1a9355cda908d92bf2a4365d986b954fe741089e1a0677defce8dc536d0acf88"
+  "sha256_16x9": "758891a014d714946f88fe2bb82c4e76d7677b13df62d11ff87d169bcdfeba63",
+  "sha256_4x5": "aaefae0bf6e41d73b640ee09237da7f3a75ff351b426275b50167d55b20ccca7",
+  "file_9x16": "Netherlands/Oranjestad/nl-01-258-9x16.png",
+  "sha256_9x16": "8eb68efaa56a9c35231af88c7f0c9b7dcf7841650336b38d1b436bebc698bbe8",
+  "format_9x16_approval_status": "Candidate"
 }

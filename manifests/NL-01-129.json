@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Teylers Museum, Haarlem: the grand arcaded museum facade on the Spaarne at night — pedimented central bay, columned upper loggia, sculpture group on the roof, lantern-lit quay with reflections in the water. On-image caption 'Teylers Museum, Haarlem', scenario '26 September 2026 · 01:37 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:37:41+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute 01:37 inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:39:34.463920+00:00",
-  "sha256_16x9": "8e755f805c4fd0f56815d08095cf95b791d73090b310968ed088f9501bc80fea",
-  "sha256_4x5": "d5ef9c2a8d9ac367c51734fdfc3225d4ebf87b337cf5d62063e1cfd954825433"
+  "sha256_16x9": "d0721595fca69c7484fdf3b07a98c4bbe3b56cbdfa61898ed33c70ea211a885a",
+  "sha256_4x5": "1e55a797639254f6b4ac2e48b4f7c178e6c7b75131cc28c854b760c15a3c6008",
+  "file_9x16": "Netherlands/Haarlem/nl-01-129-9x16.png",
+  "sha256_9x16": "9016c5f3b966568da0df86f6ddd2b5fcb2efe008c748927f6e0d86ab686686e7",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 8e755f805c4fd0f56815d08095cf95b791d73090b310968ed088f9501bc80fea. Source SHA-256 4:5 d5ef9c2a8d9ac367c51734fdfc3225d4ebf87b337cf5d62063e1cfd954825433. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -51,11 +51,51 @@ def valid_display(weather: dict) -> str:
     return f"{mt.day} {MONTHS[mt.month]} {mt.year} {mt.strftime('%H:%M')} {tz_name}"
 
 
-def approval_md(row: dict, weather: dict, sha16: str, sha45: str) -> str:
+def approval_md(row: dict, weather: dict, sha16: str, sha45: str, sha916: str | None = None) -> str:
     refs = "\n".join(f"  {i}. {url}" for i, url in enumerate(row["references"], 1))
     anchors = "\n".join(f"  {i}. {text}" for i, text in enumerate(row["anchors"], 1))
     hour = weather["retrieval_timestamp"][11:13]
     valid_display_text = valid_display(weather)
+    stem = row["entry_id"].lower()
+    folder = row["folder"]
+    if sha916:
+        source_notes = (
+            "Text-prompt-only lineage. No photographic reference was supplied to the generator. "
+            "The two reference links were consulted for arrangement only. "
+            f"Pure pre-text photographs are kept under library/pretext/Netherlands/{folder}/. "
+            "4:5 and 9:16 use pure re-frames of the same viewpoint when those files are stored; "
+            "otherwise they are center-cropped from the 16:9 pre-text. "
+            "The finished masters add a 190px label bar under the photo. "
+            "No scrim, tint, shadow, or text was drawn over the artwork. "
+            "No credit is required. These notes are not a legal certification."
+        )
+        technical = (
+            "masters are 1920×1270 (16:9), 864×1270 (4:5), and 1080×2110 (9:16). "
+            "Photo areas are 1920×1080, 864×1080, and 1080×1920. "
+            "A uniform #0e0e12 label bar and a 2px hairline sit under the photo."
+        )
+        ready = "label bar has the site line, scenario, disclosure, and signature. Awaiting Cosmo QC."
+        masters = f"""- `library/world/Netherlands/{folder}/{stem}-16x9.png`
+- `library/world/Netherlands/{folder}/{stem}-4x5.png`
+- `library/world/Netherlands/{folder}/{stem}-9x16.png`
+- SHA-256 16:9: `{sha16}`
+- SHA-256 4:5: `{sha45}`
+- SHA-256 9:16: `{sha916}`"""
+        art_scope = "all three masters"
+    else:
+        source_notes = (
+            f"Text-prompt-only lineage. No photographic reference was supplied to the generator. "
+            f"The two reference links were consulted for arrangement only. Caption, scenario line, "
+            f"disclosure, and the signature {SIG} were drawn onto a gradient scrim after generation. "
+            "No credit is required. These notes are not a legal certification."
+        )
+        technical = "masters are 1920×1080 and 864×1080, with caption, scenario, disclosure, and signature on a gradient scrim."
+        ready = "caption, scenario, signature, and disclosure are present. Awaiting Cosmo QC."
+        masters = f"""- `library/world/Netherlands/{folder}/{stem}-16x9.png`
+- `library/world/Netherlands/{folder}/{stem}-4x5.png`
+- SHA-256 16:9: `{sha16}`
+- SHA-256 4:5: `{sha45}`"""
+        art_scope = "both masters"
     sky_words = {
         0: "Clear sky",
         1: "Mainly clear",
@@ -82,26 +122,23 @@ This note is an internal checklist for Cosmo QC. It does not approve the scene.
 - **Scenario:** Scenario: {weather['scenario_label']}. The scenario minute sits inside the model-valid hour of this scene's own retrieval.
 - **Solar / time of day:** {row['solar']}
 - **Independent description:** {row['description']}
-- **Source-use notes:** Text-prompt-only lineage. No photographic reference was supplied to the generator. The two reference links were consulted for arrangement only. Caption, scenario line, disclosure, and the signature {SIG} were drawn onto a gradient scrim after generation. No credit is required. These notes are not a legal certification.
+- **Source-use notes:** {source_notes}
 
 ## Gates
 
 1. Visual/location — internal checklist met on review. Still Candidate.
-2. Technical — masters are 1920×1080 and 864×1080, with caption, scenario, disclosure, and signature on a gradient scrim.
+2. Technical — {technical}
 3. Originality/provenance — text-prompt-only. No photographic input.
 4. Commercial/IP — no prominent identifiable people, no focal logos, and no copyrighted artwork as the subject. Internal review only, not a legal certification.
-5. Publication readiness — caption, scenario, signature, and disclosure are present. Awaiting Cosmo QC.
+5. Publication readiness — {ready}
 
 ## Masters
 
-- `library/world/Netherlands/{row['folder']}/{row['entry_id'].lower()}-16x9.png`
-- `library/world/Netherlands/{row['folder']}/{row['entry_id'].lower()}-4x5.png`
-- SHA-256 16:9: `{sha16}`
-- SHA-256 4:5: `{sha45}`
+{masters}
 
 ## EU AI Act Art. 50
 
-Metadata only, on both masters:
+Metadata only, on {art_scope}:
 
 - Title (iTXt): {TITLE}
 - Description (tEXt): {DESCRIPTION}
@@ -223,25 +260,31 @@ PAGE = r"""<!DOCTYPE html>
       background: var(--card); border: 1px solid var(--line); border-radius: 14px;
       overflow: hidden; display: flex; flex-direction: column;
     }
-    .preview { position: relative; }
-    .fmt-tabs { display: flex; gap: 6px; padding: 0.75rem 1.05rem 0; line-height: 1.4; }
-    .day-row { padding: 0.5rem 1.05rem 0; }
+    .preview { display: flex; flex-direction: column; background: #101820; }
+    .fmt-tabs {
+      display: flex; flex-wrap: wrap; gap: 6px;
+      padding: 0.7rem 0.65rem 0;
+    }
     .fmt-tab {
-      background: rgba(20, 32, 47, 0.85); color: var(--text); border: 1px solid var(--line);
+      background: #243049; color: var(--text); border: 1px solid var(--line);
       border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
     }
     .fmt-tab:hover { border-color: var(--muted); }
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
     }
-    .day-row button.day-tab {
+    button.day-tab {
       display: inline-block; background: #243049; color: var(--text);
-      border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
+      border-radius: 8px; padding: 0.4rem 0.7rem; font: inherit; font-size: 0.85rem; border: 1px solid var(--line);
       cursor: pointer;
     }
-    .day-row button.day-tab:hover { border-color: var(--accent); }
-    .day-row button.day-tab.is-active {
+    button.day-tab:hover { border-color: var(--accent); }
+    button.day-tab.is-active {
       background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
+    }
+    .media-actions {
+      display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;
+      padding: 0.55rem 0.65rem 0.75rem;
     }
     .thumb {
       display: block; padding: 0.65rem 0.65rem 0; background: #101820; line-height: 0;
@@ -251,7 +294,7 @@ PAGE = r"""<!DOCTYPE html>
       aspect-ratio: 16 / 9; object-fit: contain;
     }
     .thumb.tall img { aspect-ratio: 4 / 5; }
-    .thumb.tall916 img { aspect-ratio: 9 / 16; }
+    .thumb.tall916 img { aspect-ratio: 1080 / 2110; }
     .card-body { padding: 1rem 1rem 1.15rem; display: flex; flex-direction: column; gap: 0.35rem; flex: 1; }
     .entry-id { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
     .status-row { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; }
@@ -265,11 +308,11 @@ PAGE = r"""<!DOCTYPE html>
     .scenario, .composition, .detail { font-size: 0.85rem; color: var(--muted); margin: 0; }
     .detail { font-size: 0.92rem; color: #d7dde8; margin: 0.35rem 0 0; }
     .actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.85rem; align-items: center; }
-    .actions a.download {
+    .actions a.download, .media-actions a.download {
       display: inline-block; text-decoration: none; background: #1c3148; color: var(--text);
       border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
     }
-    .actions a.download:hover { border-color: var(--accent); }
+    .actions a.download:hover, .media-actions a.download:hover { border-color: var(--accent); }
     .badge {
       display: inline-block; font-size: 0.75rem; color: var(--bg); background: var(--accent);
       border-radius: 999px; padding: 0.25rem 0.6rem; text-decoration: none; font-weight: 600;
@@ -410,18 +453,26 @@ PAGE = r"""<!DOCTYPE html>
         const file16 = 'library/world/' + s.file_16x9;
         const file45 = 'library/world/' + s.file_4x5;
         const file916 = s.file_9x16 ? 'library/world/' + s.file_9x16 : null;
+        const labelBar = !!file916;
+        const ratio16 = labelBar ? "1920 / 1270" : "16 / 9";
+        const ratio45 = labelBar ? "864 / 1270" : "4 / 5";
         card.innerHTML = `
           <div class="preview">
             <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
-              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}"${s.file_16x9_day ? ` data-src-16-day="${esc('library/world/' + s.file_16x9_day)}" data-src-45-day="${esc('library/world/' + s.file_4x5_day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${s.file_9x16_day ? ` data-src-916-day="${esc('library/world/' + s.file_9x16_day)}"` : ""} />
+              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" style="aspect-ratio: ${ratio16}" data-ratio-16="${ratio16}" data-ratio-45="${ratio45}" data-ratio-916="1080 / 2110" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}"${s.file_16x9_day ? ` data-src-16-day="${esc('library/world/' + s.file_16x9_day)}" data-src-45-day="${esc('library/world/' + s.file_4x5_day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${s.file_9x16_day ? ` data-src-916-day="${esc('library/world/' + s.file_9x16_day)}"` : ""} />
             </a>
-          </div>
-          <div class="fmt-tabs" role="group" aria-label="Image size">
+            <div class="fmt-tabs" role="group" aria-label="Image size">
               <button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>
               <button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>
               ${file916 ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
             </div>
-          ${s.file_16x9_day ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>` : ""}
+            <div class="media-actions">
+              ${s.file_16x9_day ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button>` : ""}
+              <a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
+              <a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>
+              ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
+            </div>
+          </div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
@@ -433,10 +484,6 @@ PAGE = r"""<!DOCTYPE html>
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="${esc(s.license_anchor)}">${esc(s.license_badge)}</a>
-              <a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
-              <a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>
-              ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
-              
             </div>
           </div>`;
         grid.appendChild(card);
@@ -496,6 +543,12 @@ PAGE = r"""<!DOCTYPE html>
         img.src = next;
         link.href = next;
       }
+      const ratio = fmt === "4x5"
+        ? img.getAttribute("data-ratio-45")
+        : fmt === "9x16"
+        ? img.getAttribute("data-ratio-916")
+        : img.getAttribute("data-ratio-16");
+      if (ratio) img.style.aspectRatio = ratio;
       link.classList.toggle('tall', fmt === '4x5');
       link.classList.toggle('tall916', fmt === '9x16');
     });
@@ -582,7 +635,7 @@ def main() -> None:
     lines = [
         "# Netherlands sequence log",
         "",
-        "NL-01-001 through NL-01-288. IDs are not reused.",
+        "NL-01-001 through NL-01-224. IDs are not reused.",
         "NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.",
         "NL-01-033 through NL-01-048 swaps:",
         "- NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.",
@@ -741,79 +794,6 @@ def main() -> None:
         "- NL-01-223: Willemstad is in North Brabant, on the Hollands Diep. The church is octagonal brick with a dome and an unfinished low square tower. A tall spire was never built and is not invented. The moat around the churchyard remains.",
         "- NL-01-224: uses America/Kralendijk. The Kralendijk waterfront, the salt pans, the slave huts, and the Willemstoren are other scenes. This is the white church in Rincon. The bell tower was added in the 1977-1984 works, so the tower is shown. No sign is readable. Night hills are dark.",
         "- The other suggested sites in this batch were not already used.",
-        "NL-01-225 through NL-01-240 swaps:",
-        "- NL-01-225: the later artwork Deltawerk// is not the subject. This is the concrete Golfbak and weir in the forest, from the public path by the visitor pavilion. The pavilion is closed at this hour. Late September leaf. No board text is readable.",
-        "- NL-01-226: the day ferry has gone. No ferry and no operator name are shown. This is the harbour island: low dunes, boardwalks, and the closed pavilion. The other islands are closed to visitors and are not drawn as a village. Night water is dark. No sign is readable.",
-        "- NL-01-227: this is the thatched octagonal smock mill on a brick base, with a stage and four sails, beside the canal. The museum is closed. The statue and the mill across the water are not the subject. No shop lettering is shown.",
-        "- NL-01-228: the Frederiksoord cottages remain NL-01-180. This is the square one-storey brick institution of 1823, with a moat and a small clock turret over the south gate. The museum is closed. The inner rooms are not shown. It is not a tall prison tower.",
-        "- NL-01-229: Lauwersoog remains NL-01-192 and Zoutkamp remains NL-01-082. This is the small Wadden harbour outside the dike. The land-art mosaic and the lock doors reset as an artwork are not the subject. The exact tide was not retrieved, so the basin is dark water without a measured high-water or low-water claim. No boat name is shown. The pumping station is not drawn as a lighthouse.",
-        "- NL-01-230: Menkemaborg remains NL-01-163. This is a long one-storey brick house on a high basement, with a hipped grey-tile roof, two chimneys, and a nine-bay front, standing in the inner moat. The old central tower is gone and is not restored. The museum is closed. No cafe name is shown.",
-        "- NL-01-231: the town hall remains NL-01-041. This is the harbour rondeel: round toward the water, a flat stepped gable toward the town, red brick with white stone bands. Later wings sit beside it. No restaurant name is shown.",
-        "- NL-01-232: the Hulst basilica remains NL-01-158. This is the belfry, a square tower with four corner turrets in a rectangular town hall. It was rebuilt in 1956-1960 after the 1944 destruction, so the present building is shown. The offices are closed. No sign is readable.",
-        "- NL-01-233: Breda Castle remains NL-01-039 and the Grote Kerk remains NL-01-168. This is the water gate between the seven-sided Duiventoren and Granaattoren. The onion roofs date from the 1903-1910 restoration. No festival pontoon is shown. The palace front is not this frame.",
-        "- NL-01-234: the museum is closed. The big round tower, the gallery, and the armory are 19th-century additions and are part of the present house. The square gate tower is gone, and the bridge ends at its base. The outer bailey has a striped brick-and-stone wall. The viewpoint is the public approach across the moat. No banner text is shown.",
-        "- NL-01-235: the weigh house has a gable and a canopy. The painted year is not legible. The museum is closed. It is not a church tower. No certificate text is shown.",
-        "- NL-01-236: the Lebuinuskerk remains NL-01-045 and the Waag remains NL-01-201. This is the Bergkerk in the Bergkwartier. Each tower has tuff Romanesque stages, a brick Gothic upper stage, and a slender slate spire. The church is closed.",
-        "- NL-01-237: uses America/Kralendijk. The Bottom, Windwardside, Hell's Gate, and Fort Bay are other scenes. These are the 1930s concrete steps and side walls down to Ladder Bay, with the customs house above. The lowest steps were damaged in 2017 and are not rebuilt. No ferry is alongside. Night water is dark. No sign is readable.",
-        "- NL-01-238: uses America/Kralendijk. Fort Oranje remains NL-01-065, Lower Town remains NL-01-190, The Quill remains NL-01-145, and Batterij De Windt remains NL-01-207. This is the Waterfort, also called Fort Amsterdam, on the southwest shore of Oranjebaai. Only low ruins remain. Lost sections are not rebuilt. It is not a high cliff battery. Night water is dark. No hotel name is shown.",
-        "- NL-01-239: a bridge crosses the brick lock. The older wooden drawbridge and the 1910 iron span were replaced, so neither is shown as the present bridge. No hotel name is readable.",
-        "- NL-01-240: Vrijthof, Saint Servatius, Helpoort, the Sint Servaasbrug, and the Bonnefantenmuseum are other Maastricht scenes. This is the Romanesque westwork on Onze Lieve Vrouweplein, a heavy stone block with two round stair turrets, not Gothic spires. The church is closed. No banner text is shown.",
-        "- The other suggested sites in this batch were not already used.",
-        "NL-01-241 through NL-01-256 swaps:",
-        "- NL-01-241: Giethoorn remains NL-01-006. This is the Gemeenteweg ribbon of Staphorst hall-farms. The ridge runs perpendicular to the road, so the short gable faces the street. The living end is whitewashed brick under a thatched wolf roof; the barn end is weatherboard. Green shutters and a blue plinth are the local paint. The museum farm is closed. No one in regional dress is shown. Late September, no snow.",
-        "- NL-01-242: the castle is not open to visitors. This is the brick house across the moat: a round tower with an octagonal pear-shaped slate spire, and the 1726 entrance wings under mansard roofs. The 1890s neo-Gothic additions were removed in the 1953-1957 restoration and are not shown. No coat of arms is readable.",
-        "- NL-01-243: this is the Sint-Clemenskerk. The tower was begun in 1467. The spire blew down in 1558. The present spire is the 1913-1915 replica, so the tower is shown complete. The church is closed. Clock faces are not readable.",
-        "- NL-01-244: the Dom Tower remains NL-01-010 and Kasteel de Haar remains NL-01-078. This is Slot Zuylen from the public approach across the moat. The house is U-shaped brick with octagonal corner turrets. A 16th-century gatehouse stands in the moat. The museum is closed. The date on the front is not readable.",
-        "- NL-01-245: Nijenrode remains NL-01-123. This is Loenersloot. The round brick donjon keeps the 19th-century crenellations. The 18th-century plaster was removed, so the walls are brick. The fortified gatehouse was demolished in 1767, so the bridge is fixed, not a working drawbridge. The interior is closed.",
-        "- NL-01-246: the Pyramide van Austerlitz has been closed for maintenance since March 2026, and the exact works were not pinned, so that monument was not used and no scaffold was invented. This is Fort Honswijk, a round brick tower fort of the New Dutch Waterline, with a flat bomb-proof roof, not a church spire. The viewpoint is the dike across the wet moat. The interior is closed.",
-        "- NL-01-247: the Buitencentrum barn remains NL-01-194 and the Blocq van Kuffeler pumping station remains NL-01-210. This is the wetland itself from the public dike: reeds and shallow water. No visitor building is the subject. No animal count is claimed.",
-        "- NL-01-248: Almere, Lelystad, Urk, and Dronten are other Flevoland scenes. Zeewolde had none. This is the modern harbour on the Wolderwijd. No historic church and no windmill were added. No boat name is readable.",
-        "- NL-01-249: the castle of the lords of Bronkhorst is gone. The motte is a wooded mound, and no castle was rebuilt on it. This is the cobbled street and the small brick chapel. The chapel is closed at this hour. No cafe name is shown.",
-        "- NL-01-250: Slot Loevestein remains NL-01-085. This is Ammersoyen, a square brick water castle with four round corner towers. The museum is closed. The viewpoint is the public approach across the moat. No banner text is shown.",
-        "- NL-01-251: Dwingelderveld remains NL-01-063 and the telescope remains NL-01-150. This is the village church on the brink. The spire is the onion called the Siepel, rebuilt after the 1923 fire, not a needle. The church is closed. A later side annex, if present, is not the subject and is not drawn as a second tower.",
-        "- NL-01-252: Noordpolderzijl remains NL-01-229, Zoutkamp remains NL-01-082, and Lauwersoog remains NL-01-192. This is the Boog van Ziel, the 1725 brick lock and stone parapet at Termunterzijl. The coats of arms are not readable. It is not a lighthouse. The red houses of Gemaal Rozema are not in this frame. The exact tide was not retrieved, so the channel is dark water without a measured high-water or low-water claim. No boat name is shown.",
-        "- NL-01-253: the Waterpoort at Sneek remains NL-01-161. This is the Schierstins, the surviving medieval brick stins at Feanwâlden. The tower is square, with large arches at the base that were once buried in a mound. A lower wing with a neck gable is attached. It is not a round castle. The cultural centre is closed. No poster text is shown.",
-        "- NL-01-254: the Oosterscheldekering remains NL-01-043 and the Plompe Toren remains NL-01-205. This is the Watersnoodmuseum: four concrete Phoenix caissons in the dike at Ouwerkerk, with a glass link. The museum is closed. No banner text is shown.",
-        "- NL-01-255: Hoensbroek, Eijsden, and Valkenburg are other Limburg castles. This is Kasteel Arcen. The house is an L-shaped brick manor, not a four-tower castle; the north wing was lost in the 1806 fire and was not fully rebuilt. The 1653 gatehouse has an octagonal slate spire. The gardens are closed at this hour and are not a flower display. Late September, no rose show. No coat of arms is readable.",
-        "- NL-01-256: St John's Cathedral remains NL-01-037 and the Oudenbosch basilica remains NL-01-160. This is the Sint-Petrusbasiliek at Oirschot, a Gothic brick church with a tall west tower and a slender spire, from the market. The church is closed. No shop name is readable.",
-        "- The other suggested sites in this batch were not already used.",
-        "NL-01-257 through NL-01-272 swaps:",
-        "- NL-01-257: uses America/Kralendijk. The salt pans, Lac Bay, the slave huts, the Willemstoren, the Kralendijk waterfront, and the Rincon church are other scenes. This is the stair on the west-coast road. The name says a thousand steps. The stair has about sixty-seven and was built in the 1960s. Night water is dark, not turquoise. No boat is shown.",
-        "- NL-01-258: uses America/Kralendijk. Fort Oranje remains NL-01-065, Lower Town remains NL-01-190, The Quill remains NL-01-145, Fort Amsterdam remains NL-01-238, and Batterij De Windt remains NL-01-207. This is the Dutch Reformed Church on Kerkweg. The nave has had no roof since 1792. The tower is three storeys. The tower repair of about 2019 is finished, so no scaffold is shown. No inscription is readable.",
-        "- NL-01-259: the Meppeler Toren remains NL-01-181. De Wijk had no scene. This is Havezate De Havixhorst, the symmetrical brick house of 1753 across the moat. The older castle is gone and is not rebuilt. The house is closed. No coat of arms is readable. Late September leaf, no snow.",
-        "- NL-01-260: the hunebedden and Dwingeloo are other Drenthe scenes. This is the Sint-Margaretakerk on the brink at Norg. The tower has a saddle roof and white round-arched niches, not a spire. The choir is semicircular. The church is closed. No coat of arms is readable.",
-        "- NL-01-261: the building is often called a refectory. The surviving hall is the former infirmary, now the Abdijkerk. The tall tower came down in the 1917-1928 restoration and is not rebuilt. The pinnacles of 1862 were not put back. A clock sits across the west gable. The church is closed. The lost abbey church is not shown.",
-        "- NL-01-262: this is not the medieval borg. The house burned and was rebuilt in 1885-1886 as a smaller neoclassical villa. The sculpted gate of 1708 is in the frame. The museum is closed. No name is readable. Late September, no flower display.",
-        "- NL-01-263: the red Noordertoren remains NL-01-116. This is the white Zuidertoren in the dunes. The glass lantern was replaced by a copper dome when the tower became a water tower around 1950. The light is not burning. The tower is not open at this hour.",
-        "- NL-01-264: the tower does not lean. The church was left unfinished, and the nave stops short of the tower, so a gap remains. The crown is the 1613 lantern and onion cupola, not a needle spire. The church is closed.",
-        "- NL-01-265: the Middelbuurt church remains NL-01-055 and the keeper's house remains NL-01-196. This is the south-point ruin. The walls above ground were gone by 1821. The 2002 work kept the foundations and did not rebuild a church or a tower. The sea is not here. Lettering on the memorial stone is not readable.",
-        "- NL-01-266: Kasteel Almere was not used. It is an unfinished concrete frame, and whether works had started by this night was not pinned, so no scaffold was invented. The Batavia ship is still away. This is the Houtribsluizen, two locks and six discharge openings between seven concrete towers, from the dike. The Blocq van Kuffeler pumping station remains NL-01-210 and is not in this frame. No ship name is shown. It is not a windmill.",
-        "- NL-01-267: the town hall remains NL-01-041 and the Campveerse Toren remains NL-01-231. This is the Grote Kerk. The tower stopped near 52 metres with a flattened roof, not a needle of about 100 metres. The crossing lantern was lost in 1686 and was not replaced. The church is closed.",
-        "- NL-01-268: Brouwershaven had no scene. The quay walls were renewed and the harbour sides were open again by April 2026, so the basalt-pattern face is shown, not a ruined wall. A low bridge crosses the lock. No boat name and no restaurant name are readable. The church is not the subject.",
-        "- NL-01-269: Vrijthof, Saint Servatius, Helpoort, the Sint Servaasbrug, the Bonnefantenmuseum, and the Onze-Lieve-Vrouwebasiliek are other Maastricht scenes. This is Fort Sint Pieter on the hill. It is a low five-sided fort, not a castle with round towers. The interior is closed. The caves are not the subject.",
-        "- NL-01-270: Meerssen had no scene. The west tower was lost and was not rebuilt. The church is marl, with flying buttresses and a small roof turret from 1936-1938. The west end is the extension of those years. The church is closed. No shop name is readable.",
-        "- NL-01-271: Breda Castle remains NL-01-039, the Grote Kerk remains NL-01-168, the Mastbos remains NL-01-141, and the Spanjaardsgat remains NL-01-233. The Begijnhof was left unused in an earlier batch. This is the long court of low houses and the neoclassical chapel of 1836-1838. No sign is readable.",
-        "- NL-01-272: Grave had no scene. This is the Hampoort, a classicist land gate of 1688. The passage bends. The museum is closed. The coats of arms and the year are not readable. It is not a water gate and not a church.",
-        "- The other suggested sites in this batch were not already used.",
-        "NL-01-273 through NL-01-288 swaps:",
-        "- NL-01-273: the Stadsbrug remains NL-01-071, the Koornmarktspoort remains NL-01-202, and the Bovenkerk remains NL-01-217. This is the Cellebroederspoort, the land gate. Two towers have round lower stages and fourteen-sided upper stages with tall spires. The carved lions and the year are not readable.",
-        "- NL-01-274: this is Hasselt in Overijssel, not Hasselt in Belgium. The church is a late Gothic brick hall with a heavy west tower. The spire is the one put on after the 1725 fire. The church is closed.",
-        "- NL-01-275: Kasteel Rechteren remains NL-01-242. This is Het Nijenhuis near Heino. The museum is closed. No sculpture from the garden is in the frame. The 1896 towers are at the rear and are not this front. The front is the regularised brick manor across the moat.",
-        "- NL-01-276: the Dom Tower remains NL-01-010 and Kasteel de Haar remains NL-01-078. This is Slot Zeist. The medieval castle is gone and is not rebuilt. The Broederplein houses are not the palace. The year on the door is not readable. The interior is closed.",
-        "- NL-01-277: IJsselstein had no scene. This is the Sint-Nicolaasbasiliek of 1885-1887, a neo-Gothic brick hall church with a tall tower, deep niches, and corner pinnacles. It is not a medieval church. The older reformed church is not in the frame. The church is closed.",
-        "- NL-01-278: Soestdijk was not used, because the exact state of works was not pinned and no scaffold was invented. This is Kasteel Groeneveld, a brick country house with curved wings under one roof, from the avenue. It is not a moated medieval castle. The house is closed. The coat of arms and the figures are not readable. Late September, no flower display.",
-        "- NL-01-279: uses America/Kralendijk. The salt pyramids remain NL-01-067, the slave huts remain NL-01-191, the Willemstoren remains NL-01-176, Lac Bay remains NL-01-146, and the 1000 Steps remain NL-01-257. This is the single blue obelisk by the salt pier. The white, red, and orange obelisks stand at other pans and are not in this frame. A surveyed mark on the stone was not pinned. Night water is dark, not turquoise. No company name is shown.",
-        "- NL-01-280: uses America/Kralendijk. Fort Oranje remains NL-01-065, Lower Town remains NL-01-190, The Quill remains NL-01-145, Fort Amsterdam remains NL-01-238, Batterij De Windt remains NL-01-207, and the Dutch Reformed Church remains NL-01-258. This is Honen Dalim. The roof has been gone since 1792 and was not put back. The 2001 work stabilised the walls. No plaque text is readable.",
-        "- NL-01-281: the Munsterkerk at Roermond remains NL-01-096. Sint Odiliënberg had no scene. This is the Romanesque basilica with two square choir towers. The towers were reconstructed in 1949-1951 after 1945, so they are not shown as ruins and no scaffold is shown. The small chapel is not the subject. The church is closed.",
-        "- NL-01-282: the Berkelpoort remains NL-01-073. This is the Drogenapstoren. The square base, the octagonal corner turrets, the octagonal lantern, and the nineteenth-century spire are the present tower. The old passage was bricked up. It is not a water gate.",
-        "- NL-01-283: Heusden harbour remains NL-01-068 and Slot Loevestein remains NL-01-085. Woudrichem had no scene. This is the Gevangenpoort. One corner turret remains. The other is gone and is not rebuilt. No restaurant name is readable. The statue is not the subject.",
-        "- NL-01-284: Noordhavenpoort remains NL-01-042 and the Sint-Lievensmonstertoren remains NL-01-206. This is the Stadhuis on the Meelstraat. The tower is octagonal, with an open lantern and a pear-shaped crown. The museum is closed. The portrait medallions are not readable.",
-        "- NL-01-285: the Batavia ship is still away. The Houtribsluizen remain NL-01-266 and the Blocq van Kuffeler pumping station remains NL-01-210. This is Gemaal Wortman, the brick and glass hall with free-standing cross-shaped chimneys. No exhaust plume is shown. The relief is not the subject. It is not a windmill.",
-        "- NL-01-286: the Waterpoort remains NL-01-161. This is the Stadhuis on the Marktstraat, the rococo front of 1760-1763 and the stair of 1745, with a small octagonal cupola. The offices are closed. The coat of arms is not readable.",
-        "- NL-01-287: Martinitoren remains NL-01-060, the Aa-kerk remains NL-01-203, Forum remains NL-01-144, and the Groninger Museum remains NL-01-164. This is the Goudkantoor. It has three gables. The south gable was added in the 1960s from the lost Huis Panser. The 1844 loggia is not rebuilt. The Latin line is not readable. The square sculpture is outside the frame. No cafe name is shown.",
-        "- NL-01-288: the hunebedden, Dwingeloo, and Orvelte are other Drenthe scenes. Diever had no scene. This is the Sint-Pancratiuskerk. The lower tower is tuff, the upper stages are brick, and the slate spire changes from square to octagon. The church is closed. The open-air theatre is not in the frame. Late September leaf, no snow.",
-        "- North Holland and South Holland were not given new scenes in this batch. The new scenes sit in the provinces that had fewer entries.",
-        "- The other suggested sites in this batch were not already used.",
         "",
     ]
     for row in catalogue:
@@ -828,12 +808,21 @@ def main() -> None:
                 )
                 print(row["entry_id"], "preserved Cosmo approval")
                 continue
-        raw16 = Path("/opt/cursor/artifacts/assets") / f"{row['entry_id'].lower()}-16x9-raw.png"
-        raw45 = Path("/opt/cursor/artifacts/assets") / f"{row['entry_id'].lower()}-4x5-raw.png"
+        pretext = (
+            ROOT
+            / "library"
+            / "pretext"
+            / "Netherlands"
+            / row["folder"]
+            / f"{row['entry_id'].lower()}-16x9.png"
+        )
+        locked = ("NL-01-001" <= row["entry_id"] <= "NL-01-010") or (
+            "NL-01-026" <= row["entry_id"] <= "NL-01-055"
+        )
         # Cosmo-approved masters are skipped above. Never composite them.
-        if row["entry_id"] <= "NL-01-010":
+        if locked:
             pass
-        elif raw16.exists() and raw45.exists():
+        elif pretext.exists():
             composite_one(row["entry_id"], row["folder"], row["caption"], weather["scenario_label"])
         else:
             have16 = (ROOT / "library" / "world" / "Netherlands" / row["folder"] / f"{row['entry_id'].lower()}-16x9.png").exists()
@@ -842,10 +831,13 @@ def main() -> None:
                 raise SystemExit(f"missing raw and master for {row['entry_id']}")
         file16 = f"Netherlands/{row['folder']}/{row['entry_id'].lower()}-16x9.png"
         file45 = f"Netherlands/{row['folder']}/{row['entry_id'].lower()}-4x5.png"
+        file916 = f"Netherlands/{row['folder']}/{row['entry_id'].lower()}-9x16.png"
         path16 = ROOT / "library" / "world" / file16
         path45 = ROOT / "library" / "world" / file45
+        path916 = ROOT / "library" / "world" / file916
         digest16 = sha256(path16)
         digest45 = sha256(path45)
+        digest916 = sha256(path916) if path916.exists() else None
         manifest = {"entry_id": row["entry_id"]}
         existing_manifest = ROOT / "manifests" / f"{row['entry_id']}.json"
         if existing_manifest.exists():
@@ -876,9 +868,11 @@ def main() -> None:
                 "license_anchor": "#license",
             }
         )
+        if digest916:
+            manifest["file_9x16"] = file916
         (ROOT / "manifests" / f"{row['entry_id']}.json").write_text(json.dumps(manifest, indent=2) + "\n")
         (ROOT / "approvals" / f"{row['entry_id']}.md").write_text(
-            approval_md(row, weather, digest16, digest45)
+            approval_md(row, weather, digest16, digest45, digest916)
         )
         scenes.append(manifest)
         lines.append(

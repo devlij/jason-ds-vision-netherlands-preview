@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Lange Vechtbrug, Weesp: the raised wooden drawbridge over the Vecht at night, lantern-lit canal-house row lining the far bank, moon and reflections on the water. On-image caption 'Lange Vechtbrug, Weesp', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:40+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59 (sky is an artistic moonlit rendering; weather is model data, not a capture). Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:38:43.354771+00:00",
-  "sha256_16x9": "296bf9a30f1384b0380035c4e7c51c6fb4c50cc5c2f26ed7bc9b1404b6449e8e",
-  "sha256_4x5": "50bc83830fb98880ab5a592f38d9f38c346fa4b258da88ca6a9319013be1bc4b"
+  "sha256_16x9": "433bf19b62d09724acef8545375ce4d906d899b1e86a173fd66c01301616a15c",
+  "sha256_4x5": "90ccddb2cb7cc7ffc49bafa4dfc448766390add35d86df0dfa97779538da04ea",
+  "file_9x16": "Netherlands/Weesp/nl-01-122-9x16.png",
+  "sha256_9x16": "daa3bdfad210b900c6ec01f617cc4fb8af935fd82471c2cd28280fa8ddf30024",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 296bf9a30f1384b0380035c4e7c51c6fb4c50cc5c2f26ed7bc9b1404b6449e8e. Source SHA-256 4:5 50bc83830fb98880ab5a592f38d9f38c346fa4b258da88ca6a9319013be1bc4b. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

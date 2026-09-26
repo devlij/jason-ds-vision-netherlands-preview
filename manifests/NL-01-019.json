@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Prinsengracht at night from the classic Anne Frank House viewpoint — row of lit gabled canal houses along the water with the illuminated Westertoren rising behind, warm reflections; plausible, no artifacts. G2: exact dims verified; on-image 'Anne Frank House, Amsterdam', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:07+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public canal view, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:45:15.058121+00:00",
-  "sha256_16x9": "c32bddb3acdbfcc638642e08b5b4466903eaece9542e506c3d202ed20a36edc4",
-  "sha256_4x5": "699d2eea12b8c1afbf2e563ad64cf46d9fd4a48b3b4776961ccfc029eaa7c17f"
+  "sha256_16x9": "69423c8166a3bdd280322d99f0c8b69c530a11847d5b178e67c1d15e6d8d436b",
+  "sha256_4x5": "6cefc651c1f7ceb6542e2fe8684e473c739738af80e6bd972c405d3f080fa353",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-019-9x16.png",
+  "sha256_9x16": "2b3dd30929bd8ae9dc1f6d492b99410be86abe36248fd9649635c568f49b561e",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c32bddb3acdbfcc638642e08b5b4466903eaece9542e506c3d202ed20a36edc4. Source SHA-256 4:5 699d2eea12b8c1afbf2e563ad64cf46d9fd4a48b3b4776961ccfc029eaa7c17f. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

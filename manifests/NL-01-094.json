@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Vischpoort, Harderwijk. Stone gate tower with pointed spire and large arched passage joining the crenellated city wall, lamplit waterfront quay with gabled houses, moored sailboat and lamp reflections on the water. Scenario '26 September 2026 · 00:38 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T00:38:34+02:00 (retrieved; model-valid hour 00:30), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:40:09.837161+00:00",
-  "sha256_16x9": "c8cb065d732488d20c71ba7c6021b4716a6b097a2e63224584616a6185d13b2a",
-  "sha256_4x5": "752b2612128d00b8dbe6b0217027b39af945cf2eea820d939e9e12cf9e6f8562"
+  "sha256_16x9": "2c50ab5f95efd198c0e8bdf27ca69bc7b9a276baf4257e390d184e9fb0e2de28",
+  "sha256_4x5": "a597778f8e0361f1a40c2d7edf9527d1ef0edd1fb35813a4ebcc95538f8fbafd",
+  "file_9x16": "Netherlands/Harderwijk/nl-01-094-9x16.png",
+  "sha256_9x16": "f67eded4d77386678439d2542b25a08d6b959b4ab9ba6b0f6931c895215056a9",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c8cb065d732488d20c71ba7c6021b4716a6b097a2e63224584616a6185d13b2a. Source SHA-256 4:5 752b2612128d00b8dbe6b0217027b39af945cf2eea820d939e9e12cf9e6f8562. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

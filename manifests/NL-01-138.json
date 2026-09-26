@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: twin-spired brick gatehouse spanning a canal with crenellated city walls, bridge and lit lamps — recognizably the Oostpoort in Delft; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Oostpoort, Delft' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:05+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:38:56.995274+00:00",
-  "sha256_16x9": "abdebeaea8c7f172eff9570f07ca0a7bc4adf680480834772bb8c99b9e3d5f56",
-  "sha256_4x5": "fa5c3cec3d28b9f0fda083356aa7169eaebf8141b9ff22c52d643f404cc02f19"
+  "sha256_16x9": "ce5d16cec4c25503fed625e927db5dda1343359f403cc18e048894632440f2db",
+  "sha256_4x5": "72e16fb1941261148ecba715b010c633eafa577e24bcf3e3bbdb3ea65f514092",
+  "file_9x16": "Netherlands/Delft/nl-01-138-9x16.png",
+  "sha256_9x16": "bf2f4dcfdca39ad6e00ff4797836b07be2c52f2035f112056e042d569c82a255",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 abdebeaea8c7f172eff9570f07ca0a7bc4adf680480834772bb8c99b9e3d5f56. Source SHA-256 4:5 fa5c3cec3d28b9f0fda083356aa7169eaebf8141b9ff22c52d643f404cc02f19. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night moated brick water castle — four round corner towers with tall pointed slate spires, central gatehouse with arched entrance, crenellation, moat with reflections, mature trees, starry sky; matches the castle's signature four-tower silhouette (verified by my own read); 16x9 gatehouse-front vs 4x5 floodlit face agree on defining features. Gate 2: exact 1920x1080/864x1080 masters, caption 'Kasteel Ammersoyen, Ammerzoden', scenario '26 September 2026 · 03:59 Europe/Amsterdam' inside the model-valid hour of the recorded Open-Meteo retrieval 2026-09-26T03:59:40+02:00 (verified unique to the second across all 288 Netherlands evidence files), exact curly-apostrophe signature and disclosure legible on a gradient scrim, Art. 50 PNG metadata present on both masters. Gate 3: evidence card claims text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, no logos; heritage museum site — documented only. Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T16:56:13.806197+00:00",
-  "sha256_16x9": "1ce0e2cd6ff5f5a13c47b9b67d231a6c06c22923ec2c0af1679ce86dbeb8af74",
-  "sha256_4x5": "d009964b274389a32444d8edfcc78ff4e1db41ab898cbfb721b653eb0446e21e"
+  "sha256_16x9": "8cb711565520a4f2053cd9efe166c7019af15eab82edb95ee8211f76a93da538",
+  "sha256_4x5": "6f272ba9a8f21134d151c0fb92b8f2c0419f708bae926c7c9abd57700ecba9ce",
+  "file_9x16": "Netherlands/Ammerzoden/nl-01-250-9x16.png",
+  "sha256_9x16": "1c35f0c0e58d4a81294af9b15c09c8c82046d16e5ee43f6a0e3092df4fe90b9b",
+  "format_9x16_approval_status": "Candidate"
 }

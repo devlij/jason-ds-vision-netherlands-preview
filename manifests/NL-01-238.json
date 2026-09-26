@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows the stone ruins of Fort Amsterdam on a rocky shoreline, surf at the rocks, starry twilight sky with warm horizon — matches the captioned coastal fort and card anchors from a plausible waterfront viewpoint; no artifacts. Gate 2: exact dims via git blob API; on-image 'Fort Amsterdam, Sint Eustatius', 'Scenario: 25 September 2026 · 21:38 America/Kralendijk', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-25T21:38:03-04:00 in evidence/weather/NL-01-238.json, unique to the second across all 288 Netherlands files, scenario inside the 21:00–21:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T15:44:59.128105+00:00",
-  "sha256_16x9": "a397472e95191f0a716aac406eba126bb22b35535d9b48d483aa4401467dded7",
-  "sha256_4x5": "f4fac335e583219373068b92022dac898f3af96b1c18c75caa0af51bcbaa9859"
+  "sha256_16x9": "7c4ab11348436e651a0e7068e1ecba6b76fc31aad093eb9cb191ad9a1eff269b",
+  "sha256_4x5": "78f8e0b7e4badf05a4cb4c13750730bba37357ba8243df7e6e0533aecf621862",
+  "file_9x16": "Netherlands/Sint Eustatius/nl-01-238-9x16.png",
+  "sha256_9x16": "3840dd960f10a94c9659a98f49253692505bfbb1237a5bc2de89b442bc58e2b6",
+  "format_9x16_approval_status": "Candidate"
 }

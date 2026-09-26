@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Elburg harbour at night — two moored sailing boats left, stepped-gable brick building centre with warm lantern, stone quay and moat walls right, plausible tourist viewpoint. G2 PASS: exact 1920x1080/864x1080; on-image caption 'Harbour, Elburg', scenario '26 September 2026 · 00:19 Europe/Amsterdam', AI disclosure and exact 'Jason D\\u2019s Vision' signature legible on scrim; Art. 50 metadata on both masters; Open-Meteo retrieval 2026-09-26T00:19:27+02:00 unique repo-wide; scenario 00:19 inside model window 00:15–00:30. G3 PASS: text-prompt-only lineage per evidence card, no photographic inputs. G4 DOCUMENTED ONLY: no people or logos; boats are generic. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:37:57.420196+00:00",
-  "sha256_16x9": "da3e94d5ee5e3c6c6a045a3db7394f5aefff02ce3a1ae3c91985783d4fb0522f",
-  "sha256_4x5": "6b91b31bf0bdf35863e0ddcb412e97921fa424eb8bd3dcd4b6a2bd1f10ef3470"
+  "sha256_16x9": "05cb72baca7edc97f798bd9dd0de9157052be5d463aab9341743cfbb830cee0f",
+  "sha256_4x5": "b8828afd97d25785cd21c69977d26c5a8daba06b01bedd36bb9f679f761a6ef0",
+  "file_9x16": "Netherlands/Elburg/nl-01-072-9x16.png",
+  "sha256_9x16": "253e84284c8b3da8e7c3f1e869b7c93a5e476400842a0d92d0071f5670820929",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 da3e94d5ee5e3c6c6a045a3db7394f5aefff02ce3a1ae3c91985783d4fb0522f. Source SHA-256 4:5 6b91b31bf0bdf35863e0ddcb412e97921fa424eb8bd3dcd4b6a2bd1f10ef3470. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

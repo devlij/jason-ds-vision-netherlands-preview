@@ -4,12 +4,15 @@
   "region": "Utrecht",
   "city": "Baarn",
   "caption": "Kasteel Groeneveld, Baarn",
-  "scenario_label": "26 September 2026 \u00b7 04:37 Europe/Amsterdam",
-  "composition": "Brick country house with curved wings from the avenue \u00b7 AI-generated artistic interpretation",
-  "description": "Kasteel Groeneveld at Baarn is an 18th-century brick country house, not a moated medieval castle. The main block and two curved wings share one dark pantile roof, with a stone stair up to the door and a balcony over it. It is overcast, about 11.9\u00b0C, with wind near 2.2 km/h and cloud cover about 100%. The house is closed. The coat of arms and the figures on the pediment are not readable. Late September, no flower display.",
+  "scenario_label": "26 September 2026 · 04:37 Europe/Amsterdam",
+  "composition": "Brick country house with curved wings from the avenue · AI-generated artistic interpretation",
+  "description": "Kasteel Groeneveld at Baarn is an 18th-century brick country house, not a moated medieval castle. The main block and two curved wings share one dark pantile roof, with a stone stair up to the door and a balcony over it. It is overcast, about 11.9°C, with wind near 2.2 km/h and cloud cover about 100%. The house is closed. The coat of arms and the figures on the pediment are not readable. Late September, no flower display.",
   "alt_text": "AI-generated artistic interpretation of Kasteel Groeneveld in Baarn at night",
   "file_16x9": "Netherlands/Baarn/nl-01-278-16x9.png",
   "file_4x5": "Netherlands/Baarn/nl-01-278-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "file_9x16": "Netherlands/Baarn/nl-01-278-9x16.png",
+  "sha256_9x16": "0feedf80d2f4dbf7a07d24645039dba4302a71ceac3fc1f9e7d295ed91530a2d",
+  "format_9x16_approval_status": "Candidate"
 }

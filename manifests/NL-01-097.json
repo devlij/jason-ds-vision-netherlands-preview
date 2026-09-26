@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Markiezenhof, Bergen op Zoom. Late-Gothic city palace with red/white banded brick, stepped gables, corner tower with spire and weathercock, flower boxes on the facade, lamplit cobbled square. Scenario '26 September 2026 · 01:04 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T01:04:10+02:00 (retrieved; model-valid hour 01:00), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:40:32.391615+00:00",
-  "sha256_16x9": "16418c45f657cda9b5d6b678ca1130a4828c5d3c239f5cdfb7590e38bf465ce6",
-  "sha256_4x5": "7ad0d7285865d5a1dbcc9405aba940d1579d09d8308954d16fd2c0e75e4c1ed7"
+  "sha256_16x9": "f471667c56f1d8fbb084d1028c7985911d46288d55751f17c09a474017752153",
+  "sha256_4x5": "1dbd078c741f2e74f99a05168626b224df5e32b38a499286b9f366572cc4d0b0",
+  "file_9x16": "Netherlands/Bergen op Zoom/nl-01-097-9x16.png",
+  "sha256_9x16": "9a56bad023454e60d6f2e3014fef24d90726cd6600d05a0e915397dcf2e44077",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 16418c45f657cda9b5d6b678ca1130a4828c5d3c239f5cdfb7590e38bf465ce6. Source SHA-256 4:5 7ad0d7285865d5a1dbcc9405aba940d1579d09d8308954d16fd2c0e75e4c1ed7. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Golden hour",
   "approval_basis": "G1 PASS: Grote Markt with Sint Bavo's great stone tower centered, stepped-gable Vleeshal brick building right, row of gabled townhouses left, long golden-hour shadows; no artifacts. G2: exact dims verified; on-image 'Grote Markt, Haarlem', '25 September 2026 · 18:28 Europe/Amsterdam', 'Jason D's Vision' signature and AI disclosure legible on scrim; Art.50 metadata present. Scenario minute 18:28 inside model hour 18:00; Open-Meteo retrieval 2026-09-25T18:28:00+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed, no photographic input. G4: no people/logos; public square, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:44:45.066469+00:00",
-  "sha256_16x9": "59ffda1667042a3ffa9f7437ffc0eeecc52f01b9bc1c8b80823330a769aab437",
-  "sha256_4x5": "b598b45a966e27b28a7e04e7122b4c7a006d0a0c5a94dde57e2134b5a10eb402"
+  "sha256_16x9": "50ac8c81cafdebc4b529355ac5603677d3e5b8f6f2d717277f31aa911a9140ed",
+  "sha256_4x5": "8d554f4297c243b123ffecdd52f747c61c5cff05a07f47fe08a8840789c55d65",
+  "file_9x16": "Netherlands/Haarlem/nl-01-012-9x16.png",
+  "sha256_9x16": "0b2877dd9eb20fa5ff56ebabdc49650901143f68780be216203bd6c354733bb1",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 59ffda1667042a3ffa9f7437ffc0eeecc52f01b9bc1c8b80823330a769aab437. Source SHA-256 4:5 b598b45a966e27b28a7e04e7122b4c7a006d0a0c5a94dde57e2134b5a10eb402. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

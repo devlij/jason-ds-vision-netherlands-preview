@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1: night view of Radio Kootwijk Building A: concrete mass with squat overhanging dome on open heath, reflected in the still cooling pond, full moon, dark cloud; clean composition. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Radio Kootwijk', scenario '26 September 2026 · 01:04 Europe/Amsterdam', disclosure and signature legible; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:04:50+02:00, unique across all 288 NL scenes; scenario minute inside model hour 01:00. G3: builder note documents text-prompt-only generation, no photographic input. G4: no prominent people or focal logos; internal documentation only. G5: card fields complete.",
   "approved_at": "2026-09-26T06:39:50.519603+00:00",
-  "sha256_16x9": "1475b1fa8d9a5abcefbad5e9282898039d9a1c5ed679465b17366c3d18dbe193",
-  "sha256_4x5": "f3021ca6ae19d2d7b8cae5ff3878b549304f7aa5dbd3121602dde280ce5d3159"
+  "sha256_16x9": "3c645a16b43a47a0d4ba5e53467587caa51a8c23eae961d13683fe7f181f99ac",
+  "sha256_4x5": "0003bef98a20ae20d95565245d38e361b96ff8a1386290967fc7965ccf20b6ce",
+  "file_9x16": "Netherlands/Radio Kootwijk/nl-01-112-9x16.png",
+  "sha256_9x16": "0a06b67df9de21996c7d8d2062f7df805ac8e67bbfecba6c027d8dbc881b80ce",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 1475b1fa8d9a5abcefbad5e9282898039d9a1c5ed679465b17366c3d18dbe193. Source SHA-256 4:5 f3021ca6ae19d2d7b8cae5ff3878b549304f7aa5dbd3121602dde280ce5d3159. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

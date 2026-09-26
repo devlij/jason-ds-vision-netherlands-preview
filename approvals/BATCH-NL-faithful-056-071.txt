@@ -1,0 +1,135 @@
+Netherlands faithful re-finish — NL-01-056 through NL-01-071 — 2026-09-26
+
+Parent tip: a0e0701fb0b5c967c1ee75fb810a1236ac3bb22a
+Source of truth: origin/main d3676cf3cce1927c00543117465e5543cd2c043d (these 16 masters matched that tip before the re-finish)
+Branch tip: 39a06f7bc807728f014cae4255ebc6a59e791cbf
+The commit above is the one that adds these faithful masters. A later commit only writes this SHA into this note.
+
+Method
+Same path as NL-01-011–025. tools/faithful_refinish.py inverts the 4c6f044 scrim and on-image type on the origin/main approved master. Rows above y = int(height * 0.68) are copied unchanged. No GenerateImage and no new composition. Cleaned 16:9 and cleaned 4:5 are the durable pre-text. 9:16 is a center crop of the cleaned 16:9. tools/composite_masters.py appends the 190px #0e0e12 bar, the 2px hairline, and Art. 50 chunks.
+
+Result
+16 scenes passed. 0 failed the pixel-match. Above-scrim changed pixels are 0 on 16:9 and 4:5 for every ID. Glyph miss 0. Scrim recomposite max abs 0. Baked photo area matches the cleaned source. Bar sizes 1920×1270, 864×1270, 1080×2110. Bottom pixel (14,14,18). Hairline (228,228,234). Manifests stay Approved and gain file_9x16, sha256_9x16, and faithful_refinish, including the source SHA from origin/main. Approval markdown stays Candidate. Weather and Scenario lines are unchanged.
+
+Left untouched
+NL-01-011–025 stay the previous faithful re-finish. NL-01-072–144 stay the restored approved scrim masters. NL-01-145–288 label-bar masters were not reverted. Cosmo locks NL-01-001–010 and NL-01-026–055 were not touched. Nothing beyond NL-01-288. Denmark was not started. Weather JSON was not rewritten.
+
+Gallery
+These 16 cards have file_9x16. Tabs and downloads sit under the image. Daylight stays on NL-01-001–010 only. No View image control. file_9x16 count is 175. Daylight file_16x9_day count stays 10. QC PASS 288 scenes.
+
+Next slice
+NL-01-072 through NL-01-087.
+
+Scenes
+NL-01-056	Oldehove, Leeuwarden	26 September 2026 · 00:00 Europe/Amsterdam
+  source 16:9 6c3c054a41c3ec3ceed5b63ef3c3440abefa6a48d034cb2b8a13090a3dff58a2
+  source 4:5 74f82057bca3265b53e116e281c319bd79c26c9aac39c5765d95c0050086895c
+  master 16:9 Netherlands/Leeuwarden/nl-01-056-16x9.png c088ef66c86f3ead62a25876c65dea0b1cd6a41b6d02ea9400d1127c31fb6190
+  master 4:5 Netherlands/Leeuwarden/nl-01-056-4x5.png 75090b559b4b5e34217f4bb23a4071dece4fd008d34262fcaf53d4ddab74801c
+  master 9:16 Netherlands/Leeuwarden/nl-01-056-9x16.png 5b3ec9fb4e7ec86a5f71e1348c13fc95919a4dbee90272d703fc3484c7c60946
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 36214 4:5 10654
+NL-01-057	Harbour, Harlingen	26 September 2026 · 00:00 Europe/Amsterdam
+  source 16:9 519c1d4a63459124a74b973bf838537a2a396b1ab0d78b4d9cbc057840ce8b2c
+  source 4:5 2347fe7e65135850f60d798bf910a5afc45d51b8136c0d7c84bb532a37bca19a
+  master 16:9 Netherlands/Harlingen/nl-01-057-16x9.png 841022cee2ba0a0cfe3d37042b7516c84a5616b64ec235f6bac477bb0db16a63
+  master 4:5 Netherlands/Harlingen/nl-01-057-4x5.png 707462fde1b8c5638d57a432c766b898b153eb7f1aa323f2ee61375df08e9188
+  master 9:16 Netherlands/Harlingen/nl-01-057-9x16.png 44d034711301d3d565a059b3172a2aad6149930f9fd016d304424b651221c3fa
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 35027 4:5 10298
+NL-01-058	Eise Eisinga Planetarium, Franeker	26 September 2026 · 00:01 Europe/Amsterdam
+  source 16:9 d2e8fd5e53e699853f6efced5f927d6c5e6a88e680cc63a8be6e9ca30a11c08f
+  source 4:5 e25497a7bf21db3c909adc143798ffa11696820b070276e03c1c010ea10a5567
+  master 16:9 Netherlands/Franeker/nl-01-058-16x9.png dfb1c58377035ee192489443530e4635ccf8015223780e432a20584840a2dcc2
+  master 4:5 Netherlands/Franeker/nl-01-058-4x5.png 380185d5bc6ffd0459eb9776d482ff8596fcdae18faa1e1b5cf8cfe3ffe7e8cb
+  master 9:16 Netherlands/Franeker/nl-01-058-9x16.png baf438150014561acef1e01941ee6413861511e57176d2c7f62a71930100413a
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 40920 4:5 11976
+NL-01-059	Waterfront, Hindeloopen	26 September 2026 · 00:01 Europe/Amsterdam
+  source 16:9 3ae30f897ce3d02938414089db36f61da473cfb3a08781738be1ec637c17f508
+  source 4:5 1352f438aced5891ff498dc18d58ac7b58bbd308aeee0bb9a6a6e7b4d5d5f121
+  master 16:9 Netherlands/Hindeloopen/nl-01-059-16x9.png 730b70d29599af1e7dc605dd56b51410ca1c6dbc5c9ffec440c8344d1df77dc0
+  master 4:5 Netherlands/Hindeloopen/nl-01-059-4x5.png f983b7d31c8818e8c94fe5667393291642e895faee9a3504fbdda963bc3ea226
+  master 9:16 Netherlands/Hindeloopen/nl-01-059-9x16.png a997e000fa2e2cecac2cb282dc0808ce0d52cb5fe866d3ff6f6ce9a6690a050e
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 37302 4:5 10960
+NL-01-060	Martinitoren, Groningen	26 September 2026 · 00:01 Europe/Amsterdam
+  source 16:9 6e976b85db93456dddde2a98ea8d4dd5af307a9aaf9f816951dcd55ef4b25a7d
+  source 4:5 f62163b6cb730d220cc61640ad0797beafbac9c45d3dcec92b4ae2285a0f2c49
+  master 16:9 Netherlands/Groningen/nl-01-060-16x9.png 630295918f595ee60bf94d8963a4d256542892f2ba9f9bdca202f0302cfafae6
+  master 4:5 Netherlands/Groningen/nl-01-060-4x5.png 07f5197efc54e4e6015f3f62003d93c6ac890395e6f13f0bcee4564d9b4ce3fa
+  master 9:16 Netherlands/Groningen/nl-01-060-9x16.png 614c82fabbd92bb0f51e3455d3ce5858788f3ee9a3e11a53cb31694820c4cac7
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 37015 4:5 10865
+NL-01-061	Vesting Bourtange, Bourtange	26 September 2026 · 00:01 Europe/Amsterdam
+  source 16:9 cdcb64f7c4adc5d9d77dea5ce0eab52a99cc46f18d88c71588692fe49f01f590
+  source 4:5 4f6636c87d2257e4133d670b56c9531300ec3264235bc6da80c1ba030b161466
+  master 16:9 Netherlands/Bourtange/nl-01-061-16x9.png d9b2f5d54081edc88ef2785a2ca7876fe3439e07dc5f51ba5fe8bbf282f851c4
+  master 4:5 Netherlands/Bourtange/nl-01-061-4x5.png 74754517ee5733c7ddeab72a21bf7a18e3d9efa8f25217c97bbced2617a43a37
+  master 9:16 Netherlands/Bourtange/nl-01-061-9x16.png 8cab0fa1723ddc549cbbf4e627e81028be03e22b18e817633ffdd5ac49e9250b
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 39342 4:5 11537
+NL-01-062	Hunebed D27, Borger	26 September 2026 · 00:01 Europe/Amsterdam
+  source 16:9 6817a062f3d85489922ba1d20340ae74d68450f2b4d17ad91f8566ddfa73b0fd
+  source 4:5 bbb40c1d28a7c33fb4127819dbfc084b2abf1196b813dd78bab2cb588cfdd028
+  master 16:9 Netherlands/Borger/nl-01-062-16x9.png bd73c82d2ca90969735bc096ff09e64216f930fdcc69bb3def1ba0e1b5b31eb2
+  master 4:5 Netherlands/Borger/nl-01-062-4x5.png 96eb0897bec1a82e30406b67a5c3cc9c523d8e6479d15bdb2694e03fa25ff498
+  master 9:16 Netherlands/Borger/nl-01-062-9x16.png 75cacf8918b0da245b041469fc02290f3f28c17c6dedd26cb3002223d8ecc1d7
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 35809 4:5 10571
+NL-01-063	Dwingelderveld, Dwingeloo	26 September 2026 · 00:01 Europe/Amsterdam
+  source 16:9 d56679051a56c78039a5b18af2f71fbab3b0e07f32edcc455effd69007687143
+  source 4:5 e237001a121c9199e77a40ef641c5c0580604fe69addeda481394554582cd4fa
+  master 16:9 Netherlands/Dwingeloo/nl-01-063-16x9.png 60ff01c46d69caf981d7e993c43808f0209c498a7d2bbd219e2452fbd3be8b35
+  master 4:5 Netherlands/Dwingeloo/nl-01-063-4x5.png 845648860b3a6d2df1e2a581a694d1e160d82385e0337407e5d969445563b811
+  master 9:16 Netherlands/Dwingeloo/nl-01-063-9x16.png dd1383e8e0e34d0815859043efc96ee5cdaff4363508b0d39296575a50907cd9
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 38505 4:5 11273
+NL-01-064	Waterfront, Kralendijk	25 September 2026 · 18:01 America/Kralendijk
+  source 16:9 ae3f5fea676cc4824f29f6a011dce7113d0ae5adb020f36357510fc0daa9204d
+  source 4:5 0aee0feabdb2b4912072705f7f794e4d953fd425d4379aefcdbee4d7a66785c6
+  master 16:9 Netherlands/Kralendijk/nl-01-064-16x9.png cbe0f2eeabc7e466ddc607d82df2ccd9a01fd5e31fe70a1ef7fa0db405db6c85
+  master 4:5 Netherlands/Kralendijk/nl-01-064-4x5.png 92ada5599a8b2f8abe32d279c1a894be5bb31cfeccff514dc7a6608ed8386453
+  master 9:16 Netherlands/Kralendijk/nl-01-064-9x16.png a5d062cc7b61983506ab0d0362b6b0df35d2bb3544578287a385a51ba7ed6f7c
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 36598 4:5 10789
+NL-01-065	Fort Oranje, Oranjestad	25 September 2026 · 18:19 America/Kralendijk
+  source 16:9 ca2d2c3872fdc2db24afd124efa137d1ddcea5d6a66967c566c79c4847578742
+  source 4:5 e60ee73bce96b19cf2c9c77642037b5914b7821b536cc0b3d7c663ab39b19048
+  master 16:9 Netherlands/Oranjestad/nl-01-065-16x9.png 978e95fafde4e93e659040de014cf5f29497d94f6501388d944c9658019ec8b0
+  master 4:5 Netherlands/Oranjestad/nl-01-065-4x5.png c111233b425bfcb2efb775a5a54d5575757871416bbbbf0be6dd75d04e0537a4
+  master 9:16 Netherlands/Oranjestad/nl-01-065-9x16.png 2e798c974dd048c38b3ae0b598b960e77117d4f1619117ea83455b4b86b792cc
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 36621 4:5 10872
+NL-01-066	The Bottom, The Bottom	25 September 2026 · 18:19 America/Kralendijk
+  source 16:9 d68c25d2b1212771ac12e7f7ba3d55cc6681f075f8cbe92676cd3e75ecf5514f
+  source 4:5 653c8a51a5ea2406127925772e37cdfbe05d9bd11ffd144ddff29b1fa16609ce
+  master 16:9 Netherlands/The Bottom/nl-01-066-16x9.png 642ff58878bb519903312be6d5f9dc008ee1280ce172ad83a9795b3d85c013f7
+  master 4:5 Netherlands/The Bottom/nl-01-066-4x5.png 5af1c37924327bd7c8e31c904b79dfc678ae760637bc2f6f5528ab59c224ae68
+  master 9:16 Netherlands/The Bottom/nl-01-066-9x16.png a0b4758bf6829e523b1bcceb01371959572eb8885f9565312ab4916950df2749
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 36579 4:5 10851
+NL-01-067	Salt pans, Bonaire	25 September 2026 · 18:19 America/Kralendijk
+  source 16:9 033a46d75b621561587169b7eaa1e2847ed3de166746a1078de3d1a17628b8ca
+  source 4:5 a4e8fb962d5352f9d5589e6d95dc939bc80bf1630fb31c68407c90cc8fd5d407
+  master 16:9 Netherlands/Bonaire/nl-01-067-16x9.png 6e418bdd12abe09fa072b12453bcce238ec8ddb2325b92229a14f8e6498ee850
+  master 4:5 Netherlands/Bonaire/nl-01-067-4x5.png 75105031d55bf3ad1f88880544a273bc9002233a366ce37b862f2c0fb4e23d88
+  master 9:16 Netherlands/Bonaire/nl-01-067-9x16.png b5e5655edeea1e6c0e1e1137b4d7bc49bf5636dcb79ca9039fe67893540e98ad
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 34464 4:5 10203
+NL-01-068	Harbour, Heusden	26 September 2026 · 00:19 Europe/Amsterdam
+  source 16:9 905c6381916b3d7603b73e7e8eca6e7b701435f3eb7f3dd041c86204d992e889
+  source 4:5 7348a3a9411f4f6abd1c6775dba667d54945135eaaba9bcd7dd2099d222cb731
+  master 16:9 Netherlands/Heusden/nl-01-068-16x9.png 629eaacccd95f318c3e16409f29f963c790ec4a8661185df7327e2cc7b404d70
+  master 4:5 Netherlands/Heusden/nl-01-068-4x5.png c300c918a4ff9010fe9f8ae5a510dbfaa642d369f5c3447282d8036b91c5c309
+  master 9:16 Netherlands/Heusden/nl-01-068-9x16.png 89d5e2bc483bb4918ed5625d01c366499e22e89930b75893614ed4b7fd502fd1
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 34381 4:5 10142
+NL-01-069	Van Gogh Church, Nuenen	26 September 2026 · 00:19 Europe/Amsterdam
+  source 16:9 470bd1576088acc1066ce9797758a500f3f91f4c0071c647a8a6ef7fdb1a2e1d
+  source 4:5 24db4f829c81d2f88c6e52fa33ee5a3bb6d3c197aa089b0f35459f35bf1a5f1f
+  master 16:9 Netherlands/Nuenen/nl-01-069-16x9.png dec8bbf47e7ec16a9e15b9a084f0e5a891ef4febd1ff169cbb4e01cc08245085
+  master 4:5 Netherlands/Nuenen/nl-01-069-4x5.png 3fb960053d7e7e9a6346b4ec8c2f8f8e71c98f1688272f45a134cf4a92f0ccb7
+  master 9:16 Netherlands/Nuenen/nl-01-069-9x16.png e102a3f82c1248543185a276ae384dbf647d47e52bbae2c166dec87af1592305
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 37403 4:5 11046
+NL-01-070	Sassenpoort, Zwolle	26 September 2026 · 00:19 Europe/Amsterdam
+  source 16:9 80b1c15fcea6337f424100f0e890e76ce6e9258283d8b061100a95b410d1883f
+  source 4:5 0fdf70eca1ff36d179fcceceadb954d89fa79e77851a4f18a1b35374a3d45129
+  master 16:9 Netherlands/Zwolle/nl-01-070-16x9.png 1c693fe59bce465b16a073ea9781326d0a92805eea067fc6021da5f3c81f1614
+  master 4:5 Netherlands/Zwolle/nl-01-070-4x5.png be3e4e7d50f07e1e36890ef64199d84b7d576dd562c1caf02a3f169901ea74a0
+  master 9:16 Netherlands/Zwolle/nl-01-070-9x16.png 53e395ff1afa7c4143d88e104d8556f64bbd61b74ff23d574f13fca4d817c339
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 35342 4:5 10414
+NL-01-071	Stadsbrug, Kampen	26 September 2026 · 00:19 Europe/Amsterdam
+  source 16:9 bd5cb8f75c26a9f7485fdfbb6156265a1dd2e6c445124d0d75bbb0ae921fb10e
+  source 4:5 a05637ee4724532ffcdb25b83140a45717773c36255d2d1cc146e4b6d481f6b5
+  master 16:9 Netherlands/Kampen/nl-01-071-16x9.png 128b6d6c8083e515f2053ba296c110b8d3f8228fd35d22663e1b0e5d44f6ec83
+  master 4:5 Netherlands/Kampen/nl-01-071-4x5.png 5ac1f7a168d93b43a3771d7b1c656e1651d366dc2b96b7ca96868800bab9e53d
+  master 9:16 Netherlands/Kampen/nl-01-071-9x16.png 98054a7e0eed77c34a1fe12137854ed5da992c696f7df6c949e9095ed5071391
+  above-scrim changed pixels 16:9 0 4:5 0; glyph miss 16:9 0 4:5 0; scrim recomposite max abs 16:9 0 4:5 0; inpainted pixels 16:9 35312 4:5 10355

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Waag, Gouda: the free-standing neoclassical brick weigh-house — pedimented facade, rusticated central entrance, symmetrical sash windows — on the market square at night under heavy cloud. On-image caption 'Waag, Gouda', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:47+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:39:05.380473+00:00",
-  "sha256_16x9": "0fecee3c20083e2aaba89ad2a501485a6556f32a7f2a050d8b05de1f2374fc65",
-  "sha256_4x5": "35a8a9aa7be63a066ac0cf363e1f27a7dab36bde45eb553138f4cf2ee4878917"
+  "sha256_16x9": "a99c67904d026eb6ecca963260ed57468a5ed61b1c0b780f97fa2b3b1856bdf3",
+  "sha256_4x5": "67e5eb6a8e31dc3a9aa3e4eda5964a9e9e6009d1d9a29b63c082888a84b64fa9",
+  "file_9x16": "Netherlands/Gouda/nl-01-125-9x16.png",
+  "sha256_9x16": "3a1d10fb69d2ddfa69611c514383cb1d6e2473685eca6922000891d8ac286ce0",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 0fecee3c20083e2aaba89ad2a501485a6556f32a7f2a050d8b05de1f2374fc65. Source SHA-256 4:5 35a8a9aa7be63a066ac0cf363e1f27a7dab36bde45eb553138f4cf2ee4878917. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

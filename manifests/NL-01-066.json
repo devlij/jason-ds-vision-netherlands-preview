@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 visual pass: dusk view down over The Bottom, Saba — the village of lit houses nestled in green volcanic slopes, a winding road in the foreground, pink-tinged twilight sky over the ridges; the crater-village setting reads correctly. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'The Bottom, The Bottom', scenario '25 September 2026 · 18:19 America/Kralendijk' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T18:19:11-04:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 18:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:40.075626+00:00",
-  "sha256_16x9": "d68c25d2b1212771ac12e7f7ba3d55cc6681f075f8cbe92676cd3e75ecf5514f",
-  "sha256_4x5": "653c8a51a5ea2406127925772e37cdfbe05d9bd11ffd144ddff29b1fa16609ce"
+  "sha256_16x9": "642ff58878bb519903312be6d5f9dc008ee1280ce172ad83a9795b3d85c013f7",
+  "sha256_4x5": "5af1c37924327bd7c8e31c904b79dfc678ae760637bc2f6f5528ab59c224ae68",
+  "file_9x16": "Netherlands/The Bottom/nl-01-066-9x16.png",
+  "sha256_9x16": "a0b4758bf6829e523b1bcceb01371959572eb8885f9565312ab4916950df2749",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d68c25d2b1212771ac12e7f7ba3d55cc6681f075f8cbe92676cd3e75ecf5514f. Source SHA-256 4:5 653c8a51a5ea2406127925772e37cdfbe05d9bd11ffd144ddff29b1fa16609ce. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

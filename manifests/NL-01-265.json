@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: night scene of the Schokland Kerkruine as low brick foundation walls tracing an outer rectangle with inner wall lines, memorial stone, grass field, gravel path and a single lit path lamp under overcast skies - matches the documented ruin foundations (no standing church, no tower); the 4:5 shows the same rectangular foundation outline from a closer angle, consistent subject identity. Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Kerkruine, Schokland', scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI-disclosure and 'Jason D's Vision' signature all legible; Open-Meteo retrieval timestamp 2026-09-26T04:18:42+02:00 verified UNIQUE to the second across all 288 NL evidence files, scenario minute inside the model-valid hour 04:00-04:59; Art.50 PNG metadata (Title/Description/Copyright/Software/Comment with EU AI Act Art.50 note) present on both masters. Gate 3 PASS: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos; license badge 'Free · no credit needed' - documented only, final commercial call is Jason's. Gate 5 PASS: card fields complete.",
   "approved_at": "2026-09-26T17:46:06.505894+00:00",
-  "sha256_16x9": "78f652d20046a615190576f37f46c900747af9909573dbdafc3e33f9fe45dde1",
-  "sha256_4x5": "7889459b3ed33ad25b2b6a24b190f43464e3450619bfe3bfeef9732e3aee0a27"
+  "sha256_16x9": "eff2b7fa7c6a39a2fc7c58a456d27875a3fd7428432e93cec7adb4939d21c91c",
+  "sha256_4x5": "a06990d449df5fb9229f0d26ef5564cbd907142cb9056208721ffe7e19b79f0b",
+  "file_9x16": "Netherlands/Schokland/nl-01-265-9x16.png",
+  "sha256_9x16": "008d644ee8477269062555cfb1138e5c150fafcdf5b27e16d298ae194ad211ef",
+  "format_9x16_approval_status": "Candidate"
 }

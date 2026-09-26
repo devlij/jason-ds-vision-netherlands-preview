@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Long symmetrical brick workhouse block with central arched gateway and roof cupola across still water, brick bridge approach, warm window glow on the facade; caption 'Tweede Gesticht, Veenhuizen' and scenario '26 September 2026 · 03:37 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:37 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:37:42+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
   "approved_at": "2026-09-26T14:43:05.930380+00:00",
-  "sha256_16x9": "05fbbc097682e4cefa6fc410c337ac54581f8c651bd7aba95e43607d26390ce9",
-  "sha256_4x5": "ea93ce70be318e08ce70cf4bacca833915ca260f3d125646948c9bffcc3c667c"
+  "sha256_16x9": "2dc7c4abc6b2a44f9a917fa0d04e9eaa04ea270ef58d1fb7aa92875920802596",
+  "sha256_4x5": "162c5622ddd5b3b0428d8aadd0157d99f4ef6f14fd877aa7a41c4b67e4ca1d0f",
+  "file_9x16": "Netherlands/Veenhuizen/nl-01-228-9x16.png",
+  "sha256_9x16": "f290869ea36e9737c225beb1031f68ebcc7ae9112cf49e796548a249f5c7d42d",
+  "format_9x16_approval_status": "Candidate"
 }

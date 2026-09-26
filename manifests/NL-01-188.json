@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Stadhuis Dokkum at night from across De Zijl — long brick town-hall facade with rows of warmly lit windows, central pediment with statue and belfry cupola, canal frontage with quay lamps, golden window reflections on dark water, dramatic cloud sky; recognizable Dokkum town-hall composition, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Stadhuis, Dokkum', scenario '26 September 2026 · 02:37 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:37 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:37:13+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
   "approved_at": "2026-09-26T11:55:46.949464+00:00",
-  "sha256_16x9": "4809ae94ccdedbe42aa6d48c5bccfb12bcc4f15fb347e03a87674c40caec62c6",
-  "sha256_4x5": "730ee785dcc783a71b4dbd9f6ec5ec0f7e904daf77b025e081ffb648f1265edd"
+  "sha256_16x9": "7e6eb363930fd822b83288844a648b448465868aa6064c6be3100dd994661248",
+  "sha256_4x5": "c5ad929c3df6e361fd874de5e8f043f6cb701cb8bd801ee5acaf4689023d080d",
+  "file_9x16": "Netherlands/Dokkum/nl-01-188-9x16.png",
+  "sha256_9x16": "abdb8addbfb2e08b7a79c482a6593e25d77cdeb63a98ef6182621e5f3190a5c2",
+  "format_9x16_approval_status": "Candidate"
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Harbour, Den Oever: a working fishing harbour at night — moored trawlers along the quay, warehouse sheds, floodlit yard, calm dark water with light reflections. On-image caption 'Harbour, Den Oever', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:28+02:00 — verified unique to the second across all 288 Netherlands scenes; scenario minute 01:22 inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:38:07.506524+00:00",
-  "sha256_16x9": "3d99c368766e1d13809c3365f21ceb0e6741e1ae395eaed515244334dd3a9334",
-  "sha256_4x5": "f3d86f5f43eb70afa5843999786c4d7012cfcadea052fa0010e5a637457dc3c2"
+  "sha256_16x9": "e738e0e422c56efdc5a7dbe9f9bf6a337069c4ede05679cb91501b838d1dd128",
+  "sha256_4x5": "953dce55e1b49d2a50ed39a4288f877d59dfdd0a34936632130de1263c972847",
+  "file_9x16": "Netherlands/Den Oever/nl-01-117-9x16.png",
+  "sha256_9x16": "083750d73d164fbc2221e1983b9c874af57d12aeb09eb795efa73501b1403907",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 3d99c368766e1d13809c3365f21ceb0e6741e1ae395eaed515244334dd3a9334. Source SHA-256 4:5 f3d86f5f43eb70afa5843999786c4d7012cfcadea052fa0010e5a637457dc3c2. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

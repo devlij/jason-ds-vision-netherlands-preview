@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Van Gogh Museum at night — lit modern stone block with the glowing oval glass entrance pavilion, lawn and paths in foreground, cloud-banded night sky; clean, no artifacts. G2: exact dims verified; on-image 'Van Gogh Museum, Amsterdam', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible on scrim; Art.50 metadata present. Scenario minute 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:02+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; museum exterior, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:45:05.866354+00:00",
-  "sha256_16x9": "dce51ee08be06db203cb7e7c6d537bc0d808281fd634830e44978c2a44ddb39f",
-  "sha256_4x5": "01dd4ee349259aebf0c90ec7f9dc664dacc9e088503424b5e384a741bc0e7c3b"
+  "sha256_16x9": "e738bad0db3df01d06be663a597597e9b62ce99bdd4bc7899409b82517ee2c97",
+  "sha256_4x5": "4142ba2eea405d7373c7d884142c0df39ac2986ad08f7dfdbe62e73316a71714",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-017-9x16.png",
+  "sha256_9x16": "7e392533cea90cfce4db2c571149a53258539ee25c9c01b1e8c75ae0c291d4c3",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 dce51ee08be06db203cb7e7c6d537bc0d808281fd634830e44978c2a44ddb39f. Source SHA-256 4:5 01dd4ee349259aebf0c90ec7f9dc664dacc9e088503424b5e384a741bc0e7c3b. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

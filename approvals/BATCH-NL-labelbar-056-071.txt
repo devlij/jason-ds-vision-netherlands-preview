@@ -1,0 +1,121 @@
+Netherlands label-bar batch — NL-01-056 through NL-01-071 — 2026-09-26
+
+Parent tip: 9594d9b7be5786d86fb749e14531ca5c7aa79a72
+Branch tip: 218e73c77409d6776175bde6c21b01d779c91da9
+The commit above is the one that adds these masters, pre-text, and gallery wiring. A later commit only writes this SHA into this note.
+
+Skips
+None. All sixteen IDs exist on this branch, are Candidates, are outside the Cosmo locks, and had no durable pre-text. NL-01-064 and NL-01-067 are late-day Caribbean scenes. NL-01-065 and NL-01-066 are dusk. The rest are full night. Earlier label-bar scenes were left as already finished. Spain and other countries were not touched. Weather JSON was not rewritten. NL-01-225 through NL-01-288 on origin/main were not merged.
+
+Tooling
+tools/composite_masters.py. Only the 16:9 pre-text was stored. 4:5 and 9:16 photos are center-crops of that pre-text, resized with Lanczos, then the 190px bar. Scenario lines come from the existing weather files.
+
+Art. 50
+Five PNG chunks on all 48 masters. Title and Copyright are iTXt with a straight apostrophe and an em dash. Description, Software, and Comment are tEXt. On-image “Jason D’s Vision” uses U+2019. Jason A. Devlin is in Allura.
+
+Gallery
+These 16 cards now have file_9x16. Tabs and downloads sit under the image. Daylight toggles remain on NL-01-001–010 only. No View image control. file_9x16 count is 156. Daylight file_16x9_day count stays 10.
+
+Cosmo untouched
+NL-01-001–010 and NL-01-026–055 were not rewritten. Groningen changes are only NL-01-060. Zwolle changes are only NL-01-070. Kampen changes are only NL-01-071.
+
+Pre-text and masters
+NL-01-056	Oldehove, Leeuwarden	26 September 2026 · 00:00 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Leeuwarden/nl-01-056-16x9.png 1280x720 649845
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Leeuwarden/nl-01-056-16x9.png 1920x1270 1277271 d306be7212d0dc0e83262962eaab57335f9620eb8cf52288b8a80b9412efa700
+  master 4x5 library/world/Netherlands/Leeuwarden/nl-01-056-4x5.png 864x1270 743955 54dd15bd6057ded4b7fdd2efca6179f5bf016b6ad85be198539a77e040f7b3b7
+  master 9x16 library/world/Netherlands/Leeuwarden/nl-01-056-9x16.png 1080x2110 1327458 c9ffd60b0aaff060ab12af69a5e3c1e39404ccf99c796f4dac6ae99e31ecd47c
+NL-01-057	Harbour, Harlingen	26 September 2026 · 00:00 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Harlingen/nl-01-057-16x9.png 1280x720 1160011
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Harlingen/nl-01-057-16x9.png 1920x1270 2278103 c7ed42f4b0e99c1bfc8a3a7c9fca0370cab253e710d2194e69f6eb25de76e66b
+  master 4x5 library/world/Netherlands/Harlingen/nl-01-057-4x5.png 864x1270 1074921 2f1e2c49491cc3106155ab7bedb654e3b45f3f59ea9e9f0893edc9a7cd7af026
+  master 9x16 library/world/Netherlands/Harlingen/nl-01-057-9x16.png 1080x2110 1757074 a14f56a1521121da9fa3e676f5451853bd216a24ed7e9f092c384a3636342a44
+NL-01-058	Eise Eisinga Planetarium, Franeker	26 September 2026 · 00:01 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Franeker/nl-01-058-16x9.png 1280x720 1109902
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Franeker/nl-01-058-16x9.png 1920x1270 2187414 eef5bf754397c44e8cb21cd6b16ae3ac2fe13c17ddcd4322defabee24f5ad4a5
+  master 4x5 library/world/Netherlands/Franeker/nl-01-058-4x5.png 864x1270 951320 b95308a4ec0aae1ac40b3c6b6829636833201c8c44d84c8ce3b8049bd4ec5c16
+  master 9x16 library/world/Netherlands/Franeker/nl-01-058-9x16.png 1080x2110 1516635 8038e6681f61427be953e9602ef5e7573f97aa7ac7db94dbdce28e77ed495635
+NL-01-059	Waterfront, Hindeloopen	26 September 2026 · 00:01 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Hindeloopen/nl-01-059-16x9.png 1280x720 954280
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Hindeloopen/nl-01-059-16x9.png 1920x1270 1949137 64c72234ef5e6830b0ad6c1f1df52c070b4521e606ac30c328ca0a95b7183ce9
+  master 4x5 library/world/Netherlands/Hindeloopen/nl-01-059-4x5.png 864x1270 938880 c74a6551625e06379749ba3ed7423eaa516002f626bf787c1033901dd9885ed2
+  master 9x16 library/world/Netherlands/Hindeloopen/nl-01-059-9x16.png 1080x2110 1491970 d8bfad8ab84a06ed8039e16a1ebcaf3536c3a24152be48146d4a0161e73961f3
+NL-01-060	Martinitoren, Groningen	26 September 2026 · 00:01 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Groningen/nl-01-060-16x9.png 1280x720 1065485
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Groningen/nl-01-060-16x9.png 1920x1270 2176306 c2f82c2808f7943ce9b9f6cb204585612aae1e6393386c85adcb2693017c1501
+  master 4x5 library/world/Netherlands/Groningen/nl-01-060-4x5.png 864x1270 1160593 c7b36d20589d5ce9873e4a0962ece834adf0e4b7c89aa4790c5260c73219f864
+  master 9x16 library/world/Netherlands/Groningen/nl-01-060-9x16.png 1080x2110 2041432 a5e41e793c49e5a05b6a2a7240be9394524857086282d0ebba7ab47bee693e4d
+NL-01-061	Vesting Bourtange, Bourtange	26 September 2026 · 00:01 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Bourtange/nl-01-061-16x9.png 1280x720 624771
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Bourtange/nl-01-061-16x9.png 1920x1270 1238904 90dc689dd4a0ddaf8dc80fd53f813de2edb4a6b23d8ef6d46027e1ef0997f742
+  master 4x5 library/world/Netherlands/Bourtange/nl-01-061-4x5.png 864x1270 595215 919680ac7388685a9916f8420aacc8653e2316adb3b1c0d3a44ab2926ba697b1
+  master 9x16 library/world/Netherlands/Bourtange/nl-01-061-9x16.png 1080x2110 971275 9d3efad7c9fec2d606b14020d8e9cc1f18cb20c8d5a8d8c080214a02d43f2574
+NL-01-062	Hunebed D27, Borger	26 September 2026 · 00:01 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Borger/nl-01-062-16x9.png 1280x720 1079434
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Borger/nl-01-062-16x9.png 1920x1270 2145532 add00eec972f3e38288a3bc9493e2a812baa0d0de2bb4db805d9fd858cc7b04f
+  master 4x5 library/world/Netherlands/Borger/nl-01-062-4x5.png 864x1270 1044957 8d790c04b6fc95ea281c62626138b98c9aada4fef478ecf6424be7fac3dd7ab4
+  master 9x16 library/world/Netherlands/Borger/nl-01-062-9x16.png 1080x2110 1687934 a7d95b5935a4c389ee0d5e6a05446829d8ac4f57cf3e1a804bff7cedf21388fc
+NL-01-063	Dwingelderveld, Dwingeloo	26 September 2026 · 00:01 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Dwingeloo/nl-01-063-16x9.png 1280x720 742601
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Dwingeloo/nl-01-063-16x9.png 1920x1270 1528951 6d8ae2ab84800e98ab7c0db64eb3d107d8ab3ffdf77f450c69f5d48e16c81e7c
+  master 4x5 library/world/Netherlands/Dwingeloo/nl-01-063-4x5.png 864x1270 689708 7923104c37ad464fd1a73f64c71b1edb06bc54c2e5f057849040554a0efa1e01
+  master 9x16 library/world/Netherlands/Dwingeloo/nl-01-063-9x16.png 1080x2110 1053229 5f386d3db82a1418f471da9c58b8d660597a1de76d1dd43cd19315240e34a3ec
+NL-01-064	Waterfront, Kralendijk	25 September 2026 · 18:01 America/Kralendijk
+  pretext 16x9 library/pretext/Netherlands/Kralendijk/nl-01-064-16x9.png 1280x720 1102905
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Kralendijk/nl-01-064-16x9.png 1920x1270 2206651 40ddfacf4f1f07c2086125ae3a4c32816e36537ca441bc896f7246b3a89ea5d1
+  master 4x5 library/world/Netherlands/Kralendijk/nl-01-064-4x5.png 864x1270 1045982 92aac0fa5ab1cb49b394c52ae5c8a4b6cae3d5693c2b21cebec731d6d1417b00
+  master 9x16 library/world/Netherlands/Kralendijk/nl-01-064-9x16.png 1080x2110 1697037 c7c9404384ff877f6fa73766b1bbd7a2025132b2ec4ed354c9a86c5c929b1dab
+NL-01-065	Fort Oranje, Oranjestad	25 September 2026 · 18:19 America/Kralendijk
+  pretext 16x9 library/pretext/Netherlands/Oranjestad/nl-01-065-16x9.png 1280x720 1034709
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Oranjestad/nl-01-065-16x9.png 1920x1270 2060790 e644e813d84b9e92830352d24a2947cf2391641f31589f1eb664b8d48e5b4709
+  master 4x5 library/world/Netherlands/Oranjestad/nl-01-065-4x5.png 864x1270 939912 211dcba8fab81536d964ff65fa4398cb82f57bc32bc7b676991c95e7433b81f5
+  master 9x16 library/world/Netherlands/Oranjestad/nl-01-065-9x16.png 1080x2110 1427940 258f6a041a080c6dac202d1979ac45fe304b68d19d11b6c009b5f2610c9be1f7
+NL-01-066	The Bottom, The Bottom	25 September 2026 · 18:19 America/Kralendijk
+  pretext 16x9 library/pretext/Netherlands/The Bottom/nl-01-066-16x9.png 1280x720 1117945
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/The Bottom/nl-01-066-16x9.png 1920x1270 2210084 79f72fd3a95408d080a629d2aa5fe3501a5a7f24664372a5dad78a69808ab893
+  master 4x5 library/world/Netherlands/The Bottom/nl-01-066-4x5.png 864x1270 1094333 654bf6bbc7f446270b955d2b8ec6368cf0ddb9a6e42225434b3c1208a34a620a
+  master 9x16 library/world/Netherlands/The Bottom/nl-01-066-9x16.png 1080x2110 1768892 967c1a7bda56093df16c3c1a466ea823d7c9e0d78008d1a3721b57b3416471fa
+NL-01-067	Salt pans, Bonaire	25 September 2026 · 18:19 America/Kralendijk
+  pretext 16x9 library/pretext/Netherlands/Bonaire/nl-01-067-16x9.png 1280x720 1065507
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Bonaire/nl-01-067-16x9.png 1920x1270 2206794 d43ce346e330aecb4129690e37f106dc8d8b606ff3d8472d44c9a6a73a743182
+  master 4x5 library/world/Netherlands/Bonaire/nl-01-067-4x5.png 864x1270 1045644 547968b227f23e5d37d29c7b59d1f1baf7db11aaacc7b5fe1171f2d2720146e5
+  master 9x16 library/world/Netherlands/Bonaire/nl-01-067-9x16.png 1080x2110 1662128 df277d04515f7454c0994c45dbb4c9368f53b787b0c3322853f702a30300708a
+NL-01-068	Harbour, Heusden	26 September 2026 · 00:19 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Heusden/nl-01-068-16x9.png 1280x720 949784
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Heusden/nl-01-068-16x9.png 1920x1270 1912950 eff4f7c5d74f611574524fd2c54ba490717adbc6cea06b5d8e609174d55018cd
+  master 4x5 library/world/Netherlands/Heusden/nl-01-068-4x5.png 864x1270 1016712 0abaa8cd56b39c48843c002ca72d5962c921ebfdb44045e20c291f74fab702b6
+  master 9x16 library/world/Netherlands/Heusden/nl-01-068-9x16.png 1080x2110 1705446 ce0eb91c717e5719f65b2b4eb77f088fc2b0887f8cd212cd7ea00e2298c55401
+NL-01-069	Van Gogh Church, Nuenen	26 September 2026 · 00:19 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Nuenen/nl-01-069-16x9.png 1280x720 1250864
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Nuenen/nl-01-069-16x9.png 1920x1270 2452490 174ae8bfab3c376baf636cc720f4ea858162851fdbfc80ddfa380f50d4c81b80
+  master 4x5 library/world/Netherlands/Nuenen/nl-01-069-4x5.png 864x1270 982343 cfbd048ac90e35fbea25d9e0c9800098e019388da9eb4d64c2051074a1c099e2
+  master 9x16 library/world/Netherlands/Nuenen/nl-01-069-9x16.png 1080x2110 1478098 17eab47d470f02be145d8e14c2cc82e128156324ba7ad4612075d7654da23963
+NL-01-070	Sassenpoort, Zwolle	26 September 2026 · 00:19 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Zwolle/nl-01-070-16x9.png 1280x720 812819
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Zwolle/nl-01-070-16x9.png 1920x1270 1626435 d71bf090ff6285004043fadf07732f9c50be1b2adddb06017ee5d3ea23756afa
+  master 4x5 library/world/Netherlands/Zwolle/nl-01-070-4x5.png 864x1270 873716 97c6d0a6e6ee5971711b020381c9a118a3951e4fdfaa3d83eedcb20ec6e779a8
+  master 9x16 library/world/Netherlands/Zwolle/nl-01-070-9x16.png 1080x2110 1336978 47b615441a11ea37c9675d9855dfa0c22dafd82579f7abdc0a24d5589f22cdec
+NL-01-071	Stadsbrug, Kampen	26 September 2026 · 00:19 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Kampen/nl-01-071-16x9.png 1280x720 945943
+  4:5 and 9:16 masters are center-crops of that pre-text, Lanczos, then the 190px bar.
+  master 16x9 library/world/Netherlands/Kampen/nl-01-071-16x9.png 1920x1270 1886576 3631cb2d68ae1ab353b1d70bc336fb7a730cd31cc634bbfdb552fc3bda9e6ad7
+  master 4x5 library/world/Netherlands/Kampen/nl-01-071-4x5.png 864x1270 939582 8e0b889c9340de94bf2ec80b310dc6ab4d18f709d3f1667be1ec0f7d97f5483f
+  master 9x16 library/world/Netherlands/Kampen/nl-01-071-9x16.png 1080x2110 1562566 d4ddf1e1ed43b45ded7c75eb72928e056c373cd065d7ebcd22f6a2ffc91c935d
+
+Next
+The next label-bar batch on this branch is NL-01-072 through NL-01-087. Cosmo locks NL-01-001–010 and NL-01-026–055 stay on the earlier scrim finish.

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Linge harbour, Gorinchem. Night canal with moored boats and warm lamp reflections, gabled merchant houses lining both banks, the Grote Kerk tower rising center-frame. Scenario '26 September 2026 · 00:38 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T00:38:12+02:00 (retrieved; model-valid hour 00:30), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:39:29.762315+00:00",
-  "sha256_16x9": "8582f0a5907c0d0ae7eb81b687774b5310b5b45f942c402eaa37ea3c009c159e",
-  "sha256_4x5": "377c433d082e37135541b49612798dfd3738ecb04b847891c0e13f81f2726264"
+  "sha256_16x9": "aaf4050e5c75a3e5b5896241797f9051b5c3549a7c96c5b544c08593a6a79110",
+  "sha256_4x5": "086a1489e07fa916130a98473971a2cc9d7f10e4aa89a696effb542f42a73375",
+  "file_9x16": "Netherlands/Gorinchem/nl-01-086-9x16.png",
+  "sha256_9x16": "cf50e2d53e83c5937ba18e0fbce19486017bd8f2f02a6c809bb09ac4387fc1f7",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 8582f0a5907c0d0ae7eb81b687774b5310b5b45f942c402eaa37ea3c009c159e. Source SHA-256 4:5 377c433d082e37135541b49612798dfd3738ecb04b847891c0e13f81f2726264. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

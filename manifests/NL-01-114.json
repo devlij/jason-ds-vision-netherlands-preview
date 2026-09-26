@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1: night view of the Brandaris on West-Terschelling from Brandarisplein: square unpainted brick tower with red lantern roof above the gallery, low village houses with lit windows on the cobbled square; no misconfiguration. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Brandaris, West-Terschelling', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and signature legible; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:22:20+02:00 unique across all 288 NL scenes; scenario minute 01:22 inside model hour 01:00. G3: builder note documents text-prompt-only generation, no photographic input. G4: no people or logos visible; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T06:40:05.392416+00:00",
-  "sha256_16x9": "2a411d2d941062a6e9a32ea7b1f1973d001bc1cccdf358a5edea7fd028f40957",
-  "sha256_4x5": "1b99d0f9d61bc9bfc288d1692dd29c2395eec2e1cc5fc93586403a984b148b7a"
+  "sha256_16x9": "33b1c0aa9f05f698a1440dae7a39106b9503bad7760adca53d18490daf9506fa",
+  "sha256_4x5": "b8e40fb73a99d11682ec0eb907e47ed236f990283cf892b91edc47f99cadc067",
+  "file_9x16": "Netherlands/West-Terschelling/nl-01-114-9x16.png",
+  "sha256_9x16": "d4210a3581a34370173c932a840b6e76df1b9f9a980ca2e463ed153602785298",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2a411d2d941062a6e9a32ea7b1f1973d001bc1cccdf358a5edea7fd028f40957. Source SHA-256 4:5 1b99d0f9d61bc9bfc288d1692dd29c2395eec2e1cc5fc93586403a984b148b7a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

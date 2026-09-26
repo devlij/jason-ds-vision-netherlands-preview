@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Meppeler Toren at night from Kerkplein — massive brick church tower with domed cupola and cross floodlit warm, nave extending right, lamplit square foreground, dramatic cloud sky; recognizable tower-and-church composition, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Meppeler Toren, Meppel', scenario '26 September 2026 · 02:36 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:36 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:36:55+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
   "approved_at": "2026-09-26T11:53:37.606328+00:00",
-  "sha256_16x9": "e1c38031e852d66e8b7a103021d848eaccb5b89d07b245af826d72aa6ddd7a09",
-  "sha256_4x5": "aa71056626613103db517ff8f37bb9ce3f81cf8904e86a80467dc29cc4e8da88"
+  "sha256_16x9": "2e35538d4df91a506e52734d03f3203eb8ad20831b0672560adc346cfd1cb97b",
+  "sha256_4x5": "0da69aaa507b5b55f50bccad64d9434d7ee3e446c44f2fb53d806dbf03997985",
+  "file_9x16": "Netherlands/Meppel/nl-01-181-9x16.png",
+  "sha256_9x16": "264f08f42707310df1811a6e30acb46bf4b612052215dbdc937029e78c2ede0d",
+  "format_9x16_approval_status": "Candidate"
 }

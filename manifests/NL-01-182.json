@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Havenkolk Blokzijl at night from the quay — basin ringed by gabled brick merchant houses with lit windows, white wooden drawbridge raised on the right, moored boats, lamplit reflections doubling on still water; recognizable harbor composition, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Havenkolk, Blokzijl', scenario '26 September 2026 · 02:36 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:36 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:36:57+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
   "approved_at": "2026-09-26T11:53:57.030457+00:00",
-  "sha256_16x9": "34ae9b8a90651afcc70e2b503d439f83804a916621082f6a1e7f7083555d9465",
-  "sha256_4x5": "c1cbad6519b13f4a7968130ca46d3c147ba6d31a542b429f9817c15c70c24e53"
+  "sha256_16x9": "f7577794a4f38aec8db1e1bec083e8886de0d42358a817743090f48ef8a4d9c3",
+  "sha256_4x5": "d3d9ded9c0ebdcc3561c46610c8c28a5e009d691111acd14c12f287d2b581c33",
+  "file_9x16": "Netherlands/Blokzijl/nl-01-182-9x16.png",
+  "sha256_9x16": "65b21f69ae0d79c1e2d8f2a178569d6fdd511e562e6e9a8d8e65a7be345d6b0f",
+  "format_9x16_approval_status": "Candidate"
 }

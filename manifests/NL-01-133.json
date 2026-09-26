@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: neo-Renaissance waterfront building with twin pointed spires, warm lit windows and pier lamps reflecting on dark water — recognizably Hotel New York (former Holland America Line HQ) at the Wilhelmina Pier; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Hotel New York, Rotterdam' + scenario '26 September 2026 · 01:37 Europe/Amsterdam' + disclosure + curly-apostrophe signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:37:52+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:37:53.501822+00:00",
-  "sha256_16x9": "817348ddb41531699651edd5a7ab8a577e5cdcd0018c25d9d142f9c202de63b5",
-  "sha256_4x5": "a0fa0b71fc9f44d287e56cc53d7e451d7c6437524c6f1dba5536223a7e2403cf"
+  "sha256_16x9": "21a214f2545c0bbbe04987f14f5780b0b1b1709518c02e99decd53eb02b26e3b",
+  "sha256_4x5": "ed2b3a423306525774ea46b6ff14d94dafb4acdd2f756a9f2bc6dca951dbb8a2",
+  "file_9x16": "Netherlands/Rotterdam/nl-01-133-9x16.png",
+  "sha256_9x16": "8d40b7fdd56a48045917c6547918db56423a21eec9c0a88377c47a3d58cd7a89",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 817348ddb41531699651edd5a7ab8a577e5cdcd0018c25d9d142f9c202de63b5. Source SHA-256 4:5 a0fa0b71fc9f44d287e56cc53d7e451d7c6437524c6f1dba5536223a7e2403cf. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

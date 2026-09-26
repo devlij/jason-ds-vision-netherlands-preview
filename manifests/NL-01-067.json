@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Golden hour",
   "approval_basis": "G1 visual pass: golden-hour salt pans on Bonaire — white salt pyramids rising from shallow pink-tinged evaporation ponds, the sea and a soft sunset sky beyond; the pan geometry matches the real salt works. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Salt pans, Bonaire', scenario '25 September 2026 · 18:19 America/Kralendijk' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T18:19:14-04:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 18:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:44.316224+00:00",
-  "sha256_16x9": "033a46d75b621561587169b7eaa1e2847ed3de166746a1078de3d1a17628b8ca",
-  "sha256_4x5": "a4e8fb962d5352f9d5589e6d95dc939bc80bf1630fb31c68407c90cc8fd5d407"
+  "sha256_16x9": "6e418bdd12abe09fa072b12453bcce238ec8ddb2325b92229a14f8e6498ee850",
+  "sha256_4x5": "75105031d55bf3ad1f88880544a273bc9002233a366ce37b862f2c0fb4e23d88",
+  "file_9x16": "Netherlands/Bonaire/nl-01-067-9x16.png",
+  "sha256_9x16": "b5e5655edeea1e6c0e1e1137b4d7bc49bf5636dcb79ca9039fe67893540e98ad",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 033a46d75b621561587169b7eaa1e2847ed3de166746a1078de3d1a17628b8ca. Source SHA-256 4:5 a4e8fb962d5352f9d5589e6d95dc939bc80bf1630fb31c68407c90cc8fd5d407. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Radboud Castle, Medemblik: the moated medieval brick castle — long crenellated block with corner round tower, lit windows reflected in the still moat, under heavy night cloud. On-image caption 'Radboud Castle, Medemblik', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:35+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:38:29.260704+00:00",
-  "sha256_16x9": "49181f0f76d23e0e8ad10b6afb8ff10fa2e6d1547984ffc6dc53c05df093e214",
-  "sha256_4x5": "16f213e80fc90f2ab0ce1276ee09a09ee2b659c3760c34022da93485d69f0c5c"
+  "sha256_16x9": "5ab0f57543428f5e7c8e7cb4a346dca90ecb8edc1372ed0106de41c4635e68b0",
+  "sha256_4x5": "a561b3edda33fd52acbdb61d8a35145346f6645a0ba1cb39143a0ac5d03a6054",
+  "file_9x16": "Netherlands/Medemblik/nl-01-120-9x16.png",
+  "sha256_9x16": "81749af1dc969de30bc342368850275d0beb588e2adfcde985c5c1842f97af56",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 49181f0f76d23e0e8ad10b6afb8ff10fa2e6d1547984ffc6dc53c05df093e214. Source SHA-256 4:5 16f213e80fc90f2ab0ce1276ee09a09ee2b659c3760c34022da93485d69f0c5c. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

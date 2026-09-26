@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows Staphorst's Gemeenteweg streetscape — white and black thatched-roof houses with green shutters receding along the road, lit porch lamp and street lamps under an overcast night sky — matches the captioned street and card anchors; no artifacts. Gate 2: exact dims via git blob API; on-image 'Gemeenteweg, Staphorst', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-26T03:59:18+02:00 in evidence/weather/NL-01-241.json, unique to the second across all 288 Netherlands files, scenario inside the 03:00–03:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T15:45:19.957878+00:00",
-  "sha256_16x9": "7e37206f80f21062c96b998ad17758217768d8a9972b45f87f008f411313eef9",
-  "sha256_4x5": "6ac7834ff7ae98ee1a1a391d8ac2c2536f24587ad8d7db3218ac84e800e174b6"
+  "sha256_16x9": "19c9666b20436adbbe877423912fe6431c2c71b4e05aba04350895a55774cfdf",
+  "sha256_4x5": "604d979bef110cc4ad6897f74567a2ad5d6488d354ec9ac77ccc152f32f4bb09",
+  "file_9x16": "Netherlands/Staphorst/nl-01-241-9x16.png",
+  "sha256_9x16": "9f37693dca262c7967d239320b64dc905893587f79954383076d38a3fbc4d596",
+  "format_9x16_approval_status": "Candidate"
 }

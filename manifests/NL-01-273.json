@@ -18,5 +18,8 @@
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26, verified by Cosmo's own read of the 16:9 master): the scene does not recognizably depict the Cellebroederspoort at Kampen — the master shows a floodlit double-tower castle gatehouse with two tall spired round towers flanking a central arched block, while the Cellebroederspoort is a single plain brick medieval tower gate; the evidence card's own geometry anchors ('two brick towers with tall spires') contradict the documented site. Hold until the builder re-renders the single-tower gate and re-pushes."
     }
-  ]
+  ],
+  "file_9x16": "Netherlands/Kampen/nl-01-273-9x16.png",
+  "sha256_9x16": "a16fdc8ce89924759fde52e4f84621d14efe242b8d9dc98c31f4e4cba3d18c55",
+  "format_9x16_approval_status": "Candidate"
 }

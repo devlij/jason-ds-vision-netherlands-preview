@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night. G1 visual pass: the Deventer Waag brick block with its columned stone portico and stair turret on an empty cobbled square under a starry sky — recognizably the historic weigh house, clean composition. G2 technical pass: exact 1920x1080/864x1080; caption 'Waag, Deventer', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:59+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: public monument, no people or logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T12:43:12.896014+00:00",
-  "sha256_16x9": "db3ddca9458d8bbefa041f84a2fa7d241d7582a3615e5971acaaa3729e4a2da5",
-  "sha256_4x5": "3fa560094008aff4d90b9c572e32bcdc495c88ec81b0af4d9511f43dca7a1f5d"
+  "sha256_16x9": "004bf81ca0546b827a7d543f93bb19b1514dad950ee32aebe2fcacdf51d14585",
+  "sha256_4x5": "ea8f9133303c0f317fffdbe70b3e7f1a334380a6c89b701dbc1775e28be70a3a",
+  "file_9x16": "Netherlands/Deventer/nl-01-201-9x16.png",
+  "sha256_9x16": "42e4ecc034668b79ab00ac93eaa087def858a4f7f656590c54be3b2a9c59ff0b",
+  "format_9x16_approval_status": "Candidate"
 }

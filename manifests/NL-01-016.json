@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Golden hour",
   "approval_basis": "G1 PASS: low glass-and-brick Kröller-Müller pavilion set among tall pines of the Hoge Veluwe, dappled evening light through the trunks, sandy path leading in; plausible and clean, no artifacts. G2: exact dims verified; on-image 'Kröller-Müller Museum, Otterlo', scenario '25 September 2026 · 18:28 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 18:28 inside model hour 18:00; Open-Meteo retrieval 2026-09-25T18:28:08+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; museum exterior in forest, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:45:00.784460+00:00",
-  "sha256_16x9": "2040ead62b89259959140bb677ab2fb9e2d1c1c6d89b46c6f25a54a663d4a254",
-  "sha256_4x5": "e8e915e529fd0a56be5f9a2564cf782b452057b4c420e6a85cb0c7cd7dc58b8e"
+  "sha256_16x9": "ff008631ae03f1cf69e44d0b1c2027e8a4047bcde0ba1ea2322d2b1dd3e06e10",
+  "sha256_4x5": "2e31872082a037897ed2ece823495e9fcb598cbcfa6fb6b82249f3a76116804c",
+  "file_9x16": "Netherlands/Otterlo/nl-01-016-9x16.png",
+  "sha256_9x16": "37a9a34a72fcbfc6bffca61fdcce35c1af57256145d783df3da5a829e6cf319e",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2040ead62b89259959140bb677ab2fb9e2d1c1c6d89b46c6f25a54a663d4a254. Source SHA-256 4:5 e8e915e529fd0a56be5f9a2564cf782b452057b4c420e6a85cb0c7cd7dc58b8e. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: night scene of the Brouwershaven old harbour - a row of gabled brick and white house fronts with lit windows along the quay, moored boats on the dark water, a low bridge crossing the lock at the far end with lamp reflections, under an overcast sky; the 4:5 shows the same quay row and bridge from down-harbour, consistent subject identity. Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Haven, Brouwershaven', scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI-disclosure and 'Jason D's Vision' signature all legible; Open-Meteo retrieval timestamp 2026-09-26T04:18:50+02:00 verified UNIQUE to the second across all 288 NL evidence files, scenario minute inside the model-valid hour 04:00-04:59; Art.50 PNG metadata (Title/Description/Copyright/Software/Comment with EU AI Act Art.50 note) present on both masters. Gate 3 PASS: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos; license badge 'Free · no credit needed' - documented only, final commercial call is Jason's. Gate 5 PASS: card fields complete.",
   "approved_at": "2026-09-26T17:47:11.317005+00:00",
-  "sha256_16x9": "5bf73dadeb4408ffc90f15d6a03dd066500d4bff128802cb79b1b0d2a5da0f76",
-  "sha256_4x5": "11815633d1762d1c737aa8b98a03cc5840ed46a21508110e283da8e50894ab82"
+  "sha256_16x9": "747ea7d8e0f6406f1b8fd471a1c43b87a57b0f513b2185913aafa268688b3adc",
+  "sha256_4x5": "8b1a3757152f0d99d6b74830d0792d96c046f0efeb2dd681bb2454aaaf12a7a0",
+  "file_9x16": "Netherlands/Brouwershaven/nl-01-268-9x16.png",
+  "sha256_9x16": "c686b9ee9364aa68d63b374d3ef73da4e5d722f8d5b161b68a0e49baf4bc1e09",
+  "format_9x16_approval_status": "Candidate"
 }
