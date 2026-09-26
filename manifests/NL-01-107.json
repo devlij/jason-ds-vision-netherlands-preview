@@ -4,12 +4,18 @@
   "region": "Zeeland",
   "city": "Yerseke",
   "caption": "Oyster harbour, Yerseke",
-  "scenario_label": "26 September 2026 \u00b7 01:04 Europe/Amsterdam",
-  "composition": "Inland oyster basins, posts, and sheds beside the Oosterschelde \u00b7 AI-generated artistic interpretation",
-  "description": "Inside the dike at Yerseke, rectangular oyster basins hold dark water, separated by low walls, with small loading cuts and wooden mooring posts. Low sheds sit on the banks. The Oosterschelde lies beyond the dike. The sky is mainly clear, about 15.0\u00b0C, with wind near 9.7 km/h. No company names are shown. The basins are quiet.",
+  "scenario_label": "26 September 2026 · 01:04 Europe/Amsterdam",
+  "composition": "Inland oyster basins, posts, and sheds beside the Oosterschelde · AI-generated artistic interpretation",
+  "description": "Inside the dike at Yerseke, rectangular oyster basins hold dark water, separated by low walls, with small loading cuts and wooden mooring posts. Low sheds sit on the banks. The Oosterschelde lies beyond the dike. The sky is mainly clear, about 15.0°C, with wind near 9.7 km/h. No company names are shown. The basins are quiet.",
   "alt_text": "AI-generated artistic interpretation of the oyster basins at Yerseke on a mainly clear night",
   "file_16x9": "Netherlands/Yerseke/nl-01-107-16x9.png",
   "file_4x5": "Netherlands/Yerseke/nl-01-107-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1: night view of the Yerseke oyster harbour from the Havendijk: rectangular water basins in a grid, low dark sheds and wooden posts, grass sea dike and distant shore lights; no artifacts. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Oyster harbour, Yerseke', scenario '26 September 2026 · 01:04 Europe/Amsterdam', disclosure and signature legible on scrim; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:04:37+02:00 unique across all 288 NL scenes; scenario minute inside model hour 01:00. G3: builder note documents text-prompt-only, no photographic input. G4: no people or logos visible; documented only. G5: card fields complete.",
+  "approved_at": "2026-09-26T06:39:14.223755+00:00",
+  "sha256_16x9": "d622239117de007e0c916fa4dfe189aa863ca82322a00e8452f45a740a02bd9d",
+  "sha256_4x5": "d7599e74b13f2bd0c3fb51e3e3ba0686dd1f6635d66e204c11d22080980cefe2"
 }
