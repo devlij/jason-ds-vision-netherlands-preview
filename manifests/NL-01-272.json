@@ -4,12 +4,18 @@
   "region": "North Brabant",
   "city": "Grave",
   "caption": "Hampoort, Grave",
-  "scenario_label": "26 September 2026 \u00b7 04:19 Europe/Amsterdam",
-  "composition": "Classicist land gate of 1688 from the field side \u00b7 AI-generated artistic interpretation",
-  "description": "The Hampoort at Grave is the brick city gate finished in 1688, in the Dutch classicist manner, with a pediment on the land side. The passage bends, so the street beyond is not seen straight through. It is partly cloudy, about 9.2\u00b0C, with wind near 7.9 km/h and cloud cover about 50%. The museum inside is closed. The coats of arms and the year are not readable. It is not a water gate and not a church.",
+  "scenario_label": "26 September 2026 · 04:19 Europe/Amsterdam",
+  "composition": "Classicist land gate of 1688 from the field side · AI-generated artistic interpretation",
+  "description": "The Hampoort at Grave is the brick city gate finished in 1688, in the Dutch classicist manner, with a pediment on the land side. The passage bends, so the street beyond is not seen straight through. It is partly cloudy, about 9.2°C, with wind near 7.9 km/h and cloud cover about 50%. The museum inside is closed. The coats of arms and the year are not readable. It is not a water gate and not a church.",
   "alt_text": "AI-generated artistic interpretation of the Hampoort in Grave at night",
   "file_16x9": "Netherlands/Grave/nl-01-272-16x9.png",
   "file_4x5": "Netherlands/Grave/nl-01-272-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Night scene of the Hampoort at Grave from the land side on Sint Elisabethstraat: brick gatehouse with triangular pediment, oculus in the gable, rusticated arch banding, cobbles and rampart grass in the foreground, single lit streetlamp against broken cloud. Gate 1 visual PASS — matches the card's documented anchors (brick gatehouse with pediment, cobbles/rampart grass foreground). Gate 2 technical PASS — masters 1920x1080 + 864x1080, exact curly-apostrophe 'Jason D's Vision' signature bottom-right, exact caption 'Hampoort, Grave' + 'Scenario: 26 September 2026 · 04:19 Europe/Amsterdam' + 'AI-generated artistic interpretation · Not a photograph.' bottom-left on gradient scrim, Art. 50 PNG metadata (Title/Description/Copyright/Software + EU AI Act Art. 50 Comment); Open-Meteo retrieval 2026-09-26T04:19:00+02:00 unique to the second repo-wide (288/288 unique), scenario minute 04:19 inside the 04:00–04:59 model hour. Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people, logos, or private property; license badge 'Free · no credit needed' (documented only, not a certified clearance). Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T18:40:42.519074+00:00",
+  "sha256_16x9": "13b734dbcc60512d6de21aaf6a1f271de03621ac1c634ba51c2e166f54aedcd3",
+  "sha256_4x5": "9a131b11af92fd2d1d840b0a31c131697fb21df6964e8eb4d4c2cfe7090349eb"
 }
