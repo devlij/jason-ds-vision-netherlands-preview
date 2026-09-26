@@ -5374,5 +5374,341 @@
       "The Gothic nave sits lower beside the tower"
     ],
     "solar": "Full night under an overcast sky. Model sunrise 07:31 and sunset 19:28 Europe/Amsterdam, model is_day 0. At 03:59 lamps on the market light the brick. Cloud cover is about 87%. The wind is about 9.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-257",
+    "region": "Caribbean Netherlands",
+    "city": "Bonaire",
+    "folder": "Bonaire",
+    "caption": "1000 Steps, Bonaire",
+    "composition": "Limestone stair down the west-coast cliff to a dark cove · AI-generated artistic interpretation",
+    "description": "1000 Steps is the limestone stair on Bonaire's west-coast road, about sixty-seven steps built in the 1960s, not a thousand. The view looks down the cliff to a small rocky cove. It is mainly clear, about 28.3°C, with wind near 21.9 km/h and cloud cover about 23%. Night water is dark. No boat is shown. The church at Rincon is another scene and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the 1000 Steps cliff stair on Bonaire at night",
+    "viewpoint": "From the cliff top beside the stair on the west-coast road, looking down to the cove. The road edge is the viewpoint. A surveyed tripod mark was not pinned. The stair is not in the village of Rincon.",
+    "references": [
+      "https://bonaireisland.com/experiences/beaches/sites/1000-steps/",
+      "https://bonaire.com/en/beaches/1000-steps/"
+    ],
+    "anchors": [
+      "A pale limestone cliff fills the middle of the frame",
+      "A stair of about sixty steps zigzags down the rock",
+      "Dark night water sits in the cove below"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunrise 06:22 and sunset 18:27 America/Kralendijk, model is_day 0. At 22:18 the cove is dark. Cloud cover is about 23%. The wind is about 21.9 km/h."
+  },
+  {
+    "entry_id": "NL-01-258",
+    "region": "Caribbean Netherlands",
+    "city": "Oranjestad",
+    "folder": "Oranjestad",
+    "caption": "Dutch Reformed Church, Oranjestad",
+    "composition": "Roofless stone nave and three-storey tower on Kerkweg · AI-generated artistic interpretation",
+    "description": "The Dutch Reformed Church in Oranjestad is a stone ruin. The nave has stood open to the sky since the roof was lost in 1792, and a three-storey tower stands at the northwest corner. It is clear, about 29.2°C, with wind near 21.5 km/h and cloud cover about 0%. The tower repair of about 2019 is finished, so no scaffold is shown. Fort Oranje and Lower Town are other scenes and are not this frame.",
+    "alt_text": "AI-generated artistic interpretation of the roofless Dutch Reformed Church in Oranjestad, Sint Eustatius, at night",
+    "viewpoint": "From Kerkweg beside the churchyard, looking at the tower and the open nave. The road is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Hervormde_kerk_van_Sint_Eustatius",
+      "https://www.lonelyplanet.com/points-of-interest/dutch-reformed-church/1396391"
+    ],
+    "anchors": [
+      "Thick stone walls of a nave stand without a roof",
+      "A three-storey tower with arched openings rises at one corner",
+      "Old tombs sit in the grass beside the walls"
+    ],
+    "solar": "Full night under a clear sky. Model sunrise 06:01 and sunset 18:05 America/Kralendijk, model is_day 0. At 22:18 a lamp lights the stone. Cloud cover is about 0%. The wind is about 21.5 km/h."
+  },
+  {
+    "entry_id": "NL-01-259",
+    "region": "Drenthe",
+    "city": "De Wijk",
+    "folder": "De Wijk",
+    "caption": "Havezate De Havixhorst, De Wijk",
+    "composition": "Square brick manor of 1753 across the moat · AI-generated artistic interpretation",
+    "description": "Havezate De Havixhorst is the symmetrical brick house rebuilt in 1753, two storeys and a low mezzanine under a hipped roof, seen across the moat with the service wings at the forecourt. The older castle on this site is gone and is not rebuilt. It is overcast, about 7.3°C, with wind near 4.3 km/h and cloud cover about 96%. The house is closed. No coat of arms is readable. Late September leaf, no snow.",
+    "alt_text": "AI-generated artistic interpretation of Havezate De Havixhorst near De Wijk at night",
+    "viewpoint": "From the public approach on the dam toward the iron gate, with the house beyond the moat. The dam is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Havixhorst",
+      "https://monumentenregister.cultureelerfgoed.nl/complexen/515639"
+    ],
+    "anchors": [
+      "A moat and an iron gate fill the foreground",
+      "A square brick house has a hipped roof and four chimneys",
+      "Lower wings flank the forecourt"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:27 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 04:18 a few lamps light the brick. Cloud cover is about 96%. The wind is about 4.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-260",
+    "region": "Drenthe",
+    "city": "Norg",
+    "folder": "Norg",
+    "caption": "Sint-Margaretakerk, Norg",
+    "composition": "Romanesque brick church and saddle-roof tower on the brink · AI-generated artistic interpretation",
+    "description": "The Sint-Margaretakerk stands on the brink at Norg. The tower is an unarticulated saddle-roof tower with white-plastered round-arched niches, not a spire. The nave is a brick hall and the choir ends in a semicircle. It is overcast, about 9.5°C, with wind near 4.7 km/h and cloud cover about 100%. The church is closed. No coat of arms is readable. This is not a hunebed.",
+    "alt_text": "AI-generated artistic interpretation of the Sint-Margaretakerk in Norg at night",
+    "viewpoint": "From the brink green, looking at the tower and the south side of the nave. The green is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.margarethakerknorg.nl/contact/",
+      "https://www.dbnl.org/tekst/sten009monu07_01/sten009monu07_01_0069.php"
+    ],
+    "anchors": [
+      "Grass of the brink fills the foreground",
+      "A brick tower carries a saddle roof, not a spire",
+      "White round-arched niches mark the tower, and a round choir closes the church"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:26 and sunset 19:23 Europe/Amsterdam, model is_day 0. At 04:18 a lamp lights the brick. Cloud cover is about 100%. The wind is about 4.7 km/h."
+  },
+  {
+    "entry_id": "NL-01-261",
+    "region": "Groningen",
+    "city": "Aduard",
+    "folder": "Aduard",
+    "caption": "Abdijkerk, Aduard",
+    "composition": "Brick hall of the former infirmary, without a tall tower · AI-generated artistic interpretation",
+    "description": "The Abdijkerk at Aduard is the surviving brick hall of the abbey, used as the church. It is a long Romano-Gothic hall under a gable roof. The tall tower was taken down in the restoration of 1917-1928 and is not rebuilt, and the pinnacles of 1862 were not put back. A clock sits across the west gable and a stair turret stands on the north side. It is overcast, about 9.7°C, with wind near 7.2 km/h and cloud cover about 100%. The church is closed. The lost abbey church is not shown.",
+    "alt_text": "AI-generated artistic interpretation of the Abdijkerk in Aduard at night",
+    "viewpoint": "From Burgemeester Seinenstraat, looking at the west gable and the long side wall. The street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Abdijkerk_(Aduard)",
+      "https://en.wikipedia.org/wiki/Aduard_Abbey"
+    ],
+    "anchors": [
+      "A long brick hall stands under a steep gable roof",
+      "Pointed windows and blind brick niches run along the side",
+      "A clock crosses the west gable, and there is no tall tower"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:26 and sunset 19:23 Europe/Amsterdam, model is_day 0. At 04:18 a street lamp lights the brick. Cloud cover is about 100%. The wind is about 7.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-262",
+    "region": "Groningen",
+    "city": "Leek",
+    "folder": "Leek",
+    "caption": "Borg Nienoord, Leek",
+    "composition": "Neoclassical villa of 1886 behind the 1708 gate · AI-generated artistic interpretation",
+    "description": "Borg Nienoord is the neoclassical villa rebuilt in 1885-1886 after the fire, smaller than the old borg, seen with the sculpted gate of 1708. It is not a medieval tower house. The upper floor lost in 1846 was not restored as a keep. It is overcast, about 10.9°C, with wind near 4.7 km/h and cloud cover about 100%. The museum is closed. No name is readable. Late September, no flower display.",
+    "alt_text": "AI-generated artistic interpretation of Borg Nienoord in Leek at night",
+    "viewpoint": "From the public side of the 1708 gate, looking toward the villa. The gate is the viewpoint. A surveyed tripod mark was not pinned. The carriage collection indoors is not shown.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Nienoord",
+      "https://rijksmonumenten.nl/monument/23977/huis-de-nienoord/leek/"
+    ],
+    "anchors": [
+      "An ornate stone gate stands in the foreground",
+      "A pale symmetrical villa with a balustrade sits beyond the lawn",
+      "There is no round medieval keep"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:26 and sunset 19:23 Europe/Amsterdam, model is_day 0. At 04:18 a few lamps light the facade. Cloud cover is about 100%. The wind is about 4.7 km/h."
+  },
+  {
+    "entry_id": "NL-01-263",
+    "region": "Friesland",
+    "city": "Schiermonnikoog",
+    "folder": "Schiermonnikoog",
+    "caption": "Zuidertoren, Schiermonnikoog",
+    "composition": "White tower with a copper dome in the dunes · AI-generated artistic interpretation",
+    "description": "The Zuidertoren is the white tower in the dunes at the edge of the village. It was built in 1853-1854 as the inner light and was converted to a water tower around 1950, so the glass lantern is gone and a copper dome with a small monk finial closes the top. The light is not burning. It is overcast, about 15.5°C, with wind near 6.8 km/h and cloud cover about 100%. The tower is not open at this hour. The red Noordertoren is another scene and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the white Zuidertoren on Schiermonnikoog at night",
+    "viewpoint": "From the dune path at Torenstreek, looking up at the white shaft. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Zuidertoren_(Schiermonnikoog)",
+      "https://www.friesland.nl/nl/locaties/2583046091/zuidertoren"
+    ],
+    "anchors": [
+      "Marram grass and dunes fill the foreground",
+      "A white round tower has small round windows",
+      "A copper dome, not a glass lantern, closes the top"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:28 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 04:18 the lamp room is dark. Cloud cover is about 100%. The wind is about 6.8 km/h."
+  },
+  {
+    "entry_id": "NL-01-264",
+    "region": "Friesland",
+    "city": "Workum",
+    "folder": "Workum",
+    "caption": "Sint-Gertrudiskerk, Workum",
+    "composition": "Unfinished Gothic hall church and separate tower · AI-generated artistic interpretation",
+    "description": "The Sint-Gertrudiskerk at Workum is an unfinished late-Gothic hall church. The nave stops short of the tower, so a gap remains between them. The tower has two stages, a stair turret, and the 1613 crown of a lantern and an onion cupola, not a needle spire. The tower does not lean. It is overcast, about 11.7°C, with wind near 5.0 km/h and cloud cover about 100%. The church is closed.",
+    "alt_text": "AI-generated artistic interpretation of the Sint-Gertrudiskerk in Workum at night",
+    "viewpoint": "From the square on the west side, with the gap between tower and nave in view. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.friesland.nl/nl/locaties/885527840/sint-gertrudiskerk",
+      "https://www.frieslandwonderland.nl/lemma/sint-gertrudiskerk-protestants-workum"
+    ],
+    "anchors": [
+      "Cobbles fill the foreground",
+      "A heavy brick tower stands apart from the nave",
+      "The crown is an open lantern and an onion cupola, not a needle"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:30 and sunset 19:27 Europe/Amsterdam, model is_day 0. At 04:18 lamps light the brick. Cloud cover is about 100%. The wind is about 5.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-265",
+    "region": "Flevoland",
+    "city": "Schokland",
+    "folder": "Schokland",
+    "caption": "Kerkruïne, Schokland",
+    "composition": "Low brick foundations of the south-point church · AI-generated artistic interpretation",
+    "description": "The Kerkruïne is the foundation walls of the old Ens church on the south point of Schokland. The walls above ground were taken down by 1821, and the 2002 work conserved the foundations rather than rebuilding a church. No tower stands. It is overcast, about 10.7°C, with wind near 6.1 km/h and cloud cover about 100%. This is polder grass and trees, not the sea. The Middelbuurt church and the keeper's house are other scenes and are not in this frame. Lettering on the memorial stone is not readable.",
+    "alt_text": "AI-generated artistic interpretation of the church ruin at the south point of Schokland at night",
+    "viewpoint": "From Ruïnepad at the south point, looking across the low walls. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://schokland.nl/zuidpunt-kerk/",
+      "https://www.flevolanderfgoed.nl/home/erfgoed/noordoostpolder-2/schokland-3/kerkruine.html"
+    ],
+    "anchors": [
+      "Grass and a path fill the foreground",
+      "Low brick foundation walls trace an outer rectangle",
+      "Smaller wall lines sit inside, and no tower rises"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:29 and sunset 19:26 Europe/Amsterdam, model is_day 0. At 04:18 a path lamp lights the grass. Cloud cover is about 100%. The wind is about 6.1 km/h."
+  },
+  {
+    "entry_id": "NL-01-266",
+    "region": "Flevoland",
+    "city": "Lelystad",
+    "folder": "Lelystad",
+    "caption": "Houtribsluizen, Lelystad",
+    "composition": "Concrete lift towers and twin lock chambers at the dike · AI-generated artistic interpretation",
+    "description": "The Houtribsluizen are the 1975 lock complex at Lelystad, two ship locks and a discharge sluice of six openings between seven concrete lift towers. The viewpoint is the public dike. It is overcast, about 14.6°C, with wind near 4.7 km/h and cloud cover about 100%. No ship name is shown. It is not a windmill. The Blocq van Kuffeler pumping station is another scene and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Houtribsluizen at Lelystad at night",
+    "viewpoint": "From the Markerwaarddijk beside the complex, looking along the lift towers and the lock chambers. The dike is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Houtribsluizen",
+      "https://www.visitlelystad.nl/nl/locaties/1875175952/houtribsluizen-1"
+    ],
+    "anchors": [
+      "Dark water fills the foreground",
+      "Seven concrete towers stand in a row over the discharge openings",
+      "Two long lock chambers sit beside the towers"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:30 and sunset 19:27 Europe/Amsterdam, model is_day 0. At 04:18 work lights fall on the concrete. Cloud cover is about 100%. The wind is about 4.7 km/h."
+  },
+  {
+    "entry_id": "NL-01-267",
+    "region": "Zeeland",
+    "city": "Veere",
+    "folder": "Veere",
+    "caption": "Grote Kerk, Veere",
+    "composition": "Unfinished pale-stone basilica with a low tower roof · AI-generated artistic interpretation",
+    "description": "The Grote Kerk at Veere is the unfinished late-Gothic basilica in pale stone. The west tower stopped near 52 metres with a flattened roof, not the planned needle of about 100 metres. The crossing lantern was lost in the 1686 fire and was not replaced. Many window openings are filled with brick. It is overcast, about 14.6°C, with wind near 10.8 km/h and cloud cover about 100%. The church is closed. The town hall and the Campveerse Toren are other scenes and are not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Grote Kerk in Veere at night",
+    "viewpoint": "From the open ground beside the church, looking at the west tower and the transept. The ground is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.zeeuwseankers.nl/verhaal/grote-of-onze-lieve-vrouwekerk-in-veere",
+      "https://nl.wikipedia.org/wiki/Grote_Kerk_(Veere)"
+    ],
+    "anchors": [
+      "Small town houses sit at the foot of the church",
+      "A heavy stone tower ends in a low flattened roof",
+      "There is no lantern on the crossing"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:37 and sunset 19:34 Europe/Amsterdam, model is_day 0. At 04:18 street lamps light the stone. Cloud cover is about 100%. The wind is about 10.8 km/h."
+  },
+  {
+    "entry_id": "NL-01-268",
+    "region": "Zeeland",
+    "city": "Brouwershaven",
+    "folder": "Brouwershaven",
+    "caption": "Haven, Brouwershaven",
+    "composition": "Inner harbour, renewed quay, and the lock bridge · AI-generated artistic interpretation",
+    "description": "The Haven at Brouwershaven is the old basin in the centre, with house fronts along the quay. The quay walls were renewed with basalt-pattern facing and were open again by April 2026, so the new face is shown. A low bridge crosses the lock. It is overcast, about 12.5°C, with wind near 7.9 km/h and cloud cover about 100%. No boat name and no restaurant name are readable. The church is not the subject.",
+    "alt_text": "AI-generated artistic interpretation of the inner harbour at Brouwershaven at night",
+    "viewpoint": "From the head of the old harbour, looking along the quay toward the lock. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://stadsvisiebrouwershaven.nl/nieuws/haven-noord-en-zuidzijde-weer-open",
+      "https://stadsvisiebrouwershaven.nl/brug-over-de-sluis-afgerond"
+    ],
+    "anchors": [
+      "Dark harbour water fills the foreground",
+      "Gabled houses line a quay faced in basalt-pattern concrete",
+      "A low bridge crosses the lock at the far end"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:36 and sunset 19:33 Europe/Amsterdam, model is_day 0. At 04:18 quay lamps light the houses. Cloud cover is about 100%. The wind is about 7.9 km/h."
+  },
+  {
+    "entry_id": "NL-01-269",
+    "region": "Limburg",
+    "city": "Maastricht",
+    "folder": "Maastricht",
+    "caption": "Fort Sint Pieter, Maastricht",
+    "composition": "Low five-sided brick-and-marl fort above the city · AI-generated artistic interpretation",
+    "description": "Fort Sint Pieter is the five-sided fort of 1701-1702 on the north side of the Sint-Pietersberg. The walls are thick, with marl below and brick above, and two rows of loopholes. It is not a castle with round towers. It is clear, about 14.0°C, with wind near 11.5 km/h and cloud cover about 6%. The interior is closed. The caves are not the subject. Vrijthof and the other Maastricht churches are not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of Fort Sint Pieter above Maastricht at night",
+    "viewpoint": "From the path on the city side of the dry moat, looking at the fort wall, with the city lights below. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Fort_Sint_Pieter",
+      "https://rijksmonumenten.nl/monument/28023/fort-sint-pieter/maastricht/"
+    ],
+    "anchors": [
+      "A dry grassy moat fills the foreground",
+      "A low fort wall shows two rows of loopholes",
+      "City lights sit far below the hill"
+    ],
+    "solar": "Full night under a clear sky. Model sunrise 07:29 and sunset 19:26 Europe/Amsterdam, model is_day 0. At 04:18 a few lamps light the wall. Cloud cover is about 6%. The wind is about 11.5 km/h."
+  },
+  {
+    "entry_id": "NL-01-270",
+    "region": "Limburg",
+    "city": "Meerssen",
+    "folder": "Meerssen",
+    "caption": "Basiliek, Meerssen",
+    "composition": "Marl Gothic basilica with a small roof turret, no west tower · AI-generated artistic interpretation",
+    "description": "The basilica at Meerssen is a Gothic cross church of Limburg marl, with flying buttresses. The west tower was lost and was not rebuilt. The present accent is the small roof turret from the 1936-1938 works, and the west end is the three-bay extension of those years. It is clear, about 13.7°C, with wind near 10.1 km/h and cloud cover about 9%. The church is closed. No shop name is readable.",
+    "alt_text": "AI-generated artistic interpretation of the basilica in Meerssen at night",
+    "viewpoint": "From the Markt, looking at the west end and the south flank. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Basiliek_van_het_H._Sacrament",
+      "https://kennis.cultureelerfgoed.nl/index.php/Monumenten/28446"
+    ],
+    "anchors": [
+      "Market paving fills the foreground",
+      "A pale stone church has flying buttresses and no west tower",
+      "A small roof turret rises at the crossing"
+    ],
+    "solar": "Full night under a clear sky. Model sunrise 07:29 and sunset 19:26 Europe/Amsterdam, model is_day 0. At 04:18 lamps on the market light the stone. Cloud cover is about 9%. The wind is about 10.1 km/h."
+  },
+  {
+    "entry_id": "NL-01-271",
+    "region": "North Brabant",
+    "city": "Breda",
+    "folder": "Breda",
+    "caption": "Begijnhof, Breda",
+    "composition": "Long court of low brick houses and a small neoclassical chapel · AI-generated artistic interpretation",
+    "description": "The Begijnhof at Breda is a long court of low brick houses, mostly from the 17th century and raised by a storey early in the 18th. The beguine chapel of 1836-1838 is a single-aisle neoclassical front on the court. It is overcast, about 15.3°C, with wind near 11.2 km/h and cloud cover about 100%. No sign is readable. The castle, the Grote Kerk, and the Spanjaardsgat are other scenes and are not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Begijnhof in Breda at night",
+    "viewpoint": "From inside the court off Catharinastraat, looking along the houses toward the chapel front. The court is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.dbnl.org/tekst/sten009monu02_01/sten009monu02_01_0030.php",
+      "https://nl.wikipedia.org/wiki/Begijnhof_(Breda)"
+    ],
+    "anchors": [
+      "A long court of low brick houses runs into the frame",
+      "A strip of garden sits between the rows",
+      "A small neoclassical chapel closes one end"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:33 and sunset 19:30 Europe/Amsterdam, model is_day 0. At 04:18 lamps light the court. Cloud cover is about 100%. The wind is about 11.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-272",
+    "region": "North Brabant",
+    "city": "Grave",
+    "folder": "Grave",
+    "caption": "Hampoort, Grave",
+    "composition": "Classicist land gate of 1688 from the field side · AI-generated artistic interpretation",
+    "description": "The Hampoort at Grave is the brick city gate finished in 1688, in the Dutch classicist manner, with a pediment on the land side. The passage bends, so the street beyond is not seen straight through. It is partly cloudy, about 9.2°C, with wind near 7.9 km/h and cloud cover about 50%. The museum inside is closed. The coats of arms and the year are not readable. It is not a water gate and not a church.",
+    "alt_text": "AI-generated artistic interpretation of the Hampoort in Grave at night",
+    "viewpoint": "From the land side on Sint Elisabethstraat, looking at the pediment. The street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Hampoort",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/17220"
+    ],
+    "anchors": [
+      "Cobbles and rampart grass fill the foreground",
+      "A brick gatehouse carries a triangular pediment",
+      "The arch does not show a straight view through the town"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunrise 07:29 and sunset 19:26 Europe/Amsterdam, model is_day 0. At 04:19 a street lamp lights the brick. Cloud cover is about 50%. The wind is about 7.9 km/h."
   }
 ]
