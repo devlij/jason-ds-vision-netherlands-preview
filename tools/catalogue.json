@@ -3694,5 +3694,341 @@
       "Dark sea and rock, with no pink salt pans"
     ],
     "solar": "Full night under a clear sky. Model sunset 18:26 America/Kralendijk and model is_day 0. At 20:20 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 11%. The wind is fresh, about 22.9 km/h."
+  },
+{
+    "entry_id": "NL-01-177",
+    "region": "Flevoland",
+    "city": "Nagele",
+    "folder": "Nagele",
+    "caption": "Museum Nagele, Nagele",
+    "composition": "Former church on the rectangular green, flat-roof houses beyond · AI-generated artistic interpretation",
+    "description": "Museum Nagele occupies the former Catholic church on De Brink, the rectangular green at the middle of the modernist village. Flat-roof houses and low schools edge the grass, and a belt of trees stands against the polder. The museum is closed at this hour. It is partly cloudy, about 11.3°C, with wind near 4.3 km/h and cloud cover about 58%. No pitched village gables are shown.",
+    "alt_text": "AI-generated artistic interpretation of Museum Nagele at night, the former church on the green among flat-roof houses",
+    "viewpoint": "From the public path on De Brink, looking toward the former Catholic church that now houses the museum. The green is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Nagele",
+      "https://museumnagele.nl/"
+    ],
+    "anchors": [
+      "A low modern church-form building stands on the rectangular green",
+      "Flat-roof houses and schools close the far side of the grass",
+      "A tree belt marks the edge of the open polder"
+    ],
+    "solar": "Full night. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 02:36 the sun is long down. Cloud cover is about 58%. The wind is light, about 4.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-178",
+    "region": "Flevoland",
+    "city": "Almere",
+    "folder": "Almere",
+    "caption": "Stadhuis, Almere",
+    "composition": "Round council chamber between two five-storey wings on Stadhuisplein · AI-generated artistic interpretation",
+    "description": "From Stadhuisplein the Almere city hall shows the round glass-and-steel council chamber over the entrance, set between two five-storey concrete and marble wings. The later curved glass wing stands on the far side and is not the front in this frame. The offices are closed. It is partly cloudy, about 14.4°C, with wind near 4.0 km/h and cloud cover about 67%. No wordmark is shown.",
+    "alt_text": "AI-generated artistic interpretation of Almere city hall at night, a round council chamber between two office wings",
+    "viewpoint": "From Stadhuisplein, looking at the main entrance and the round council chamber. The square is the viewpoint. A surveyed tripod mark was not pinned. The Weerwater is behind the camera.",
+    "references": [
+      "https://www.architectuurgids.nl/project/item/prj_id/653/alfa/S",
+      "https://www.visitalmere.com/en/locations/441169633/city-hall-almere"
+    ],
+    "anchors": [
+      "A round glass council chamber marks the entrance",
+      "Two five-storey wings meet at a right angle",
+      "Concrete and marble facades, with no lettering on the front"
+    ],
+    "solar": "Full night. Model sunset 19:28 Europe/Amsterdam and model is_day 0. At 02:36 the sun is long down. Cloud cover is about 67%. The wind is light, about 4.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-179",
+    "region": "Drenthe",
+    "city": "Havelte",
+    "folder": "Havelte",
+    "caption": "Hunebed D53, Havelte",
+    "composition": "Long capstone chamber and porch on the heath north of the road · AI-generated artistic interpretation",
+    "description": "Hunebed D53 lies on the Havelterberg north of Hunebeddenweg, a long chamber of capstones on uprights, with the porch still in place. Heath and a few trees surround the stones. D54 across the road is not in this frame, and the larger D27 at Borger is a different scene. The sky is overcast, about 8.0°C, with wind near 1.4 km/h and cloud cover about 95%.",
+    "alt_text": "AI-generated artistic interpretation of hunebed D53 at Havelte at night, a long stone chamber on the heath",
+    "viewpoint": "From the public grass north of Hunebeddenweg, looking along the chamber. The open ground beside the stones is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/D53_(hunebed)",
+      "https://www.drenthe.nl/locaties/1800662783/hunebed-d53-en-d54-1"
+    ],
+    "anchors": [
+      "A long row of capstones rests on uprights",
+      "A short porch of stones projects from the chamber",
+      "Heath and low trees, with the road behind the camera"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 02:36 no moon is visible. Cloud cover is about 95%. The wind is near calm, about 1.4 km/h."
+  },
+  {
+    "entry_id": "NL-01-180",
+    "region": "Drenthe",
+    "city": "Frederiksoord",
+    "folder": "Frederiksoord",
+    "caption": "Koloniehuisjes, Frederiksoord",
+    "composition": "Colony houses along the public road, brick fronts and wooden barn rears · AI-generated artistic interpretation",
+    "description": "Along the public colony road in Frederiksoord, small houses show a brick living front and a lower wooden barn at the rear, set behind straight plots. The museum and the ticketed cottage are closed, so this is the street of houses that remain in the landscape. It is overcast, about 7.4°C, with wind near 1.8 km/h and cloud cover about 83%. Late September leaves are still on the trees. No snow is shown.",
+    "alt_text": "AI-generated artistic interpretation of colony houses in Frederiksoord at night, brick fronts and wooden barns along a quiet road",
+    "viewpoint": "From the public road among the surviving colony houses, looking along the row. The road is the viewpoint. A surveyed tripod mark was not pinned. The museum interior is not entered.",
+    "references": [
+      "https://proefkolonie.nl/en/museum/",
+      "https://www.kolonienvanweldadigheid.nl/nl/locaties-overzicht/2110384010/koloniehuisje-frederiksoord-1"
+    ],
+    "anchors": [
+      "A straight road runs past small houses",
+      "Each house has a brick front and a wooden rear barn",
+      "Trees still in leaf, with no snow"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 02:36 no moon is visible. Cloud cover is about 83%. The wind is light, about 1.8 km/h."
+  },
+  {
+    "entry_id": "NL-01-181",
+    "region": "Drenthe",
+    "city": "Meppel",
+    "folder": "Meppel",
+    "caption": "Meppeler Toren, Meppel",
+    "composition": "Fifteenth-century brick tower with the 1827 cupola on dry Kerkplein · AI-generated artistic interpretation",
+    "description": "The Meppeler Toren rises from Kerkplein beside the Grote or Mariakerk, a fifteenth-century brick tower closed by the cupola that replaced the spire in 1827. The old canal here was filled, so the square is dry pavement, not a quay. The church is closed. The sky is overcast, about 10.7°C, with wind near 2.5 km/h and cloud cover about 85%.",
+    "alt_text": "AI-generated artistic interpretation of the Meppeler Toren at night, a brick church tower with a cupola on a dry square",
+    "viewpoint": "From Kerkplein, looking up at the tower and the church flank. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Grote_of_Mariakerk_(Meppel)",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/28632"
+    ],
+    "anchors": [
+      "A tall brick tower stands on a dry paved square",
+      "A rounded cupola closes the tower, not a needle spire",
+      "The church body sits beside the tower, with no water at its foot"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 02:36 no moon is visible. Cloud cover is about 85%. The wind is light, about 2.5 km/h."
+  },
+  {
+    "entry_id": "NL-01-182",
+    "region": "Overijssel",
+    "city": "Blokzijl",
+    "folder": "Blokzijl",
+    "caption": "Havenkolk, Blokzijl",
+    "composition": "Merchant houses around the inner basin and the lock drawbridge · AI-generated artistic interpretation",
+    "description": "The Havenkolk at Blokzijl is an inner basin lined with brick merchant houses, with the 1912–13 lock and its drawbridge at the town end. A few small boats lie at the quays. It is not a thatched canal village. It is partly cloudy, about 8.0°C, with wind near 3.2 km/h and cloud cover about 68%. No restaurant name is shown.",
+    "alt_text": "AI-generated artistic interpretation of the Havenkolk in Blokzijl at night, brick houses around a harbour basin",
+    "viewpoint": "From the quay beside the Havenkolk, looking across the basin toward the lock bridge. The public quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.visitweerribbenwieden.com/weerribben-wieden-national-park/blokzijl/",
+      "https://www.dbnl.nl/tekst/sten009monu03_01/sten009monu03_01_0016.php"
+    ],
+    "anchors": [
+      "A wide basin fills the middle of the town",
+      "Brick merchant houses stand on the quays",
+      "A lock and a drawbridge close one end"
+    ],
+    "solar": "Full night. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 02:36 the sun is long down. Cloud cover is about 68%. The wind is light, about 3.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-183",
+    "region": "Overijssel",
+    "city": "Vollenhove",
+    "folder": "Vollenhove",
+    "caption": "Oude Haven, Vollenhove",
+    "composition": "Oval harbour beside the church, detached squat tower to the east · AI-generated artistic interpretation",
+    "description": "The old harbour at Vollenhove is the widened moat of the lost Oldehuis, an oval basin beside the Grote or Sint-Nicolaaskerk. A detached squat brick tower stands on the east side of the church. The castle is not rebuilt. It is partly cloudy, about 9.6°C, with wind near 3.2 km/h and cloud cover about 70%.",
+    "alt_text": "AI-generated artistic interpretation of the old harbour at Vollenhove at night, an oval basin beside a brick church",
+    "viewpoint": "From the public quay of the passantenhaven, looking across the oval basin toward the church and the detached tower. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Grote_of_Sint-Nicolaaskerk_(Vollenhove)",
+      "https://rijksmonumenten.nl/monument/335538/oude-vissershaven-passantenhaven/vollenhove/"
+    ],
+    "anchors": [
+      "An oval basin of water fills the foreground",
+      "A two-aisled brick church stands on the far side",
+      "A short detached tower sits east of the church, with no castle"
+    ],
+    "solar": "Full night. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 02:37 the sun is long down. Cloud cover is about 70%. The wind is light, about 3.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-184",
+    "region": "Overijssel",
+    "city": "Oldenzaal",
+    "folder": "Oldenzaal",
+    "caption": "Plechelmusbasiliek, Oldenzaal",
+    "composition": "Single Bentheim sandstone west tower on the church square · AI-generated artistic interpretation",
+    "description": "The Plechelmusbasiliek shows one heavy west tower of Bentheim sandstone, with the Romanesque nave and the later Gothic choir beside it. It is a single tower, not a pair. The church is closed. The sky is clear, about 11.6°C, with wind near 7.9 km/h and cloud cover about 0%. A bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full.",
+    "alt_text": "AI-generated artistic interpretation of the Plechelmusbasiliek in Oldenzaal at night, a single sandstone tower under a clear sky",
+    "viewpoint": "From the square in front of the west tower. The open square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sint-Plechelmusbasiliek",
+      "https://kennis.cultureelerfgoed.nl/index.php/Monumenten/31418"
+    ],
+    "anchors": [
+      "One massive sandstone tower occupies the west end",
+      "The church body continues east from the tower",
+      "The square is open pavement, with no second tower"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:21 Europe/Amsterdam and model is_day 0. At 02:37 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 0%. The wind is about 7.9 km/h."
+  },
+  {
+    "entry_id": "NL-01-185",
+    "region": "Groningen",
+    "city": "Slochteren",
+    "folder": "Slochteren",
+    "caption": "Fraeylemaborg, Slochteren",
+    "composition": "U-shaped manor across the moat, off-centre tower with an outer bell arm · AI-generated artistic interpretation",
+    "description": "Fraeylemaborg is a U-shaped manor across a moat, with a Louis XVI centre on the main front and an off-centre tower that turns from square to octagon under a wooden spire. Two bells hang on iron arms outside that tower. The museum is closed. Two older front towers were removed after 1781 and are not restored. The sky is overcast, about 9.1°C, with wind near 7.6 km/h and cloud cover about 84%. No cafe name is shown.",
+    "alt_text": "AI-generated artistic interpretation of Fraeylemaborg at Slochteren at night, a moated manor with one off-centre tower",
+    "viewpoint": "From the public approach across the outer moat, looking at the main front. The grounds inside the house are closed. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Fraeylemaborg",
+      "https://fraeylemaborg.nl/en/estate/history/"
+    ],
+    "anchors": [
+      "A moat fills the foreground",
+      "The house is a U of hipped roofs, not a keep",
+      "One tower stands off centre, with bells on arms outside the spire"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:21 Europe/Amsterdam and model is_day 0. At 02:37 no moon is visible. Cloud cover is about 84%. The wind is about 7.6 km/h."
+  },
+  {
+    "entry_id": "NL-01-186",
+    "region": "Groningen",
+    "city": "Ter Apel",
+    "folder": "Ter Apel",
+    "caption": "Klooster Ter Apel, Ter Apel",
+    "composition": "Late Gothic brick south church of the monastery, seen from the public side · AI-generated artistic interpretation",
+    "description": "Klooster Ter Apel shows its late Gothic brick south church, a long range with tall traceried windows under a steep tile roof, among trees. Three medieval wings remain around the cloister. The west front was lost after 1755 and is not drawn as a fourth medieval wing. The museum is closed. It is mainly clear, about 9.6°C, with wind near 7.6 km/h and cloud cover about 23%.",
+    "alt_text": "AI-generated artistic interpretation of Klooster Ter Apel at night, a long brick monastery church among trees",
+    "viewpoint": "From the public ground south of the church range, looking at the brick wall and the steep roof. The museum court is not entered. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Ter_Apel_Monastery",
+      "https://www.visitgroningen.nl/en/locations/ter-apel-monastery"
+    ],
+    "anchors": [
+      "A long red-brick church wall fills the frame",
+      "Tall pointed windows sit under a steep tiled roof",
+      "Trees stand close, and no fourth medieval wing is invented"
+    ],
+    "solar": "Full night, mainly clear. Model sunset 19:20 Europe/Amsterdam and model is_day 0. At 02:37 a bright moon shows through breaks in the cloud. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 23%. The wind is about 7.6 km/h."
+  },
+  {
+    "entry_id": "NL-01-187",
+    "region": "Friesland",
+    "city": "Sloten",
+    "folder": "Sloten",
+    "caption": "Lemsterpoort, Sloten",
+    "composition": "Yellow-brick water gate of 1821, stage mill on the bastion beside it · AI-generated artistic interpretation",
+    "description": "The Lemsterpoort is a single yellow-brick water gate of 1821, a high basket-handle arch over the Diep, with a smaller pedestrian opening beside the water. An octagonal stage mill stands on the bastion next to the gate. The land gates are gone. It is not the two-tower water gate at Sneek. It is partly cloudy, about 10.2°C, with wind near 3.6 km/h and cloud cover about 74%.",
+    "alt_text": "AI-generated artistic interpretation of the Lemsterpoort in Sloten at night, a yellow-brick water arch with a windmill on the bastion",
+    "viewpoint": "From the outer water, looking at the Lemsterpoort with the mill on the bastion. The canal approach is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.friesland.nl/nl/locaties/2132987654/de-lemsterpoort",
+      "https://discovernl.nl/sloten/"
+    ],
+    "anchors": [
+      "One yellow-brick arch crosses the canal",
+      "A pedestrian passage sits beside the water opening",
+      "An octagonal stage mill stands on the bastion, not a second gate tower"
+    ],
+    "solar": "Full night. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 02:37 the sun is long down. Cloud cover is about 74%. The wind is light, about 3.6 km/h."
+  },
+  {
+    "entry_id": "NL-01-188",
+    "region": "Friesland",
+    "city": "Dokkum",
+    "folder": "Dokkum",
+    "caption": "Stadhuis, Dokkum",
+    "composition": "1835 cornice facade, Justitia on the pediment, open bell cupola · AI-generated artistic interpretation",
+    "description": "The Dokkum town hall presents the 1835 cornice facade, a central risalit and an empire pediment with the Justitia figure, and an open bell cupola on the roof. The older scroll gable is gone. The interior is closed. The sky is overcast, about 10.6°C, with wind near 6.1 km/h and cloud cover about 95%. The canal De Zijl lies in the foreground.",
+    "alt_text": "AI-generated artistic interpretation of the Dokkum town hall at night, a classical facade and bell cupola across the canal",
+    "viewpoint": "From the far side of De Zijl, looking at the town-hall front. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Stadhuis_van_Dokkum",
+      "https://kennis.cultureelerfgoed.nl/index.php/Monumenten/13187"
+    ],
+    "anchors": [
+      "A long classical front stands across the canal",
+      "A pediment carries a standing figure",
+      "An open bell cupola rises from the roof, with no scroll gable"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 02:37 no moon is visible. Cloud cover is about 95%. The wind is about 6.1 km/h."
+  },
+  {
+    "entry_id": "NL-01-189",
+    "region": "Caribbean Netherlands",
+    "city": "Saba",
+    "folder": "Saba",
+    "caption": "Fort Bay, Saba",
+    "composition": "Concrete piers in the only harbour, cliff rising behind · AI-generated artistic interpretation",
+    "description": "Fort Bay is Saba’s only harbour, a small artificial basin on the southwest shore with concrete piers and the steep green cliff behind. The harbour office is closed. No ferry is alongside. It is mainly clear, about 29.5°C, with wind near 22.2 km/h and cloud cover about 49%. No operator name is shown.",
+    "alt_text": "AI-generated artistic interpretation of Fort Bay on Saba at night, concrete piers under a steep cliff",
+    "viewpoint": "From the shore inside Fort Bay, looking along the main pier toward the open sea, with the cliff at the back. The public harbour edge is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Fort_Bay",
+      "https://www.sabagov.nl/units-directorates/fort-bay-harbor"
+    ],
+    "anchors": [
+      "Concrete piers enclose a small basin",
+      "A steep cliff rises directly behind the harbour",
+      "The main pier is empty of a ferry"
+    ],
+    "solar": "Full night. Model sunset 18:06 America/Kralendijk and model is_day 0. At 20:37 the sun is down. Cloud cover is about 49%. The wind is fresh, about 22.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-190",
+    "region": "Caribbean Netherlands",
+    "city": "Oranjestad",
+    "folder": "Oranjestad",
+    "caption": "Lower Town, Oranjestad",
+    "composition": "Partial brick warehouse walls along the bay, cliff behind · AI-generated artistic interpretation",
+    "description": "Lower Town on Sint Eustatius is a broken line of brick and stone warehouse walls along Oranje Bay, with the cliff rising behind them. Many buildings are only foundations and partial walls. The row is not restored to a complete eighteenth-century street. Fort Oranje stays up on the cliff and is outside this frame. The sky is overcast, about 29.5°C, with wind near 20.7 km/h and cloud cover about 80%. No hotel name is shown.",
+    "alt_text": "AI-generated artistic interpretation of Lower Town in Oranjestad, Sint Eustatius, at night, ruined warehouse walls along a dark bay",
+    "viewpoint": "From the shore path along Oranje Bay, looking at the standing warehouse fragments. The path is the viewpoint. A surveyed tripod mark was not pinned. The fort on the cliff is behind the camera or out of frame.",
+    "references": [
+      "https://mass.cultureelerfgoed.nl/lower-town",
+      "https://en.wikipedia.org/wiki/Oranjestad,_Sint_Eustatius"
+    ],
+    "anchors": [
+      "Broken brick and stone walls stand at the water’s edge",
+      "The bay is dark in the foreground",
+      "A cliff rises behind the ruins, with no complete warehouse street"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 18:05 America/Kralendijk and model is_day 0. At 20:37 no moon is visible. Cloud cover is about 80%. The wind is fresh, about 20.7 km/h."
+  },
+  {
+    "entry_id": "NL-01-191",
+    "region": "Caribbean Netherlands",
+    "city": "Bonaire",
+    "folder": "Bonaire",
+    "caption": "Slave huts, Bonaire",
+    "composition": "Small white coral-stone huts at Witte Pan, larger overseer house nearby · AI-generated artistic interpretation",
+    "description": "At Witte Pan the slave huts are tiny white coral-stone cabins with low doors and dark roofs, and a larger overseer’s house stands with them. The salt flat around them is dark at night, not pink, and the salt pyramids are a different scene. The sky is clear, about 28.5°C, with wind near 22.7 km/h and cloud cover about 13%. A bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full.",
+    "alt_text": "AI-generated artistic interpretation of the white slave huts at Witte Pan on Bonaire at night, small coral-stone cabins under a clear sky",
+    "viewpoint": "From the public roadside at Witte Pan, looking along the row of white huts. The road edge is the viewpoint. A surveyed tripod mark was not pinned. The pyramid yard is outside the frame.",
+    "references": [
+      "https://mass.cultureelerfgoed.nl/witte-pan",
+      "https://bonaire.com/en/sightseeing/slave-huts-saltpans/"
+    ],
+    "anchors": [
+      "A row of very small white stone cabins",
+      "One larger house stands with the row",
+      "Dark salt ground, with no pink water and no salt pyramids"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 18:26 America/Kralendijk and model is_day 0. At 20:37 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 13%. The wind is fresh, about 22.7 km/h."
+  },
+  {
+    "entry_id": "NL-01-192",
+    "region": "Groningen",
+    "city": "Lauwersoog",
+    "folder": "Lauwersoog",
+    "caption": "Ferry terminal, Lauwersoog",
+    "composition": "Empty ferry quay and terminal beside the dark Wadden harbour · AI-generated artistic interpretation",
+    "description": "The Lauwersoog ferry terminal stands at the edge of the harbour, with the ramp and the quay empty. The last boat to Schiermonnikoog has gone, so no ship is alongside. It is overcast, about 12.7°C, with wind near 7.9 km/h and cloud cover about 97%. No ship name and no operator mark are shown.",
+    "alt_text": "AI-generated artistic interpretation of the Lauwersoog ferry terminal at night, an empty quay under heavy cloud",
+    "viewpoint": "From the public harbour side, looking at the terminal and the empty ferry berth. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.vvvschiermonnikoog.nl/vervoer/veerdienst",
+      "https://en.wikipedia.org/wiki/Lauwersoog"
+    ],
+    "anchors": [
+      "A terminal building sits beside a wide ramp",
+      "The ferry berth is empty",
+      "Dark harbour water, with no ship name"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 02:37 no moon is visible. Cloud cover is about 97%. The wind is about 7.9 km/h."
   }
 ]

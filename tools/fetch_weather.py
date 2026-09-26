@@ -30,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-161", "Waterpoort", "Sneek", 53.0292, 5.6592, "Europe/Amsterdam"),
-    ("NL-01-162", "Woudagemaal", "Lemmer", 52.8456, 5.6788, "Europe/Amsterdam"),
-    ("NL-01-163", "Menkemaborg", "Uithuizen", 53.4058, 6.6728, "Europe/Amsterdam"),
-    ("NL-01-164", "Groninger Museum", "Groningen", 53.2123, 6.5660, "Europe/Amsterdam"),
-    ("NL-01-165", "Brink", "Orvelte", 52.8433, 6.6594, "Europe/Amsterdam"),
-    ("NL-01-166", "Grote Kerk", "Enschede", 52.2204, 6.8958, "Europe/Amsterdam"),
-    ("NL-01-167", "Cuneratoren", "Rhenen", 51.9570, 5.5643, "Europe/Amsterdam"),
-    ("NL-01-168", "Grote Kerk", "Breda", 51.5886, 4.7753, "Europe/Amsterdam"),
-    ("NL-01-169", "Laurenskerk", "Rotterdam", 51.9216, 4.4856, "Europe/Amsterdam"),
-    ("NL-01-170", "Delfshaven", "Rotterdam", 51.9082, 4.4478, "Europe/Amsterdam"),
-    ("NL-01-171", "Stadhuis", "Middelburg", 51.4983, 3.6105, "Europe/Amsterdam"),
-    ("NL-01-172", "Slot Haamstede", "Haamstede", 51.6979, 3.7422, "Europe/Amsterdam"),
-    ("NL-01-173", "Lighthouse", "Egmond aan Zee", 52.6191, 4.6217, "Europe/Amsterdam"),
-    ("NL-01-174", "Kasteel Hoensbroek", "Hoensbroek", 50.9202, 5.9258, "Europe/Amsterdam"),
-    ("NL-01-175", "Huis Bergh", "'s-Heerenberg", 51.8744, 6.2458, "Europe/Amsterdam"),
-    ("NL-01-176", "Willemstoren", "Bonaire", 12.0333, -68.2333, "America/Kralendijk"),
+    ("NL-01-177", "Museum Nagele", "Nagele", 52.6439, 5.7233, "Europe/Amsterdam"),
+    ("NL-01-178", "Stadhuis", "Almere", 52.3708, 5.2214, "Europe/Amsterdam"),
+    ("NL-01-179", "Hunebed D53", "Havelte", 52.8072, 6.2167, "Europe/Amsterdam"),
+    ("NL-01-180", "Koloniehuisjes", "Frederiksoord", 52.8462, 6.1875, "Europe/Amsterdam"),
+    ("NL-01-181", "Meppeler Toren", "Meppel", 52.6956, 6.1944, "Europe/Amsterdam"),
+    ("NL-01-182", "Havenkolk", "Blokzijl", 52.7264, 5.9618, "Europe/Amsterdam"),
+    ("NL-01-183", "Oude Haven", "Vollenhove", 52.6808, 5.9518, "Europe/Amsterdam"),
+    ("NL-01-184", "Plechelmusbasiliek", "Oldenzaal", 52.3128, 6.9286, "Europe/Amsterdam"),
+    ("NL-01-185", "Fraeylemaborg", "Slochteren", 53.2154, 6.8096, "Europe/Amsterdam"),
+    ("NL-01-186", "Klooster Ter Apel", "Ter Apel", 52.8762, 7.0749, "Europe/Amsterdam"),
+    ("NL-01-187", "Lemsterpoort", "Sloten", 52.8922, 5.6458, "Europe/Amsterdam"),
+    ("NL-01-188", "Stadhuis", "Dokkum", 53.3236, 5.9998, "Europe/Amsterdam"),
+    ("NL-01-189", "Fort Bay", "Saba", 17.6164, -63.2514, "America/Kralendijk"),
+    ("NL-01-190", "Lower Town", "Oranjestad", 17.4802, -62.9872, "America/Kralendijk"),
+    ("NL-01-191", "Slave huts", "Bonaire", 12.0985, -68.2835, "America/Kralendijk"),
+    ("NL-01-192", "Ferry terminal", "Lauwersoog", 53.4098, 6.2016, "Europe/Amsterdam"),
 ]
 
 
