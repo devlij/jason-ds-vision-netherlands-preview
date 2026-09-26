@@ -4,12 +4,18 @@
   "region": "North Brabant",
   "city": "Heusden",
   "caption": "Harbour, Heusden",
-  "scenario_label": "26 September 2026 \u00b7 00:19 Europe/Amsterdam",
-  "composition": "Three wooden post mills on the rampart beside a quiet harbour \u00b7 AI-generated artistic interpretation",
-  "description": "At the Heusden harbour, three wooden post mills stand on the grass rampart, each a timber body on an open trestle with lattice sails. They are the mills rebuilt in the 1970s, not brick tower mills. The harbour is quiet after midnight, with empty moorings. The sky is clear, about 12.2\u00b0C, with wind near 9.7 km/h. Sunset was 19:28.",
+  "scenario_label": "26 September 2026 · 00:19 Europe/Amsterdam",
+  "composition": "Three wooden post mills on the rampart beside a quiet harbour · AI-generated artistic interpretation",
+  "description": "At the Heusden harbour, three wooden post mills stand on the grass rampart, each a timber body on an open trestle with lattice sails. They are the mills rebuilt in the 1970s, not brick tower mills. The harbour is quiet after midnight, with empty moorings. The sky is clear, about 12.2°C, with wind near 9.7 km/h. Sunset was 19:28.",
   "alt_text": "AI-generated artistic interpretation of the Heusden harbour and three post mills on a clear night",
   "file_16x9": "Netherlands/Heusden/nl-01-068-16x9.png",
   "file_4x5": "Netherlands/Heusden/nl-01-068-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual pass: night harbour at Heusden — three floodlit post windmills on the grass rampart above the dark harbour water, a wooden bridge to the right, lamp reflections on the water, deep-blue sky. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Harbour, Heusden', scenario '26 September 2026 · 00:19 Europe/Amsterdam' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:19:17+02:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
+  "approved_at": "2026-09-26T03:42:48.685977+00:00",
+  "sha256_16x9": "905c6381916b3d7603b73e7e8eca6e7b701435f3eb7f3dd041c86204d992e889",
+  "sha256_4x5": "7348a3a9411f4f6abd1c6775dba667d54945135eaaba9bcd7dd2099d222cb731"
 }
