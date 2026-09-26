@@ -4,12 +4,18 @@
   "region": "Overijssel",
   "city": "Ootmarsum",
   "caption": "Markt, Ootmarsum",
-  "scenario_label": "26 September 2026 \u00b7 01:56 Europe/Amsterdam",
-  "composition": "Low Bentheimer hall and a small wooden ridge turret \u00b7 AI-generated artistic interpretation",
-  "description": "On the Markt the Simon en Judaskerk is a low hall of pale Bentheimer sandstone, with a small wooden turret on the roof ridge. The tall stone tower was taken down in 1842 and is not shown. The sky is clear, about 8.2\u00b0C, with wind near 4.7 km/h, and a bright moon is up. The church is closed, and the square is quiet.",
+  "scenario_label": "26 September 2026 · 01:56 Europe/Amsterdam",
+  "composition": "Low Bentheimer hall and a small wooden ridge turret · AI-generated artistic interpretation",
+  "description": "On the Markt the Simon en Judaskerk is a low hall of pale Bentheimer sandstone, with a small wooden turret on the roof ridge. The tall stone tower was taken down in 1842 and is not shown. The sky is clear, about 8.2°C, with wind near 4.7 km/h, and a bright moon is up. The church is closed, and the square is quiet.",
   "alt_text": "AI-generated artistic interpretation of the low sandstone church on the Markt in Ootmarsum under a clear night sky",
   "file_16x9": "Netherlands/Ootmarsum/nl-01-152-16x9.png",
   "file_4x5": "Netherlands/Ootmarsum/nl-01-152-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: low pale-sandstone hall church (Simon en Judaskerk) with a small wooden turret on the roof ridge and no tall west tower — honest to the anchor that the tower was removed in 1842 and never reconstructed — standing on a cobbled Markt square flanked by historic houses under a near-full moon in a starry clear sky. Gate 2 PASS: exact 1920x1080/864x1080; on-image 'Markt, Ootmarsum', scenario '26 September 2026 · 01:56 Europe/Amsterdam', disclosure and curly-apostrophe 'Jason D's Vision' signature legible both formats; all five Art. 50 metadata fields present; scenario 01:56 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:56:54+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: empty quiet square, no people or logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-26T09:45:11.798091+00:00",
+  "sha256_16x9": "f074c9a0979676987663f45f78eb158af6ebe5db016afbf58a381c421d895bfc",
+  "sha256_4x5": "c0d059ebb61d4538b8ecb37f334060f96506ee751816e4753a71d4429144648f"
 }
