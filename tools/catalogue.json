@@ -4702,5 +4702,342 @@
       "Low houses and dark hills sit behind; the sea is not in the frame"
     ],
     "solar": "Full night under a clear sky. Model sunrise 06:22 and sunset 18:27 America/Kralendijk, model is_day 0. At 21:16 house lamps and a light on the tower are on. Cloud cover is about 12%. The wind is about 22.5 km/h."
+  },
+
+  {
+    "entry_id": "NL-01-225",
+    "region": "Flevoland",
+    "city": "Marknesse",
+    "folder": "Marknesse",
+    "caption": "Waterloopbos, Marknesse",
+    "composition": "Concrete wave basin and weir in the night forest · AI-generated artistic interpretation",
+    "description": "From the public path by the visitor pavilion, the restored concrete Golfbak and its weir sit among trees in the Waterloopbos. Moss and ferns cover the old test channels. It is partly cloudy, about 9.2°C, with wind near 3.2 km/h and cloud cover about 72%. The pavilion is closed. The later artwork at the entrance is not this view.",
+    "alt_text": "AI-generated artistic interpretation of the concrete wave basin in the Waterloopbos at Marknesse at night",
+    "viewpoint": "From the public Deltawerkroute path beside the restored Golfbak, near Voorsterweg, Marknesse. The path is the usual visitor walk. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.natuurmonumenten.nl/natuurgebieden/waterloopbos/route/deltawerkroute-in-rijksmonument-waterloopbos",
+      "https://www.visitflevoland.nl/en/routes/3473631480/walking-route-waterloopbos"
+    ],
+    "anchors": [
+      "A rectangular concrete wave basin and a small weir occupy the middle of the frame",
+      "Forest, ferns, and moss surround the concrete",
+      "The entrance artwork and the visitor pavilion are outside the frame"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunrise 07:28 and sunset 19:25 Europe/Amsterdam, model is_day 0. At 03:37 the path is dark, with only a faint lamp near the basin. Cloud cover is about 72%. The wind is about 3.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-226",
+    "region": "Flevoland",
+    "city": "Lelystad",
+    "folder": "Lelystad",
+    "caption": "Marker Wadden, Lelystad",
+    "composition": "Harbour island dunes, empty piers, and a closed timber pavilion · AI-generated artistic interpretation",
+    "description": "The harbour island of Marker Wadden is a low dune and a marina in the Markermeer, with a simple timber pavilion and boardwalks. The day ferry has gone, and the pavilion is closed. It is overcast, about 17.0°C, with wind near 9.0 km/h and cloud cover about 92%. Night water is dark. No ferry name is shown.",
+    "alt_text": "AI-generated artistic interpretation of the Marker Wadden harbour island near Lelystad at night",
+    "viewpoint": "From the public harbour quay on the Marker Wadden harbour island, looking across the finger piers toward the dunes and the closed pavilion. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.natuurmonumenten.nl/node/16177",
+      "https://www.visitlelystad.nl/nl/locaties/128359266/haven-marker-wadden"
+    ],
+    "anchors": [
+      "Low sand dunes and a timber pavilion sit behind a boardwalk",
+      "Empty finger piers fill the harbour basin",
+      "Dark open water is beyond the harbour dams; no ferry is alongside"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:31 and sunset 19:27 Europe/Amsterdam, model is_day 0. At 03:37 a few harbour lamps are on and the pavilion is dark. Cloud cover is about 92%. The wind is about 9.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-227",
+    "region": "Drenthe",
+    "city": "Zuidlaren",
+    "folder": "Zuidlaren",
+    "caption": "De Wachter, Zuidlaren",
+    "composition": "Thatched stage mill beside the canal at night · AI-generated artistic interpretation",
+    "description": "De Wachter is an octagonal thatched smock mill on a tall brick base, with a wooden stage and four sails, beside the Zuidlaardervaart. The museum complex is closed at this hour. It is overcast, about 9.4°C, with wind near 5.4 km/h and cloud cover about 100%. The mill across the water is not the subject.",
+    "alt_text": "AI-generated artistic interpretation of the mill De Wachter in Zuidlaren at night",
+    "viewpoint": "From the public bank of the Zuidlaardervaart opposite Havenstraat, looking at the mill stage and thatched cap. The bank is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/De_Wachter,_Zuidlaren",
+      "https://www.visitdrenthe.com/locations/1885998370/de-wachter"
+    ],
+    "anchors": [
+      "The canal fills the foreground",
+      "A thatched octagonal body stands on a brick base, with a gallery stage",
+      "Four sails and a thatched cap close the silhouette"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:25 and sunset 19:22 Europe/Amsterdam, model is_day 0. At 03:37 a lamp on the quay lights the brick base. Cloud cover is about 100%. The wind is about 5.4 km/h."
+  },
+  {
+    "entry_id": "NL-01-228",
+    "region": "Drenthe",
+    "city": "Veenhuizen",
+    "folder": "Veenhuizen",
+    "caption": "Tweede Gesticht, Veenhuizen",
+    "composition": "One-storey brick square behind a moat, small turret over the gate · AI-generated artistic interpretation",
+    "description": "The Tweede Gesticht is a one-storey brick square of 1823, about 145 metres on a side, with a pantile roof and a small clock turret over the south gate. A moat surrounds it. The museum is closed. It is overcast, about 9.1°C, with wind near 3.2 km/h and cloud cover about 100%. The inner courtyard is not shown.",
+    "alt_text": "AI-generated artistic interpretation of the Tweede Gesticht in Veenhuizen at night",
+    "viewpoint": "From the public road at the south bridge over the moat, looking at the gate and the long brick range. The bridge is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.drenthe.nl/locaties/2372914859/het-tweede-gesticht-nationaal-gevangenismuseum",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/479225"
+    ],
+    "anchors": [
+      "A moat fills the foreground",
+      "A long one-storey brick range has a pantile roof and a gate",
+      "A small clock turret sits over the gate; there is no tall tower"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:26 and sunset 19:23 Europe/Amsterdam, model is_day 0. At 03:37 a lamp by the bridge lights the gate. Cloud cover is about 100%. The wind is about 3.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-229",
+    "region": "Groningen",
+    "city": "Noordpolderzijl",
+    "folder": "Noordpolderzijl",
+    "caption": "Harbour, Noordpolderzijl",
+    "composition": "Small Wadden basin outside the sea dike at night · AI-generated artistic interpretation",
+    "description": "Noordpolderzijl is a hamlet sluice and the smallest sea harbour on this coast, a narrow basin outside the grass dike. The pumping station stands beside the old sluice and is not a lighthouse. It is overcast, about 10.2°C, with wind near 6.8 km/h and cloud cover about 100%. No boat name is shown. The land-art mosaic is outside the frame.",
+    "alt_text": "AI-generated artistic interpretation of the small harbour at Noordpolderzijl at night",
+    "viewpoint": "From the public dike path above the harbour, looking down into the basin and toward the Wadden. The path is the viewpoint. A surveyed tripod mark was not pinned. The exact tide at this hour was not retrieved.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Noordpolderzijl",
+      "https://www.visitgroningen.nl/en/locations/1131937925/drainage-lock-north-polder-sluice"
+    ],
+    "anchors": [
+      "A grass sea dike crosses the frame",
+      "A narrow harbour basin sits on the seaward side",
+      "A low sluice and a small keeper house sit on the land side; no lighthouse"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:26 and sunset 19:22 Europe/Amsterdam, model is_day 0. At 03:37 a single lamp by the sluice is on. Cloud cover is about 100%. The wind is about 6.8 km/h."
+  },
+  {
+    "entry_id": "NL-01-230",
+    "region": "Groningen",
+    "city": "Leens",
+    "folder": "Leens",
+    "caption": "Borg Verhildersum, Leens",
+    "composition": "Long one-storey brick house in an inner moat · AI-generated artistic interpretation",
+    "description": "Borg Verhildersum is a long brick house of one storey on a high basement, with a hipped roof of grey tiles, two chimneys, and a nine-bay front. It stands in a wide inner moat, with a brick forecourt toward the bridge. The museum is closed. It is overcast, about 10.0°C, with wind near 5.4 km/h and cloud cover about 100%. A central tower is not shown.",
+    "alt_text": "AI-generated artistic interpretation of Borg Verhildersum in Leens at night",
+    "viewpoint": "From the public bridge at the end of the lime avenue, looking across the inner moat at the south front. The bridge is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/515593",
+      "https://www.verhildersum.nl/en/estate/borg-verhildersum/"
+    ],
+    "anchors": [
+      "A wide moat surrounds the house",
+      "The front is a long low brick range with a central door and fanlight",
+      "A hipped grey roof has two chimneys and no tower"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:27 and sunset 19:23 Europe/Amsterdam, model is_day 0. At 03:37 a lamp on the bridge lights the brick front. Cloud cover is about 100%. The wind is about 5.4 km/h."
+  },
+  {
+    "entry_id": "NL-01-231",
+    "region": "Zeeland",
+    "city": "Veere",
+    "folder": "Veere",
+    "caption": "Campveerse Toren, Veere",
+    "composition": "Harbour rondeel of brick and white stone bands · AI-generated artistic interpretation",
+    "description": "The Campveerse Toren is the harbour defence tower at Veere. It is round toward the water and flat toward the town, with a stepped gable and pinnacles, and the walls are red brick banded with white stone. Later wings sit beside it. It is overcast, about 13.4°C, with wind near 9.4 km/h and cloud cover about 99%. No restaurant name is shown.",
+    "alt_text": "AI-generated artistic interpretation of the Campveerse Toren on the harbour at Veere at night",
+    "viewpoint": "From the public quay across the harbour mouth, looking at the water side of the tower. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Campveerse_Toren",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/36920"
+    ],
+    "anchors": [
+      "Dark harbour water fills the foreground",
+      "The tower is round on the water side, with red brick and white stone bands",
+      "A stepped gable faces the town; the town-hall tower is not in the frame"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:37 and sunset 19:34 Europe/Amsterdam, model is_day 0. At 03:37 lamps along the quay light the stone bands. Cloud cover is about 99%. The wind is about 9.4 km/h."
+  },
+  {
+    "entry_id": "NL-01-232",
+    "region": "Zeeland",
+    "city": "Sluis",
+    "folder": "Sluis",
+    "caption": "Belfort, Sluis",
+    "composition": "Square civic tower with four corner turrets on the market · AI-generated artistic interpretation",
+    "description": "The Belfort of Sluis is a square tower with four corner turrets, built into a rectangular town hall. The present building was rebuilt between 1956 and 1960 after wartime destruction. The offices are closed. It is overcast, about 12.5°C, with wind near 10.1 km/h and cloud cover about 90%. No sign is readable.",
+    "alt_text": "AI-generated artistic interpretation of the belfry on the market at Sluis at night",
+    "viewpoint": "From the public market in front of the town hall, looking at the embedded tower. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Belfort_van_Sluis",
+      "https://www.atlasobscura.com/places/belfort-sluis"
+    ],
+    "anchors": [
+      "An empty market square fills the foreground",
+      "A rectangular stone-and-brick hall carries a square tower",
+      "Four small turrets project at the tower corners"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:38 and sunset 19:35 Europe/Amsterdam, model is_day 0. At 03:37 lamps on the square light the tower base. Cloud cover is about 90%. The wind is about 10.1 km/h."
+  },
+  {
+    "entry_id": "NL-01-233",
+    "region": "North Brabant",
+    "city": "Breda",
+    "folder": "Breda",
+    "caption": "Spanjaardsgat, Breda",
+    "composition": "Water gate between two seven-sided towers with onion roofs · AI-generated artistic interpretation",
+    "description": "The Spanjaardsgat is the water gate between the Duiventoren and the Granaattoren, two seven-sided gun towers. Their onion roofs date from the restoration of 1903-1910. The singel is in front. It is partly cloudy, about 15.0°C, with wind near 11.5 km/h and cloud cover about 55%. No festival pontoon is shown.",
+    "alt_text": "AI-generated artistic interpretation of the Spanjaardsgat water gate in Breda at night",
+    "viewpoint": "From the public path on the far side of the singel, looking at the two towers and the water gate. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.kasteelvanbreda.nl/Kasteelvanbreda.nl/gebouwen/spanjaardsgat",
+      "https://www.zuiderwaterlinie.nl/vestingsteden/gemeentelijke-monumenten/duiven-en-granaattoren"
+    ],
+    "anchors": [
+      "The singel fills the foreground",
+      "Two seven-sided brick towers flank a water-gate arch",
+      "Each tower has an onion roof; the palace front is not in the frame"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunrise 07:33 and sunset 19:30 Europe/Amsterdam, model is_day 0. At 03:37 lamps along the water light the brick. Cloud cover is about 55%. The wind is about 11.5 km/h."
+  },
+  {
+    "entry_id": "NL-01-234",
+    "region": "North Brabant",
+    "city": "Heeswijk-Dinther",
+    "folder": "Heeswijk-Dinther",
+    "caption": "Kasteel Heeswijk, Heeswijk-Dinther",
+    "composition": "Moated castle with a round tower and a striped outer wall · AI-generated artistic interpretation",
+    "description": "Kasteel Heeswijk stands in a moat, with a large round tower, a gallery, and an outer bailey of striped brick and stone with stepped gables. The square gate tower is gone, and the bridge ends at its base. The museum is closed. It is mainly clear, about 10.4°C, with wind near 7.6 km/h and cloud cover about 38%. No banner text is shown.",
+    "alt_text": "AI-generated artistic interpretation of Kasteel Heeswijk at Heeswijk-Dinther at night",
+    "viewpoint": "From the public approach outside the moat, looking across the water at the bridge and the round tower. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Heeswijk_Castle",
+      "https://www.kasteelheeswijk.nl/en/kasteel/geschiedenis/"
+    ],
+    "anchors": [
+      "A moat fills the foreground",
+      "A bridge leads to the castle without a tall gate tower",
+      "A large round tower and a striped outer wall with stepped gables stand behind"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunrise 07:30 and sunset 19:27 Europe/Amsterdam, model is_day 0. At 03:37 a few lamps light the bridge. Cloud cover is about 38%. The wind is about 7.6 km/h."
+  },
+  {
+    "entry_id": "NL-01-235",
+    "region": "Utrecht",
+    "city": "Oudewater",
+    "folder": "Oudewater",
+    "caption": "Heksenwaag, Oudewater",
+    "composition": "Small gabled weigh house on the canal at night · AI-generated artistic interpretation",
+    "description": "The Heksenwaag is the small brick weigh house on the water at Oudewater, with a gable and a canopy over the door. The museum is closed. It is overcast, about 10.1°C, with wind near 5.0 km/h and cloud cover about 97%. The painted year is not legible. No certificate text is shown.",
+    "alt_text": "AI-generated artistic interpretation of the Heksenwaag weigh house in Oudewater at night",
+    "viewpoint": "From the public quay across the water, looking at the gable of the weigh house. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://heksenwaag.nl/en/about-the-weigh-house/",
+      "https://nl.wikipedia.org/wiki/Heksenwaag"
+    ],
+    "anchors": [
+      "Canal water fills the foreground",
+      "A small brick house has a stepped gable and a canopy",
+      "No church tower is in the frame"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:32 and sunset 19:29 Europe/Amsterdam, model is_day 0. At 03:37 a lamp on the quay lights the gable. Cloud cover is about 97%. The wind is about 5.0 km/h."
+  },
+  {
+    "entry_id": "NL-01-236",
+    "region": "Overijssel",
+    "city": "Deventer",
+    "folder": "Deventer",
+    "caption": "Bergkerk, Deventer",
+    "composition": "Twin towers of tuff and brick with slate spires · AI-generated artistic interpretation",
+    "description": "The Bergkerk stands on the hill of the Bergkwartier. Each west tower has tuff Romanesque stages, a brick Gothic upper stage, and a slender slate spire. The church is closed. It is partly cloudy, about 12.2°C, with wind near 8.6 km/h and cloud cover about 73%. The Lebuinuskerk and the Waag are other places.",
+    "alt_text": "AI-generated artistic interpretation of the Bergkerk twin towers in Deventer at night",
+    "viewpoint": "From Bergkerkplein, looking up at the two west towers. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/12416",
+      "https://nl.wikipedia.org/wiki/Bergkerk_(Deventer)"
+    ],
+    "anchors": [
+      "A small square and houses sit below the church",
+      "Two towers rise side by side",
+      "The lower stages are pale tuff, the upper stages are brick, and the spires are slate"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunrise 07:27 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 03:37 lamps on the square light the tower bases. Cloud cover is about 73%. The wind is about 8.6 km/h."
+  },
+  {
+    "entry_id": "NL-01-237",
+    "region": "Caribbean Netherlands",
+    "city": "Saba",
+    "folder": "Saba",
+    "caption": "The Ladder, Saba",
+    "composition": "Concrete steps down a cliff toward a dark bay · AI-generated artistic interpretation",
+    "description": "The Ladder is the steep stair of concrete and rock from the 1930s, down the cliff to Ladder Bay, with a small customs house above the steps. The lowest steps were damaged in 2017 and are not rebuilt. It is overcast, about 27.5°C, with wind near 22.5 km/h and cloud cover about 87%. The scenario uses America/Kralendijk. No ferry is alongside.",
+    "alt_text": "AI-generated artistic interpretation of The Ladder steps above Ladder Bay on Saba at night",
+    "viewpoint": "From the public trail partway down The Ladder, looking toward the bay, with the customs house behind the camera line above the steps. The steps are the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.sabatourism.com/hiking/the-ladder/",
+      "https://mass.cultureelerfgoed.nl/the-ladderladder-bay"
+    ],
+    "anchors": [
+      "A steep flight of concrete steps with low side walls drops toward the sea",
+      "A small plain customs house sits higher on the ridge",
+      "The lowest steps are broken short of the water; no ferry is in the bay"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 06:02 and sunset 18:06 America/Kralendijk, model is_day 0. At 21:38 the steps are dark, with a faint light at the customs house. Cloud cover is about 87%. The wind is about 22.5 km/h."
+  },
+  {
+    "entry_id": "NL-01-238",
+    "region": "Caribbean Netherlands",
+    "city": "Sint Eustatius",
+    "folder": "Sint Eustatius",
+    "caption": "Fort Amsterdam, Sint Eustatius",
+    "composition": "Low ruined water-fort walls on the bay shore at night · AI-generated artistic interpretation",
+    "description": "Fort Amsterdam is the Waterfort on the southwest shore of Oranjebaai. Only low brick ruins remain, and sections lost to the sea are not rebuilt. It is mainly clear, about 29.4°C, with wind near 21.1 km/h and cloud cover about 32%. The scenario uses America/Kralendijk. It is not the cliff battery and not Fort Oranje.",
+    "alt_text": "AI-generated artistic interpretation of the ruined Waterfort, also called Fort Amsterdam, on Sint Eustatius at night",
+    "viewpoint": "From the public shore path beside the remaining low walls, looking along the ruin toward Oranjebaai. The path is the viewpoint. A surveyed tripod mark was not pinned. The exact surviving wall lengths were not measured for this scene.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Waterfort_(Sint_Eustatius)",
+      "https://www.atlasofmutualheritage.nl/page/2158/amsterdam-fort-st.-eustatius"
+    ],
+    "anchors": [
+      "Low broken brick walls stand at the water's edge",
+      "Dark bay water is in front of the ruin",
+      "No high cliff battery and no tall tower are shown"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunrise 06:01 and sunset 18:05 America/Kralendijk, model is_day 0. At 21:38 the ruin is unlit except for faint ambient light. Cloud cover is about 32%. The wind is about 21.1 km/h."
+  },
+  {
+    "entry_id": "NL-01-239",
+    "region": "Friesland",
+    "city": "Makkum",
+    "folder": "Makkum",
+    "caption": "Sluis, Makkum",
+    "composition": "Brick lock chamber with a low bridge and quay houses · AI-generated artistic interpretation",
+    "description": "The lock at Makkum is a brick chamber between the town water and the IJsselmeer, with a bridge across it and brick houses along the quay. The older wooden drawbridge is not the present span. It is overcast, about 12.4°C, with wind near 3.6 km/h and cloud cover about 100%. No hotel name is readable.",
+    "alt_text": "AI-generated artistic interpretation of the lock at Makkum at night",
+    "viewpoint": "From the public quay beside the lock, looking along the brick chamber toward the bridge. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sluis_Makkum",
+      "https://www.dbnl.org/tekst/sten009monu06_01/sten009monu06_01_0105.php"
+    ],
+    "anchors": [
+      "Brick lock walls and dark water fill the center",
+      "A low bridge crosses the chamber",
+      "Brick houses line the quay; no hotel name is readable"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:30 and sunset 19:27 Europe/Amsterdam, model is_day 0. At 03:38 lamps along the quay light the brick. Cloud cover is about 100%. The wind is about 3.6 km/h."
+  },
+  {
+    "entry_id": "NL-01-240",
+    "region": "Limburg",
+    "city": "Maastricht",
+    "folder": "Maastricht",
+    "caption": "Onze-Lieve-Vrouwebasiliek, Maastricht",
+    "composition": "Romanesque westwork with two round stair turrets · AI-generated artistic interpretation",
+    "description": "The Onze-Lieve-Vrouwebasiliek shows its heavy Romanesque westwork on the square, pale stone with two round stair turrets. It does not have Gothic spires. The church is closed. It is clear, about 14.4°C, with wind near 9.4 km/h and cloud cover about 0%. The Sint-Servaasbasiliek is another church and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the westwork of the Onze-Lieve-Vrouwebasiliek in Maastricht at night",
+    "viewpoint": "From Onze Lieve Vrouweplein, looking at the westwork. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady,_Maastricht",
+      "https://www.visitmaastricht.com/en/locations/2112651889/basilica-of-our-lady"
+    ],
+    "anchors": [
+      "A paved square fills the foreground",
+      "A massive pale stone westwork faces the square",
+      "Two round stair turrets flank the block; there are no Gothic spires"
+    ],
+    "solar": "Full night under a clear sky. Model sunrise 07:29 and sunset 19:26 Europe/Amsterdam, model is_day 0. At 03:38 lamps on the square light the stone. Cloud cover is about 0%. The wind is about 9.4 km/h."
   }
 ]
