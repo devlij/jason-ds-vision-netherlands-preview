@@ -4,12 +4,18 @@
   "region": "North Brabant",
   "city": "'s-Hertogenbosch",
   "caption": "St. John's Cathedral, 's-Hertogenbosch",
-  "scenario_label": "25 September 2026 \u00b7 23:41 Europe/Amsterdam",
-  "composition": "Parade square at night, Gothic exterior and flying buttresses \u00b7 AI-generated artistic interpretation",
-  "description": "From the Parade, St. John's Cathedral shows its Gothic exterior: a tall stone tower, flying buttresses with small figures, and pinnacles, floodlit over empty paving. The interior is not the subject. The sky is clear, about 12.8\u00b0C, wind near 9.0 km/h. Sunset was 19:30, so the square is fully dark except for the floodlights.",
+  "scenario_label": "25 September 2026 · 23:41 Europe/Amsterdam",
+  "composition": "Parade square at night, Gothic exterior and flying buttresses · AI-generated artistic interpretation",
+  "description": "From the Parade, St. John's Cathedral shows its Gothic exterior: a tall stone tower, flying buttresses with small figures, and pinnacles, floodlit over empty paving. The interior is not the subject. The sky is clear, about 12.8°C, wind near 9.0 km/h. Sunset was 19:30, so the square is fully dark except for the floodlights.",
   "alt_text": "AI-generated artistic interpretation of St. John's Cathedral exterior in 's-Hertogenbosch on a clear night",
   "file_16x9": "Netherlands/s-Hertogenbosch/nl-01-037-16x9.png",
   "file_4x5": "Netherlands/s-Hertogenbosch/nl-01-037-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: I read the master — St. John's Cathedral of 's-Hertogenbosch floodlit at night, the tall ornate west tower with spire and the long gothic nave with flying buttresses over the empty square, plausible public-square viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'St. John's Cathedral, 's-Hertogenbosch' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:29+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T01:39:54.858902+00:00",
+  "sha256_16x9": "bce1fcd13afd854889e963692983c1515796c9953068851d2849f668dec7a73b",
+  "sha256_4x5": "28332c52b6751f4f9e4ce2e79d8ed496b4377a0b8c08203ab27320a13d3d0af7"
 }
