@@ -4,12 +4,18 @@
   "region": "Drenthe",
   "city": "Barger-Compascuum",
   "caption": "Veenpark, Barger-Compascuum",
-  "scenario_label": "26 September 2026 \u00b7 02:55 Europe/Amsterdam",
-  "composition": "Reconstructed sod huts of the peat hamlet at night \u00b7 AI-generated artistic interpretation",
-  "description": "The Veenpark is closed at this hour. The frame is the exterior of the reconstructed sod-hut hamlet, low turf walls and turf roofs along a dirt path, with a narrow peat canal. These huts are a museum reconstruction of the early peat settlement, not a street of untouched houses. It is partly cloudy, about 9.4\u00b0C, with wind near 6.8 km/h and cloud cover about 58%. No shop name and no train are shown.",
+  "scenario_label": "26 September 2026 · 02:55 Europe/Amsterdam",
+  "composition": "Reconstructed sod huts of the peat hamlet at night · AI-generated artistic interpretation",
+  "description": "The Veenpark is closed at this hour. The frame is the exterior of the reconstructed sod-hut hamlet, low turf walls and turf roofs along a dirt path, with a narrow peat canal. These huts are a museum reconstruction of the early peat settlement, not a street of untouched houses. It is partly cloudy, about 9.4°C, with wind near 6.8 km/h and cloud cover about 58%. No shop name and no train are shown.",
   "alt_text": "AI-generated artistic interpretation of the Veenpark sod huts at Barger-Compascuum at night",
   "file_16x9": "Netherlands/Barger-Compascuum/nl-01-199-16x9.png",
   "file_4x5": "Netherlands/Barger-Compascuum/nl-01-199-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Night. G1 visual pass: turf-covered peat huts with small square windows along a muddy heath path under a stormy dark sky — a plausible Veenpark peat-colony scene, moody and artifact-free. G2 technical pass: exact 1920x1080/864x1080; caption 'Veenpark, Barger-Compascuum', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:54+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: no people or logos; documented only. G5: card fields complete.",
+  "approved_at": "2026-09-26T12:43:04.906702+00:00",
+  "sha256_16x9": "ac6ccc5d51124b962a93a5818a6bf5b11b9df778b8f1e8e37ae22a9120a95401",
+  "sha256_4x5": "8d306ef67ff3c8e96c4125e7632280dba338dc4ded64b13ab4427f88379b3c2e"
 }
