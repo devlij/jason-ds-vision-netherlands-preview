@@ -30,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-129", "Teylers Museum", "Haarlem", 52.3804, 4.6402, "Europe/Amsterdam"),
-    ("NL-01-130", "Centraal Station", "Amsterdam", 52.3799, 4.9003, "Europe/Amsterdam"),
-    ("NL-01-131", "Overhoeks tower", "Amsterdam", 52.3841, 4.9022, "Europe/Amsterdam"),
-    ("NL-01-132", "Scheepvaartmuseum", "Amsterdam", 52.3716, 4.9148, "Europe/Amsterdam"),
-    ("NL-01-133", "Hotel New York", "Rotterdam", 51.9042, 4.4847, "Europe/Amsterdam"),
-    ("NL-01-134", "De Rotterdam", "Rotterdam", 51.9066, 4.4873, "Europe/Amsterdam"),
-    ("NL-01-135", "Kunstmuseum", "The Hague", 52.0880, 4.2806, "Europe/Amsterdam"),
-    ("NL-01-136", "Paleis Noordeinde", "The Hague", 52.0804, 4.3069, "Europe/Amsterdam"),
-    ("NL-01-137", "Burcht", "Leiden", 52.1588, 4.4925, "Europe/Amsterdam"),
-    ("NL-01-138", "Oostpoort", "Delft", 52.0111, 4.3681, "Europe/Amsterdam"),
-    ("NL-01-139", "Huis Van Gijn", "Dordrecht", 51.8156, 4.6672, "Europe/Amsterdam"),
-    ("NL-01-140", "Domplein", "Utrecht", 52.0908, 5.1216, "Europe/Amsterdam"),
-    ("NL-01-141", "Mastbos", "Breda", 51.5455, 4.7760, "Europe/Amsterdam"),
-    ("NL-01-142", "Lichttoren", "Eindhoven", 51.4406, 5.4788, "Europe/Amsterdam"),
-    ("NL-01-143", "Helpoort", "Maastricht", 50.8436, 5.6922, "Europe/Amsterdam"),
-    ("NL-01-144", "Forum", "Groningen", 53.2192, 6.5680, "Europe/Amsterdam"),
+    ("NL-01-145", "The Quill", "Oranjestad", 17.4830, -62.9860, "America/Kralendijk"),
+    ("NL-01-146", "Lac Bay", "Bonaire", 12.1005, -68.2250, "America/Kralendijk"),
+    ("NL-01-147", "Windwardside", "Windwardside", 17.6290, -63.2318, "America/Kralendijk"),
+    ("NL-01-148", "Poldertoren", "Emmeloord", 52.7100, 5.7480, "Europe/Amsterdam"),
+    ("NL-01-149", "Coevorden Castle", "Coevorden", 52.6623, 6.7422, "Europe/Amsterdam"),
+    ("NL-01-150", "Dwingeloo telescope", "Dwingeloo", 52.8122, 6.3964, "Europe/Amsterdam"),
+    ("NL-01-151", "Hanging kitchens", "Appingedam", 53.3217, 6.8583, "Europe/Amsterdam"),
+    ("NL-01-152", "Markt", "Ootmarsum", 52.4078, 6.9012, "Europe/Amsterdam"),
+    ("NL-01-153", "Windmills", "Schiedam", 51.9165, 4.3988, "Europe/Amsterdam"),
+    ("NL-01-154", "Maeslantkering", "Hoek van Holland", 51.9550, 4.1640, "Europe/Amsterdam"),
+    ("NL-01-155", "Magere Brug", "Amsterdam", 52.3637, 4.9024, "Europe/Amsterdam"),
+    ("NL-01-156", "De Adriaan", "Haarlem", 52.3818, 4.6415, "Europe/Amsterdam"),
+    ("NL-01-157", "Eusebiuskerk", "Arnhem", 51.9790, 5.9100, "Europe/Amsterdam"),
+    ("NL-01-158", "Basilica", "Hulst", 51.2830, 4.0500, "Europe/Amsterdam"),
+    ("NL-01-159", "Sint Servaasbrug", "Maastricht", 50.8492, 5.6958, "Europe/Amsterdam"),
+    ("NL-01-160", "Basilica", "Oudenbosch", 51.5894, 4.5286, "Europe/Amsterdam"),
 ]
 
 
