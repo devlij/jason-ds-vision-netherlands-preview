@@ -4,12 +4,18 @@
   "region": "Caribbean Netherlands",
   "city": "Oranjestad",
   "caption": "Fort Oranje, Oranjestad",
-  "scenario_label": "25 September 2026 \u00b7 18:19 America/Kralendijk",
-  "composition": "Cliff-top cannons over Lower Town and Oranje Bay at dusk \u00b7 AI-generated artistic interpretation",
-  "description": "Fort Oranje sits on the cliff above Oranjestad on Sint Eustatius, with a row of cannons along the parapet and the Lower Town roofs and warehouse ruins below. The bay is quiet. It is clear and warm, about 29.0\u00b0C, with a breeze near 20.7 km/h and no rain. Sunset was 18:05 America/Kralendijk, so 18:19 is dusk, about fourteen minutes after sunset, with afterglow still over the sea.",
+  "scenario_label": "25 September 2026 · 18:19 America/Kralendijk",
+  "composition": "Cliff-top cannons over Lower Town and Oranje Bay at dusk · AI-generated artistic interpretation",
+  "description": "Fort Oranje sits on the cliff above Oranjestad on Sint Eustatius, with a row of cannons along the parapet and the Lower Town roofs and warehouse ruins below. The bay is quiet. It is clear and warm, about 29.0°C, with a breeze near 20.7 km/h and no rain. Sunset was 18:05 America/Kralendijk, so 18:19 is dusk, about fourteen minutes after sunset, with afterglow still over the sea.",
   "alt_text": "AI-generated artistic interpretation of Fort Oranje above Oranjestad on Sint Eustatius at dusk",
   "file_16x9": "Netherlands/Oranjestad/nl-01-065-16x9.png",
   "file_4x5": "Netherlands/Oranjestad/nl-01-065-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual pass: twilight from Fort Oranje's rampart — four cannon on a stone parapet in the foreground, the lit town of Oranjestad below and a jetty, the sea horizon glowing orange after sunset. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Fort Oranje, Oranjestad', scenario '25 September 2026 · 18:19 America/Kralendijk' and AI disclosure legible (4x5 crop spot-checked, text legible); Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T18:19:08-04:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 18:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
+  "approved_at": "2026-09-26T03:42:35.803389+00:00",
+  "sha256_16x9": "ca2d2c3872fdc2db24afd124efa137d1ddcea5d6a66967c566c79c4847578742",
+  "sha256_4x5": "e60ee73bce96b19cf2c9c77642037b5914b7821b536cc0b3d7c663ab39b19048"
 }
