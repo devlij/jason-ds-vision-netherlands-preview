@@ -4,12 +4,18 @@
   "region": "Utrecht",
   "city": "Utrecht",
   "caption": "Domplein, Utrecht",
-  "scenario_label": "26 September 2026 \u00b7 01:38 Europe/Amsterdam",
-  "composition": "Unfinished west wall of the Domkerk and nave lines in the square \u00b7 AI-generated artistic interpretation",
-  "description": "On Domplein the view looks east to the Domkerk. The west wall is a low, unfinished Gothic front, because the nave between church and tower fell in 1674. Pale lines in the cobbles mark that missing nave. The sky is partly cloudy, about 14.3\u00b0C, with wind near 8.3 km/h. The freestanding Dom Tower is behind the camera and is not in this frame.",
+  "scenario_label": "26 September 2026 · 01:38 Europe/Amsterdam",
+  "composition": "Unfinished west wall of the Domkerk and nave lines in the square · AI-generated artistic interpretation",
+  "description": "On Domplein the view looks east to the Domkerk. The west wall is a low, unfinished Gothic front, because the nave between church and tower fell in 1674. Pale lines in the cobbles mark that missing nave. The sky is partly cloudy, about 14.3°C, with wind near 8.3 km/h. The freestanding Dom Tower is behind the camera and is not in this frame.",
   "alt_text": "AI-generated artistic interpretation of Domplein in Utrecht at night, looking at the Domkerk's unfinished west wall",
   "file_16x9": "Netherlands/Utrecht/nl-01-140-16x9.png",
   "file_4x5": "Netherlands/Utrecht/nl-01-140-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: low unfinished Gothic west wall of the Domkerk on cobbles with pale lines marking the missing nave (lost in the 1674 storm), tower deliberately out of frame per the west-side camera claim — verified against the builder's geometry anchors; recognizably Domplein, no glaring misconfiguration, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Domplein, Utrecht' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:11+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
+  "approved_at": "2026-09-26T08:39:24.486557+00:00",
+  "sha256_16x9": "548e52b4633230488cecf0f3841d9f95dc9c6bc5c76ae4b5bdee0db9a8aa4048",
+  "sha256_4x5": "472a8062c7600c29de75e1f596919eccab2398fbc71202be1828dc9480376353"
 }
