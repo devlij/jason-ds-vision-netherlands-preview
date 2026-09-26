@@ -26,5 +26,11 @@
   ],
   "file_9x16": "Netherlands/Arcen/nl-01-255-9x16.png",
   "sha256_9x16": "865ae713240aba9d7862a38e8731791d401f0f31c82cd9e17ca24137caa5f2fe",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: L-shaped brick manor with dark slate hipped roofs, dormers and chimneys, warmly lit windows, foreground moat with golden reflections, brick gatehouse with a tall slender slate spire at the right connected by a wall, full moon and stars; 4:5 is a tighter crop on the manor corner with the gatehouse out of frame (framing choice, not a subject change) - the earlier pediment/curved-staircase massing discrepancy is resolved in the 20:49 UTC re-render. Gate 2: label bar exact - 'Kasteel Arcen, Arcen', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T03:59:53+02:00, unique to the second repo-wide, scenario minute 03:59 inside model-valid hour 03:00-03:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos, Free no-credit badge - documented only. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T21:43:04.408947+00:00",
+  "sha256_16x9": "95c2a88f3d8862ceedc3af5e1e812f55671487cb683e8af261f618a2afc62238",
+  "sha256_4x5": "3c53ed1f25c54e6428c0f60524f1b6aa9c74eca6373b8bd5b211bd59c5d9ab29"
 }
