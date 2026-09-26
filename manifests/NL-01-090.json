@@ -4,12 +4,18 @@
   "region": "South Holland",
   "city": "Noordwijk",
   "caption": "Lighthouse, Noordwijk",
-  "scenario_label": "26 September 2026 \u00b7 00:38 Europe/Amsterdam",
-  "composition": "White square lighthouse and lantern gallery on the boulevard \u00b7 AI-generated artistic interpretation",
-  "description": "The Noordwijk lighthouse is a taller white square tower on the boulevard, with a lantern room and gallery at the top and the beach beside it. The lamp room has a soft glow. The sky is partly cloudy, about 15.0\u00b0C, with wind near 9.4 km/h and no rain. Sunset was 19:31. The pavement is empty. This is not the short flat-roofed tower at Katwijk.",
+  "scenario_label": "26 September 2026 · 00:38 Europe/Amsterdam",
+  "composition": "White square lighthouse and lantern gallery on the boulevard · AI-generated artistic interpretation",
+  "description": "The Noordwijk lighthouse is a taller white square tower on the boulevard, with a lantern room and gallery at the top and the beach beside it. The lamp room has a soft glow. The sky is partly cloudy, about 15.0°C, with wind near 9.4 km/h and no rain. Sunset was 19:31. The pavement is empty. This is not the short flat-roofed tower at Katwijk.",
   "alt_text": "AI-generated artistic interpretation of the white square lighthouse at Noordwijk on a partly cloudy night",
   "file_16x9": "Netherlands/Noordwijk/nl-01-090-16x9.png",
   "file_4x5": "Netherlands/Noordwijk/nl-01-090-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Lighthouse, Noordwijk. White lighthouse tower with glowing lantern and mid-shaft lantern gallery, night promenade with lamp posts to the right, dark sea and beach to the left. Scenario '26 September 2026 · 00:38 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T00:38:23+02:00 (retrieved; model-valid hour 00:30), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
+  "approved_at": "2026-09-26T05:39:42.897590+00:00",
+  "sha256_16x9": "5fb5f0b6182568bfabe3af788f450879490bc214150e3cbdda54de7eef1b5d0e",
+  "sha256_4x5": "853facb36a738ada6c762a6c98e1deb7f05f70d047cfc741826bf8a41db8c1c9"
 }
