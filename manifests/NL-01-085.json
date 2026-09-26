@@ -4,12 +4,18 @@
   "region": "Gelderland",
   "city": "Poederoijen",
   "caption": "Slot Loevestein, Poederoijen",
-  "scenario_label": "26 September 2026 \u00b7 00:38 Europe/Amsterdam",
-  "composition": "Two square towers, a gate wall, and a round powder tower \u00b7 AI-generated artistic interpretation",
-  "description": "Slot Loevestein stands in its moat at Poederoijen, a medieval brick castle with two square towers joined by a gate wall, and a round powder tower on the grass rampart. The museum is closed and no ferry is at the bank. The sky is clear, about 12.9\u00b0C, with wind near 11.2 km/h. Sunset was 19:29. The windows are dark.",
+  "scenario_label": "26 September 2026 · 00:38 Europe/Amsterdam",
+  "composition": "Two square towers, a gate wall, and a round powder tower · AI-generated artistic interpretation",
+  "description": "Slot Loevestein stands in its moat at Poederoijen, a medieval brick castle with two square towers joined by a gate wall, and a round powder tower on the grass rampart. The museum is closed and no ferry is at the bank. The sky is clear, about 12.9°C, with wind near 11.2 km/h. Sunset was 19:29. The windows are dark.",
   "alt_text": "AI-generated artistic interpretation of Slot Loevestein at Poederoijen on a clear night",
   "file_16x9": "Netherlands/Poederoijen/nl-01-085-16x9.png",
   "file_4x5": "Netherlands/Poederoijen/nl-01-085-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 PASS: Slot Loevestein Poederoijen — medieval brick castle with towers by the river at night, lamp glow at the arched entrance, reflections in water (4x5 text crop spot-checked legible); plausible. G2 PASS: exact dims; on-image caption 'Slot Loevestein, Poederoijen', scenario '26 September 2026 · 00:38 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:38:10+02:00 unique repo-wide; scenario 00:38 inside model window 00:30–00:45. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public monument. G5 PASS: card fields complete.",
+  "approved_at": "2026-09-26T04:38:51.588002+00:00",
+  "sha256_16x9": "4bd867f12fe852a18bffb4bbd450d129dd8dee47802ca4588e00f95c4dc3e65b",
+  "sha256_4x5": "276cf5a6d64ad51c6c5cc6bf66391f209c39ec5af5835c7eba6e8bd91d84e6f3"
 }
