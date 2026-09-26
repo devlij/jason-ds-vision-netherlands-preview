@@ -4,12 +4,18 @@
   "region": "Limburg",
   "city": "Maastricht",
   "caption": "Bonnefantenmuseum, Maastricht",
-  "scenario_label": "26 September 2026 \u00b7 03:16 Europe/Amsterdam",
-  "composition": "Brick museum and zinc dome on the Maas \u00b7 AI-generated artistic interpretation",
-  "description": "The Bonnefantenmuseum stands on the Maas in Maastricht, an E-shaped brick building with a cylindrical tower and a zinc dome facing the river. It is clear, about 15.1\u00b0C, with wind near 10.8 km/h. The museum is closed. No banner and no caf\u00e9 name are readable. The old bridge is not in this frame.",
+  "scenario_label": "26 September 2026 · 03:16 Europe/Amsterdam",
+  "composition": "Brick museum and zinc dome on the Maas · AI-generated artistic interpretation",
+  "description": "The Bonnefantenmuseum stands on the Maas in Maastricht, an E-shaped brick building with a cylindrical tower and a zinc dome facing the river. It is clear, about 15.1°C, with wind near 10.8 km/h. The museum is closed. No banner and no café name are readable. The old bridge is not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the Bonnefantenmuseum in Maastricht at night, zinc dome above the Maas",
   "file_16x9": "Netherlands/Maastricht/nl-01-220-16x9.png",
   "file_4x5": "Netherlands/Maastricht/nl-01-220-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Brick museum frontage along the Meuse at night under a star field, lit windows mirrored in the river; the 16:9 frames the long waterfront facade with corner domes while the 4:5 crop centers the museum's white Rossi dome and riverside brick tower; caption 'Bonnefantenmuseum, Maastricht' and scenario '26 September 2026 · 03:16 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:16 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:16:31+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
+  "approved_at": "2026-09-26T14:42:32.807851+00:00",
+  "sha256_16x9": "1fc262d4b86ab915a80480b1bec428afe4a759e8278c4e4e93e64568fc79cb8e",
+  "sha256_4x5": "9469e15553f974dc6d156050ca1b1088034f9b357ec3d6fcd5c47269e7aa8898"
 }
