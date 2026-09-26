@@ -4,12 +4,18 @@
   "region": "Groningen",
   "city": "Noordpolderzijl",
   "caption": "Harbour, Noordpolderzijl",
-  "scenario_label": "26 September 2026 \u00b7 03:37 Europe/Amsterdam",
-  "composition": "Small Wadden basin outside the sea dike at night \u00b7 AI-generated artistic interpretation",
-  "description": "Noordpolderzijl is a hamlet sluice and the smallest sea harbour on this coast, a narrow basin outside the grass dike. The pumping station stands beside the old sluice and is not a lighthouse. It is overcast, about 10.2\u00b0C, with wind near 6.8 km/h and cloud cover about 100%. No boat name is shown. The land-art mosaic is outside the frame.",
+  "scenario_label": "26 September 2026 · 03:37 Europe/Amsterdam",
+  "composition": "Small Wadden basin outside the sea dike at night · AI-generated artistic interpretation",
+  "description": "Noordpolderzijl is a hamlet sluice and the smallest sea harbour on this coast, a narrow basin outside the grass dike. The pumping station stands beside the old sluice and is not a lighthouse. It is overcast, about 10.2°C, with wind near 6.8 km/h and cloud cover about 100%. No boat name is shown. The land-art mosaic is outside the frame.",
   "alt_text": "AI-generated artistic interpretation of the small harbour at Noordpolderzijl at night",
   "file_16x9": "Netherlands/Noordpolderzijl/nl-01-229-16x9.png",
   "file_4x5": "Netherlands/Noordpolderzijl/nl-01-229-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Small harbor at Noordpolderzijl: sluice tunnel through the grassy dike with a lit lamp over the arch, small white house on the point, tidal mudflats and sea beyond under gloom; caption 'Harbour, Noordpolderzijl' and scenario '26 September 2026 · 03:37 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:37 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:37:44+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
+  "approved_at": "2026-09-26T14:43:09.709134+00:00",
+  "sha256_16x9": "e1e9bf90683678dbc4a35c9c0b5c2b9acc091a5e44c303fa302947242a60794a",
+  "sha256_4x5": "e3436f4aaf1a98302a8d4c5f3201dc563953b5bd51efce73023e2265b558e2aa"
 }
