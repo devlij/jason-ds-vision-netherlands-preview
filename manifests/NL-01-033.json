@@ -4,12 +4,18 @@
   "region": "Utrecht",
   "city": "Utrecht",
   "caption": "Oudegracht, Utrecht",
-  "scenario_label": "25 September 2026 \u00b7 23:41 Europe/Amsterdam",
-  "composition": "Two-level canal, wharf cellars at the water and the street above \u00b7 AI-generated artistic interpretation",
-  "description": "Along the Oudegracht the canal has two levels: arched brick cellars open onto a low wharf at the water, and the street with gabled houses sits a storey higher. A bridge crosses in the middle distance. The Dom Tower is not the subject. It is clear, about 15.1\u00b0C, wind near 9.0 km/h. Sunset was 19:31, so the wharves are lamp-lit.",
+  "scenario_label": "25 September 2026 · 23:41 Europe/Amsterdam",
+  "composition": "Two-level canal, wharf cellars at the water and the street above · AI-generated artistic interpretation",
+  "description": "Along the Oudegracht the canal has two levels: arched brick cellars open onto a low wharf at the water, and the street with gabled houses sits a storey higher. A bridge crosses in the middle distance. The Dom Tower is not the subject. It is clear, about 15.1°C, wind near 9.0 km/h. Sunset was 19:31, so the wharves are lamp-lit.",
   "alt_text": "AI-generated artistic interpretation of the Oudegracht wharves in Utrecht on a clear night, with cellar arches at the water",
   "file_16x9": "Netherlands/Utrecht/nl-01-033-16x9.png",
   "file_4x5": "Netherlands/Utrecht/nl-01-033-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: I read the master — the Oudegracht at night with the canal water below, arched brick wharf cellars opening onto the lower wharf and the gabled houses of the upper street above a retaining wall, warm lamplight reflecting, plausible bridge viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Oudegracht, Utrecht' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:24+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T01:38:54.610432+00:00",
+  "sha256_16x9": "82c00fd5c971771718e0fe001ec9765c60f040f72d56b0c40e2f675a09dd0fe2",
+  "sha256_4x5": "30050e549ec47a02b1c2131a23014af04b2f724332927c62ad411e2bcf86e5f9"
 }
