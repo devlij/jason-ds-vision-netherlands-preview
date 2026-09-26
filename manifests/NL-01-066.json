@@ -4,12 +4,18 @@
   "region": "Caribbean Netherlands",
   "city": "The Bottom",
   "caption": "The Bottom, The Bottom",
-  "scenario_label": "25 September 2026 \u00b7 18:19 America/Kralendijk",
-  "composition": "Crater village and the dark mass of Mount Scenery at dusk \u00b7 AI-generated artistic interpretation",
-  "description": "From the road just above The Bottom, small houses with red roofs sit in the green crater and Mount Scenery rises behind them. The stepped trail most visitors use starts in Windwardside, so this is the village view, not that trailhead and not the closed summit platform. It is clear and warm, about 27.9\u00b0C, with wind near 22.8 km/h. Sunset was 18:06 America/Kralendijk, so 18:19 is dusk, about thirteen minutes after sunset.",
+  "scenario_label": "25 September 2026 · 18:19 America/Kralendijk",
+  "composition": "Crater village and the dark mass of Mount Scenery at dusk · AI-generated artistic interpretation",
+  "description": "From the road just above The Bottom, small houses with red roofs sit in the green crater and Mount Scenery rises behind them. The stepped trail most visitors use starts in Windwardside, so this is the village view, not that trailhead and not the closed summit platform. It is clear and warm, about 27.9°C, with wind near 22.8 km/h. Sunset was 18:06 America/Kralendijk, so 18:19 is dusk, about thirteen minutes after sunset.",
   "alt_text": "AI-generated artistic interpretation of The Bottom on Saba, with Mount Scenery behind the village at dusk",
   "file_16x9": "Netherlands/The Bottom/nl-01-066-16x9.png",
   "file_4x5": "Netherlands/The Bottom/nl-01-066-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual pass: dusk view down over The Bottom, Saba — the village of lit houses nestled in green volcanic slopes, a winding road in the foreground, pink-tinged twilight sky over the ridges; the crater-village setting reads correctly. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'The Bottom, The Bottom', scenario '25 September 2026 · 18:19 America/Kralendijk' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T18:19:11-04:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 18:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
+  "approved_at": "2026-09-26T03:42:40.075626+00:00",
+  "sha256_16x9": "d68c25d2b1212771ac12e7f7ba3d55cc6681f075f8cbe92676cd3e75ecf5514f",
+  "sha256_4x5": "653c8a51a5ea2406127925772e37cdfbe05d9bd11ffd144ddff29b1fa16609ce"
 }
