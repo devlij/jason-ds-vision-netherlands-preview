@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of Klooster Ter Apel at night, a long brick monastery church among trees",
   "file_16x9": "Netherlands/Ter Apel/nl-01-186-16x9.png",
   "file_4x5": "Netherlands/Ter Apel/nl-01-186-4x5.png",
+  "file_9x16": "Netherlands/Ter Apel/nl-01-186-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: Klooster Ter Apel at night from the public ground south of the church range — brick gothic monastery church with steep tiled roof and tall tracery windows under a bright full moon, one wall lamp glowing warm, tree canopy left; recognizable monastery composition, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Klooster Ter Apel, Ter Apel', scenario '26 September 2026 · 02:37 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:37 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:37:08+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
-  "approved_at": "2026-09-26T11:55:13.102179+00:00",
-  "sha256_16x9": "78f2bcabe3331864c988dc43307053abde4626b820daadc835fb4fa827defd66",
-  "sha256_4x5": "95d89d43a3734478d64e26bbbf93bd5b1af53768887c3a99a6b21190863a1671",
-  "file_9x16": "Netherlands/Ter Apel/nl-01-186-9x16.png",
-  "sha256_9x16": "c3368f20478e95187b9cedef50a1c0f1c411a5a79ff3a06ebdac7bb9b38bb557",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "5d8721beb5146c4ca8536484865111ab2cfa5618b9ed0f0780e055c010c148f4",
+  "sha256_4x5": "de9dab33c325d26d796b4d5b1f21218672bd5d61de791e5fd2f35c6edd802eb1",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "4d28ecd936a72e9e6bd257b3cd044a16738a5c4a7c717ec2c955a483462179e6",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 65a011d9b09629234ff6a5fa21dfc55be1a3f9c215b91346ad3c66a9f1409af8. Source SHA-256 4:5 4c1f6fc2da1f51d1ce1063a802caf03cf8245825d47211e2b867cbd4ae5e6004. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }
