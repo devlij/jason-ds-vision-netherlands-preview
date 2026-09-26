@@ -1,6 +1,6 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-272. IDs are not reused.
+NL-01-001 through NL-01-288. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
 NL-01-033 through NL-01-048 swaps:
 - NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.
@@ -212,6 +212,25 @@ NL-01-257 through NL-01-272 swaps:
 - NL-01-270: Meerssen had no scene. The west tower was lost and was not rebuilt. The church is marl, with flying buttresses and a small roof turret from 1936-1938. The west end is the extension of those years. The church is closed. No shop name is readable.
 - NL-01-271: Breda Castle remains NL-01-039, the Grote Kerk remains NL-01-168, the Mastbos remains NL-01-141, and the Spanjaardsgat remains NL-01-233. The Begijnhof was left unused in an earlier batch. This is the long court of low houses and the neoclassical chapel of 1836-1838. No sign is readable.
 - NL-01-272: Grave had no scene. This is the Hampoort, a classicist land gate of 1688. The passage bends. The museum is closed. The coats of arms and the year are not readable. It is not a water gate and not a church.
+- The other suggested sites in this batch were not already used.
+NL-01-273 through NL-01-288 swaps:
+- NL-01-273: the Stadsbrug remains NL-01-071, the Koornmarktspoort remains NL-01-202, and the Bovenkerk remains NL-01-217. This is the Cellebroederspoort, the land gate. Two towers have round lower stages and fourteen-sided upper stages with tall spires. The carved lions and the year are not readable.
+- NL-01-274: this is Hasselt in Overijssel, not Hasselt in Belgium. The church is a late Gothic brick hall with a heavy west tower. The spire is the one put on after the 1725 fire. The church is closed.
+- NL-01-275: Kasteel Rechteren remains NL-01-242. This is Het Nijenhuis near Heino. The museum is closed. No sculpture from the garden is in the frame. The 1896 towers are at the rear and are not this front. The front is the regularised brick manor across the moat.
+- NL-01-276: the Dom Tower remains NL-01-010 and Kasteel de Haar remains NL-01-078. This is Slot Zeist. The medieval castle is gone and is not rebuilt. The Broederplein houses are not the palace. The year on the door is not readable. The interior is closed.
+- NL-01-277: IJsselstein had no scene. This is the Sint-Nicolaasbasiliek of 1885-1887, a neo-Gothic brick hall church with a tall tower, deep niches, and corner pinnacles. It is not a medieval church. The older reformed church is not in the frame. The church is closed.
+- NL-01-278: Soestdijk was not used, because the exact state of works was not pinned and no scaffold was invented. This is Kasteel Groeneveld, a brick country house with curved wings under one roof, from the avenue. It is not a moated medieval castle. The house is closed. The coat of arms and the figures are not readable. Late September, no flower display.
+- NL-01-279: uses America/Kralendijk. The salt pyramids remain NL-01-067, the slave huts remain NL-01-191, the Willemstoren remains NL-01-176, Lac Bay remains NL-01-146, and the 1000 Steps remain NL-01-257. This is the single blue obelisk by the salt pier. The white, red, and orange obelisks stand at other pans and are not in this frame. A surveyed mark on the stone was not pinned. Night water is dark, not turquoise. No company name is shown.
+- NL-01-280: uses America/Kralendijk. Fort Oranje remains NL-01-065, Lower Town remains NL-01-190, The Quill remains NL-01-145, Fort Amsterdam remains NL-01-238, Batterij De Windt remains NL-01-207, and the Dutch Reformed Church remains NL-01-258. This is Honen Dalim. The roof has been gone since 1792 and was not put back. The 2001 work stabilised the walls. No plaque text is readable.
+- NL-01-281: the Munsterkerk at Roermond remains NL-01-096. Sint Odiliënberg had no scene. This is the Romanesque basilica with two square choir towers. The towers were reconstructed in 1949-1951 after 1945, so they are not shown as ruins and no scaffold is shown. The small chapel is not the subject. The church is closed.
+- NL-01-282: the Berkelpoort remains NL-01-073. This is the Drogenapstoren. The square base, the octagonal corner turrets, the octagonal lantern, and the nineteenth-century spire are the present tower. The old passage was bricked up. It is not a water gate.
+- NL-01-283: Heusden harbour remains NL-01-068 and Slot Loevestein remains NL-01-085. Woudrichem had no scene. This is the Gevangenpoort. One corner turret remains. The other is gone and is not rebuilt. No restaurant name is readable. The statue is not the subject.
+- NL-01-284: Noordhavenpoort remains NL-01-042 and the Sint-Lievensmonstertoren remains NL-01-206. This is the Stadhuis on the Meelstraat. The tower is octagonal, with an open lantern and a pear-shaped crown. The museum is closed. The portrait medallions are not readable.
+- NL-01-285: the Batavia ship is still away. The Houtribsluizen remain NL-01-266 and the Blocq van Kuffeler pumping station remains NL-01-210. This is Gemaal Wortman, the brick and glass hall with free-standing cross-shaped chimneys. No exhaust plume is shown. The relief is not the subject. It is not a windmill.
+- NL-01-286: the Waterpoort remains NL-01-161. This is the Stadhuis on the Marktstraat, the rococo front of 1760-1763 and the stair of 1745, with a small octagonal cupola. The offices are closed. The coat of arms is not readable.
+- NL-01-287: Martinitoren remains NL-01-060, the Aa-kerk remains NL-01-203, Forum remains NL-01-144, and the Groninger Museum remains NL-01-164. This is the Goudkantoor. It has three gables. The south gable was added in the 1960s from the lost Huis Panser. The 1844 loggia is not rebuilt. The Latin line is not readable. The square sculpture is outside the frame. No cafe name is shown.
+- NL-01-288: the hunebedden, Dwingeloo, and Orvelte are other Drenthe scenes. Diever had no scene. This is the Sint-Pancratiuskerk. The lower tower is tuff, the upper stages are brick, and the slate spire changes from square to octagon. The church is closed. The open-air theatre is not in the frame. Late September leaf, no snow.
+- North Holland and South Holland were not given new scenes in this batch. The new scenes sit in the provinces that had fewer entries.
 - The other suggested sites in this batch were not already used.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
@@ -486,3 +505,19 @@ NL-01-257 through NL-01-272 swaps:
 - NL-01-270 — Basiliek, Meerssen — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:55+02:00
 - NL-01-271 — Begijnhof, Breda — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:57+02:00
 - NL-01-272 — Hampoort, Grave — 26 September 2026 · 04:19 Europe/Amsterdam — retrieved 2026-09-26T04:19:00+02:00
+- NL-01-273 — Cellebroederspoort, Kampen — 26 September 2026 · 04:36 Europe/Amsterdam — retrieved 2026-09-26T04:36:42+02:00
+- NL-01-274 — Sint-Stephanuskerk, Hasselt — 26 September 2026 · 04:36 Europe/Amsterdam — retrieved 2026-09-26T04:36:44+02:00
+- NL-01-275 — Kasteel Het Nijenhuis, Heino — 26 September 2026 · 04:36 Europe/Amsterdam — retrieved 2026-09-26T04:36:46+02:00
+- NL-01-276 — Slot Zeist, Zeist — 26 September 2026 · 04:36 Europe/Amsterdam — retrieved 2026-09-26T04:36:48+02:00
+- NL-01-277 — Sint-Nicolaasbasiliek, IJsselstein — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:18+02:00
+- NL-01-278 — Kasteel Groeneveld, Baarn — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:47+02:00
+- NL-01-279 — Blue obelisk, Bonaire — 25 September 2026 · 22:37 America/Kralendijk — retrieved 2026-09-25T22:37:49-04:00
+- NL-01-280 — Honen Dalim, Oranjestad — 25 September 2026 · 22:37 America/Kralendijk — retrieved 2026-09-25T22:37:51-04:00
+- NL-01-281 — Basiliek, Sint Odiliënberg — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:53+02:00
+- NL-01-282 — Drogenapstoren, Zutphen — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:55+02:00
+- NL-01-283 — Gevangenpoort, Woudrichem — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:57+02:00
+- NL-01-284 — Stadhuis, Zierikzee — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:59+02:00
+- NL-01-285 — Gemaal Wortman, Lelystad — 26 September 2026 · 04:38 Europe/Amsterdam — retrieved 2026-09-26T04:38:01+02:00
+- NL-01-286 — Stadhuis, Sneek — 26 September 2026 · 04:38 Europe/Amsterdam — retrieved 2026-09-26T04:38:03+02:00
+- NL-01-287 — Goudkantoor, Groningen — 26 September 2026 · 04:38 Europe/Amsterdam — retrieved 2026-09-26T04:38:06+02:00
+- NL-01-288 — Sint-Pancratiuskerk, Diever — 26 September 2026 · 04:38 Europe/Amsterdam — retrieved 2026-09-26T04:38:08+02:00

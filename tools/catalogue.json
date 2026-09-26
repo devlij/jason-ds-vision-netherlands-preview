@@ -5710,5 +5710,341 @@
       "The arch does not show a straight view through the town"
     ],
     "solar": "Full night under a partly cloudy sky. Model sunrise 07:29 and sunset 19:26 Europe/Amsterdam, model is_day 0. At 04:19 a street lamp lights the brick. Cloud cover is about 50%. The wind is about 7.9 km/h."
+  },
+  {
+    "entry_id": "NL-01-273",
+    "region": "Overijssel",
+    "city": "Kampen",
+    "folder": "Kampen",
+    "caption": "Cellebroederspoort, Kampen",
+    "composition": "Land gate with two spired towers from the park side · AI-generated artistic interpretation",
+    "description": "The Cellebroederspoort at Kampen is a brick land gate. A rectangular middle under a wolf roof sits between two towers whose lower parts are round and whose upper stages are fourteen-sided, each with a tall spire. It is overcast, about 12.1°C, with wind near 7.2 km/h and cloud cover about 100%. The carved lions and the year are not readable. The Koornmarktspoort is the river gate and is not this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Cellebroederspoort in Kampen at night",
+    "viewpoint": "From the park side at the end of the Cellebroedersweg, looking at the land facade. The public approach is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Cellebroederspoort",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/23447"
+    ],
+    "anchors": [
+      "Park grass and a path fill the foreground",
+      "Two brick towers with tall spires flank a rectangular gatehouse",
+      "The passage does not open onto the river"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:28 and sunset 19:25 Europe/Amsterdam, model is_day 0. At 04:36 a street lamp lights the brick. Cloud cover is about 100%. The wind is about 7.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-274",
+    "region": "Overijssel",
+    "city": "Hasselt",
+    "folder": "Hasselt",
+    "caption": "Sint-Stephanuskerk, Hasselt",
+    "composition": "Late Gothic hall church and heavy west tower from the market · AI-generated artistic interpretation",
+    "description": "The Sint-Stephanuskerk at Hasselt in Overijssel is a late Gothic brick hall church with a heavy west tower built into the church. The present spire dates from the rebuild after the 1725 fire. It is partly cloudy, about 9.4°C, with wind near 3.2 km/h and cloud cover about 73%. The church is closed. This is not Hasselt in Belgium.",
+    "alt_text": "AI-generated artistic interpretation of the Sint-Stephanuskerk in Hasselt, Overijssel, at night",
+    "viewpoint": "From the Markt, looking at the west tower and the hall-church roof. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Grote_of_Sint-Stephanuskerk_(Hasselt)",
+      "https://kennis.cultureelerfgoed.nl/index.php/Monumenten/20900"
+    ],
+    "anchors": [
+      "The market paving fills the foreground",
+      "A heavy brick west tower rises from the church",
+      "A high hall-church roof runs back from the tower"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunrise 07:28 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 04:36 a street lamp lights the brick. Cloud cover is about 73%. The wind is about 3.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-275",
+    "region": "Overijssel",
+    "city": "Heino",
+    "folder": "Heino",
+    "caption": "Kasteel Het Nijenhuis, Heino",
+    "composition": "Moated brick manor from the bridge, sculpture garden outside the frame · AI-generated artistic interpretation",
+    "description": "Kasteel Het Nijenhuis near Heino is a moated brick manor, with a main wing and two wings toward the forecourt. The front was regularised in the late 17th century and has a shallow centre with a balcony. It is overcast, about 8.0°C, with wind near 4.3 km/h and cloud cover about 97%. The museum is closed. No sculpture is in the frame. The towers added at the rear in 1896 are not this view.",
+    "alt_text": "AI-generated artistic interpretation of Kasteel Het Nijenhuis near Heino at night",
+    "viewpoint": "From the public approach across the moat, looking at the forecourt front. The bridge is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://museumdefundatie.nl/en/stories/nijenhuis-castle",
+      "https://monumentenregister.cultureelerfgoed.nl/complexen/492353"
+    ],
+    "anchors": [
+      "Dark moat water fills the foreground",
+      "A brick manor with two forward wings closes the view",
+      "A shallow centre bay carries a balcony"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:27 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 04:36 a lamp lights the brick across the moat. Cloud cover is about 97%. The wind is about 4.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-276",
+    "region": "Utrecht",
+    "city": "Zeist",
+    "folder": "Zeist",
+    "caption": "Slot Zeist, Zeist",
+    "composition": "Classicist palace across the moat from the stone bridge · AI-generated artistic interpretation",
+    "description": "Slot Zeist is the classicist palace finished in 1686. A seven-bay main block under a slate hipped roof is linked by one-storey flat-roofed wings to two-storey side houses around a forecourt. It is overcast, about 11.5°C, with wind near 6.1 km/h and cloud cover about 100%. The interior is closed. The year on the door is not readable. The medieval castle is gone and is not rebuilt. The Broederplein houses are not this frame.",
+    "alt_text": "AI-generated artistic interpretation of Slot Zeist at night",
+    "viewpoint": "From the stone arch bridge over the moat, looking across the forecourt at the main block. The bridge is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/40407",
+      "https://www.slotzeist.nl/slot-zeist/geschiedenis"
+    ],
+    "anchors": [
+      "A stone arch bridge crosses the moat in the foreground",
+      "Side houses flank a formal forecourt",
+      "A slate-roofed main block closes the axis"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:31 and sunset 19:28 Europe/Amsterdam, model is_day 0. At 04:36 lamps light the forecourt. Cloud cover is about 100%. The wind is about 6.1 km/h."
+  },
+  {
+    "entry_id": "NL-01-277",
+    "region": "Utrecht",
+    "city": "IJsselstein",
+    "folder": "IJsselstein",
+    "caption": "Sint-Nicolaasbasiliek, IJsselstein",
+    "composition": "Neo-Gothic brick hall church and tall tower from the street · AI-generated artistic interpretation",
+    "description": "The Sint-Nicolaasbasiliek at IJsselstein is the neo-Gothic brick hall church built in 1885-1887 to a design by Alfred Tepe. The tall tower has deep niches, brick tracery, a balustrade, and corner pinnacles. It is overcast, about 12.6°C, with wind near 4.3 km/h and cloud cover about 100%. The church is closed. The older reformed church in the town is not this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Sint-Nicolaasbasiliek in IJsselstein at night",
+    "viewpoint": "From Sint Nicolaasstraat, looking up at the west tower and the hall-church body. The street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sint-Nicolaasbasiliek_(IJsselstein)",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/20139"
+    ],
+    "anchors": [
+      "The street and a small churchyard fill the foreground",
+      "A tall brick tower with deep niches and corner pinnacles dominates",
+      "A neo-Gothic hall church with brick balustrades sits beside the tower"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:32 and sunset 19:29 Europe/Amsterdam, model is_day 0. At 04:37 a street lamp lights the brick. Cloud cover is about 100%. The wind is about 4.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-278",
+    "region": "Utrecht",
+    "city": "Baarn",
+    "folder": "Baarn",
+    "caption": "Kasteel Groeneveld, Baarn",
+    "composition": "Brick country house with curved wings from the avenue · AI-generated artistic interpretation",
+    "description": "Kasteel Groeneveld at Baarn is an 18th-century brick country house, not a moated medieval castle. The main block and two curved wings share one dark pantile roof, with a stone stair up to the door and a balcony over it. It is overcast, about 11.9°C, with wind near 2.2 km/h and cloud cover about 100%. The house is closed. The coat of arms and the figures on the pediment are not readable. Late September, no flower display.",
+    "alt_text": "AI-generated artistic interpretation of Kasteel Groeneveld in Baarn at night",
+    "viewpoint": "From the public avenue across the forecourt, looking at the front. The avenue is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Kasteel_Groeneveld_(Baarn)",
+      "https://rijksmonumenten.nl/monument/511771/groeneveld-hoofdgebouw/baarn/"
+    ],
+    "anchors": [
+      "An avenue and open forecourt fill the foreground",
+      "A symmetrical brick front has a stone stair and a balcony",
+      "Curved side wings continue under the same dark roof"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:31 and sunset 19:28 Europe/Amsterdam, model is_day 0. At 04:37 a lamp lights the front. Cloud cover is about 100%. The wind is about 2.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-279",
+    "region": "Caribbean Netherlands",
+    "city": "Bonaire",
+    "folder": "Bonaire",
+    "caption": "Blue obelisk, Bonaire",
+    "composition": "Single blue stone needle on the salt-pier shore · AI-generated artistic interpretation",
+    "description": "The blue obelisk on Bonaire is one stone needle painted blue, set on the south-coast shore by the salt pier to mark the old Blauwe Pan anchorage. The other three colours stand at other pans and are not in this frame. It is mainly clear, about 28.3°C, with wind near 23.3 km/h and cloud cover about 21%. Night water is dark, not turquoise. No company name is shown. The salt pyramids and the white slave huts are other scenes.",
+    "alt_text": "AI-generated artistic interpretation of the blue salt obelisk on Bonaire at night",
+    "viewpoint": "From the public coast beside the salt pier, looking at the blue obelisk. A surveyed mark on the stone itself was not pinned; the shore by the pier is the viewpoint.",
+    "references": [
+      "https://infobonaire.com/bonaires-historic-obelisks-why-were-they-built/",
+      "https://mass.cultureelerfgoed.nl/blauwe-pan"
+    ],
+    "anchors": [
+      "Dark sea and a low rocky shore fill the foreground",
+      "One blue stone obelisk stands alone",
+      "A loading pier reaches into the dark water, with no readable name"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunrise 06:22 and sunset 18:26 America/Kralendijk, model is_day 0. At 22:37 the obelisk is a dark needle against the sky, with a little shore light. Cloud cover is about 21%. The wind is about 23.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-280",
+    "region": "Caribbean Netherlands",
+    "city": "Oranjestad",
+    "folder": "Oranjestad",
+    "caption": "Honen Dalim, Oranjestad",
+    "composition": "Roofless yellow-brick synagogue walls on Synagogue Path · AI-generated artistic interpretation",
+    "description": "Honen Dalim in Oranjestad on Sint Eustatius is the synagogue built in 1739 of yellow brick brought as ballast. The roof has been gone since the 1792 hurricane and was not put back. The 2001 work stabilised the walls and did not rebuild a roof. It is clear, about 29.0°C, with wind near 21.7 km/h and no cloud. A mikvah stair sits to the side. No plaque text is readable. Fort Oranje and the Dutch Reformed Church are other scenes.",
+    "alt_text": "AI-generated artistic interpretation of the Honen Dalim synagogue ruin in Oranjestad at night",
+    "viewpoint": "From Synagogue Path in Upper Town, looking into the roofless yellow-brick walls. The path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Honen_Dalim-synagoge",
+      "https://www.atlasobscura.com/places/honen-dalim-sint-eustatius"
+    ],
+    "anchors": [
+      "A narrow path fills the foreground",
+      "Roofless yellow-brick walls stand open to the sky",
+      "A short stair to the mikvah sits beside the walls"
+    ],
+    "solar": "Full night under a clear sky. Model sunrise 06:01 and sunset 18:05 America/Kralendijk, model is_day 0. At 22:37 a small path lamp lights the yellow brick. Cloud cover is about 0%. The wind is about 21.7 km/h."
+  },
+  {
+    "entry_id": "NL-01-281",
+    "region": "Limburg",
+    "city": "Sint Odiliënberg",
+    "folder": "Sint Odiliënberg",
+    "caption": "Basiliek, Sint Odiliënberg",
+    "composition": "Romanesque basilica with two choir towers on the church hill · AI-generated artistic interpretation",
+    "description": "The basilica at Sint Odiliënberg is a Romanesque church of fieldstone, tuff, and sandstone on the hill by the Roer. Two square choir towers flank a lower polygonal choir. The towers were blown up in 1945 and reconstructed in 1949-1951, so the present towers are shown, not a ruin. It is mainly clear, about 7.6°C, with wind near 6.5 km/h and cloud cover about 20%. The church is closed. The small chapel beside the hill is not the subject.",
+    "alt_text": "AI-generated artistic interpretation of the basilica in Sint Odiliënberg at night",
+    "viewpoint": "From the church hill path, looking at the choir towers and the east end. The public path is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Basiliek_van_de_H.H._Wiro,_Plechelmus_en_Otgerus",
+      "https://www.dbnl.org/tekst/sten009monu08_01/sten009monu08_01_0148.php"
+    ],
+    "anchors": [
+      "The church-hill path and grass fill the foreground",
+      "Two square stone choir towers rise over a lower choir",
+      "A Romanesque nave runs back from a lower transept"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunrise 07:28 and sunset 19:25 Europe/Amsterdam, model is_day 0. At 04:37 a lamp lights the stone. Cloud cover is about 20%. The wind is about 6.5 km/h."
+  },
+  {
+    "entry_id": "NL-01-282",
+    "region": "Gelderland",
+    "city": "Zutphen",
+    "folder": "Zutphen",
+    "caption": "Drogenapstoren, Zutphen",
+    "composition": "Square brick tower, octagonal lantern, and nineteenth-century spire · AI-generated artistic interpretation",
+    "description": "The Drogenapstoren at Zutphen is the former Saltpoort, a square brick tower of 1444-1446 with octagonal corner turrets and a tall octagonal lantern. The high spire with dormers is the nineteenth-century crown, so the tower is shown complete. The old passage was bricked up, and no street is seen through it. It is partly cloudy, about 9.9°C, with wind near 7.9 km/h and cloud cover about 57%. The Berkelpoort is a different gate and is not this tower.",
+    "alt_text": "AI-generated artistic interpretation of the Drogenapstoren in Zutphen at night",
+    "viewpoint": "From the street at Drogenapsteeg, looking up at the tower. The street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Drogenapstoren",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/41393"
+    ],
+    "anchors": [
+      "The street and a scrap of old wall fill the foreground",
+      "A square brick tower carries small octagonal corner turrets",
+      "An octagonal lantern and a tall spire with dormers close the sky"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunrise 07:27 and sunset 19:24 Europe/Amsterdam, model is_day 0. At 04:37 a street lamp lights the brick. Cloud cover is about 57%. The wind is about 7.9 km/h."
+  },
+  {
+    "entry_id": "NL-01-283",
+    "region": "North Brabant",
+    "city": "Woudrichem",
+    "folder": "Woudrichem",
+    "caption": "Gevangenpoort, Woudrichem",
+    "composition": "Brick water gate with one remaining corner turret · AI-generated artistic interpretation",
+    "description": "The Gevangenpoort at Woudrichem is a rectangular brick water gate with a gabled roof and pointed arches. One corbelled polygonal turret remains on a corner. The matching turret is gone and is not rebuilt. It is overcast, about 12.1°C, with wind near 7.9 km/h and cloud cover about 100%. No restaurant name is readable. The statue nearby is not the subject. Slot Loevestein is across the river and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Gevangenpoort in Woudrichem at night",
+    "viewpoint": "From the quay on the Kerkstraat side, looking at the gate and the remaining turret. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Gevangenpoort_(Woudrichem)",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/39582"
+    ],
+    "anchors": [
+      "Dark river water and a quay fill the foreground",
+      "A rectangular brick gate has a gabled roof and pointed arches",
+      "Only one small corner turret remains"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:32 and sunset 19:29 Europe/Amsterdam, model is_day 0. At 04:37 a quay lamp lights the brick. Cloud cover is about 100%. The wind is about 7.9 km/h."
+  },
+  {
+    "entry_id": "NL-01-284",
+    "region": "Zeeland",
+    "city": "Zierikzee",
+    "folder": "Zierikzee",
+    "caption": "Stadhuis, Zierikzee",
+    "composition": "Stone town hall and octagonal tower from the Meelstraat · AI-generated artistic interpretation",
+    "description": "The Stadhuis at Zierikzee is a stone-fronted town hall with an octagonal brick tower, an open lantern, and a pear-shaped crown. A small Neptune figure finishes the spire and is not a separate monument. It is overcast, about 15.3°C, with wind near 8.3 km/h and cloud cover about 100%. The museum is closed. The portrait medallions are not readable. The Noordhavenpoort and the Sint-Lievensmonstertoren are other scenes and are not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Stadhuis in Zierikzee at night",
+    "viewpoint": "From the Meelstraat, looking at the stone front and the tower. The street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Stadhuis_van_Zierikzee",
+      "https://www.zierikzee-monumentenstad.nl/stadhuis"
+    ],
+    "anchors": [
+      "The street fills the foreground",
+      "A stone-clad front with two gables faces the camera",
+      "An octagonal tower with an open lantern and a pear-shaped crown rises behind the roof"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:36 and sunset 19:33 Europe/Amsterdam, model is_day 0. At 04:37 street lamps light the stone. Cloud cover is about 100%. The wind is about 8.3 km/h."
+  },
+  {
+    "entry_id": "NL-01-285",
+    "region": "Flevoland",
+    "city": "Lelystad",
+    "folder": "Lelystad",
+    "caption": "Gemaal Wortman, Lelystad",
+    "composition": "Brick and glass pumping hall and free-standing chimneys from the dike · AI-generated artistic interpretation",
+    "description": "Gemaal Wortman at Lelystad is the functionalist pumping station of 1956, a brick and glass machine hall with a low gabled roof and flat-roofed side blocks. Cross-shaped chimney columns stand free of the walls. It is overcast, about 14.7°C, with wind near 6.1 km/h and cloud cover about 100%. The interior is closed. No exhaust plume is shown. The relief on the wall is not the subject. It is not a windmill and not the lock complex at the Houtribdijk.",
+    "alt_text": "AI-generated artistic interpretation of Gemaal Wortman in Lelystad at night",
+    "viewpoint": "From the Oostvaardersdijk, looking at the machine hall and the free-standing chimneys. The dike is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.flevolanderfgoed.nl/home/erfgoed/oostelijk-flevoland-2/gemalen-2/gemaal-wortman.html",
+      "https://en.wikipedia.org/wiki/H._Wortman_Pumping_Station"
+    ],
+    "anchors": [
+      "The dike and dark polder water fill the foreground",
+      "A brick and glass hall has a low gabled roof",
+      "Cross-shaped chimney columns stand apart from the walls"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:30 and sunset 19:27 Europe/Amsterdam, model is_day 0. At 04:38 a yard lamp lights the brick and glass. Cloud cover is about 100%. The wind is about 6.1 km/h."
+  },
+  {
+    "entry_id": "NL-01-286",
+    "region": "Friesland",
+    "city": "Sneek",
+    "folder": "Sneek",
+    "caption": "Stadhuis, Sneek",
+    "composition": "Rococo town-hall front and small cupola from the Marktstraat · AI-generated artistic interpretation",
+    "description": "The Stadhuis at Sneek shows the rococo street front of 1760-1763, with the stone stair and balcony of 1745 kept in front. A hipped roof carries a small octagonal cupola. It is overcast, about 13.0°C, with wind near 6.1 km/h and cloud cover about 100%. The offices are closed. The coat of arms is not readable. The Waterpoort is another scene and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Stadhuis in Sneek at night",
+    "viewpoint": "From the Marktstraat, looking straight at the rococo front. The street is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.sneek.nl/over-sneek/bezienswaardigheden/stadhuis-sneek",
+      "https://www.friesland.nl/en/locations/454893491/stadhuis"
+    ],
+    "anchors": [
+      "The street fills the foreground",
+      "A stone stair rises to an ornate central door",
+      "A hipped roof carries a small octagonal cupola"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:29 and sunset 19:26 Europe/Amsterdam, model is_day 0. At 04:38 a street lamp lights the facade. Cloud cover is about 100%. The wind is about 6.1 km/h."
+  },
+  {
+    "entry_id": "NL-01-287",
+    "region": "Groningen",
+    "city": "Groningen",
+    "folder": "Groningen",
+    "caption": "Goudkantoor, Groningen",
+    "composition": "1635 tax office with three ornate gables from the Waagplein · AI-generated artistic interpretation",
+    "description": "The Goudkantoor at Groningen is the 1635 tax office, a compact brick and stone block with shell motifs and volute gables. It now has three gables, because the south gable was added in the 1960s from the lost Huis Panser. The loggia taken down in 1844 is not rebuilt. It is overcast, about 13.5°C, with wind near 5.4 km/h and cloud cover about 100%. The Latin line is not readable. No cafe name is shown. The Martinitoren is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Goudkantoor in Groningen at night",
+    "viewpoint": "From the Waagplein, looking at the ornate gables. The square is the viewpoint. A surveyed tripod mark was not pinned. The sculpture that stands on the square is outside the frame.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Goudkantoor",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/18467"
+    ],
+    "anchors": [
+      "The square paving fills the foreground",
+      "A compact brick and stone block carries ornate volute gables",
+      "Shell motifs sit in the arches, and no tower is in the frame"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:26 and sunset 19:22 Europe/Amsterdam, model is_day 0. At 04:38 square lamps light the stone. Cloud cover is about 100%. The wind is about 5.4 km/h."
+  },
+  {
+    "entry_id": "NL-01-288",
+    "region": "Drenthe",
+    "city": "Diever",
+    "folder": "Diever",
+    "caption": "Sint-Pancratiuskerk, Diever",
+    "composition": "Tuff and brick church with a swept slate spire from the brink · AI-generated artistic interpretation",
+    "description": "The Sint-Pancratiuskerk at Diever is a three-aisle church on the brink. The lower tower is tuff, the upper stages are brick, and a north stair turret clings to the tower. The spire is slate and changes from square to octagon. It is overcast, about 9.2°C, with wind near 3.2 km/h and cloud cover about 100%. The church is closed. Late September leaf, no snow. It is not a hunebed. The open-air theatre is not in the frame.",
+    "alt_text": "AI-generated artistic interpretation of the Sint-Pancratiuskerk in Diever at night",
+    "viewpoint": "From the brink, looking at the tower and the south side of the church. The green is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Sint-Pancratiuskerk_(Diever)",
+      "https://archimon.nl/drenthe/dieverherv.html"
+    ],
+    "anchors": [
+      "The village green and trees fill the foreground",
+      "A tuff and brick tower carries a swept slate spire",
+      "Tile roofs of a three-aisle church wrap the tower"
+    ],
+    "solar": "Full night under an overcast sky. Model sunrise 07:27 and sunset 19:23 Europe/Amsterdam, model is_day 0. At 04:38 a village lamp lights the tower. Cloud cover is about 100%. The wind is about 3.2 km/h."
   }
 ]

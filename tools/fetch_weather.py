@@ -30,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-257", "1000 Steps", "Bonaire", 12.21086, -68.32180, "America/Kralendijk"),
-    ("NL-01-258", "Dutch Reformed Church", "Oranjestad", 17.48125, -62.98589, "America/Kralendijk"),
-    ("NL-01-259", "Havezate De Havixhorst", "De Wijk", 52.67339, 6.27301, "Europe/Amsterdam"),
-    ("NL-01-260", "Sint-Margaretakerk", "Norg", 53.06631, 6.46127, "Europe/Amsterdam"),
-    ("NL-01-261", "Abdijkerk", "Aduard", 53.25644, 6.46020, "Europe/Amsterdam"),
-    ("NL-01-262", "Borg Nienoord", "Leek", 53.16796, 6.39452, "Europe/Amsterdam"),
-    ("NL-01-263", "Zuidertoren", "Schiermonnikoog", 53.48147, 6.15862, "Europe/Amsterdam"),
-    ("NL-01-264", "Sint-Gertrudiskerk", "Workum", 52.97899, 5.44299, "Europe/Amsterdam"),
-    ("NL-01-265", "Kerkruïne", "Schokland", 52.62028, 5.77350, "Europe/Amsterdam"),
-    ("NL-01-266", "Houtribsluizen", "Lelystad", 52.52700, 5.43432, "Europe/Amsterdam"),
-    ("NL-01-267", "Grote Kerk", "Veere", 51.54716, 3.66749, "Europe/Amsterdam"),
-    ("NL-01-268", "Haven", "Brouwershaven", 51.72426, 3.91671, "Europe/Amsterdam"),
-    ("NL-01-269", "Fort Sint Pieter", "Maastricht", 50.83600, 5.68402, "Europe/Amsterdam"),
-    ("NL-01-270", "Basiliek", "Meerssen", 50.88372, 5.75505, "Europe/Amsterdam"),
-    ("NL-01-271", "Begijnhof", "Breda", 51.59007, 4.77833, "Europe/Amsterdam"),
-    ("NL-01-272", "Hampoort", "Grave", 51.75730, 5.73872, "Europe/Amsterdam"),
+    ("NL-01-273", "Cellebroederspoort", "Kampen", 52.55427, 5.91545, "Europe/Amsterdam"),
+    ("NL-01-274", "Sint-Stephanuskerk", "Hasselt", 52.59049, 6.08958, "Europe/Amsterdam"),
+    ("NL-01-275", "Kasteel Het Nijenhuis", "Heino", 52.42143, 6.21716, "Europe/Amsterdam"),
+    ("NL-01-276", "Slot Zeist", "Zeist", 52.07899, 5.23420, "Europe/Amsterdam"),
+    ("NL-01-277", "Sint-Nicolaasbasiliek", "IJsselstein", 52.01897, 5.04054, "Europe/Amsterdam"),
+    ("NL-01-278", "Kasteel Groeneveld", "Baarn", 52.21862, 5.25487, "Europe/Amsterdam"),
+    ("NL-01-279", "Blue obelisk", "Bonaire", 12.08420, -68.28140, "America/Kralendijk"),
+    ("NL-01-280", "Honen Dalim", "Oranjestad", 17.48186, -62.98535, "America/Kralendijk"),
+    ("NL-01-281", "Basiliek", "Sint Odiliënberg", 51.14849, 5.99823, "Europe/Amsterdam"),
+    ("NL-01-282", "Drogenapstoren", "Zutphen", 52.13910, 6.19765, "Europe/Amsterdam"),
+    ("NL-01-283", "Gevangenpoort", "Woudrichem", 51.81827, 5.00390, "Europe/Amsterdam"),
+    ("NL-01-284", "Stadhuis", "Zierikzee", 51.65037, 3.91885, "Europe/Amsterdam"),
+    ("NL-01-285", "Gemaal Wortman", "Lelystad", 52.50322, 5.42050, "Europe/Amsterdam"),
+    ("NL-01-286", "Stadhuis", "Sneek", 53.03250, 5.65904, "Europe/Amsterdam"),
+    ("NL-01-287", "Goudkantoor", "Groningen", 53.21849, 6.56628, "Europe/Amsterdam"),
+    ("NL-01-288", "Sint-Pancratiuskerk", "Diever", 52.85568, 6.31698, "Europe/Amsterdam"),
 ]
 
 
