@@ -4,12 +4,18 @@
   "region": "Zeeland",
   "city": "Brouwershaven",
   "caption": "Haven, Brouwershaven",
-  "scenario_label": "26 September 2026 \u00b7 04:18 Europe/Amsterdam",
-  "composition": "Inner harbour, renewed quay, and the lock bridge \u00b7 AI-generated artistic interpretation",
-  "description": "The Haven at Brouwershaven is the old basin in the centre, with house fronts along the quay. The quay walls were renewed with basalt-pattern facing and were open again by April 2026, so the new face is shown. A low bridge crosses the lock. It is overcast, about 12.5\u00b0C, with wind near 7.9 km/h and cloud cover about 100%. No boat name and no restaurant name are readable. The church is not the subject.",
+  "scenario_label": "26 September 2026 · 04:18 Europe/Amsterdam",
+  "composition": "Inner harbour, renewed quay, and the lock bridge · AI-generated artistic interpretation",
+  "description": "The Haven at Brouwershaven is the old basin in the centre, with house fronts along the quay. The quay walls were renewed with basalt-pattern facing and were open again by April 2026, so the new face is shown. A low bridge crosses the lock. It is overcast, about 12.5°C, with wind near 7.9 km/h and cloud cover about 100%. No boat name and no restaurant name are readable. The church is not the subject.",
   "alt_text": "AI-generated artistic interpretation of the inner harbour at Brouwershaven at night",
   "file_16x9": "Netherlands/Brouwershaven/nl-01-268-16x9.png",
   "file_4x5": "Netherlands/Brouwershaven/nl-01-268-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: night scene of the Brouwershaven old harbour - a row of gabled brick and white house fronts with lit windows along the quay, moored boats on the dark water, a low bridge crossing the lock at the far end with lamp reflections, under an overcast sky; the 4:5 shows the same quay row and bridge from down-harbour, consistent subject identity. Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Haven, Brouwershaven', scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI-disclosure and 'Jason D's Vision' signature all legible; Open-Meteo retrieval timestamp 2026-09-26T04:18:50+02:00 verified UNIQUE to the second across all 288 NL evidence files, scenario minute inside the model-valid hour 04:00-04:59; Art.50 PNG metadata (Title/Description/Copyright/Software/Comment with EU AI Act Art.50 note) present on both masters. Gate 3 PASS: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos; license badge 'Free · no credit needed' - documented only, final commercial call is Jason's. Gate 5 PASS: card fields complete.",
+  "approved_at": "2026-09-26T17:47:11.317005+00:00",
+  "sha256_16x9": "5bf73dadeb4408ffc90f15d6a03dd066500d4bff128802cb79b1b0d2a5da0f76",
+  "sha256_4x5": "11815633d1762d1c737aa8b98a03cc5840ed46a21508110e283da8e50894ab82"
 }
