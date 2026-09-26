@@ -4,12 +4,18 @@
   "region": "Gelderland",
   "city": "Apeldoorn",
   "caption": "Paleis Het Loo, Apeldoorn",
-  "scenario_label": "25 September 2026 \u00b7 23:41 Europe/Amsterdam",
-  "composition": "Garden axis at night, brick palace and clipped parterres \u00b7 AI-generated artistic interpretation",
-  "description": "From the baroque garden the symmetrical brick palace closes the axis, with clipped evergreen parterres and a still fountain basin. The gardens are closed at this hour, so the basin is not spraying and there is no summer flower show. It is clear, about 13.5\u00b0C, with a light wind near 5.4 km/h. Sunset was 19:27. The glass forecourt of the renovation is not this view.",
+  "scenario_label": "25 September 2026 · 23:41 Europe/Amsterdam",
+  "composition": "Garden axis at night, brick palace and clipped parterres · AI-generated artistic interpretation",
+  "description": "From the baroque garden the symmetrical brick palace closes the axis, with clipped evergreen parterres and a still fountain basin. The gardens are closed at this hour, so the basin is not spraying and there is no summer flower show. It is clear, about 13.5°C, with a light wind near 5.4 km/h. Sunset was 19:27. The glass forecourt of the renovation is not this view.",
   "alt_text": "AI-generated artistic interpretation of Paleis Het Loo from the baroque garden in Apeldoorn on a clear night",
   "file_16x9": "Netherlands/Apeldoorn/nl-01-048-16x9.png",
   "file_4x5": "Netherlands/Apeldoorn/nl-01-048-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Paleis Het Loo at night: the symmetrical brick baroque palace facade with its lit windows fronting the formal hedge parterres and central reflecting pool of the gardens, dark sky above. Gate 1: recognizable Het Loo palace and knot gardens, plausible garden-axis viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Paleis Het Loo, Apeldoorn', scenario '25 September 2026 · 23:41 Europe/Amsterdam' inside model-valid hour 23:00-23:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-25T23:41:49+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
+  "approved_at": "2026-09-26T02:42:46.754833+00:00",
+  "sha256_16x9": "7fb1fba0f00c4faae28b56b051147bba00bbfcf370cb4de18cc169126259318b",
+  "sha256_4x5": "b69c5e6a283889002513fe49a423f0c37d05aa9a351d72c0dc17854e2b5fe178"
 }
