@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: long brick Gothic abbey church under a steep slate gable roof — west gable with blind arcading and a projecting round clock, small polygonal stair turret with conical spire at the west end, pointed-arch lancet windows with tracery along the nave, lit street lamp, wet road, overcast dawn; matches the anchors (long brick hall, steep gable roof, pointed windows and blind niches, clock across west gable, no tall tower); 16x9 street view vs 4x5 west-gable-end view depict the same building (clock, turret and lancets in both). Gate 2: exact 1920x1080/864x1080 masters, caption 'Abdijkerk, Aduard', scenario '26 September 2026 · 04:18 Europe/Amsterdam' inside the model-valid hour of the recorded Open-Meteo retrieval 2026-09-26T04:18:32+02:00 (verified unique to the second across all 288 Netherlands evidence files), exact curly-apostrophe signature and disclosure legible, Art. 50 PNG metadata present on both masters. Gate 3: evidence card claims text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, no logos — documented only. Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T16:58:22.395920+00:00",
-  "sha256_16x9": "1d5072f3dbdac0d0cbefb1c3e94cf2f1f88f074f76597558f4920fa40ceeb345",
-  "sha256_4x5": "a9d195f8ec4073b34604064da63579776bafc4e9c29ce1f5985a173999d7e815"
+  "sha256_16x9": "ba5999c111dd4a085263bbc30a2beba799373ac24952021578cc5bee56f2bcc6",
+  "sha256_4x5": "687380253376fb58f78a3a18d3bc3a84a986842e6cedd93bff13835313036374",
+  "file_9x16": "Netherlands/Aduard/nl-01-261-9x16.png",
+  "sha256_9x16": "033a6b36400ea2f698ac50f7b80558883962fcc8587ddd8542bc5b428af2d476",
+  "format_9x16_approval_status": "Candidate"
 }

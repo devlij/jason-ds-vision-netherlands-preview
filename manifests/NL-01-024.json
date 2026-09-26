@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: the Waag in Alkmaar floodlit at night — stepped-gable weigh house with its lantern tower glowing on the square, gabled townhouses flanking, street lamps lit; exact Alkmaar view, no artifacts. G2: exact dims verified; on-image 'Waag, Alkmaar', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:20+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public square, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:46:24.281698+00:00",
-  "sha256_16x9": "4f99fd0f99533c42c6f21181267253197082d74a66db442c066ed7bee0bb729b",
-  "sha256_4x5": "37658db3e06d58c33c605652978690087fba088455089b4f9df63587337e6e71"
+  "sha256_16x9": "eb808c0a33e09289c00b13f2bfeada05d9e2c172818d6b364d007a2fa55cecba",
+  "sha256_4x5": "a35f012fafe3d93e504c9bdd94d3086beb5667ab663cd5a2f631d4a3c0a99be1",
+  "file_9x16": "Netherlands/Alkmaar/nl-01-024-9x16.png",
+  "sha256_9x16": "fd1e17bf8afece1f280c9ad9607d6df3b2f08faf35d360e9b5f3ea4fc02164d2",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4f99fd0f99533c42c6f21181267253197082d74a66db442c066ed7bee0bb729b. Source SHA-256 4:5 37658db3e06d58c33c605652978690087fba088455089b4f9df63587337e6e71. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

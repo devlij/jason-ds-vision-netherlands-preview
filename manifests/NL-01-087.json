@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Harbour, Brielle. Overcast night harbour with moored boats and lamp glints on dark water, tall brick church tower with capped belfry center, brick dike gatehouse with arched passage on the right. Scenario '26 September 2026 · 00:38 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T00:38:15+02:00 (retrieved; model-valid hour 00:30), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:39:34.354400+00:00",
-  "sha256_16x9": "93acca3cba93cd52c98a58638d83ca6a2fb470c1fdbe6daf2479b85ef23e47c2",
-  "sha256_4x5": "295be0bd5886713758a21a5fa52bcf964b4a927a806d96732a4fc28e68a5a8ea"
+  "sha256_16x9": "191391f028fcaec095a997747884dd6bf906c549c59b65e6d24bbdbbf54e4701",
+  "sha256_4x5": "c3a13a0299f32d97f24595fbfc697a3439147fb5e785655d38574a5d2445f6c6",
+  "file_9x16": "Netherlands/Brielle/nl-01-087-9x16.png",
+  "sha256_9x16": "40e4b9577a3cb237396db97d8a8257bf0d2960d6c1ddf3b67be0cd7fa5be741a",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 93acca3cba93cd52c98a58638d83ca6a2fb470c1fdbe6daf2479b85ef23e47c2. Source SHA-256 4:5 295be0bd5886713758a21a5fa52bcf964b4a927a806d96732a4fc28e68a5a8ea. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

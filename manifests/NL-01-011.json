@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Golden hour",
   "approval_basis": "G1 PASS: Markt square with Nieuwe Kerk's tall spire left and the Stadhuis with domed clock tower right across the cobbled square, warm 18:27 low light; clean framing, no artifacts. G2: 1920x1080/864x1080 exact (sweep-verified), on-image 'Markt, Delft', scenario '25 September 2026 · 18:27 Europe/Amsterdam', curly-apostrophe 'Jason D's Vision' bottom-right, 'AI-generated artistic interpretation · Not a photograph.' on gradient scrim, all legible; Art.50 PNG metadata (Title/Description/Copyright/Software/Comment with EU AI Act note) present. Scenario minute 18:27 inside model hour 18:00; Open-Meteo retrieval 2026-09-25T18:27:58+02:00 verified unique to the second across all 128 NL weather files. G3: builder note claims text-prompt-only, no photographic input (recorded as claim). G4: no visible people/logos; public square, documented only. G5: card fields complete.",
   "approved_at": "2026-09-25T23:44:40.800767+00:00",
-  "sha256_16x9": "499bf6e7dda9cab5f4b8d6986df3ae3240b43e61393343852b2952e84fc4e3c1",
-  "sha256_4x5": "64c4e39f995f08b0de7f22cb177b4d0c71db50dc64a5e839ef3614c003e97197"
+  "sha256_16x9": "179f7209b770a6282a4b2ed7a9a1fe15501c5509d770f11b8205cc019b3b958f",
+  "sha256_4x5": "31f23dc9ccdcec76ec67248c8f7d3c6d4d3507606bfc0841ff27498bd4d6f6df",
+  "file_9x16": "Netherlands/Delft/nl-01-011-9x16.png",
+  "sha256_9x16": "e841b5c4932af5d539f352f8d502357ba433989bc6b76c9663db83d64aae167f",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 499bf6e7dda9cab5f4b8d6986df3ae3240b43e61393343852b2952e84fc4e3c1. Source SHA-256 4:5 64c4e39f995f08b0de7f22cb177b4d0c71db50dc64a5e839ef3614c003e97197. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

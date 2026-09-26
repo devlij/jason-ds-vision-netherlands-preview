@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: white neoclassical waterfront mansion with lit ground-floor windows and a full moon overhead, reflection on dark water — recognizably Huis Van Gijn in Dordrecht; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Huis Van Gijn, Dordrecht' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + curly-apostrophe signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:08+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:39:18.089290+00:00",
-  "sha256_16x9": "c65fe5129b4d88dd53e9c57cd6dd2ba853c296f17afd7e17dc273616b4c2a4da",
-  "sha256_4x5": "ea1d9ebd3f5d385fc337579c17bfffc7dc7cfa53b247e02fdc55b709673aaa4f"
+  "sha256_16x9": "b4a254c6b76fdd1d3062cdb461f6a82e8a394edf565aa316e83fb27ac3bc3263",
+  "sha256_4x5": "a31116f545c901e62f4660e91d9d24dc46fed2136b6dbf8e292a3872e589da07",
+  "file_9x16": "Netherlands/Dordrecht/nl-01-139-9x16.png",
+  "sha256_9x16": "2b3231c06e302e74b7614cb0e00312c665b9f2657c47181dd92436e79dc8a9c4",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c65fe5129b4d88dd53e9c57cd6dd2ba853c296f17afd7e17dc273616b4c2a4da. Source SHA-256 4:5 ea1d9ebd3f5d385fc337579c17bfffc7dc7cfa53b247e02fdc55b709673aaa4f. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

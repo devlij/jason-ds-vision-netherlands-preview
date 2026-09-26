@@ -18,5 +18,8 @@
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26, verified by Cosmo's own read of both masters): the two formats disagree on the building's massing - the 16x9 shows a symmetrical brick manor block with a central pediment, an external curved double staircase, and a separate spired gatehouse tower off to the right connected by a wall, while the 4x5 shows one integrated complex with a tall spired tower centered between brick wings, no staircase and no separate gatehouse. Card anchors (gatehouse with the manor on the island beyond, L-shaped manor) match the 16x9 and contradict the 4x5. Builder to align the renders and re-push."
     }
-  ]
+  ],
+  "file_9x16": "Netherlands/Arcen/nl-01-255-9x16.png",
+  "sha256_9x16": "865ae713240aba9d7862a38e8731791d401f0f31c82cd9e17ca24137caa5f2fe",
+  "format_9x16_approval_status": "Candidate"
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: brick Gothic basilica with the tower rising from the crossing, capped by the angular concrete crown spire of 1957 with a plain cross — rendered as a faceted pyramidal spire rather than a medieval needle, matching the real Hulst building; row of pointed-arched windows along the nave, arched west portal, cobblestone square with lit lampposts, moon in a clear night sky. Gate 2 PASS: exact 1920x1080/864x1080; on-image 'Basilica, Hulst', scenario '26 September 2026 · 01:58 Europe/Amsterdam', disclosure and curly-apostrophe 'Jason D's Vision' signature legible on scrim; Art. 50 metadata complete on both masters; scenario 01:58 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:58:46+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: no people, no logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
   "approved_at": "2026-09-26T09:45:38.468166+00:00",
-  "sha256_16x9": "d8e1439cebbb420f5e6e1edba475ed04bdf967b6780314ad40c0ad54790dc186",
-  "sha256_4x5": "15205316fdbbede4c420e3006430fad674d6be96fd27bca0693eb8c3c89b379d"
+  "sha256_16x9": "ffcd1fb552da8a899203dc3bce80f2c054afca9ac9ba9f74b07da23cd6af57d0",
+  "sha256_4x5": "906d487f4c5538fa9a5d214c43f7f00755694ee62bc61e24694652cb3acba39f",
+  "file_9x16": "Netherlands/Hulst/nl-01-158-9x16.png",
+  "sha256_9x16": "5c195ae1827a25e8cf7551ae8ebcd2f28729db4ae38cbae05122c105a02ef2a5",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d8e1439cebbb420f5e6e1edba475ed04bdf967b6780314ad40c0ad54790dc186. Source SHA-256 4:5 15205316fdbbede4c420e3006430fad674d6be96fd27bca0693eb8c3c89b379d. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

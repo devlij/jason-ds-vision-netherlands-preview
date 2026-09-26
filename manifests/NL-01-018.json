@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Dam Square at night — floodlit Royal Palace with cupola left, Nieuwe Kerk's tall tower center, National Monument obelisk right, empty square under dark sky; exact Dam composition, no artifacts. G2: exact dims verified; on-image 'Dam Square, Amsterdam', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:04+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public square, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:45:11.030715+00:00",
-  "sha256_16x9": "88a9fd1f04216f7677d312166af01b4a6c083d0d6a7c3cc59c222f2f2728015d",
-  "sha256_4x5": "547a19b0bacd2f7350bc80c9c870b5f2f9ee4e5d2054476c5a96c620bb9edaba"
+  "sha256_16x9": "9cc0b4133a159c22e385b4e2cf7c554f82a4401d91d84af8d71bd5c9756df1ac",
+  "sha256_4x5": "08edd95e473e9e6b001c0160b0973ef31db4e6c8c9414d56768b4851948f1193",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-018-9x16.png",
+  "sha256_9x16": "1737946ab4554c710b82b461461c02d3fe50c882859b2e52a5d071321e471b7a",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 88a9fd1f04216f7677d312166af01b4a6c083d0d6a7c3cc59c222f2f2728015d. Source SHA-256 4:5 547a19b0bacd2f7350bc80c9c870b5f2f9ee4e5d2054476c5a96c620bb9edaba. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

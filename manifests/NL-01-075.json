@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Valkhof Nijmegen — round Romanesque chapel left and ruined abbey church right on the hill above the river with city lights across the Waal; matches the known Valkhof ensemble, clean framing. G2 PASS: exact dims; on-image caption 'Valkhof, Nijmegen', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:35+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public monument. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:09.626410+00:00",
-  "sha256_16x9": "6061e724536fe97c430fd35a078e43f1deebf1ab0db14e6449c421329cb4b29a",
-  "sha256_4x5": "4d63fe2ab81c75b279b7bfb5015e74a3301aac6a079a2eab6b0d57fbc1b6e0ad"
+  "sha256_16x9": "934a42005d913ae221c1a848bfa6d386c2953b862fa13d0269a5235598fb5c28",
+  "sha256_4x5": "995d5cf521a43e8d8ea214808e6cd1945d6272353e5cbb073f4cefd702ec3f6d",
+  "file_9x16": "Netherlands/Nijmegen/nl-01-075-9x16.png",
+  "sha256_9x16": "07d07fc3f4555230d01433d4117cb490da40507ab6e7cc8f0c633585cb0a7509",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6061e724536fe97c430fd35a078e43f1deebf1ab0db14e6449c421329cb4b29a. Source SHA-256 4:5 4d63fe2ab81c75b279b7bfb5015e74a3301aac6a079a2eab6b0d57fbc1b6e0ad. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

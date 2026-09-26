@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Munsterkerk, Roermond. Floodlit late-Romanesque west front: twin towers with lozenge slate spires, central rose window and triple portal, empty cobbled forecourt at night. Scenario '26 September 2026 · 00:38 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T00:38:39+02:00 (retrieved; model-valid hour 00:30), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:40:24.534768+00:00",
-  "sha256_16x9": "f47e6c4b359bc4e829792666782bc4bb7668db3b4a9f9e64e3bb510b2fdb182b",
-  "sha256_4x5": "7a6b6c1ffefd98bf1fbdaccdc74cba3ef854a27e06e3b6a5f8190ac8c7f5d78a"
+  "sha256_16x9": "f0f77bde2448a0d3578a074970011a0e482d3425f4daf7db425925948211fc82",
+  "sha256_4x5": "0d10a9533b993651450715dff071f7584a85e2db90f0c3a39e14400c2b2f0214",
+  "file_9x16": "Netherlands/Roermond/nl-01-096-9x16.png",
+  "sha256_9x16": "c6d0269322424ed916f797d4dece534894c9a65bc90c6564047a28b8615a9efd",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 f47e6c4b359bc4e829792666782bc4bb7668db3b4a9f9e64e3bb510b2fdb182b. Source SHA-256 4:5 7a6b6c1ffefd98bf1fbdaccdc74cba3ef854a27e06e3b6a5f8190ac8c7f5d78a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night marina basin — moored motorboats/yachts, row of modern low white waterfront houses with warm lit windows, lamp posts reflecting on dark water, overcast sky; plausible quay viewpoint, clean framing, no artifacts; 16x9 wide basin view vs 4x5 closer pier view show the same modern night harbour, no defining-feature conflict. Gate 2: exact 1920x1080/864x1080 masters, caption 'Haven, Zeewolde', scenario '26 September 2026 · 03:59 Europe/Amsterdam' inside the model-valid hour of the recorded Open-Meteo retrieval 2026-09-26T03:59:35+02:00 (verified unique to the second across all 288 Netherlands evidence files), exact curly-apostrophe signature and disclosure legible on a gradient scrim, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment with EU AI Act note) present on both masters. Gate 3: evidence card claims text-prompt-only lineage, no photographic inputs reported. Gate 4: two tiny unidentifiable pier silhouettes, no logos, generic public waterfront — documented only, commercial call is Jason's. Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T16:55:53.835044+00:00",
-  "sha256_16x9": "d233a30ee0d37d439aebcfb7bea9b0558c0b84e82ac47b1db61ad673fa1def7c",
-  "sha256_4x5": "28a83f8e4133a49a183dd9f310e60a4918494987c43ca115bb82a72c25d71d04"
+  "sha256_16x9": "4981400306a23657b845d3ae3103625005d95c8878fc6b7228a98d926e2e3626",
+  "sha256_4x5": "33050cb59809a01e9c1bb397753b33cdc9b39fb760aa283eb5d93cd86ec431a8",
+  "file_9x16": "Netherlands/Zeewolde/nl-01-248-9x16.png",
+  "sha256_9x16": "eab82ccf16246ce4a0876532ffbd6b2d68993b237b6610890a328f1a5f466c47",
+  "format_9x16_approval_status": "Candidate"
 }

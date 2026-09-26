@@ -18,5 +18,8 @@
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26, verified by Cosmo's own read of both masters): the two format masters depict different towers - the 16:9 shows a tall white tapered tower with rows of porthole windows, a corbelled arcade band and an OPEN GLASS LANTERN room topped by a dark statue figure, while the 4:5 shows a much shorter squat white cylinder with two portholes and a solid copper dome. The card's own geometry anchor 3 requires 'a copper dome, not a glass lantern' (lantern removed in the ~1950 water-tower conversion), so the 16:9 contradicts the documented site. Builder to re-render the 16:9 to the copper-dome design and re-push; approval awaits corrected masters."
     }
-  ]
+  ],
+  "file_9x16": "Netherlands/Schiermonnikoog/nl-01-263-9x16.png",
+  "sha256_9x16": "be8aaaada65142e90093b5edb294f992d5958b50a29de9858c8eb91fa65eeb34",
+  "format_9x16_approval_status": "Candidate"
 }

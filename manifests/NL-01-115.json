@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Veerdam, Oost-Vlieland: dark Wadden water in the foreground, a plain empty landing, a low shed and a lit row of brick houses, matching the card's geometry anchors; no red lighthouse in frame. On-image caption 'Veerdam, Oost-Vlieland', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature (curly apostrophe) verified legible bottom-left/bottom-right on a gradient scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment carrying the EU AI Act Art. 50 note). Weather: Open-Meteo retrieval 2026-09-26T01:22:23+02:00 — verified unique to the second across all 288 Netherlands weather files via the GitHub API; scenario minute 01:22 inside this scene's own model-valid hour 01:00–01:59. Card claims text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass; card fields complete.",
   "approved_at": "2026-09-26T07:36:29.589020+00:00",
-  "sha256_16x9": "16733cb34c61b8db5dce97355bc0a612189700543216f50f7d51fc5cddb0783f",
-  "sha256_4x5": "95ecf052292530be665d6c2fbb8ead9a6917d329138aaeaebc0e43c981170781"
+  "sha256_16x9": "2c4724a27a907c8002a19a89b0fae05c322b3250bd748ebc8bb8b6a877b2a98c",
+  "sha256_4x5": "2f7ed3a9f9fa49c8c7b872e914640bf8c92f9c8e651bdefc6af6f51aee674f5a",
+  "file_9x16": "Netherlands/Oost-Vlieland/nl-01-115-9x16.png",
+  "sha256_9x16": "252c8b6e8746844a6af59b8626a8ef7a1478cd8216d7c86532e610cf44bdbfe0",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 16733cb34c61b8db5dce97355bc0a612189700543216f50f7d51fc5cddb0783f. Source SHA-256 4:5 95ecf052292530be665d6c2fbb8ead9a6917d329138aaeaebc0e43c981170781. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

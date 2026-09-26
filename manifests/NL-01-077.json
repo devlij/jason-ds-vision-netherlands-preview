@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Muiderslot Muiden — medieval brick castle with four round spired towers on its island in the moat, night lighting, plausible. G2 PASS: exact dims; on-image caption 'Muiderslot, Muiden', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:41+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public museum castle. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:17.802660+00:00",
-  "sha256_16x9": "126c510217f42ced45a42f80a7095b589733003f893d64c816143d11ad13a27f",
-  "sha256_4x5": "9eac8987d9dc5c6af99d58d8c257fe218eb1df0d16e63808cb4fa4f2afe1bc58"
+  "sha256_16x9": "7a6ab39ec90632128db966ddc8947293b4551e415aa85dd6837f70a6c0d911ed",
+  "sha256_4x5": "de89ec7e0f7de5501eff4d102f17ee3b8cee43d695f77885c4173fa6fed96a6d",
+  "file_9x16": "Netherlands/Muiden/nl-01-077-9x16.png",
+  "sha256_9x16": "bba04f3869790df3295494c32e737e74ca1b406215dc314ae0df5408806d19a1",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 126c510217f42ced45a42f80a7095b589733003f893d64c816143d11ad13a27f. Source SHA-256 4:5 9eac8987d9dc5c6af99d58d8c257fe218eb1df0d16e63808cb4fa4f2afe1bc58. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

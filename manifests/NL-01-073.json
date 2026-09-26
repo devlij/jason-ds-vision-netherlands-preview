@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Berkelpoort Zutphen ruin at night — brick twin-arched water gate with two round crenellated towers spanning the river, lamp glow on brickwork, starry sky; matches the known ruin, no misconfiguration. G2 PASS: exact dims; on-image caption 'Berkelpoort, Zutphen', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible (spot-checked on 4x5 text crop); Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:30+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public ruin. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:01.046343+00:00",
-  "sha256_16x9": "fe42dccc231656d18e5e62756647a9953497807668147c56b251e51e1abf6cb3",
-  "sha256_4x5": "6c7094a22c046ff1e2e6da67df04aeab2e33af4344e9b535c555218247f30d42"
+  "sha256_16x9": "96235c9b59a3e862ee651fa93a31f516a38de4acfb9628075bddd6918f972ff0",
+  "sha256_4x5": "c912b20e9a200eaa3c0e7b3a5384463b2929e481dc60bc1a82c4e07aac67e581",
+  "file_9x16": "Netherlands/Zutphen/nl-01-073-9x16.png",
+  "sha256_9x16": "5b5ad1f218150961d9631675f2b75b77913438733317440dde7681ba1fae9b6b",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 fe42dccc231656d18e5e62756647a9953497807668147c56b251e51e1abf6cb3. Source SHA-256 4:5 6c7094a22c046ff1e2e6da67df04aeab2e33af4344e9b535c555218247f30d42. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

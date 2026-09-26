@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: long pale neoclassical waterfront facade with a moored tall ship, masts and rigging to the right, lantern reflections on dark water — recognizably the Scheepvaartmuseum's 's Lands Zeemagazijn with the Amsterdam replica ship; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Scheepvaartmuseum, Amsterdam' + scenario '26 September 2026 · 01:37 Europe/Amsterdam' + disclosure + signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:37:49+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:37:32.283366+00:00",
-  "sha256_16x9": "ff3a859c686aa44ff6388956d07e483b1daabdcf2f1842c39891245d319b368f",
-  "sha256_4x5": "8bb5c7b1789562fba2defb114267fa0e68113ba54c1b9fc2863cd9d9eb982c04"
+  "sha256_16x9": "8c6a6cca36ce842a30ce4ae0c952ac1cbcdfd75eb3717b970ddd45e2da636978",
+  "sha256_4x5": "f1ba7226a8f235e70e57b23bff77a996e30e1e41a0a416aa03094717e4efba3e",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-132-9x16.png",
+  "sha256_9x16": "2df740afed0f1d60e3788406027f96331877a7594457193aa576ae032313dc46",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ff3a859c686aa44ff6388956d07e483b1daabdcf2f1842c39891245d319b368f. Source SHA-256 4:5 8bb5c7b1789562fba2defb114267fa0e68113ba54c1b9fc2863cd9d9eb982c04. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

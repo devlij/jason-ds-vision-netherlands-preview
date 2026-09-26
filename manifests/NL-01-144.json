@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: stacked travertine blocks with a lit glass-box top under a cloudy night sky, plaza lamps in the foreground — recognizably the Forum in Groningen; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Forum, Groningen' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:21+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:40:22.905367+00:00",
-  "sha256_16x9": "1996f315c235e32e0819c95ec69bcd326088a954bab7c838e8c9e36a81084d90",
-  "sha256_4x5": "ae2a15a6206ef2c9471eb9b3c5feff753d74dabd7b340fd97c7d3ea689b67be7"
+  "sha256_16x9": "0305fcde74e003b124c1d2ab3626f3c3e0afbb8735cedaff1750a2eb2e0ce381",
+  "sha256_4x5": "88e77500fe9d4f5f9f20601864d61e9edfea48cec4cd52fbab5b41c81c373249",
+  "file_9x16": "Netherlands/Groningen/nl-01-144-9x16.png",
+  "sha256_9x16": "a3c6094636a669f3d7e80ec710c902c995429dd0ffa91273972e20003a228b15",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 1996f315c235e32e0819c95ec69bcd326088a954bab7c838e8c9e36a81084d90. Source SHA-256 4:5 ae2a15a6206ef2c9471eb9b3c5feff753d74dabd7b340fd97c7d3ea689b67be7. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

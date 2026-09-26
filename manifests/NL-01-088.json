@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Beach, Hoek van Holland. Dark night beach under heavy cloud, long lit breakwater receding to the horizon, distant city lights on the right, lamp reflections on wet sand. Scenario '26 September 2026 · 00:38 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T00:38:18+02:00 (retrieved; model-valid hour 00:30), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:39:38.902521+00:00",
-  "sha256_16x9": "ad0bbae77404e79fbf9c641d5b5b0f8e1d535de5d70003439ad39b7657e4a038",
-  "sha256_4x5": "3c4a82d3dbe12b5e5df1fedc5e542d695259540728882448c23a1a24dd5e68ca"
+  "sha256_16x9": "74983444469a28218ef824d4b25dc254750bfafba5f6aff59bc06a38e1ad603d",
+  "sha256_4x5": "dcd4bfdc951781f5f381689655bb5b60e297b47d240e09cd21aaa298dc347092",
+  "file_9x16": "Netherlands/Hoek van Holland/nl-01-088-9x16.png",
+  "sha256_9x16": "76da830d8c5c16773958244b32b9233ce0940ca9157bfd976848dfa8a4ab09b2",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ad0bbae77404e79fbf9c641d5b5b0f8e1d535de5d70003439ad39b7657e4a038. Source SHA-256 4:5 3c4a82d3dbe12b5e5df1fedc5e542d695259540728882448c23a1a24dd5e68ca. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

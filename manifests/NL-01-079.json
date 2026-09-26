@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Kurhaus The Hague — grand seaside hotel with domed rotunda and colonnade, lit windows against the beach at night, plausible Scheveningen viewpoint. G2 PASS: exact dims; on-image caption 'Kurhaus, The Hague', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:46+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos visible; hotel exterior from public beach. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:26.505866+00:00",
-  "sha256_16x9": "556df224e5b8f37033d9daa10896042d57262d89d6e5c1a72b8694df647e4975",
-  "sha256_4x5": "dc8fa45cf359c4cc2c7b8aa35640c067d3caef7e701daf35514643f16f09d3a6"
+  "sha256_16x9": "7fec1027428862f6a77528f4bd01095af27057a8a04c7be7c2ebf28ba9a2e06b",
+  "sha256_4x5": "f80b93198ba6651337091f3d14b08f89e40a9fb361651487ef5773e19d471bd6",
+  "file_9x16": "Netherlands/The Hague/nl-01-079-9x16.png",
+  "sha256_9x16": "24d3db11844c01a3102b546c3fac4dd3b8136ae9638813ab1ac0ea05cdc15006",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 556df224e5b8f37033d9daa10896042d57262d89d6e5c1a72b8694df647e4975. Source SHA-256 4:5 dc8fa45cf359c4cc2c7b8aa35640c067d3caef7e701daf35514643f16f09d3a6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

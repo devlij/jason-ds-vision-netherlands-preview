@@ -4,12 +4,15 @@
   "region": "Utrecht",
   "city": "Zeist",
   "caption": "Slot Zeist, Zeist",
-  "scenario_label": "26 September 2026 \u00b7 04:36 Europe/Amsterdam",
-  "composition": "Classicist palace across the moat from the stone bridge \u00b7 AI-generated artistic interpretation",
-  "description": "Slot Zeist is the classicist palace finished in 1686. A seven-bay main block under a slate hipped roof is linked by one-storey flat-roofed wings to two-storey side houses around a forecourt. It is overcast, about 11.5\u00b0C, with wind near 6.1 km/h and cloud cover about 100%. The interior is closed. The year on the door is not readable. The medieval castle is gone and is not rebuilt. The Broederplein houses are not this frame.",
+  "scenario_label": "26 September 2026 · 04:36 Europe/Amsterdam",
+  "composition": "Classicist palace across the moat from the stone bridge · AI-generated artistic interpretation",
+  "description": "Slot Zeist is the classicist palace finished in 1686. A seven-bay main block under a slate hipped roof is linked by one-storey flat-roofed wings to two-storey side houses around a forecourt. It is overcast, about 11.5°C, with wind near 6.1 km/h and cloud cover about 100%. The interior is closed. The year on the door is not readable. The medieval castle is gone and is not rebuilt. The Broederplein houses are not this frame.",
   "alt_text": "AI-generated artistic interpretation of Slot Zeist at night",
   "file_16x9": "Netherlands/Zeist/nl-01-276-16x9.png",
   "file_4x5": "Netherlands/Zeist/nl-01-276-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "file_9x16": "Netherlands/Zeist/nl-01-276-9x16.png",
+  "sha256_9x16": "19c6fc509df96519a3323bf7f64cffaecdc1ee593ee9d36c252f5dfeee9b09da",
+  "format_9x16_approval_status": "Candidate"
 }

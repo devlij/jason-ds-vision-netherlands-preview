@@ -4,12 +4,15 @@
   "region": "North Brabant",
   "city": "Woudrichem",
   "caption": "Gevangenpoort, Woudrichem",
-  "scenario_label": "26 September 2026 \u00b7 04:37 Europe/Amsterdam",
-  "composition": "Brick water gate with one remaining corner turret \u00b7 AI-generated artistic interpretation",
-  "description": "The Gevangenpoort at Woudrichem is a rectangular brick water gate with a gabled roof and pointed arches. One corbelled polygonal turret remains on a corner. The matching turret is gone and is not rebuilt. It is overcast, about 12.1\u00b0C, with wind near 7.9 km/h and cloud cover about 100%. No restaurant name is readable. The statue nearby is not the subject. Slot Loevestein is across the river and is not in this frame.",
+  "scenario_label": "26 September 2026 · 04:37 Europe/Amsterdam",
+  "composition": "Brick water gate with one remaining corner turret · AI-generated artistic interpretation",
+  "description": "The Gevangenpoort at Woudrichem is a rectangular brick water gate with a gabled roof and pointed arches. One corbelled polygonal turret remains on a corner. The matching turret is gone and is not rebuilt. It is overcast, about 12.1°C, with wind near 7.9 km/h and cloud cover about 100%. No restaurant name is readable. The statue nearby is not the subject. Slot Loevestein is across the river and is not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the Gevangenpoort in Woudrichem at night",
   "file_16x9": "Netherlands/Woudrichem/nl-01-283-16x9.png",
   "file_4x5": "Netherlands/Woudrichem/nl-01-283-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "file_9x16": "Netherlands/Woudrichem/nl-01-283-9x16.png",
+  "sha256_9x16": "d2fb7408599b1c1ba1a6c10b4c3d45c4d9c676ada97bc9639a1faf54dc80aba6",
+  "format_9x16_approval_status": "Candidate"
 }

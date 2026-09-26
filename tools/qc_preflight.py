@@ -105,14 +105,29 @@ def main() -> None:
             errors.append(f"{path.name} country")
         if "Scenario:" in data.get("scenario_label", ""):
             errors.append(f"{path.name} scenario_label should not repeat the Scenario prefix")
-        for kind, wh in (("file_16x9", (1920, 1080)), ("file_4x5", (864, 1080))):
+        label_bar = bool(data.get("file_9x16"))
+        legacy = {"file_16x9": (1920, 1080), "file_4x5": (864, 1080)}
+        labelled = {
+            "file_16x9": (1920, 1270),
+            "file_4x5": (864, 1270),
+            "file_9x16": (1080, 2110),
+        }
+        photo_h = {"file_16x9": 1080, "file_4x5": 1080, "file_9x16": 1920}
+        kinds = ["file_16x9", "file_4x5"] + (["file_9x16"] if label_bar else [])
+        sizes = labelled if label_bar else legacy
+        for kind in kinds:
             img_path = ROOT / "library" / "world" / data[kind]
             if not img_path.exists():
                 errors.append(f"missing {img_path}")
                 continue
             with Image.open(img_path) as im:
-                if im.size != wh:
+                if im.size != sizes[kind]:
                     errors.append(f"{img_path.name} size {im.size}")
+                elif label_bar:
+                    if im.getpixel((2, im.size[1] - 1))[:3] != (14, 14, 18):
+                        errors.append(f"{img_path.name} label bar is not #0e0e12")
+                    if im.getpixel((2, photo_h[kind]))[:3] != (228, 228, 234):
+                        errors.append(f"{img_path.name} missing 2px hairline")
             chunks = read_text_chunks(img_path)
             expected = {
                 "Title": ("iTXt", TITLE),
@@ -128,14 +143,17 @@ def main() -> None:
         note = (ROOT / "approvals" / f"{data['entry_id']}.md").read_text()
         import hashlib
 
-        for label, rel in (("16:9", data["file_16x9"]), ("4:5", data["file_4x5"])):
+        sha_rows = [("16:9", data["file_16x9"]), ("4:5", data["file_4x5"])]
+        if label_bar:
+            sha_rows.append(("9:16", data["file_9x16"]))
+        for label, rel in sha_rows:
             digest = hashlib.sha256((ROOT / "library" / "world" / rel).read_bytes()).hexdigest()
             if digest not in note:
                 errors.append(f"{data['entry_id']} sha {label} not in approval")
 
     index = (ROOT / "index.html").read_text()
     for needle in (
-        "G-FPVHCRLKD2",
+        "G-PDJ4WSS725",
         'rel="canonical"',
         "getAttribute(\"data-src-45\")",
         "getAttribute(\"data-src-16\")",
@@ -146,7 +164,7 @@ def main() -> None:
         "#AE1C28",
         "#21468B",
         "#e8722a",
-        "jason-ds-vision-spain-preview",
+        "spain.jdvision.org",
         "jason-ds-vision-denmark-preview",
         "jason-ds-vision-norway-preview",
         "jason-ds-vision-switzerland-preview",
@@ -173,6 +191,15 @@ def main() -> None:
             errors.append("index missing an Approved scene")
     if index.count('"file_16x9_day"') != 10:
         errors.append(f"expected 10 daylight masters in the gallery, found {index.count(chr(34)+'file_16x9_day'+chr(34))}")
+    if "View image" in index:
+        errors.append("index still has a View image control over the artwork")
+    if "position: absolute; top: 1.05rem; left: 1.05rem" in index:
+        errors.append("format tabs still overlay the artwork")
+    for path in manifests:
+        data = json.loads(path.read_text())
+        rel = data.get("file_9x16")
+        if rel and rel not in index:
+            errors.append(f"index missing {rel}")
 
     if errors:
         print("QC FAIL")

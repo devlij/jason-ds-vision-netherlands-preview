@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1: night view of St. Martinuskerk Venlo, brick Gothic church with buttresses and glowing stained-glass windows, square tower with copper onion dome, street lamps and trees, no misconfiguration. G2: both masters exact 1920x1080 / 864x1080; on-image caption 'St. Martinuskerk, Venlo', scenario '26 September 2026 · 01:04 Europe/Amsterdam', disclosure and 'Jason D’s Vision' signature legible; Art. 50 metadata on both masters; Open-Meteo retrieval 2026-09-26T01:04:21+02:00 unique across all 288 NL scenes; scenario minute 01:04 inside model hour 01:00. G3: builder note documents text-prompt-only, no photographic input. G4: no people or logos visible; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T06:38:29.686819+00:00",
-  "sha256_16x9": "496ffd95ae4458df9babf0967dac3fc878fc77a5f20338cbced14379c69c727b",
-  "sha256_4x5": "61ddf30d004219d7e9a08b2fd08168d89e678fe0140db0534fbe6504931830db"
+  "sha256_16x9": "c5997e98af5d04f10dca3719b8b15c2eaffe971355a887239ffa1640bd3a8da9",
+  "sha256_4x5": "49f1e6aa5f65a635f950f67aab0493fc0ef6d180b306545d0c36aa9e5d741a41",
+  "file_9x16": "Netherlands/Venlo/nl-01-101-9x16.png",
+  "sha256_9x16": "18b30da647a9b38f849731a3c73593d92a504761aab0db86dd96600c4707d953",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 496ffd95ae4458df9babf0967dac3fc878fc77a5f20338cbced14379c69c727b. Source SHA-256 4:5 61ddf30d004219d7e9a08b2fd08168d89e678fe0140db0534fbe6504931830db. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Naarden fortress at night — grass-covered bastion earthworks and brick revetments reflected in the moat under a starry cloudy sky, plausible aerial-style tourist viewpoint of the star fort. G2 PASS: exact dims; on-image caption 'Vesting, Naarden', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:38+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:13.524332+00:00",
-  "sha256_16x9": "4c880519422b94714abb93d2cd8439ae4e15ab550b86c6b9176c2b5c99c3fb48",
-  "sha256_4x5": "814bd1a8db59da8cbf174c76ab4fee42d1278363335dd0baa2c1aacb4723f19a"
+  "sha256_16x9": "e99729b72885d7b7f9de6242c35495e3ff8ba04410a7caaeac5040312e8ac633",
+  "sha256_4x5": "56d7fe00209a12c110a32c2189bd0a01922565a1b4f020ceb0dbfe6792568cfe",
+  "file_9x16": "Netherlands/Naarden/nl-01-076-9x16.png",
+  "sha256_9x16": "3b834b76287f793262142f739c97f374266d2f7dee989af7655cd384baa6c8f1",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4c880519422b94714abb93d2cd8439ae4e15ab550b86c6b9176c2b5c99c3fb48. Source SHA-256 4:5 814bd1a8db59da8cbf174c76ab4fee42d1278363335dd0baa2c1aacb4723f19a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

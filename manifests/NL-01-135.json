@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: yellow-brick Berlage building flanked by symmetrical reflecting pools with a gravel approach, lamps lit under an overcast night sky — recognizably the Kunstmuseum Den Haag; clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Kunstmuseum, The Hague' + scenario '26 September 2026 · 01:37 Europe/Amsterdam' + disclosure + curly-apostrophe signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:37:57+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:38:22.392419+00:00",
-  "sha256_16x9": "eb1ad131f521189b5e665fcb68a0f7ad24a666bec2d683bec00b0b297df7c581",
-  "sha256_4x5": "67ab0c37cf6fe0848b6d9628ebfcc0f4a3fb788b86f8e4cc184358c0c157d11d"
+  "sha256_16x9": "8b3b24777699b7b1bbc066a7e2e8fba561190fc3e7719a5abe8995198951a9e6",
+  "sha256_4x5": "23cfc63a6f8e95c72ef293c6e5b20a9f3e122910d87e0163546a56db7ca54d46",
+  "file_9x16": "Netherlands/The Hague/nl-01-135-9x16.png",
+  "sha256_9x16": "b89675918a4331e0967f46d8d2cc973c87fcffe9fde7017143a8416160149c07",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 eb1ad131f521189b5e665fcb68a0f7ad24a666bec2d683bec00b0b297df7c581. Source SHA-256 4:5 67ab0c37cf6fe0848b6d9628ebfcc0f4a3fb788b86f8e4cc184358c0c157d11d. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: two tall brick tower mills with wooden gallery stages, dark caps and lattice sails rising over a canal lined with warehouses and warm street lamps, their light streaking on the water — Schiedam's high stellingmolens, not low polder mills or green wooden mills; no readable mill names. Gate 2 PASS: exact 1920x1080/864x1080; on-image 'Windmills, Schiedam', scenario '26 September 2026 · 01:56 Europe/Amsterdam', disclosure and curly-apostrophe 'Jason D's Vision' signature legible both formats; all five Art. 50 metadata fields present; scenario 01:56 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:56:56+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: no people, no logos, no readable names (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
   "approved_at": "2026-09-26T09:45:16.129688+00:00",
-  "sha256_16x9": "a95adbfa0eb55256f7530790219a57e1236129851b7d4d4665a87f6c147a8187",
-  "sha256_4x5": "3c99ec799d0a768f54e028719bcf3980cf88d0f0530e5ab687022678f436c0b0"
+  "sha256_16x9": "bdf90a8dbb5c6891f8f8c3191b5c16ea617e0451f166a23736216703a0494902",
+  "sha256_4x5": "10a8db110da90ce2a34fda0e88f8d747d596615e28106520374d47b226f4976a",
+  "file_9x16": "Netherlands/Schiedam/nl-01-153-9x16.png",
+  "sha256_9x16": "f6a6108eda0397e58af3b8848f408ea45cfc025df8517c58db95c45bf7a0754c",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a95adbfa0eb55256f7530790219a57e1236129851b7d4d4665a87f6c147a8187. Source SHA-256 4:5 3c99ec799d0a768f54e028719bcf3980cf88d0f0530e5ab687022678f436c0b0. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

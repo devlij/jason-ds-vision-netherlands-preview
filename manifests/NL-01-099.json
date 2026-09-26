@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "LocHal, Tilburg. Former railway workshop hall at night: long steel-and-glass facade glowing warm from within, young trees and dark plaza in front. Scenario '26 September 2026 · 01:04 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T01:04:16+02:00 (retrieved; model-valid hour 01:00), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:40:47.219470+00:00",
-  "sha256_16x9": "82b290396e4081adec8bb906d1ce0a779605eff63d5f7db9b6d3d23fb1a85e00",
-  "sha256_4x5": "80d03e7a3d573a694f56d6aedeb218efa33e0d449abdfed0161499942780f50c"
+  "sha256_16x9": "fc5b956bb6c8185bb7f317263e9239f55823ca00245d76292ae871218db2f4ef",
+  "sha256_4x5": "72cde4e92cf0c02717d60a1e13b0ee73c1b7f4345ad9dfdde7c3892b69c948c6",
+  "file_9x16": "Netherlands/Tilburg/nl-01-099-9x16.png",
+  "sha256_9x16": "c45bee79da0d9523c61192ba020bece1ddd756e01af81227e7edaa4e7b9e1b9c",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 82b290396e4081adec8bb906d1ce0a779605eff63d5f7db9b6d3d23fb1a85e00. Source SHA-256 4:5 80d03e7a3d573a694f56d6aedeb218efa33e0d449abdfed0161499942780f50c. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

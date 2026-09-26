@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows Kasteel Rechteren's brick water castle with the tall round donjon, lit entrance lanterns and a stone bridge over the still moat reflecting the lights, night — matches the captioned castle and card anchors; no artifacts. Gate 2: exact dims via git blob API; on-image 'Kasteel Rechteren, Dalfsen', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-26T03:59:21+02:00 in evidence/weather/NL-01-242.json, unique to the second across all 288 Netherlands files, scenario inside the 03:00–03:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T15:45:27.367684+00:00",
-  "sha256_16x9": "0fef9cc5ec2526cbd8e10558232a771a80a956cb9a504f99edbb82267cda2b7a",
-  "sha256_4x5": "69c22ee7181c4a383851e87c23b2376c2d36b11e67151c364d4d28f5a166491e"
+  "sha256_16x9": "ea263a6d12d4fa0dec5b43518d2a935ca302a0c02bef084ce3d66ef670dd0f3c",
+  "sha256_4x5": "d1e49fb2b93115d794136aa66c1dce5dccc7d51207c3ad9e562b773b932fbd63",
+  "file_9x16": "Netherlands/Dalfsen/nl-01-242-9x16.png",
+  "sha256_9x16": "b94cea53ba03188844d204459336885aff589215465f3107a919fc105889f267",
+  "format_9x16_approval_status": "Candidate"
 }

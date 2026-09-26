@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Noordertoren, Schiermonnikoog: the red conical lighthouse with its lantern room lit, standing in dune grass with the sea at frame right under an overcast night sky. On-image caption 'Noordertoren, Schiermonnikoog', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature verified legible on the gradient scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment). Weather: Open-Meteo retrieval 2026-09-26T01:22:25+02:00 — verified unique to the second across all 288 Netherlands scenes via the GitHub API; scenario minute 01:22 inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage per card, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:38:00.456115+00:00",
-  "sha256_16x9": "cc253dbee8e4a397686bd851f4db495ae9489f1508753e51ec304c570df8c88b",
-  "sha256_4x5": "b2abe2cf2f87a64f3a9b2cbe30efd88aa456a3a29341b91bbb9530eebe108074"
+  "sha256_16x9": "995f5ff7b8a979df33c52bf46ed6bac3af5afd7a55f663aa2c153535ebca2117",
+  "sha256_4x5": "c8187309545c1694bdd05f06c95f2d09ec6d3ad39e6d4692155b75d9e6d24ea3",
+  "file_9x16": "Netherlands/Schiermonnikoog/nl-01-116-9x16.png",
+  "sha256_9x16": "aae2c076a5d2eaf8ed64fee6124232d29d588ce1a055bde7aabe454060589b6e",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 cc253dbee8e4a397686bd851f4db495ae9489f1508753e51ec304c570df8c88b. Source SHA-256 4:5 b2abe2cf2f87a64f3a9b2cbe30efd88aa456a3a29341b91bbb9530eebe108074. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

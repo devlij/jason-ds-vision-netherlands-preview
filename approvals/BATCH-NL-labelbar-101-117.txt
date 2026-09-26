@@ -1,0 +1,147 @@
+Netherlands label-bar batch — NL-01-101–109 and NL-01-111–117 — 2026-09-26
+
+NL-01-100 and NL-01-110 were finished in the pilot. See approvals/BATCH-NL-labelbar-pilot.txt.
+This batch does not rewrite them.
+
+Tooling (unchanged from the pilot)
+- tools/composite_masters.py
+- tools/fonts/Allura-Regular.ttf
+- Pre-text pattern: library/pretext/Netherlands/<folder>/<entry>-16x9.png plus honest 4:5 and 9:16 re-frames.
+- Masters: 1920×1270, 864×1270, 1080×2110. Art. 50 on all three. Scenario line copied from the existing weather JSON. Open-Meteo files were not rewritten.
+
+IDs
+NL-01-101, NL-01-102, NL-01-103, NL-01-104, NL-01-105, NL-01-106, NL-01-107, NL-01-108, NL-01-109, NL-01-111, NL-01-112, NL-01-113, NL-01-114, NL-01-115, NL-01-116, NL-01-117.
+Each stays approval_status: Candidate.
+
+Pre-text and masters
+NL-01-101	St. Martinuskerk, Venlo	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Venlo/nl-01-101-16x9.png 1280x720 738580
+  pretext 4x5 library/pretext/Netherlands/Venlo/nl-01-101-4x5.png 864x1152 940049
+  pretext 9x16 library/pretext/Netherlands/Venlo/nl-01-101-9x16.png 720x1280 881758
+  master 16x9 1920x1270 1420209 16b52b0d70d02c17c24273d751fa1c1ba9d9b1f1beb429e05b794dc1981e3151
+  master 4x5 864x1270 904724 117aa986622e6ea7f3770c0fce0bc836005f2e6bd99d75e7f4c95cce536b1b78
+  master 9x16 1080x2110 1704208 c845cbe904c55299f030af3649d719c0d6edb612da171d6579dc45897eed19dd
+NL-01-102	St. Peter's Basilica, Sittard	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Sittard/nl-01-102-16x9.png 1280x720 677673
+  pretext 4x5 library/pretext/Netherlands/Sittard/nl-01-102-4x5.png 864x1152 626650
+  pretext 9x16 library/pretext/Netherlands/Sittard/nl-01-102-9x16.png 720x1280 885364
+  master 16x9 1920x1270 1306897 77a81ab095fa10432e9d4ef403cca05bee82250f92447adfe2116efa52121f72
+  master 4x5 864x1270 620589 7f724e5906f4d18db9abd78b3789812f7c90cd5742ad28ad1913987357ac7c81
+  master 9x16 1080x2110 1753061 ae59b4eb9fb7a98e6d3ed0277581425427211d31d3815a672a2e08dede3e84b0
+NL-01-103	Pancratiuskerk, Heerlen	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Heerlen/nl-01-103-16x9.png 1280x720 1007958
+  pretext 4x5 library/pretext/Netherlands/Heerlen/nl-01-103-4x5.png 864x1152 971537
+  pretext 9x16 library/pretext/Netherlands/Heerlen/nl-01-103-9x16.png 720x1280 1004142
+  master 16x9 1920x1270 1993914 d9061f492d8b37223b02b2bb70226c114384e484877c677f345f34eb3bc06f8f
+  master 4x5 864x1270 955747 698f9e8431116c2922cc17d368d560724111dd515ef829c4d4cf2f9ad317b3ca
+  master 9x16 1080x2110 1963165 ef2a6bbce81c8ef29ea0dd59e8d4417fae94465ddd586068b181600db6da5146
+NL-01-104	Rolduc Abbey, Kerkrade	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Kerkrade/nl-01-104-16x9.png 1280x720 833443
+  pretext 4x5 library/pretext/Netherlands/Kerkrade/nl-01-104-4x5.png 864x1152 907136
+  pretext 9x16 library/pretext/Netherlands/Kerkrade/nl-01-104-9x16.png 720x1280 999510
+  master 16x9 1920x1270 1640564 bb7b500e824f91bde6b1d13e36c5a93d70f8669875ef6e2891186590e4207e0f
+  master 4x5 864x1270 889220 af287456dfbb969f87f1f0a95f8d40db43650f8adb4535cf1ba6c5df6dec7f3d
+  master 9x16 1080x2110 1961266 2baad8ca33d9bf0199f96d72ed2058716f268b3f7ed59b3b6107afe95ac2f1c0
+NL-01-105	Boulevard, Vlissingen	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Vlissingen/nl-01-105-16x9.png 1280x720 695153
+  pretext 4x5 library/pretext/Netherlands/Vlissingen/nl-01-105-4x5.png 864x1152 947776
+  pretext 9x16 library/pretext/Netherlands/Vlissingen/nl-01-105-9x16.png 720x1280 658235
+  master 16x9 1920x1270 1383305 affbc62a6e77fa5aa99a8fff35bed88ed85b2b8c0a74d72e07b69ecb3e764de8
+  master 4x5 864x1270 928860 a6fcfdbd712950616317d97fa2a39e1393ecad35dce937352ee6d13ce3be8a38
+  master 9x16 1080x2110 1319911 78ac11293efe7fc063f353c58d4a125147a39c0b5037bc83cfbd5b22d1478d05
+NL-01-106	Lighthouse, Westkapelle	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Westkapelle/nl-01-106-16x9.png 1280x720 842237
+  pretext 4x5 library/pretext/Netherlands/Westkapelle/nl-01-106-4x5.png 864x1152 939327
+  pretext 9x16 library/pretext/Netherlands/Westkapelle/nl-01-106-9x16.png 720x1280 849517
+  master 16x9 1920x1270 1734806 816f26b0dc89af68f53456baccdaba9cdbce6b349f41ad792b44bf8a76c22de9
+  master 4x5 864x1270 917528 6995b046a2c7d822469f9cf89e35ade868774dcb1b0cfdcb1171ca2866aa520a
+  master 9x16 1080x2110 1717112 6f0aec99b2da6f2f18ba13ababa9fa86663af9bcb1764c8e0847267e06319ef1
+NL-01-107	Oyster harbour, Yerseke	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Yerseke/nl-01-107-16x9.png 1280x720 579881
+  pretext 4x5 library/pretext/Netherlands/Yerseke/nl-01-107-4x5.png 864x1152 758924
+  pretext 9x16 library/pretext/Netherlands/Yerseke/nl-01-107-9x16.png 720x1280 830851
+  master 16x9 1920x1270 1172252 5ad77a3a2001ce131ace570e09fa7e0a1da7aade1a9097afa814da1e80ce0756
+  master 4x5 864x1270 747680 58e9b6a4e235f62570173010390d0c6278327c53677db4f097b45f2648618e0d
+  master 9x16 1080x2110 1684046 25e97990b25e6fa8bc840d3990a879f342e8ed01d917f8c3c8bdbcd886b57445
+NL-01-108	Harbour, Goes	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Goes/nl-01-108-16x9.png 1280x720 997806
+  pretext 4x5 library/pretext/Netherlands/Goes/nl-01-108-4x5.png 864x1152 1037683
+  pretext 9x16 library/pretext/Netherlands/Goes/nl-01-108-9x16.png 720x1280 787181
+  master 16x9 1920x1270 1992322 f03caa4800cd98ec6a970859bb12a0380ef15f14cac09d8c2a898a1078227b83
+  master 4x5 864x1270 1006402 510cfe8f11608dd978eb989e352182519e403949c0fc31c8e75af04d97cdade2
+  master 9x16 1080x2110 1531041 b6d08fd408f501593168be4eac28f07ff4bb71985ab2e772b6e1edae8aa2bac3
+NL-01-109	Lek bridge, Culemborg	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Culemborg/nl-01-109-16x9.png 1280x720 773945
+  pretext 4x5 library/pretext/Netherlands/Culemborg/nl-01-109-4x5.png 864x1152 601383
+  pretext 9x16 library/pretext/Netherlands/Culemborg/nl-01-109-9x16.png 720x1280 931390
+  master 16x9 1920x1270 1530236 97101011a3973e29fa62de6f0b8537f770b7506aedf4a177b4bbeb572a4710c9
+  master 4x5 864x1270 605868 e3812bb7431cb49d529faf21cfa97bd05fa2abccca527d6b7d87f820c8ef6f8c
+  master 9x16 1080x2110 1874655 0ff96ec73c943ab08525a197edebd3d8cc1a41c8f80b544f0b968583940bc4ea
+NL-01-111	Hotel De Wereld, Wageningen	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Wageningen/nl-01-111-16x9.png 1280x720 1094176
+  pretext 4x5 library/pretext/Netherlands/Wageningen/nl-01-111-4x5.png 864x1152 1274937
+  pretext 9x16 library/pretext/Netherlands/Wageningen/nl-01-111-9x16.png 720x1280 1155205
+  master 16x9 1920x1270 2215278 0fd05e0ebe694359fb82d3a2240063882302910d5b64ca9a84228697cf6cad22
+  master 4x5 864x1270 1230544 428e66609386f28def2d68d07d6efb0d141c01fa547e233287f5e142616fbaaa
+  master 9x16 1080x2110 2276363 d08677ba81e0ec48ca4b6a579345078466232adb3634628439f1ffdb79760ea2
+NL-01-112	Radio Kootwijk	26 September 2026 · 01:04 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Radio Kootwijk/nl-01-112-16x9.png 1280x720 515090
+  pretext 4x5 library/pretext/Netherlands/Radio Kootwijk/nl-01-112-4x5.png 864x1152 758117
+  pretext 9x16 library/pretext/Netherlands/Radio Kootwijk/nl-01-112-9x16.png 720x1280 630548
+  master 16x9 1920x1270 1004252 c35a6aedc816d14d1e9dfbc3ce9fd84118d7c24d73a507e2c3441f7fd78a544d
+  master 4x5 864x1270 744355 fb2d1440083bf38f91f07aaa40782c92c207431331652ec40093571f171524dd
+  master 9x16 1080x2110 1266903 da0f74587413587997edac00a586a37b582f41dc5782bb1bd09ce6bb22100b5e
+NL-01-113	Waddenhaven, Nes	26 September 2026 · 01:22 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Nes/nl-01-113-16x9.png 1280x720 755822
+  pretext 4x5 library/pretext/Netherlands/Nes/nl-01-113-4x5.png 864x1152 753148
+  pretext 9x16 library/pretext/Netherlands/Nes/nl-01-113-9x16.png 720x1280 745088
+  master 16x9 1920x1270 1511549 12173f745e87c250234bd77abc0c1428d5b34eac73361e0b3f4d6e01dd3b758f
+  master 4x5 864x1270 745790 ef21d169969b9f0bd81831e96329bb3d3e1528e79922812d360e293acb07b7eb
+  master 9x16 1080x2110 1476637 dbcf4803cc2f4285762fa5d7caca8d0d9ff5d36ccb654e7809833c97edb78552
+NL-01-114	Brandaris, West-Terschelling	26 September 2026 · 01:22 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/West-Terschelling/nl-01-114-16x9.png 1280x720 593991
+  pretext 4x5 library/pretext/Netherlands/West-Terschelling/nl-01-114-4x5.png 864x1152 678786
+  pretext 9x16 library/pretext/Netherlands/West-Terschelling/nl-01-114-9x16.png 720x1280 875939
+  master 16x9 1920x1270 1198859 f75ae8bf7e529b7b7f00856019a0883342e3b468ac9d967e3a0d9e000f236208
+  master 4x5 864x1270 668712 044ae019ad3a7f184112984ee2ddb7ebe0a2ee68a08874df103afe3c96ab477d
+  master 9x16 1080x2110 1752334 31d79cac777dbefe4779072f747ae6d3a9b63b3991f3d6574c534794ac1e7f19
+NL-01-115	Veerdam, Oost-Vlieland	26 September 2026 · 01:22 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Oost-Vlieland/nl-01-115-16x9.png 1280x720 706446
+  pretext 4x5 library/pretext/Netherlands/Oost-Vlieland/nl-01-115-4x5.png 864x1152 640786
+  pretext 9x16 library/pretext/Netherlands/Oost-Vlieland/nl-01-115-9x16.png 720x1280 673481
+  master 16x9 1920x1270 1488649 c1b6b435cd08df8ab2b83a17537202cb0d69977afad2120e364cd73e4b290503
+  master 4x5 864x1270 626924 39bfadac946d5af6d26b0b3874065886a55cf30d2e7a9bceffcf4d7050debff8
+  master 9x16 1080x2110 1381531 88274f7f63d0a8979d932bcbffb59e6a48befb68076d4952e450762fc61c0dc3
+NL-01-116	Noordertoren, Schiermonnikoog	26 September 2026 · 01:22 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Schiermonnikoog/nl-01-116-16x9.png 1280x720 582154
+  pretext 4x5 library/pretext/Netherlands/Schiermonnikoog/nl-01-116-4x5.png 864x1152 905551
+  pretext 9x16 library/pretext/Netherlands/Schiermonnikoog/nl-01-116-9x16.png 720x1280 682099
+  master 16x9 1920x1270 1178815 4bc3ca191387ac1ba47bb9178ecbb1dad73b674f4162b3e3f4b639b1e2e81bc8
+  master 4x5 864x1270 880850 cb466e8400c13271430ddcf4cc3f2284ad8ac2846cfbec3ea777a24e711ee522
+  master 9x16 1080x2110 1382401 b71a237e118fae1d3299d9bab1742eaae46301a5fe41daf47f2f9400949e8573
+NL-01-117	Harbour, Den Oever	26 September 2026 · 01:22 Europe/Amsterdam
+  pretext 16x9 library/pretext/Netherlands/Den Oever/nl-01-117-16x9.png 1280x720 818480
+  pretext 4x5 library/pretext/Netherlands/Den Oever/nl-01-117-4x5.png 864x1152 837864
+  pretext 9x16 library/pretext/Netherlands/Den Oever/nl-01-117-9x16.png 720x1280 464405
+  master 16x9 1920x1270 1701365 2eb37343a78d83b4f1bb562b44ea75a68343d08feadda1459e6eec235f6619e2
+  master 4x5 864x1270 823636 6258c906478059dfd6a3a007f3ffa30feed97c0eaa427ff641a7f7a7e96310b5
+  master 9x16 1080x2110 905744 b6029759c9c9a12606cd255c67914417a499658e84052e7943148a1cf3469614
+
+Art. 50
+Confirmed on all 48 new masters by the bake check and by tools/qc_preflight.py (QC PASS, 224 scenes, 224 unique retrievals).
+Title (iTXt) and Copyright (iTXt) use a straight apostrophe and an em dash. Description, Software, and Comment are tEXt. The on-image brand line uses U+2019.
+
+Gallery
+These 16 cards now have file_9x16, so the page shows 16:9 / 4:5 / 9:16 tabs and three downloads under the image.
+NL-01-100 and NL-01-110 stay on the pilot masters.
+Other scenes stay on the old two-format masters.
+Daylight toggles remain on NL-01-001–010 only (10 file_16x9_day entries). No daylight variants were built.
+
+Cosmo untouched
+- NL-01-001–010 night and daylight masters, manifests, and approvals were not rewritten.
+- NL-01-026–055 manifests and masters were not rewritten.
+
+Not in this batch
+No other country. No NL-01-289+ expand. No daylight variants.
+
+Next recommended 16 non-Cosmo Candidates: NL-01-118 through NL-01-133.

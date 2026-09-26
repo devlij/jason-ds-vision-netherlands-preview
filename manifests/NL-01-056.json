@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 visual pass: night view of the leaning unfinished brick Oldehove from the Oldehoofsterkerkhof plaza — blunt flat top, no spire, floodlit warm brick against a deep-blue sky, streetlamps and gabled houses on the left, clean framing with no artifacts. G2: 1920x1080 + 864x1080 exact; 'Jason D's Vision' signature bottom-right, caption 'Oldehove, Leeuwarden', scenario '26 September 2026 · 00:00 Europe/Amsterdam' and AI disclosure legible bottom-left; Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment) present on both masters; Open-Meteo retrieval 2026-09-26T00:00:56+02:00 is unique repo-wide (verified 288 unique timestamps of 288 scenes via the GitHub API, zero duplicates), and the scenario minute sits inside the cited model-valid hour 00:00. G3: evidence card documents text-prompt-only lineage — no photographic reference supplied to the generator. G4: no visible people or focal logos; license badge 'Free · no credit needed' (documented only, Jason holds the commercial-use call). G5: manifest and card fields complete.",
   "approved_at": "2026-09-26T03:41:56.282545+00:00",
-  "sha256_16x9": "6c3c054a41c3ec3ceed5b63ef3c3440abefa6a48d034cb2b8a13090a3dff58a2",
-  "sha256_4x5": "74f82057bca3265b53e116e281c319bd79c26c9aac39c5765d95c0050086895c"
+  "sha256_16x9": "c088ef66c86f3ead62a25876c65dea0b1cd6a41b6d02ea9400d1127c31fb6190",
+  "sha256_4x5": "75090b559b4b5e34217f4bb23a4071dece4fd008d34262fcaf53d4ddab74801c",
+  "file_9x16": "Netherlands/Leeuwarden/nl-01-056-9x16.png",
+  "sha256_9x16": "5b3ec9fb4e7ec86a5f71e1348c13fc95919a4dbee90272d703fc3484c7c60946",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6c3c054a41c3ec3ceed5b63ef3c3440abefa6a48d034cb2b8a13090a3dff58a2. Source SHA-256 4:5 74f82057bca3265b53e116e281c319bd79c26c9aac39c5765d95c0050086895c. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

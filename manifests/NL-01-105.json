@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1: night view along Boulevard de Ruyter, Vlissingen: the round brick tower with pointed cap on the dike, lamp-lit promenade, distant ship lights on the wide Westerschelde; clean framing. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Boulevard, Vlissingen', scenario '26 September 2026 · 01:04 Europe/Amsterdam', disclosure and signature legible; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:04:32+02:00 unique across all 288 NL scenes; scenario minute inside model hour 01:00. G3: builder note documents text-prompt-only, no photographic input. G4: no people or logos visible; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T06:38:59.143024+00:00",
-  "sha256_16x9": "5e5408f173041790500d85ec75d0f433a5c78021c35b8f6d2c1d946d6e4ee2b7",
-  "sha256_4x5": "b385700cc29f857aab7469115bc438919c5065f979e78c8884e55a9527fbb459"
+  "sha256_16x9": "5db78e244545efc54837315aae6eca6aea00d1e0db8fc82633edfd1bb38b8384",
+  "sha256_4x5": "c90776586a9d98e53018712f9853bfe6c91f6c9c8bb58ea43d37ab8174c87053",
+  "file_9x16": "Netherlands/Vlissingen/nl-01-105-9x16.png",
+  "sha256_9x16": "f2faff31476cdaf2a02931900d29763f8fd3fdba3353bc32a576c5028469f651",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5e5408f173041790500d85ec75d0f433a5c78021c35b8f6d2c1d946d6e4ee2b7. Source SHA-256 4:5 b385700cc29f857aab7469115bc438919c5065f979e78c8884e55a9527fbb459. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

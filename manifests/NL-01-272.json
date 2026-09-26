@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night scene of the Hampoort at Grave from the land side on Sint Elisabethstraat: brick gatehouse with triangular pediment, oculus in the gable, rusticated arch banding, cobbles and rampart grass in the foreground, single lit streetlamp against broken cloud. Gate 1 visual PASS — matches the card's documented anchors (brick gatehouse with pediment, cobbles/rampart grass foreground). Gate 2 technical PASS — masters 1920x1080 + 864x1080, exact curly-apostrophe 'Jason D's Vision' signature bottom-right, exact caption 'Hampoort, Grave' + 'Scenario: 26 September 2026 · 04:19 Europe/Amsterdam' + 'AI-generated artistic interpretation · Not a photograph.' bottom-left on gradient scrim, Art. 50 PNG metadata (Title/Description/Copyright/Software + EU AI Act Art. 50 Comment); Open-Meteo retrieval 2026-09-26T04:19:00+02:00 unique to the second repo-wide (288/288 unique), scenario minute 04:19 inside the 04:00–04:59 model hour. Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people, logos, or private property; license badge 'Free · no credit needed' (documented only, not a certified clearance). Gate 5: card fields complete.",
   "approved_at": "2026-09-26T18:40:42.519074+00:00",
-  "sha256_16x9": "13b734dbcc60512d6de21aaf6a1f271de03621ac1c634ba51c2e166f54aedcd3",
-  "sha256_4x5": "9a131b11af92fd2d1d840b0a31c131697fb21df6964e8eb4d4c2cfe7090349eb"
+  "sha256_16x9": "ff5c2c53e386e67a07f5e0a3674d3a3e2c676ac4c01bb645b3d5f0363b997bba",
+  "sha256_4x5": "891020a320243d0fbed8fca5f178d7178c8deba19455f60f57c812f64fc7c4c5",
+  "file_9x16": "Netherlands/Grave/nl-01-272-9x16.png",
+  "sha256_9x16": "3883846972f33ba3ee3df1af3f400db92d54c2ab1e915d800a3390ff9102a762",
+  "format_9x16_approval_status": "Candidate"
 }

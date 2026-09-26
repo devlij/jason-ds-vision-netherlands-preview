@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: low unfinished Gothic west wall of the Domkerk on cobbles with pale lines marking the missing nave (lost in the 1674 storm), tower deliberately out of frame per the west-side camera claim — verified against the builder's geometry anchors; recognizably Domplein, no glaring misconfiguration, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Domplein, Utrecht' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:11+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:39:24.486557+00:00",
-  "sha256_16x9": "548e52b4633230488cecf0f3841d9f95dc9c6bc5c76ae4b5bdee0db9a8aa4048",
-  "sha256_4x5": "472a8062c7600c29de75e1f596919eccab2398fbc71202be1828dc9480376353"
+  "sha256_16x9": "02dd1173a1f415933bac93fe009720c3297a7a372c3c3273d22c381b3b30c69b",
+  "sha256_4x5": "e2571c9ba33e4a8ba84ac85610e931e81a80e00e05d92dfbd2c8470adde17c0a",
+  "file_9x16": "Netherlands/Utrecht/nl-01-140-9x16.png",
+  "sha256_9x16": "bba1f060721f2b66fe51a45d20ef1e21114c48c8fabb09dc8f3adc5d09627a25",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 548e52b4633230488cecf0f3841d9f95dc9c6bc5c76ae4b5bdee0db9a8aa4048. Source SHA-256 4:5 472a8062c7600c29de75e1f596919eccab2398fbc71202be1828dc9480376353. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

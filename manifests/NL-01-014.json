@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Golden hour",
   "approval_basis": "G1 PASS: Vrijthof with the twin Romanesque towers of Sint-Servaasbasiliek left and the red Gothic Sint-Jan tower right, cafe terraces along the square's edge, warm low light; plausible tourist framing, no artifacts. G2: exact dims verified; on-image 'Vrijthof, Maastricht', scenario '25 September 2026 · 18:28 Europe/Amsterdam', signature + disclosure legible on scrim; Art.50 metadata present. Scenario 18:28 inside model hour 18:00; Open-Meteo retrieval 2026-09-25T18:28:04+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public square, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:44:52.976565+00:00",
-  "sha256_16x9": "28ee3916754e1838c6e8dc07115504dc69ba48f496dd0ac301b8fef7c764ffa9",
-  "sha256_4x5": "1c53558cd8e85108d62c4a35dd54852bf1c311651fd8484b03e27604a8bb2102"
+  "sha256_16x9": "882c41a81d21f68c4476ff1736588779541ac7e00b2c5f725a3af34cdb3b375f",
+  "sha256_4x5": "9f1612374a49fe00e6f30d6008ab8869d1a11a60f9f26b26e18cfe4c73bb04f6",
+  "file_9x16": "Netherlands/Maastricht/nl-01-014-9x16.png",
+  "sha256_9x16": "a51129154c2e25615491dbc006acb5f891f5b29d0b587bd10b45fe195262cf1a",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 28ee3916754e1838c6e8dc07115504dc69ba48f496dd0ac301b8fef7c764ffa9. Source SHA-256 4:5 1c53558cd8e85108d62c4a35dd54852bf1c311651fd8484b03e27604a8bb2102. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

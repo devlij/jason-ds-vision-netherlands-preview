@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Drommedaris, Enkhuizen: the fortified sea gate — round brick tower with spire and belfry, stone arch bridge over the harbour, domed roundel on the far side, water foreground and warm lantern light. On-image caption 'Drommedaris, Enkhuizen', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:33+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:38:22.113145+00:00",
-  "sha256_16x9": "906e91108a8ea81de853ac10b0570ef695811b8d51d779c3b7ee6364a45f2b7c",
-  "sha256_4x5": "0e76d86be9e8e0e56ea7075ffa498d215c19baf2655799b9ede5eff353456d39"
+  "sha256_16x9": "42613b99cf0bee2cb2388b43b33f5b2477cec2c18613674d497e2233d471fd88",
+  "sha256_4x5": "d43bdc47cb03a75d71320435ec198c491327b537602007d8c340e7ad21421094",
+  "file_9x16": "Netherlands/Enkhuizen/nl-01-119-9x16.png",
+  "sha256_9x16": "8a0962a6bca308de677954f94e1dd340de77134a3796de8717638e6e435b0e73",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 906e91108a8ea81de853ac10b0570ef695811b8d51d779c3b7ee6364a45f2b7c. Source SHA-256 4:5 0e76d86be9e8e0e56ea7075ffa498d215c19baf2655799b9ede5eff353456d39. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

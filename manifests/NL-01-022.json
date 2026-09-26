@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Volendam harbour at night — row of traditional dark-green gabled houses on the dike with warm lit windows, fishing boats moored along the quay, reflections on dark water; plausible, no artifacts. G2: exact dims verified; on-image 'Harbour, Volendam', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:15+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public harbour, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:46:16.528298+00:00",
-  "sha256_16x9": "2f6ed6d99946962b53cefac79706fd2b674978ecd84d441b19572c78a036d999",
-  "sha256_4x5": "beecd70e828ddd6121412ae44a2a05d67373f5d6561c70562fafd1eadd3d2b13"
+  "sha256_16x9": "6dd5bcb45e462d21949e9ac27e7d4f0afa7df8010a879bfe8fb81268a657bbd1",
+  "sha256_4x5": "f61e7102b8bbbda976904d0a5f377fdd95ef3ec52475d8cdfdaaf41a386cf1ca",
+  "file_9x16": "Netherlands/Volendam/nl-01-022-9x16.png",
+  "sha256_9x16": "9de9e4c0c40ae43d3f77de5ef764278e129b0515a22fa7f915c19474ab489d59",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2f6ed6d99946962b53cefac79706fd2b674978ecd84d441b19572c78a036d999. Source SHA-256 4:5 beecd70e828ddd6121412ae44a2a05d67373f5d6561c70562fafd1eadd3d2b13. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

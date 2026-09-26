@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Koloniehuisjes Frederiksoord at night from the public road — row of brick workers' cottages with steep tiled roofs receding along the road, a few warmly lit windows, mature trees and hedges, dark cloud sky; recognizable colony-house streetscape, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Koloniehuisjes, Frederiksoord', scenario '26 September 2026 · 02:36 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:36 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:36:52+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
   "approved_at": "2026-09-26T11:53:19.181936+00:00",
-  "sha256_16x9": "db1461835142d9442f8f29c2450ebf332011d5b1f9460c4334a159b8e7fa6727",
-  "sha256_4x5": "8008c87f605ecb1a546108a3ebc170f84dad72bfa54146485d17edb1beec2b33"
+  "sha256_16x9": "7ebc05716b281ec6729971566f74d4c96e3136bf6d24fca1bbba044b3040e499",
+  "sha256_4x5": "3ee2a67920edf519b6ad27f0548c40ddea21a5cfebc671821ce0feba9334dec7",
+  "file_9x16": "Netherlands/Frederiksoord/nl-01-180-9x16.png",
+  "sha256_9x16": "5dbe0553c64d0cf665ee5d3ad5009d09d7e2d260c2c64b6757c2d9631209f7c1",
+  "format_9x16_approval_status": "Candidate"
 }

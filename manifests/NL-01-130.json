@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: night view across dark IJ water at the long iron-and-glass train-shed roof, ferry pontoons and lit quay lamps in the foreground; clean framing, no artifacts. Gate 2 PASS: masters exact 1920x1080/864x1080, caption 'Centraal Station, Amsterdam' + scenario '26 September 2026 · 01:37 Europe/Amsterdam' + AI disclosure + curly-apostrophe signature legible on-image; Art.50 PNG metadata with EU AI Act note present; Open-Meteo retrieval 2026-09-26T01:37:44+02:00 verified unique to the second across all 288 NL scenes, scenario minute inside the model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs (recorded as claim). Gate 4: no visible people or logos; license badge documented only, commercial call is Jason's. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:37:03.385809+00:00",
-  "sha256_16x9": "171957de6eb94d92a5d25e19eeaefa08aedbf3ccfc59c3b84e2054ad88f686f4",
-  "sha256_4x5": "2db975e14f22ec189a885c2145ab6205494b08db86d538133cd804c30857e7c7"
+  "sha256_16x9": "a70b3c671abda043033405286472abe2ec4e3f97435060b119b780bbc41cb8ff",
+  "sha256_4x5": "836f863debde90f8d030a6e2d7041e95962765e682e9afc2ae43765e839c7aec",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-130-9x16.png",
+  "sha256_9x16": "92a584d6b9b356c722b355bef74ab0c754f680ac6d8fe8d0a040e4a279b82029",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 171957de6eb94d92a5d25e19eeaefa08aedbf3ccfc59c3b84e2054ad88f686f4. Source SHA-256 4:5 2db975e14f22ec189a885c2145ab6205494b08db86d538133cd804c30857e7c7. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

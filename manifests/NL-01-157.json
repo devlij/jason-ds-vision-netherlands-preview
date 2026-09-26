@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Gothic brick Eusebiuskerk tower with octagonal crown and low tent roof, church body extending right with tall traceried windows glowing warm from within; two empty glass elevator pods suspended on cables alongside the tower render cleanly with correct cable geometry — the card anchors this as a genuine feature, not an anomaly; bright near-full moon in a clear starry sky, lit hedges and lamps on the square below. Gate 2 PASS: exact 1920x1080/864x1080; on-image 'Eusebiuskerk, Arnhem', scenario '26 September 2026 · 01:58 Europe/Amsterdam', disclosure and curly-apostrophe 'Jason D's Vision' signature legible; Art. 50 metadata complete on both masters; scenario 01:58 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:58:43+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: no people, no logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
   "approved_at": "2026-09-26T09:45:34.318198+00:00",
-  "sha256_16x9": "5dd49c10fefd792bc61bbf11334dcfbd3c20e5f044f29fc36036114baa8456a2",
-  "sha256_4x5": "36b8b712621659f585def19c7ea3e31400be8c4a6fc156290a42f046964c93c0"
+  "sha256_16x9": "3316f854c0493a1e7704a81699e2f8bf396a709a73bf27307c3ed72124abee1d",
+  "sha256_4x5": "142e9d3aa6881b850c1f7b67884a25208c10c9727d7d547fb69de8a9f88e2765",
+  "file_9x16": "Netherlands/Arnhem/nl-01-157-9x16.png",
+  "sha256_9x16": "452f1e45234d0df08e1700aa63e8419f8336b81cfd314792ef33bda2b3f15a2e",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5dd49c10fefd792bc61bbf11334dcfbd3c20e5f044f29fc36036114baa8456a2. Source SHA-256 4:5 36b8b712621659f585def19c7ea3e31400be8c4a6fc156290a42f046964c93c0. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

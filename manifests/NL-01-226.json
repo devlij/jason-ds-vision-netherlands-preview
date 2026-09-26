@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Sandy Marker Wadden islet with marram dunes, wooden shelter, ring of rock breakwater and boardwalk pontoons on the calm Markermeer under flat overcast; caption 'Marker Wadden, Lelystad' and scenario '26 September 2026 · 03:37 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:37 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:37:38+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
   "approved_at": "2026-09-26T14:42:57.735906+00:00",
-  "sha256_16x9": "883b0d80fbfd10e555b0623a72e69417127992b3489830fb446988b660f57802",
-  "sha256_4x5": "5508056140f9190471d4916243fdbe53ed0027347de526f08bc9f3390c62df82"
+  "sha256_16x9": "7a4658f2b71893eba7637e5e97f57c752e59f1f4b479d3643c729ca74148d1e8",
+  "sha256_4x5": "a0dab7f2c859212a020085694a047261badc9db6ebcf1e6371fb7e015c3fc353",
+  "file_9x16": "Netherlands/Lelystad/nl-01-226-9x16.png",
+  "sha256_9x16": "8eda8b7c44c4540568af79378c4830a675f1b007bbf93dfe7339d58956aac49b",
+  "format_9x16_approval_status": "Candidate"
 }

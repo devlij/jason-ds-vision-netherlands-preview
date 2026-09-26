@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Museum Nagele at night from the path on De Brink — low modern white cubic church-form building with sparse lit windows, flat-roof houses and school wings edging the grass at frame edges, tree belt dark against dramatic cloud sky; plausible tourist viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Museum Nagele, Nagele', scenario '26 September 2026 · 02:36 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present on both masters; scenario minute 02:36 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:36:44+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
   "approved_at": "2026-09-26T11:52:31.810603+00:00",
-  "sha256_16x9": "ac2fca54c1d3559cc4b0c3095f8f030a456514dbf834db37a4f728661703bbea",
-  "sha256_4x5": "219b0cb601ffdc7f1dcbb07dece413830259b1b839a263213681febb2292d115"
+  "sha256_16x9": "e9b30f52982ad33b94c28a57f48bcbbf57973056257d3a3a0a1e44a73bbbf860",
+  "sha256_4x5": "39c77788fd0cf7ced71a40df6fdd89dec19fc89a4ea0577ebcde259a47c80de1",
+  "file_9x16": "Netherlands/Nagele/nl-01-177-9x16.png",
+  "sha256_9x16": "77e40f2fea2fb0331143cec0030e321f96c697260502d0f03fb9d9093e8a2962",
+  "format_9x16_approval_status": "Candidate"
 }

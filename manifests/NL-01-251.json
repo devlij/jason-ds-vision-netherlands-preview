@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: brick Gothic church with the correct bulbous onion spire ('Siepel') on the square tower — not a needle — single-aisle nave, churchyard green with large trees, warm lamps under overcast dusk sky; matches the card anchors; 16x9 side view vs 4x5 tower-front view agree on the spire and brick Gothic fabric. Gate 2: exact 1920x1080/864x1080 masters, caption 'Sint-Nicolaaskerk, Dwingeloo', scenario '26 September 2026 · 03:59 Europe/Amsterdam' inside the model-valid hour of the recorded Open-Meteo retrieval 2026-09-26T03:59:43+02:00 (verified unique to the second across all 288 Netherlands evidence files), exact curly-apostrophe signature and disclosure legible, Art. 50 PNG metadata present on both masters. Gate 3: evidence card claims text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, no logos; church building — documented only. Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T16:56:34.296264+00:00",
-  "sha256_16x9": "45169c6fd94e90678bc0d69651488d1fa345f858942099a6d10fec9b316d2b7a",
-  "sha256_4x5": "bfc87575618e33be0263aa28116bf83618b0534c2dcba9d16b7aeb662bf05818"
+  "sha256_16x9": "5e5a1ee5aa327c7c97595fe8e82ceaf1f93600c490fd92b0e490af70f34490b1",
+  "sha256_4x5": "dc03af8bc102389b5f4101e1c0a5af3a4092a42d97e5df8b5af91d33e421f85a",
+  "file_9x16": "Netherlands/Dwingeloo/nl-01-251-9x16.png",
+  "sha256_9x16": "d1c75b2e7273f794c82b46ebd1735f5e9de8a53a97fcd98d8f9985160f230fb4",
+  "format_9x16_approval_status": "Candidate"
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Marken harbour at night — row of lit wooden houses on stilts along the jetty, small boats moored in the foreground, warm window reflections; clean, no artifacts. G2: exact dims verified; on-image 'Harbour, Marken', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:18+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public harbour, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:46:20.381739+00:00",
-  "sha256_16x9": "05af0faaadd647e94594c3dbf8563456773eca1bcbe5645cb91151fd7cc179cf",
-  "sha256_4x5": "e5d823fd5a497f88c43966667364d520b81023fb51dbc8ccad405632d422dd3b"
+  "sha256_16x9": "40372edfc2ea0fdc4bdcedf4947ff1835f13592b976fcbdfb9f32598b68700f7",
+  "sha256_4x5": "355b7ddbb7374a2028ecb788351f48c6c38ac8239483feb3de7fc04f7aa69270",
+  "file_9x16": "Netherlands/Marken/nl-01-023-9x16.png",
+  "sha256_9x16": "aca226461ef80136fae6d50c825a48868c61657b85bafb2a4ac917a0da506ea2",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 05af0faaadd647e94594c3dbf8563456773eca1bcbe5645cb91151fd7cc179cf. Source SHA-256 4:5 e5d823fd5a497f88c43966667364d520b81023fb51dbc8ccad405632d422dd3b. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

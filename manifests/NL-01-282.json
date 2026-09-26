@@ -4,12 +4,15 @@
   "region": "Gelderland",
   "city": "Zutphen",
   "caption": "Drogenapstoren, Zutphen",
-  "scenario_label": "26 September 2026 \u00b7 04:37 Europe/Amsterdam",
-  "composition": "Square brick tower, octagonal lantern, and nineteenth-century spire \u00b7 AI-generated artistic interpretation",
-  "description": "The Drogenapstoren at Zutphen is the former Saltpoort, a square brick tower of 1444-1446 with octagonal corner turrets and a tall octagonal lantern. The high spire with dormers is the nineteenth-century crown, so the tower is shown complete. The old passage was bricked up, and no street is seen through it. It is partly cloudy, about 9.9\u00b0C, with wind near 7.9 km/h and cloud cover about 57%. The Berkelpoort is a different gate and is not this tower.",
+  "scenario_label": "26 September 2026 · 04:37 Europe/Amsterdam",
+  "composition": "Square brick tower, octagonal lantern, and nineteenth-century spire · AI-generated artistic interpretation",
+  "description": "The Drogenapstoren at Zutphen is the former Saltpoort, a square brick tower of 1444-1446 with octagonal corner turrets and a tall octagonal lantern. The high spire with dormers is the nineteenth-century crown, so the tower is shown complete. The old passage was bricked up, and no street is seen through it. It is partly cloudy, about 9.9°C, with wind near 7.9 km/h and cloud cover about 57%. The Berkelpoort is a different gate and is not this tower.",
   "alt_text": "AI-generated artistic interpretation of the Drogenapstoren in Zutphen at night",
   "file_16x9": "Netherlands/Zutphen/nl-01-282-16x9.png",
   "file_4x5": "Netherlands/Zutphen/nl-01-282-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "file_9x16": "Netherlands/Zutphen/nl-01-282-9x16.png",
+  "sha256_9x16": "6c96bfb5120988fb77e6ee917c8f9f72a79d889da46fca856c13d295aac33849",
+  "format_9x16_approval_status": "Candidate"
 }
