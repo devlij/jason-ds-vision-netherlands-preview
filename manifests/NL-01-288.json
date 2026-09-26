@@ -14,5 +14,11 @@
   "license_anchor": "#license",
   "file_9x16": "Netherlands/Diever/nl-01-288-9x16.png",
   "sha256_9x16": "90f7a75d07afdbec369a904423292bc71893d9808add7142f7bc60d6711382a2",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: the church from the brink - light tuff lower tower, brick upper stage, north stair turret with its own spire clinging to the tower's left, swept slate spire transitioning square-to-octagon with open belfry, three-aisle tile-roofed body wrapping the tower, autumn trees and village green foreground - matching the card's independent description in every listed anchor; 16:9 and 4:5 agree on the defining features. Gate 2: label bar exact - 'Sint-Pancratiuskerk, Diever', 'Scenario: 26 September 2026 · 04:38 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T04:38:08+02:00, unique to the second repo-wide, scenario minute 04:38 inside model-valid hour 04:00-04:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos, Free no-credit badge - documented only. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T21:43:53.999821+00:00",
+  "sha256_16x9": "5833db31e21f4f9cb1324f72dd37baad783003f6aa6d0ef965e63b2fda1031f7",
+  "sha256_4x5": "e1c2ef6a0f3cc3c4b85ba2705f7edb610459ca6f50cb45313eb44989601cbaf1"
 }
