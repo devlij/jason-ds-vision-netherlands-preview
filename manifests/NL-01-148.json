@@ -4,12 +4,18 @@
   "region": "Flevoland",
   "city": "Emmeloord",
   "caption": "Poldertoren, Emmeloord",
-  "scenario_label": "26 September 2026 \u00b7 01:56 Europe/Amsterdam",
-  "composition": "Octagonal brick tower in the middle of De Deel \u00b7 AI-generated artistic interpretation",
-  "description": "The Poldertoren stands in the open square of De Deel, an octagonal brown-brick tower with an open lantern and a low tent roof. The sky is fully overcast, about 14.0\u00b0C, with wind near 2.9 km/h and no rain. Square lamps light the paving. The renovation that reopened the tower in April 2026 left the exterior clear, so no scaffold is shown.",
+  "scenario_label": "26 September 2026 · 01:56 Europe/Amsterdam",
+  "composition": "Octagonal brick tower in the middle of De Deel · AI-generated artistic interpretation",
+  "description": "The Poldertoren stands in the open square of De Deel, an octagonal brown-brick tower with an open lantern and a low tent roof. The sky is fully overcast, about 14.0°C, with wind near 2.9 km/h and no rain. Square lamps light the paving. The renovation that reopened the tower in April 2026 left the exterior clear, so no scaffold is shown.",
   "alt_text": "AI-generated artistic interpretation of the octagonal Poldertoren in Emmeloord under an overcast night sky",
   "file_16x9": "Netherlands/Emmeloord/nl-01-148-16x9.png",
   "file_4x5": "Netherlands/Emmeloord/nl-01-148-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: octagonal brown-brick Poldertoren with clock faces on multiple sides, open illuminated belfry/lantern, low tent roof, golden ship weathervane, standing on the wide wet-paved square of De Deel under an overcast night sky; one visible clock face reads ~01:55–01:57, consistent with the scenario; no scaffold. Gate 2 PASS: exact 1920x1080/864x1080, on-image 'Poldertoren, Emmeloord', scenario '26 September 2026 · 01:56 Europe/Amsterdam', disclosure and curly-apostrophe 'Jason D's Vision' signature legible on scrim; Art. 50 metadata present on both masters; scenario minute 01:56 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:56:44+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: no people, no focal logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-26T09:44:53.920635+00:00",
+  "sha256_16x9": "78629b64112e5fa5be0220ac7650a875b020193898667bed66c1f9efc2996fd4",
+  "sha256_4x5": "fd0289bce3c232c17e589d398c6d396f7ce326e89f504c7286553a571c030879"
 }
