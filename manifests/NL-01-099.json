@@ -4,12 +4,18 @@
   "region": "North Brabant",
   "city": "Tilburg",
   "caption": "LocHal, Tilburg",
-  "scenario_label": "26 September 2026 \u00b7 01:04 Europe/Amsterdam",
-  "composition": "Glass and black-steel locomotive hall in the Spoorzone \u00b7 AI-generated artistic interpretation",
-  "description": "The LocHal stands in Tilburg's Spoorzone as a long former locomotive shed, its black-steel glass wall showing the old industrial frame inside. Warm interior light shows through the glass. The sky is clear, about 14.7\u00b0C, with wind near 8.6 km/h. No name is written on the glass.",
+  "scenario_label": "26 September 2026 · 01:04 Europe/Amsterdam",
+  "composition": "Glass and black-steel locomotive hall in the Spoorzone · AI-generated artistic interpretation",
+  "description": "The LocHal stands in Tilburg's Spoorzone as a long former locomotive shed, its black-steel glass wall showing the old industrial frame inside. Warm interior light shows through the glass. The sky is clear, about 14.7°C, with wind near 8.6 km/h. No name is written on the glass.",
   "alt_text": "AI-generated artistic interpretation of the LocHal locomotive hall in Tilburg on a clear night",
   "file_16x9": "Netherlands/Tilburg/nl-01-099-16x9.png",
   "file_4x5": "Netherlands/Tilburg/nl-01-099-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "LocHal, Tilburg. Former railway workshop hall at night: long steel-and-glass facade glowing warm from within, young trees and dark plaza in front. Scenario '26 September 2026 · 01:04 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T01:04:16+02:00 (retrieved; model-valid hour 01:00), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
+  "approved_at": "2026-09-26T05:40:47.219470+00:00",
+  "sha256_16x9": "82b290396e4081adec8bb906d1ce0a779605eff63d5f7db9b6d3d23fb1a85e00",
+  "sha256_4x5": "80d03e7a3d573a694f56d6aedeb218efa33e0d449abdfed0161499942780f50c"
 }
