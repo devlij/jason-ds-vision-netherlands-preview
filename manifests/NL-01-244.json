@@ -4,12 +4,18 @@
   "region": "Utrecht",
   "city": "Oud-Zuilen",
   "caption": "Slot Zuylen, Oud-Zuilen",
-  "scenario_label": "26 September 2026 \u00b7 03:59 Europe/Amsterdam",
-  "composition": "U-shaped brick manor and gatehouse across the moat \u00b7 AI-generated artistic interpretation",
-  "description": "Slot Zuylen is a U-shaped brick house with a slate roof and octagonal corner turrets, seen across the moat, with a small gatehouse in the water. The museum is closed. It is overcast, about 14.3\u00b0C, with wind near 8.3 km/h and cloud cover about 100%. The date on the front is not readable. The Dom Tower is another building and is not in this frame.",
+  "scenario_label": "26 September 2026 · 03:59 Europe/Amsterdam",
+  "composition": "U-shaped brick manor and gatehouse across the moat · AI-generated artistic interpretation",
+  "description": "Slot Zuylen is a U-shaped brick house with a slate roof and octagonal corner turrets, seen across the moat, with a small gatehouse in the water. The museum is closed. It is overcast, about 14.3°C, with wind near 8.3 km/h and cloud cover about 100%. The date on the front is not readable. The Dom Tower is another building and is not in this frame.",
   "alt_text": "AI-generated artistic interpretation of Slot Zuylen at Oud-Zuilen at night",
   "file_16x9": "Netherlands/Oud-Zuilen/nl-01-244-16x9.png",
   "file_4x5": "Netherlands/Oud-Zuilen/nl-01-244-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows Slot Zuylen's moated brick castle with four corner towers and gatehouse over dark still water, two windows lit, night — matches the captioned slot and card anchors from a plausible moat-side viewpoint; no artifacts. Gate 2: exact dims via git blob API; on-image 'Slot Zuylen, Oud-Zuilen', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-26T03:59:26+02:00 in evidence/weather/NL-01-244.json, unique to the second across all 288 Netherlands files, scenario inside the 03:00–03:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T15:45:41.637141+00:00",
+  "sha256_16x9": "2560c386a5e57e6bc0f717c24153a4ab39e340e32599f559c0170dc3fbeb0804",
+  "sha256_4x5": "36611bfa6aa26b3aaa28bcc0f1156b9ab2506869d6135f6bb9d64e6ec37ec8bf"
 }
