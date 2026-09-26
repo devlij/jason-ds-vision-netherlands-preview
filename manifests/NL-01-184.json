@@ -4,12 +4,18 @@
   "region": "Overijssel",
   "city": "Oldenzaal",
   "caption": "Plechelmusbasiliek, Oldenzaal",
-  "scenario_label": "26 September 2026 \u00b7 02:37 Europe/Amsterdam",
-  "composition": "Single Bentheim sandstone west tower on the church square \u00b7 AI-generated artistic interpretation",
-  "description": "The Plechelmusbasiliek shows one heavy west tower of Bentheim sandstone, with the Romanesque nave and the later Gothic choir beside it. It is a single tower, not a pair. The church is closed. The sky is clear, about 11.6\u00b0C, with wind near 7.9 km/h and cloud cover about 0%. A bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full.",
+  "scenario_label": "26 September 2026 · 02:37 Europe/Amsterdam",
+  "composition": "Single Bentheim sandstone west tower on the church square · AI-generated artistic interpretation",
+  "description": "The Plechelmusbasiliek shows one heavy west tower of Bentheim sandstone, with the Romanesque nave and the later Gothic choir beside it. It is a single tower, not a pair. The church is closed. The sky is clear, about 11.6°C, with wind near 7.9 km/h and cloud cover about 0%. A bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full.",
   "alt_text": "AI-generated artistic interpretation of the Plechelmusbasiliek in Oldenzaal at night, a single sandstone tower under a clear sky",
   "file_16x9": "Netherlands/Oldenzaal/nl-01-184-16x9.png",
   "file_4x5": "Netherlands/Oldenzaal/nl-01-184-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: Plechelmusbasiliek Oldenzaal at night from the square before the west tower — romanesque basilica with massive floodlit stone tower, moon bright in a starry deep-blue sky, empty lamplit square foreground; recognizable basilica composition, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Plechelmusbasiliek, Oldenzaal', scenario '26 September 2026 · 02:37 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:37 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:37:03+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
+  "approved_at": "2026-09-26T11:54:35.812664+00:00",
+  "sha256_16x9": "dc81204d45724a6d87d4d58f1e0fff770068ecabcb97bcf8032bc91e94c45302",
+  "sha256_4x5": "2d395b6c5c805cb13d9a1f0d20d0805d96d6abae41b468167d04b4aecd67555c"
 }
