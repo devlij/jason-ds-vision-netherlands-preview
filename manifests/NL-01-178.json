@@ -4,12 +4,18 @@
   "region": "Flevoland",
   "city": "Almere",
   "caption": "Stadhuis, Almere",
-  "scenario_label": "26 September 2026 \u00b7 02:36 Europe/Amsterdam",
-  "composition": "Round council chamber between two five-storey wings on Stadhuisplein \u00b7 AI-generated artistic interpretation",
-  "description": "From Stadhuisplein the Almere city hall shows the round glass-and-steel council chamber over the entrance, set between two five-storey concrete and marble wings. The later curved glass wing stands on the far side and is not the front in this frame. The offices are closed. It is partly cloudy, about 14.4\u00b0C, with wind near 4.0 km/h and cloud cover about 67%. No wordmark is shown.",
+  "scenario_label": "26 September 2026 · 02:36 Europe/Amsterdam",
+  "composition": "Round council chamber between two five-storey wings on Stadhuisplein · AI-generated artistic interpretation",
+  "description": "From Stadhuisplein the Almere city hall shows the round glass-and-steel council chamber over the entrance, set between two five-storey concrete and marble wings. The later curved glass wing stands on the far side and is not the front in this frame. The offices are closed. It is partly cloudy, about 14.4°C, with wind near 4.0 km/h and cloud cover about 67%. No wordmark is shown.",
   "alt_text": "AI-generated artistic interpretation of Almere city hall at night, a round council chamber between two office wings",
   "file_16x9": "Netherlands/Almere/nl-01-178-16x9.png",
   "file_4x5": "Netherlands/Almere/nl-01-178-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: Stadhuis Almere at night from Stadhuisplein — modern city hall with round glass-and-steel council chamber over the entrance, two five-storey concrete/marble wings at a right angle, lamplit empty square, moody cloud sky; no lettering on facade, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Stadhuis, Almere', scenario '26 September 2026 · 02:36 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:36 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:36:46+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
+  "approved_at": "2026-09-26T11:52:48.370806+00:00",
+  "sha256_16x9": "b234c1f7feddb7b62a200aa26e0837b0110ffa30a42aa0535c3c51ce30e07107",
+  "sha256_4x5": "7a3ae5eb9dcb7f8686fe29be4b268e29972524d09f7453d0bdcf48673f2f15ae"
 }
