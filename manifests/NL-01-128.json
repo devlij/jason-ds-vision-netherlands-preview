@@ -4,12 +4,18 @@
   "region": "Utrecht",
   "city": "Vianen",
   "caption": "Grote Kerk, Vianen",
-  "scenario_label": "26 September 2026 \u00b7 01:22 Europe/Amsterdam",
-  "composition": "Voorstraat leading to a Gothic church with a blunt tower \u00b7 AI-generated artistic interpretation",
-  "description": "The Grote Kerk in Vianen closes the Voorstraat: a late Gothic church of brick and pale stone, with a square tower and a short blunt spire. The street of historic houses is empty. The sky is clear, about 13.0\u00b0C, with wind near 7.6 km/h, and a bright moon is up. The Lek quay and the Lekpoort are not in this frame. The church is closed at this hour.",
+  "scenario_label": "26 September 2026 · 01:22 Europe/Amsterdam",
+  "composition": "Voorstraat leading to a Gothic church with a blunt tower · AI-generated artistic interpretation",
+  "description": "The Grote Kerk in Vianen closes the Voorstraat: a late Gothic church of brick and pale stone, with a square tower and a short blunt spire. The street of historic houses is empty. The sky is clear, about 13.0°C, with wind near 7.6 km/h, and a bright moon is up. The Lek quay and the Lekpoort are not in this frame. The church is closed at this hour.",
   "alt_text": "AI-generated artistic interpretation of the Grote Kerk from the Voorstraat in Vianen under a clear night sky",
   "file_16x9": "Netherlands/Vianen/nl-01-128-16x9.png",
   "file_4x5": "Netherlands/Vianen/nl-01-128-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Grote Kerk, Vianen: the Gothic church tower closing the vista of a lamplit brick street, full moon and stars above the slate roofs, warm windows on both sides. On-image caption 'Grote Kerk, Vianen', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:55+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
+  "approved_at": "2026-09-26T07:39:27.470841+00:00",
+  "sha256_16x9": "adf8b7692b4100f6bacc00834100bb20d0e75e7598d37fd9d1676fdde424e688",
+  "sha256_4x5": "274036cc42a6e4ab17922df6ace4d3a3bedcac2338ca047021749b428123f1ad"
 }
