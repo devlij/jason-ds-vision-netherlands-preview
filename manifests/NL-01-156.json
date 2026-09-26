@@ -4,12 +4,18 @@
   "region": "North Holland",
   "city": "Haarlem",
   "caption": "De Adriaan, Haarlem",
-  "scenario_label": "26 September 2026 \u00b7 01:58 Europe/Amsterdam",
-  "composition": "Dark smock mill on a brick base at the Spaarne bend \u00b7 AI-generated artistic interpretation",
-  "description": "De Adriaan stands on the bend of the Spaarne, a dark wooden smock mill with a gallery, set on a tall brick base, with lattice sails over the water. The sky is mainly clear, about 15.7\u00b0C, with wind near 9.0 km/h and cloud cover about 49%. The museum is closed at this hour. Teylers and the Grote Markt are outside the frame.",
+  "scenario_label": "26 September 2026 · 01:58 Europe/Amsterdam",
+  "composition": "Dark smock mill on a brick base at the Spaarne bend · AI-generated artistic interpretation",
+  "description": "De Adriaan stands on the bend of the Spaarne, a dark wooden smock mill with a gallery, set on a tall brick base, with lattice sails over the water. The sky is mainly clear, about 15.7°C, with wind near 9.0 km/h and cloud cover about 49%. The museum is closed at this hour. Teylers and the Grote Markt are outside the frame.",
   "alt_text": "AI-generated artistic interpretation of windmill De Adriaan on the Spaarne in Haarlem under a mainly clear night sky",
   "file_16x9": "Netherlands/Haarlem/nl-01-156-16x9.png",
   "file_4x5": "Netherlands/Haarlem/nl-01-156-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: dark smock windmill with gallery stage and lattice sails rising from a tall brick base on a riverbank bend, foreground water carrying long lamp and moon reflections; bright moon breaking through scattered cloud (consistent with the 49% cover claim), row of warm lamps along the far bank, dark tree silhouettes — recognizably De Adriaan, no museum lettering. Gate 2 PASS: exact 1920x1080/864x1080; on-image 'De Adriaan, Haarlem', scenario '26 September 2026 · 01:58 Europe/Amsterdam', disclosure and curly-apostrophe 'Jason D's Vision' signature legible on scrim; Art. 50 metadata complete on both masters; scenario 01:58 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:58:41+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: no people, no logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-26T09:45:29.907233+00:00",
+  "sha256_16x9": "1239b8b858807f93a0d91f07b90a25a55524e363f7d3e7e72f2241ab7fde36fe",
+  "sha256_4x5": "4c8bfeef19b50e104d49c7e057b50b372dc6d307f6533ea6943e703f2fe3a280"
 }
