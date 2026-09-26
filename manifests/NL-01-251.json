@@ -4,12 +4,18 @@
   "region": "Drenthe",
   "city": "Dwingeloo",
   "caption": "Sint-Nicolaaskerk, Dwingeloo",
-  "scenario_label": "26 September 2026 \u00b7 03:59 Europe/Amsterdam",
-  "composition": "Brick village church with an onion spire on the brink \u00b7 AI-generated artistic interpretation",
-  "description": "The Sint-Nicolaaskerk stands on the brink at Dwingeloo. The brick tower carries the onion spire called the Siepel, not a needle, beside a single-aisle Gothic nave. The church is closed. It is overcast, about 8.6\u00b0C, with wind near 4.0 km/h and cloud cover about 100%. The heath and the telescope are other scenes and are not in this frame.",
+  "scenario_label": "26 September 2026 · 03:59 Europe/Amsterdam",
+  "composition": "Brick village church with an onion spire on the brink · AI-generated artistic interpretation",
+  "description": "The Sint-Nicolaaskerk stands on the brink at Dwingeloo. The brick tower carries the onion spire called the Siepel, not a needle, beside a single-aisle Gothic nave. The church is closed. It is overcast, about 8.6°C, with wind near 4.0 km/h and cloud cover about 100%. The heath and the telescope are other scenes and are not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the Sint-Nicolaaskerk in Dwingeloo at night",
   "file_16x9": "Netherlands/Dwingeloo/nl-01-251-16x9.png",
   "file_4x5": "Netherlands/Dwingeloo/nl-01-251-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: brick Gothic church with the correct bulbous onion spire ('Siepel') on the square tower — not a needle — single-aisle nave, churchyard green with large trees, warm lamps under overcast dusk sky; matches the card anchors; 16x9 side view vs 4x5 tower-front view agree on the spire and brick Gothic fabric. Gate 2: exact 1920x1080/864x1080 masters, caption 'Sint-Nicolaaskerk, Dwingeloo', scenario '26 September 2026 · 03:59 Europe/Amsterdam' inside the model-valid hour of the recorded Open-Meteo retrieval 2026-09-26T03:59:43+02:00 (verified unique to the second across all 288 Netherlands evidence files), exact curly-apostrophe signature and disclosure legible, Art. 50 PNG metadata present on both masters. Gate 3: evidence card claims text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, no logos; church building — documented only. Gate 5: card fields complete, no open blockers.",
+  "approved_at": "2026-09-26T16:56:34.296264+00:00",
+  "sha256_16x9": "45169c6fd94e90678bc0d69651488d1fa345f858942099a6d10fec9b316d2b7a",
+  "sha256_4x5": "bfc87575618e33be0263aa28116bf83618b0534c2dcba9d16b7aeb662bf05818"
 }
