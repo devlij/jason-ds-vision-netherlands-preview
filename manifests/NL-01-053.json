@@ -4,12 +4,18 @@
   "region": "Flevoland",
   "city": "Lelystad",
   "caption": "Bataviawerf, Lelystad",
-  "scenario_label": "26 September 2026 \u00b7 00:00 Europe/Amsterdam",
-  "composition": "Shipyard harbour at night, the Batavia berth empty \u00b7 AI-generated artistic interpretation",
-  "description": "The Bataviawerf harbour at Museum Batavialand shows the museum sheds and the quay lamps over a calm basin. The wooden Batavia replica is not in this picture: it left Lelystad on 19 September 2026 for a dry dock in Amsterdam and is scheduled to return on a pontoon on 1 October. The sky is mainly clear, about 14.8\u00b0C, with wind near 9.0 km/h and no rain. Sunset was 19:27.",
+  "scenario_label": "26 September 2026 · 00:00 Europe/Amsterdam",
+  "composition": "Shipyard harbour at night, the Batavia berth empty · AI-generated artistic interpretation",
+  "description": "The Bataviawerf harbour at Museum Batavialand shows the museum sheds and the quay lamps over a calm basin. The wooden Batavia replica is not in this picture: it left Lelystad on 19 September 2026 for a dry dock in Amsterdam and is scheduled to return on a pontoon on 1 October. The sky is mainly clear, about 14.8°C, with wind near 9.0 km/h and no rain. Sunset was 19:27.",
   "alt_text": "AI-generated artistic interpretation of the Bataviawerf harbour in Lelystad at night, with the ship berth empty",
   "file_16x9": "Netherlands/Lelystad/nl-01-053-16x9.png",
   "file_4x5": "Netherlands/Lelystad/nl-01-053-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "The Bataviawerf harbour at night: the museum sheds and quay lamps along the calm basin, the mooring berth empty where the replica usually lies. The absence is honest current state: SWZ Maritime (2026-09-21) independently confirms the Batavia replica was towed to Damen Shiprepair Amsterdam on 19 September 2026 and is scheduled back in Lelystad on 1 October, so the empty water is correct for the scenario date. Gate 1: plausible quay viewpoint, verified against an independent source, not just the builder's note; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Bataviawerf, Lelystad', scenario '26 September 2026 · 00:00 Europe/Amsterdam' inside model-valid hour 00:00-00:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-26T00:00:48+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
+  "approved_at": "2026-09-26T02:43:10.761390+00:00",
+  "sha256_16x9": "451913a1940b1f22dfeef7c1d6c8b6e5e3f71af410a2808e67a31d76254eb486",
+  "sha256_4x5": "b4b2f38ab3c46e731db53f3ace9929aa3a6d50cff415b3e70980a372177d4fb1"
 }
