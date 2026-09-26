@@ -4,12 +4,18 @@
   "region": "Zeeland",
   "city": "Hulst",
   "caption": "Basilica, Hulst",
-  "scenario_label": "26 September 2026 \u00b7 01:58 Europe/Amsterdam",
-  "composition": "Crossing tower with the 1957 concrete crown \u00b7 AI-generated artistic interpretation",
-  "description": "The Sint-Willibrordusbasiliek stands in the fortified centre of Hulst, Brabant Gothic brick with the tower rising from the crossing. The crown is the angular concrete spire of 1957, with a plain cross, not a medieval needle. The sky is clear, about 15.1\u00b0C, with wind near 7.6 km/h, and a bright moon is up. The church is closed.",
+  "scenario_label": "26 September 2026 · 01:58 Europe/Amsterdam",
+  "composition": "Crossing tower with the 1957 concrete crown · AI-generated artistic interpretation",
+  "description": "The Sint-Willibrordusbasiliek stands in the fortified centre of Hulst, Brabant Gothic brick with the tower rising from the crossing. The crown is the angular concrete spire of 1957, with a plain cross, not a medieval needle. The sky is clear, about 15.1°C, with wind near 7.6 km/h, and a bright moon is up. The church is closed.",
   "alt_text": "AI-generated artistic interpretation of the Hulst basilica at night, Gothic brick and a modern concrete spire under a clear sky",
   "file_16x9": "Netherlands/Hulst/nl-01-158-16x9.png",
   "file_4x5": "Netherlands/Hulst/nl-01-158-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: brick Gothic basilica with the tower rising from the crossing, capped by the angular concrete crown spire of 1957 with a plain cross — rendered as a faceted pyramidal spire rather than a medieval needle, matching the real Hulst building; row of pointed-arched windows along the nave, arched west portal, cobblestone square with lit lampposts, moon in a clear night sky. Gate 2 PASS: exact 1920x1080/864x1080; on-image 'Basilica, Hulst', scenario '26 September 2026 · 01:58 Europe/Amsterdam', disclosure and curly-apostrophe 'Jason D's Vision' signature legible on scrim; Art. 50 metadata complete on both masters; scenario 01:58 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:58:46+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: no people, no logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-26T09:45:38.468166+00:00",
+  "sha256_16x9": "d8e1439cebbb420f5e6e1edba475ed04bdf967b6780314ad40c0ad54790dc186",
+  "sha256_4x5": "15205316fdbbede4c420e3006430fad674d6be96fd27bca0693eb8c3c89b379d"
 }
