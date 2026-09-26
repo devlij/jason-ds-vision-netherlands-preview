@@ -4,12 +4,18 @@
   "region": "Groningen",
   "city": "Groningen",
   "caption": "Martinitoren, Groningen",
-  "scenario_label": "26 September 2026 \u00b7 00:01 Europe/Amsterdam",
-  "composition": "Gothic brick tower and church from the Grote Markt \u00b7 AI-generated artistic interpretation",
-  "description": "From the Grote Markt the Martinitoren rises as a tall Gothic brick tower with corner turrets, an open stone lantern, and a spire, beside the lower roof of the Martinikerk. The square is empty at midnight, with no market stalls. The sky is partly cloudy, about 12.9\u00b0C, with wind near 8.3 km/h. Sunset was 19:22.",
+  "scenario_label": "26 September 2026 · 00:01 Europe/Amsterdam",
+  "composition": "Gothic brick tower and church from the Grote Markt · AI-generated artistic interpretation",
+  "description": "From the Grote Markt the Martinitoren rises as a tall Gothic brick tower with corner turrets, an open stone lantern, and a spire, beside the lower roof of the Martinikerk. The square is empty at midnight, with no market stalls. The sky is partly cloudy, about 12.9°C, with wind near 8.3 km/h. Sunset was 19:22.",
   "alt_text": "AI-generated artistic interpretation of the Martinitoren from the Grote Markt in Groningen on a partly cloudy night",
   "file_16x9": "Netherlands/Groningen/nl-01-060-16x9.png",
   "file_4x5": "Netherlands/Groningen/nl-01-060-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual pass: night view of Groningen's Martinitoren — the tall floodlit tower and adjoining church on the empty Grote Markt, surrounding gabled façades with lit windows, dramatic clouds above. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Martinitoren, Groningen', scenario '26 September 2026 · 00:01 Europe/Amsterdam' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:01:07+02:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
+  "approved_at": "2026-09-26T03:42:13.858618+00:00",
+  "sha256_16x9": "6e976b85db93456dddde2a98ea8d4dd5af307a9aaf9f816951dcd55ef4b25a7d",
+  "sha256_4x5": "f62163b6cb730d220cc61640ad0797beafbac9c45d3dcec92b4ae2285a0f2c49"
 }
