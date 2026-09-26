@@ -4,12 +4,18 @@
   "region": "Flevoland",
   "city": "Lelystad",
   "caption": "Houtribsluizen, Lelystad",
-  "scenario_label": "26 September 2026 \u00b7 04:18 Europe/Amsterdam",
-  "composition": "Concrete lift towers and twin lock chambers at the dike \u00b7 AI-generated artistic interpretation",
-  "description": "The Houtribsluizen are the 1975 lock complex at Lelystad, two ship locks and a discharge sluice of six openings between seven concrete lift towers. The viewpoint is the public dike. It is overcast, about 14.6\u00b0C, with wind near 4.7 km/h and cloud cover about 100%. No ship name is shown. It is not a windmill. The Blocq van Kuffeler pumping station is another scene and is not in this frame.",
+  "scenario_label": "26 September 2026 · 04:18 Europe/Amsterdam",
+  "composition": "Concrete lift towers and twin lock chambers at the dike · AI-generated artistic interpretation",
+  "description": "The Houtribsluizen are the 1975 lock complex at Lelystad, two ship locks and a discharge sluice of six openings between seven concrete lift towers. The viewpoint is the public dike. It is overcast, about 14.6°C, with wind near 4.7 km/h and cloud cover about 100%. No ship name is shown. It is not a windmill. The Blocq van Kuffeler pumping station is another scene and is not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the Houtribsluizen at Lelystad at night",
   "file_16x9": "Netherlands/Lelystad/nl-01-266-16x9.png",
   "file_4x5": "Netherlands/Lelystad/nl-01-266-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: night scene of the Houtribsluizen lock complex at Lelystad - a row of nine tall concrete lift towers over the dark discharge openings with work lights on, lock chambers and steel gate arms at both ends, viewed across dark water under an overcast sky; the 4:5 shows the same tower row from an oblique angle, consistent subject identity. Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Houtribsluizen, Lelystad', scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI-disclosure and 'Jason D's Vision' signature all legible; Open-Meteo retrieval timestamp 2026-09-26T04:18:45+02:00 verified UNIQUE to the second across all 288 NL evidence files, scenario minute inside the model-valid hour 04:00-04:59; Art.50 PNG metadata (Title/Description/Copyright/Software/Comment with EU AI Act Art.50 note) present on both masters. Gate 3 PASS: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos; license badge 'Free · no credit needed' - documented only, final commercial call is Jason's. Gate 5 PASS: card fields complete.",
+  "approved_at": "2026-09-26T17:46:28.429359+00:00",
+  "sha256_16x9": "46c8216b339f43d4ea8dab39b7028e4062264e01978558b33319e23ac7d7b500",
+  "sha256_4x5": "9020f5e38d9875c947adb1aa0a5453138e51fd1d4484dac7a19a1299888c2cdd"
 }
