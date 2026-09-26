@@ -4,12 +4,18 @@
   "region": "North Holland",
   "city": "Medemblik",
   "caption": "Radboud Castle, Medemblik",
-  "scenario_label": "26 September 2026 \u00b7 01:22 Europe/Amsterdam",
-  "composition": "L-shaped brick wing, one round tower, and a moat \u00b7 AI-generated artistic interpretation",
-  "description": "Kasteel Radboud at Medemblik is an incomplete water castle: an L-shaped brick wing, one round tower with a conical roof, and a low stump where another tower once stood, all inside a moat. The sky is overcast, about 13.4\u00b0C, with wind near 4.7 km/h. It is not a square of four equal towers. The museum is closed, and the view is the exterior from the public moat.",
+  "scenario_label": "26 September 2026 · 01:22 Europe/Amsterdam",
+  "composition": "L-shaped brick wing, one round tower, and a moat · AI-generated artistic interpretation",
+  "description": "Kasteel Radboud at Medemblik is an incomplete water castle: an L-shaped brick wing, one round tower with a conical roof, and a low stump where another tower once stood, all inside a moat. The sky is overcast, about 13.4°C, with wind near 4.7 km/h. It is not a square of four equal towers. The museum is closed, and the view is the exterior from the public moat.",
   "alt_text": "AI-generated artistic interpretation of Radboud Castle in Medemblik across its moat on an overcast night",
   "file_16x9": "Netherlands/Medemblik/nl-01-120-16x9.png",
   "file_4x5": "Netherlands/Medemblik/nl-01-120-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Radboud Castle, Medemblik: the moated medieval brick castle — long crenellated block with corner round tower, lit windows reflected in the still moat, under heavy night cloud. On-image caption 'Radboud Castle, Medemblik', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:35+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
+  "approved_at": "2026-09-26T07:38:29.260704+00:00",
+  "sha256_16x9": "49181f0f76d23e0e8ad10b6afb8ff10fa2e6d1547984ffc6dc53c05df093e214",
+  "sha256_4x5": "16f213e80fc90f2ab0ce1276ee09a09ee2b659c3760c34022da93485d69f0c5c"
 }
