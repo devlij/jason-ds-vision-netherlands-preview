@@ -1,6 +1,6 @@
 # Netherlands sequence log
 
-NL-01-001 through NL-01-160. IDs are not reused.
+NL-01-001 through NL-01-176. IDs are not reused.
 NL-01-017 through NL-01-032: no swaps. The suggested North Holland and South Holland anchors were not already used.
 NL-01-033 through NL-01-048 swaps:
 - NL-01-033: suggested Dom Tower, Utrecht was already NL-01-010. Corrected to Oudegracht, Utrecht.
@@ -86,6 +86,24 @@ NL-01-145 through NL-01-160 swaps:
 - NL-01-158: the other Zeeland scenes are on Walcheren, Schouwen, and Zuid-Beveland. This is the Hulst basilica in Zeeuws-Vlaanderen. The crown is the 1957 concrete spire, not a medieval needle.
 - NL-01-159: Vrijthof remains NL-01-014, Saint Servatius remains NL-01-049, and Helpoort remains NL-01-143. The bridge has seven limestone arches and a steel lift span at the Wyck end. The old gatehouses are gone. The basilica is behind the camera.
 - NL-01-160: the other North Brabant churches and towers are different scenes. This is the neoclassical basilica, dome and columned facade, seen from the market. The interior is closed.
+- The other suggested sites in this batch were not already used.
+NL-01-161 through NL-01-176 swaps:
+- NL-01-161: the Westerkerk vista remains inside Prinsengracht, Amsterdam (NL-01-002). This is the Waterpoort in Sneek, two octagonal towers and the gatehouse over the water, not a land gate.
+- NL-01-162: the pumping-station interior is closed. The frame is the brick halls and the separate chimney from the dike. It is not a windmill.
+- NL-01-163: the museum is closed. The view is the rectangular baroque house across the moat, not a keep. Late September night: no rose tunnel and no spring bulbs.
+- NL-01-164: Martinitoren remains NL-01-060 and Forum remains NL-01-144. This is the canal pavilions from the station side. No exhibition art and no lettering.
+- NL-01-165: Giethoorn remains NL-01-006. Orvelte has no canal as the subject. The central brink was reshaped in the 1960s and some farms were moved here. The scene shows the village as it stands, thatched hall-farms, late September leaf, no snow.
+- NL-01-166: Twickel estate walks close at sunset, so that castle was not used. This is the Grote Kerk on the public Oude Markt. The spire is the 1926–28 stone spire, not the octagonal lantern added after the 1862 fire. The church windows are the wide round arches from that repair.
+- NL-01-167: Huis Doorn is closed at this hour, so the house was not used. This is the Cuneratoren from the church square. The Dom Tower remains NL-01-010. The present brick tower and spire follow the later restorations. A lost crown is not rebuilt.
+- NL-01-168: Breda Castle remains NL-01-039. This is the Grote Kerk. The crown is the 1702 slate spire with an open lantern, not the Gothic needle lost in 1694.
+- NL-01-169: Erasmus Bridge, Cube Houses, Markthal, Euromast, Hotel New York, and De Rotterdam are other scenes. This is the Laurenskerk. The wooden spire is gone. The stone crown dates from after 1646. The church is closed.
+- NL-01-170: the windmill at the head of the harbour is the 1986–87 reconstruction, not a surviving medieval mill. The small church is the Pelgrimvaderskerk on the Aelbrechtskolk. No brewery name is shown.
+- NL-01-171: Middelburg Abbey and Lange Jan remain NL-01-040, on Abdijplein. This is the Stadhuis on the Markt. The tower is the one called Malle Betje, with an octagonal lantern.
+- NL-01-172: the interior is closed except on heritage days. The frame is the round 13th-century keep and the later wings from the street. No hotel name is shown. The white church across the street is not the subject.
+- NL-01-173: Katwijk remains NL-01-089 and Noordwijk remains NL-01-090. This is the white round tower at Egmond aan Zee, with the concrete watch room under a grey lantern and a low memorial base. The demolished south tower is not shown.
+- NL-01-174: Valkenburg Castle remains NL-01-050. This is Hoensbroek from the moat. The museum is closed. Two square towers with onion roofs flank the bridge, and the round keep stands at the rear.
+- NL-01-175: the restoration finished and the castle reopened on 19 September 2026, so no scaffold is shown. The medieval round tuff donjon is gone. The main tower is square. The round towers are on the outer bailey. The interior collection is not shown.
+- NL-01-176: uses America/Kralendijk. The salt pans remain NL-01-067. This is the Willemstoren and the dark sea. The glass lantern house was removed; a small beacon sits on the gallery. Night water is not shown pink. No company mark is shown.
 - The other suggested sites in this batch were not already used.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
@@ -248,3 +266,19 @@ NL-01-145 through NL-01-160 swaps:
 - NL-01-158 — Basilica, Hulst — 26 September 2026 · 01:58 Europe/Amsterdam — retrieved 2026-09-26T01:58:46+02:00
 - NL-01-159 — Sint Servaasbrug, Maastricht — 26 September 2026 · 01:58 Europe/Amsterdam — retrieved 2026-09-26T01:58:48+02:00
 - NL-01-160 — Basilica, Oudenbosch — 26 September 2026 · 01:58 Europe/Amsterdam — retrieved 2026-09-26T01:58:51+02:00
+- NL-01-161 — Waterpoort, Sneek — 26 September 2026 · 02:16 Europe/Amsterdam — retrieved 2026-09-26T02:16:27+02:00
+- NL-01-162 — Woudagemaal, Lemmer — 26 September 2026 · 02:18 Europe/Amsterdam — retrieved 2026-09-26T02:18:06+02:00
+- NL-01-163 — Menkemaborg, Uithuizen — 26 September 2026 · 02:18 Europe/Amsterdam — retrieved 2026-09-26T02:18:08+02:00
+- NL-01-164 — Groninger Museum, Groningen — 26 September 2026 · 02:18 Europe/Amsterdam — retrieved 2026-09-26T02:18:11+02:00
+- NL-01-165 — Brink, Orvelte — 26 September 2026 · 02:18 Europe/Amsterdam — retrieved 2026-09-26T02:18:14+02:00
+- NL-01-166 — Grote Kerk, Enschede — 26 September 2026 · 02:18 Europe/Amsterdam — retrieved 2026-09-26T02:18:17+02:00
+- NL-01-167 — Cuneratoren, Rhenen — 26 September 2026 · 02:20 Europe/Amsterdam — retrieved 2026-09-26T02:20:03+02:00
+- NL-01-168 — Grote Kerk, Breda — 26 September 2026 · 02:20 Europe/Amsterdam — retrieved 2026-09-26T02:20:06+02:00
+- NL-01-169 — Laurenskerk, Rotterdam — 26 September 2026 · 02:20 Europe/Amsterdam — retrieved 2026-09-26T02:20:09+02:00
+- NL-01-170 — Delfshaven, Rotterdam — 26 September 2026 · 02:20 Europe/Amsterdam — retrieved 2026-09-26T02:20:12+02:00
+- NL-01-171 — Stadhuis, Middelburg — 26 September 2026 · 02:20 Europe/Amsterdam — retrieved 2026-09-26T02:20:15+02:00
+- NL-01-172 — Slot Haamstede, Haamstede — 26 September 2026 · 02:20 Europe/Amsterdam — retrieved 2026-09-26T02:20:19+02:00
+- NL-01-173 — Lighthouse, Egmond aan Zee — 26 September 2026 · 02:20 Europe/Amsterdam — retrieved 2026-09-26T02:20:22+02:00
+- NL-01-174 — Kasteel Hoensbroek, Hoensbroek — 26 September 2026 · 02:20 Europe/Amsterdam — retrieved 2026-09-26T02:20:25+02:00
+- NL-01-175 — Huis Bergh, 's-Heerenberg — 26 September 2026 · 02:20 Europe/Amsterdam — retrieved 2026-09-26T02:20:28+02:00
+- NL-01-176 — Willemstoren, Bonaire — 25 September 2026 · 20:20 America/Kralendijk — retrieved 2026-09-25T20:20:33-04:00

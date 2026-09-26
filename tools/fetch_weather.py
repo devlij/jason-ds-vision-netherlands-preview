@@ -30,22 +30,22 @@ MONTHS = [
 ]
 
 SCENES = [
-    ("NL-01-145", "The Quill", "Oranjestad", 17.4830, -62.9860, "America/Kralendijk"),
-    ("NL-01-146", "Lac Bay", "Bonaire", 12.1005, -68.2250, "America/Kralendijk"),
-    ("NL-01-147", "Windwardside", "Windwardside", 17.6290, -63.2318, "America/Kralendijk"),
-    ("NL-01-148", "Poldertoren", "Emmeloord", 52.7100, 5.7480, "Europe/Amsterdam"),
-    ("NL-01-149", "Coevorden Castle", "Coevorden", 52.6623, 6.7422, "Europe/Amsterdam"),
-    ("NL-01-150", "Dwingeloo telescope", "Dwingeloo", 52.8122, 6.3964, "Europe/Amsterdam"),
-    ("NL-01-151", "Hanging kitchens", "Appingedam", 53.3217, 6.8583, "Europe/Amsterdam"),
-    ("NL-01-152", "Markt", "Ootmarsum", 52.4078, 6.9012, "Europe/Amsterdam"),
-    ("NL-01-153", "Windmills", "Schiedam", 51.9165, 4.3988, "Europe/Amsterdam"),
-    ("NL-01-154", "Maeslantkering", "Hoek van Holland", 51.9550, 4.1640, "Europe/Amsterdam"),
-    ("NL-01-155", "Magere Brug", "Amsterdam", 52.3637, 4.9024, "Europe/Amsterdam"),
-    ("NL-01-156", "De Adriaan", "Haarlem", 52.3818, 4.6415, "Europe/Amsterdam"),
-    ("NL-01-157", "Eusebiuskerk", "Arnhem", 51.9790, 5.9100, "Europe/Amsterdam"),
-    ("NL-01-158", "Basilica", "Hulst", 51.2830, 4.0500, "Europe/Amsterdam"),
-    ("NL-01-159", "Sint Servaasbrug", "Maastricht", 50.8492, 5.6958, "Europe/Amsterdam"),
-    ("NL-01-160", "Basilica", "Oudenbosch", 51.5894, 4.5286, "Europe/Amsterdam"),
+    ("NL-01-161", "Waterpoort", "Sneek", 53.0292, 5.6592, "Europe/Amsterdam"),
+    ("NL-01-162", "Woudagemaal", "Lemmer", 52.8456, 5.6788, "Europe/Amsterdam"),
+    ("NL-01-163", "Menkemaborg", "Uithuizen", 53.4058, 6.6728, "Europe/Amsterdam"),
+    ("NL-01-164", "Groninger Museum", "Groningen", 53.2123, 6.5660, "Europe/Amsterdam"),
+    ("NL-01-165", "Brink", "Orvelte", 52.8433, 6.6594, "Europe/Amsterdam"),
+    ("NL-01-166", "Grote Kerk", "Enschede", 52.2204, 6.8958, "Europe/Amsterdam"),
+    ("NL-01-167", "Cuneratoren", "Rhenen", 51.9570, 5.5643, "Europe/Amsterdam"),
+    ("NL-01-168", "Grote Kerk", "Breda", 51.5886, 4.7753, "Europe/Amsterdam"),
+    ("NL-01-169", "Laurenskerk", "Rotterdam", 51.9216, 4.4856, "Europe/Amsterdam"),
+    ("NL-01-170", "Delfshaven", "Rotterdam", 51.9082, 4.4478, "Europe/Amsterdam"),
+    ("NL-01-171", "Stadhuis", "Middelburg", 51.4983, 3.6105, "Europe/Amsterdam"),
+    ("NL-01-172", "Slot Haamstede", "Haamstede", 51.6979, 3.7422, "Europe/Amsterdam"),
+    ("NL-01-173", "Lighthouse", "Egmond aan Zee", 52.6191, 4.6217, "Europe/Amsterdam"),
+    ("NL-01-174", "Kasteel Hoensbroek", "Hoensbroek", 50.9202, 5.9258, "Europe/Amsterdam"),
+    ("NL-01-175", "Huis Bergh", "'s-Heerenberg", 51.8744, 6.2458, "Europe/Amsterdam"),
+    ("NL-01-176", "Willemstoren", "Bonaire", 12.0333, -68.2333, "America/Kralendijk"),
 ]
 
 
@@ -80,8 +80,18 @@ def fetch_one(
     time.sleep(2.0)
     request_started = datetime.now(tz)
     req = urllib.request.Request(url, headers={"User-Agent": "jasons-vision-netherlands/1.3"})
-    with urllib.request.urlopen(req, timeout=90) as resp:
-        body = resp.read()
+    body = None
+    last_err: Exception | None = None
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=25) as resp:
+                body = resp.read()
+            break
+        except Exception as err:
+            last_err = err
+            time.sleep(2.0)
+    if body is None:
+        raise SystemExit(f"{entry_id} Open-Meteo failed: {last_err}")
     retrieval = datetime.now(tz)
     stamp = retrieval.isoformat(timespec="seconds")
     if stamp in stamps:

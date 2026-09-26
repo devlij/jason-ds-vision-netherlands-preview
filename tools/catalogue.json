@@ -3358,5 +3358,341 @@
       "A small-town market, with no Gothic spire"
     ],
     "solar": "Full night under a mainly clear sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 01:58 the moon shows in breaks. Cloud cover is about 43%. The full moon falls later on 26 September."
+  },
+  {
+    "entry_id": "NL-01-161",
+    "region": "Friesland",
+    "city": "Sneek",
+    "folder": "Sneek",
+    "caption": "Waterpoort, Sneek",
+    "composition": "Two octagonal towers and the gatehouse over the canal · AI-generated artistic interpretation",
+    "description": "The Waterpoort spans the water at the edge of Sneek, two octagonal brick towers with pointed roofs and a gatehouse between them above a brick arch. Quay lamps light the brick, and the canal is dark. The sky is partly cloudy, about 13.2°C, with wind near 3.6 km/h and cloud cover about 78%. It is a water gate, not a land gate, and the Westerkerk vista is a different scene.",
+    "alt_text": "AI-generated artistic interpretation of the Waterpoort in Sneek at night, two octagonal towers over a dark canal under a partly cloudy sky",
+    "viewpoint": "From the public quay beside the Waterpoort, looking at the two towers and the arch over the water. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.sneek.nl/en/about-sneek/places-of-interest/the-watergate-national-monument",
+      "https://en.wikipedia.org/wiki/Waterpoort"
+    ],
+    "anchors": [
+      "Two octagonal brick towers with pointed roofs",
+      "A gatehouse and arch over the canal",
+      "Dark water in the foreground, no land-gate walls"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 02:16 the moon is mostly hidden. Cloud cover is about 78%."
+  },
+  {
+    "entry_id": "NL-01-162",
+    "region": "Friesland",
+    "city": "Lemmer",
+    "folder": "Lemmer",
+    "caption": "Woudagemaal, Lemmer",
+    "composition": "Brick pumping halls and a separate chimney on the dike · AI-generated artistic interpretation",
+    "description": "From the IJsselmeer dike the Woudagemaal shows long red-brick halls with tiled gables and a separate tall brick chimney. The lake is dark in front. The sky is partly cloudy, about 11.4°C, with wind near 2.5 km/h and cloud cover about 63%. The interior is closed. It is a steam pumping station, not a windmill.",
+    "alt_text": "AI-generated artistic interpretation of the Woudagemaal at Lemmer at night, brick halls and a tall chimney beside dark water",
+    "viewpoint": "From the public dike on the IJsselmeer side, looking at the halls and the chimney. The dike is the viewpoint. A surveyed tripod mark was not pinned. The engine room is closed at this hour.",
+    "references": [
+      "https://whc.unesco.org/en/list/867/",
+      "https://www.woudagemaal.nl/"
+    ],
+    "anchors": [
+      "Long brick halls with tiled gables",
+      "A separate tall brick chimney",
+      "Dark lake water, and no windmill"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:26 Europe/Amsterdam and model is_day 0. At 02:18 the moon shows only in breaks. Cloud cover is about 63%."
+  },
+  {
+    "entry_id": "NL-01-163",
+    "region": "Groningen",
+    "city": "Uithuizen",
+    "folder": "Uithuizen",
+    "caption": "Menkemaborg, Uithuizen",
+    "composition": "Rectangular brick manor across a dark moat · AI-generated artistic interpretation",
+    "description": "Menkemaborg is a long rectangular brick house with a hipped roof, seen across a dark moat. It is a baroque manor, not a round keep. The sky is partly cloudy, about 9.8°C, with wind near 8.6 km/h and cloud cover about 61%. The museum is closed. Late September night shows no rose tunnel and no spring bulbs.",
+    "alt_text": "AI-generated artistic interpretation of Menkemaborg at Uithuizen at night, a brick manor across a moat under a partly cloudy sky",
+    "viewpoint": "From the public approach across the moat, looking at the house front. The approach is the viewpoint. A surveyed tripod mark was not pinned. The gardens and the interior are closed at this hour.",
+    "references": [
+      "https://menkemaborg.nl/bezoek",
+      "https://www.visitwadden.nl/en/visit/activities/2791795295/menkemaborg"
+    ],
+    "anchors": [
+      "A rectangular brick house with a hipped roof",
+      "A dark moat in the foreground",
+      "No round keep and no flowers"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:22 Europe/Amsterdam and model is_day 0. At 02:18 the moon shows only in breaks. Cloud cover is about 61%."
+  },
+  {
+    "entry_id": "NL-01-164",
+    "region": "Groningen",
+    "city": "Groningen",
+    "folder": "Groningen",
+    "caption": "Groninger Museum, Groningen",
+    "composition": "Silver, gold, and blue pavilions in the canal · AI-generated artistic interpretation",
+    "description": "From the station side the Groninger Museum stands in the Verbindingskanaal as a silver cylinder, a golden rectangular tower, and a pale blue angular pavilion. The sky is partly cloudy, about 12.4°C, with wind near 7.9 km/h and cloud cover about 61%. The museum is closed. No exhibition art and no lettering are shown. The Martinitoren and Forum are other scenes.",
+    "alt_text": "AI-generated artistic interpretation of the Groninger Museum at night, coloured pavilions in the canal under a partly cloudy sky",
+    "viewpoint": "From the station side of the canal, so the Martinitoren stays out of the frame. The public bridge approach is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.groningermuseum.nl/en/museum/building",
+      "https://en.wikipedia.org/wiki/Groninger_Museum"
+    ],
+    "anchors": [
+      "A silver cylinder, a golden tower, and a pale blue angular pavilion",
+      "Dark canal water",
+      "No church tower and no readable letters"
+    ],
+    "solar": "Full night under a partly cloudy sky. Model sunset 19:22 Europe/Amsterdam and model is_day 0. At 02:18 the moon shows only in breaks. Cloud cover is about 61%."
+  },
+  {
+    "entry_id": "NL-01-165",
+    "region": "Drenthe",
+    "city": "Orvelte",
+    "folder": "Orvelte",
+    "caption": "Brink, Orvelte",
+    "composition": "Thatched hall-farmhouses around the village green · AI-generated artistic interpretation",
+    "description": "On the brink at Orvelte, thatched Saxon hall-farmhouses stand around an open green and a small pond. Trees still hold late September leaf, with no snow. The sky is mainly clear, about 7.9°C, with wind near 6.1 km/h and cloud cover about 20%, and a bright moon is up. There is no canal. Giethoorn is a different village.",
+    "alt_text": "AI-generated artistic interpretation of the brink at Orvelte at night, thatched farmhouses under a mainly clear sky",
+    "viewpoint": "From the brink, looking across the green at the thatched farms. The green is the viewpoint. A surveyed tripod mark was not pinned. The 1960s reshaping of the brink is not hidden: this is the village as it stands.",
+    "references": [
+      "https://www.drentslandschap.nl/erfgoed/orvelte/",
+      "https://www.dbnl.org/tekst/sten009monu07_01/sten009monu07_01_0072.php"
+    ],
+    "anchors": [
+      "Thatched hall-farmhouses",
+      "An open green and a small pond",
+      "No canal and no snow"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:22 Europe/Amsterdam and model is_day 0. At 02:18 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 20%."
+  },
+  {
+    "entry_id": "NL-01-166",
+    "region": "Overijssel",
+    "city": "Enschede",
+    "folder": "Enschede",
+    "caption": "Grote Kerk, Enschede",
+    "composition": "Sandstone tower and 1926 spire on the Oude Markt · AI-generated artistic interpretation",
+    "description": "The Grote Kerk tower rises from the Oude Markt, a heavy sandstone shaft with the stone spire of 1926–28. The church beside it has wide round-arched windows from the repair after the 1862 fire. The sky is clear, about 11.7°C, with wind near 7.9 km/h, and a bright moon is up. The square is empty and the church is closed.",
+    "alt_text": "AI-generated artistic interpretation of the Grote Kerk in Enschede at night, a sandstone tower under a clear sky",
+    "viewpoint": "From the Oude Markt, looking at the west tower. The square is the viewpoint. A surveyed tripod mark was not pinned. The octagonal lantern of 1862 is not shown.",
+    "references": [
+      "https://rijksmonumenten.nl/monument/15309/toren-grote-kerk/enschede/",
+      "https://nl.wikipedia.org/wiki/Grote_Kerk_(Enschede)"
+    ],
+    "anchors": [
+      "A heavy sandstone tower with a stone spire",
+      "Wide round-arched church windows",
+      "An empty market, with no octagonal lantern"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:21 Europe/Amsterdam and model is_day 0. At 02:18 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-167",
+    "region": "Utrecht",
+    "city": "Rhenen",
+    "folder": "Rhenen",
+    "caption": "Cuneratoren, Rhenen",
+    "composition": "Brick Gothic tower and spire from the church square · AI-generated artistic interpretation",
+    "description": "The Cuneratoren stands over the church square in Rhenen, a tall brick Gothic tower with an octagonal upper stage and a spire, built against the church. The sky is overcast, about 11.0°C, with wind near 7.2 km/h and cloud cover about 81%. The church is closed. It is not the Dom Tower in Utrecht.",
+    "alt_text": "AI-generated artistic interpretation of the Cuneratoren in Rhenen at night, a brick Gothic tower under an overcast sky",
+    "viewpoint": "From the church square, looking up at the tower. The square is the viewpoint. A surveyed tripod mark was not pinned. The Dom Tower is a different city and is not in this frame.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Cunerakerk",
+      "https://www.cunerakerk.nl/"
+    ],
+    "anchors": [
+      "A tall brick Gothic tower with an octagonal stage and a spire",
+      "The church body beside the tower",
+      "An empty square, and no Dom profile"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:27 Europe/Amsterdam and model is_day 0. At 02:20 the moon is hidden. Cloud cover is about 81%."
+  },
+  {
+    "entry_id": "NL-01-168",
+    "region": "North Brabant",
+    "city": "Breda",
+    "folder": "Breda",
+    "caption": "Grote Kerk, Breda",
+    "composition": "Stone Gothic tower with the 1702 slate crown · AI-generated artistic interpretation",
+    "description": "The Grote Kerk faces the Grote Markt in Breda, a stone-clad Gothic church whose tower carries the sober slate spire of 1702, with an open lantern and a small dome. The sky is clear, about 15.5°C, with wind near 9.0 km/h and cloud cover about 8%, and a bright moon is up. The church is closed. Breda Castle is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Grote Kerk in Breda at night, a Gothic tower with a slate spire under a clear sky",
+    "viewpoint": "From the Grote Markt, looking at the west tower. The square is the viewpoint. A surveyed tripod mark was not pinned. The Gothic needle lost in 1694 is not restored.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Grote_Kerk_(Breda)",
+      "https://torenbreda.nl/geschiedenis/"
+    ],
+    "anchors": [
+      "A stone Gothic tower",
+      "A slate spire with an open lantern and a small dome",
+      "An empty market, and no castle"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 02:20 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 8%."
+  },
+  {
+    "entry_id": "NL-01-169",
+    "region": "South Holland",
+    "city": "Rotterdam",
+    "folder": "Rotterdam",
+    "caption": "Laurenskerk, Rotterdam",
+    "composition": "Gothic brick tower with a stone crown on Grotekerkplein · AI-generated artistic interpretation",
+    "description": "The Laurenskerk stands on Grotekerkplein, a restored Gothic brick church with a sturdy west tower and a stone crown. The wooden spire is long gone. The sky is overcast, about 17.0°C, with wind near 10.1 km/h and cloud cover about 91%. The church is closed. The Erasmus Bridge and the modern harbour towers are not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Laurenskerk in Rotterdam at night, a brick tower with a stone crown under an overcast sky",
+    "viewpoint": "From Grotekerkplein, looking at the west tower. The square is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://laurenskerk.nl/en/historie/",
+      "https://www.rotterdam.info/en/visit/finder-locations/laurenskerk-rotterdam"
+    ],
+    "anchors": [
+      "A brick Gothic church and west tower",
+      "A stone crown, not a wooden spire",
+      "An empty square, and no cable-stayed bridge"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 02:20 the moon is hidden. Cloud cover is about 91%."
+  },
+  {
+    "entry_id": "NL-01-170",
+    "region": "South Holland",
+    "city": "Rotterdam",
+    "folder": "Rotterdam",
+    "caption": "Delfshaven, Rotterdam",
+    "composition": "Harbour, small church, and the reconstructed mill · AI-generated artistic interpretation",
+    "description": "Along the Aelbrechtskolk in Delfshaven, brick warehouses line the dark harbour, with the small Pelgrimvaderskerk and its turret on the quay. A tall wooden mill closes the view at the head of the water. That mill is the 1986–87 reconstruction. The sky is overcast, about 17.0°C, with wind near 9.0 km/h and cloud cover about 88%. No brewery name is shown.",
+    "alt_text": "AI-generated artistic interpretation of Delfshaven in Rotterdam at night, a historic harbour and windmill under an overcast sky",
+    "viewpoint": "From the quay on the Aelbrechtskolk, looking along the harbour toward the mill. The quay is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://www.oudeofpelgrimvaderskerk.nl/",
+      "https://www.rotterdam.info/nl/visit/finder-locations/korenmolen-de-distilleerketel"
+    ],
+    "anchors": [
+      "Brick warehouses along a harbour",
+      "A small church with a turret",
+      "A wooden mill at the far end, with no readable names"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:31 Europe/Amsterdam and model is_day 0. At 02:20 the moon is hidden. Cloud cover is about 88%."
+  },
+  {
+    "entry_id": "NL-01-171",
+    "region": "Zeeland",
+    "city": "Middelburg",
+    "folder": "Middelburg",
+    "caption": "Stadhuis, Middelburg",
+    "composition": "Gothic stone facade and octagonal lantern on the Markt · AI-generated artistic interpretation",
+    "description": "The Stadhuis faces the Markt in Middelburg, a late-Gothic stone facade with statue niches and a tower that rises to an octagonal lantern. The sky is mainly clear, about 16.5°C, with wind near 5.8 km/h and cloud cover about 27%, and a bright moon is up. The building is closed. Lange Jan and the abbey are on another square and are not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Stadhuis in Middelburg at night, a Gothic stone facade under a mainly clear sky",
+    "viewpoint": "From the Markt, looking at the facade and the tower. The square is the viewpoint. A surveyed tripod mark was not pinned. Abdijplein is behind the old centre and is not this view.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Stadhuis_van_Middelburg",
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/29284"
+    ],
+    "anchors": [
+      "A carved stone Gothic facade with niches",
+      "A tower with an octagonal lantern",
+      "An empty market, and no abbey spire"
+    ],
+    "solar": "Full night under a mainly clear sky. Model sunset 19:34 Europe/Amsterdam and model is_day 0. At 02:20 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 27%."
+  },
+  {
+    "entry_id": "NL-01-172",
+    "region": "Zeeland",
+    "city": "Haamstede",
+    "folder": "Haamstede",
+    "caption": "Slot Haamstede, Haamstede",
+    "composition": "Round brick keep and later wings across the moat · AI-generated artistic interpretation",
+    "description": "Slot Haamstede shows a large round brick keep and later wings across a dark moat, in the middle of the village. The sky is overcast, about 13.6°C, with wind near 3.6 km/h and cloud cover about 90%. The interior is closed. No hotel name is shown, and the white church across the street is not the subject.",
+    "alt_text": "AI-generated artistic interpretation of Slot Haamstede at night, a round brick keep and moat under an overcast sky",
+    "viewpoint": "From the public street beside the moat, looking at the keep. The street is the viewpoint. A surveyed tripod mark was not pinned. The house is not open at this hour.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Haamstede_Castle",
+      "https://www.zeeland.com/en/visit/223_en/castle-haamstede"
+    ],
+    "anchors": [
+      "A large round brick keep",
+      "Later brick wings and a moat",
+      "No readable hotel name"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:34 Europe/Amsterdam and model is_day 0. At 02:20 the moon is hidden. Cloud cover is about 90%."
+  },
+  {
+    "entry_id": "NL-01-173",
+    "region": "North Holland",
+    "city": "Egmond aan Zee",
+    "folder": "Egmond aan Zee",
+    "caption": "Lighthouse, Egmond aan Zee",
+    "composition": "White round tower, grey lantern, and a low memorial base · AI-generated artistic interpretation",
+    "description": "The lighthouse at Egmond aan Zee is a white tapered round tower with a grey lantern and a wide concrete watch room just beneath it. The base is a low memorial podium. The North Sea is dark. The sky is overcast, about 13.9°C, with wind near 7.9 km/h and cloud cover about 95%. The lamp is lit. The Katwijk and Noordwijk towers are different lights and are not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of the Egmond aan Zee lighthouse at night, a white round tower under an overcast sky",
+    "viewpoint": "From the dune square at Vuurtorenplein, looking at the tower and the sea. The square is the viewpoint. A surveyed tripod mark was not pinned. The demolished south tower is not shown.",
+    "references": [
+      "https://en.wikipedia.org/wiki/J.C.J._van_Speijk_Lighthouse",
+      "https://kennis.cultureelerfgoed.nl/index.php/Monumenten/14590"
+    ],
+    "anchors": [
+      "A white round tapered tower",
+      "A grey lantern and a concrete watch room",
+      "A low base and the dark sea, with no second tower"
+    ],
+    "solar": "Full night under an overcast sky. Model sunset 19:30 Europe/Amsterdam and model is_day 0. At 02:20 the moon is hidden. Cloud cover is about 95%."
+  },
+  {
+    "entry_id": "NL-01-174",
+    "region": "Limburg",
+    "city": "Hoensbroek",
+    "folder": "Hoensbroek",
+    "caption": "Kasteel Hoensbroek, Hoensbroek",
+    "composition": "Onion-roof gate towers and a round keep across the moat · AI-generated artistic interpretation",
+    "description": "Kasteel Hoensbroek stands in its moat, brick wings with two square towers and onion roofs beside the bridge, and a tall round keep at the rear. The sky is clear, about 11.3°C, with wind near 9.0 km/h, and a bright moon is up. The museum is closed. Valkenburg Castle is a different ruin and is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of Kasteel Hoensbroek at night, a moated brick castle under a clear sky",
+    "viewpoint": "From the public edge of the moat, looking at the entrance towers and the keep. The bank is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://en.wikipedia.org/wiki/Hoensbroek_Castle",
+      "https://rijksmonumenten.nl/monument/21244/kasteel-hoensbroek-of-kasteel-heerlen/hoensbroek/"
+    ],
+    "anchors": [
+      "Two square towers with onion roofs by the bridge",
+      "A tall round keep at the rear",
+      "Dark moat water, and no hilltop ruin"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:25 Europe/Amsterdam and model is_day 0. At 02:20 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-175",
+    "region": "Gelderland",
+    "city": "'s-Heerenberg",
+    "folder": "'s-Heerenberg",
+    "caption": "Huis Bergh, 's-Heerenberg",
+    "composition": "Square main tower and outer-bailey rounds across the moat · AI-generated artistic interpretation",
+    "description": "Huis Bergh rises from its moat in 's-Heerenberg, a brick castle whose main tower is square, with round towers on the outer bailey and a bridge over the water. The sky is clear, about 8.8°C, with wind near 4.7 km/h, and a bright moon is up. The restoration reopened on 19 September 2026, so no scaffold is shown. The interior collection is not in this frame.",
+    "alt_text": "AI-generated artistic interpretation of Huis Bergh at 's-Heerenberg at night, a moated brick castle under a clear sky",
+    "viewpoint": "From the public approach by the moat, looking at the square tower and the bridge. The approach is the viewpoint. A surveyed tripod mark was not pinned. The lost round tuff donjon is not reconstructed.",
+    "references": [
+      "https://www.huisbergh.nl/en/construction",
+      "https://www.huisbergh.nl/nieuws/huis-bergh-vanaf-19-september-volledig-heropend"
+    ],
+    "anchors": [
+      "A square brick main tower",
+      "Round towers on the outer bailey",
+      "A moat and a bridge, with no scaffold"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 19:24 Europe/Amsterdam and model is_day 0. At 02:20 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 0%."
+  },
+  {
+    "entry_id": "NL-01-176",
+    "region": "Caribbean Netherlands",
+    "city": "Bonaire",
+    "folder": "Bonaire",
+    "caption": "Willemstoren, Bonaire",
+    "composition": "White column and one red stripe on the rocky south point · AI-generated artistic interpretation",
+    "description": "The Willemstoren stands on the rocky southern tip of Bonaire, a white round stone column with one narrow red stripe and a small beacon on the gallery. A low ruined keeper house sits beside it, and the sea is dark. The sky is clear, about 28.4°C, with wind near 22.9 km/h and cloud cover about 11%. The salt pans are a different scene, and the water is not shown pink.",
+    "alt_text": "AI-generated artistic interpretation of the Willemstoren on Bonaire at night, a white lighthouse on a rocky point under a clear sky",
+    "viewpoint": "From the rocky point at Lacre Punt, looking at the tower and the sea. The point is the viewpoint. A surveyed tripod mark was not pinned. The salt pans stay inland of this frame.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Willemstoren",
+      "https://ibiblio.org/lighthouse/bon.htm"
+    ],
+    "anchors": [
+      "A white round column with one narrow red stripe",
+      "A small beacon on the gallery, and a ruined house",
+      "Dark sea and rock, with no pink salt pans"
+    ],
+    "solar": "Full night under a clear sky. Model sunset 18:26 America/Kralendijk and model is_day 0. At 20:20 a bright moon is up. The full moon falls later on 26 September, so the disc looks nearly full. Cloud cover is about 11%. The wind is fresh, about 22.9 km/h."
   }
 ]
