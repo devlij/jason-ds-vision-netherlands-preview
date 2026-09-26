@@ -4,12 +4,18 @@
   "region": "South Holland",
   "city": "Delft",
   "caption": "Oude Kerk, Delft",
-  "scenario_label": "26 September 2026 \u00b7 00:19 Europe/Amsterdam",
-  "composition": "Leaning brick tower beside the canal \u00b7 AI-generated artistic interpretation",
-  "description": "The Oude Kerk stands beside the Oude Delft canal, a brick gothic church whose tower leans slightly toward the water, with canal houses and trees still in leaf opposite. This is not the Markt and not the Nieuwe Kerk. The sky is overcast, about 16.8\u00b0C, with wind near 6.5 km/h and no rain. Sunset was 19:31. The canal is quiet.",
+  "scenario_label": "26 September 2026 · 00:19 Europe/Amsterdam",
+  "composition": "Leaning brick tower beside the canal · AI-generated artistic interpretation",
+  "description": "The Oude Kerk stands beside the Oude Delft canal, a brick gothic church whose tower leans slightly toward the water, with canal houses and trees still in leaf opposite. This is not the Markt and not the Nieuwe Kerk. The sky is overcast, about 16.8°C, with wind near 6.5 km/h and no rain. Sunset was 19:31. The canal is quiet.",
   "alt_text": "AI-generated artistic interpretation of the Oude Kerk beside the canal in Delft on an overcast night",
   "file_16x9": "Netherlands/Delft/nl-01-080-16x9.png",
   "file_4x5": "Netherlands/Delft/nl-01-080-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 PASS: Oude Kerk Delft — brick Gothic church with its famously off-vertical tower beside the canal and a row of gabled houses, street lamps reflecting in water; review-based pass, no forensic audit. G2 PASS: exact dims; on-image caption 'Oude Kerk, Delft', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:49+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public church. G5 PASS: card fields complete.",
+  "approved_at": "2026-09-26T04:38:30.251645+00:00",
+  "sha256_16x9": "9b8e0059a87fb5ec1e0d1c9a6daa782a4df35cee08cafaa6b555457db5c9a5bb",
+  "sha256_4x5": "a124681515cdf203f44644628e740a8e5640902737bb0f3fd2a04968d49dc60e"
 }
