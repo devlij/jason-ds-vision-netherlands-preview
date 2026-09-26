@@ -26,5 +26,11 @@
   ],
   "file_9x16": "Netherlands/Zierikzee/nl-01-284-9x16.png",
   "sha256_9x16": "1b63ee28226182d8f8a906ede6cc6edef793e063532672a2ded0e8ed69dfa408",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: symmetrical stone-clad facade with ground-floor arched bays, cross-mullioned upper windows, oculus-medallion frieze band, and the central octagonal brick tower rising through the roof with open lantern, pear-shaped crown and Neptune weathervane - the 4:5 is a centered tighter crop of the 16:9 with no defining-feature disagreement; the earlier two-gable vs one-gable inter-format discrepancy is resolved in the 20:49 UTC re-render. Gate 2: label bar exact - 'Stadhuis, Zierikzee', 'Scenario: 26 September 2026 · 04:37 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T04:37:59+02:00, unique to the second repo-wide, scenario minute 04:37 inside model-valid hour 04:00-04:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: empty square, no people, no logos, Free no-credit badge - documented only. Gate 5: card fields complete.",
+  "approved_at": "2026-09-26T21:43:39.796032+00:00",
+  "sha256_16x9": "714b5bf041021b93bd8f565fd6e38a2001179d9fab8c01789d43915c5ee755cb",
+  "sha256_4x5": "a4cba3a3af33eefac38308e17a0c6f5c2a930ce62bfd913a236937743088f889"
 }
