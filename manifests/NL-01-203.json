@@ -4,12 +4,18 @@
   "region": "Groningen",
   "city": "Groningen",
   "caption": "Aa-kerk, Groningen",
-  "scenario_label": "26 September 2026 \u00b7 02:56 Europe/Amsterdam",
-  "composition": "Medieval brick church and baroque tower across the canal \u00b7 AI-generated artistic interpretation",
-  "description": "The Aa-kerk stands on the Akerkhof beside the canal. The church is medieval brick. The tower crown is the baroque lantern and closed spire, not the open Gothic crown of the Martinitoren, which is outside this frame. It is overcast, about 12.4\u00b0C, with wind near 5.8 km/h and cloud cover about 89%. The church is closed at this hour.",
+  "scenario_label": "26 September 2026 · 02:56 Europe/Amsterdam",
+  "composition": "Medieval brick church and baroque tower across the canal · AI-generated artistic interpretation",
+  "description": "The Aa-kerk stands on the Akerkhof beside the canal. The church is medieval brick. The tower crown is the baroque lantern and closed spire, not the open Gothic crown of the Martinitoren, which is outside this frame. It is overcast, about 12.4°C, with wind near 5.8 km/h and cloud cover about 89%. The church is closed at this hour.",
   "alt_text": "AI-generated artistic interpretation of the Aa-kerk in Groningen at night, seen across the canal",
   "file_16x9": "Netherlands/Groningen/nl-01-203-16x9.png",
   "file_4x5": "Netherlands/Groningen/nl-01-203-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Night. G1 visual pass: the brick Aa-kerk with its tall openwork-spire tower beside dark water, street lamps lit along the quay, overcast sky — recognizably the Groningen church, framing steady, no artifacts (4x5 crop spot-checked for text legibility). G2 technical pass: exact 1920x1080/864x1080; caption 'Aa-kerk, Groningen', scenario '26 September 2026 · 02:56 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:56:05+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: public church, no people or logos; documented only. G5: card fields complete.",
+  "approved_at": "2026-09-26T12:43:21.331138+00:00",
+  "sha256_16x9": "71233e5eaf43e41fee048398e3ffc7e1dbdc033234dd75787429109626535d23",
+  "sha256_4x5": "a0bec8710c5216fae168b1b5d046f88cb05f1f2a71f674ec75606e56914443a5"
 }
