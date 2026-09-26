@@ -17,6 +17,11 @@
       "at": "2026-09-26T17:45:01.823245+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26, verified by Cosmo's own read of both masters): the two format masters disagree on the documented tower-nave relationship - the 16:9 shows the brick tower with domed cupola continuous with the long brick nave (no gap between them), while the 4:5 shows the tower freestanding with a clearly separate smaller chapel and an open gap to its right. The card's own geometry anchor 2 requires 'a heavy brick tower stands apart from the nave' and the evidence card states 'the nave stops short of the tower, so a gap remains between them'. One render misrepresents the site configuration. Builder to correct the 16:9 render to show the documented gap and re-push; approval awaits corrected masters."
+    },
+    {
+      "at": "2026-09-26T21:41:34.775969+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 re-audit PASS (Cosmo QC 2026-09-26): re-rendered masters re-verified - both formats agree the heavy two-stage brick tower stands apart from the brick hall nave with a visible gap, crowned by the open lantern + onion cupola, matching the card's 1613-crown anchor; the earlier tower-nave relationship discrepancy is resolved. On-image caption/scenario/disclosure/signature and Art. 50 PNG metadata verified on the new masters. Hold resolved."
     }
   ],
   "file_9x16": "Netherlands/Workum/nl-01-264-9x16.png",
