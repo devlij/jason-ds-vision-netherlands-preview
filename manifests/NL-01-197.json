@@ -4,12 +4,18 @@
   "region": "Drenthe",
   "city": "Schoonoord",
   "caption": "Papeloze Kerk, Schoonoord",
-  "scenario_label": "26 September 2026 \u00b7 02:55 Europe/Amsterdam",
-  "composition": "Hunebed half under a turf mound, half open stones, in pine woods \u00b7 AI-generated artistic interpretation",
-  "description": "Hunebed D49, the Papeloze Kerk, sits in the woods between Schoonoord and Noord-Sleen. One half is covered by a restored turf mound and the other half shows the capstones. A ring of kerb stones circles the foot. It is partly cloudy, about 8.6\u00b0C, with wind near 5.0 km/h and cloud cover about 78%. Borger and Havelte are other tombs and are not this one.",
+  "scenario_label": "26 September 2026 · 02:55 Europe/Amsterdam",
+  "composition": "Hunebed half under a turf mound, half open stones, in pine woods · AI-generated artistic interpretation",
+  "description": "Hunebed D49, the Papeloze Kerk, sits in the woods between Schoonoord and Noord-Sleen. One half is covered by a restored turf mound and the other half shows the capstones. A ring of kerb stones circles the foot. It is partly cloudy, about 8.6°C, with wind near 5.0 km/h and cloud cover about 78%. Borger and Havelte are other tombs and are not this one.",
   "alt_text": "AI-generated artistic interpretation of the Papeloze Kerk hunebed at night, half covered by a turf mound",
   "file_16x9": "Netherlands/Schoonoord/nl-01-197-16x9.png",
   "file_4x5": "Netherlands/Schoonoord/nl-01-197-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Night. G1 visual pass: the Papeloze Kerk hunebed — massive capstone on uprights with kerb stones on a heath mound — among tall pines under a dramatic cloud break, instantly recognizable dolmen prospect, no artifacts. G2 technical pass: exact 1920x1080/864x1080; caption 'Papeloze Kerk, Schoonoord', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:49+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: ancient monument, no people or logos; documented only. G5: card fields complete.",
+  "approved_at": "2026-09-26T12:42:56.381723+00:00",
+  "sha256_16x9": "97a6252fd531c10acf0beae00c657fe5108d6c0ba972c263bfe83edc64f8f62d",
+  "sha256_4x5": "b4078835d57ba48c7665fba3956bf47b1f94f28f78e8d3aeef46451520cefe09"
 }
