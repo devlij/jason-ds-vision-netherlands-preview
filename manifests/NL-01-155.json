@@ -4,12 +4,18 @@
   "region": "North Holland",
   "city": "Amsterdam",
   "caption": "Magere Brug, Amsterdam",
-  "scenario_label": "26 September 2026 \u00b7 01:57 Europe/Amsterdam",
-  "composition": "White wooden balance bridge over the Amstel \u00b7 AI-generated artistic interpretation",
-  "description": "The Magere Brug is a white wooden balance bridge over the Amstel, lit by warm lamps, with gabled houses along the dark water. The sky is overcast, about 16.2\u00b0C, with wind near 9.4 km/h. It is timber, not a stone arch. The Prinsengracht is a different canal and is not this frame.",
+  "scenario_label": "26 September 2026 · 01:57 Europe/Amsterdam",
+  "composition": "White wooden balance bridge over the Amstel · AI-generated artistic interpretation",
+  "description": "The Magere Brug is a white wooden balance bridge over the Amstel, lit by warm lamps, with gabled houses along the dark water. The sky is overcast, about 16.2°C, with wind near 9.4 km/h. It is timber, not a stone arch. The Prinsengracht is a different canal and is not this frame.",
   "alt_text": "AI-generated artistic interpretation of the white wooden Magere Brug over the Amstel in Amsterdam on an overcast night",
   "file_16x9": "Netherlands/Amsterdam/nl-01-155-16x9.png",
   "file_4x5": "Netherlands/Amsterdam/nl-01-155-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: white double-leaf timber drawbridge with its two raised leaves lit warm from below, spanning the Amstel against an overcast night sky; left bank lined with stepped- and neck-gabled canal houses with amber window glow doubled in rippled water reflections, moored boat at the right abutment, lamps along the quay — recognizably the Magere Brug. Gate 2 PASS: exact 1920x1080/864x1080; on-image 'Magere Brug, Amsterdam', scenario '26 September 2026 · 01:57 Europe/Amsterdam', disclosure 'AI-generated artistic interpretation · Not a photograph.' and curly-apostrophe 'Jason D's Vision' signature legible on the gradient scrim; Art. 50 metadata present on both masters; scenario minute 01:57 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:57:01+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: no prominent identifiable people, no focal logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-26T09:45:25.424536+00:00",
+  "sha256_16x9": "8db56594580387a52792670c102df696cbcc45aec1b65fc610d956063a489d2a",
+  "sha256_4x5": "f72d817462f50d84ca5d22f1ab0dd3b1a7aac4e077c802be200ff923def4c75c"
 }
