@@ -4,12 +4,18 @@
   "region": "South Holland",
   "city": "The Hague",
   "caption": "Paleis Noordeinde, The Hague",
-  "scenario_label": "26 September 2026 \u00b7 01:38 Europe/Amsterdam",
-  "composition": "Neoclassical palace facade and an equestrian statue on the street axis \u00b7 AI-generated artistic interpretation",
-  "description": "Paleis Noordeinde closes the view down the street: a pale neoclassical facade with a central pediment, set behind an iron fence. An equestrian statue stands on the street axis in front of the gates. The sky is overcast, about 15.2\u00b0C, with wind near 7.2 km/h. The street is empty. This is not the Binnenhof.",
+  "scenario_label": "26 September 2026 · 01:38 Europe/Amsterdam",
+  "composition": "Neoclassical palace facade and an equestrian statue on the street axis · AI-generated artistic interpretation",
+  "description": "Paleis Noordeinde closes the view down the street: a pale neoclassical facade with a central pediment, set behind an iron fence. An equestrian statue stands on the street axis in front of the gates. The sky is overcast, about 15.2°C, with wind near 7.2 km/h. The street is empty. This is not the Binnenhof.",
   "alt_text": "AI-generated artistic interpretation of Paleis Noordeinde from the street in The Hague on an overcast night",
   "file_16x9": "Netherlands/The Hague/nl-01-136-16x9.png",
   "file_4x5": "Netherlands/The Hague/nl-01-136-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: neoclassical palace facade behind an iron fence with the equestrian statue of William of Orange centered in front and lit lanterns — recognizably Paleis Noordeinde; 4:5 crop spot-checked, on-image text legible; no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Paleis Noordeinde, The Hague' + scenario '26 September 2026 · 01:38 Europe/Amsterdam' + disclosure + signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:38:00+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
+  "approved_at": "2026-09-26T08:38:29.038904+00:00",
+  "sha256_16x9": "a4c6590f28e8d9513810be8ef7a9e545fdc413c8cce789e5648b25d6021af360",
+  "sha256_4x5": "d6e4c826e43b51447227ed473390de900ae84a1c4c7271f8c94e0f0db61bc5b8"
 }
