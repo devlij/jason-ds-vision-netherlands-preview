@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows Kasteel Loenersloot's moated brick castle with the round crenellated keep, stone arched bridge with lit lanterns, autumn trees around, heavy overcast night — matches the captioned castle and card anchors; no artifacts. Gate 2: exact dims via git blob API; on-image 'Kasteel Loenersloot, Loenersloot', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-26T03:59:28+02:00 in evidence/weather/NL-01-245.json, unique to the second across all 288 Netherlands files, scenario inside the 03:00–03:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T15:45:47.512155+00:00",
-  "sha256_16x9": "f02516fd787ec2b2832c2991d2ddfc155fc337ad881f1c8fea76869bb4fe99be",
-  "sha256_4x5": "b673dc8d5f3ee2b76693695d202bc66215e2e2f85dc98e1f5246933e7ffa434e"
+  "sha256_16x9": "174c856795b633693dc420a4efbb793f087b60ae66f224b2410aa5a957724698",
+  "sha256_4x5": "83be29a01a0ce63faddd7b20eddf60afe6fd22dcd1a0aefd27d001584cdb0d13",
+  "file_9x16": "Netherlands/Loenersloot/nl-01-245-9x16.png",
+  "sha256_9x16": "1d7670843ec6e93e0ba978dd8783116c6fe7dfc0d77021ff3ebf606279a6e1c6",
+  "format_9x16_approval_status": "Candidate"
 }

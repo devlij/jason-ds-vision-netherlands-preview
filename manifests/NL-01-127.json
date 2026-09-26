@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Waag, Schoonhoven: the square neoclassical weigh-house with its pediment, wall clock and Ionic-trimmed entrance, floodlit under a moonlit night sky on the town square. On-image caption 'Waag, Schoonhoven', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:52+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:39:19.868147+00:00",
-  "sha256_16x9": "bf5525b0a74c983ce6acaca634736c1d35100184521922c71e98b66756de8161",
-  "sha256_4x5": "25874d591708ba9e30cb0a8da33affed7a2a1c04e989cc708679869bc54acc61"
+  "sha256_16x9": "46d62d6f6ca5fa959b76cbfadf57115c256f91ff54d196a2ed3883e6db5f4351",
+  "sha256_4x5": "e9720c25e5c51ad764604f40a0d59b859aa76819e388de36293bebc7530b6c4f",
+  "file_9x16": "Netherlands/Schoonhoven/nl-01-127-9x16.png",
+  "sha256_9x16": "bde38705c611041c107bf2b3a7b51f3bae6f53e514827e3996476299c2e6b2df",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 bf5525b0a74c983ce6acaca634736c1d35100184521922c71e98b66756de8161. Source SHA-256 4:5 25874d591708ba9e30cb0a8da33affed7a2a1c04e989cc708679869bc54acc61. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

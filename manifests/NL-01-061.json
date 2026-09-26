@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 visual pass: starry-night view over Vesting Bourtange — the star fort's grass ramparts, a windmill on the crest, a lit gate building and wooden bridge over the dark moat, reflections in the water. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Vesting Bourtange, Bourtange', scenario '26 September 2026 · 00:01 Europe/Amsterdam' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:01:09+02:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:18.573844+00:00",
-  "sha256_16x9": "cdcb64f7c4adc5d9d77dea5ce0eab52a99cc46f18d88c71588692fe49f01f590",
-  "sha256_4x5": "4f6636c87d2257e4133d670b56c9531300ec3264235bc6da80c1ba030b161466"
+  "sha256_16x9": "d9b2f5d54081edc88ef2785a2ca7876fe3439e07dc5f51ba5fe8bbf282f851c4",
+  "sha256_4x5": "74754517ee5733c7ddeab72a21bf7a18e3d9efa8f25217c97bbced2617a43a37",
+  "file_9x16": "Netherlands/Bourtange/nl-01-061-9x16.png",
+  "sha256_9x16": "8cab0fa1723ddc549cbbf4e627e81028be03e22b18e817633ffdd5ac49e9250b",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 cdcb64f7c4adc5d9d77dea5ce0eab52a99cc46f18d88c71588692fe49f01f590. Source SHA-256 4:5 4f6636c87d2257e4133d670b56c9531300ec3264235bc6da80c1ba030b161466. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

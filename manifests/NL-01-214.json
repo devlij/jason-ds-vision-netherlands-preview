@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the Niehove church reads as the radial wierde village — the brick church on its circular grass mound with the ring road curving around it, lit farmhouses, flat dark fields beyond; the mound-and-ring composition is the site's defining view, clean night framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image caption 'Kerk, Niehove', scenario '26 September 2026 · 03:16 Europe/Amsterdam', 'Jason D's Vision' signature and AI disclosure legible on the gradient scrim; Art. 50 PNG metadata present; per-scene Open-Meteo retrieval 2026-09-26T03:16:14+02:00 verified unique to the second across all 288 Netherlands weather files, scenario minute inside model-valid hour 03:00-03:59 (model time 03:15, is_day 0, cloud 100% matching the overcast frame). Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people or focal logos; village from public road, documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T13:44:10.690706+00:00",
-  "sha256_16x9": "d1dfcb7b2fc735290e31868b8c79e53ceb2d163f7fcd77c9d28aa82b65cdcba7",
-  "sha256_4x5": "3a37a6ad1e4dc9e2594be4b6de281d4d96d1a7666fe9d21e086486d003d99a79"
+  "sha256_16x9": "396d1c4ce4f499f9e776d5f8b8ebefbbd0c6efd1b654fdf5e9d7b928ba577260",
+  "sha256_4x5": "c575192f3bfe6e9df27abf4c1f53c9c71f9e05d99be6bc4c6a81eca0a6c4ac1a",
+  "file_9x16": "Netherlands/Niehove/nl-01-214-9x16.png",
+  "sha256_9x16": "d4ba4d5bbef5c8c54e183fe06274b367f203fd79b14fcac44717f235d618edae",
+  "format_9x16_approval_status": "Candidate"
 }

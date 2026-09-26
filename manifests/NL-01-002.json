@@ -10,14 +10,15 @@
   "alt_text": "AI-generated artistic interpretation of the Prinsengracht in the Jordaan, Amsterdam, with canal houses and the Westerkerk in late-afternoon light",
   "file_16x9": "Netherlands/Amsterdam/nl-01-002-16x9.png",
   "file_4x5": "Netherlands/Amsterdam/nl-01-002-4x5.png",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-002-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
   "qc_status": "Cosmo QC 5/5 2026-09-25",
   "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Prinsengracht from the Jordaan bridge, Westerkerk tower down the canal, brick gabled houses, bicycles on the bridge; late-afternoon light matches the 18:26 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:26:39+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:26 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
   "approved_at": "2026-09-25T22:29:11.452457+00:00",
-  "sha256_16x9": "31c917b5266fb9dd695e50e2f1eb7a04b5b322ae0ae8600d330db320a2eecadf",
-  "sha256_4x5": "39820a34ac1f6ab2e369a4e52e5d9373729a6d1ce14897f4aa48282e26ab0349",
+  "sha256_16x9": "abf6842dcee97a91fb66d64905600f0f64e194827ea6e145a2e9cbb8b711c1d9",
+  "sha256_4x5": "29283b1202b0f9c07a4fa7646e3c21d3e3c9b42efbf0849f4c9655c795af3d97",
   "file_16x9_day": "Netherlands/Amsterdam/nl-01-002-daylight-16x9.png",
   "file_4x5_day": "Netherlands/Amsterdam/nl-01-002-daylight-4x5.png",
   "daylight_variant": {
@@ -49,5 +50,8 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_9x16": "533b68cc8020d796da4233244b6668b50b805d40749fe567370f0fa51a4037d8",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 31c917b5266fb9dd695e50e2f1eb7a04b5b322ae0ae8600d330db320a2eecadf. Source SHA-256 4:5 39820a34ac1f6ab2e369a4e52e5d9373729a6d1ce14897f4aa48282e26ab0349. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

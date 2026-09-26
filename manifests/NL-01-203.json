@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night. G1 visual pass: the brick Aa-kerk with its tall openwork-spire tower beside dark water, street lamps lit along the quay, overcast sky — recognizably the Groningen church, framing steady, no artifacts (4x5 crop spot-checked for text legibility). G2 technical pass: exact 1920x1080/864x1080; caption 'Aa-kerk, Groningen', scenario '26 September 2026 · 02:56 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:56:05+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: public church, no people or logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T12:43:21.331138+00:00",
-  "sha256_16x9": "71233e5eaf43e41fee048398e3ffc7e1dbdc033234dd75787429109626535d23",
-  "sha256_4x5": "a0bec8710c5216fae168b1b5d046f88cb05f1f2a71f674ec75606e56914443a5"
+  "sha256_16x9": "f9ab6635924e9a416e1ddbda92c34c50a0af1baa2359913cdd43f00a13908461",
+  "sha256_4x5": "f8a2450b840045594b68ac130cc9d2f837253eb0a0bc636ef4401b1375711985",
+  "file_9x16": "Netherlands/Groningen/nl-01-203-9x16.png",
+  "sha256_9x16": "5d33898fbe9eccfe32c3e60e43c17fb319af21eb67d672227f889e07c120a78e",
+  "format_9x16_approval_status": "Candidate"
 }

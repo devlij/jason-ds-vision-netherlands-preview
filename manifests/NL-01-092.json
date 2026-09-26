@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Harbour, Monnickendam. Night harbour with tall-masted boats, white footbridge, rows of gabled houses with warm windows and a church tower behind. Scenario '26 September 2026 · 00:38 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T00:38:28+02:00 (retrieved; model-valid hour 00:30), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:39:56.088116+00:00",
-  "sha256_16x9": "72622787c31e5f1e2c3b80fa90b40cd4471729af7db73181977bb5a2e434a850",
-  "sha256_4x5": "940a695921f3d4fe84a5d41c819ebdb2fab0922fc68b728d023bd2e8bd3f2ace"
+  "sha256_16x9": "81d7fbdd84bb8335fcc43794b5eb8e62825545e7dc868815ea52bbda2c1b93ec",
+  "sha256_4x5": "a0194600007d2bad53fd909face60e62ff69e3a9bb60b2cb34db45177770f6da",
+  "file_9x16": "Netherlands/Monnickendam/nl-01-092-9x16.png",
+  "sha256_9x16": "85b4c7e787075e7a15921f76c066f0082a2e8c07d8ed60510e97bdcfa731f34c",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 72622787c31e5f1e2c3b80fa90b40cd4471729af7db73181977bb5a2e434a850. Source SHA-256 4:5 940a695921f3d4fe84a5d41c819ebdb2fab0922fc68b728d023bd2e8bd3f2ace. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

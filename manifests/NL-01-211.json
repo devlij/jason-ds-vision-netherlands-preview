@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Kerkje aan de Zee reads as Urk's landmark church — the brick tower with its signature onion dome and cupola, nave and IJsselmeer water, harbor lamps left; both formats agree on the dome (4x5 spot-checked), clean night framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image caption 'Kerkje aan de Zee, Urk', scenario '26 September 2026 · 03:16 Europe/Amsterdam', 'Jason D's Vision' signature and AI disclosure legible on the gradient scrim; Art. 50 PNG metadata present; per-scene Open-Meteo retrieval 2026-09-26T03:16:05+02:00 verified unique to the second across all 288 Netherlands weather files, scenario minute inside model-valid hour 03:00-03:59 (model time 03:15, is_day 0, cloud 100% matching the overcast frame). Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people or focal logos; public church, documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T13:43:20.079857+00:00",
-  "sha256_16x9": "0f9ba19d66258819dfcffc9adfdeab635c8aad0c8611ee76d0f7cf2b03eb6caf",
-  "sha256_4x5": "235a799d8e27a87b9b3bdb52eea971405f2d304615ecc5cd36e6dd7114114665"
+  "sha256_16x9": "876057949df834ca7a836c97f6bd1e955843ce46713f6ef495a97b47b73b8fdf",
+  "sha256_4x5": "598c633520211a3dd42d65a31cd55a28157c416c1c21d1d0c69df769cc877fcf",
+  "file_9x16": "Netherlands/Urk/nl-01-211-9x16.png",
+  "sha256_9x16": "9324e7121bd2f2c5efbaacba56aa080ae3468d15f579d9e9bb802a26cee8077d",
+  "format_9x16_approval_status": "Candidate"
 }

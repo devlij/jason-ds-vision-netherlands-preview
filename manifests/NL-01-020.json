@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Vondelpark at night — wooden footbridge over a still pond reflecting lamplight, the modernist Blauwe Theehuis pavilion glowing among the trees; clean night composition, no artifacts. G2: exact dims verified; on-image 'Vondelpark, Amsterdam', scenario '25 September 2026 · 23:05 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 23:05 inside model hour 23:00; Open-Meteo retrieval 2026-09-25T23:05:10+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; public park, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:45:19.983112+00:00",
-  "sha256_16x9": "781db9ca951b0e304285523171668afce9c47b1117a53cfe31df2d611b579176",
-  "sha256_4x5": "840d253b3a82c1cbf5da514ca96a98801cbf36802f3ba18525ebbb811eb5eefe"
+  "sha256_16x9": "eb1ff027deb93a310cd78a34c89cdf58324467c9623bccd18652ffccd16556ff",
+  "sha256_4x5": "263ee8e7379cf24ef61088d910de37a9e6b5e442761fced9f9e488771e5c6039",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-020-9x16.png",
+  "sha256_9x16": "00bcb6506a5618914c5c1fb4e371e500935a593fc40d6faf6815eab0b841c452",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 781db9ca951b0e304285523171668afce9c47b1117a53cfe31df2d611b579176. Source SHA-256 4:5 840d253b3a82c1cbf5da514ca96a98801cbf36802f3ba18525ebbb811eb5eefe. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

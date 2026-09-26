@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Harbour, Doesburg. Long quay of stepped-gable merchant houses with warm lit windows behind a stone quay wall, the Martinikerk tower rising behind, moored boats and long reflections on the water. Scenario '26 September 2026 · 00:38 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T00:38:36+02:00 (retrieved; model-valid hour 00:30), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:40:16.834150+00:00",
-  "sha256_16x9": "03a2f9a133c3b883ba193d62f2fa2832c280c8a89f7fca6ea631c9acd73f1b7e",
-  "sha256_4x5": "0762a99dc5097d95fedfaa0385734d3fcebf9b14a3566526477b17cf66da5b56"
+  "sha256_16x9": "ab000b730adec9446f3118bf9ee184023b88f025f7a743f0859c7c657a546b6a",
+  "sha256_4x5": "a55b825a63de09cd7457ad4856b3e05aea7a7853ee28cab9fc35b96878cc90a2",
+  "file_9x16": "Netherlands/Doesburg/nl-01-095-9x16.png",
+  "sha256_9x16": "0086ccf973d66129ab0a01ff986924b175f244902114a3c755aa2d61c0686ae8",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 03a2f9a133c3b883ba193d62f2fa2832c280c8a89f7fca6ea631c9acd73f1b7e. Source SHA-256 4:5 0762a99dc5097d95fedfaa0385734d3fcebf9b14a3566526477b17cf66da5b56. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

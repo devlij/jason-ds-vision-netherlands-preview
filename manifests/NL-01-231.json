@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Striped brick round defense tower with crenellations on the Veere harbor at night, stepped-gable brick buildings alongside, lamplight reflections shimmering on the water; caption 'Campveerse Toren, Veere' and scenario '26 September 2026 · 03:37 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:37 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:37:48+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
   "approved_at": "2026-09-26T14:43:17.420557+00:00",
-  "sha256_16x9": "601c49b40dedb4fd20498342235819f6aa00b379ff4a7a8ce7e44350958af1ce",
-  "sha256_4x5": "46f02b0d094f129a195c51fb0bc805d76bc8e3ecdc6fa717e08237ba80eef9b5"
+  "sha256_16x9": "4287e342e33099c87791d6b9e83ac939e250c00f3dc35d2f28185e64435e2b1c",
+  "sha256_4x5": "2dc3f36ac3e5299953095b48da76e8b1778130f1f3e127f6926c037cb4cf826b",
+  "file_9x16": "Netherlands/Veere/nl-01-231-9x16.png",
+  "sha256_9x16": "16457a8dad4fa361225556c557c39e973d1fcf11820d7debbb71bf6e8f9cad0d",
+  "format_9x16_approval_status": "Candidate"
 }

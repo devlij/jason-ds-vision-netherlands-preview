@@ -1,0 +1,21 @@
+Netherlands 9:16 exposure gate — 2026-09-26
+
+Parent of this commit: 3039aa5c899b836301e3e7c9193556263773c76e
+That commit sits on origin/main 12452cfebad85e6ea42cc8b7179400a3e026c405.
+This is a UI gate and a template default. No artwork was rewritten. No approval was added.
+
+Fix A — 9:16 tab and download
+index.html renders the 9:16 tab and the Download 9:16 link only when format_9x16_approval_status is Approved. file_9x16 stays in the scene record and the PNG stays on disk.
+258 scenes carry file_9x16. 0 of those 9:16 frames are Approved. All 258 are Candidate.
+Rendered gallery: 288 cards, 0 cards with a 9:16 tab, 0 cards with a Download 9:16 link.
+The 23 unapproved holds have no 9:16 control: NL-01-205, 249, 253–256, 259, 263, 264, 273, 276–288.
+Approved 16:9 and 4:5 are unchanged. NL-01-001 stays Approved, 1920×1270 and 864×1270, with the daylight toggle. Daylight switches to nl-01-001-daylight-16x9.png (1920×1080) and nl-01-001-daylight-4x5.png (864×1080), then back to the night master. NL-01-026 stays Approved at 1920×1080 with two tabs and no daylight control.
+
+Fix 2 — publish.py GA4
+tools/publish.py template default was G-FPVHCRLKD2 (2). It is now G-PDJ4WSS725 (2). The live page was already G-PDJ4WSS725 (2). G-FPVHCRLKD2 is absent from the page and from publish.py.
+
+Page shell, with the scene list stripped, matches origin/main except the one gate line above. Badges, word-of-day, lightbox, 16:9 and 4:5 tabs, those downloads, the country switcher, the flag, and analytics were not restyled. Spain remains https://spain.jdvision.org/.
+
+Left untouched
+NL-01-026 through NL-01-055 masters were not rewritten. Nothing beyond NL-01-288. No GenerateImage. Do not merge.
+origin/main has since moved to c3b845317688bb6e3a491ceb79d2097c637b45c2. Those later approvals were not imported in this commit.

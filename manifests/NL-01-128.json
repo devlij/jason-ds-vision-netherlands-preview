@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Grote Kerk, Vianen: the Gothic church tower closing the vista of a lamplit brick street, full moon and stars above the slate roofs, warm windows on both sides. On-image caption 'Grote Kerk, Vianen', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:55+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
   "approved_at": "2026-09-26T07:39:27.470841+00:00",
-  "sha256_16x9": "adf8b7692b4100f6bacc00834100bb20d0e75e7598d37fd9d1676fdde424e688",
-  "sha256_4x5": "274036cc42a6e4ab17922df6ace4d3a3bedcac2338ca047021749b428123f1ad"
+  "sha256_16x9": "e2fcc8253de763b15651c56292ef4b132e166ef6e60b64de85e2e1cf2389d40f",
+  "sha256_4x5": "c1346e9f38099519923f6b559c992df952df1f2bbd0b0bb0439d45e3eca5f151",
+  "file_9x16": "Netherlands/Vianen/nl-01-128-9x16.png",
+  "sha256_9x16": "8837dbe48affcf8c5bdbd31d5876ada8c8ac81211b2aae4ad4de25bd529999df",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 adf8b7692b4100f6bacc00834100bb20d0e75e7598d37fd9d1676fdde424e688. Source SHA-256 4:5 274036cc42a6e4ab17922df6ace4d3a3bedcac2338ca047021749b428123f1ad. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

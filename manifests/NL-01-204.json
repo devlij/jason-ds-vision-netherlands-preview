@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night. G1 visual pass: the Jacobuskerk brick nave with stepped gables and its detached saddle-roof bell tower inside the walled churchyard with stone gate pillars — a convincing Zeerijp prospect under an overcast sky, no artifacts. G2 technical pass: exact 1920x1080/864x1080; caption 'Jacobuskerk, Zeerijp', scenario '26 September 2026 · 02:56 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:56:08+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure present. G3: text-prompt-only, no photographic input. G4: church and churchyard, no people or logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T12:43:25.528213+00:00",
-  "sha256_16x9": "0e12409cb7efb9c123eaa346707450d4e72cc43474bd66bab9241c859bdb1c10",
-  "sha256_4x5": "74fb78b37e2ae775d8f71ccf63bb8f4143e8322d725fb4d827275bff8028ab82"
+  "sha256_16x9": "5ebaa48bfd12da88b2fa98d53f2ffa53389831be0b5a9474f8bb3dc8d20f1ed5",
+  "sha256_4x5": "cd02a433ffe9b1f577fb98a7bd785eebfe4c5b0c95ae6c23176197e89804e24c",
+  "file_9x16": "Netherlands/Zeerijp/nl-01-204-9x16.png",
+  "sha256_9x16": "26214189aed6c57f41c4d1c119993a8e3abc09af39a54e164dd1387cab9bf754",
+  "format_9x16_approval_status": "Candidate"
 }

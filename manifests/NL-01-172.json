@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Observed in the 16:9 master: moated brick castle with round corner tower and dark water reflection, white village church with spire at left, lamps along the quay, matching the weather model (is_day 0, WMO 3). G1: Slot Haamstede's moated castle with the village church beside it verified against anchors, no artifacts. G2: sweep-verified 1920x1080 and 864x1080 PNGs; exact caption, scenario line '26 September 2026 · 02:20 Europe/Amsterdam', AI disclosure and 'Jason D’s Vision' signature (curly apostrophe) legible on the bottom edge; EU AI Act Art. 50 PNG metadata present; scenario minute sits inside model-valid hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:20:19+02:00 verified unique to the second across all 288 Netherlands scenes. G3: evidence card documents text-prompt-only lineage, no photographic inputs. G4: no visible people, logos, or readable private property; license badge 'Free · no credit needed' recorded, final commercial-use call is Jason's. G5: manifest card fields complete, no open blockers.",
   "approved_at": "2026-09-26T10:39:10.010417+00:00",
-  "sha256_16x9": "60efe6ef20582eb58c1af08225895cf33f09226da2afab05d559f08c086f24ba",
-  "sha256_4x5": "9aeeea1cfc5e38ca36b351ea29a5844fec7605f42d3462d23ea12db8a6922fb6"
+  "sha256_16x9": "1f6e79aedb108b62c966b55084b508d3852a81b27f842206bcf3f5285c8d9253",
+  "sha256_4x5": "6ad5a3f06f5b3900c191a03891214de3ee6a8851f26ac839ff5b55b83f28f0aa",
+  "file_9x16": "Netherlands/Haamstede/nl-01-172-9x16.png",
+  "sha256_9x16": "7d13e0cc29a3c799e4c4b3868884879c0b23f15a79d8f1bd29f96546c9b245ce",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 60efe6ef20582eb58c1af08225895cf33f09226da2afab05d559f08c086f24ba. Source SHA-256 4:5 9aeeea1cfc5e38ca36b351ea29a5844fec7605f42d3462d23ea12db8a6922fb6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

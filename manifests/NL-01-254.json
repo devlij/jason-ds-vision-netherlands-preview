@@ -18,5 +18,8 @@
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26): the two format masters depict different structures - the 16x9 shows four large rectangular concrete caisson boxes in the dike linked by a glass walkway, while the 4x5 shows two giant cylindrical concrete towers with no boxes and no glass link. Card anchors (four concrete boxes, glass link joining the caissons) match the 16x9 and contradict the 4x5. Builder to align the renders and re-push."
     }
-  ]
+  ],
+  "file_9x16": "Netherlands/Ouwerkerk/nl-01-254-9x16.png",
+  "sha256_9x16": "28e4c3576a0ed2d8bd0fac3dade198bd27e9887819ae33379ff97107d2e57b0b",
+  "format_9x16_approval_status": "Candidate"
 }

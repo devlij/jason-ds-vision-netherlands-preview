@@ -1,0 +1,22 @@
+Netherlands reconciliation onto origin/main — 2026-09-26
+
+Source of truth: origin/main b4c822e3c582bcf379c2f0ee56df736edb9ad0a0
+This commit sits on that main tip. It is the reconciliation. History before it on this branch is origin/main.
+
+This is a metadata reconciliation, not a new render and not a merge. PNG masters, 9:16 frames, and the faithful batch notes stay. The page shell is origin/main's shell. Approval metadata is origin/main's. This branch does not add approvals.
+
+Approved IDs re-read from origin/main manifests: 260 scenes.
+Ranges: NL-01-001–NL-01-204, NL-01-206–NL-01-248, NL-01-250–NL-01-252, NL-01-257–NL-01-258, NL-01-260–NL-01-262, NL-01-265–NL-01-269.
+Not approved on those manifests: NL-01-205, NL-01-249, NL-01-253, NL-01-254, NL-01-255, NL-01-256, NL-01-259, NL-01-263, NL-01-264, NL-01-270, NL-01-271, NL-01-272, NL-01-273, NL-01-274, NL-01-275, NL-01-276, NL-01-277, NL-01-278, NL-01-279, NL-01-280, NL-01-281, NL-01-282, NL-01-283, NL-01-284, NL-01-285, NL-01-286, NL-01-287, NL-01-288.
+
+What was reconciled
+- index.html scene records now carry main's approval_status, approval_basis, approved_at, and qc_status. Approved count is 260, the same as origin/main. The 86 scenes that were Approved on main and missing on the branch (NL-01-175 onward, with the gaps above) have those fields again.
+- Manifests for every scene keep main's approval fields. SHA-256 values for shipped 16:9, 4:5, and 9:16 masters match the files on this branch. format_9x16_approval_status is Candidate wherever a 9:16 file exists. That does not inherit the 16:9 or 4:5 approval.
+- NL-01-041 through NL-01-055 manifests were missing main's approval fields. Those manifests were restored from origin/main. Their PNG masters were not rewritten.
+- Approval notes are origin/main's notes. Where the shipped file hash was not already in the note, a branch file-anchor section was appended. The notes stay Candidate. No approval was added in the markdown.
+- GA4 is main's G-PDJ4WSS725 (2). G-FPVHCRLKD2 is absent.
+- The Spain link is main's https://spain.jdvision.org/ . The stale github.io Spain preview URL is absent.
+- Page shell, with the scene list stripped, matches origin/main.
+
+Left untouched
+Cosmo lock artwork NL-01-001–010 and NL-01-026–055 was not rewritten. Nothing beyond NL-01-288. Denmark was not started. No GenerateImage.

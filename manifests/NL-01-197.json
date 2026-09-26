@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night. G1 visual pass: the Papeloze Kerk hunebed — massive capstone on uprights with kerb stones on a heath mound — among tall pines under a dramatic cloud break, instantly recognizable dolmen prospect, no artifacts. G2 technical pass: exact 1920x1080/864x1080; caption 'Papeloze Kerk, Schoonoord', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:49+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: ancient monument, no people or logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T12:42:56.381723+00:00",
-  "sha256_16x9": "97a6252fd531c10acf0beae00c657fe5108d6c0ba972c263bfe83edc64f8f62d",
-  "sha256_4x5": "b4078835d57ba48c7665fba3956bf47b1f94f28f78e8d3aeef46451520cefe09"
+  "sha256_16x9": "81af5a7ccf94f8d77564ad3ce574fc5f3c719240a1d0f9d966eb6ad6c75c4f13",
+  "sha256_4x5": "c899a472c1162733a9688ffc7da19e3595f98dfa88b82aa065e2053dfa342f9e",
+  "file_9x16": "Netherlands/Schoonoord/nl-01-197-9x16.png",
+  "sha256_9x16": "85b60de7cfe32a6a18e08e8ca65d61f474b73402873bce6424a79caf236c6e2b",
+  "format_9x16_approval_status": "Candidate"
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: dark lagoon at night — bright near-full moon with a thin moonlight reflection stripe on calm water, mangrove silhouettes along the near left shore, pale sand edge bottom right, distant shore lights; matches the 'dark lagoon, not a sunlit turquoise postcard' anchor. Gate 2 PASS: exact 1920x1080/864x1080, on-image 'Lac Bay, Bonaire', scenario '25 September 2026 · 19:56 America/Kralendijk', disclosure and curly-apostrophe 'Jason D's Vision' signature legible on scrim; Art. 50 metadata present on both masters; scenario minute 19:56 inside model-valid hour 19:00–19:59 of Open-Meteo retrieval 2026-09-25T19:56:39-04:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: no people, no focal logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
   "approved_at": "2026-09-26T09:44:45.008379+00:00",
-  "sha256_16x9": "976c35cd294f30ad87f654ca27f518c2f71b795675a029feb63acb7159b701f4",
-  "sha256_4x5": "b2944bf1beffb3670967e35458a29196c66decceb0a6960d47c8ab75e12758fb"
+  "sha256_16x9": "f00042ac0d219dc435805de55814b1fc323a0f393adc76e957d4821f517e3198",
+  "sha256_4x5": "86fdc56cb182d66a2b8dcb4dc98ea814a2fb3d24c7eaf78cd82cc02a90fd9bda",
+  "file_9x16": "Netherlands/Bonaire/nl-01-146-9x16.png",
+  "sha256_9x16": "327c15694215fd584fbaa707154c2ea71ed13c0f89334082daf55802c2270a61",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 976c35cd294f30ad87f654ca27f518c2f71b795675a029feb63acb7159b701f4. Source SHA-256 4:5 b2944bf1beffb3670967e35458a29196c66decceb0a6960d47c8ab75e12758fb. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

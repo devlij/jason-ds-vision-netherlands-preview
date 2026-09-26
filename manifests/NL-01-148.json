@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: octagonal brown-brick Poldertoren with clock faces on multiple sides, open illuminated belfry/lantern, low tent roof, golden ship weathervane, standing on the wide wet-paved square of De Deel under an overcast night sky; one visible clock face reads ~01:55–01:57, consistent with the scenario; no scaffold. Gate 2 PASS: exact 1920x1080/864x1080, on-image 'Poldertoren, Emmeloord', scenario '26 September 2026 · 01:56 Europe/Amsterdam', disclosure and curly-apostrophe 'Jason D's Vision' signature legible on scrim; Art. 50 metadata present on both masters; scenario minute 01:56 inside model-valid hour 01:00–01:59 of Open-Meteo retrieval 2026-09-26T01:56:44+02:00, unique to the second repo-wide (288 files, zero duplicates). Gate 3 PASS: text-prompt-only, no photographic inputs. Gate 4 documented-only: no people, no focal logos (final commercial call is Jason's). Gate 5 PASS: no open blockers.",
   "approved_at": "2026-09-26T09:44:53.920635+00:00",
-  "sha256_16x9": "78629b64112e5fa5be0220ac7650a875b020193898667bed66c1f9efc2996fd4",
-  "sha256_4x5": "fd0289bce3c232c17e589d398c6d396f7ce326e89f504c7286553a571c030879"
+  "sha256_16x9": "beab9c0fc03b72a65174eb6d12ee3bf092f784cd80005cd9ea40b36e5b9d5de3",
+  "sha256_4x5": "2f5e326c9c146103fe5d671c14d1a44adc06ee86fc744256e98a10c754995d5c",
+  "file_9x16": "Netherlands/Emmeloord/nl-01-148-9x16.png",
+  "sha256_9x16": "69707fa9e6d65c9cb756589087a8835063b49950470df8f20d849842fbadea05",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 78629b64112e5fa5be0220ac7650a875b020193898667bed66c1f9efc2996fd4. Source SHA-256 4:5 fd0289bce3c232c17e589d398c6d396f7ce326e89f504c7286553a571c030879. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

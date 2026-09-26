@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Klooster Ter Apel at night from the public ground south of the church range — brick gothic monastery church with steep tiled roof and tall tracery windows under a bright full moon, one wall lamp glowing warm, tree canopy left; recognizable monastery composition, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Klooster Ter Apel, Ter Apel', scenario '26 September 2026 · 02:37 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 02:37 inside model hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:37:08+02:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
   "approved_at": "2026-09-26T11:55:13.102179+00:00",
-  "sha256_16x9": "65a011d9b09629234ff6a5fa21dfc55be1a3f9c215b91346ad3c66a9f1409af8",
-  "sha256_4x5": "4c1f6fc2da1f51d1ce1063a802caf03cf8245825d47211e2b867cbd4ae5e6004"
+  "sha256_16x9": "78f2bcabe3331864c988dc43307053abde4626b820daadc835fb4fa827defd66",
+  "sha256_4x5": "95d89d43a3734478d64e26bbbf93bd5b1af53768887c3a99a6b21190863a1671",
+  "file_9x16": "Netherlands/Ter Apel/nl-01-186-9x16.png",
+  "sha256_9x16": "c3368f20478e95187b9cedef50a1c0f1c411a5a79ff3a06ebdac7bb9b38bb557",
+  "format_9x16_approval_status": "Candidate"
 }

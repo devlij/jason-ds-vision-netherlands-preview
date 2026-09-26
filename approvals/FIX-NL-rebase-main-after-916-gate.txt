@@ -1,0 +1,27 @@
+Netherlands rebase onto origin/main after the 9:16 gate — 2026-09-26
+
+Before this commit the branch tip was b9c64c74901ba025a26e22c7207a80792ff4ac3d.
+git rev-list --left-right --count origin/main...that tip was 19 behind, 2 ahead.
+Source of truth: origin/main c3b845317688bb6e3a491ceb79d2097c637b45c2.
+This commit sits on that main tip. It is the reconciliation. History before it on this branch is origin/main.
+
+This is a metadata reconciliation, not a new render and not a merge. PNG masters, 9:16 files, and the batch and fix notes stay, including the faithful NL-01-001–010 masters. The 9:16 tab and Download 9:16 still render only when format_9x16_approval_status is Approved. publish.py still uses G-PDJ4WSS725. No approval was added by this branch.
+
+Approved IDs re-read from origin/main manifests: 274 scenes, the same count this commit writes into the gallery.
+Ranges: NL-01-001–NL-01-204, NL-01-206–NL-01-248, NL-01-250–NL-01-252, NL-01-257–NL-01-258, NL-01-260–NL-01-262, NL-01-265–NL-01-272, NL-01-274–NL-01-283, NL-01-285.
+Imported from the commits after 12452cf: NL-01-276, NL-01-277, NL-01-278, NL-01-279, NL-01-280, NL-01-281, NL-01-282, NL-01-283, NL-01-285.
+NL-01-284 is not Approved. Its Cosmo QC hold note was copied onto the manifest. The 9:16 frame stays Candidate.
+Not approved: NL-01-205, NL-01-249, NL-01-253, NL-01-254, NL-01-255, NL-01-256, NL-01-259, NL-01-263, NL-01-264, NL-01-273, NL-01-284, NL-01-286, NL-01-287, NL-01-288.
+
+9:16 gate
+258 scenes still carry file_9x16. 0 of those frames are Approved. All 258 stay Candidate.
+Rendered gallery: 288 cards, 0 with a 9:16 tab, 0 with a Download 9:16 link.
+The previous 23 holds still have no 9:16 control, including the nine that are now Approved for 16:9 and 4:5. NL-01-001 daylight still toggles. NL-01-026 stays 1920×1080 with two tabs.
+
+Page
+GA4 on the page is G-PDJ4WSS725 (2). G-FPVHCRLKD2 is absent. tools/publish.py is G-PDJ4WSS725 (2).
+The Spain link is https://spain.jdvision.org/.
+Page shell, with the scene list stripped, matches origin/main except the 9:16 approval gate line. Badges, word-of-day, lightbox, 16:9 and 4:5 tabs, those downloads, the country switcher, the flag, and analytics were not restyled.
+
+Left untouched
+NL-01-026 through NL-01-055 masters were not rewritten. Nothing beyond NL-01-288. No GenerateImage. Do not merge.

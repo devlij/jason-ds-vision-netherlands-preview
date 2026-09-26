@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Observed in the 16:9 master: large stone church with prominent pointed-spire tower and Romanesque arcading, starry sky and moon, lit town-square lamps, matching the weather model (is_day 0, WMO 0). G1: Grote Kerk's big stone tower with spire on the town square verified against anchors, plausible tourist viewpoint, no artifacts. G2: sweep-verified 1920x1080 and 864x1080 PNGs; exact caption, scenario line '26 September 2026 · 02:18 Europe/Amsterdam', AI disclosure and 'Jason D’s Vision' signature (curly apostrophe) legible on the bottom edge; EU AI Act Art. 50 PNG metadata present; scenario minute sits inside model-valid hour 02:00–02:59; Open-Meteo retrieval 2026-09-26T02:18:17+02:00 verified unique to the second across all 288 Netherlands scenes. G3: evidence card documents text-prompt-only lineage, no photographic inputs. G4: no visible people, logos, or readable private property; license badge 'Free · no credit needed' recorded, final commercial-use call is Jason's. G5: manifest card fields complete, no open blockers.",
   "approved_at": "2026-09-26T10:38:42.316659+00:00",
-  "sha256_16x9": "15c9a38108d0c129a8933b948766994a02f434bda09aeec526e04c0ec37822f2",
-  "sha256_4x5": "9b8f2b8f2b3bdbd506677b93174716f3aadd7f0ffe0a5c7d96eb6a18278127d6"
+  "sha256_16x9": "dfc0aab32df9f4b2182e74d7d634bc7e978523b5eec2c6746bb13fadaad13b63",
+  "sha256_4x5": "c797eadf3fc8fc8264d47ed1e9ff7c67d66d1e1f997f36c175898956242574c6",
+  "file_9x16": "Netherlands/Enschede/nl-01-166-9x16.png",
+  "sha256_9x16": "76213ad0edcd1ed0694e38c022a08fad8040fa6e797101ced49de47dfed83244",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 15c9a38108d0c129a8933b948766994a02f434bda09aeec526e04c0ec37822f2. Source SHA-256 4:5 9b8f2b8f2b3bdbd506677b93174716f3aadd7f0ffe0a5c7d96eb6a18278127d6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

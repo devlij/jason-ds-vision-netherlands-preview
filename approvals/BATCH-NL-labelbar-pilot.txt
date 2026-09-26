@@ -1,0 +1,64 @@
+Netherlands label-bar pilot — 2026-09-26
+
+Tooling
+- tools/composite_masters.py — replaces the gradient-scrim bake. Photo stays pure. 190px #0e0e12 bar and a 2px hairline are added under the photo. Art. 50 chunks are inserted before IEND after the image encode.
+- tools/README.md — CLI.
+- tools/fonts/Allura-Regular.ttf — vendored from google/fonts ofl/allura (OFL: tools/fonts/OFL.txt).
+- Bar type: DejaVu Sans bold for the site line; DejaVu Sans regular for the scenario, the disclosure, and “Jason D’s Vision” (curly apostrophe); Allura for “Jason A. Devlin”.
+
+CLI
+  python3 tools/composite_masters.py NL-01-100 --source pure.png --source-4x5 pure-4x5.png --source-9x16 pure-9x16.png
+  python3 tools/composite_masters.py NL-01-100 NL-01-110 --check
+NL-01-001–010 and NL-01-026–055 are refused unless --allow-locked is passed. This pilot did not pass it.
+
+Pilot IDs (night Candidates, not Cosmo-locked)
+- NL-01-100 Helmond Castle, Helmond. Clear night. Scenario reused: 26 September 2026 · 01:04 Europe/Amsterdam.
+- NL-01-110 Waterfront, Tiel. Clear night. Scenario reused: 26 September 2026 · 01:04 Europe/Amsterdam.
+Weather JSON was not rewritten. Open-Meteo fields are the existing per-scene retrievals.
+
+Pre-text (pure photos, no scrim, no type). Regenerated from the evidence cards. Not cropped out of the old finished masters.
+4:5 and 9:16 are honest re-frames of the same viewpoint. A 16:9 center-crop to 9:16 would have cut the castle and the water gate. The tool still center-crops from the 16:9 pre-text when a format-specific file is absent.
+- library/pretext/Netherlands/Helmond/nl-01-100-16x9.png  1280×720   1062201 bytes
+- library/pretext/Netherlands/Helmond/nl-01-100-4x5.png   864×1152   1059638 bytes
+- library/pretext/Netherlands/Helmond/nl-01-100-9x16.png  720×1280    952387 bytes
+- library/pretext/Netherlands/Tiel/nl-01-110-16x9.png     1280×720    815906 bytes
+- library/pretext/Netherlands/Tiel/nl-01-110-4x5.png      864×1152    917945 bytes
+- library/pretext/Netherlands/Tiel/nl-01-110-9x16.png     720×1280    630720 bytes
+
+Masters (label bar baked; Lanczos to the photo size, then +190px)
+- library/world/Netherlands/Helmond/nl-01-100-16x9.png  1920×1270  2117803 bytes
+  SHA-256 a63a245d66938b004525c0594349b42b1804f8fa61460b69d9fcd47a4a05f7e1
+- library/world/Netherlands/Helmond/nl-01-100-4x5.png    864×1270  1031746 bytes
+  SHA-256 3c9d8bd73dec8027dd1c867c14781d252ae6fae89123708677b5d29716d9a30c
+- library/world/Netherlands/Helmond/nl-01-100-9x16.png  1080×2110  1873490 bytes
+  SHA-256 f7ba8c2cff3d5c0ef4d4940f924e7db9f71f276e31f2f760a5c6e628ec28495d
+- library/world/Netherlands/Tiel/nl-01-110-16x9.png     1920×1270  1678116 bytes
+  SHA-256 12193896c358fad5b0463516f5bcd9767efb75488352dad811bb9b5d1c403eac
+- library/world/Netherlands/Tiel/nl-01-110-4x5.png       864×1270   889186 bytes
+  SHA-256 575eb1315bfee12c24059848356059d05d3e10be702e6eb3e561787ba1b1145b
+- library/world/Netherlands/Tiel/nl-01-110-9x16.png     1080×2110  1241205 bytes
+  SHA-256 1e0df4bd6f2da32f9255e7785c2d13bab4e350c2ef23fe263791be46f200851e
+
+Art. 50 — confirmed on all six masters (metadata only). Photo pixels match the fitted pre-text.
+- Title (iTXt): Jason D's Vision — AI-generated artistic interpretation
+- Description (tEXt): AI-generated artistic interpretation from the Jason D's Vision Netherlands gallery. Created with generative AI; not a photograph.
+- Copyright (iTXt): Jason D's Vision — AI-generated content
+- Software (tEXt): Jason D's Vision library pipeline
+- Comment (tEXt): EU AI Act Art. 50 transparency note: this image is AI-generated content. Machine-readable disclosure embedded 2026-09-24.
+Title and Copyright use a straight apostrophe and an em dash. The on-image “Jason D’s Vision” uses U+2019.
+
+Gallery
+- Format tabs sit under the image (16:9 / 4:5, plus 9:16 only when file_9x16 is set).
+- Downloads sit under the tabs. Daylight toggle, when present, sits between the tabs and the downloads.
+- No control overlays the artwork. The “View image” button is removed. The image itself still opens the lightbox.
+- NL-01-100 and NL-01-110 are wired to the three new masters.
+- Every other scene still uses its previous 16:9 and 4:5 masters.
+- Cosmo Daylight toggle remains on NL-01-001–010 only (10 file_16x9_day entries). No daylight masters were built in this batch.
+
+Cosmo untouched
+- NL-01-001–010 night and daylight masters, manifests, and approvals were not rewritten.
+- NL-01-026–055 manifests and masters were not rewritten.
+- Both pilot notes stay approval_status: Candidate.
+
+Not in this batch
+- No other country. No NL-01-289–304 expand. No daylight variants.

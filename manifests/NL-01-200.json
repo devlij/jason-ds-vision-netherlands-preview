@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night. G1 visual pass: the brick Peperbus tower with its copper onion dome floodlit against a dark sky, open belfry stage visible — recognizably the Zwolle tower, vertical framing strong, no artifacts. G2 technical pass: exact 1920x1080/864x1080; caption 'Peperbus, Zwolle', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:57+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure present. G3: text-prompt-only, no photographic input. G4: public church tower, no people or logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T12:43:09.095699+00:00",
-  "sha256_16x9": "da7b353694039d4e51c7797cf55f5b59be85c78a0075456e8b8ddfde27e7006a",
-  "sha256_4x5": "73fb72f823f0d8cbfc6bc35ddff9e81afde989ff0aa5cd780325cdeffda22d09"
+  "sha256_16x9": "3cf19858ebcc4ffb05d5e690a8d01e1428ffcff7d85af6fd8da51a5271dbcb8a",
+  "sha256_4x5": "fbcafd437c1032ae1aa9687afe41f980954f044e16fbd0232f2e71ab4913eae8",
+  "file_9x16": "Netherlands/Zwolle/nl-01-200-9x16.png",
+  "sha256_9x16": "d85bbb90d8a1ec269af6146da6a86f3268d68302c2d30eac2fe3aa6a8abfaffa",
+  "format_9x16_approval_status": "Candidate"
 }

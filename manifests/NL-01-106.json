@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1: night view from the sea dike of the Westkapelle lighthouse, square brick tower with buttresses and red iron lantern on the roof, moonlit cloud layer, grass dike foreground; 4x5 crop legibility spot-checked. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Lighthouse, Westkapelle', scenario '26 September 2026 · 01:04 Europe/Amsterdam', disclosure and signature legible both formats; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:04:34+02:00, unique across all 288 NL scenes; scenario minute inside model hour 01:00. G3: builder note documents text-prompt-only generation, no photographic input. G4: no prominent people or focal logos; internal documentation only. G5: card fields complete.",
   "approved_at": "2026-09-26T06:39:06.856718+00:00",
-  "sha256_16x9": "f7d7db181fb454d5c219e542c5b3919bf724e70e0bd14ebde5558912d7b9310c",
-  "sha256_4x5": "421a476667cf5acc4cc7cc7a0db290e2f48f993428d78b371fd6feb2178f7e4d"
+  "sha256_16x9": "2ae12712a890ef38bccdd2782d8ba6fb59b212da04c2af31c39de3bfd28d92b9",
+  "sha256_4x5": "7169504c4fa56dcac229406ab80d98ccfdc4ff42a4fd17ffe39890cb8f16ad49",
+  "file_9x16": "Netherlands/Westkapelle/nl-01-106-9x16.png",
+  "sha256_9x16": "26d3387cefae976e0f5463c3ade578951486c6e9c92ebe3f247cbd5e65981bab",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 f7d7db181fb454d5c219e542c5b3919bf724e70e0bd14ebde5558912d7b9310c. Source SHA-256 4:5 421a476667cf5acc4cc7cc7a0db290e2f48f993428d78b371fd6feb2178f7e4d. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

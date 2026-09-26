@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: roofless yellow-brick Honen Dalim synagogue ruins under a starry sky, tall arched window openings, Synagogue Path approach, mikveh basin at lower right - both formats agree on subject identity; clean, no artifacts. Gate 2: Open-Meteo retrieval 2026-09-25T22:37:51-04:00 unique to the second repo-wide across all 288 NL evidence files; scenario 22:37 America/Kralendijk inside the model-valid hour 22:00-22:59; exact 1920x1080/864x1080; exact caption, scenario, disclosure and curly-apostrophe Jason D's Vision signature on both formats; Art. 50 EU AI Act metadata present. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or logos; license badge documented only. Gate 5: manifest card fields complete.",
   "approved_at": "2026-09-26T19:39:21.305002+00:00",
-  "sha256_16x9": "fdb7af5b65858d14610ea7eb650624a0fb72827eb70e4cd8c98adb23bea1c5d4",
-  "sha256_4x5": "46a34762b9b6da72ceee5d84083aebfc8aff6cf8bc4d016e82c545d3b4867b74"
+  "sha256_16x9": "9176d94b0f7f2c18266f7c887873956f7628b2bab561571633919963239b2728",
+  "sha256_4x5": "7543869bf49b552ffa6c31702ab5d182d43be2123baefc1882dcd61f6f6a3c4d",
+  "file_9x16": "Netherlands/Oranjestad/nl-01-280-9x16.png",
+  "sha256_9x16": "f31858f8b8f68bc96e7f41e499b5ac3d88eef46ee2eda20a5c770f668f1f4a1b",
+  "format_9x16_approval_status": "Candidate"
 }

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Kasteel de Haar Haarzuilens — neo-Gothic brick castle with spired towers across the moat, autumn trees framing, night; matches the known castle silhouette. G2 PASS: exact dims; on-image caption 'Kasteel de Haar, Haarzuilens', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:43+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public castle. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:22.091313+00:00",
-  "sha256_16x9": "d3f48ff7301239deb6e10dab5794b80e193a148484694d84afe2a4a6f47c24a8",
-  "sha256_4x5": "55efdd4617016eacf8fe01cfd7a81ebb29a5b21e468a8105922c5aff9349c51e"
+  "sha256_16x9": "e412982f687a9659750623dc0fd102f844e2d4f1fb842d7cd44f088e1dce327b",
+  "sha256_4x5": "d116e95b4940219bbf8efe47c8d0a77489f44843d63c500316e57d064f8fdace",
+  "file_9x16": "Netherlands/Haarzuilens/nl-01-078-9x16.png",
+  "sha256_9x16": "6b2b72f070fad52a73a381cb7b651164b175c8b900a073ccdefacae62c5b9c93",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d3f48ff7301239deb6e10dab5794b80e193a148484694d84afe2a4a6f47c24a8. Source SHA-256 4:5 55efdd4617016eacf8fe01cfd7a81ebb29a5b21e468a8105922c5aff9349c51e. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows the small brick Heksenwaag weigh house with stepped gable and canopy across canal water, a lit historic street lamp and bridge at left, overcast night — matches the captioned weigh house and the card's quay-viewpoint anchors; no artifacts. Gate 2: exact dims via git blob API; on-image 'Heksenwaag, Oudewater', 'Scenario: 26 September 2026 · 03:37 Europe/Amsterdam', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-26T03:37:57+02:00 in evidence/weather/NL-01-235.json, unique to the second across all 288 Netherlands files, scenario inside the 03:00–03:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T15:44:39.525829+00:00",
-  "sha256_16x9": "703e7bdced1b3042dd3f5e1f4f91c18722dff3124312d2ba50612b02b11eb3aa",
-  "sha256_4x5": "359efd63145c0d2d56d3bf85b054b71abd2a76301dffa7988ee2bd46a4cb48ef"
+  "sha256_16x9": "8ebeaa56ef065fb1c3e850dfc9dd68d59a38978b11d38aee9f665de52cff3fd8",
+  "sha256_4x5": "d11b6ed68a0dfe48559c28c6288b646b7b9abf7f1db051964d1ff4fa78defa6f",
+  "file_9x16": "Netherlands/Oudewater/nl-01-235-9x16.png",
+  "sha256_9x16": "74d33f03008c3dcb7037d0e76c5a6bf84a4db4913d1809a3079b1fdbfef7b3d3",
+  "format_9x16_approval_status": "Candidate"
 }

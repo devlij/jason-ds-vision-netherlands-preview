@@ -1,0 +1,26 @@
+Netherlands reconciliation onto origin/main after the NL-01-001–010 locks — 2026-09-26
+
+Before this commit the branch tip was f44b8d7122e5399eeba8fcb14c4fe9b73ef4247e.
+The NL-01-001–010 masters are the ones added in 02747cd241f6035239212cf917ee12ccc4558c73.
+git rev-list --left-right --count origin/main...that tip was 11 behind, 3 ahead.
+Source of truth: origin/main 12452cfebad85e6ea42cc8b7179400a3e026c405.
+This commit sits on that main tip. It is the reconciliation. History before it on this branch is origin/main.
+
+This is a metadata reconciliation, not a new render and not a merge. PNG masters, 9:16 frames, and the batch notes stay, including the faithful NL-01-001–010 masters and the earlier faithful set. The page shell is origin/main's shell. Approval metadata is origin/main's. This branch does not add approvals.
+
+Approved IDs re-read from origin/main manifests: 265 scenes, the same count this commit writes into the gallery.
+Ranges: NL-01-001–NL-01-204, NL-01-206–NL-01-248, NL-01-250–NL-01-252, NL-01-257–NL-01-258, NL-01-260–NL-01-262, NL-01-265–NL-01-272, NL-01-274–NL-01-275.
+Imported from the +11: NL-01-270, NL-01-271, NL-01-272, NL-01-274, NL-01-275 (approval_status, approval_basis, approved_at, qc_status).
+NL-01-273 is not Approved. Its Cosmo QC hold note was copied onto the manifest. The 9:16 frame stays Candidate.
+Not approved: NL-01-205, NL-01-249, NL-01-253, NL-01-254, NL-01-255, NL-01-256, NL-01-259, NL-01-263, NL-01-264, NL-01-273, NL-01-276 through NL-01-288.
+
+What was reconciled
+- index.html for those five scenes now carries main's approval_status. Approved count is 265, the same as origin/main. No other scene object was rewritten.
+- Manifests for those five scenes keep main's approval fields. SHA-256 values for the shipped 16:9 and 4:5 masters are the branch files, not the scrim hashes on main. format_9x16_approval_status stays Candidate. The 9:16 frame does not inherit the 16:9 or 4:5 approval.
+- Approval notes for NL-01-270 through NL-01-275 were already main's Candidate notes plus branch file anchors. The +11 commits did not change those notes. They stay Candidate. No approval was added in the markdown.
+- GA4 is main's G-PDJ4WSS725 (2). G-FPVHCRLKD2 is absent.
+- The Spain link is main's https://spain.jdvision.org/ . The stale github.io Spain preview URL is absent.
+- Page shell, with the scene list stripped, matches origin/main.
+
+Left untouched
+NL-01-026 through NL-01-055 were not rewritten. Their index objects, manifests, and PNG masters still match origin/main. Nothing beyond NL-01-288. Denmark was not started. No GenerateImage.

@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Golden hour",
   "approval_basis": "G1 PASS: De Cocksdorp lighthouse — tapered red-brick tower with white lantern gallery rising from marram-grass dunes, beach and sea left, soft evening light; clean composition, no artifacts. G2: exact dims verified; on-image 'Lighthouse, De Cocksdorp', scenario '25 September 2026 · 18:28 Europe/Amsterdam', signature + disclosure legible; Art.50 metadata present. Scenario 18:28 inside model hour 18:00; Open-Meteo retrieval 2026-09-25T18:28:06+02:00 unique across all 128 NL scenes. G3: text-prompt-only claimed. G4: no people/logos; coastal landmark, documented only. G5: complete.",
   "approved_at": "2026-09-25T23:44:57.080588+00:00",
-  "sha256_16x9": "a5ab45ad851363131d261ea7fba0bede6e11b03a4c0f5052da8dc9f162d549cc",
-  "sha256_4x5": "52da12ec8f575200c846c27e82be54b6cb853ac5706de9d042ca35c0e91c7694"
+  "sha256_16x9": "e1e8d2ae36575c7de3e71961e219eea349b6e8ec7d73cf76dce8592bd3ab2bea",
+  "sha256_4x5": "f29733a3a3aed24839c21a7151e6ddb6dc14a66d32b222290a393462cc58aaa5",
+  "file_9x16": "Netherlands/De Cocksdorp/nl-01-015-9x16.png",
+  "sha256_9x16": "bf3d8118217575f02bbd8fc2bd2ab3126e5e039431e0b2ff2f0a049d86c1cf19",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a5ab45ad851363131d261ea7fba0bede6e11b03a4c0f5052da8dc9f162d549cc. Source SHA-256 4:5 52da12ec8f575200c846c27e82be54b6cb853ac5706de9d042ca35c0e91c7694. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows the Oostvaardersplassen's vast reed marsh and open water under a heavy grey overcast sky at night, a narrow path at far left — matches the captioned wetland reserve and card anchors; no artifacts. Gate 2: exact dims via git blob API; on-image 'Oostvaardersplassen, Lelystad', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-26T03:59:33+02:00 in evidence/weather/NL-01-247.json, unique to the second across all 288 Netherlands files, scenario inside the 03:00–03:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T15:46:00.507342+00:00",
-  "sha256_16x9": "fc112c9a76dcffc749c1116d1f0c405e0fb823618387d5e57db94c2f05cb13d0",
-  "sha256_4x5": "d0da79fb6af8b76c69807d9938fe0a4a7627ed98a2aed5e676a406b18c0de738"
+  "sha256_16x9": "a15a2ce6190637b40b3f8cb135e3db6b4b153cfbec2274d7d792429e1f36ae09",
+  "sha256_4x5": "89baa93dd5be1855a5c270500907cc32b766d7296797b99baf6b715e39c7bb32",
+  "file_9x16": "Netherlands/Lelystad/nl-01-247-9x16.png",
+  "sha256_9x16": "20050601ed26e4bb93def75096b8c40f8c89cd4276f14dc09fd1f170ec23e8c3",
+  "format_9x16_approval_status": "Candidate"
 }

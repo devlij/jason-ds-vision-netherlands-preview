@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1 PASS: Slot Loevestein Poederoijen — medieval brick castle with towers by the river at night, lamp glow at the arched entrance, reflections in water (4x5 text crop spot-checked legible); plausible. G2 PASS: exact dims; on-image caption 'Slot Loevestein, Poederoijen', scenario '26 September 2026 · 00:38 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:38:10+02:00 unique repo-wide; scenario 00:38 inside model window 00:30–00:45. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public monument. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:51.588002+00:00",
-  "sha256_16x9": "4bd867f12fe852a18bffb4bbd450d129dd8dee47802ca4588e00f95c4dc3e65b",
-  "sha256_4x5": "276cf5a6d64ad51c6c5cc6bf66391f209c39ec5af5835c7eba6e8bd91d84e6f3"
+  "sha256_16x9": "d16fbb3c2b864e255f06409148698d848152cced7c7a111f149659bd560eec3b",
+  "sha256_4x5": "25dec0119dd3cc2608e1c3d9d08d0be1ba6d8cf4c99786bea9a4220570247d56",
+  "file_9x16": "Netherlands/Poederoijen/nl-01-085-9x16.png",
+  "sha256_9x16": "7fe27bd16fb8c96501134955a527f7706f73e8563ba394772ab46057ec84a721",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4bd867f12fe852a18bffb4bbd450d129dd8dee47802ca4588e00f95c4dc3e65b. Source SHA-256 4:5 276cf5a6d64ad51c6c5cc6bf66391f209c39ec5af5835c7eba6e8bd91d84e6f3. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

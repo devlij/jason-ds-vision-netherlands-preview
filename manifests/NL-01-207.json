@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Batterij De Windt reads as a coastal artillery battery — three dark cannon barrels behind a low stone parapet on a cliff edge, dark sea under heavy overcast, sparse tropical vegetation at the frame edges; plausible night viewpoint, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image caption 'Batterij De Windt, Sint Eustatius', scenario '25 September 2026 · 20:56 America/Kralendijk', 'Jason D's Vision' signature and AI disclosure legible on the gradient scrim; Art. 50 PNG metadata present; per-scene Open-Meteo retrieval 2026-09-25T20:56:16-04:00 verified unique to the second across all 288 Netherlands weather files, scenario minute inside model-valid hour 20:00-20:59 (model time 20:45, is_day 0, cloud 92% matching the overcast frame). Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people or focal logos; public historic site, documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T13:42:12.298624+00:00",
-  "sha256_16x9": "bcc4c32f17442663a343f458da628ee91160c6b37b640a20c39ddf308df08270",
-  "sha256_4x5": "5a87f49ab3a8c2c38d8805fe5d38f41c14ff608a5722707d4ac5e289a0e009d5"
+  "sha256_16x9": "3cf899e03d1650c7b9c2d5da81fa931b5d03e658c6a2a49407d8e6c1d3e09ec1",
+  "sha256_4x5": "a39a00c3c05b1959a409d110be60a36ca4f0540e29878d4451c2d7eef872b60a",
+  "file_9x16": "Netherlands/Sint Eustatius/nl-01-207-9x16.png",
+  "sha256_9x16": "e42a5add3de4bbd38941d9d41ee838c679dedd74deabfc3a542ff58c9eccd4cf",
+  "format_9x16_approval_status": "Candidate"
 }

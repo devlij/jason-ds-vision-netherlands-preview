@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "G1: night view of the Yerseke oyster harbour from the Havendijk: rectangular water basins in a grid, low dark sheds and wooden posts, grass sea dike and distant shore lights; no artifacts. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Oyster harbour, Yerseke', scenario '26 September 2026 · 01:04 Europe/Amsterdam', disclosure and signature legible on scrim; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:04:37+02:00 unique across all 288 NL scenes; scenario minute inside model hour 01:00. G3: builder note documents text-prompt-only, no photographic input. G4: no people or logos visible; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T06:39:14.223755+00:00",
-  "sha256_16x9": "d622239117de007e0c916fa4dfe189aa863ca82322a00e8452f45a740a02bd9d",
-  "sha256_4x5": "d7599e74b13f2bd0c3fb51e3e3ba0686dd1f6635d66e204c11d22080980cefe2"
+  "sha256_16x9": "f6202d36e569384a6ffeb37ac785c4f90d4459ae697fd1ab9f1a8ebe627d0922",
+  "sha256_4x5": "7fe9cd903ef60accc612abada43976bf9e1bca50f32056e7003ab30f57a69105",
+  "file_9x16": "Netherlands/Yerseke/nl-01-107-9x16.png",
+  "sha256_9x16": "96b9ba15f3cbfd8f57159fce2fc71acfee6e998ee18c3c69ecab1d24cc702ef4",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d622239117de007e0c916fa4dfe189aa863ca82322a00e8452f45a740a02bd9d. Source SHA-256 4:5 d7599e74b13f2bd0c3fb51e3e3ba0686dd1f6635d66e204c11d22080980cefe2. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

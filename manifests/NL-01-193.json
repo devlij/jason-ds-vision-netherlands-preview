@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Night. G1 visual pass: the tall tapered white Urk lighthouse with red lantern room and green dome beside the keeper's cottage on the dike, town lights across dark water — recognizably the Vuurtoren van Urk prospect, crisp geometry, no artifacts. G2 technical pass: exact 1920x1080/864x1080; caption 'Vuurtoren, Urk', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:38+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: no people or logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T12:42:39.244444+00:00",
-  "sha256_16x9": "064f1eaa9c44bf1a7d35db6fe21d154e2ceccd1b2760a2e9fac0cd502fcaf452",
-  "sha256_4x5": "e6d273d437d76f3da62211e5e5a726318e6cf4b1071f058e7d54f842e82f1acf"
+  "sha256_16x9": "55dff887855a5902852b2ee5a576a742a6d3c3f4d16c2e9a5c913037c09a003f",
+  "sha256_4x5": "0cfd91930e44adb23c0dd736d39ad32b54e4faff538d541cb0dd34467daf5c89",
+  "file_9x16": "Netherlands/Urk/nl-01-193-9x16.png",
+  "sha256_9x16": "9567fa4863f6d4e224fa219deb4084a9febdd1a3907150e8ed19c2eaa330676d",
+  "format_9x16_approval_status": "Candidate"
 }

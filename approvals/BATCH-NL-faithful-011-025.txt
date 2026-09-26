@@ -1,0 +1,131 @@
+Netherlands faithful re-finish — NL-01-011 through NL-01-025 — 2026-09-26
+
+Parent tip (Phase 1 note): 609f5c9260ca59a93f0b190eea3497556b611d4b
+Phase 1 restore commit: ab541fccc152536f5b0db4adbad211d49d1aa150
+Branch tip: 0a1df2900cfba43c73614dcd791df5a3a1008be0
+The commit above is the one that adds these faithful masters. A later commit only writes this SHA into this note.
+
+Method
+tools/faithful_refinish.py takes the origin/main approved scrim master already restored on this branch. It removes the 4c6f044 gradient scrim and the on-image DejaVu caption, scenario, disclosure, and signature by inverting that known overlay. Rows above y = int(height * 0.68) are copied unchanged. No GenerateImage, no prompt, and no new composition. The cleaned 16:9 and the cleaned 4:5 are stored as durable pre-text. 9:16 is a center crop of the cleaned 16:9, Lanczos to 1080×1920, then the 190px bar. tools/composite_masters.py appends the #0e0e12 bar and the 2px hairline and writes Art. 50 chunks.
+
+Proof, every scene
+Source SHA-256 is the approved master from origin/main (also the file that was on this branch after the split). Above-scrim changed pixels are 0 on both 16:9 and 4:5, so the clock and the rest of the upper frame match that approved master. Near-white glyphs missed by the text mask: 0. Unmasked scrim pixels that are not a black-overlay preimage: 0. Re-applying the scrim to the cleaned photo matches the approved master outside the text mask (max abs 0). The baked photo area matches the cleaned image. Bar geometry: 1920×1270, 864×1270, 1080×2110; bottom pixel (14,14,18); hairline (228,228,234) on the first row under the photo. Manifests stay approval_status Approved, keep qc_status, approval_basis, and approved_at, and gain file_9x16, sha256_9x16, and faithful_refinish. Approval markdown stays Candidate. Weather and Scenario lines are unchanged.
+
+NL-01-011 clock
+16:9 photo rows y < 734 are byte-identical to origin/main library/world/Netherlands/Delft/nl-01-011-16x9.png (SHA-256 499bf6e7dda9cab5f4b8d6986df3ae3240b43e61393343852b2952e84fc4e3c1). That region holds the Nieuwe Kerk clock and the Stadhuis clock. It is the approved composition, not the regenerated master this PR had substituted.
+
+Left untouched
+NL-01-056 through NL-01-144 stay the restored approved scrim masters, with no file_9x16. NL-01-145 through NL-01-288 label-bar masters were not reverted. Cosmo locks NL-01-001–010 and NL-01-026–055 were not touched. Nothing beyond NL-01-288. Spain and Denmark were not touched. Weather JSON was not rewritten.
+
+Gallery
+These 15 cards have file_9x16. Tabs and downloads sit under the image. Daylight stays on NL-01-001–010 only. No View image control. file_9x16 count is 159. Daylight file_16x9_day count stays 10. QC PASS 288 scenes.
+
+Next slice
+NL-01-056 through NL-01-071.
+
+Scenes
+NL-01-011	Markt, Delft	25 September 2026 · 18:27 Europe/Amsterdam
+  source 16:9 499bf6e7dda9cab5f4b8d6986df3ae3240b43e61393343852b2952e84fc4e3c1
+  source 4:5 64c4e39f995f08b0de7f22cb177b4d0c71db50dc64a5e839ef3614c003e97197
+  master 16:9 Netherlands/Delft/nl-01-011-16x9.png 179f7209b770a6282a4b2ed7a9a1fe15501c5509d770f11b8205cc019b3b958f
+  master 4:5 Netherlands/Delft/nl-01-011-4x5.png 31f23dc9ccdcec76ec67248c8f7d3c6d4d3507606bfc0841ff27498bd4d6f6df
+  master 9:16 Netherlands/Delft/nl-01-011-9x16.png e841b5c4932af5d539f352f8d502357ba433989bc6b76c9663db83d64aae167f
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-012	Grote Markt, Haarlem	25 September 2026 · 18:28 Europe/Amsterdam
+  source 16:9 59ffda1667042a3ffa9f7437ffc0eeecc52f01b9bc1c8b80823330a769aab437
+  source 4:5 b598b45a966e27b28a7e04e7122b4c7a006d0a0c5a94dde57e2134b5a10eb402
+  master 16:9 Netherlands/Haarlem/nl-01-012-16x9.png 50ac8c81cafdebc4b529355ac5603677d3e5b8f6f2d717277f31aa911a9140ed
+  master 4:5 Netherlands/Haarlem/nl-01-012-4x5.png 8d554f4297c243b123ffecdd52f747c61c5cff05a07f47fe08a8840789c55d65
+  master 9:16 Netherlands/Haarlem/nl-01-012-9x16.png 0b2877dd9eb20fa5ff56ebabdc49650901143f68780be216203bd6c354733bb1
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-013	Rapenburg, Leiden	25 September 2026 · 18:28 Europe/Amsterdam
+  source 16:9 0df4013f6370152784a78392b777460a0a79a77b1fbdcb20244494bf2523ad03
+  source 4:5 6d9b2ec2f08d941ac58c0c7fda26859d45d53a9e76eed40b4c0c5cfe6c3e7cc9
+  master 16:9 Netherlands/Leiden/nl-01-013-16x9.png c73ce1eb38b4011bd685c69dec16998abfb592a0f59271bf58064ece4a913799
+  master 4:5 Netherlands/Leiden/nl-01-013-4x5.png defdbda905b5ffb2646fecfdbef3956035f39cfb3abf362c2d041ce9587153a6
+  master 9:16 Netherlands/Leiden/nl-01-013-9x16.png 2f8a802093d147825afcfa4a2629ac7ad9e6698e6ade5b28522af51dc89784f7
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-014	Vrijthof, Maastricht	25 September 2026 · 18:28 Europe/Amsterdam
+  source 16:9 28ee3916754e1838c6e8dc07115504dc69ba48f496dd0ac301b8fef7c764ffa9
+  source 4:5 1c53558cd8e85108d62c4a35dd54852bf1c311651fd8484b03e27604a8bb2102
+  master 16:9 Netherlands/Maastricht/nl-01-014-16x9.png 882c41a81d21f68c4476ff1736588779541ac7e00b2c5f725a3af34cdb3b375f
+  master 4:5 Netherlands/Maastricht/nl-01-014-4x5.png 9f1612374a49fe00e6f30d6008ab8869d1a11a60f9f26b26e18cfe4c73bb04f6
+  master 9:16 Netherlands/Maastricht/nl-01-014-9x16.png a51129154c2e25615491dbc006acb5f891f5b29d0b587bd10b45fe195262cf1a
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-015	Lighthouse, De Cocksdorp	25 September 2026 · 18:28 Europe/Amsterdam
+  source 16:9 a5ab45ad851363131d261ea7fba0bede6e11b03a4c0f5052da8dc9f162d549cc
+  source 4:5 52da12ec8f575200c846c27e82be54b6cb853ac5706de9d042ca35c0e91c7694
+  master 16:9 Netherlands/De Cocksdorp/nl-01-015-16x9.png e1e8d2ae36575c7de3e71961e219eea349b6e8ec7d73cf76dce8592bd3ab2bea
+  master 4:5 Netherlands/De Cocksdorp/nl-01-015-4x5.png f29733a3a3aed24839c21a7151e6ddb6dc14a66d32b222290a393462cc58aaa5
+  master 9:16 Netherlands/De Cocksdorp/nl-01-015-9x16.png bf3d8118217575f02bbd8fc2bd2ab3126e5e039431e0b2ff2f0a049d86c1cf19
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-016	Kröller-Müller Museum, Otterlo	25 September 2026 · 18:28 Europe/Amsterdam
+  source 16:9 2040ead62b89259959140bb677ab2fb9e2d1c1c6d89b46c6f25a54a663d4a254
+  source 4:5 e8e915e529fd0a56be5f9a2564cf782b452057b4c420e6a85cb0c7cd7dc58b8e
+  master 16:9 Netherlands/Otterlo/nl-01-016-16x9.png ff008631ae03f1cf69e44d0b1c2027e8a4047bcde0ba1ea2322d2b1dd3e06e10
+  master 4:5 Netherlands/Otterlo/nl-01-016-4x5.png 2e31872082a037897ed2ece823495e9fcb598cbcfa6fb6b82249f3a76116804c
+  master 9:16 Netherlands/Otterlo/nl-01-016-9x16.png 37a9a34a72fcbfc6bffca61fdcce35c1af57256145d783df3da5a829e6cf319e
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-017	Van Gogh Museum, Amsterdam	25 September 2026 · 23:05 Europe/Amsterdam
+  source 16:9 dce51ee08be06db203cb7e7c6d537bc0d808281fd634830e44978c2a44ddb39f
+  source 4:5 01dd4ee349259aebf0c90ec7f9dc664dacc9e088503424b5e384a741bc0e7c3b
+  master 16:9 Netherlands/Amsterdam/nl-01-017-16x9.png e738bad0db3df01d06be663a597597e9b62ce99bdd4bc7899409b82517ee2c97
+  master 4:5 Netherlands/Amsterdam/nl-01-017-4x5.png 4142ba2eea405d7373c7d884142c0df39ac2986ad08f7dfdbe62e73316a71714
+  master 9:16 Netherlands/Amsterdam/nl-01-017-9x16.png 7e392533cea90cfce4db2c571149a53258539ee25c9c01b1e8c75ae0c291d4c3
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-018	Dam Square, Amsterdam	25 September 2026 · 23:05 Europe/Amsterdam
+  source 16:9 88a9fd1f04216f7677d312166af01b4a6c083d0d6a7c3cc59c222f2f2728015d
+  source 4:5 547a19b0bacd2f7350bc80c9c870b5f2f9ee4e5d2054476c5a96c620bb9edaba
+  master 16:9 Netherlands/Amsterdam/nl-01-018-16x9.png 9cc0b4133a159c22e385b4e2cf7c554f82a4401d91d84af8d71bd5c9756df1ac
+  master 4:5 Netherlands/Amsterdam/nl-01-018-4x5.png 08edd95e473e9e6b001c0160b0973ef31db4e6c8c9414d56768b4851948f1193
+  master 9:16 Netherlands/Amsterdam/nl-01-018-9x16.png 1737946ab4554c710b82b461461c02d3fe50c882859b2e52a5d071321e471b7a
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-019	Anne Frank House, Amsterdam	25 September 2026 · 23:05 Europe/Amsterdam
+  source 16:9 c32bddb3acdbfcc638642e08b5b4466903eaece9542e506c3d202ed20a36edc4
+  source 4:5 699d2eea12b8c1afbf2e563ad64cf46d9fd4a48b3b4776961ccfc029eaa7c17f
+  master 16:9 Netherlands/Amsterdam/nl-01-019-16x9.png 69423c8166a3bdd280322d99f0c8b69c530a11847d5b178e67c1d15e6d8d436b
+  master 4:5 Netherlands/Amsterdam/nl-01-019-4x5.png 6cefc651c1f7ceb6542e2fe8684e473c739738af80e6bd972c405d3f080fa353
+  master 9:16 Netherlands/Amsterdam/nl-01-019-9x16.png 2b3dd30929bd8ae9dc1f6d492b99410be86abe36248fd9649635c568f49b561e
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-020	Vondelpark, Amsterdam	25 September 2026 · 23:05 Europe/Amsterdam
+  source 16:9 781db9ca951b0e304285523171668afce9c47b1117a53cfe31df2d611b579176
+  source 4:5 840d253b3a82c1cbf5da514ca96a98801cbf36802f3ba18525ebbb811eb5eefe
+  master 16:9 Netherlands/Amsterdam/nl-01-020-16x9.png eb1ff027deb93a310cd78a34c89cdf58324467c9623bccd18652ffccd16556ff
+  master 4:5 Netherlands/Amsterdam/nl-01-020-4x5.png 263ee8e7379cf24ef61088d910de37a9e6b5e442761fced9f9e488771e5c6039
+  master 9:16 Netherlands/Amsterdam/nl-01-020-9x16.png 00bcb6506a5618914c5c1fb4e371e500935a593fc40d6faf6815eab0b841c452
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-021	NEMO, Amsterdam	25 September 2026 · 23:05 Europe/Amsterdam
+  source 16:9 7e4de608a388f5799477ee9e2379b5ea8beaa5a70dfea91af5cf19e6d6eaa7aa
+  source 4:5 93fb408748ac2a00aaafbaa1261cb1f59422e22d81f1206271fbb709a8573362
+  master 16:9 Netherlands/Amsterdam/nl-01-021-16x9.png a471a39b47969e3cd44f3de5b20c0bdd0702b148b19a6d23529ea7f081ea713f
+  master 4:5 Netherlands/Amsterdam/nl-01-021-4x5.png 1f3f0d83c6476be6ac31c2dfcd47ff7719ff4641faa678198757202e5ecfc412
+  master 9:16 Netherlands/Amsterdam/nl-01-021-9x16.png 60e1ce4cb1073dd0524a206b30cec47e36c6ae0c312cd0d0510787d2c7488a61
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-022	Harbour, Volendam	25 September 2026 · 23:05 Europe/Amsterdam
+  source 16:9 2f6ed6d99946962b53cefac79706fd2b674978ecd84d441b19572c78a036d999
+  source 4:5 beecd70e828ddd6121412ae44a2a05d67373f5d6561c70562fafd1eadd3d2b13
+  master 16:9 Netherlands/Volendam/nl-01-022-16x9.png 6dd5bcb45e462d21949e9ac27e7d4f0afa7df8010a879bfe8fb81268a657bbd1
+  master 4:5 Netherlands/Volendam/nl-01-022-4x5.png f61e7102b8bbbda976904d0a5f377fdd95ef3ec52475d8cdfdaaf41a386cf1ca
+  master 9:16 Netherlands/Volendam/nl-01-022-9x16.png 9de9e4c0c40ae43d3f77de5ef764278e129b0515a22fa7f915c19474ab489d59
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-023	Harbour, Marken	25 September 2026 · 23:05 Europe/Amsterdam
+  source 16:9 05af0faaadd647e94594c3dbf8563456773eca1bcbe5645cb91151fd7cc179cf
+  source 4:5 e5d823fd5a497f88c43966667364d520b81023fb51dbc8ccad405632d422dd3b
+  master 16:9 Netherlands/Marken/nl-01-023-16x9.png 40372edfc2ea0fdc4bdcedf4947ff1835f13592b976fcbdfb9f32598b68700f7
+  master 4:5 Netherlands/Marken/nl-01-023-4x5.png 355b7ddbb7374a2028ecb788351f48c6c38ac8239483feb3de7fc04f7aa69270
+  master 9:16 Netherlands/Marken/nl-01-023-9x16.png aca226461ef80136fae6d50c825a48868c61657b85bafb2a4ac917a0da506ea2
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-024	Waag, Alkmaar	25 September 2026 · 23:05 Europe/Amsterdam
+  source 16:9 4f99fd0f99533c42c6f21181267253197082d74a66db442c066ed7bee0bb729b
+  source 4:5 37658db3e06d58c33c605652978690087fba088455089b4f9df63587337e6e71
+  master 16:9 Netherlands/Alkmaar/nl-01-024-16x9.png eb808c0a33e09289c00b13f2bfeada05d9e2c172818d6b364d007a2fa55cecba
+  master 4:5 Netherlands/Alkmaar/nl-01-024-4x5.png a35f012fafe3d93e504c9bdd94d3086beb5667ab663cd5a2f631d4a3c0a99be1
+  master 9:16 Netherlands/Alkmaar/nl-01-024-9x16.png fd1e17bf8afece1f280c9ad9607d6df3b2f08faf35d360e9b5f3ea4fc02164d2
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source
+NL-01-025	Hoofdtoren, Hoorn	25 September 2026 · 23:05 Europe/Amsterdam
+  source 16:9 b431770ec6e6087866ae6c26da0f7e4260d6177a840d19471932f3d4e13f7949
+  source 4:5 ceef13c01f76dde6ca3c0ef4f98144f8df71e1f5e865c4a59b280236b31ca56e
+  master 16:9 Netherlands/Hoorn/nl-01-025-16x9.png 86e64cac4d1bd15338a732744a52cb98d4eb32f25e4bb1bee78445daa50fbc65
+  master 4:5 Netherlands/Hoorn/nl-01-025-4x5.png 546fe435c4b89c1645d84c5e8b44a2e168e07105571eaa5644c1d4279390608c
+  master 9:16 Netherlands/Hoorn/nl-01-025-9x16.png 28137354984194d998a148173344b809a61014dbe56c9478983acd4ff9b40f92
+  above-scrim changed pixels 0; glyph miss 0; scrim recomposite max abs 0; photo area matches cleaned source

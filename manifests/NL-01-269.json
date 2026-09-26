@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: night scene of Fort Sint Pieter on the Sint-Pietersberg - the thick brick fort wall with its rows of loopholes (16:9) / arched casemate openings (4:5) on a grassy rampart, dry moat in the foreground and the lights of Maastricht spread below under a clear starry sky; both formats depict the same fort wall and setting, consistent subject identity. Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Fort Sint Pieter, Maastricht', scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI-disclosure and 'Jason D's Vision' signature all legible; Open-Meteo retrieval timestamp 2026-09-26T04:18:52+02:00 verified UNIQUE to the second across all 288 NL evidence files, scenario minute inside the model-valid hour 04:00-04:59; Art.50 PNG metadata (Title/Description/Copyright/Software/Comment with EU AI Act Art.50 note) present on both masters. Gate 3 PASS: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos; license badge 'Free · no credit needed' - documented only, final commercial call is Jason's. Gate 5 PASS: card fields complete.",
   "approved_at": "2026-09-26T17:47:33.885022+00:00",
-  "sha256_16x9": "4b8098450c6b433072ddcdc86342a78e73b1191f0bb1b0ce332258eb4fc7d3d9",
-  "sha256_4x5": "e335bcf60982556d2a951acfa41287171e353af3b94f01335d968e72be09e07b"
+  "sha256_16x9": "2026afc8c6241940953eec0dc26dca2d1d322c21ced4e22ee800ec60ee1151d0",
+  "sha256_4x5": "27c22be1d45681db486ea7e409ed5eb4e4b1cc3947e015e1fb92cabf07d6170e",
+  "file_9x16": "Netherlands/Maastricht/nl-01-269-9x16.png",
+  "sha256_9x16": "37d1a7c64071ff0d2b19dd7202e6d1fe04826276f446d15215bfb1af8269cb07",
+  "format_9x16_approval_status": "Candidate"
 }

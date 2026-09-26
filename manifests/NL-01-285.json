@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: 16:9 master shows Gemaal Wortman as a night-lit functionalist pumping station — long brick-and-glass machine hall with a low gabled roof and glowing interior machinery, six free-standing cross-shaped chimney columns, dark polder water and a grass dike in the foreground, a lit yard lamp; the 4:5 shows the same glass gable end from the water side with two of the cross-shaped chimneys flanking it (fewer visible chimneys explained by the gable-end viewpoint), subject identity agrees. Gate 2: masters exactly 1920x1080 / 864x1080; on-image caption 'Gemaal Wortman, Lelystad', scenario '26 September 2026 · 04:38 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature legible on the scrim; Art. 50 PNG metadata present on both masters; scenario minute 04:38 inside model-valid hour 04:00–04:59; Open-Meteo retrieval timestamp 2026-09-26T04:38:01+02:00 verified unique to the second across all 288 Netherlands evidence files via the GitHub API. Gate 3: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or copyrighted artwork; license badge 'Free · no credit needed' — documented only. Gate 5: card fields complete. Modelled scenario, never a verified capture.",
   "approved_at": "2026-09-26T20:39:45.057406+00:00",
-  "sha256_16x9": "25d027d4ff37d0819a4b97f173879a65d9f868a0d990ee10fbe34787cf7d6c4e",
-  "sha256_4x5": "2b2711c68493c14ea2dd152f71b42f6bdd6df5aa39db9bb7c8637fabe15814fc"
+  "sha256_16x9": "2241f3b16937d04d479e4effaa745f52b369b1410db306b625fdcf3dc332fd42",
+  "sha256_4x5": "706967fe5d24a2cb4bc02b3018dbbd9362d272a7ec322b234dbec734eebb323a",
+  "file_9x16": "Netherlands/Lelystad/nl-01-285-9x16.png",
+  "sha256_9x16": "4cdaedc04048327646869188f8ec527fe124cda1e93bac8f9b7d7acf83f3c76b",
+  "format_9x16_approval_status": "Candidate"
 }

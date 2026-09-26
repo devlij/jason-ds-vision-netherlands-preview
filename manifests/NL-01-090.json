@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Lighthouse, Noordwijk. White lighthouse tower with glowing lantern and mid-shaft lantern gallery, night promenade with lamp posts to the right, dark sea and beach to the left. Scenario '26 September 2026 · 00:38 Europe/Amsterdam', Open-Meteo retrieval 2026-09-26T00:38:23+02:00 (retrieved; model-valid hour 00:30), unique to the second across all 288 Netherlands scenes. Gate 1 visual PASS: recognizable night view of the captioned site from a plausible tourist viewpoint; clean framing, no glaring misconfiguration or artifacts.Gate 2 technical: exact dims 1920x1080 / 864x1080 verified on authoritative blob downloads, Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment, EU AI Act transparency note) present on both masters. On-image caption, scenario timestamp and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) signature bottom-right.  Gate 3 provenance: evidence card claims text-prompt-only generation, no photographic input. Gate 4 IP/privacy: no visible people, no visible logos, no recognizable private property in frame (documented only; final commercial call is Jason's). Gate 5: card fields complete, no open blockers.",
   "approved_at": "2026-09-26T05:39:42.897590+00:00",
-  "sha256_16x9": "5fb5f0b6182568bfabe3af788f450879490bc214150e3cbdda54de7eef1b5d0e",
-  "sha256_4x5": "853facb36a738ada6c762a6c98e1deb7f05f70d047cfc741826bf8a41db8c1c9"
+  "sha256_16x9": "6a1ce80a54f209418262efc5327dcb0eaa914a06414ed2916fff83b762175512",
+  "sha256_4x5": "9d3e21069657f86c2926f0da8de4d30b42a875695bb6eb2e2a0c581313dc4e66",
+  "file_9x16": "Netherlands/Noordwijk/nl-01-090-9x16.png",
+  "sha256_9x16": "d944eb520d9a56bbf8d151aa220feca4af72a4c6e26fa56a62ef53455fc7de7a",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5fb5f0b6182568bfabe3af788f450879490bc214150e3cbdda54de7eef1b5d0e. Source SHA-256 4:5 853facb36a738ada6c762a6c98e1deb7f05f70d047cfc741826bf8a41db8c1c9. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

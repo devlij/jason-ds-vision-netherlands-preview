@@ -4,12 +4,15 @@
   "region": "Groningen",
   "city": "Groningen",
   "caption": "Goudkantoor, Groningen",
-  "scenario_label": "26 September 2026 \u00b7 04:38 Europe/Amsterdam",
-  "composition": "1635 tax office with three ornate gables from the Waagplein \u00b7 AI-generated artistic interpretation",
-  "description": "The Goudkantoor at Groningen is the 1635 tax office, a compact brick and stone block with shell motifs and volute gables. It now has three gables, because the south gable was added in the 1960s from the lost Huis Panser. The loggia taken down in 1844 is not rebuilt. It is overcast, about 13.5\u00b0C, with wind near 5.4 km/h and cloud cover about 100%. The Latin line is not readable. No cafe name is shown. The Martinitoren is not in this frame.",
+  "scenario_label": "26 September 2026 · 04:38 Europe/Amsterdam",
+  "composition": "1635 tax office with three ornate gables from the Waagplein · AI-generated artistic interpretation",
+  "description": "The Goudkantoor at Groningen is the 1635 tax office, a compact brick and stone block with shell motifs and volute gables. It now has three gables, because the south gable was added in the 1960s from the lost Huis Panser. The loggia taken down in 1844 is not rebuilt. It is overcast, about 13.5°C, with wind near 5.4 km/h and cloud cover about 100%. The Latin line is not readable. No cafe name is shown. The Martinitoren is not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the Goudkantoor in Groningen at night",
   "file_16x9": "Netherlands/Groningen/nl-01-287-16x9.png",
   "file_4x5": "Netherlands/Groningen/nl-01-287-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "file_9x16": "Netherlands/Groningen/nl-01-287-9x16.png",
+  "sha256_9x16": "b9b52fb9fa6c345cc180a446dedcc6d4dc367615be4a41f39e229386069c91f3",
+  "format_9x16_approval_status": "Candidate"
 }

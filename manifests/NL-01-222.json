@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Tall gothic brick OLV church tower alone on a paved plaza at night, base floodlights, surrounding lampposts, heavy cloud deck; caption 'Onze Lieve Vrouwetoren, Amersfoort' and scenario '26 September 2026 · 03:16 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:16 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:16:36+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
   "approved_at": "2026-09-26T14:42:41.613155+00:00",
-  "sha256_16x9": "04e6786888db10be4eb579e020d88de7c8fce7d4d70f8e5615f660c8c89832fb",
-  "sha256_4x5": "30835186e8dc6d2659949183313bc8244e3d04aefe7fbea994e38045e1f3a566"
+  "sha256_16x9": "786bcf3ee9120808dfa744d6a5691f4527741e694561be3b7283b1fe702dddbf",
+  "sha256_4x5": "6e30ace0f9c747e88398500456331cd166b4e1b338cf1f5bd812b6477c8ca398",
+  "file_9x16": "Netherlands/Amersfoort/nl-01-222-9x16.png",
+  "sha256_9x16": "8a547215c5e9f416ac657930eeac6fedea0558a94b8d682c9fa45a2e8f72c3cb",
+  "format_9x16_approval_status": "Candidate"
 }

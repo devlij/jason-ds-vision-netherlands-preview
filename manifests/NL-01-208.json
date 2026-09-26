@@ -16,6 +16,9 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Hell's Gate reads as the Saba mountain village — white cottages with red roofs terraced on the misty green mountainside, warm lit windows at dusk, wet winding road curving right; clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image caption 'Hell's Gate, Saba', scenario '25 September 2026 · 20:56 America/Kralendijk', 'Jason D's Vision' signature and AI disclosure legible on the gradient scrim; Art. 50 PNG metadata present; per-scene Open-Meteo retrieval 2026-09-25T20:56:19-04:00 verified unique to the second across all 288 Netherlands weather files, scenario minute inside model-valid hour 20:00-20:59 (model time 20:45, is_day 0, cloud 82% matching the low mist). Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people or focal logos; residential village shown from a public road, documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T13:42:29.382352+00:00",
-  "sha256_16x9": "dd90879961eef1a754c5bacc0aec73521028af60a95dfb0fa89684e669e54760",
-  "sha256_4x5": "bfab707a1c6dd59a96506396f385cb8175da1a6ba24a380cd13c0897f0993011"
+  "sha256_16x9": "84c9bde1e37ea81a93cb27e8901229c9c6e2760266c8f46b0b495d4846212238",
+  "sha256_4x5": "03aaf595e63c6e16d220457095434af948ab54ecc3e074c550dfd0c051a67cf2",
+  "file_9x16": "Netherlands/Saba/nl-01-208-9x16.png",
+  "sha256_9x16": "faf8fb0f9a6f9c029fd2b46f04ea8463a5fe3f590f332f47cb1715b7b6bf0038",
+  "format_9x16_approval_status": "Candidate"
 }

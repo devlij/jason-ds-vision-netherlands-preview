@@ -16,6 +16,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: slender waterfront tower with lit rooftop crown viewed along the lamp-lined IJ promenade; matches Overhoeks/A'DAM Toren profile, plausible tourist night viewpoint, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080, caption 'Overhoeks tower, Amsterdam' + scenario '26 September 2026 · 01:37 Europe/Amsterdam' + disclosure + curly-apostrophe signature on-image; Art.50 metadata with EU AI Act note; Open-Meteo retrieval 2026-09-26T01:37:46+02:00 unique to the second across all 288 NL scenes, scenario minute inside model-valid hour. Gate 3: builder claims text-prompt-only, no photographic inputs. Gate 4: no visible people/logos; license documented only. Gate 5: card fields complete, no blockers.",
   "approved_at": "2026-09-26T08:37:25.301739+00:00",
-  "sha256_16x9": "f562d633cc4d46b7505d8d25ebee6a0a160b8396c6d15b1e142ac14f3e3931fd",
-  "sha256_4x5": "ae4b0601175afdbbe0b9cb209b884345a91e652a90afed0de7193d843d9fca21"
+  "sha256_16x9": "054c947bc7bf21f1d6a2083122ba8c80bd975ba2f2d58d5b6a30e04596c6a538",
+  "sha256_4x5": "fe44709af1e95a873cbe4f4f647e9e2c17ba4f0502668ea2d7e32fd3a8a94ec9",
+  "file_9x16": "Netherlands/Amsterdam/nl-01-131-9x16.png",
+  "sha256_9x16": "0dd5c173f24f7f9246717745d8f9b4a944b61ffd127380dbc15b5b9097912012",
+  "format_9x16_approval_status": "Candidate",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 f562d633cc4d46b7505d8d25ebee6a0a160b8396c6d15b1e142ac14f3e3931fd. Source SHA-256 4:5 ae4b0601175afdbbe0b9cb209b884345a91e652a90afed0de7193d843d9fca21. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }
