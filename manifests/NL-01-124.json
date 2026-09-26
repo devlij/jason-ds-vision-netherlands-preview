@@ -4,12 +4,18 @@
   "region": "Utrecht",
   "city": "Woerden",
   "caption": "Woerden Castle, Woerden",
-  "scenario_label": "26 September 2026 \u00b7 01:22 Europe/Amsterdam",
-  "composition": "Square brick castle, round towers, and a moat \u00b7 AI-generated artistic interpretation",
-  "description": "Kasteel van Woerden is a square brick castle in the town, with three round towers, one rectangular tower, a drawbridge, and a moat along the public side. The sky is mainly clear, about 12.6\u00b0C, with wind near 6.8 km/h, and a bright moon shows through broken cloud. The later church stands nearby and is not the subject. No guests are shown.",
+  "scenario_label": "26 September 2026 · 01:22 Europe/Amsterdam",
+  "composition": "Square brick castle, round towers, and a moat · AI-generated artistic interpretation",
+  "description": "Kasteel van Woerden is a square brick castle in the town, with three round towers, one rectangular tower, a drawbridge, and a moat along the public side. The sky is mainly clear, about 12.6°C, with wind near 6.8 km/h, and a bright moon shows through broken cloud. The later church stands nearby and is not the subject. No guests are shown.",
   "alt_text": "AI-generated artistic interpretation of Woerden Castle across its moat under a mainly clear night sky",
   "file_16x9": "Netherlands/Woerden/nl-01-124-16x9.png",
   "file_4x5": "Netherlands/Woerden/nl-01-124-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
-  "license_anchor": "#license"
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Woerden Castle, Woerden: the great round-towered brick fortress — four massive corner towers — with its wooden drawbridge over the moat, floodlit stonework under a moonlit night sky. On-image caption 'Woerden Castle, Woerden', scenario '26 September 2026 · 01:22 Europe/Amsterdam', disclosure and exact 'Jason D's Vision' signature verified legible on the scrim. Masters exact 1920x1080 / 864x1080 with full Art. 50 PNG metadata. Weather: Open-Meteo retrieval 2026-09-26T01:22:45+02:00 — unique to the second across all 288 Netherlands scenes; scenario minute inside its own model-valid hour 01:00–01:59. Text-prompt-only lineage, no photographic input; no identifiable people or focal logos observed. All five gates pass.",
+  "approved_at": "2026-09-26T07:38:57.619701+00:00",
+  "sha256_16x9": "e93237250133195c52f56587d68f113c37432942c8fe0b8dc522498507a45154",
+  "sha256_4x5": "d05f2634b7a150630bb43ec3f5237b17ecb6ab19e16b5326da6f1f90f065746a"
 }
