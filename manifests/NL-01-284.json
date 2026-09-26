@@ -17,6 +17,11 @@
       "at": "2026-09-26T20:39:54.955511+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold (Cosmo QC 2026-09-26, verified by Cosmo's own read of both masters): the two format masters disagree on the town-hall front — the 16:9 shows a stone-clad front with two ornate gables (six arched bays, central portal), while the 4:5 shows a single-gable front with one central gable, round oculus and arched portal, centered on the tower. The card's own geometry anchor 2 requires 'a stone-clad front with two gables', which matches the 16:9 and contradicts the 4:5. The octagonal tower with open lantern and pear-shaped crown agrees across both formats, but the fronts are materially different compositions, not a viewpoint difference (each is shown symmetrically head-on). Builder to align the 16:9/4:5 renders and re-push; approval awaits corrected masters."
+    },
+    {
+      "at": "2026-09-26T21:43:37.053746+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 re-audit PASS (Cosmo QC 2026-09-26): re-rendered masters re-verified - both formats depict the same symmetrical stone-clad town-hall front with ground-floor arched bays, oculus-medallion frieze band and the central octagonal brick tower with open lantern, pear-shaped crown and Neptune weathervane; the earlier gable-count discrepancy is resolved. On-image strings and Art. 50 metadata verified on the new masters. Hold resolved."
     }
   ],
   "file_9x16": "Netherlands/Zierikzee/nl-01-284-9x16.png",
