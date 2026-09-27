@@ -5,7 +5,7 @@ Approved IDs re-read from origin/main manifests at batch start: 288 scenes, all 
 This batch is the next 16 Approved scenes starting at NL-01-224 that were still regenerated label-bar, not faithful: NL-01-224, NL-01-225, NL-01-226, NL-01-227, NL-01-228, NL-01-229, NL-01-230, NL-01-231, NL-01-232, NL-01-233, NL-01-234, NL-01-235, NL-01-236, NL-01-237, NL-01-238, NL-01-239.
 The scrim originals were restored from pre-merge main c3b845317688bb6e3a491ceb79d2097c637b45c2, which still had the Cosmo-approved 1920×1080 and 864×1080 masters. Merged main had already replaced them with 1920×1270 regenerated label-bar files.
 Holds skipped, not in this batch: none in NL-01-224–239. Standing holds outside this slice were not touched: NL-01-205, 249, 253–256, 259, 263–264, 273, 284, 286–288. NL-01-001–010 daylight and NL-01-026–055 were not touched. NL-01-208–223 were not touched. Phase-1 PR #5 was not used.
-Branch tip: 0300fbe012b7faa847d3d47d8b2e5ad862c279a1
+Branch tip: 6e58214ebf674fa2069afa92d4f9f1c7e828568b
 The commit above is the one that adds these faithful masters. A later commit only writes this SHA into this note.
 
 Method
