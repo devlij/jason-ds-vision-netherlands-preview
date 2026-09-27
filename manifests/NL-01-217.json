@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the Bovenkerk in Kampen at night, Gothic tower and choir",
   "file_16x9": "Netherlands/Kampen/nl-01-217-16x9.png",
   "file_4x5": "Netherlands/Kampen/nl-01-217-4x5.png",
+  "file_9x16": "Netherlands/Kampen/nl-01-217-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: the Bovenkerk reads as Kampen's Gothic church — the tall brick tower with its slender spire, floodlit nave with lancet windows and the stepped choir buttresses; clean night framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image caption 'Bovenkerk, Kampen', scenario '26 September 2026 · 03:16 Europe/Amsterdam', 'Jason D's Vision' signature and AI disclosure legible on the gradient scrim; Art. 50 PNG metadata present; per-scene Open-Meteo retrieval 2026-09-26T03:16:22+02:00 verified unique to the second across all 288 Netherlands weather files, scenario minute inside model-valid hour 03:00-03:59 (model time 03:15, is_day 0). Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people or focal logos; public church, documented only. Gate 5: card fields complete.",
-  "approved_at": "2026-09-26T13:45:01.610872+00:00",
-  "sha256_16x9": "ef80d18a0fa3aa378da5119a2dbc56fc5243744d668fb953c1edbe2a27ee743c",
-  "sha256_4x5": "7eca1e2f390b24f4386fd26fb8607cfef048e7131fce550c7dfb4d6bec21a5a5",
-  "file_9x16": "Netherlands/Kampen/nl-01-217-9x16.png",
-  "sha256_9x16": "cf882a5f772ee82957888d44040de60208299671dd84f8d073c5199ac584e84e",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "50b3e96349028174dc00c1a6e25c1e43419213c513e50fd46d49bf74c7c3c733",
+  "sha256_4x5": "980cc644d016288da8c0f110dbbc011b985bd7e4978d4f069257629f0c6c82be",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "fbb9cb3d3539f48ac6af0555bea5e8750318b05e353b549bdfd71fd566f264ef",
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4d3718d9c4e33239fb595066173a630c326094f023250e2f8cea4c5b99a498bf. Source SHA-256 4:5 51218f8a48871db7fdb937980a9b421b1140c764f0b01ae58ee11e1a3ec53419. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

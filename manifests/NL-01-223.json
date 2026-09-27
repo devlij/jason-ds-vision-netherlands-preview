@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the Koepelkerk in Willemstad at night, octagonal dome and low tower",
   "file_16x9": "Netherlands/Willemstad/nl-01-223-16x9.png",
   "file_4x5": "Netherlands/Willemstad/nl-01-223-4x5.png",
+  "file_9x16": "Netherlands/Willemstad/nl-01-223-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Octagonal domed brick church on the Willemstad waterfront at night, small lit dormer in the dome, gabled houses and grassy bastion bank flanking the water; caption 'Koepelkerk, Willemstad' and scenario '26 September 2026 · 03:16 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:16 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:16:39+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
-  "approved_at": "2026-09-26T14:42:45.409936+00:00",
-  "sha256_16x9": "f56753da467e1a0f34cc41d78010910c7d783fc23c268ed37b87913b8a327077",
-  "sha256_4x5": "e39da8ee48e57eaf79422942e2d0a981120a807475d949e417dfa8c96d07d0cc",
-  "file_9x16": "Netherlands/Willemstad/nl-01-223-9x16.png",
-  "sha256_9x16": "fe48d46d625f51d86cfc9beca3c2e467cf37da86c3108c0492105bac10efe5dc",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "a0328556f182537050569a508d208280923ba6201fbf76cc65a7ab9fb03b4b66",
+  "sha256_4x5": "939eaaa917689d639f903ebc13b7a7c9605a68cb9116cdbf5ccfa57ba7aebfb6",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "38ef8c84e830f4629755b7e154fba3a79cf53fcc5cbb36fe4d1964cc9139621e",
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 783d27803b3d9f340cf6a8763dc49e5c346b18772d0f114c9cd159035799eefd. Source SHA-256 4:5 7bf423ca0386cae17675b6bcb0c96536e0ce1eaf12fbd283c20322829a01d445. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

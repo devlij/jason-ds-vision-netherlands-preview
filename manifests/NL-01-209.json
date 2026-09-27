@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of De Meerpaal in Dronten at night, the brick centre under its columned roof",
   "file_16x9": "Netherlands/Dronten/nl-01-209-16x9.png",
   "file_4x5": "Netherlands/Dronten/nl-01-209-4x5.png",
+  "file_9x16": "Netherlands/Dronten/nl-01-209-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: De Meerpaal reads as the Dronten theatre — flat overhanging canopy roof, full glass wall, the large brick egg volume and the tall red-brick tower, square lamps on; clean night framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image caption 'De Meerpaal, Dronten', scenario '26 September 2026 · 03:16 Europe/Amsterdam', 'Jason D's Vision' signature and AI disclosure legible on the gradient scrim; Art. 50 PNG metadata present; per-scene Open-Meteo retrieval 2026-09-26T03:16:00+02:00 verified unique to the second across all 288 Netherlands weather files, scenario minute inside model-valid hour 03:00-03:59 (model time 03:15, is_day 0). Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people or focal logos; public cultural venue, documented only. Gate 5: card fields complete.",
-  "approved_at": "2026-09-26T13:42:46.550831+00:00",
-  "sha256_16x9": "e478fdb20acb9f9c0b434fc693257404942c5b98b531a202614e3d8785783aa0",
-  "sha256_4x5": "45bb3becd6d0ec1663ff3e616d75f166be5c1270618235a51acd532238dc5019",
-  "file_9x16": "Netherlands/Dronten/nl-01-209-9x16.png",
-  "sha256_9x16": "9ccbefa623c43b0f9b319b79aa365260eae9c12a0c9aefe4a99008cdba4e8bed",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "7d02fa0525b1bb808967f2c82d10c3103a6668f3de220681ffde188a59419d08",
+  "sha256_4x5": "633a790219daf261f79e4fe532543de36f7fd59496ec1ae9d78b7d9ade41778f",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "d2c261fd1d8f02df6d551eb1a59e258deb8f0ae3e253767f6215c3610602f823",
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c30eb0450375b6975c565329f713b4251c54b81ef2ed66744d3797ab46e35ee6. Source SHA-256 4:5 bfeae1d6ae5b4f927978a041cd9c96864c0254a8a0eed28b341ef73ad93b3cbf. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

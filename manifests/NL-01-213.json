@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the two hunebedden at Rolde at night, under oaks",
   "file_16x9": "Netherlands/Rolde/nl-01-213-16x9.png",
   "file_4x5": "Netherlands/Rolde/nl-01-213-4x5.png",
+  "file_9x16": "Netherlands/Rolde/nl-01-213-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: the Hunebedden read as Rolde's megalithic site — two dolmen chambers with massive capstones on upright boulders in the oak grove, a distant church tower in the mist; recognizable hunebed arrangement, clean night framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image caption 'Hunebedden, Rolde', scenario '26 September 2026 · 03:16 Europe/Amsterdam', 'Jason D's Vision' signature and AI disclosure legible on the gradient scrim; Art. 50 PNG metadata present; per-scene Open-Meteo retrieval 2026-09-26T03:16:11+02:00 verified unique to the second across all 288 Netherlands weather files, scenario minute inside model-valid hour 03:00-03:59 (model time 03:15, is_day 0). Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people or focal logos; public heritage site, documented only. Gate 5: card fields complete.",
-  "approved_at": "2026-09-26T13:43:53.909122+00:00",
-  "sha256_16x9": "9d799b629ba734294eda310521d27327707ff0e50bd61dabe6d02bbf2399b72d",
-  "sha256_4x5": "9ee1632314f87d763bc8bf8d046853059a5f028ff61ccd066ecd6c0a611fbabf",
-  "file_9x16": "Netherlands/Rolde/nl-01-213-9x16.png",
-  "sha256_9x16": "f6b70c10699913c7382569178ed30301a097165bef542eef8abd006cca16e287",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "89235f0f6580705878809adbfe988982bb5ba7ea100b41804b99c9d0b4f5b3aa",
+  "sha256_4x5": "bac8fe5b8fee4e7c1dacfafcb0333424792cf9a1896d929cd4112495e17388b2",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "8dbd058ae4268906a7af34d78df5e9e7da2819bf54dd0e1f4132fc5b2e8e46b2",
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a6ce93d537cee79a3bb86d96c07bc5b4bd93bc6988cb91c54bbad9dd001be293. Source SHA-256 4:5 bc91d603e1b8f5f643bbc9f3ea95b057bd749ede7ae3eabcd40ccef2200c5034. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }
