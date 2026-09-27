@@ -1,6 +1,6 @@
 Cosmo re-gate compare — six inter-format holds — 2026-09-27
 
-Do not merge. Ten cleared scenes were left byte-for-byte on this branch: NL-01-225, NL-01-226, NL-01-227, NL-01-231, NL-01-234, NL-01-235, NL-01-236, NL-01-237, NL-01-238, NL-01-239.
+Do not merge. At the six-scene re-render, ten scenes were left byte-for-byte: NL-01-225, NL-01-226, NL-01-227, NL-01-231, NL-01-234, NL-01-235, NL-01-236, NL-01-237, NL-01-238, NL-01-239. A later pass the same day re-rendered NL-01-225 and NL-01-231. The other eight of those ten, and the six scenes below, stay as they were.
 
 The six below failed because 16:9 and 4:5 were different buildings. That split predates the faithful re-finish. Each one now has a single new night view. The 4:5 photo is the exact center 864×1080 of that 16:9 frame. The 9:16 photo is the center crop of the same frame, scaled to 1080×1920. A pixel check confirmed the 4:5 columns match the 16:9 center and the 9:16 matches that crop. Masters are 1920×1270, 864×1270, and 1080×2110, with a 190px #0e0e12 label bar, curly Jason D’s Vision, and Allura Jason A. Devlin. No scrim over the art. All six stay Candidate. Nothing was self-approved. Word of the day was not edited.
 
@@ -23,3 +23,17 @@ NL-01-229 Harbour, Noordpolderzijl. Candidate. 16:9 0b243760e626d6b8ea03b551d1c6
 NL-01-230 Borg Verhildersum, Leens. Candidate. 16:9 3b4e2a36d2741f2312fb54038d53cec2207e3b4647bf3d8fa9a1d54bf21052fc. 4:5 712cba4faa6cc28bca60407287242767b73e7a759ea8c5a962c5daf9b775c588. 9:16 2658e1a13968e47a5f93308bd40033119f80d969ace56ca5760b5e64a2212950.
 NL-01-232 Belfort, Sluis. Candidate. 16:9 657be62250dcfb5a2f10039207f727d8122705e5be62087a8001cf8f9b8b5783. 4:5 7c9885d8168b6b3270fc0317c800589273e76181d0672fffc0f01613e379f48c. 9:16 b65b6ba67688ccfc8be1b5ed6aab230747da4e5ff3cba732df14b464514cf153.
 NL-01-233 Spanjaardsgat, Breda. Candidate. 16:9 23487e4077b8d3ab07e75e75f0a6daf81bf8f5387a1913385881ca94899002e2. 4:5 b99fd389dee86e71d5089a90add142e3c08ad7475914b06cbc00f7ee819edd48. 9:16 6ad45b850a9a48692882b22fd2b22618d1668fd422a28248a154bc4b05268d28.
+
+Later pass — two new inter-format holds — 2026-09-27
+
+Main manifests still say Approved for NL-01-225 and NL-01-231. Those approvals were re-read and were not copied onto the new pixels. Both scenes stay Candidate. Nothing was self-approved. Art. 50 stays a metadata note on the masters. It is not an approval. Word of the day was not edited. The gallery shell outside the scene records was not edited.
+
+Each scene below has one new night view. The source plate is the 16:9 frame. The 4:5 photo is the exact center 864×1080 of that frame. The 9:16 photo is the center crop of the same frame, scaled to 1080×1920. A pixel check confirmed the 4:5 columns match the 16:9 center and the 9:16 matches that crop. Masters are 1920×1270, 864×1270, and 1080×2110, with a 190px #0e0e12 label bar, curly Jason D’s Vision, and Allura Jason A. Devlin. No scrim over the art.
+
+NL-01-225 Waterloopbos, Marknesse. Hold: a wide rectangular basin versus a weir channel. The card asks for one rectangular concrete wave basin and its small weir in the night forest. The pavilion and the entrance artwork stay outside the frame. The new frame is that one basin: a mossy concrete rectangle, a weir sill at the near end, and small cascades at the far end. 4:5 and 9:16 are crops of this frame.
+
+NL-01-231 Campveerse Toren, Veere. Hold: a crenellated tower with an attached stepped-gable house versus a stepped-gable-crowned standalone tower. The card asks for one harbour rondeel, round on the water side, red brick with white stone bands, a stepped gable and pinnacles, and later wings beside it. No restaurant name. The new frame is that one round tower, with the stepped gable on the same building and the low wings attached. 4:5 and 9:16 are crops of this frame.
+
+Hashes
+NL-01-225 Waterloopbos, Marknesse. Candidate. Source plate 16:9. 16:9 d12d298e35c5ccb3e56b85aac5d0fdb8dd25e2f1ff85767cc09fdfb6c6c877ca. 4:5 c1dcb439417d72e851ec5509e7295f58c0011795835afb463067173f544df251. 9:16 aafaacf21262a4688481ad2b0ffbb20ea00b723a86b1088bfb624acc1f1e9fbe.
+NL-01-231 Campveerse Toren, Veere. Candidate. Source plate 16:9. 16:9 efa35786c9bdd52bcc89e6b43b144b88ab6cac72ea1695570bd3f09acd6820d6. 4:5 c9069d6a75f1f5f65ea187bbb9b530afe5e21723f2a0a4ea9a77dd57d7e6eb1d. 9:16 804109e0638c724bb6869cda1de85b1af496f46835ad89a952dd2f9f7d996d47.

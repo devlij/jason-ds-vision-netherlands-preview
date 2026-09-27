@@ -14,9 +14,9 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
-  "sha256_16x9": "b698f0e827039c823d472ee5ca6dd8e396aa04b779b9e3ab7faf6748c5ee82cf",
-  "sha256_4x5": "b063dfdabbaa019c3bdad3967c5f6fcafed10e479a3e95ccadeedcbfae7d92b6",
+  "sha256_16x9": "d12d298e35c5ccb3e56b85aac5d0fdb8dd25e2f1ff85767cc09fdfb6c6c877ca",
+  "sha256_4x5": "c1dcb439417d72e851ec5509e7295f58c0011795835afb463067173f544df251",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "ed57dc8cbc00e42ed25bfc3f3e1bc1c8d369ab950b58cfeca3d5efc43d22b32e",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ae12c2d1f94f7f609fce5ebe0e4bad9f320b1cafde6a73c1f022e0934d6721ef. Source SHA-256 4:5 d9d9f00fda3c8166abbe45d60d4cf9e98eec17cc9a21927ae115782b4dfc568e. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "sha256_9x16": "aafaacf21262a4688481ad2b0ffbb20ea00b723a86b1088bfb624acc1f1e9fbe",
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the rectangular concrete Golfbak and its weir was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one basin. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate."
 }
