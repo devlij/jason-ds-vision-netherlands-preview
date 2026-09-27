@@ -201,6 +201,37 @@ def main() -> None:
         if rel and rel not in index:
             errors.append(f"index missing {rel}")
 
+    sitemap_path = ROOT / "image-sitemap.xml"
+    if not sitemap_path.is_file():
+        errors.append("missing image-sitemap.xml")
+    else:
+        sitemap_text = sitemap_path.read_text()
+        if "9x16" in sitemap_text or "9:16" in sitemap_text:
+            errors.append("image sitemap lists a 9:16 image")
+        approved_n = 0
+        for path in manifests:
+            data = json.loads(path.read_text())
+            if data.get("approval_status") == "Approved":
+                approved_n += 1
+                token = f"#{data['entry_id']}<"
+                if token not in sitemap_text and f"#{data['entry_id']}" not in sitemap_text:
+                    errors.append(f"image sitemap missing {data['entry_id']}")
+            else:
+                if f"#{data['entry_id']}" in sitemap_text:
+                    errors.append(f"image sitemap still lists Candidate {data['entry_id']}")
+        if sitemap_text.count("<image:image>") != approved_n * 2:
+            errors.append(
+                f"image sitemap image count {sitemap_text.count('<image:image>')} "
+                f"is not 16:9 plus 4:5 for {approved_n} approved scenes"
+            )
+        robots = (ROOT / "robots.txt").read_text()
+        if "Sitemap: https://devlij.github.io/jason-ds-vision-netherlands-preview/sitemap.xml" not in robots:
+            errors.append("robots.txt lost the page sitemap")
+        if "Sitemap: https://devlij.github.io/jason-ds-vision-netherlands-preview/image-sitemap.xml" not in robots:
+            errors.append("robots.txt missing the image sitemap")
+    if 'alt="${esc(imageAlt(s))}"' not in index:
+        errors.append("index img alt is not caption — site, City")
+
     if errors:
         print("QC FAIL")
         for err in errors:

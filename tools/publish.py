@@ -3,7 +3,8 @@
 
 The page is rendered from tools/gallery_template.html. Phase-1 filters,
 related scenes, copy-link, and deep links are filled by gallery_phase1.py
-so a later publish does not drop them.
+so a later publish does not drop them. image-sitemap.xml is rewritten from
+the manifests after the page so a scene that leaves Approved drops out.
 """
 
 from __future__ import annotations
@@ -17,6 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from composite_masters import COPYRIGHT, DESCRIPTION, SOFTWARE, TITLE, COMMENT, composite_one
 from gallery_phase1 import render_gallery
+from image_sitemap import write_image_sitemap
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://devlij.github.io/jason-ds-vision-netherlands-preview/"
@@ -409,7 +411,16 @@ def main() -> None:
     html = render_gallery(scenes)
     (ROOT / "index.html").write_text(html)
     (ROOT / "robots.txt").write_text(
-        "User-agent: *\nAllow: /\n\nSitemap: https://devlij.github.io/jason-ds-vision-netherlands-preview/sitemap.xml\n"
+        "User-agent: *\n"
+        "Allow: /\n"
+        "\n"
+        "Sitemap: https://devlij.github.io/jason-ds-vision-netherlands-preview/sitemap.xml\n"
+        "Sitemap: https://devlij.github.io/jason-ds-vision-netherlands-preview/image-sitemap.xml\n"
+    )
+    image_stats = write_image_sitemap()
+    print(
+        f"image sitemap {image_stats['scenes']} scenes, "
+        f"16:9 {image_stats['formats']['16:9']}, 4:5 {image_stats['formats']['4:5']}"
     )
     (ROOT / "sitemap.xml").write_text(
         """<?xml version="1.0" encoding="UTF-8"?>
