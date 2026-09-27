@@ -53,6 +53,7 @@ DISCLOSURE = "AI-generated artistic interpretation \u00b7 Not a photograph."
 # pre-merge scrim masters before running this tool. The prior approval does
 # not carry onto the new masters; the batch demotes them to Candidate.
 # NL-01-191–204 and NL-01-206–207 are the same case. NL-01-205 stays a hold.
+# NL-01-208–223 are the same case. Holds stay outside this range.
 FAITHFUL_LO = (
     ("NL-01-001", "NL-01-010"),
     ("NL-01-011", "NL-01-025"),
@@ -62,6 +63,7 @@ FAITHFUL_LO = (
     ("NL-01-175", "NL-01-190"),
     ("NL-01-191", "NL-01-204"),
     ("NL-01-206", "NL-01-207"),
+    ("NL-01-208", "NL-01-223"),
 )
 
 
