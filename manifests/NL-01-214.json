@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Niehove/nl-01-214-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "112ebbb4d2e99207df897c576d6d88a01046c0686e92c879c3c4c18f5f6f80e1",
   "sha256_4x5": "5dbf6ce3adf2d1f12707dc446c10f5bfac022ad864728a6dfa036c5b1d805d9f",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "f6ebc810bda4601e89b5a732deb83e193c25c44eda4859dbbafdb6eabde98c11",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d1dfcb7b2fc735290e31868b8c79e53ceb2d163f7fcd77c9d28aa82b65cdcba7. Source SHA-256 4:5 3a37a6ad1e4dc9e2594be4b6de281d4d96d1a7666fe9d21e086486d003d99a79. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d1dfcb7b2fc735290e31868b8c79e53ceb2d163f7fcd77c9d28aa82b65cdcba7. Source SHA-256 4:5 3a37a6ad1e4dc9e2594be4b6de281d4d96d1a7666fe9d21e086486d003d99a79. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-214 (Kerk, Niehove): The church is a long brick hall with a small ridge turret; Houses form a ring around the raised churchyard; Paths run outward; there is no moat. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:14+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
+  "approved_at": "2026-09-27T14:33:00.073027+00:00"
 }

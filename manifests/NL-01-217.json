@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Kampen/nl-01-217-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "50b3e96349028174dc00c1a6e25c1e43419213c513e50fd46d49bf74c7c3c733",
   "sha256_4x5": "980cc644d016288da8c0f110dbbc011b985bd7e4978d4f069257629f0c6c82be",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "fbb9cb3d3539f48ac6af0555bea5e8750318b05e353b549bdfd71fd566f264ef",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4d3718d9c4e33239fb595066173a630c326094f023250e2f8cea4c5b99a498bf. Source SHA-256 4:5 51218f8a48871db7fdb937980a9b421b1140c764f0b01ae58ee11e1a3ec53419. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4d3718d9c4e33239fb595066173a630c326094f023250e2f8cea4c5b99a498bf. Source SHA-256 4:5 51218f8a48871db7fdb937980a9b421b1140c764f0b01ae58ee11e1a3ec53419. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-217 (Bovenkerk, Kampen): A tall Gothic brick tower closes one end of the church; The choir has radiating chapels; The street runs away from the camera; the river gate is not shown. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:22+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
+  "approved_at": "2026-09-27T14:33:00.073027+00:00"
 }

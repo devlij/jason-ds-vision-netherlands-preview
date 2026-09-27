@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Rolde/nl-01-213-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "89235f0f6580705878809adbfe988982bb5ba7ea100b41804b99c9d0b4f5b3aa",
   "sha256_4x5": "bac8fe5b8fee4e7c1dacfafcb0333424792cf9a1896d929cd4112495e17388b2",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "8dbd058ae4268906a7af34d78df5e9e7da2819bf54dd0e1f4132fc5b2e8e46b2",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a6ce93d537cee79a3bb86d96c07bc5b4bd93bc6988cb91c54bbad9dd001be293. Source SHA-256 4:5 bc91d603e1b8f5f643bbc9f3ea95b057bd749ede7ae3eabcd40ccef2200c5034. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a6ce93d537cee79a3bb86d96c07bc5b4bd93bc6988cb91c54bbad9dd001be293. Source SHA-256 4:5 bc91d603e1b8f5f643bbc9f3ea95b057bd749ede7ae3eabcd40ccef2200c5034. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-213 (Hunebedden, Rolde): Two separate chambers of capstones on uprights; Old oaks stand among the stones; The church roof is distant and is not the subject. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:11+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
+  "approved_at": "2026-09-27T14:33:00.073027+00:00"
 }

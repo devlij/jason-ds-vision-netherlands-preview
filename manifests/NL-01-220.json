@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Maastricht/nl-01-220-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "28e666ac6dee0e47e0c351f6a1bebe994ac43f6ab6e86970dc570c3f4cbec5e9",
   "sha256_4x5": "7dfcf787877cb02e287e6592c6fbe68ebe67d0e2212d6e2ef3cdb77c1165ddda",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "3c0e62a7d33fce8c81af69a39434df9a534c1fa617276203ba31a7a68c9db5aa",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 1fc262d4b86ab915a80480b1bec428afe4a759e8278c4e4e93e64568fc79cb8e. Source SHA-256 4:5 9469e15553f974dc6d156050ca1b1088034f9b357ec3d6fcd5c47269e7aa8898. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 1fc262d4b86ab915a80480b1bec428afe4a759e8278c4e4e93e64568fc79cb8e. Source SHA-256 4:5 9469e15553f974dc6d156050ca1b1088034f9b357ec3d6fcd5c47269e7aa8898. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-220 (Bonnefantenmuseum, Maastricht): Dark river water fills the foreground; A zinc dome caps a round tower against brick wings; The building is an E in plan, seen from the water side. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:31+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
+  "approved_at": "2026-09-27T14:33:00.073027+00:00"
 }

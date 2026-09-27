@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Hollum/nl-01-219-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "6b673e54ad9de0be69ce68e607a1ed7a0237790c9f7bcf230ab310671da44aad",
   "sha256_4x5": "ed99370d837c960392a3f951988ffd0286eb4c17d0aa2e86d2230441a53a40f9",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "37525b619e25cdaa949449f14029b60fb80ba65ca48b61eac3ea7ca51de8e0c0",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 9948359a7ac05cf61e2207983e37f08d5417e1a39fb2251a4fa5045db12931f9. Source SHA-256 4:5 3c1a84ebba8a48ab04809b783456a560b921aa408edfc796f77e9e548a21694a. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 9948359a7ac05cf61e2207983e37f08d5417e1a39fb2251a4fa5045db12931f9. Source SHA-256 4:5 3c1a84ebba8a48ab04809b783456a560b921aa408edfc796f77e9e548a21694a. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-219 (Vuurtoren, Hollum): A round cast-iron shaft with horizontal red and white bands; A red lantern and a gallery with no visitors; Dune grass surrounds the base. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:28+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
+  "approved_at": "2026-09-27T14:33:00.073027+00:00"
 }

@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Almere/nl-01-210-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "83a46865da702ad6e52ae3a94596ed7c57d04eed5fe99283d0a64b286c4b05bf",
   "sha256_4x5": "5aa7e56ac70cd1fb30d88918a8a3902b2aa146411d9181990fd5f110409cb62d",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "19969da8d194baa7470b47351fe7e799fe3fdb02362223eb3828e84f9259ec97",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 68df6f9675a6ecd8b1ab932be76e981954d7f8d88f02e344755f310eaf33118e. Source SHA-256 4:5 28144e9c987b969d0acc2d2f0ea44086cd21fd3c7341159977a72261efb8f513. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 68df6f9675a6ecd8b1ab932be76e981954d7f8d88f02e344755f310eaf33118e. Source SHA-256 4:5 28144e9c987b969d0acc2d2f0ea44086cd21fd3c7341159977a72261efb8f513. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-210 (Blocq van Kuffeler, Almere): The motor hall faces the water like a ship's bridge; Lower white blocks sit in front of the steel hall; Horizontal window strips follow the floors; no chimney smoke. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:02+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
+  "approved_at": "2026-09-27T14:33:00.073027+00:00"
 }

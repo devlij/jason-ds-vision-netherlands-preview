@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Dronten/nl-01-209-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "7d02fa0525b1bb808967f2c82d10c3103a6668f3de220681ffde188a59419d08",
   "sha256_4x5": "633a790219daf261f79e4fe532543de36f7fd59496ec1ae9d78b7d9ade41778f",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "d2c261fd1d8f02df6d551eb1a59e258deb8f0ae3e253767f6215c3610602f823",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c30eb0450375b6975c565329f713b4251c54b81ef2ed66744d3797ab46e35ee6. Source SHA-256 4:5 bfeae1d6ae5b4f927978a041cd9c96864c0254a8a0eed28b341ef73ad93b3cbf. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c30eb0450375b6975c565329f713b4251c54b81ef2ed66744d3797ab46e35ee6. Source SHA-256 4:5 bfeae1d6ae5b4f927978a041cd9c96864c0254a8a0eed28b341ef73ad93b3cbf. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-209 (De Meerpaal, Dronten): A broad roof on columns overhangs the square; Red-brick blocks and a glass front surround an oval volume; The fly tower is clad in red tiles. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:00+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
+  "approved_at": "2026-09-27T14:33:00.073027+00:00"
 }

@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Anloo/nl-01-212-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "867fae0b8f61ec0b3a5aba44393f8e213031f2ef94b81d3cf265695a66154adc",
   "sha256_4x5": "7a268e8c04ac023fdbc2c032633f3fdf7ff881054eef7ff1cb1d4298a4930147",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "a55c5b1450e1a897d1caf7f277536335cab70df2718335e9014d8969b1ca0020",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ffd92aec3fc77c2bed75fc05f869aa524550c9abd9bb7846c98357471165c805. Source SHA-256 4:5 99995f0b72e8996d643e25163454a42c785af77445b3280eac64d266d2e98c2e. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ffd92aec3fc77c2bed75fc05f869aa524550c9abd9bb7846c98357471165c805. Source SHA-256 4:5 99995f0b72e8996d643e25163454a42c785af77445b3280eac64d266d2e98c2e. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-212 (Magnuskerk, Anloo): The brick tower has a saddle roof and crow-stepped gables; The nave is pale tuff with small high windows; A few hall-farmhouses edge the brink; no gravestones in the near grass. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:08+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
+  "approved_at": "2026-09-27T14:33:00.073027+00:00"
 }
