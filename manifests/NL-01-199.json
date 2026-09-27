@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the Veenpark sod huts at Barger-Compascuum at night",
   "file_16x9": "Netherlands/Barger-Compascuum/nl-01-199-16x9.png",
   "file_4x5": "Netherlands/Barger-Compascuum/nl-01-199-4x5.png",
+  "file_9x16": "Netherlands/Barger-Compascuum/nl-01-199-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Night. G1 visual pass: turf-covered peat huts with small square windows along a muddy heath path under a stormy dark sky — a plausible Veenpark peat-colony scene, moody and artifact-free. G2 technical pass: exact 1920x1080/864x1080; caption 'Veenpark, Barger-Compascuum', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:54+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: no people or logos; documented only. G5: card fields complete.",
-  "approved_at": "2026-09-26T12:43:04.906702+00:00",
-  "sha256_16x9": "0d4237ab6c27057721d8741be9c2e2d3c9544345dba08c6c942c6b3438a03edf",
-  "sha256_4x5": "35196bdebbf5804a88a7c15a73bc7c550147130c9feba23c7a31616a94de9d5c",
-  "file_9x16": "Netherlands/Barger-Compascuum/nl-01-199-9x16.png",
-  "sha256_9x16": "212c6b9a922a164151e4e9598deef4d06cd6f720e228633d511f3b382880b354",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "ca82c314ee175775a27a810e64009755dad9650ecd72d9819fc2f8bf5ef04ea5",
+  "sha256_4x5": "0774c210f502f09fc02c3e27e2d4ef4683df260d7906dd95673a831d8d5d9712",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "6c95a3c5c5edd7056573892ba4214e094aab5d729df73b1fc5ed444853b35433",
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ac6ccc5d51124b962a93a5818a6bf5b11b9df778b8f1e8e37ae22a9120a95401. Source SHA-256 4:5 8d306ef67ff3c8e96c4125e7632280dba338dc4ded64b13ab4427f88379b3c2e. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

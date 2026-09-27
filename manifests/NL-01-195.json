@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of The Wave housing block over the Weerwater in Almere at night",
   "file_16x9": "Netherlands/Almere/nl-01-195-16x9.png",
   "file_4x5": "Netherlands/Almere/nl-01-195-4x5.png",
+  "file_9x16": "Netherlands/Almere/nl-01-195-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Night. G1 visual pass: the silver wavy faceted slab of The Wave apartment building with lit windows mirrored in dark water under a deep-blue sky — recognizably the Almere building, framing clean, no artifacts. G2 technical pass: exact 1920x1080/864x1080; caption 'The Wave, Almere', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:43+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure in Comment/Description/Software. G3: text-prompt-only, no photographic input. G4: private residential building rendered at night with no identifiable people; documented only. G5: card fields complete.",
-  "approved_at": "2026-09-26T12:42:48.091007+00:00",
-  "sha256_16x9": "c944bc8e53f110e4113319243c8cfc69bb634b72efb3b3761bc2a0366a265e08",
-  "sha256_4x5": "0e4b8848e5a7245863e401f8ea801113db94ed51f60253f87a2c4d46d1f4f150",
-  "file_9x16": "Netherlands/Almere/nl-01-195-9x16.png",
-  "sha256_9x16": "da7c3661fa67df9a798b158de7254c5ae468fff5a3c69f8954ebf075a3d2e2a8",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "51823b3572208c8812e6d0496a12938cac9e0182ab73724c7151acd113fdfee8",
+  "sha256_4x5": "67a7020add8c240d32d793c4699cebfec61e6f1548118866faf3af37739b54d0",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "ec949257dc5d8e9d6b3e67ae914b5bd0f9b69520ec8fe7d4228fa0a9ffe9ec84",
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2fd5ad686b2ca7074f1f8444ae9102e9d27267cac376661c20a5f6811968f195. Source SHA-256 4:5 a2c0efca5b6235ba3cee85dbb2cd5a72c21996c7b6098ab2c8e67b7f9aa6f441. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

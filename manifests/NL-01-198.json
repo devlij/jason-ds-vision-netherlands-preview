@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of Havezate Mensinge at Roden at night, seen across the moat",
   "file_16x9": "Netherlands/Roden/nl-01-198-16x9.png",
   "file_4x5": "Netherlands/Roden/nl-01-198-4x5.png",
+  "file_9x16": "Netherlands/Roden/nl-01-198-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Night. G1 visual pass: the brick Havezate Mensinge with its two side wings reflected in the moat, avenue trees flanking the approach under an overcast sky — a faithful havezate prospect, symmetrical framing clean. G2 technical pass: exact 1920x1080/864x1080; caption 'Havezate Mensinge, Roden', scenario '26 September 2026 · 02:55 Europe/Amsterdam', disclosure and signature legible; Open-Meteo retrieval 2026-09-26T02:55:51+02:00 unique to the second repo-wide, scenario minute inside the 02:00-02:59 model-valid hour; Art.50 disclosure present. G3: text-prompt-only, no photographic input. G4: no people or logos; documented only. G5: card fields complete.",
-  "approved_at": "2026-09-26T12:43:00.713633+00:00",
-  "sha256_16x9": "316f33efd877cb3063da6c22955a98266e28621415201f62659284d0107c826d",
-  "sha256_4x5": "a3a8e82d0596163ba3a6a75a509b4252f64f274f4b42453a7be969858609d459",
-  "file_9x16": "Netherlands/Roden/nl-01-198-9x16.png",
-  "sha256_9x16": "d1c8dcaf0482048678ce4196b8155ca0fc519716dfaed0ba2374b27fc8752853",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "4411c1b2ad36d7db9d07e23fa9ba9a1b2013281b46a9a7e75bebccbf8d48f7c1",
+  "sha256_4x5": "b0ad4cf73a8059578153fa7ce989e6e085a4eda64f2f119c04dae1e24055446c",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "cf71af994661488032f845e000b8b55542bf716a00e4e61e3c799e95c9ecc450",
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 aa805cd835d5b41583ddf208ff44058c2a8afd8147a6d5897e4c790191b676a2. Source SHA-256 4:5 f47b26ba5c416baab745ad93787aaeaef0d498f84acb34b56366c511c2092db9. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }
