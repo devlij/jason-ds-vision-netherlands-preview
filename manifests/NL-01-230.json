@@ -14,9 +14,9 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
-  "sha256_16x9": "ac470a04b867826daf84535b3c2680bc9f2efb42fcd030842c445c6f8e6663dc",
-  "sha256_4x5": "e392a15aadff9237b4847ecc0c3f3976027d51c7a5e0e3f9427c8900d5eb1766",
+  "sha256_16x9": "3b4e2a36d2741f2312fb54038d53cec2207e3b4647bf3d8fa9a1d54bf21052fc",
+  "sha256_4x5": "712cba4faa6cc28bca60407287242767b73e7a759ea8c5a962c5daf9b775c588",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "f949ca9743ec2c1dafd557bfd48da7a95947507921c8db857265cb18ab2383df",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 eed368b2a56fe3d6550c464b644fec578a5c53b31d8aa2ad8e02de956485d150. Source SHA-256 4:5 0ff19d67524bde0e4c348e6ca559987064ec1fe03d1ee395a0653dd9a2898e94. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "sha256_9x16": "2658e1a13968e47a5f93308bd40033119f80d969ace56ca5760b5e64a2212950",
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate."
 }
