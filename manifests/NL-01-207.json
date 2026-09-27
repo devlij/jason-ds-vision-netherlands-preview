@@ -13,10 +13,12 @@
   "file_9x16": "Netherlands/Sint Eustatius/nl-01-207-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "4c5db2df54ac9d1d5f08793d9dfa1445b769d5de0345934836b4ada3e9b476b6",
   "sha256_4x5": "03b98e48243e6139a896d2aa5ff5b7bb51a117b2e6b4996498b1d811d4984e64",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "ac679f12b5f54aa175d3fe1467342a66b789d4ffee8d259034df56b93d819934",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 bcc4c32f17442663a343f458da628ee91160c6b37b640a20c39ddf308df08270. Source SHA-256 4:5 5a87f49ab3a8c2c38d8805fe5d38f41c14ff608a5722707d4ac5e289a0e009d5. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 bcc4c32f17442663a343f458da628ee91160c6b37b640a20c39ddf308df08270. Source SHA-256 4:5 5a87f49ab3a8c2c38d8805fe5d38f41c14ff608a5722707d4ac5e289a0e009d5. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "approved_at": "2026-09-27T02:33:31Z",
+  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-25T20:56:16-04:00 (per-scene retrieval, unique to the second) — not a verified on-site observation."
 }
