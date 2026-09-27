@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Frederiksoord/nl-01-180-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "dceaee212a8534f297c99e97a9ece0fd28812b965760960b2beec6e45e6244f4",
-  "sha256_4x5": "57f8e9f5cda66821adb381a4eac9236ecf5e0b814698352c15c444beb97e22d5",
+  "approval_status": "Approved",
+  "sha256_16x9": "db1461835142d9442f8f29c2450ebf332011d5b1f9460c4334a159b8e7fa6727",
+  "sha256_4x5": "8008c87f605ecb1a546108a3ebc170f84dad72bfa54146485d17edb1beec2b33",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "d6617e9f2faf7545712e197c27e340c8fa7a3135aa46edcf60d945a6d7fcfae2",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 db1461835142d9442f8f29c2450ebf332011d5b1f9460c4334a159b8e7fa6727. Source SHA-256 4:5 8008c87f605ecb1a546108a3ebc170f84dad72bfa54146485d17edb1beec2b33. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 db1461835142d9442f8f29c2450ebf332011d5b1f9460c4334a159b8e7fa6727. Source SHA-256 4:5 8008c87f605ecb1a546108a3ebc170f84dad72bfa54146485d17edb1beec2b33. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Cosmo re-QC approval of the faithful refinish (post-merge main 5ea6aee, 2026-09-26). Gate 1: photo areas of the new masters verified pixel-identical to the approved pre-text holdings (gate pixel-QC 32/32 identical, no new render); composition, viewpoint and scenario '26 September 2026 · 02:36 Europe/Amsterdam' unchanged from the approved original 'Koloniehuisjes, Frederiksoord'. Gate 2: masters 1920x1270 (16:9) + 864x1270 (4:5) exact; 190px label bar appended below the pure photo — zero tint/text/gradient over the artwork; exact caption, scenario line, AI disclosure and 'Jason D\\u2019s Vision' + script 'Jason A. Devlin' signature verified on the bar; Open-Meteo retrieval 2026-09-26T02:36:52+02:00, unique to the second across all 288 Netherlands evidence files (carried from the approved original — the photo area is byte-identical, so the weather evidence still describes this exact view). Gate 3: text-prompt-only refinish lineage documented in the entry faithful_refinish note; no photographic input. Gate 4: no people/logos/trademarks on-image; card notes none — documented only, final commercial call Jason's. Gate 5: all card fields complete. The entry was demoted to Candidate at merge because replaced masters require reapproval — this basis is the fresh five-gate pass.",
+  "approved_at": "2026-09-27T00:29:06.352935+00:00"
 }
