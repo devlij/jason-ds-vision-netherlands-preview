@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the small harbour at Noordpolderzijl at night",
   "file_16x9": "Netherlands/Noordpolderzijl/nl-01-229-16x9.png",
   "file_4x5": "Netherlands/Noordpolderzijl/nl-01-229-4x5.png",
+  "file_9x16": "Netherlands/Noordpolderzijl/nl-01-229-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Small harbor at Noordpolderzijl: sluice tunnel through the grassy dike with a lit lamp over the arch, small white house on the point, tidal mudflats and sea beyond under gloom; caption 'Harbour, Noordpolderzijl' and scenario '26 September 2026 · 03:37 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:37 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:37:44+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
-  "approved_at": "2026-09-26T14:43:09.709134+00:00",
-  "sha256_16x9": "722a64b9e94ba89e3aedabcdcaaf3eacc37ba8cc030b0954b486218f796fa903",
-  "sha256_4x5": "af5c2e109f0d9e5ac3c7f32f65c782e1b4a8446f62f4458fe92c3ae27cfc440d",
-  "file_9x16": "Netherlands/Noordpolderzijl/nl-01-229-9x16.png",
-  "sha256_9x16": "bb7d4502cfb32d791a76bfed45e6fbd05573be63a8be86a0a60ff7212f427e90",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "673aa07d23805567467fc0c0dc6d2e76178fbe1da2ee9f336d8e8b6f7f2d8509",
+  "sha256_4x5": "8d43efc8786850fb5516fde32277a537668e96ee1999b52f901b8c536e2f6d32",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "2ab8a7d2d6048d35787d939519465a2d4f17362d385ccb4aa99d9a7335675fb5",
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 e1e9bf90683678dbc4a35c9c0b5c2b9acc091a5e44c303fa302947242a60794a. Source SHA-256 4:5 e3436f4aaf1a98302a8d4c5f3201dc563953b5bd51efce73023e2265b558e2aa. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the Spanjaardsgat water gate in Breda at night",
   "file_16x9": "Netherlands/Breda/nl-01-233-16x9.png",
   "file_4x5": "Netherlands/Breda/nl-01-233-4x5.png",
+  "file_9x16": "Netherlands/Breda/nl-01-233-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Twin domed brick water-gate towers straddling the Breda canal at dusk, central arch opening onto the singel, floodlit walls and lamp reflections on the water, tree-lined quays both sides; caption 'Spanjaardsgat, Breda' and scenario '26 September 2026 · 03:37 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:37 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:37:53+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
-  "approved_at": "2026-09-26T14:43:25.450689+00:00",
-  "sha256_16x9": "91cde81be941c42405431880385102069032d3cd24b7137077a7818a9abcd4f3",
-  "sha256_4x5": "15473b574992ba72ee09d3efb72bb5ada4880b564ad28cc6160f705d61d99f51",
-  "file_9x16": "Netherlands/Breda/nl-01-233-9x16.png",
-  "sha256_9x16": "225116774e214aae349375b5def75505679524e1c89f19f5de091f41667ba3a9",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "cca9ddb89fbebec4b813e8be26fbca3502f24a4156206c56dccb3129f5d7baee",
+  "sha256_4x5": "3bdaf67f07d93d74a789ff5fd299cf16819edcdc756410c47a01d5429a013881",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "0afea5acc218a0553cb48914e7b292b7f96c3d1a006e5df8dac8aa4b72f7131b",
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 34d1522e48a3fbbbbf8c97a9a73ce84178ebbc1a7fc08059c44e1b154f1716ff. Source SHA-256 4:5 76a34f1916d795a738903c72deac576bd4be4d8fc8354831a7f58336d1e0f603. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

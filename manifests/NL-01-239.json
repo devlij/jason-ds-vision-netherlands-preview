@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the lock at Makkum at night",
   "file_16x9": "Netherlands/Makkum/nl-01-239-16x9.png",
   "file_4x5": "Netherlands/Makkum/nl-01-239-4x5.png",
+  "file_9x16": "Netherlands/Makkum/nl-01-239-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Cosmo QC 5/5. Gate 1: 16:9 shows Makkum's brick Sluis lock chamber with the stone bridge over it, rows of gabled canal houses with lit windows and street lamps at left, night — matches the captioned lock and card anchors from a plausible waterside viewpoint; no artifacts. Gate 2: exact dims via git blob API; on-image 'Sluis, Makkum', 'Scenario: 26 September 2026 · 03:38 Europe/Amsterdam', AI disclosure and exact 'Jason D's Vision' signature legible; Art. 50 metadata present; Open-Meteo retrieval 2026-09-26T03:38:05+02:00 in evidence/weather/NL-01-239.json, unique to the second across all 288 Netherlands files, scenario inside the 03:00–03:59 model-valid hour. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos — documented only. Gate 5: card fields complete.",
-  "approved_at": "2026-09-26T15:45:06.319406+00:00",
-  "sha256_16x9": "474b5a2d5d7869f39924775eb96692f23b0ed36043b86deae1415bac587fc0ab",
-  "sha256_4x5": "2829f171d7132dd9b6357da4224b2c3a46867143c69f29eb62bea927c005e2ae",
-  "file_9x16": "Netherlands/Makkum/nl-01-239-9x16.png",
-  "sha256_9x16": "d06e440a772c6610a788cf48c35549058486d701f1200d52daa656b770b927b1",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "2e803c5de5c1c819284388a794b598aa1081487086f6ea2a767799673df5df75",
+  "sha256_4x5": "93e72b103cd6cdea7cd6694404dafceba78bd1fec1b3ce5bf3a2bb5a49d9764a",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "31e82a9e459ee29adf3dda4410d0a7c7abfeba938b0713a45560570cefd911e9",
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a3cb17feed4ae38c1540342eb65dc81cb7589ad3106563ae8ac24e84b282cd55. Source SHA-256 4:5 79b859fd82b3656a0323dfd2e80064373f547ba7cbfbc424ac0e0338e50ea035. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

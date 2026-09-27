@@ -54,6 +54,7 @@ DISCLOSURE = "AI-generated artistic interpretation \u00b7 Not a photograph."
 # not carry onto the new masters; the batch demotes them to Candidate.
 # NL-01-191–204 and NL-01-206–207 are the same case. NL-01-205 stays a hold.
 # NL-01-208–223 are the same case. Holds stay outside this range.
+# NL-01-224–239 are the same case. No Cosmo holds in this slice.
 FAITHFUL_LO = (
     ("NL-01-001", "NL-01-010"),
     ("NL-01-011", "NL-01-025"),
@@ -64,6 +65,7 @@ FAITHFUL_LO = (
     ("NL-01-191", "NL-01-204"),
     ("NL-01-206", "NL-01-207"),
     ("NL-01-208", "NL-01-223"),
+    ("NL-01-224", "NL-01-239"),
 )
 
 
