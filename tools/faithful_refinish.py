@@ -49,12 +49,16 @@ DISCLOSURE = "AI-generated artistic interpretation \u00b7 Not a photograph."
 
 # Approved scenes whose masters on origin/main still carry the scrim bake.
 # NL-01-001–010 are green-lit. NL-01-026–055 stay locked.
+# NL-01-175–190: the merged tree has regenerated label-bar files. Restore the
+# pre-merge scrim masters before running this tool. The prior approval does
+# not carry onto the new masters; the batch demotes them to Candidate.
 FAITHFUL_LO = (
     ("NL-01-001", "NL-01-010"),
     ("NL-01-011", "NL-01-025"),
     ("NL-01-056", "NL-01-144"),
     ("NL-01-145", "NL-01-159"),
     ("NL-01-160", "NL-01-174"),
+    ("NL-01-175", "NL-01-190"),
 )
 
 

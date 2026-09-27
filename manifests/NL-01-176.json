@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the Willemstoren on Bonaire at night, a white lighthouse on a rocky point under a clear sky",
   "file_16x9": "Netherlands/Bonaire/nl-01-176-16x9.png",
   "file_4x5": "Netherlands/Bonaire/nl-01-176-4x5.png",
+  "file_9x16": "Netherlands/Bonaire/nl-01-176-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: Willemstoren at night from the rocky point — tall white round column with single narrow red stripe, small beacon glowing on the gallery rail, ruined stone keeper house at the base, dark Atlantic rock and moonlit sea with moon track on water; recognizable lighthouse arrangement, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Willemstoren, Bonaire', scenario '25 September 2026 · 20:20 America/Kralendijk', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present on both masters; scenario minute 20:20 inside model hour 20:00–20:59; Open-Meteo retrieval 2026-09-25T20:20:33-04:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
-  "approved_at": "2026-09-26T11:52:17.275298+00:00",
-  "sha256_16x9": "639e072f1cf66806526d5295c6d81d6259b775be2677fde26724111ecb240a85",
-  "sha256_4x5": "e969e3e41a0f47a33ba0500635f84a95bec67bc22b8d65e4decca1fe253689b5",
-  "file_9x16": "Netherlands/Bonaire/nl-01-176-9x16.png",
-  "sha256_9x16": "ef426407ef424d320b2ad05de4b44c5ed2e16fa1b183ab9cedb62255dc6ab7fa",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "c7f34c6c6bc05841b8dc9680847cdccebba2ed3e77b88a30af82b78b8bbe38c2",
+  "sha256_4x5": "b9b38af5ce4b582fb40f3f4c22a4c749f9a9041cce0fe8cb11cf98bfbf7654fb",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "e736da3039f530e5f20c1073c604b55d9be9782d893893b7e821a94076890d9e",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 25494c1c8f242cfbae6316fd36b27d97ebb98a6edf8bbaa7490dbed08fdda3a3. Source SHA-256 4:5 9b76ececd980dd722148b08025d809cdde3e17c536f10791c96bd982daf73010. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

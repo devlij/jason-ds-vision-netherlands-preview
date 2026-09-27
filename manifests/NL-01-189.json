@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of Fort Bay on Saba at night, concrete piers under a steep cliff",
   "file_16x9": "Netherlands/Saba/nl-01-189-16x9.png",
   "file_4x5": "Netherlands/Saba/nl-01-189-4x5.png",
+  "file_9x16": "Netherlands/Saba/nl-01-189-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: Fort Bay Saba at night from the shore inside the bay — long concrete harbor pier reaching into dark water, steep lush volcanic cliff rising behind under moonlit cloud, breaking water at the rocks; recognizable Fort Bay composition, plausible viewpoint, clean framing, no artifacts. Gate 2: masters 1920x1080 + 864x1080 exact; exact caption 'Fort Bay, Saba', scenario '25 September 2026 · 20:37 America/Kralendijk', AI disclosure and 'Jason D's Vision' signature on gradient scrim, legible; Art. 50 metadata present; scenario minute 20:37 inside model hour 20:00–20:59; Open-Meteo retrieval 2026-09-25T20:37:16-04:00 unique to the second across all 288 Netherlands evidence files. Gate 3: card documents text-prompt-only, no photographic input. Gate 4: no people/logos visible; documented only, final call Jason's. Gate 5: all card fields complete.",
-  "approved_at": "2026-09-26T11:56:03.010338+00:00",
-  "sha256_16x9": "a859f9f334cb4af2d6423cecabbf872244b05bb857adb71ed0f82d8e56d9277d",
-  "sha256_4x5": "305ec6d196de53ce2ea7257cbb18253e683d8741b464266b1aec203abbc39578",
-  "file_9x16": "Netherlands/Saba/nl-01-189-9x16.png",
-  "sha256_9x16": "35ab6d981d3db0add423955e6d1783b0bd1ec13b40a882a22883b701d6c54b49",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "f0ba122c31af5323889ddc7b24d9e4a17fcc9f2a8dea80762c3235966e943c99",
+  "sha256_4x5": "51782765a3f9a182cd57fb3dadff6568edda51969bdfa06d5348742a7af3413f",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "4d33eaef9ca8413159656dc555a3ddddb8bd773006b46b3a801fb92207cb5c0a",
+  "faithful_refinish": "2026-09-26 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 cbfe7a27e1d5705e7adc1c9602f1b94ca85c15db4fdb1b39af501964b793e55a. Source SHA-256 4:5 aa3110dd89b3de6e205148277e3276abdbf1b618dc402ce0556ce4ecc303a82b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }
