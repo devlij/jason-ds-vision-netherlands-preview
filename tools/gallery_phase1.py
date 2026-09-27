@@ -430,6 +430,17 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
         raise SystemExit("gallery page is missing Phase-1 or chrome: " + ", ".join(missing))
     if "__SCENES__" in html or "__NL_META__" in html or "__WOTD_JSON__" in html:
         raise SystemExit("gallery template placeholders were not filled")
+    nav_start = html.find('<nav class="country-switch"')
+    nav_end = html.find("</nav>", nav_start)
+    nav = html[nav_start:nav_end] if nav_start >= 0 else ""
+    if nav.count(">Netherlands<") != 1 or nav.count('aria-current="page"') != 1:
+        raise SystemExit("country switcher must mark Netherlands once as the current page")
+    if "jason-ds-vision-netherlands-preview" in nav:
+        raise SystemExit("country switcher must not link this page to itself")
+    if nav.find("Switzerland") > nav.find('aria-current="page"'):
+        raise SystemExit("Netherlands is out of the shared switcher order")
+    if "linear-gradient(#fff,#fff) center/45% 22%" not in html:
+        raise SystemExit("Swiss flag chip is missing the white cross")
     if not meta:
         raise SystemExit("phase-1 meta is empty")
     # Every meta thumbnail must be a real master. Controls for other formats
