@@ -13,10 +13,12 @@
   "file_9x16": "Netherlands/Deventer/nl-01-201-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "7ae42bda787e1c0e2ecbfe9f61a6185b7e4ca795da9b5a89b5178be51bf1cfaf",
   "sha256_4x5": "608a2184a91605d5d1cbd425854513fcc970d739f3cacf3aa1f4c6512ee0d91a",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "4b59aafec1af2481df53112d2ef4357139080ee7a0dc6413eb9d1adcd71205bc",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 db3ddca9458d8bbefa041f84a2fa7d241d7582a3615e5971acaaa3729e4a2da5. Source SHA-256 4:5 3fa560094008aff4d90b9c572e32bcdc495c88ec81b0af4d9511f43dca7a1f5d. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 db3ddca9458d8bbefa041f84a2fa7d241d7582a3615e5971acaaa3729e4a2da5. Source SHA-256 4:5 3fa560094008aff4d90b9c572e32bcdc495c88ec81b0af4d9511f43dca7a1f5d. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "approved_at": "2026-09-27T02:33:07Z",
+  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:55:59+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation."
 }
