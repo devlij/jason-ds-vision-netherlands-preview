@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Almere/nl-01-178-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "46b98b3377ad5f6b690bdcc975660ed52eaf5c814717a427c7b7f4ef47bc510f",
-  "sha256_4x5": "ef1766197c33c4c9fd3474fc908993d6335cb1b8088c8c1ad538bf2e290440ed",
+  "approval_status": "Approved",
+  "sha256_16x9": "b234c1f7feddb7b62a200aa26e0837b0110ffa30a42aa0535c3c51ce30e07107",
+  "sha256_4x5": "7a3ae5eb9dcb7f8686fe29be4b268e29972524d09f7453d0bdcf48673f2f15ae",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "977618feab5816f660370266c6eb1faf62880722623ec62eb46effaf3e02f729",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b234c1f7feddb7b62a200aa26e0837b0110ffa30a42aa0535c3c51ce30e07107. Source SHA-256 4:5 7a3ae5eb9dcb7f8686fe29be4b268e29972524d09f7453d0bdcf48673f2f15ae. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b234c1f7feddb7b62a200aa26e0837b0110ffa30a42aa0535c3c51ce30e07107. Source SHA-256 4:5 7a3ae5eb9dcb7f8686fe29be4b268e29972524d09f7453d0bdcf48673f2f15ae. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Cosmo re-QC approval of the faithful refinish (post-merge main 5ea6aee, 2026-09-26). Gate 1: photo areas of the new masters verified pixel-identical to the approved pre-text holdings (gate pixel-QC 32/32 identical, no new render); composition, viewpoint and scenario '26 September 2026 · 02:36 Europe/Amsterdam' unchanged from the approved original 'Stadhuis, Almere'. Gate 2: masters 1920x1270 (16:9) + 864x1270 (4:5) exact; 190px label bar appended below the pure photo — zero tint/text/gradient over the artwork; exact caption, scenario line, AI disclosure and 'Jason D\\u2019s Vision' + script 'Jason A. Devlin' signature verified on the bar; Open-Meteo retrieval 2026-09-26T02:36:46+02:00, unique to the second across all 288 Netherlands evidence files (carried from the approved original — the photo area is byte-identical, so the weather evidence still describes this exact view). Gate 3: text-prompt-only refinish lineage documented in the entry faithful_refinish note; no photographic input. Gate 4: no people/logos/trademarks on-image; card notes none — documented only, final commercial call Jason's. Gate 5: all card fields complete. The entry was demoted to Candidate at merge because replaced masters require reapproval — this basis is the fresh five-gate pass.",
+  "approved_at": "2026-09-27T00:28:56.854739+00:00"
 }
