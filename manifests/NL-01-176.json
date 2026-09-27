@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Bonaire/nl-01-176-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "c7f34c6c6bc05841b8dc9680847cdccebba2ed3e77b88a30af82b78b8bbe38c2",
-  "sha256_4x5": "b9b38af5ce4b582fb40f3f4c22a4c749f9a9041cce0fe8cb11cf98bfbf7654fb",
+  "approval_status": "Approved",
+  "sha256_16x9": "25494c1c8f242cfbae6316fd36b27d97ebb98a6edf8bbaa7490dbed08fdda3a3",
+  "sha256_4x5": "9b76ececd980dd722148b08025d809cdde3e17c536f10791c96bd982daf73010",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "e736da3039f530e5f20c1073c604b55d9be9782d893893b7e821a94076890d9e",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 25494c1c8f242cfbae6316fd36b27d97ebb98a6edf8bbaa7490dbed08fdda3a3. Source SHA-256 4:5 9b76ececd980dd722148b08025d809cdde3e17c536f10791c96bd982daf73010. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 25494c1c8f242cfbae6316fd36b27d97ebb98a6edf8bbaa7490dbed08fdda3a3. Source SHA-256 4:5 9b76ececd980dd722148b08025d809cdde3e17c536f10791c96bd982daf73010. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Cosmo re-QC approval of the faithful refinish (post-merge main 5ea6aee, 2026-09-26). Gate 1: photo areas of the new masters verified pixel-identical to the approved pre-text holdings (gate pixel-QC 32/32 identical, no new render); composition, viewpoint and scenario '25 September 2026 · 20:20 America/Kralendijk' unchanged from the approved original 'Willemstoren, Bonaire'. Gate 2: masters 1920x1270 (16:9) + 864x1270 (4:5) exact; 190px label bar appended below the pure photo — zero tint/text/gradient over the artwork; exact caption, scenario line, AI disclosure and 'Jason D\\u2019s Vision' + script 'Jason A. Devlin' signature verified on the bar; Open-Meteo retrieval 2026-09-25T20:20:33, unique to the second across all 288 Netherlands evidence files (carried from the approved original — the photo area is byte-identical, so the weather evidence still describes this exact view). Gate 3: text-prompt-only refinish lineage documented in the entry faithful_refinish note; no photographic input. Gate 4: no people/logos/trademarks on-image; card notes none — documented only, final commercial call Jason's. Gate 5: all card fields complete. The entry was demoted to Candidate at merge because replaced masters require reapproval — this basis is the fresh five-gate pass.",
+  "approved_at": "2026-09-27T00:28:48.641566+00:00"
 }
