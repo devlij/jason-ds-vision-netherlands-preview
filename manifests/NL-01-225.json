@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the concrete wave basin in the Waterloopbos at Marknesse at night",
   "file_16x9": "Netherlands/Marknesse/nl-01-225-16x9.png",
   "file_4x5": "Netherlands/Marknesse/nl-01-225-4x5.png",
+  "file_9x16": "Netherlands/Marknesse/nl-01-225-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Moss-covered rectangular concrete water-testing basin of the Waterloopbos in dense forest, small cascades at the far end, heavy overcast sky; caption 'Waterloopbos, Marknesse' and scenario '26 September 2026 · 03:37 Europe/Amsterdam' verified on-image bottom-left with the AI disclosure, signature bottom-right; exact 1920x1080 / 864x1080; Art. 50 note in PNG metadata; scenario minute 03:37 inside model-valid hour starting 03:00; Open-Meteo retrieval 2026-09-26T03:37:36+02:00 unique to the second repo-wide (zero duplicates across 288 files); evidence card documents text-prompt-only lineage, no photographic inputs; no people or logos visible. Gates 1-5 pass.",
-  "approved_at": "2026-09-26T14:42:53.666596+00:00",
-  "sha256_16x9": "5cd9f972b74a31d0e9783ac5573ac46efe638cfd8ac4b3450ee54f6501880382",
-  "sha256_4x5": "7dbbaa4780d8b3976384d6782d2c873b4f7153d410be6daf9e772af3cedaa4f2",
-  "file_9x16": "Netherlands/Marknesse/nl-01-225-9x16.png",
-  "sha256_9x16": "0bf08bed026cbe941d73646e653958c6ebe55823d3ef390fb59544e1e97ff97e",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "d12d298e35c5ccb3e56b85aac5d0fdb8dd25e2f1ff85767cc09fdfb6c6c877ca",
+  "sha256_4x5": "c1dcb439417d72e851ec5509e7295f58c0011795835afb463067173f544df251",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "aafaacf21262a4688481ad2b0ffbb20ea00b723a86b1088bfb624acc1f1e9fbe",
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the rectangular concrete Golfbak and its weir was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one basin. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate."
 }

@@ -1,0 +1,39 @@
+Cosmo re-gate compare — six inter-format holds — 2026-09-27
+
+Do not merge. At the six-scene re-render, ten scenes were left byte-for-byte: NL-01-225, NL-01-226, NL-01-227, NL-01-231, NL-01-234, NL-01-235, NL-01-236, NL-01-237, NL-01-238, NL-01-239. A later pass the same day re-rendered NL-01-225 and NL-01-231. The other eight of those ten, and the six scenes below, stay as they were.
+
+The six below failed because 16:9 and 4:5 were different buildings. That split predates the faithful re-finish. Each one now has a single new night view. The 4:5 photo is the exact center 864×1080 of that 16:9 frame. The 9:16 photo is the center crop of the same frame, scaled to 1080×1920. A pixel check confirmed the 4:5 columns match the 16:9 center and the 9:16 matches that crop. Masters are 1920×1270, 864×1270, and 1080×2110, with a 190px #0e0e12 label bar, curly Jason D’s Vision, and Allura Jason A. Devlin. No scrim over the art. All six stay Candidate. Nothing was self-approved. Word of the day was not edited.
+
+NL-01-224 Sint-Ludovicuskerk, Rincon. Hold: pyramidal spire versus dome cap. The card asks for the white Rincon church and the square bell tower added in 1977–1984, with low houses and dark hills and no sea. The new frame is that white church and one square tower with a low hipped cap and a cross. It is not a dome and not a Gothic needle. 4:5 and 9:16 are crops of this frame.
+
+NL-01-228 Tweede Gesticht, Veenhuizen. Hold: cupola versus clock tower. The card asks for a one-storey brick range, a pantile roof, and a small clock turret over the gate, and it says there is no tall tower. The new frame is that long range and a small square clock turret with one clock face and a shallow pyramid. It is not a round cupola and not a tall clock tower. 4:5 and 9:16 are crops of this frame.
+
+NL-01-229 Harbour, Noordpolderzijl. Hold: single-arch culvert versus triple-gate sluice. The 1811 drainage sluice is one semicircular brick barrel vault, and the card asks for a low sluice, a narrow basin, and a small keeper house, not a lighthouse. The old 16:9 showed three arches and the old 4:5 showed one. The new frame is the single brick arch, the basin, and the keeper house. 4:5 and 9:16 are crops of this frame.
+
+NL-01-230 Borg Verhildersum, Leens. Hold: two-storey manor versus one-storey cottage. The card asks for a long one-storey brick house on a high basement, a hipped grey roof, two chimneys, and no tower. The new frame is that long one-storey front. It is not a two-storey manor and not a small cottage. 4:5 and 9:16 are crops of this frame.
+
+NL-01-232 Belfort, Sluis. Hold: brick versus pale stone. The card asks for one rectangular stone-and-brick hall, a square tower, and four corner turrets. The new frame uses red brick and pale stone together on that one hall and tower. It is not an all-brick tower in one format and an all-stone tower in another. 4:5 and 9:16 are crops of this frame.
+
+NL-01-233 Spanjaardsgat, Breda. Hold: domes versus pointed spires. The card asks for two seven-sided brick towers with onion roofs flanking the water-gate arch. The new frame is those two towers with onion domes. It is not a pair of pointed spires. 4:5 and 9:16 are crops of this frame.
+
+Hashes
+NL-01-224 Sint-Ludovicuskerk, Rincon. Candidate. 16:9 b2f33c1079e0a13c9404628fcc0222099fc23eb927cbcffbeb52796e79220a4a. 4:5 73842f97da48ae014692910fd0853dc45bcdd48a1de13844661e1d8a1e964b84. 9:16 937c2642ece05eb04ebe3a715b70a3554bf3e5433547aa846acfa3bef4163c2e.
+NL-01-228 Tweede Gesticht, Veenhuizen. Candidate. 16:9 bc5963a8a65b064ed79561e2314cc6d6751d5f5d1207f9c71d9a4e61191306f3. 4:5 8db8c2482394e39e64178542c5ebaf4030da897a0d2edaa607ce4f2c9ba5354e. 9:16 b5815e7c9f53cf9b4590b7948d0ea82899f480076f90979e778ad91234e955b2.
+NL-01-229 Harbour, Noordpolderzijl. Candidate. 16:9 0b243760e626d6b8ea03b551d1c64210ce2c3b3e997507026b36f7fb638ed6af. 4:5 e6bf72bc62c6c3ba7f9eba287e9ab3f04b4ca44a3a62c9c01571ff9dbc214047. 9:16 0f4fcbbc458ff37718d21cd3b886721ee0471f7005dde14fac0cf6c7ce090ef2.
+NL-01-230 Borg Verhildersum, Leens. Candidate. 16:9 3b4e2a36d2741f2312fb54038d53cec2207e3b4647bf3d8fa9a1d54bf21052fc. 4:5 712cba4faa6cc28bca60407287242767b73e7a759ea8c5a962c5daf9b775c588. 9:16 2658e1a13968e47a5f93308bd40033119f80d969ace56ca5760b5e64a2212950.
+NL-01-232 Belfort, Sluis. Candidate. 16:9 657be62250dcfb5a2f10039207f727d8122705e5be62087a8001cf8f9b8b5783. 4:5 7c9885d8168b6b3270fc0317c800589273e76181d0672fffc0f01613e379f48c. 9:16 b65b6ba67688ccfc8be1b5ed6aab230747da4e5ff3cba732df14b464514cf153.
+NL-01-233 Spanjaardsgat, Breda. Candidate. 16:9 23487e4077b8d3ab07e75e75f0a6daf81bf8f5387a1913385881ca94899002e2. 4:5 b99fd389dee86e71d5089a90add142e3c08ad7475914b06cbc00f7ee819edd48. 9:16 6ad45b850a9a48692882b22fd2b22618d1668fd422a28248a154bc4b05268d28.
+
+Later pass — two new inter-format holds — 2026-09-27
+
+Main manifests still say Approved for NL-01-225 and NL-01-231. Those approvals were re-read and were not copied onto the new pixels. Both scenes stay Candidate. Nothing was self-approved. Art. 50 stays a metadata note on the masters. It is not an approval. Word of the day was not edited. The gallery shell outside the scene records was not edited.
+
+Each scene below has one new night view. The source plate is the 16:9 frame. The 4:5 photo is the exact center 864×1080 of that frame. The 9:16 photo is the center crop of the same frame, scaled to 1080×1920. A pixel check confirmed the 4:5 columns match the 16:9 center and the 9:16 matches that crop. Masters are 1920×1270, 864×1270, and 1080×2110, with a 190px #0e0e12 label bar, curly Jason D’s Vision, and Allura Jason A. Devlin. No scrim over the art.
+
+NL-01-225 Waterloopbos, Marknesse. Hold: a wide rectangular basin versus a weir channel. The card asks for one rectangular concrete wave basin and its small weir in the night forest. The pavilion and the entrance artwork stay outside the frame. The new frame is that one basin: a mossy concrete rectangle, a weir sill at the near end, and small cascades at the far end. 4:5 and 9:16 are crops of this frame.
+
+NL-01-231 Campveerse Toren, Veere. Hold: a crenellated tower with an attached stepped-gable house versus a stepped-gable-crowned standalone tower. The card asks for one harbour rondeel, round on the water side, red brick with white stone bands, a stepped gable and pinnacles, and later wings beside it. No restaurant name. The new frame is that one round tower, with the stepped gable on the same building and the low wings attached. 4:5 and 9:16 are crops of this frame.
+
+Hashes
+NL-01-225 Waterloopbos, Marknesse. Candidate. Source plate 16:9. 16:9 d12d298e35c5ccb3e56b85aac5d0fdb8dd25e2f1ff85767cc09fdfb6c6c877ca. 4:5 c1dcb439417d72e851ec5509e7295f58c0011795835afb463067173f544df251. 9:16 aafaacf21262a4688481ad2b0ffbb20ea00b723a86b1088bfb624acc1f1e9fbe.
+NL-01-231 Campveerse Toren, Veere. Candidate. Source plate 16:9. 16:9 efa35786c9bdd52bcc89e6b43b144b88ab6cac72ea1695570bd3f09acd6820d6. 4:5 c9069d6a75f1f5f65ea187bbb9b530afe5e21723f2a0a4ea9a77dd57d7e6eb1d. 9:16 804109e0638c724bb6869cda1de85b1af496f46835ad89a952dd2f9f7d996d47.
