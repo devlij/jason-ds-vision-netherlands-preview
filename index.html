@@ -318,6 +318,22 @@
         "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
       }[ch]));
     }
+    /* Alt is `{caption} — {site}, {City}`. Site is the landmark in the caption;
+       City is the scene city. tools/image_sitemap.py uses the same title. */
+    function imageAlt(s) {
+      var caption = s.caption || "";
+      var city = s.city;
+      if (city == null || city === "") {
+        var split = caption.lastIndexOf(", ");
+        city = split > 0 ? caption.slice(split + 2) : caption;
+      }
+      var suffix = ", " + city;
+      var site = (city && caption.length > suffix.length && caption.slice(-suffix.length) === suffix)
+        ? caption.slice(0, -suffix.length)
+        : caption;
+      var title = city ? (site + ", " + city) : site;
+      return caption + " \u2014 " + title;
+    }
     function fileName(url) {
       const path = String(url).split("?")[0];
       const slash = path.lastIndexOf("/");
@@ -354,7 +370,7 @@
         card.innerHTML = `
           <div class="preview">
             <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
-              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}"${file45 ? ` data-src-45="${esc(file45)}"` : ""}${s.file_16x9_day ? ` data-src-16-day="${esc('library/world/' + s.file_16x9_day)}"` : ""}${s.file_4x5_day ? ` data-src-45-day="${esc('library/world/' + s.file_4x5_day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${s.file_9x16_day ? ` data-src-916-day="${esc('library/world/' + s.file_9x16_day)}"` : ""} />
+              <img src="${esc(file16)}" alt="${esc(imageAlt(s))}" loading="lazy" data-src-16="${esc(file16)}"${file45 ? ` data-src-45="${esc(file45)}"` : ""}${s.file_16x9_day ? ` data-src-16-day="${esc('library/world/' + s.file_16x9_day)}"` : ""}${s.file_4x5_day ? ` data-src-45-day="${esc('library/world/' + s.file_4x5_day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${s.file_9x16_day ? ` data-src-916-day="${esc('library/world/' + s.file_9x16_day)}"` : ""} />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -510,7 +526,7 @@
             var m = NL_META[rid];
             if (!m || !m[3]) return;
             var a = document.createElement('a'); a.className = 'related-link'; a.href = '#' + rid;
-            var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3]; im.alt = m[4];
+            var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3]; im.alt = (typeof imageAlt === 'function') ? imageAlt({caption: m[4]}) : m[4];
             var sp = document.createElement('span'); sp.textContent = m[4];
             a.appendChild(im); a.appendChild(sp); row.appendChild(a);
           });
@@ -565,11 +581,13 @@
         if(!src){var a=c.querySelector('a.thumb');src=a?a.href:'';}
         var capT=t?t.textContent:'';
         if(daySrc)capT=capT+' \u2014 \u2600 Daylight variant';
-        return{src:src,cap:capT};
+        var altT=(im&&im.alt)?im.alt:capT;
+        if(daySrc)altT=altT+' \u2014 \u2600 Daylight variant';
+        return{src:src,cap:capT,alt:altT};
       }).filter(function(x){return x.src;});
       if(!items.length)return;
       idx=(i+items.length)%items.length;
-      img.src=items[idx].src;img.alt=items[idx].cap;cap.textContent=items[idx].cap;
+      img.src=items[idx].src;img.alt=items[idx].alt||items[idx].cap;cap.textContent=items[idx].cap;
       count.textContent=(idx+1)+' / '+items.length;
       overlay.classList.add('open');overlay.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
     }
