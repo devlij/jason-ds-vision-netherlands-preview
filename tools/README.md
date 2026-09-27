@@ -1,5 +1,9 @@
 # Netherlands tools
 
+## Gallery page
+
+`publish.py` writes `index.html` from `gallery_template.html`. Phase-1 (day/night and mood filters, result count, clear, four related thumbnails, copy link, and `#entry` deep links) is filled by `gallery_phase1.py`. Mood ids match Spain: `coastal`, `mountain`, `urban`, `historic`, derived from catalogue text. Day/night follows Open-Meteo `is_day`. A format control or related thumbnail is emitted only when that master file exists. Word-of-the-day entries live in `wotd.json`.
+
 ## Label-bar masters
 
 `composite_masters.py` replaces the gradient-scrim bake. It reads a pure pre-text PNG (no type, no scrim) and writes three finished masters. The photo pixels are not tinted or lettered. A 190px `#0e0e12` bar, with a 2px hairline, is added under the photo.
