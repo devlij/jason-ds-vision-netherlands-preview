@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of Slot Zeist at night",
   "file_16x9": "Netherlands/Zeist/nl-01-276-16x9.png",
   "file_4x5": "Netherlands/Zeist/nl-01-276-4x5.png",
+  "file_9x16": "Netherlands/Zeist/nl-01-276-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: night view from the stone arch bridge across the moat at the slate-roofed classicist main block, side houses flanking the forecourt, warm windows - matches the card's three geometry anchors; clean framing, no artifacts. Gate 2: Open-Meteo retrieval 2026-09-26T04:36:48+02:00 verified unique to the second across all 288 Netherlands evidence files; scenario 26 September 2026 · 04:36 Europe/Amsterdam sits inside the model-valid hour 04:00-04:59; exact 1920x1080/864x1080; exact caption, scenario, disclosure and curly-apostrophe Jason D's Vision signature on both formats; Art. 50 EU AI Act transparency metadata present in all PNG tEXt chunks. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or logos; license badge 'Free · no credit needed' (documented only). Gate 5: manifest card fields complete.",
-  "approved_at": "2026-09-26T19:38:38.531441+00:00",
-  "sha256_16x9": "bfe37e2251a53196ad7e3b1531b7a65e25fbf24fba52f31c0924d4f7d7d34a62",
-  "sha256_4x5": "2b6370b48251bd2b85159831240cd5a6bc5827fb34ebf8958cd0a1442eecf9eb",
-  "file_9x16": "Netherlands/Zeist/nl-01-276-9x16.png",
-  "sha256_9x16": "19c6fc509df96519a3323bf7f64cffaecdc1ee593ee9d36c252f5dfeee9b09da",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "41da4a5624c363f9e99a9290e2b487bc1f41b96aebfdef3541a329da4cfc399e",
+  "sha256_4x5": "e204c22f93e5c3f088bfa545c06e1449a9604bcf841b9ed363cb39efbe596d2d",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "3ba21482694f809bfcdc1f315b3b41d02bb9b702fee6bd91e1d9a733054b874c",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 84236f415011bafffdbd6d680a6e66ca4c2b25c5b730d474e3f002e80c384510. Source SHA-256 4:5 f9417b277bc721558a10718793ef0acc3683b7205da9e41698fc1910ef5f8670. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

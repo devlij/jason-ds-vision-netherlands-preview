@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the Grote Kerk in Veere at night",
   "file_16x9": "Netherlands/Veere/nl-01-267-16x9.png",
   "file_4x5": "Netherlands/Veere/nl-01-267-4x5.png",
+  "file_9x16": "Netherlands/Veere/nl-01-267-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1 PASS: night scene of the Grote Kerk at Veere - the famously massive pale-stone west tower with its low flattened roof rising behind small town houses, late-Gothic nave with tall traceried windows under an overcast sky, street lamps lighting the stone; the 4:5 frames the same broad stout tower head-on over the rooftops, consistent subject identity. Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Grote Kerk, Veere', scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI-disclosure and 'Jason D's Vision' signature all legible; Open-Meteo retrieval timestamp 2026-09-26T04:18:47+02:00 verified UNIQUE to the second across all 288 NL evidence files, scenario minute inside the model-valid hour 04:00-04:59; Art.50 PNG metadata (Title/Description/Copyright/Software/Comment with EU AI Act Art.50 note) present on both masters. Gate 3 PASS: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos; license badge 'Free · no credit needed' - documented only, final commercial call is Jason's. Gate 5 PASS: card fields complete.",
-  "approved_at": "2026-09-26T17:46:50.123016+00:00",
-  "sha256_16x9": "3cb8d054e9f3c084fddec89bec39e3e97d8092b9142b00190908d0bfdf234668",
-  "sha256_4x5": "135b89b7f1cfec353bef61dd969409da2363184262d3ab65fd8cb93041c41d89",
-  "file_9x16": "Netherlands/Veere/nl-01-267-9x16.png",
-  "sha256_9x16": "bf6d95fec42fb02334900ada15d0d9a38798d206d483af573b4c2692af3de4bf",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "88f3d20fee1a8964a405069af75c18afdc87b28c3e45133a74d84dcdac122ac2",
+  "sha256_4x5": "fbb8d18a620acd9f285f99c6c651267118dcd3f98a9821c8e878e719111b2fff",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "bfa205f303757c436b93393e9f07681fa65251b43ec1da58c0fc6c3b776b7397",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6d8d8837d63ca2aa4dd9cb5715c62b633c0c9f023bafcd91a6a6892116d8bc5d. Source SHA-256 4:5 ce2f6942b755014cd2f3d4bff716b98dfd784a72201a071e5dcdd92045e20505. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

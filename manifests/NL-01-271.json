@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the Begijnhof in Breda at night",
   "file_16x9": "Netherlands/Breda/nl-01-271-16x9.png",
   "file_4x5": "Netherlands/Breda/nl-01-271-4x5.png",
+  "file_9x16": "Netherlands/Breda/nl-01-271-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Night scene inside the Breda begijnhof court off Catharinastraat: long row of low brick houses with dormers running into the frame, lit garden strip between the rows, small white neoclassical chapel closing one end, lamplight on wet paving under overcast sky. Gate 1 visual PASS — matches the card's documented anchors (brick house row, garden strip, chapel front). Gate 2 technical PASS — masters 1920x1080 + 864x1080, exact curly-apostrophe 'Jason D's Vision' signature bottom-right, exact caption 'Begijnhof, Breda' + 'Scenario: 26 September 2026 · 04:18 Europe/Amsterdam' + 'AI-generated artistic interpretation · Not a photograph.' bottom-left on gradient scrim, Art. 50 PNG metadata (Title/Description/Copyright/Software + EU AI Act Art. 50 Comment); Open-Meteo retrieval 2026-09-26T04:18:57+02:00 unique to the second repo-wide (288/288 unique), scenario minute 04:18 inside the 04:00–04:59 model hour. Gate 3: text-prompt-only lineage, no photographic inputs per evidence card. Gate 4: no visible people, logos, or private property; license badge 'Free · no credit needed' (documented only, not a certified clearance). Gate 5: card fields complete.",
-  "approved_at": "2026-09-26T18:40:22.640490+00:00",
-  "sha256_16x9": "fce5d4a4fb7e67733d535a9b3eb5947d561089f035de72ad1504ece45bb59c3b",
-  "sha256_4x5": "0c5d278382fc7a717f6b55d9e88990688e767ec33d7d3a21572f4e20f69f2ac4",
-  "file_9x16": "Netherlands/Breda/nl-01-271-9x16.png",
-  "sha256_9x16": "7f5ed2f5c14ad2a6d438addcb8331da4e07f0bfda6fd1bc630ff411efb95c4c4",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "06dd34671de6db97da463e6a2c06873f2a9582c270a01acdd55d2576c190415c",
+  "sha256_4x5": "3038e4a0edb2bf686cc17b2364594c6233876ef6692e5acb53920b530ab1a13b",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "02ff2be77f808afcaba24f2b086bb7afd8aa476b1001ff3e2a3ff6ed953b1d7f",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 0b553ef1f633b8f135cfb1b222620c2af1a6da70bbdd6d80dcfa1ec49a0dac3a. Source SHA-256 4:5 d346fb804702bbd17aeae586efa3f0e8323f166a99ea0d9b2c2da1c088d3317b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

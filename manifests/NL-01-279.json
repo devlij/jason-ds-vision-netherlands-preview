@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the blue salt obelisk on Bonaire at night",
   "file_16x9": "Netherlands/Bonaire/nl-01-279-16x9.png",
   "file_4x5": "Netherlands/Bonaire/nl-01-279-4x5.png",
+  "file_9x16": "Netherlands/Bonaire/nl-01-279-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: lone blue stone obelisk on a rocky shore under a starry sky, dark sea foreground, loading pier reaching into the water with no readable name - all three card anchors present in both 16:9 and 4:5; clean framing, no artifacts. Gate 2: Open-Meteo retrieval 2026-09-25T22:37:49-04:00 unique to the second across all 288 NL evidence files; scenario 25 September 2026 · 22:37 America/Kralendijk inside the model-valid hour 22:00-22:59; exact 1920x1080/864x1080; exact caption, scenario, disclosure and curly-apostrophe Jason D's Vision signature on both formats; Art. 50 EU AI Act metadata present. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or logos; license badge documented only. Gate 5: manifest card fields complete.",
-  "approved_at": "2026-09-26T19:39:14.915751+00:00",
-  "sha256_16x9": "c119c361202bd42a9a1f5d136b0fb9c01f78bc8397e85af4bf10bdf33a8dc2f6",
-  "sha256_4x5": "3c6e505be4e6f9182193c0108d7529f6784b2fd0acd6cdb6fd2ea276b25dfede",
-  "file_9x16": "Netherlands/Bonaire/nl-01-279-9x16.png",
-  "sha256_9x16": "9709ef542b73840e80ac119f7415b0e6b59d5ad7609ac517098027a30ca6fd65",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "b595c4b1f324a17a5a3402b260102d1c694d9c3070a1ccde93cace18f867b9da",
+  "sha256_4x5": "0a7bf7900bfc768f7221cc64b0a943c58a6f14d59752e97f5a361248f8128713",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "874589a2712f12aa520933241dbbee8f2b1b44bbb9b863ce46fb04024564305a",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b39666510d2ef272692ae013dd65208b611342aaccfd8fe9d4bf2812b4d8a701. Source SHA-256 4:5 2dcee4439aaa8d45517440935bfabb802456db0da6ee43bb16d549171592716d. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }
