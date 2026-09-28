@@ -1,19 +1,19 @@
 Netherlands faithful re-finish — NL-01-281, NL-01-282, NL-01-283, and NL-01-285 — 2026-09-28
 
-Parent: origin/main c819436c4b7b436a9f7307139a6d8d5a6d3e7e19 (NL-01-240–261 faithful re-finish, with Art. 50 finish dates, now on main).
+Parent: origin/main a4eb8e85e09fdf6b14a20f838cd1a35adf249a6b (PR #11 merged: NL-01-262–280 faithful re-finish, Art. 50 finish dates for those scenes, then CNAME).
 Approved IDs re-read from origin/main manifests at batch start. These 4 were Approved and had no faithful_refinish: NL-01-281, NL-01-282, NL-01-283, NL-01-285.
 The scrim originals were restored from pre-merge main c3b845317688bb6e3a491ceb79d2097c637b45c2, which still had the Cosmo-approved 1920×1080 and 864×1080 masters. Merged main had already replaced them with 1920×1270 regenerated label-bar files.
-Hold skipped, not in this batch: NL-01-284. Standing holds outside this slice were not touched: NL-01-205, 249, 253–256, 259, 263–264, 273, 284, 286–288. NL-01-001–010 daylight and NL-01-026–055 were not touched. NL-01-240–280 were not touched. Open PR #11 (NL-01-262–280) is not on main; this branch does not edit its files.
-Branch tip: 3135919160326627e481e738bcab03e2a5e6010a
-The commit above is the one that adds these faithful masters. A later commit only writes this SHA into this note.
+Hold skipped, not in this batch: NL-01-284. Standing holds outside this slice were not touched: NL-01-205, 249, 253–256, 259, 263–264, 273, 284, 286–288. NL-01-001–010 daylight and NL-01-026–055 were not touched. NL-01-240–261 were not touched. PR #11 (NL-01-262–280) is on main; this branch does not edit its scene files.
+Branch tip: 0f2c431dee2be1ffc51bb367df50930a4814656e
+The commit above is the one that adds these faithful masters. Rebase onto current main kept those masters. This note records that SHA and the post-#11 gallery counts.
 
 Method
 tools/faithful_refinish.py inverts the 4c6f044 scrim and on-image type. Rows above y = int(height * 0.68) are copied unchanged. No GenerateImage and no new composition. 9:16 is a center crop of the cleaned 16:9, then the label bar. Sizes 1920×1270, 864×1270, 1080×2110.
 The prior Cosmo approval does not carry onto these new masters. Scene approval_status is Candidate. format_9x16_approval_status is Candidate. The 9:16 tab and download stay hidden until a 9:16 approval exists. Art. 50 finish dates were not stamped.
 
 Result
-4 scenes passed. 0 failed the pixel-match against the pre-merge approved scrim. Above-scrim changed pixels 0. Glyph miss 0. Unreachable unmasked 0. Scrim recomposite max abs 0. Source SHA-256 of each restored 16:9 and 4:5 equals the file at c3b845317688bb6e3a491ceb79d2097c637b45c2.
-Gallery: all 4 show Candidate, 1920×1270, 16:9 and 4:5 only. No 9:16 tab or download is wired for these 4, because format_9x16_approval_status stays Candidate. NL-01-001 daylight still toggles. NL-01-026 stays Approved at 1920×1080. Approved count is 268 (288 minus the 16 Candidate scenes from NL-01-240–261 and these 4). The image sitemap lists those 268 Approved scenes and drops these 4.
+4 scenes passed. 0 failed the pixel-match against the pre-merge approved scrim. Above-scrim changed pixels 0. Glyph miss 0. Unreachable unmasked 0. Scrim recomposite max abs 0. Source SHA-256 of each restored 16:9 and 4:5 equals the file at c3b845317688bb6e3a491ceb79d2097c637b45c2. Re-checked after the rebase onto a4eb8e85e09fdf6b14a20f838cd1a35adf249a6b: 4/4 still pass against that pin. PNG Comment dates stay 2026-09-24.
+Gallery: all 4 show Candidate, 1920×1270, 16:9 and 4:5 only. No 9:16 tab or download is wired for these 4, because format_9x16_approval_status stays Candidate. NL-01-001 daylight still toggles. NL-01-026 stays Approved at 1920×1080. Approved count is 252 (288 minus the 16 Candidate scenes from NL-01-240–261, the 16 Candidate scenes from NL-01-262–280 now on main, and these 4). The image sitemap lists those 252 Approved scenes and drops these 4.
 Page shell matches origin/main. GA4 is G-PDJ4WSS725. Spain is https://spain.jdvision.org/. index.html prefix and suffix outside the SCENES array are unchanged. The only scene objects that differ are these 4.
 
 Per scene
@@ -22,4 +22,4 @@ NL-01-282 Drogenapstoren, Zutphen (Zutphen). Source 16:9 b8f9b6a1402fecdbdf8701b
 NL-01-283 Gevangenpoort, Woudrichem (Woudrichem). Source 16:9 b1cf2b16a8c59270ec6c2ffe48480285affc8f954943ac66c0a1784297d06a70. Source 4:5 6966e67f1e2d04d232b77c6d64412ca5e14c917386c64a3285d32ea6c56061ed. Master 16:9 ccf3fb943618fac695a5a5fbea2abd4069bbe07262b5c0bf09621ef658c4fd48. Master 4:5 06f6045f7ec9b9965d7a8174b04e5664fd4f4eca6e2a3f9c77346c7ab5151419. Master 9:16 3f512402c8b80f9f9bb0f4874451c50d0f8d7984efe7628cf620f1614172a97f. 16:9 above 0, glyph miss 0, unmasked 0, recomposite 0. 4:5 above 0, glyph miss 0, unmasked 0, recomposite 0.
 NL-01-285 Gemaal Wortman, Lelystad (Lelystad). Source 16:9 25d027d4ff37d0819a4b97f173879a65d9f868a0d990ee10fbe34787cf7d6c4e. Source 4:5 2b2711c68493c14ea2dd152f71b42f6bdd6df5aa39db9bb7c8637fabe15814fc. Master 16:9 4abfaafcf032aac777e03ff3987db50436fc6391a0524c98fedc490f42d42342. Master 4:5 0869159a9796db44ed82e718c31170355bc79d2e5d5ce7633001e9d4712193dd. Master 9:16 aa79fec5d9ad82c6f413198aca767ff7fee1c7a8bb20c2c6148e84e1f31f4953. 16:9 above 0, glyph miss 0, unmasked 0, recomposite 0. 4:5 above 0, glyph miss 0, unmasked 0, recomposite 0.
 
-Remaining in the Approved band, not refinished here: none of the non-hold runway. NL-01-262, 265–272, and 274–280 are already in open PR #11. Holds stay out: NL-01-205, 249, 253–256, 259, 263–264, 273, 284, 286–288. NL-01-026–055 stay on the Cosmo lock. Next = END of the non-hold faithful runway. Pause for Cosmo re-QC of this batch.
+Remaining in the Approved band, not refinished here: none of the non-hold runway. NL-01-262, 265–272, and 274–280 are on main via merged PR #11. Holds stay out: NL-01-205, 249, 253–256, 259, 263–264, 273, 284, 286–288. NL-01-026–055 stay on the Cosmo lock. Next = END of the non-hold faithful runway. Pause for Cosmo re-QC of this batch.
