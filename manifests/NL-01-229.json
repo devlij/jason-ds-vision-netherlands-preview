@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Noordpolderzijl/nl-01-229-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "0b243760e626d6b8ea03b551d1c64210ce2c3b3e997507026b36f7fb638ed6af",
-  "sha256_4x5": "e6bf72bc62c6c3ba7f9eba287e9ab3f04b4ca44a3a62c9c01571ff9dbc214047",
+  "approval_status": "Approved",
+  "sha256_16x9": "f583eb996746bbf1d84c750485a3d10ab34cd73ec91915369760307ca49250fa",
+  "sha256_4x5": "9ae4adab62b6ca34f39071e379d5640f9d2e30bd0b298f3427965887ab88b74a",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "0f4fcbbc458ff37718d21cd3b886721ee0471f7005dde14fac0cf6c7ce090ef2",
-  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate."
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: brick sluice with wooden gates set in a grassy dike, lit lantern, channel to the Wadden Sea and the small dike cottage — the tidal-harbour sluice is the site's defining feature; no artifacts. Gate 2: exact dims; label bar \"Harbour, Noordpolderzijl\" + \"Scenario: 26 September 2026 · 03:37 Europe/Amsterdam\" + AI disclosure; exact signature; 03:37 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:37:44+02:00, unique to the second repo-wide; Art. 50 metadata verified. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: card fields complete.",
+  "approved_at": "2026-09-28T01:13:28.747675+00:00"
 }
