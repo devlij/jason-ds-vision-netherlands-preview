@@ -4,7 +4,7 @@ Parent: origin/main 3f5f3f4852a5e0c7b202db57e353ee60952d9396 (Cosmo QC approved 
 Approved IDs re-read from origin/main manifests at batch start. These 16 were Approved and had no faithful_refinish: NL-01-240, NL-01-241, NL-01-242, NL-01-243, NL-01-244, NL-01-245, NL-01-246, NL-01-247, NL-01-248, NL-01-250, NL-01-251, NL-01-252, NL-01-257, NL-01-258, NL-01-260, NL-01-261.
 The scrim originals were restored from pre-merge main c3b845317688bb6e3a491ceb79d2097c637b45c2, which still had the Cosmo-approved 1920×1080 and 864×1080 masters. Merged main had already replaced them with 1920×1270 regenerated label-bar files.
 Holds skipped, not in this batch: NL-01-249, NL-01-253, NL-01-254, NL-01-255, NL-01-256, NL-01-259. Standing holds outside this slice were not touched: NL-01-205, 249, 253–256, 259, 263–264, 273, 284, 286–288. NL-01-001–010 daylight and NL-01-026–055 were not touched. NL-01-224–239 were not touched.
-Branch tip: PENDING_SHA
+Branch tip: 7e5184b6d6b1ecbf71673ac92bf904d7212686ee
 The commit above is the one that adds these faithful masters. A later commit only writes this SHA into this note.
 
 Method
