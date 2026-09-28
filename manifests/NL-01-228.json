@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Veenhuizen/nl-01-228-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "bc5963a8a65b064ed79561e2314cc6d6751d5f5d1207f9c71d9a4e61191306f3",
-  "sha256_4x5": "8db8c2482394e39e64178542c5ebaf4030da897a0d2edaa607ce4f2c9ba5354e",
+  "approval_status": "Approved",
+  "sha256_16x9": "355b65ac971e139fa8fe19aef96398c6f02e2f120e34ab7c05ae9e98e5c706a8",
+  "sha256_4x5": "a1218c9cbf2b1d09e3459b370721bc828b7c612f4e53827228bd2729115fcd1b",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "b5815e7c9f53cf9b4590b7948d0ea82899f480076f90979e778ad91234e955b2",
-  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate."
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: long brick institutional facade with central clock tower viewed across a moat with stone embankment, single lit lamp post in foreground — matches the Tweede Gesticht workhouse building; clean night framing, no artifacts. Gate 2: exact dims; label bar \"Tweede Gesticht, Veenhuizen\" + \"Scenario: 26 September 2026 · 03:37 Europe/Amsterdam\" + AI disclosure; exact signature; 03:37 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:37:42+02:00, unique to the second repo-wide; Art. 50 metadata verified. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: card fields complete.",
+  "approved_at": "2026-09-28T01:13:20.982886+00:00"
 }
