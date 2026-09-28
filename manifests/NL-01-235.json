@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Oudewater/nl-01-235-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "7cdc832f745a7587033f24c424ec431e5bb0263f347af577d2982ab2a37d2907",
-  "sha256_4x5": "01be3f7709d6928290912fa1a0259283c1c4799cae7bdf07ff51d31afbdb9f6f",
+  "approval_status": "Approved",
+  "sha256_16x9": "ff543c348d32f38a0782d18e2f725d60700345728445e579842951eca1427604",
+  "sha256_4x5": "d096745591a7134f3f3a97ee9140bffe0f632f84f6820ab7d57440a39ecfd3bd",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "c7f9880f2744a8ada2fc9a21e2aacb571c48563fc5291c38fb1910f15f2888ae",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 703e7bdced1b3042dd3f5e1f4f91c18722dff3124312d2ba50612b02b11eb3aa. Source SHA-256 4:5 359efd63145c0d2d56d3bf85b054b71abd2a76301dffa7988ee2bd46a4cb48ef. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 703e7bdced1b3042dd3f5e1f4f91c18722dff3124312d2ba50612b02b11eb3aa. Source SHA-256 4:5 359efd63145c0d2d56d3bf85b054b71abd2a76301dffa7988ee2bd46a4cb48ef. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: stepped-gable brick canal house with lit lamp post, bridge and canal — matches the Heksenwaag on the Oudewater canal; no artifacts. Gate 2: exact dims; label bar \"Heksenwaag, Oudewater\" + \"Scenario: 26 September 2026 · 03:37 Europe/Amsterdam\" + AI disclosure; exact signature; 03:37 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:37:57+02:00, unique to the second repo-wide; Art. 50 metadata verified. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: card fields complete.",
+  "approved_at": "2026-09-28T01:14:12.067592+00:00"
 }
