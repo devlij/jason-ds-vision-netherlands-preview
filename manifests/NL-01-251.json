@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Dwingeloo/nl-01-251-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "082377447693d2712178790bd2d08d2ebfe976f35d222b9716bdce365f905762",
-  "sha256_4x5": "48dbf13ee121aced388172dca445d2ad21144a0956ecb35ff661464f23634527",
+  "approval_status": "Approved",
+  "sha256_16x9": "45169c6fd94e90678bc0d69651488d1fa345f858942099a6d10fec9b316d2b7a",
+  "sha256_4x5": "bfc87575618e33be0263aa28116bf83618b0534c2dcba9d16b7aeb662bf05818",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "1d996841dc55593e2dd31559487ee51aa2a54bae960b041b1600b8dfa56c30ce",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 45169c6fd94e90678bc0d69651488d1fa345f858942099a6d10fec9b316d2b7a. Source SHA-256 4:5 bfc87575618e33be0263aa28116bf83618b0534c2dcba9d16b7aeb662bf05818. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 45169c6fd94e90678bc0d69651488d1fa345f858942099a6d10fec9b316d2b7a. Source SHA-256 4:5 bfc87575618e33be0263aa28116bf83618b0534c2dcba9d16b7aeb662bf05818. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: brick tower with onion spire, Gothic nave, green and trees under overcast sky — matches anchors; plausible green viewpoint. Gate 2: exact dims; legible bar + exact signature/script; scenario 03:59 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:59:43+02:00, unique repo-wide; Art. 50 metadata verified (2026-09-28). Gate 3: text-prompt-only. Gate 4: no people/logos/copyrighted subject — documented only. Gate 5: card complete.",
+  "approved_at": "2026-09-28T22:13:56.653835+00:00"
 }
