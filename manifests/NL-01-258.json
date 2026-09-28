@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Oranjestad/nl-01-258-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "f564c9a238515469e07a624ad8112cdd51f89628cd04277bd507d3a4b4bd1382",
-  "sha256_4x5": "10aa02b88d92b3855ae7009a711aaa1830f15b646ab6a5e6dc5b93da0db2f260",
+  "approval_status": "Approved",
+  "sha256_16x9": "1879f13fcfa800187da7a6b5eff32046b8db26ee6175edeafc87cbc0d1145e1f",
+  "sha256_4x5": "1a9355cda908d92bf2a4365d986b954fe741089e1a0677defce8dc536d0acf88",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "3bd12a1e535d5d3c85746a7afd7301ba69546abf80bff17560a8464fd6fc458a",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 1879f13fcfa800187da7a6b5eff32046b8db26ee6175edeafc87cbc0d1145e1f. Source SHA-256 4:5 1a9355cda908d92bf2a4365d986b954fe741089e1a0677defce8dc536d0acf88. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 1879f13fcfa800187da7a6b5eff32046b8db26ee6175edeafc87cbc0d1145e1f. Source SHA-256 4:5 1a9355cda908d92bf2a4365d986b954fe741089e1a0677defce8dc536d0acf88. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: roofless stone nave, three-storey arched tower, tombs in grass, starry clear sky — matches anchors; plausible churchyard viewpoint. Gate 2: exact dims; legible bar + exact signature/script; scenario 22:18 America/Kralendijk inside model-valid hour 22:00; Open-Meteo retrieval 2026-09-25T22:18:25-04:00, unique repo-wide; Art. 50 metadata verified (2026-09-28). Gate 3: text-prompt-only. Gate 4: no people/logos/copyrighted subject — documented only. Gate 5: card complete.",
+  "approved_at": "2026-09-28T22:14:11.542885+00:00"
 }
