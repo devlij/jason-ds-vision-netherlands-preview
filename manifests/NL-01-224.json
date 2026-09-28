@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Rincon/nl-01-224-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "b2f33c1079e0a13c9404628fcc0222099fc23eb927cbcffbeb52796e79220a4a",
-  "sha256_4x5": "73842f97da48ae014692910fd0853dc45bcdd48a1de13844661e1d8a1e964b84",
+  "approval_status": "Approved",
+  "sha256_16x9": "0730cbba3842753b84b4e35885a5625752adf22193a24391d12b348d6d3bf86f",
+  "sha256_4x5": "39cafc6d046cb673852d1b9936486400de628cd1ca1dea3a8c29fac7bcf076bf",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "937c2642ece05eb04ebe3a715b70a3554bf3e5433547aa846acfa3bef4163c2e",
-  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate."
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: white Caribbean church with bell tower, cross, tiled pyramidal roof and arched wooden door, flanked by lit houses with dark hills behind, viewed from the street — recognizably Sint-Ludovicuskerk, Rincon at night; clean framing, no artifacts. Gate 2: exact 1920x1270 / 864x1270; on-image label bar \"Sint-Ludovicuskerk, Rincon\" + \"Scenario: 25 September 2026 · 21:16 America/Kralendijk\" + AI disclosure, legible; exact \"Jason D's Vision\" signature with \"Jason A. Devlin\" script; scenario 21:16 inside cited model-valid hour 21:00; Open-Meteo retrieval 2026-09-25T21:16:41-04:00, unique to the second repo-wide; Art. 50 PNG metadata verified. Gate 3: evidence card documents text-prompt-only generation, no photographic inputs. Gate 4: no people, logos, or recognizable private property visible; heritage church, documented only — final commercial call is Jason's. Gate 5: card fields complete.",
+  "approved_at": "2026-09-28T01:12:50.488553+00:00"
 }
