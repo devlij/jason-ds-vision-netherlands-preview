@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Bonaire/nl-01-257-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "8ec3131da209adf315ac50c4924995eb27ec817b10a2216bf9bf6c99507a7181",
-  "sha256_4x5": "3ccd9b2399c2e83e1a19282ec83bdad01816829e0bda69da9a7f292a2c1bc840",
+  "approval_status": "Approved",
+  "sha256_16x9": "c93ec05de764949b94517ca5f6db6bc2e5f7298f3bfc458995d56a18cd9b6e10",
+  "sha256_4x5": "cbc8a49d8eb137e84c2ed51ff6bcbda665fc502916c6aaf88100a89600198cc8",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "a63bd4ba9c30aae7b5554d9892394a13925c903ae1f540ddf937226beebffb35",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c93ec05de764949b94517ca5f6db6bc2e5f7298f3bfc458995d56a18cd9b6e10. Source SHA-256 4:5 cbc8a49d8eb137e84c2ed51ff6bcbda665fc502916c6aaf88100a89600198cc8. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c93ec05de764949b94517ca5f6db6bc2e5f7298f3bfc458995d56a18cd9b6e10. Source SHA-256 4:5 cbc8a49d8eb137e84c2ed51ff6bcbda665fc502916c6aaf88100a89600198cc8. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: limestone cliff with zigzag stair to a night cove, cacti, starry sky — matches anchors; plausible clifftop viewpoint. Gate 2: exact dims; legible bar + exact signature/script; scenario 22:18 America/Kralendijk inside model-valid hour 22:00; Open-Meteo retrieval 2026-09-25T22:18:22-04:00, unique repo-wide; Art. 50 metadata verified (2026-09-28). Gate 3: text-prompt-only. Gate 4: no people/logos/copyrighted subject — documented only. Gate 5: card complete.",
+  "approved_at": "2026-09-28T22:14:06.721452+00:00"
 }
