@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Veere/nl-01-231-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "efa35786c9bdd52bcc89e6b43b144b88ab6cac72ea1695570bd3f09acd6820d6",
-  "sha256_4x5": "c9069d6a75f1f5f65ea187bbb9b530afe5e21723f2a0a4ea9a77dd57d7e6eb1d",
+  "approval_status": "Approved",
+  "sha256_16x9": "98030718923a0fe78f2cbe15937be752a03fb5caae8c2a9ce5580b60f7c2c453",
+  "sha256_4x5": "da2f6bd6f36804e7672db9d2bbede764a47aec79a3adb85893982605c9d28485",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "804109e0638c724bb6869cda1de85b1af496f46835ad89a952dd2f9f7d996d47",
-  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the round Campveerse Toren, its stepped gable, and the later wings was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one tower. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate."
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the round Campveerse Toren, its stepped gable, and the later wings was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one tower. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: round brick tower with white horizontal bands and stepped gable, flanked by low brick buildings, reflected in water — matches the Campveerse Toren's distinctive banded tower; no artifacts. Gate 2: exact dims; label bar \"Campveerse Toren, Veere\" + \"Scenario: 26 September 2026 · 03:37 Europe/Amsterdam\" + AI disclosure; exact signature; 03:37 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:37:48+02:00, unique to the second repo-wide; Art. 50 metadata verified; 16x9/4x5 show the same banded tower (inter-format agreement PASS). Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: card fields complete.",
+  "approved_at": "2026-09-28T01:13:43.480562+00:00"
 }
