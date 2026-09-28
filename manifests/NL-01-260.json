@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Norg/nl-01-260-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "348b5b2d69eff9eb26d79e4f7c392056f971d6c4e110588b3884e2101b670139",
-  "sha256_4x5": "e3a3171898f3e3844b7cb1e9443fee964ba72c284783fd7fbbb684808a8f9970",
+  "approval_status": "Approved",
+  "sha256_16x9": "8ba12962e3201d78896738e1af6ac1fdb3827ad4ccd52d29850b68f10e6250f2",
+  "sha256_4x5": "2dc87e68bf0aae8bbbef31f2316e990f675ff346d2557462e1d36ff7a13a62ec",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "364b156f47bb8a70c8d8d3d58091db5ddb2ad39adfd151d738f56d8896f49aba",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 8ba12962e3201d78896738e1af6ac1fdb3827ad4ccd52d29850b68f10e6250f2. Source SHA-256 4:5 2dc87e68bf0aae8bbbef31f2316e990f675ff346d2557462e1d36ff7a13a62ec. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 8ba12962e3201d78896738e1af6ac1fdb3827ad4ccd52d29850b68f10e6250f2. Source SHA-256 4:5 2dc87e68bf0aae8bbbef31f2316e990f675ff346d2557462e1d36ff7a13a62ec. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: brick church, saddle-roof tower with white round-arched niches, round choir, brink green under overcast sky — matches anchors; plausible green viewpoint. Gate 2: exact dims; legible bar + exact signature/script; scenario 04:18 inside model-valid hour 04:00; Open-Meteo retrieval 2026-09-26T04:18:30+02:00, unique repo-wide; Art. 50 metadata verified (2026-09-28). Gate 3: text-prompt-only. Gate 4: no people/logos/copyrighted subject — documented only. Gate 5: card complete.",
+  "approved_at": "2026-09-28T22:14:16.564492+00:00"
 }
