@@ -59,6 +59,8 @@ DISCLOSURE = "AI-generated artistic interpretation \u00b7 Not a photograph."
 # Holds NL-01-249, 253–256, and 259 stay outside this slice.
 # NL-01-262, 265–272, and 274–280 are the same case.
 # Holds NL-01-263, NL-01-264, and NL-01-273 stay outside this slice.
+# NL-01-281, NL-01-282, NL-01-283, and NL-01-285 are the same case.
+# Hold NL-01-284 stays outside this slice.
 FAITHFUL_LO = (
     ("NL-01-001", "NL-01-010"),
     ("NL-01-011", "NL-01-025"),
@@ -77,6 +79,8 @@ FAITHFUL_LO = (
     ("NL-01-262", "NL-01-262"),
     ("NL-01-265", "NL-01-272"),
     ("NL-01-274", "NL-01-280"),
+    ("NL-01-281", "NL-01-283"),
+    ("NL-01-285", "NL-01-285"),
 )
 
 

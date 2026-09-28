@@ -3722,51 +3722,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/#NL-01-281</loc>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Sint%20Odili%C3%ABnberg/nl-01-281-16x9.png</image:loc>
-      <image:caption>Basiliek, Sint Odiliënberg</image:caption>
-      <image:title>Basiliek, Sint Odiliënberg</image:title>
-      <image:geo_location>Sint Odiliënberg, Netherlands</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Sint%20Odili%C3%ABnberg/nl-01-281-4x5.png</image:loc>
-      <image:caption>Basiliek, Sint Odiliënberg</image:caption>
-      <image:title>Basiliek, Sint Odiliënberg</image:title>
-      <image:geo_location>Sint Odiliënberg, Netherlands</image:geo_location>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/#NL-01-282</loc>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Zutphen/nl-01-282-16x9.png</image:loc>
-      <image:caption>Drogenapstoren, Zutphen</image:caption>
-      <image:title>Drogenapstoren, Zutphen</image:title>
-      <image:geo_location>Zutphen, Netherlands</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Zutphen/nl-01-282-4x5.png</image:loc>
-      <image:caption>Drogenapstoren, Zutphen</image:caption>
-      <image:title>Drogenapstoren, Zutphen</image:title>
-      <image:geo_location>Zutphen, Netherlands</image:geo_location>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/#NL-01-283</loc>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Woudrichem/nl-01-283-16x9.png</image:loc>
-      <image:caption>Gevangenpoort, Woudrichem</image:caption>
-      <image:title>Gevangenpoort, Woudrichem</image:title>
-      <image:geo_location>Woudrichem, Netherlands</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Woudrichem/nl-01-283-4x5.png</image:loc>
-      <image:caption>Gevangenpoort, Woudrichem</image:caption>
-      <image:title>Gevangenpoort, Woudrichem</image:title>
-      <image:geo_location>Woudrichem, Netherlands</image:geo_location>
-    </image:image>
-  </url>
-  <url>
     <loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/#NL-01-284</loc>
     <image:image>
       <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Zierikzee/nl-01-284-16x9.png</image:loc>
@@ -3779,21 +3734,6 @@
       <image:caption>Stadhuis, Zierikzee</image:caption>
       <image:title>Stadhuis, Zierikzee</image:title>
       <image:geo_location>Zierikzee, Netherlands</image:geo_location>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/#NL-01-285</loc>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Lelystad/nl-01-285-16x9.png</image:loc>
-      <image:caption>Gemaal Wortman, Lelystad</image:caption>
-      <image:title>Gemaal Wortman, Lelystad</image:title>
-      <image:geo_location>Lelystad, Netherlands</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Lelystad/nl-01-285-4x5.png</image:loc>
-      <image:caption>Gemaal Wortman, Lelystad</image:caption>
-      <image:title>Gemaal Wortman, Lelystad</image:title>
-      <image:geo_location>Lelystad, Netherlands</image:geo_location>
     </image:image>
   </url>
   <url>

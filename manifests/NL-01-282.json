@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the Drogenapstoren in Zutphen at night",
   "file_16x9": "Netherlands/Zutphen/nl-01-282-16x9.png",
   "file_4x5": "Netherlands/Zutphen/nl-01-282-4x5.png",
+  "file_9x16": "Netherlands/Zutphen/nl-01-282-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: 16:9 master shows the Drogenapstoren as a night-floodlit square brick gate tower — crenellated parapet, small octagonal corner turrets, octagonal lantern with tall lit windows, tall spire with dormers, ruined old wall in the left foreground and a lit street lamp at right; the 4:5 shows the same tower frontally, tighter and taller-framed (viewpoint/framing difference, same subject identity — corner turrets, lantern, dormered spire all present). Gate 2: masters exactly 1920x1080 / 864x1080; on-image caption 'Drogenapstoren, Zutphen', scenario '26 September 2026 · 04:37 Europe/Amsterdam', AI disclosure and 'Jason D's Vision' signature legible on the scrim; Art. 50 PNG metadata present on both masters; scenario minute 04:37 inside model-valid hour 04:00–04:59; Open-Meteo retrieval timestamp 2026-09-26T04:37:55+02:00 verified unique to the second across all 288 Netherlands evidence files via the GitHub API. Gate 3: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or copyrighted artwork; license badge 'Free · no credit needed' — documented only. Gate 5: card fields complete. Modelled scenario, never a verified capture.",
-  "approved_at": "2026-09-26T20:39:23.376134+00:00",
-  "sha256_16x9": "03af89a92fbe66935effa562d15258d7c88ced8f54cfb25a570d9480fbddd963",
-  "sha256_4x5": "c1a7af55c974c63b8f1651b850090fdd7d6704e9c185a47b22ba6975d0c5e3f3",
-  "file_9x16": "Netherlands/Zutphen/nl-01-282-9x16.png",
-  "sha256_9x16": "6c96bfb5120988fb77e6ee917c8f9f72a79d889da46fca856c13d295aac33849",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "a0ba22c11721dc95278c5c094023948d4e94259535ada238197a2bf97016da6e",
+  "sha256_4x5": "53c9976c0726b673a4597185c7f4cd8e2479b20fff6721bd20d1e117571fe5e4",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "fb2acc9462225db539423070cd5ee32a9674077531107d391bb102dd6cc04d2d",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b8f9b6a1402fecdbdf8701bd4ca9c2781d367ec42100204085ba95e3223878f4. Source SHA-256 4:5 bb81f804df4dd3e5d24120b48e7ca6334d9a1effd9676835442182fc79f72e1b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }

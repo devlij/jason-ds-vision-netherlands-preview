@@ -10,15 +10,13 @@
   "alt_text": "AI-generated artistic interpretation of the basilica in Sint Odiliënberg at night",
   "file_16x9": "Netherlands/Sint Odiliënberg/nl-01-281-16x9.png",
   "file_4x5": "Netherlands/Sint Odiliënberg/nl-01-281-4x5.png",
+  "file_9x16": "Netherlands/Sint Odiliënberg/nl-01-281-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: 16:9 master shows the Basiliek as a night-floodlit Romanesque basilica on its hill — two square stone choir towers flanking a lower polygonal choir, rough fieldstone texture, warm lit windows, a street lamp at the hill base; the 4:5 shows the same twin-tower subject from a tighter frontal view, formats agree. Gate 2: masters exactly 1920x1080 / 864x1080; on-image caption 'Basiliek, Sint Odiliënberg', scenario '26 September 2026 · 04:37 Europe/Amsterdam', 'AI-generated artistic interpretation · Not a photograph.' disclosure and 'Jason D's Vision' signature all legible on the scrim; Art. 50 PNG metadata (Title/Description/Copyright/Software/Comment with the EU AI Act Art. 50 note) present on both masters; scenario minute 04:37 sits inside the cited model-valid hour 04:00–04:59; Open-Meteo retrieval timestamp 2026-09-26T04:37:53+02:00 verified unique to the second across all 288 Netherlands evidence files via the GitHub API. Gate 3: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or copyrighted artwork; license badge 'Free · no credit needed' — documented only, not a legal certification. Gate 5: card fields complete. Scenario is a modelled scenario, never a verified capture.",
-  "approved_at": "2026-09-26T20:39:11.889764+00:00",
-  "sha256_16x9": "fecd2efab35193b90103c0bfad1f85ad700847a81bdb4c3651e9a0ea83fc28cb",
-  "sha256_4x5": "ca15ad33354e0885057df9b2e9851a88f8bccc767d8525858b28fe26931e9aa2",
-  "file_9x16": "Netherlands/Sint Odiliënberg/nl-01-281-9x16.png",
-  "sha256_9x16": "858c8a67669bdbc8ceb49d792b9eddf1b2d2e2c768013780d6238bf43a6b361a",
-  "format_9x16_approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "sha256_16x9": "8dea8dddfb2a8719abd83bc9bcd787da66af46b1bf6cefee30a3eb5d4499f589",
+  "sha256_4x5": "6736590ba62ea00bf1aed540039cf4c5cb798d3e07ebfe3f2d2776e6689511f9",
+  "format_9x16_approval_status": "Candidate",
+  "sha256_9x16": "9e65cf47663cef277eee0cf05b8d0130ed5884bcbe140f72ae4337031dd7b201",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 8ab7122d69e2b2c42166ee74e425eacac7412dac7add04161fa98df0e97c571b. Source SHA-256 4:5 da6e4636e07b164e27ec33e989bfae610cc430e2606a9e809caf4a3241e10e45. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }
