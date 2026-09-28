@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Marknesse/nl-01-225-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "d12d298e35c5ccb3e56b85aac5d0fdb8dd25e2f1ff85767cc09fdfb6c6c877ca",
-  "sha256_4x5": "c1dcb439417d72e851ec5509e7295f58c0011795835afb463067173f544df251",
+  "approval_status": "Approved",
+  "sha256_16x9": "0ebfa8a17265782edf62dd778e5cf0e3c3eeeeffa65c1880716a45a181ad570e",
+  "sha256_4x5": "927e7f9490b406ec277e20e111df394b81b75bc1a4328a5ea4775e3381ff1cae",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "aafaacf21262a4688481ad2b0ffbb20ea00b723a86b1088bfb624acc1f1e9fbe",
-  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the rectangular concrete Golfbak and its weir was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one basin. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate."
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the rectangular concrete Golfbak and its weir was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one basin. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: concrete wave-model basin with waterfall weirs in a dense night forest clearing, distant lamp glow, cloudy sky — the Waterloopbos hydraulic basins are the site's defining feature; plausible night viewpoint, no artifacts. Gate 2: exact dims; label bar \"Waterloopbos, Marknesse\" + \"Scenario: 26 September 2026 · 03:37 Europe/Amsterdam\" + AI disclosure; exact signature; scenario 03:37 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:37:36+02:00, unique to the second repo-wide; Art. 50 metadata verified; 16x9/4x5 show the same wave basin (inter-format agreement PASS). Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: card fields complete.",
+  "approved_at": "2026-09-28T01:12:58.268018+00:00"
 }
