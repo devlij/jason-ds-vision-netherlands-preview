@@ -18,5 +18,8 @@
   "sha256_4x5": "c9069d6a75f1f5f65ea187bbb9b530afe5e21723f2a0a4ea9a77dd57d7e6eb1d",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "804109e0638c724bb6869cda1de85b1af496f46835ad89a952dd2f9f7d996d47",
-  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the round Campveerse Toren, its stepped gable, and the later wings was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one tower. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate."
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the round Campveerse Toren, its stepped gable, and the later wings was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one tower. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate.",
+  "qc_notes": [
+    "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
+  ]
 }

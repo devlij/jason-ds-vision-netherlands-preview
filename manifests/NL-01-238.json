@@ -18,5 +18,8 @@
   "sha256_4x5": "365277156a4338b9f18bb3951deb43fe587e5c1eeaf197e93bd1803ffde3ebb5",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "650681760e5de8a394dfce69f12fde6eec968f4e3582f500ca31bb9a8ae73573",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a397472e95191f0a716aac406eba126bb22b35535d9b48d483aa4401467dded7. Source SHA-256 4:5 f4fac335e583219373068b92022dac898f3af96b1c18c75caa0af51bcbaa9859. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a397472e95191f0a716aac406eba126bb22b35535d9b48d483aa4401467dded7. Source SHA-256 4:5 f4fac335e583219373068b92022dac898f3af96b1c18c75caa0af51bcbaa9859. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_notes": [
+    "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
+  ]
 }

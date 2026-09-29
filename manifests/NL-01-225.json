@@ -18,5 +18,8 @@
   "sha256_4x5": "c1dcb439417d72e851ec5509e7295f58c0011795835afb463067173f544df251",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "aafaacf21262a4688481ad2b0ffbb20ea00b723a86b1088bfb624acc1f1e9fbe",
-  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the rectangular concrete Golfbak and its weir was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one basin. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate."
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the rectangular concrete Golfbak and its weir was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one basin. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate.",
+  "qc_notes": [
+    "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
+  ]
 }
