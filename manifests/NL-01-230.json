@@ -13,13 +13,10 @@
   "file_9x16": "Netherlands/Leens/nl-01-230-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "sha256_16x9": "8b0bacf77e68869759613141180a9ae63d6a47b3d4e256f1a440ded2c8218105",
-  "sha256_4x5": "270e863863efd5a631846b1a841c68626e22e5eb51c30f6c8ea545098ab596b3",
+  "approval_status": "Candidate",
+  "sha256_16x9": "3b4e2a36d2741f2312fb54038d53cec2207e3b4647bf3d8fa9a1d54bf21052fc",
+  "sha256_4x5": "712cba4faa6cc28bca60407287242767b73e7a759ea8c5a962c5daf9b775c588",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "2658e1a13968e47a5f93308bd40033119f80d969ace56ca5760b5e64a2212950",
-  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: brick manor house with white-trimmed windows and fanlit door, approached by a brick bridge over the moat, door lantern lit — matches the moated Borg Verhildersum; no artifacts. Gate 2: exact dims; label bar \"Borg Verhildersum, Leens\" + \"Scenario: 26 September 2026 · 03:37 Europe/Amsterdam\" + AI disclosure; exact signature; 03:37 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:37:46+02:00, unique to the second repo-wide; Art. 50 metadata verified. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: card fields complete.",
-  "approved_at": "2026-09-28T01:13:36.641120+00:00"
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate."
 }

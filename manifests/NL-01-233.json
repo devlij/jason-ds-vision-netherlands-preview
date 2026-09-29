@@ -13,13 +13,10 @@
   "file_9x16": "Netherlands/Breda/nl-01-233-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "sha256_16x9": "752cd8e52cedc2924ba6c86932c9293d4355e5ef1f6e8db499c65c76b19cb9de",
-  "sha256_4x5": "3a1314314c0886c32fb79312ec1286d1606170b9be36e65dd584f7d8483768a5",
+  "approval_status": "Candidate",
+  "sha256_16x9": "23487e4077b8d3ab07e75e75f0a6daf81bf8f5387a1913385881ca94899002e2",
+  "sha256_4x5": "b99fd389dee86e71d5089a90add142e3c08ad7475914b06cbc00f7ee819edd48",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "6ad45b850a9a48692882b22fd2b22618d1668fd422a28248a154bc4b05268d28",
-  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: twin brick water-gate towers with copper domes flanking a stone arch over the water, lit lanterns with reflections — matches Breda's Spanjaardsgat; no artifacts. Gate 2: exact dims; label bar \"Spanjaardsgat, Breda\" + \"Scenario: 26 September 2026 · 03:37 Europe/Amsterdam\" + AI disclosure; exact signature; 03:37 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:37:53+02:00, unique to the second repo-wide; Art. 50 metadata verified. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: card fields complete.",
-  "approved_at": "2026-09-28T01:13:57.594193+00:00"
+  "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate."
 }

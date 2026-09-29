@@ -13,13 +13,10 @@
   "file_9x16": "Netherlands/Saba/nl-01-237-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "sha256_16x9": "a88a603277b2e18f5bfbad0cb2cc144468e1e5b4cbf6aa92b02828cf18075155",
-  "sha256_4x5": "a1870c88865813d2c8cb870b9c029e132ae7d97b9c14481a65dd6b239c843508",
+  "approval_status": "Candidate",
+  "sha256_16x9": "5d4ba46fbc10503ff54fdd92351e7f15cbb982983c419e2bd1c38d0d4ed6f724",
+  "sha256_4x5": "4cc6c3dd39fba7b9c6ecce6efc6bb35ee42d6e98851523e69b1d2c9f4ffd7201",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "b613460f89a84b55c68d99e7a491bc10f8b0ac6c7b10526e1448e7f92e135c08",
-  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 44615ad6b26472eafa7893899b11ce6aa66e50f8059cde027b111971925feee1. Source SHA-256 4:5 133b0b3493873c6da2824dea8126b5e261d56e5f1fcff0473cf6443782c6a5d5. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: stone steps descending a vegetated cliff to the sea with a small building at the top under a dramatic dusk sky — the 800-step Ladder stairway is the site's defining feature; no artifacts. Gate 2: exact dims; label bar \"The Ladder, Saba\" + \"Scenario: 25 September 2026 · 21:38 America/Kralendijk\" + AI disclosure; exact signature; 21:38 inside model-valid hour 21:00; Open-Meteo retrieval 2026-09-25T21:38:01-04:00, unique to the second repo-wide; Art. 50 metadata verified. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: card fields complete.",
-  "approved_at": "2026-09-28T01:14:27.213214+00:00"
+  "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 44615ad6b26472eafa7893899b11ce6aa66e50f8059cde027b111971925feee1. Source SHA-256 4:5 133b0b3493873c6da2824dea8126b5e261d56e5f1fcff0473cf6443782c6a5d5. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
 }
