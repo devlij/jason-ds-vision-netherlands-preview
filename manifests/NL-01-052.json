@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "The Vaalserberg summit at night: the Drielandenpunt boundary stone with its three flagpoles at the fork of the forest paths, the Wilhelminatoren rising in the distance above the dark treeline. Gate 1: the three-country-point marker and tower, plausible summit-path viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Vaalserberg, Vaals', scenario '26 September 2026 · 00:00 Europe/Amsterdam' inside model-valid hour 00:00-00:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-26T00:00:45+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:43:06.281356+00:00",
-  "sha256_16x9": "9f516fca30cab92a2aedc2e62052995042eb1fcbaeaa77e1138d8b2ece35218f",
-  "sha256_4x5": "f7a578d33dcf1541fa66e09e38420b2202709fb029a35465d911fe9c02a9d231"
+  "sha256_16x9": "f63d17e492219c9e56bee045e2d73c3812e9fcfc48f4a01604025a8a6a63911c",
+  "sha256_4x5": "48f243a6ff528cc32732c527dcf3525a8adea15bc6516e472f939cc66fd51c57"
 }

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: I read the master — the Rietveld Schröder House at night, white intersecting planes with black window frames and the De Stijl red/blue/yellow accents, corner glazing and roof terrace, quiet lit residential street, plausible public-street viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Schröder House, Utrecht' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:22+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:38:59.759537+00:00",
-  "sha256_16x9": "c6f118ea16a0febb31768623e1c554cabd87727c873c46016c9d5b9dc893f69a",
-  "sha256_4x5": "8874507f02207c2a6c4e61989444b679099382c91e220ab13012bfcc8c3cc90a"
+  "sha256_16x9": "cf7551923e8f56de2682da45467c1351c0b5b380d93271126a8bca25a7a27a44",
+  "sha256_4x5": "9d2f20ff01672fae59409326870f8989afd232a107a9da00f0df0b99953c1b37"
 }

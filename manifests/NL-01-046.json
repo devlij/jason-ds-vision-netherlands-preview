@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Arnhem's John Frost Bridge at night: the steel through-arch span with its vertical hangers lit against the dark sky, river lamps reflecting on the Lower Rhine, the city lights of the far bank beyond. Gate 1: the bridge's signature arch profile, plausible riverside viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'John Frost Bridge, Arnhem', scenario '25 September 2026 · 23:41 Europe/Amsterdam' inside model-valid hour 23:00-23:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-25T23:41:46+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:42:37.198022+00:00",
-  "sha256_16x9": "20ceb3445804bfc4792b69f4804d1b7e3b7a38f90df1eae5e67c6c28b540f338",
-  "sha256_4x5": "4729b3e0453a6223e97eee1e1177d7a0ffdfc2910baa1cc9c06fbdd972c6a687"
+  "sha256_16x9": "9177e296fb85cdd9308ae85c927136c358e280bf677de520f04d0973102b5937",
+  "sha256_4x5": "751daae254e1750c520c669d4cdaed1b68f686b3769fa4aaabaee0bd03cfeb41"
 }

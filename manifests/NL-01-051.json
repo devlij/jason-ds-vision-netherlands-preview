@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Thorn's abbey square at night: the whitewashed abbey church with its baroque bell tower glowing at the head of the cobbled square, lined on both sides by the village's famous white houses with dark shutters. Gate 1: Thorn's signature white village, unmistakable abbey church, plausible square viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Abbey square, Thorn', scenario '26 September 2026 · 00:00 Europe/Amsterdam' inside model-valid hour 00:00-00:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-26T00:00:42+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:43:01.574546+00:00",
-  "sha256_16x9": "b7938b9a462b7831b2a99fcb7d422e1286e3a0c475e46a05229162be4eee3a1d",
-  "sha256_4x5": "27e16bda2bc9cb18aef0bfbbdbf370bd05b174b1ffeb99e1692b6d2e80c31b3b"
+  "sha256_16x9": "d3ab5b9ddec3148ac01568f53241cf6ea17f907f3eaf8a05d4388a9ce10fef77",
+  "sha256_4x5": "40704ecba9be7103ab02cda2e063b21f910b887caf15e6f519523c8e851386de"
 }

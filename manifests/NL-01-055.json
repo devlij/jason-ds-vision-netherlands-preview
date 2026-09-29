@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Schokland at night: the dark wooden Enserkerk with its spire lit from within, standing with the low museum houses on the former island's terp, a small beacon beyond, flat polder stretching to the horizon under a starry sky. Gate 1: Schokland's iconic terp church, plausible polder-road viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Schokland Museum, Schokland', scenario '26 September 2026 · 00:00 Europe/Amsterdam' inside model-valid hour 00:00-00:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-26T00:00:53+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:43:19.995169+00:00",
-  "sha256_16x9": "006aa275217822daeb15a38704b74958681c272e68b1064e244c0fc55afef266",
-  "sha256_4x5": "e78912a417f4343a8df05c0b84492dd2c56820d99c5ae67e925f0ffd5cc83338"
+  "sha256_16x9": "9b788ba2f1a7b5862dabee93295fa4d1dd29b5c6e6d684f5a615e521c2ef0aed",
+  "sha256_4x5": "cde27b7bde0da815023ad64dbe7d57c35385435de1ebcddfc437d657e8bf8567"
 }

@@ -14,10 +14,10 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
-  "sha256_16x9": "ff7bb10aef5ce198fb6a08d90dbac8d3489fd04f3363a8178859ecdad6d4af2c",
-  "sha256_4x5": "0ba30a6ec91c9a8e59e81bcfcb503f090e44c9b79896a0f715f046f9da15942d",
+  "sha256_16x9": "c637d7b9fe0d553ae3c6b6eb4c3b73fce8661e5aed0da1aee3d2870bad443638",
+  "sha256_4x5": "a4eacfb45eced69308183110ec7dcc19150a5851f0d80b7a1e0e186b44e327cb",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "44514ae190d404011f2b9a85583d7647cd0347ec31f28a1303c1b640ddf026d9",
+  "sha256_9x16": "ba719333130cecf8154357428486bbb9ad50de7618f71f8a42d7b8837f751755",
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4cfc1bb409990d6527ca1a08e3014bf3b00ec0d4b784fae13ee18977fe749c00. Source SHA-256 4:5 a8fd13a0e306b16d62a1e33ac6ded0756d6e90fe3c4a23e121755456e2acd186. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "approved_at": "2026-09-27T02:33:07Z",
   "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:56:13+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation."

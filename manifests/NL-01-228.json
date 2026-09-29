@@ -14,10 +14,10 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
-  "sha256_16x9": "bc5963a8a65b064ed79561e2314cc6d6751d5f5d1207f9c71d9a4e61191306f3",
-  "sha256_4x5": "8db8c2482394e39e64178542c5ebaf4030da897a0d2edaa607ce4f2c9ba5354e",
+  "sha256_16x9": "973308d237e8151a5cc10ea1ab97a5e9dad3716dd2626218bdd5c7cf14ffc290",
+  "sha256_4x5": "452b196da734fe0c4174f77fd3c5d198e248ed51494e515a15ee1543d3ab6055",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "b5815e7c9f53cf9b4590b7948d0ea82899f480076f90979e778ad91234e955b2",
+  "sha256_9x16": "f58c57212ae74ed40fb99e812b0373b16efec3c488f3c0baa5ced9ffdf0e914c",
   "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate.",
   "qc_notes": [
     "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."

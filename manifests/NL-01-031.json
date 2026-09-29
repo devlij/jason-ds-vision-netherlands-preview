@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: I read the master — the Markt at Gouda with the freestanding gothic Stadhuis centered on the wide empty cobbled square, central tower rising, surrounding canal houses lit, plausible open-square viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Markt, Gouda' + scenario '25 September 2026 · 23:06 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:06:33+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:00 model hour. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos; public square. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:38:45.921334+00:00",
-  "sha256_16x9": "4184c4556a7bf8a2a7802e7c2ff76dd4ae96bbadf1eb11c8fba15ea33f74e146",
-  "sha256_4x5": "a632445e168e0bb0a7215be1dbe543b1a1a9088143626e133275253854104134"
+  "sha256_16x9": "4e181b0a9ac7572eb13debf8965327c607a1e2def035693c1aba0f30d9f4c130",
+  "sha256_4x5": "614561887069150faf82e8265d0a0a363f6d8574e531caea60b8471471aeacc0"
 }

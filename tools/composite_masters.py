@@ -288,7 +288,15 @@ def layout_fonts(width: int, caption: str, scenario: str) -> tuple[dict[str, Ima
     raise SystemExit(f"label text does not fit a {width}px bar")
 
 
-def draw_label_bar(photo: Image.Image, caption: str, scenario_label: str) -> Image.Image:
+def draw_label_bar(
+    photo: Image.Image,
+    caption: str,
+    scenario_label: str,
+    *,
+    middle: str | None = None,
+) -> Image.Image:
+    """Append the signature bar. ``middle`` replaces the scenario line when the
+    master already carries different copy, such as a daylight marking."""
     photo = photo.convert("RGB")
     pw, ph = photo.size
     canvas = Image.new("RGB", (pw, ph + BAR_H), BAR_BG)
@@ -296,10 +304,11 @@ def draw_label_bar(photo: Image.Image, caption: str, scenario_label: str) -> Ima
     draw = ImageDraw.Draw(canvas)
     draw.rectangle((0, ph, pw - 1, ph + HAIRLINE - 1), fill=HAIR)
 
-    fonts, gap = layout_fonts(pw, caption, f"Scenario: {scenario_label}")
+    line = middle if middle is not None else f"Scenario: {scenario_label}"
+    fonts, gap = layout_fonts(pw, caption, line)
     margin = max(20, int(round(pw * 0.028)))
     col_gap = max(16, int(round(pw * 0.018)))
-    scenario = f"Scenario: {scenario_label}"
+    scenario = line
     left = [
         (caption, fonts["cap"], INK),
         (scenario, fonts["sc"], INK_SCENARIO),

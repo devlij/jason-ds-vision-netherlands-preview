@@ -17,8 +17,8 @@
   "qc_status": "Cosmo QC 5/5 2026-09-25",
   "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Kinderdijk windmill row along the drainage canal, late-afternoon golden light on the sails; late-afternoon light matches the 18:26 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:26:40+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:26 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
   "approved_at": "2026-09-25T22:29:15.920991+00:00",
-  "sha256_16x9": "03694282b8fcaf67e5bc3b638a337039c6eb0d830c449c32528cecf80fa82777",
-  "sha256_4x5": "a4e88a1fe39a4c1da5b865b4621241b18a08810b7060c11802e4c68354b0831d",
+  "sha256_16x9": "ae69e58da2c641a1176a8eaa2e583d503b8258977a1542713aa3bc6a0ddd4563",
+  "sha256_4x5": "2f3ae61c29eb8d4546689ecc92af12d2593b98a2550415b0f6c5589e708f4e08",
   "file_16x9_day": "Netherlands/Kinderdijk/nl-01-003-daylight-16x9.png",
   "file_4x5_day": "Netherlands/Kinderdijk/nl-01-003-daylight-4x5.png",
   "daylight_variant": {
@@ -40,8 +40,8 @@
       "4x5": "library/world/Netherlands/Kinderdijk/nl-01-003-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "67ab3081384dcb594309efbf4f15400586d570bb70275fa847749406f1206238",
-      "4x5": "3ad6cbaed658e00982c7fe8b552ad2de3a1b0bbe7c9e83e2d382bf1f6e60490a"
+      "16x9": "6fd3848d3f4d38beb610ad7b6f33daf74abd61f03781b52a723929b4bf02624f",
+      "4x5": "bcdc1f1cc457e73b4685dbc6fb48402cffb92a19cc99149ccbbde40051316856"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Kinderdijk windmills, Kinderdijk",
@@ -51,7 +51,7 @@
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
-  "sha256_9x16": "a39ba9d04f427c23b4903a95b3d76384fd890a8dfeb38a474e8d8a0fe98d1ce4",
+  "sha256_9x16": "a245694b6aa5724a3328c84de4d32eb385c7c72f894197550282a43dbc67c3a2",
   "format_9x16_approval_status": "Candidate",
   "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 8c8261f7bce58b2612bcee6213c97aaf0d8ecca98fffa2f8dd227af5bfdfc546. Source SHA-256 4:5 3d246eb034526d46af8413eed91f647a95788a4382ac803158be93283cef282c. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

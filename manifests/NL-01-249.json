@@ -25,12 +25,12 @@
     }
   ],
   "file_9x16": "Netherlands/Bronkhorst/nl-01-249-9x16.png",
-  "sha256_9x16": "9c1c4f117ffc0be1958c36c8d23409809b04f77983355053cdfecfa9d88a6c47",
+  "sha256_9x16": "363e822f9e2d9843df0156380d8cb5a24c4edcc87ff7267335b4e66533e85fef",
   "format_9x16_approval_status": "Candidate",
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: cobbled street of low brick houses converging on the modest brick chapel with a low tower crowned by a dark onion dome, wooded hill behind, moon through clouds; 4:5 shows the same chapel tower, domed spire and hill - the earlier closed-tower vs open-belfry discrepancy is resolved in the 20:49 UTC re-render. Gate 2: label bar exact - 'Kapel, Bronkhorst', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T03:59:38+02:00, unique to the second repo-wide, scenario minute 03:59 inside model-valid hour 03:00-03:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos, Free no-credit badge - documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:42:45.165412+00:00",
-  "sha256_16x9": "d33d019b2aad9b6179ca219d2a3cc259b16b3e81685df4a64636e41910c282b5",
-  "sha256_4x5": "ffbfc50224601c5ba8d3df9f0557e1a25b39e7f71d1f8c9c2b715d43c7889859"
+  "sha256_16x9": "df0a17d92a009a18f7101e5afa8e409fb93f3651930bea054499551598ab4aeb",
+  "sha256_4x5": "af08b5731a554265939dd5d64181d401152564e0220518acc1477fdb4ac27c0e"
 }

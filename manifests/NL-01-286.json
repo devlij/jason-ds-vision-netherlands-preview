@@ -13,12 +13,12 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "file_9x16": "Netherlands/Sneek/nl-01-286-9x16.png",
-  "sha256_9x16": "c3273fc8e2348d3d86401f2c8d9bc0e1246675ad36494b873f5f54053fa926e8",
+  "sha256_9x16": "2e33ff4146a91b35fd3ed7e93a0441b2400fd402b12f5b0be8af2cf6cecbcc0d",
   "format_9x16_approval_status": "Candidate",
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: rococo cream facade with a grand double-curved stone staircase and balustrade rising to the central door, wrought-iron balcony above, cartouche window surrounds, hipped roof with a small lit octagonal cupola - matching the card's independent description (rococo front 1760-1763, 1745 stair and balcony, cupola) from a plausible Marktstraat viewpoint; 16:9 and 4:5 agree on every defining feature. Gate 2: label bar exact - 'Stadhuis, Sneek', 'Scenario: 26 September 2026 · 04:38 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T04:38:03+02:00, unique to the second repo-wide, scenario minute 04:38 inside model-valid hour 04:00-04:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: lit windows only, no identifiable people, no logos, Free no-credit badge - documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:43:44.530668+00:00",
-  "sha256_16x9": "446087f439e385bf77e9b0f11bc773b4192d87d69a9e88c35a888b269bef3c21",
-  "sha256_4x5": "b6b5412264baea3cd6b35c0d64cdee79711a01eeec287ff7377f279d1b4615da"
+  "sha256_16x9": "938dee5edb964d6e66b4499a3af7c44bd0e29f7e7cb9f9f01805b4b031b6e6e4",
+  "sha256_4x5": "49ced1332434d831cea7540c7edd49fc16c3d37c836d043477eae5d6431372c8"
 }

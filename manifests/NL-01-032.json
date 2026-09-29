@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: I read the master — the Grote Kerk of Dordrecht with its massive square brick tower and corner turrets (no needle spire) seen from the harbour quay, moored boats in the foreground water, floodlit stone, plausible public-quay viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Grote Kerk, Dordrecht' + scenario '25 September 2026 · 23:06 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:06:36+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:00 model hour. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:38:50.127336+00:00",
-  "sha256_16x9": "7a653ee851cdebff41d941c97eaf18be376cf0697f8e7c92549b74c67a6da7fb",
-  "sha256_4x5": "b5555ee7dff397ab09fa379ef8bcff4f4e38c92742dd25ab3f67e7c65413a1d1"
+  "sha256_16x9": "8fd5dff573aeafbf342eaead3e7f1d7e29300a05e835b9bab72adc49a98430b7",
+  "sha256_4x5": "0029261866182fef03fcffb1b575b4077cecd7ed494b86149ff7b81606d90118"
 }

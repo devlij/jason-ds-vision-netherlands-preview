@@ -25,12 +25,12 @@
     }
   ],
   "file_9x16": "Netherlands/Oirschot/nl-01-256-9x16.png",
-  "sha256_9x16": "7cab9cdcd73763f85cb0fba6abc9dc9e0272622d212bf0837ca188f400de2128",
+  "sha256_9x16": "9e7a9826f2ab3dafa8b37a10080478e3b479a67ca62dd8cc870b8451b0b674f0",
   "format_9x16_approval_status": "Candidate",
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: 16:9 shows the floodlit brick west tower with its slender dark spire crowned by a cross, rising over the Gothic nave with steep gables, cobbled market square with lamp posts and brick row houses under an overcast night sky; 4:5 agrees on the identical spired crown - the earlier inter-format crown discrepancy is resolved in the 20:49 UTC re-render. Gate 2: on-image label bar exact - 'Sint-Petrusbasiliek, Oirschot', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', 'AI-generated artistic interpretation · Not a photograph.', 'Jason D's Vision' + 'Jason A. Devlin' script; Open-Meteo retrieval 2026-09-26T03:59:55+02:00, unique to the second across all Netherlands scenes, scenario minute 03:59 inside model-valid hour 03:00-03:59; PNG Title/Description/Copyright/Software/Comment present with EU AI Act Art. 50 note. Gate 3: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos, no credit required - documented only, no chain certified. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:41:01.886168+00:00",
-  "sha256_16x9": "68c01bfc17be05602dc33439ff6cf084a9b634d5eb01efe2e23f83efd1c2a2d5",
-  "sha256_4x5": "d78f2ef502e50686078814089f84e988a6cbf8da2c85bde1c27ccbb81232798e"
+  "sha256_16x9": "2689362e3072017daedce66508a2a49085548b674cc2b2f9d1f539df27328624",
+  "sha256_4x5": "b3a67946f79bd5f826d17a06410da0b91b8b55e575e4259e700038878fa75f83"
 }

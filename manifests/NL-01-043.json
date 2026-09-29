@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "The Oosterscheldekering at night: the long row of concrete piers with the walkway and its line of lamps receding across dark water under a heavy overcast sky, lamp reflections on the swell. Gate 1: the barrier's signature pier row, plausible tourist viewpoint from Neeltje Jans; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Oosterscheldekering, Neeltje Jans', scenario '25 September 2026 · 23:41 Europe/Amsterdam' inside model-valid hour 23:00-23:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-25T23:41:40+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:42:22.698532+00:00",
-  "sha256_16x9": "455dd2eb789b1e005960df861713eadb03bf7d624ecee4a84b00f6498ef2a25c",
-  "sha256_4x5": "27e14d7f13f6ee45513adc6fc432369679ed50e6d200b9829b6af095e8f8c0ec"
+  "sha256_16x9": "b99fe3d1b037157eab0addc9c21e8c40b50ad49c4151ab4e8134fcda8e53a963",
+  "sha256_4x5": "6ae137e71664c52898b8789d4c3808caaea234d3310eb5ac648e3fa51a72e223"
 }

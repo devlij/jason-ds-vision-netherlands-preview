@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: I read the master — Scheveningen pier stretching on pilings across dark water from a quiet sandy beach, lit pavilion toward the seaward end, fully overcast night sky, plausible beach viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Scheveningen pier, The Hague' + scenario '25 September 2026 · 23:05 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:05:36+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:00 model hour. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:37:58.365151+00:00",
-  "sha256_16x9": "89d9ef8fc48a57cf08065beac314e8fdf64631b09c4c8a10371a60ed201152c8",
-  "sha256_4x5": "d6ccb66b7e274f1c4acaee338f867fe7604238213c08597581f8ee42ac42cd9d"
+  "sha256_16x9": "8c1b122b4cd3d5495842a7c487a3848e95da85ec6b1f1cc1fad95b19122ebc62",
+  "sha256_4x5": "0bee0dd862e853cf0a1444f89350de148022191ca3ba6679e1f66a88eec7f541"
 }

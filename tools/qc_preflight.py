@@ -12,7 +12,6 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from composite_masters import (
-    COMMENT,
     COPYRIGHT,
     DESCRIPTION,
     SOFTWARE,
@@ -105,46 +104,57 @@ def main() -> None:
             errors.append(f"{path.name} country")
         if "Scenario:" in data.get("scenario_label", ""):
             errors.append(f"{path.name} scenario_label should not repeat the Scenario prefix")
-        label_bar = bool(data.get("file_9x16"))
-        legacy = {"file_16x9": (1920, 1080), "file_4x5": (864, 1080)}
+        has_9x16 = bool(data.get("file_9x16"))
         labelled = {
             "file_16x9": (1920, 1270),
             "file_4x5": (864, 1270),
             "file_9x16": (1080, 2110),
         }
         photo_h = {"file_16x9": 1080, "file_4x5": 1080, "file_9x16": 1920}
-        kinds = ["file_16x9", "file_4x5"] + (["file_9x16"] if label_bar else [])
-        sizes = labelled if label_bar else legacy
+        kinds = ["file_16x9", "file_4x5"] + (["file_9x16"] if has_9x16 else [])
+        comment_re = re.compile(
+            r"^EU AI Act Art\. 50 transparency note: this image is AI-generated content\. "
+            r"Machine-readable disclosure embedded (\d{4}-\d{2}-\d{2})\.$"
+        )
+        scene_dates: list[str] = []
         for kind in kinds:
             img_path = ROOT / "library" / "world" / data[kind]
             if not img_path.exists():
                 errors.append(f"missing {img_path}")
                 continue
             with Image.open(img_path) as im:
-                if im.size != sizes[kind]:
+                if im.size != labelled[kind]:
                     errors.append(f"{img_path.name} size {im.size}")
-                elif label_bar:
+                else:
                     if im.getpixel((2, im.size[1] - 1))[:3] != (14, 14, 18):
                         errors.append(f"{img_path.name} label bar is not #0e0e12")
                     if im.getpixel((2, photo_h[kind]))[:3] != (228, 228, 234):
                         errors.append(f"{img_path.name} missing 2px hairline")
+            # Art. 50 is read from PNG chunk headers, not Pillow Image.info.
             chunks = read_text_chunks(img_path)
             expected = {
                 "Title": ("iTXt", TITLE),
                 "Description": ("tEXt", DESCRIPTION),
                 "Copyright": ("iTXt", COPYRIGHT),
                 "Software": ("tEXt", SOFTWARE),
-                "Comment": ("tEXt", COMMENT),
             }
             for key, val in expected.items():
                 if chunks.get(key) != val:
                     errors.append(f"{img_path.name} chunk {key} {chunks.get(key)!r}")
+            comment = chunks.get("Comment")
+            matched = comment_re.match(comment[1]) if comment and comment[0] == "tEXt" else None
+            if not matched:
+                errors.append(f"{img_path.name} chunk Comment {comment!r}")
+            else:
+                scene_dates.append(matched.group(1))
+        if len(set(scene_dates)) > 1:
+            errors.append(f"{path.name} Art. 50 finish dates differ across masters {sorted(set(scene_dates))}")
         # sha match
         note = (ROOT / "approvals" / f"{data['entry_id']}.md").read_text()
         import hashlib
 
         sha_rows = [("16:9", data["file_16x9"]), ("4:5", data["file_4x5"])]
-        if label_bar:
+        if has_9x16:
             sha_rows.append(("9:16", data["file_9x16"]))
         for label, rel in sha_rows:
             digest = hashlib.sha256((ROOT / "library" / "world" / rel).read_bytes()).hexdigest()

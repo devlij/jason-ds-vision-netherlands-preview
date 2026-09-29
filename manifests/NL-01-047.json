@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Nijmegen's Waalbrug at night: the white-lit steel arch bridge over the Waal with the floodlit Stevenskerk tower and historic riverfront buildings behind it, lights reflecting on the water. Gate 1: classic Waalbrug-plus-Stevenskerk view, plausible riverbank viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Waalbrug, Nijmegen', scenario '25 September 2026 · 23:41 Europe/Amsterdam' inside model-valid hour 23:00-23:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-25T23:41:47+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:42:42.086790+00:00",
-  "sha256_16x9": "05a3e4706b2bdcefd3dbe87f3fd97c18b945ba60bde8a39ac830141879d3e3fd",
-  "sha256_4x5": "1c1eb752e3b5141636410a23249c9488a13ac0d58f331bb721fc5407d487987e"
+  "sha256_16x9": "659ca22a0ed3494e5360dcd9229eb6376b6e1b32c75e052d4103165ada6c4e4d",
+  "sha256_4x5": "1c85d1cde337234713d47738863218d759edda68816126bfffbd762a5f8dab41"
 }

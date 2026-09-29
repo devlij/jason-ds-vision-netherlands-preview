@@ -14,10 +14,10 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
-  "sha256_16x9": "734da4711f75809264cad9f896f6922b04bf22d5e034ebc3b1c6b237f334ef94",
-  "sha256_4x5": "a33a88ca1d6a3d443e4f6aa2c32bc98d47e04255f1c2de67cac456ca9447b0e9",
+  "sha256_16x9": "1fc6f9e8dbb11606584f87bd608b6e72eae243c7e4bc50b86e70aeec77255e5e",
+  "sha256_4x5": "a226b98a9f01d74df0b090f933a26bff332673b07fad15bd121f3569ea277e40",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "5f97bf2359878740814f7cbfe9d87d19843778e03ad440cc1ea433fbecbdb676",
+  "sha256_9x16": "eea9b3efffd4885370bc79b3cdc83cf5f17045f930b3786ff087dd06c1c12689",
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6d0a8b5b524b60521cd907f5fa926362d34ebc026326623e014c9ab292ee782a. Source SHA-256 4:5 dee7cf1d3962b3d917d3e0ee02f4d7af6ac925b3f466586854a299b039e13974. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_notes": [
     "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."

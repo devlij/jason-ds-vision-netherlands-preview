@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: I read the master — Breda Castle's twin round brick gatehouse towers with tall spires joined by an arched bridge, the whole brick mass mirrored in the calm moat at night, trees on the banks, plausible public-waterfront viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Breda Castle, Breda' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:33+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:40:04.198436+00:00",
-  "sha256_16x9": "f4db9aa5b12b60d2a796c987eddcb3afc9a68e3ccf60d77473ddb3837bc8d7d1",
-  "sha256_4x5": "261a21422f391fd13acb02948934270f21fec6b9f24a61328f0b2a9eee766375"
+  "sha256_16x9": "5717ee5321b604a1e270107d1a4397be5bb36828e31e16e46f2d8c9701397cc2",
+  "sha256_4x5": "d45c42025e2e754228b66513e33be619b3fdd5cfbcbd0af3ffdd56583fdb8f43"
 }

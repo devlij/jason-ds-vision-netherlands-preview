@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: I read the master — night view of the Enkhuizen harbour quarter with a row of dark historic wooden gabled houses along a quay, warm lamplight reflected in the water, plausible tourist waterfront viewpoint, clean framing, no artifacts. Gate 2: masters at exact 1920x1080/864x1080, caption 'Zuiderzeemuseum, Enkhuizen' + scenario '25 September 2026 · 23:05 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right all legible on a gradient scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:05:26+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:00 model hour. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos; public waterfront museum quarter. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:37:39.183009+00:00",
-  "sha256_16x9": "76366594bda8edb150f9eead8ddf00d09cefed13f531f3febfa5dac13a436097",
-  "sha256_4x5": "4f499323433b27b93cb98534a114baca0a26bf96a60bbb7d9c0168d03ad30dd8"
+  "sha256_16x9": "98d2be4bd0a7642266ea59fe66034040820fce213ddf630bf7ddffb298166b01",
+  "sha256_4x5": "b88736c6716a70bf61c5fee03cd2e18b36760b14c6ab9a2c7db58b84b5fd89fb"
 }

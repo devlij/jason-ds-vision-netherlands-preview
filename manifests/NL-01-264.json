@@ -25,12 +25,12 @@
     }
   ],
   "file_9x16": "Netherlands/Workum/nl-01-264-9x16.png",
-  "sha256_9x16": "2bbee84d41b616fc31103118b2ddb7940e2b391f9a214d7461357c6319391ae3",
+  "sha256_9x16": "c56c3dd099059d21e5a470c0a730851aec7792c71bc4040d889911c43a32be01",
   "format_9x16_approval_status": "Candidate",
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: both formats agree on the defining arrangement - the heavy two-stage brick tower stands apart from the brick hall nave with a visible gap, tower crowned by the open lantern + onion cupola with cross finial, stair turret on the tower's flank, nave with gabled front, rose window and tall Gothic windows; the earlier tower-nave inter-format discrepancy is resolved in the 20:49 UTC re-render. Gate 2: label bar exact - 'Sint-Gertrudiskerk, Workum', 'Scenario: 26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T04:18:40+02:00, unique to the second repo-wide, scenario minute 04:18 inside model-valid hour 04:00-04:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage per evidence card, no photographic inputs. Gate 4: no identifiable people, no logos, no credit required - documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:41:37.242969+00:00",
-  "sha256_16x9": "10be325ba24ecdaeac0025a02bf2e0642f80dea13304ad38acf46d8b966145ff",
-  "sha256_4x5": "3ab3c5d040e2815dc713ab9f266ec214b72f402d564210ce03a7c4b4bafa9905"
+  "sha256_16x9": "1c3aeffb88b5df0e6369c1adbc59af133f6e0640dc68e3046cffa85cb5bdb6a7",
+  "sha256_4x5": "4e17257363c6e8869cc21d14ae8799e1cd48c4ace4a53f917d760936210a8923"
 }

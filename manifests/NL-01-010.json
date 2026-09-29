@@ -17,8 +17,8 @@
   "qc_status": "Cosmo QC 5/5 2026-09-25",
   "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Dom Tower freestanding gothic tower with the Domkerk behind, Domplein cobbles; late-afternoon light matches the 18:27 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:27:56+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:27 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
   "approved_at": "2026-09-25T22:29:45.579653+00:00",
-  "sha256_16x9": "97d6ea6b791304ed228488bdaa0f024832c7e674f46b17ae20fec4545efb9cd6",
-  "sha256_4x5": "a3af47c4150a2570bb64d47c302c58b1f3485043ceba6780f02338bac42a8fe8",
+  "sha256_16x9": "466c861c85a655d5c4c97dcdea64b1a29684d048d99cecacafb38e8c20c49a78",
+  "sha256_4x5": "02305fc01e6a6185b4f092aa99dcf2565e30c1e7da0736d623ddab7282d9666a",
   "file_16x9_day": "Netherlands/Utrecht/nl-01-010-daylight-16x9.png",
   "file_4x5_day": "Netherlands/Utrecht/nl-01-010-daylight-4x5.png",
   "daylight_variant": {
@@ -40,8 +40,8 @@
       "4x5": "library/world/Netherlands/Utrecht/nl-01-010-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "5bba27ba9a38ea3a5998ffca1719c2caf8794ce36ba976df1bdf4b5b19fa95df",
-      "4x5": "15ad9691f4e5fe0a3461848f3a6fe7f3a796b6ca0fb0b3eefa4b0a3c10042c97"
+      "16x9": "2dcfea59ebdfc0728f8149138692e9ce0bae5a432834550dc30c0341b240935b",
+      "4x5": "8f48d9ab8aee53aa9f2eb4a28cfa513fadd757003039dc6b26989abc9a2951bf"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Dom Tower, Utrecht",
@@ -51,7 +51,7 @@
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
-  "sha256_9x16": "df0194088ffdd2c0d64ccacf4c8d751009c7be0f7817da85293ade44a034b093",
+  "sha256_9x16": "12f7473cd2180f26bce31531c6ea99784da7c3c1406c3437f993cf753871bdcd",
   "format_9x16_approval_status": "Candidate",
   "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 186e40a2f28a9e3aefbc0f11629a20a5254dd1207cda591ce0832d12906d7112. Source SHA-256 4:5 9849c724dff73716582282f9bf18d1b3d2710f32908b27240701c819db4c6b80. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
 }

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Urk's harbour at night: the fishing fleet with masts and rigging moored under the floodlit stone lighthouse on the grassy dike, lamp reflections on the dark water beneath a starry sky. Gate 1: the square Urk lighthouse and fishing harbour, plausible quayside viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Harbour, Urk', scenario '26 September 2026 · 00:00 Europe/Amsterdam' inside model-valid hour 00:00-00:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-26T00:00:51+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:43:15.273609+00:00",
-  "sha256_16x9": "d97b9c3b9a4c7416dd716cb4b260ee9fe49b55c415bf123c7bfbb4cd394eda9f",
-  "sha256_4x5": "0dbe3b7cc111c2b903fac4bd00152624697b18777ccfbc0c8902fc1c2e1c3b09"
+  "sha256_16x9": "f1a106f37650827cb166677d0d124b4ec4bbc43bbf57142099a6951f0df3d8ac",
+  "sha256_4x5": "32f62e48649452779e79c713d36ed5309cafcdab333141746deb78072cf03121"
 }

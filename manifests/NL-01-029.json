@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: I read the master — the Peace Palace's brick-and-stone facade with its tall clock tower lit at night, formal garden and fountain in the foreground from the Carnegieplein side, plausible public-garden viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Peace Palace, The Hague' + scenario '25 September 2026 · 23:05 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:05:34+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:00 model hour. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:37:52.840809+00:00",
-  "sha256_16x9": "023c49e41a757d11a023f2743609fc601c43e5065e7f2eff435debaf1be1d48e",
-  "sha256_4x5": "4611a963c459b58468e039011cac60017caa5d204200bf554f60a2aa56b23b52"
+  "sha256_16x9": "7072bed305d769c84af8e25957ab8313615d9dc5c3ec276706497f26e92b7549",
+  "sha256_4x5": "cbd41ef1b1f1af426886b577801abb39cdf2c89f6f6c79500484446d1be59804"
 }

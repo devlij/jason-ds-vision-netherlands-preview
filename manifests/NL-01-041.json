@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Veere's night harbour: moored sailboats under a fully overcast sky, the slender town-hall clock tower and a shorter church tower rising behind the lit waterfront houses, the round Campveerse Toren at the water's edge at right. Gate 1: plausible tourist viewpoint from the public quay, recognizable Veere waterfront; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Town Hall, Veere', scenario '25 September 2026 · 23:41 Europe/Amsterdam' inside model-valid hour 23:00-23:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-25T23:41:36+02:00 unique to the second across all 272 Netherlands scenes (zero repo-wide duplicates); Gate 3: note records text-prompt-only, no photographic input; Gate 4: no prominent identifiable people, focal logos or copyrighted artwork as subject, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge 'Free · no credit needed' complete.",
   "approved_at": "2026-09-26T02:42:13.586540+00:00",
-  "sha256_16x9": "c408a877f60ca3f8efbc524d312844e46f45beb161755f12e6b9735e59bb9cc2",
-  "sha256_4x5": "0e0688eb72c2d3f9457c80ab957c39d2fb787dc3ec908bbea99d9be89ce82335"
+  "sha256_16x9": "456a291897a8d9901d23d64b5107e320351ca779cd5bcf37f2a8e34809aed63c",
+  "sha256_4x5": "808d2c3af8e4c4c6295244692fba3d07e9c6494906e5aec7143b8c83dd83b6c8"
 }

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "The Bataviawerf harbour at night: the museum sheds and quay lamps along the calm basin, the mooring berth empty where the replica usually lies. The absence is honest current state: SWZ Maritime (2026-09-21) independently confirms the Batavia replica was towed to Damen Shiprepair Amsterdam on 19 September 2026 and is scheduled back in Lelystad on 1 October, so the empty water is correct for the scenario date. Gate 1: plausible quay viewpoint, verified against an independent source, not just the builder's note; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Bataviawerf, Lelystad', scenario '26 September 2026 · 00:00 Europe/Amsterdam' inside model-valid hour 00:00-00:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-26T00:00:48+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:43:10.761390+00:00",
-  "sha256_16x9": "451913a1940b1f22dfeef7c1d6c8b6e5e3f71af410a2808e67a31d76254eb486",
-  "sha256_4x5": "b4b2f38ab3c46e731db53f3ace9929aa3a6d50cff415b3e70980a372177d4fb1"
+  "sha256_16x9": "6c2a91af531d2868141dad306870dc28ec851d2afe3d8cc8303b44b37ad10765",
+  "sha256_4x5": "bbb7e63e9c3f1364b8b394703e227bed690398434c8d50d3a85421c627159190"
 }

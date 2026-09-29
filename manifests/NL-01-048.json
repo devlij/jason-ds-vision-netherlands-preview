@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Paleis Het Loo at night: the symmetrical brick baroque palace facade with its lit windows fronting the formal hedge parterres and central reflecting pool of the gardens, dark sky above. Gate 1: recognizable Het Loo palace and knot gardens, plausible garden-axis viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Paleis Het Loo, Apeldoorn', scenario '25 September 2026 · 23:41 Europe/Amsterdam' inside model-valid hour 23:00-23:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-25T23:41:49+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:42:46.754833+00:00",
-  "sha256_16x9": "7fb1fba0f00c4faae28b56b051147bba00bbfcf370cb4de18cc169126259318b",
-  "sha256_4x5": "b69c5e6a283889002513fe49a423f0c37d05aa9a351d72c0dc17854e2b5fe178"
+  "sha256_16x9": "d2a96a2f93feef3342da828093b4bc5f380ff5b1e173973d872c8724d8bfe15f",
+  "sha256_4x5": "d84d9de806a70c33503752f1b5df71df19f9d1cfb33d783abc6e02709ab616a0"
 }
