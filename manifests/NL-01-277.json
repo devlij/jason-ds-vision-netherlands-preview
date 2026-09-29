@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/IJsselstein/nl-01-277-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "9ce8359d57797e5e42e90071298ae0d4659779403b727ea39a589c5d086afafa",
-  "sha256_4x5": "719b098614d7b1f878760a8107d01fbccd3f0a1913f5f819ce597e0e68b64082",
+  "approval_status": "Approved",
+  "sha256_16x9": "3acbe66cffe1822315f74c653ed90d121f90e79bc2077a13c5f1011980727f81",
+  "sha256_4x5": "9f55c1cf1b82ea5a9a05de48d48415b3e36355a3b35e471974636c9ce1352c82",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "810ca96c374f22560ae649e9f1c292924a10ee01d66dd7c98fd292496f0434b9",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 165d330ac281e1d4b3faa44b04c18f050cdaf1038f1641f2a0c07fd3d39b13b9. Source SHA-256 4:5 c541dbe345ef4aa87ef630d8228920560238d1b4b8b36254c8a337e0b4a7c0bf. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 165d330ac281e1d4b3faa44b04c18f050cdaf1038f1641f2a0c07fd3d39b13b9. Source SHA-256 4:5 c541dbe345ef4aa87ef630d8228920560238d1b4b8b36254c8a337e0b4a7c0bf. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Brick Gothic basilica with corner-pinnacled square tower, warm floodlight, overcast night. Exact caption/scenario '26 September 2026 · 04:37 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:37:18+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00"
 }

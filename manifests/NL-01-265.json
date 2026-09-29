@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Schokland/nl-01-265-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "899e35e38a00e7bcfd1106d84b1d9a9f8ec6f74578158448c7dbd49f12df0dff",
-  "sha256_4x5": "b48be1d2cf3082a881b1fecf5dbbed68d6762cdd3e22b7856581c4d239a5e2aa",
+  "approval_status": "Approved",
+  "sha256_16x9": "a9a80d309c643763043c5561577d16e163478950a0c133008c3467dcdc9fdaf0",
+  "sha256_4x5": "c1d740c5ae42f7a25016e8c16bf9c95baddb3c95c1b6ff2695b180c0c63d7945",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "267b70a2a3b81ff6255c6ac5e697092ba8e7b8f76848d89f30e0d920b90c5b7d",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 78f652d20046a615190576f37f46c900747af9909573dbdafc3e33f9fe45dde1. Source SHA-256 4:5 7889459b3ed33ad25b2b6a24b190f43464e3450619bfe3bfeef9732e3aee0a27. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 78f652d20046a615190576f37f46c900747af9909573dbdafc3e33f9fe45dde1. Source SHA-256 4:5 7889459b3ed33ad25b2b6a24b190f43464e3450619bfe3bfeef9732e3aee0a27. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Church-ruin foundations on a grassy terp: low brick walls, gravel path, lamp, memorial stone under overcast night. Exact caption, scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure on the bar. Retrieval 2026-09-26T04:18:42+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00"
 }

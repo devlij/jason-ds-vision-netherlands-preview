@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Hasselt/nl-01-274-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "e246e711b69d26f995f874278ede24bfac1142867c08f7b4c3c23b0521bd4085",
-  "sha256_4x5": "f345b79500565ce1bf7baa180dcad325bff7a0bdfd823e7c4a1b9aa8adb1046f",
+  "approval_status": "Approved",
+  "sha256_16x9": "0106ec25d334a98e78c94eb7da94e850c0718f8912d8be119fcd092a9e3e069f",
+  "sha256_4x5": "a1d95889e4662593692c11ae6e192f694e67992ec573ed38a0d6449a67cda056",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "3f2648401692cdb9388cbee6afe46d02f615d8bbabfa9169734b0e2dd3649cb3",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a84c41478e054b9f92eadb4a5374b1f615767aab5bfab16eb820546187dd24c1. Source SHA-256 4:5 f767f12a801ae59eede6e0e6d85377e2efc42a4771b89fc0a7be5440c827ed97. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a84c41478e054b9f92eadb4a5374b1f615767aab5bfab16eb820546187dd24c1. Source SHA-256 4:5 f767f12a801ae59eede6e0e6d85377e2efc42a4771b89fc0a7be5440c827ed97. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Brick Gothic church with needle spire, cobbled square, lamps, overcast night. Exact caption/scenario '26 September 2026 · 04:36 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:36:44+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00"
 }

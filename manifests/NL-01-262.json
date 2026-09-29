@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Leek/nl-01-262-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "d43ba698ed8ae4e7302b41ad7e251a7ed6d010ef233df2e9e31cd345b4afdbf6",
-  "sha256_4x5": "7189a5a4c06000815945236e6b4d7e3469b8c4894d592245aac1d9d10345b022",
+  "approval_status": "Approved",
+  "sha256_16x9": "f085f1aec6f7f58cf404a27e538863d6f55316823b3d96815b8a5f6d9c020d4d",
+  "sha256_4x5": "c3fb6aeb884f9f5fc174e4796365c583e6bb5f23bd282fc79f90641cc0aca9e4",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "73016214fe2bb6bd17883867c2490e5beb8a74eb03918635c2318c69215d33aa",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4b7451fcbe757010104e19be7374af9196acc5f827ae834558499dc65fa63414. Source SHA-256 4:5 dacdbf65084efc574f914a790359d5f86dce30de7b1ed1b5607e3cb2bbcdb614. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4b7451fcbe757010104e19be7374af9196acc5f827ae834558499dc65fa63414. Source SHA-256 4:5 dacdbf65084efc574f914a790359d5f86dce30de7b1ed1b5607e3cb2bbcdb614. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. White neoclassical borg across forecourt water: carved stone gate piers, wrought-iron gate, balustraded roofline, lit windows, park trees. Exact caption/scenario '26 September 2026 · 04:18 Europe/Amsterdam' and AI disclosure on the label bar. Retrieval 2026-09-26T04:18:35+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00"
 }

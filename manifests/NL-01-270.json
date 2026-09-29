@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Meerssen/nl-01-270-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "04de5bb8cd311525e1e1ffe5f508504ce9022788760689280a401bb189aa66f8",
-  "sha256_4x5": "63bfa2506064e84a8ee2addf0accf60deb0541cf545f10ec2624492f482c5d8c",
+  "approval_status": "Approved",
+  "sha256_16x9": "94fa57a92a53f407ccb4e617c070f1c399a859055fb2b8765682143ec7fb2246",
+  "sha256_4x5": "144b8d9cfafd8830b5eb44f4b76e745db9c02bbaa95125d0351a5db555c8b0cf",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "9387fb2fc1a8f7eebae052418429959088f3bcff3798dcbc35a2cf98df9a8146",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 74a5979e3a0898aaeff9799a20eb3a6bf554ac8f1a3ea6e1eeea0b5766cb0b9d. Source SHA-256 4:5 82df2735d7615051ac337f67e50af0e4ffc4b7fde41efdc3892a0ac69ff4c372. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 74a5979e3a0898aaeff9799a20eb3a6bf554ac8f1a3ea6e1eeea0b5766cb0b9d. Source SHA-256 4:5 82df2735d7615051ac337f67e50af0e4ffc4b7fde41efdc3892a0ac69ff4c372. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Floodlit Gothic basilica: flying buttresses, choir, cobbled square, starry sky. Exact caption/scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:18:55+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00"
 }

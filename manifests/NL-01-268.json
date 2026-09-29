@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Brouwershaven/nl-01-268-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "fbe8b8dd116deb1e8ea1a7aaab346c199007a308c8a538ce61dad50c3e95aec8",
-  "sha256_4x5": "7400532dceaef04ae2175865a95db1b5aba141e3f618ebc9a5283339a1c22cd6",
+  "approval_status": "Approved",
+  "sha256_16x9": "e2583ab6f23de067dbb20dbac052e36fb1433d2b99a33eb14dc8a15436509170",
+  "sha256_4x5": "451f5a8370c524bf0b6f04dc60b7806c4e5402b232ed50ae9632ab452ce116d1",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "cf8524c746d7fcb673bbf2a4f65901c62fce89ee979c3bd91f62c76ca0bb9be6",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5bf73dadeb4408ffc90f15d6a03dd066500d4bff128802cb79b1b0d2a5da0f76. Source SHA-256 4:5 11815633d1762d1c737aa8b98a03cc5840ed46a21508110e283da8e50894ab82. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5bf73dadeb4408ffc90f15d6a03dd066500d4bff128802cb79b1b0d2a5da0f76. Source SHA-256 4:5 11815633d1762d1c737aa8b98a03cc5840ed46a21508110e283da8e50894ab82. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Harbor quay: gabled houses, moored boats, lamp-lit bridge, reflections on dark water, overcast night. Exact caption/scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:18:50+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00"
 }

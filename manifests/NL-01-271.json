@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Breda/nl-01-271-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "06dd34671de6db97da463e6a2c06873f2a9582c270a01acdd55d2576c190415c",
-  "sha256_4x5": "3038e4a0edb2bf686cc17b2364594c6233876ef6692e5acb53920b530ab1a13b",
+  "approval_status": "Approved",
+  "sha256_16x9": "9ca5df686e216888b0622fd4d33580bae8035277109633c034f2e0f685fca921",
+  "sha256_4x5": "cdce5f22e09196c2b596dff710b732196266a986f106385e9ed595852d60bea9",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "02ff2be77f808afcaba24f2b086bb7afd8aa476b1001ff3e2a3ff6ed953b1d7f",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 0b553ef1f633b8f135cfb1b222620c2af1a6da70bbdd6d80dcfa1ec49a0dac3a. Source SHA-256 4:5 d346fb804702bbd17aeae586efa3f0e8323f166a99ea0d9b2c2da1c088d3317b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 0b553ef1f633b8f135cfb1b222620c2af1a6da70bbdd6d80dcfa1ec49a0dac3a. Source SHA-256 4:5 d346fb804702bbd17aeae586efa3f0e8323f166a99ea0d9b2c2da1c088d3317b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Beguinage courtyard: brick houses, walled garden, white chapel, lamps, overcast night. Exact caption/scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:18:57+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00"
 }

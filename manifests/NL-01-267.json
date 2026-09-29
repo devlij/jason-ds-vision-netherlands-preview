@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Veere/nl-01-267-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "88f3d20fee1a8964a405069af75c18afdc87b28c3e45133a74d84dcdac122ac2",
-  "sha256_4x5": "fbb8d18a620acd9f285f99c6c651267118dcd3f98a9821c8e878e719111b2fff",
+  "approval_status": "Approved",
+  "sha256_16x9": "0acf47eaeea816e1a28259198b72f5be4a4bd7618640f4429a526be5f319dc70",
+  "sha256_4x5": "e71f7bf634daea39a554c22105df3ae793c9861e612236cf520e818aa30a1abc",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "bfa205f303757c436b93393e9f07681fa65251b43ec1da58c0fc6c3b776b7397",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6d8d8837d63ca2aa4dd9cb5715c62b633c0c9f023bafcd91a6a6892116d8bc5d. Source SHA-256 4:5 ce2f6942b755014cd2f3d4bff716b98dfd784a72201a071e5dcdd92045e20505. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6d8d8837d63ca2aa4dd9cb5715c62b633c0c9f023bafcd91a6a6892116d8bc5d. Source SHA-256 4:5 ce2f6942b755014cd2f3d4bff716b98dfd784a72201a071e5dcdd92045e20505. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Grote Kerk's massive Gothic body and unfinished tower over the square, town houses, lamps, overcast night. Exact caption/scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:18:47+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00"
 }

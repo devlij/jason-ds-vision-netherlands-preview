@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Baarn/nl-01-278-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "bafae0dd2ef96bb2b520f03a169c5dcfb586f73709d6f853d9b848b2ce009526",
-  "sha256_4x5": "36c85b91ca9bb231994553212ef9aee7b14dc516963d7d3254164f4693f546ea",
+  "approval_status": "Approved",
+  "sha256_16x9": "987f2741f0466905fd0969d2de6c757bb24ce1a5f9e2b5c7a955bb4a44e0d487",
+  "sha256_4x5": "87efc4a44d9f366a597b27a1535e88a5eee0fdd3021f4ae52aa600d98fa4ef65",
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "d0fc9c8b3c5dcdcdddfe1fe7848492fd05cb90be77dc17e0e4c9d18fa56883e3",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 449505ed65b57b5068007eb97a6b9ae21482fc5b35fe38d362c9ec184fa2fb62. Source SHA-256 4:5 a52c351357cc87b0a3f88ec347297f48ccf7015d7a7cfb74a9824393c64a513f. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 449505ed65b57b5068007eb97a6b9ae21482fc5b35fe38d362c9ec184fa2fb62. Source SHA-256 4:5 a52c351357cc87b0a3f88ec347297f48ccf7015d7a7cfb74a9824393c64a513f. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Brick manor with curved side wings, lit entrance and windows, dark park, overcast night. Exact caption/scenario '26 September 2026 · 04:37 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:37:47+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00"
 }
