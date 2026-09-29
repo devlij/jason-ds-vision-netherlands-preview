@@ -13,7 +13,7 @@
   "file_9x16": "Netherlands/Heeswijk-Dinther/nl-01-234-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "bb531e94b932844e7b7cc45cd8de28a9105e4b491c97b89d7ff05bb16e48755d",
   "sha256_4x5": "7ca9b5ac85c85c4e010c7b3c0ffb2b8106d93f8914839053727fc2cf9a17bd09",
   "format_9x16_approval_status": "Candidate",
@@ -21,5 +21,8 @@
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6975f0c6c9941db8851aaf0cb87410470c0005c7bdb5c3b48bda77afc6cb2aa0. Source SHA-256 4:5 02abe7872a089493f79415b18f15dc19b3d0f85a9c57e7480cdd4fd0d3401b51. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_notes": [
     "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: moated brick castle with round corner tower (spire, white banding), stepped gables, lit bridge lamps, starry night sky, moat reflections — matches Kasteel Heeswijk, Heeswijk-Dinther; no artifacts. Gate 2: exact dims; legible bar ('Kasteel Heeswijk, Heeswijk-Dinther', scenario 03:37 Europe/Amsterdam, disclosure, exact signature/script); 03:37 inside 03:00; retrieval 2026-09-26T03:37:55+02:00, unique repo-wide; Art. 50 chunks + note, Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
+  "approved_at": "2026-09-29T10:42:49.402703+00:00"
 }

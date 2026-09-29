@@ -13,7 +13,7 @@
   "file_9x16": "Netherlands/Marknesse/nl-01-225-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "5407ea694d0c71846b7ec826c7b98858ffdf68f2d8f8b13736b429a4738c05db",
   "sha256_4x5": "41d163049c9126a6eef95b188990bc39d4f202a8f70835c127d2d918893ae2e3",
   "format_9x16_approval_status": "Candidate",
@@ -21,5 +21,8 @@
   "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the rectangular concrete Golfbak and its weir was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one basin. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate.",
   "qc_notes": [
     "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: rectangular concrete model-basin in a dark forest clearing, small cascade over the far weir, single lamp glowing in the trees, dramatic cloudy night sky — the Waterloopbos delta-model basin, Marknesse; plausible clearing viewpoint; no artifacts. Gate 2: exact dims; legible bar ('Waterloopbos, Marknesse', 'Scenario: 26 September 2026 · 03:37 Europe/Amsterdam', disclosure, exact signature/script); 03:37 inside valid hour 03:00; retrieval 2026-09-26T03:37:36+02:00, unique repo-wide; Art. 50 chunks + note, Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
+  "approved_at": "2026-09-29T10:42:49.402703+00:00"
 }

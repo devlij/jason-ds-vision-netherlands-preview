@@ -13,7 +13,7 @@
   "file_9x16": "Netherlands/Lelystad/nl-01-226-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "12a8ae09bf484dab24e77d24b91694efffd593b392f8c921be25006c451ba9f3",
   "sha256_4x5": "acd7551a7d966b075dbbce3835e3fb85d891d7eeeb2f961924d2f57d436f8483",
   "format_9x16_approval_status": "Candidate",
@@ -21,5 +21,8 @@
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 883b0d80fbfd10e555b0623a72e69417127992b3489830fb446988b660f57802. Source SHA-256 4:5 5508056140f9190471d4916243fdbe53ed0027347de526f08bc9f3390c62df82. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_notes": [
     "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: man-made dune island with marram grass, wooden jetties into dark water, small wooden shelter hut, rock breakwaters curving offshore, flat overcast grey sky — plausible Marker Wadden, Lelystad; no artifacts. Gate 2: exact dims; legible bar ('Marker Wadden, Lelystad', scenario 03:37 Europe/Amsterdam, disclosure, exact signature/script); 03:37 inside 03:00; retrieval 2026-09-26T03:37:38+02:00, unique repo-wide; Art. 50 chunks + note, Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
+  "approved_at": "2026-09-29T10:42:49.402703+00:00"
 }

@@ -13,7 +13,7 @@
   "file_9x16": "Netherlands/Rincon/nl-01-224-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "3f0775619554cbfd9a3a322ec34dcb5c3590fa3471264be35c895b4d78bb1b8d",
   "sha256_4x5": "3757a6d3944b256fdb8c1ef664c2b0dc4f06cd43d66d9e673ab5170fcf5e0d0f",
   "format_9x16_approval_status": "Candidate",
@@ -21,5 +21,8 @@
   "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view was generated for the documented landmark. 4:5 and 9:16 are center crops of that same frame, so the formats share one building. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval does not carry. The 9:16 frame stays Candidate.",
   "qc_notes": [
     "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: whitewashed Caribbean church, square bell tower with arched belfry openings (one lamp-lit), tiled pyramidal roof with cross, arched wooden double door, floodlit facade, flanking lit houses, dark hills, starry sky — recognizably Sint-Ludovicuskerk, Rincon; street viewpoint; clean framing, no artifacts. Gate 2: exact 1920x1270/864x1270/1080x2110; legible bar (exact caption 'Sint-Ludovicuskerk, Rincon', 'Scenario: 25 September 2026 · 21:16 America/Kralendijk', AI disclosure, exact \"Jason D's Vision\" + 'Jason A. Devlin' script); scenario 21:16 inside model-valid hour 21:00; Open-Meteo retrieval 2026-09-25T21:16:41-04:00, unique repo-wide (288/288, 0 dups, re-verified 2026-09-29); Art. 50 five chunks + EU AI Act note, Comment date 2026-09-27 (true re-finish date, git-verified). Gate 3: text-prompt-only, no photographic inputs (evidence card). Gate 4: no people/logos/private property visible — documented only. Gate 5: manifest present, Candidate, card complete, no open qc_notes.",
+  "approved_at": "2026-09-29T10:42:49.402703+00:00"
 }

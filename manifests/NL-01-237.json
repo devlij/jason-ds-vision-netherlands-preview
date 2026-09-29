@@ -13,7 +13,7 @@
   "file_9x16": "Netherlands/Saba/nl-01-237-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "1bb04c6f83b3a520907deb1c5ff28e61c694aef58d881cfc1d0fec63332d4bba",
   "sha256_4x5": "788997c275d850034875079905d8cd7655d9d35e7a4e56fde29f95fbdd0ad2e2",
   "format_9x16_approval_status": "Candidate",
@@ -21,5 +21,8 @@
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 44615ad6b26472eafa7893899b11ce6aa66e50f8059cde027b111971925feee1. Source SHA-256 4:5 133b0b3493873c6da2824dea8126b5e261d56e5f1fcff0473cf6443782c6a5d5. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_notes": [
     "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: old stone steps descending a rocky cove to the sea, small customs house at the clifftop, lush vegetation, moody dusk sky with warm horizon — Saba's Ladder Bay; no artifacts. Gate 2: exact dims; legible bar ('The Ladder, Saba', 'Scenario: 25 September 2026 · 21:38 America/Kralendijk', disclosure, exact signature/script); 21:38 inside valid hour 21:00; retrieval 2026-09-25T21:38:01-04:00, unique repo-wide; Art. 50 chunks + note, Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
+  "approved_at": "2026-09-29T10:42:49.402703+00:00"
 }

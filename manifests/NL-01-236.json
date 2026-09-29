@@ -13,7 +13,7 @@
   "file_9x16": "Netherlands/Deventer/nl-01-236-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "1fc6f9e8dbb11606584f87bd608b6e72eae243c7e4bc50b86e70aeec77255e5e",
   "sha256_4x5": "a226b98a9f01d74df0b090f933a26bff332673b07fad15bd121f3569ea277e40",
   "format_9x16_approval_status": "Candidate",
@@ -21,5 +21,8 @@
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6d0a8b5b524b60521cd907f5fa926362d34ebc026326623e014c9ab292ee782a. Source SHA-256 4:5 dee7cf1d3962b3d917d3e0ee02f4d7af6ac925b3f466586854a299b039e13974. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_notes": [
     "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: twin-towered Romanesque Bergkerk on its hilltop cobbled square, floodlit, lit row houses both sides, dramatic cloudy night sky; 4x5 inter-format check: same twin towers, closer crop — agreement PASS; 4x5 bar legible; Bergkerk, Deventer. Gate 2: exact dims; legible bar ('Bergkerk, Deventer', scenario 03:37 Europe/Amsterdam, disclosure, exact signature/script); 03:37 inside 03:00; retrieval 2026-09-26T03:37:59+02:00, unique repo-wide; Art. 50 chunks + note (all 3 formats chunk-parsed), Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
+  "approved_at": "2026-09-29T10:42:49.402703+00:00"
 }

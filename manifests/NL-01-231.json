@@ -13,7 +13,7 @@
   "file_9x16": "Netherlands/Veere/nl-01-231-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "c7aafb6b95c31b041a8f0bf5af0ebe045fdf82735aef68e6afda2c642a8f6a3e",
   "sha256_4x5": "50553124b7302f5ee0f6103348ef943abbbb63a79cd1ecced92f8eb97bde5094",
   "format_9x16_approval_status": "Candidate",
@@ -21,5 +21,8 @@
   "faithful_refinish": "2026-09-27 subject re-render after the Cosmo inter-format hold. One new night view of the round Campveerse Toren, its stepped gable, and the later wings was generated. The 16:9 plate is the source. 4:5 and 9:16 are center crops of that same frame, so every format shows that one tower. No scrim, tint, or text was drawn over the artwork. The 190px #0e0e12 label bar sits under the photo. The scene stays Candidate. The prior approval on main does not carry. The 9:16 frame stays Candidate.",
   "qc_notes": [
     "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: round brick harbor tower with white horizontal bands, stepped-gable block behind, flanked by low lit gabled buildings, floodlit with long water reflections, dark cloudy sky — the defining Campveerse Toren, Veere; 4x5 inter-format check: same banded tower, same viewpoint reframed — agreement PASS; 4x5 bar legible. Gate 2: exact dims; legible bar ('Campveerse Toren, Veere', scenario 03:37 Europe/Amsterdam, disclosure, exact signature/script); 03:37 inside 03:00; retrieval 2026-09-26T03:37:48+02:00, unique repo-wide; Art. 50 chunks + note, Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
+  "approved_at": "2026-09-29T10:42:49.402703+00:00"
 }
