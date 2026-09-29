@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Oranjestad/nl-01-280-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "eea1d0283ce364864f34bd23e1fda0ee052c6ecf5e53ce61532d07f3d8972f20",
-  "sha256_4x5": "98137dc6a2f3b7f79426098494af263ff40483ce64f0f8cc3e4eba2493a076ed",
+  "approval_status": "Approved",
+  "sha256_16x9": "ec2e2e698d00c6717effda28abb8972e551a36d05f8d8fce6fae8626def7560b",
+  "sha256_4x5": "d7b21b17e35202c3c6b03909eb10f060925770a9bee0db5de8467e9d0ab5e9f3",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "e9e8a257c5033dbcb818a975084acac29fd552bb41332903dc373d562427947c",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 fdb7af5b65858d14610ea7eb650624a0fb72827eb70e4cd8c98adb23bea1c5d4. Source SHA-256 4:5 46a34762b9b6da72ceee5d84083aebfc8aff6cf8bc4d016e82c545d3b4867b74. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "sha256_9x16": "556dd7eefc6a6c00abdd6bba50c33f8c76f6a06c24b9246e15aaa65d96c5063a",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 fdb7af5b65858d14610ea7eb650624a0fb72827eb70e4cd8c98adb23bea1c5d4. Source SHA-256 4:5 46a34762b9b6da72ceee5d84083aebfc8aff6cf8bc4d016e82c545d3b4867b74. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. G1: roofless brick ruin with arched window/door openings in dense tropical vegetation at night, stone steps descending to a small walled pool, lit path lamp left; Honen Dalim is the real 18th-c. synagogue ruin on St. Eustatius; plausible, clean framing, no artifacts. G2: exact dims; label bar exact (\"Honen Dalim, Oranjestad\"/scenario/disclosure/signature); Art. 50 chunks present, Comment date 2026-09-28 (true finish date); Open-Meteo retrieval 2026-09-25T22:37:51-04:00 (2s after NL-01-279, distinct), scenario minute inside 22:00 valid hour, unique repo-wide. Post Art. 50-merge bytes verified byte-identical to audited artwork (sha256 match). G3: text-prompt-only lineage claimed. G4: no people/logos visible. G5: card fields complete.",
+  "approved_at": "2026-09-29T19:05:00-04:00"
 }

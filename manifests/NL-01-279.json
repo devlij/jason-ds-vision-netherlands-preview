@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Bonaire/nl-01-279-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "b595c4b1f324a17a5a3402b260102d1c694d9c3070a1ccde93cace18f867b9da",
-  "sha256_4x5": "0a7bf7900bfc768f7221cc64b0a943c58a6f14d59752e97f5a361248f8128713",
+  "approval_status": "Approved",
+  "sha256_16x9": "53aa983fe1e651d7c80a1a5ac59416b9539f077fb440e736e7f3224ded4f702f",
+  "sha256_4x5": "36543ac7cc8f709df184fbf52a4c64021ec2cb6e576119f798507d7dd0970cea",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "874589a2712f12aa520933241dbbee8f2b1b44bbb9b863ce46fb04024564305a",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b39666510d2ef272692ae013dd65208b611342aaccfd8fe9d4bf2812b4d8a701. Source SHA-256 4:5 2dcee4439aaa8d45517440935bfabb802456db0da6ee43bb16d549171592716d. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "sha256_9x16": "933b6b6537866ba42a26179f1d0ce325cf0c606ca928475578a03f9388e870ee",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b39666510d2ef272692ae013dd65208b611342aaccfd8fe9d4bf2812b4d8a701. Source SHA-256 4:5 2dcee4439aaa8d45517440935bfabb802456db0da6ee43bb16d549171592716d. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. G1: tall blue obelisk on a pale coral-rock shoreline at night, dark sea, long trestle pier receding right under a star field; the blue obelisk is Bonaire's real coastal landmark; plausible viewpoint, clean framing (minor foreground rock texture blockiness noted, review-based, not a fail). G2: exact dims; label bar exact (\"Blue obelisk, Bonaire\"/scenario/disclosure/signature); Art. 50 chunks present, Comment date 2026-09-28 (true finish date per Art. 50 merge); Open-Meteo retrieval 2026-09-25T22:37:49-04:00, scenario minute inside 22:00 valid hour, unique repo-wide. Post Art. 50-merge bytes verified byte-identical to audited artwork (sha256 match). G3: text-prompt-only lineage claimed. G4: no people/logos visible. G5: card fields complete.",
+  "approved_at": "2026-09-29T19:05:00-04:00"
 }

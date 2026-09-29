@@ -13,7 +13,7 @@
   "file_9x16": "Netherlands/Makkum/nl-01-239-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "sha256_16x9": "4cc84e12d80d35b21ecfc6c4fdd196a81e7a7dae2a2c95b3c4894f3f33e692a3",
   "sha256_4x5": "1649e1efe7cd3261de945ecf1831a67fc6f9bb9d4ac715dcfa097cb1ff07de9b",
   "format_9x16_approval_status": "Candidate",
@@ -21,5 +21,8 @@
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a3cb17feed4ae38c1540342eb65dc81cb7589ad3106563ae8ac24e84b282cd55. Source SHA-256 4:5 79b859fd82b3656a0323dfd2e80064373f547ba7cbfbc424ac0e0338e50ea035. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_notes": [
     "2026-09-29 Cosmo: reverted to Candidate on merge of the faithful re-finish branch (cursor/faithful-224-239-500e). Masters were re-rendered; the previous Approved badge no longer applies to the new artwork. Pending full Cosmo five-gate re-audit."
-  ]
+  ],
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. G1: night view down the brick canal lock at Makkum toward a low bridge; lit brick canal houses with stepped gables line the left bank, lamps and warm window light reflecting on dark water; plausible tourist viewpoint, clean framing, no artifacts. G2: exact dims (1920x1270/864x1270/1080x2110 label-bar sizes); baked label bar exact (caption/scenario/\"AI-generated artistic interpretation · Not a photograph.\"/Jason D's Vision + Jason A. Devlin script, hairline divider, zero tint); Art. 50 PNG text chunks present (Title/Description/Copyright/Software/Comment with EU AI Act transparency note, parsed from chunk headers); Open-Meteo retrieval 2026-09-26T03:38:05+02:00, scenario minute 03:38 inside the 03:00 model-valid hour, timestamp unique to the second across all 288 NL scenes. G3: evidence card claims text-prompt-only lineage, no photographic inputs (recorded as claim). G4: no prominent people/logos visible; card claims same; final commercial call is Jason's. G5: card fields complete. This is the re-audit of the re-rendered faithful re-finish artwork (prior approval did not carry); manifest carried no open hold/FAIL wording.",
+  "approved_at": "2026-09-29T19:05:00-04:00"
 }

@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Zutphen/nl-01-282-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "a0ba22c11721dc95278c5c094023948d4e94259535ada238197a2bf97016da6e",
-  "sha256_4x5": "53c9976c0726b673a4597185c7f4cd8e2479b20fff6721bd20d1e117571fe5e4",
+  "approval_status": "Approved",
+  "sha256_16x9": "fdf609f701aeed9dd38997e48cc8cd557510a7a7dc0e09f0c31e2f1ec69b8ccf",
+  "sha256_4x5": "40a5c8051de0f14c95334e7267d8d36c906bd73ce456a5cef88c35905e680624",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "fb2acc9462225db539423070cd5ee32a9674077531107d391bb102dd6cc04d2d",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b8f9b6a1402fecdbdf8701bd4ca9c2781d367ec42100204085ba95e3223878f4. Source SHA-256 4:5 bb81f804df4dd3e5d24120b48e7ca6334d9a1effd9676835442182fc79f72e1b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "sha256_9x16": "b6275b971f19dc098888b0b960a4e9c797a745fd241565cdc224b44eb3b1e6d2",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b8f9b6a1402fecdbdf8701bd4ca9c2781d367ec42100204085ba95e3223878f4. Source SHA-256 4:5 bb81f804df4dd3e5d24120b48e7ca6334d9a1effd9676835442182fc79f72e1b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. G1: floodlit brick city-gate tower with tall spire, crenellated parapet, corner turrets, adjacent ruined wall fragment, street lamp right; Drogenapstoren is Zutphen's real brick gate tower; plausible, clean framing, no artifacts. G2: exact dims; label bar exact (\"Drogenapstoren, Zutphen\"/scenario/disclosure/signature); Art. 50 chunks present; Open-Meteo retrieval 2026-09-26T04:37:55+02:00, scenario minute inside 04:00 valid hour, unique repo-wide. G3: text-prompt-only lineage claimed. G4: no people/logos visible. G5: card fields complete.",
+  "approved_at": "2026-09-29T19:05:00-04:00"
 }

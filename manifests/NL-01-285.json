@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Lelystad/nl-01-285-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "4abfaafcf032aac777e03ff3987db50436fc6391a0524c98fedc490f42d42342",
-  "sha256_4x5": "0869159a9796db44ed82e718c31170355bc79d2e5d5ce7633001e9d4712193dd",
+  "approval_status": "Approved",
+  "sha256_16x9": "d30ca62d9d2bd2ca369a0c7646d10b332c6626720346475786b51f8e5bbe8f1b",
+  "sha256_4x5": "868dd037631add9f5f75e41ee53b8136af9a1fcc157ed3d1986adaa1f71ca771",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "aa79fec5d9ad82c6f413198aca767ff7fee1c7a8bb20c2c6148e84e1f31f4953",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 25d027d4ff37d0819a4b97f173879a65d9f868a0d990ee10fbe34787cf7d6c4e. Source SHA-256 4:5 2b2711c68493c14ea2dd152f71b42f6bdd6df5aa39db9bb7c8637fabe15814fc. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "sha256_9x16": "d0b1041a6ca1b660b09ae918f2ad8adb74521db95b7e9a5bb2d61ab3e6c831b3",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 25d027d4ff37d0819a4b97f173879a65d9f868a0d990ee10fbe34787cf7d6c4e. Source SHA-256 4:5 2b2711c68493c14ea2dd152f71b42f6bdd6df5aa39db9bb7c8637fabe15814fc. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. G1: long brick pumping station with six tall chimneys and a glass-walled engine hall beside a canal at night, lit windows reflecting on water, lamp at the corner, industrial lights on the horizon; Gemaal Wortman is the real historic steam pumping station near Lelystad; plausible, clean framing. G2: exact dims; label bar exact (\"Gemaal Wortman, Lelystad\"/scenario/disclosure/signature); Art. 50 chunks present; Open-Meteo retrieval 2026-09-26T04:38:01+02:00, scenario minute 04:38 inside 04:00 valid hour, unique repo-wide. G3: text-prompt-only lineage claimed. G4: no people/logos visible. G5: card fields complete.",
+  "approved_at": "2026-09-29T19:05:00-04:00"
 }

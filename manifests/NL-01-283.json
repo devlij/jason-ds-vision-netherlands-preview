@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Woudrichem/nl-01-283-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "ccf3fb943618fac695a5a5fbea2abd4069bbe07262b5c0bf09621ef658c4fd48",
-  "sha256_4x5": "06f6045f7ec9b9965d7a8174b04e5664fd4f4eca6e2a3f9c77346c7ab5151419",
+  "approval_status": "Approved",
+  "sha256_16x9": "613352fd4628a7f67ffc11c8b885d2d56b1dd340fb374c101667015c6e45f689",
+  "sha256_4x5": "cf4ae219456115469094280d869ba5795331057d10d8f9d328360fe0da80110b",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "3f512402c8b80f9f9bb0f4874451c50d0f8d7984efe7628cf620f1614172a97f",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b1cf2b16a8c59270ec6c2ffe48480285affc8f954943ac66c0a1784297d06a70. Source SHA-256 4:5 6966e67f1e2d04d232b77c6d64412ca5e14c917386c64a3285d32ea6c56061ed. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "sha256_9x16": "5d901391e3f2fd31b25d9b6d7d7be9e28069548bdea6b6a8c5eebfc9edf10ead",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b1cf2b16a8c59270ec6c2ffe48480285affc8f954943ac66c0a1784297d06a70. Source SHA-256 4:5 6966e67f1e2d04d232b77c6d64412ca5e14c917386c64a3285d32ea6c56061ed. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. G1: brick water-gate tower rising from the river at night, pointed arch passage, small corner turret, floodlit base, lamp reflection shimmering on dark water, distant town lights left; the Gevangenpoort is Woudrichem's landmark water gate; plausible, clean framing, no artifacts. G2: exact dims; label bar exact (\"Gevangenpoort, Woudrichem\"/scenario/disclosure/signature); Art. 50 chunks present; Open-Meteo retrieval 2026-09-26T04:37:57+02:00, scenario minute inside 04:00 valid hour, unique repo-wide. G3: text-prompt-only lineage claimed. G4: no people/logos visible. G5: card fields complete.",
+  "approved_at": "2026-09-29T19:05:00-04:00"
 }

@@ -13,10 +13,13 @@
   "file_9x16": "Netherlands/Sint Odiliënberg/nl-01-281-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "sha256_16x9": "8dea8dddfb2a8719abd83bc9bcd787da66af46b1bf6cefee30a3eb5d4499f589",
-  "sha256_4x5": "6736590ba62ea00bf1aed540039cf4c5cb798d3e07ebfe3f2d2776e6689511f9",
+  "approval_status": "Approved",
+  "sha256_16x9": "7737f11239cd29c50561f5f29dea061af907262b8f65c21cf72bfc9ee66b4d02",
+  "sha256_4x5": "2c1796c572bf545d63a91786ec05d4681f9be359dce7585e33ced2522460dd79",
   "format_9x16_approval_status": "Candidate",
-  "sha256_9x16": "9e65cf47663cef277eee0cf05b8d0130ed5884bcbe140f72ae4337031dd7b201",
-  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 8ab7122d69e2b2c42166ee74e425eacac7412dac7add04161fa98df0e97c571b. Source SHA-256 4:5 da6e4636e07b164e27ec33e989bfae610cc430e2606a9e809caf4a3241e10e45. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval."
+  "sha256_9x16": "dd1ad715f28b2486dc0ef7ed63a24b5b8edea43c32702db54a3075c7644f3702",
+  "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 8ab7122d69e2b2c42166ee74e425eacac7412dac7add04161fa98df0e97c571b. Source SHA-256 4:5 da6e4636e07b164e27ec33e989bfae610cc430e2606a9e809caf4a3241e10e45. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. G1: Romanesque stone basilica on a rise at blue hour, twin square towers with dark spires, glowing belfry windows, floodlit rubble-stone walls; the real St. Wiro/Plechelmus/Otger basilica at Sint Odiliënberg is a twin-towered Romanesque church; 4:5 crop shows the same subject (inter-format agreement); on-image text legible. G2: exact dims; label bar exact; Art. 50 chunks present; Open-Meteo retrieval 2026-09-26T04:37:53+02:00, scenario minute inside 04:00 valid hour, unique repo-wide. G3: text-prompt-only lineage claimed. G4: no people/logos visible. G5: card fields complete.",
+  "approved_at": "2026-09-29T19:05:00-04:00"
 }
