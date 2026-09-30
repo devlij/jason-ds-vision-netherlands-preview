@@ -146,9 +146,11 @@ def main() -> None:
             if not matched:
                 errors.append(f"{img_path.name} chunk Comment {comment!r}")
             else:
-                scene_dates.append(matched.group(1))
-        if len(set(scene_dates)) > 1:
-            errors.append(f"{path.name} Art. 50 finish dates differ across masters {sorted(set(scene_dates))}")
+                scene_dates.append((kind, matched.group(1)))
+        # 16:9 and 4:5 are one finish. A later 9:16 portrait may carry its own date.
+        pair = [date for kind, date in scene_dates if kind in ("file_16x9", "file_4x5")]
+        if len(set(pair)) > 1:
+            errors.append(f"{path.name} Art. 50 finish dates differ across 16:9 and 4:5 {sorted(set(pair))}")
         # sha match
         note = (ROOT / "approvals" / f"{data['entry_id']}.md").read_text()
         import hashlib

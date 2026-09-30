@@ -17,5 +17,8 @@
   "approval_basis": "Nijmegen's Waalbrug at night: the white-lit steel arch bridge over the Waal with the floodlit Stevenskerk tower and historic riverfront buildings behind it, lights reflecting on the water. Gate 1: classic Waalbrug-plus-Stevenskerk view, plausible riverbank viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Waalbrug, Nijmegen', scenario '25 September 2026 · 23:41 Europe/Amsterdam' inside model-valid hour 23:00-23:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-25T23:41:47+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:42:42.086790+00:00",
   "sha256_16x9": "659ca22a0ed3494e5360dcd9229eb6376b6e1b32c75e052d4103165ada6c4e4d",
-  "sha256_4x5": "1c85d1cde337234713d47738863218d759edda68816126bfffbd762a5f8dab41"
+  "sha256_4x5": "1c85d1cde337234713d47738863218d759edda68816126bfffbd762a5f8dab41",
+  "file_9x16": "Netherlands/Nijmegen/nl-01-047-9x16.png",
+  "sha256_9x16": "82b5527780e190dc82a9be711fb2d80bf4e5691a05003a84f9eb8be9a27dce08",
+  "format_9x16_approval_status": "Candidate"
 }

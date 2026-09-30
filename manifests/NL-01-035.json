@@ -17,5 +17,8 @@
   "approval_basis": "Gate 1: I read the master — the Koppelpoort from the riverbank at night, brick twin towers flanking the land gate and the water-gate range with steep roof continuing across the river, whole mass reflected in dark water, plausible public-bank viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Koppelpoort, Amersfoort' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:25+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:39:04.772060+00:00",
   "sha256_16x9": "3e0848d7accb16415df6b4a52cdec40c582bf0a8220585e26c65cb872f9cf8bf",
-  "sha256_4x5": "9eb51718e0b10bc071d7278293c31bb75524f32f0738c2f144ca33fd0f815eab"
+  "sha256_4x5": "9eb51718e0b10bc071d7278293c31bb75524f32f0738c2f144ca33fd0f815eab",
+  "file_9x16": "Netherlands/Amersfoort/nl-01-035-9x16.png",
+  "sha256_9x16": "8ad82d62f174cfcac1f4633cba7307c2512de92b9dcb2fa2ff6dfe3c2e9721db",
+  "format_9x16_approval_status": "Candidate"
 }

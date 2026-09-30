@@ -17,5 +17,8 @@
   "approval_basis": "Valkenburg's castle ruins at night: the jagged hilltop stone walls and tower remnants lit from within, overlooking the valley town lights spread below through the trees. Gate 1: the Netherlands' only hill castle, recognizable ruin silhouette, plausible hilltop viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Valkenburg Castle, Valkenburg', scenario '26 September 2026 · 00:00 Europe/Amsterdam' inside model-valid hour 00:00-00:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-26T00:00:40+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:42:56.235062+00:00",
   "sha256_16x9": "25f330fba09722de8da596e8b1207769dec3b23efcc84ecb2df52a713b9d5730",
-  "sha256_4x5": "e90d7bc4ce0b7979b14ec117fa2e76efd19f97a745dc4a06f79f31550bd32a1c"
+  "sha256_4x5": "e90d7bc4ce0b7979b14ec117fa2e76efd19f97a745dc4a06f79f31550bd32a1c",
+  "file_9x16": "Netherlands/Valkenburg/nl-01-050-9x16.png",
+  "sha256_9x16": "99fd45010e6e8d2974b6782a207acde719c0f07aa34436b752ea02d517d6b850",
+  "format_9x16_approval_status": "Candidate"
 }

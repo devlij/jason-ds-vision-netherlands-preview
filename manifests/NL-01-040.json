@@ -17,5 +17,8 @@
   "approval_basis": "Gate 1: I read the master — the Middelburg Abbey complex at night, the tall Lange Jan tower with spire rising among the lit historic courtyard buildings under a heavy overcast sky, plausible public-courtyard viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Middelburg Abbey, Middelburg' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:35+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:40:08.298405+00:00",
   "sha256_16x9": "008438f0cab258f950bc4dc384a007fe8c29f632f5db96f607a85a501ba60571",
-  "sha256_4x5": "f074b732f59a871118017301f890c9370eee1c50023d564c4a2393ae3a71d7b2"
+  "sha256_4x5": "f074b732f59a871118017301f890c9370eee1c50023d564c4a2393ae3a71d7b2",
+  "file_9x16": "Netherlands/Middelburg/nl-01-040-9x16.png",
+  "sha256_9x16": "62b95933e6f09542c311801d5dd29984d314a0c6f369dc41a7f68cd1a9fb1151",
+  "format_9x16_approval_status": "Candidate"
 }

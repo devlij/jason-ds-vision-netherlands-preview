@@ -17,5 +17,8 @@
   "approval_basis": "Urk's harbour at night: the fishing fleet with masts and rigging moored under the floodlit stone lighthouse on the grassy dike, lamp reflections on the dark water beneath a starry sky. Gate 1: the square Urk lighthouse and fishing harbour, plausible quayside viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Harbour, Urk', scenario '26 September 2026 · 00:00 Europe/Amsterdam' inside model-valid hour 00:00-00:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-26T00:00:51+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:43:15.273609+00:00",
   "sha256_16x9": "f1a106f37650827cb166677d0d124b4ec4bbc43bbf57142099a6951f0df3d8ac",
-  "sha256_4x5": "32f62e48649452779e79c713d36ed5309cafcdab333141746deb78072cf03121"
+  "sha256_4x5": "32f62e48649452779e79c713d36ed5309cafcdab333141746deb78072cf03121",
+  "file_9x16": "Netherlands/Urk/nl-01-054-9x16.png",
+  "sha256_9x16": "1174ed5dfb534fa78ca1fc6007abad59a9c1852d9898b420b3d1ca5facf9373e",
+  "format_9x16_approval_status": "Candidate"
 }
