@@ -398,6 +398,17 @@ def _check_meta(meta: dict[str, list]) -> None:
             raise SystemExit(f"phase-1 thumbnail missing on disk for {entry_id}: {row[3]}")
 
 
+def _assert_home_link(nav: str) -> None:
+    """Keep the Home control first in the switcher so a rebuild cannot drop it."""
+    home = '<a class="home-link" href="https://jdvision.org/">&#8962; Home</a>'
+    inner = nav.split(">", 1)[1] if ">" in nav else ""
+    if not inner.lstrip().startswith(home):
+        raise SystemExit("home link must be the first country-switch item and point at https://jdvision.org/")
+    between = inner.lstrip()[len(home):inner.lstrip().find('href="https://germany.jdvision.org/"')]
+    if between.count('<span class="sep"') != 1:
+        raise SystemExit("home link must be followed by the switcher separator")
+
+
 def assert_phase1(html: str, meta: dict[str, list]) -> None:
     """Fail the publish if a rebuild would drop Phase-1 or the live chrome."""
     required = (
@@ -424,6 +435,10 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
         "flag-band",
         "format_9x16_approval_status",
         "phase1Enhance",
+        'class="home-link"',
+        'href="https://jdvision.org/"',
+        ".home-link{font-weight:700}",
+        "&#8962; Home",
     )
     missing = [token for token in required if token not in html]
     if missing:
@@ -439,6 +454,7 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
         raise SystemExit("country switcher must not link this page to itself")
     if nav.find("Switzerland") > nav.find('aria-current="page"'):
         raise SystemExit("Netherlands is out of the shared switcher order")
+    _assert_home_link(nav)
     if "linear-gradient(#fff,#fff) center/45% 22%" not in html:
         raise SystemExit("Swiss flag chip is missing the white cross")
     if not meta:
