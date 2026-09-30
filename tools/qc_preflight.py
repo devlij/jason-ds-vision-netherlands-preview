@@ -146,11 +146,9 @@ def main() -> None:
             if not matched:
                 errors.append(f"{img_path.name} chunk Comment {comment!r}")
             else:
-                scene_dates.append((kind, matched.group(1)))
-        # 16:9 and 4:5 are one finish. A later 9:16 portrait may carry its own date.
-        pair = [date for kind, date in scene_dates if kind in ("file_16x9", "file_4x5")]
-        if len(set(pair)) > 1:
-            errors.append(f"{path.name} Art. 50 finish dates differ across 16:9 and 4:5 {sorted(set(pair))}")
+                scene_dates.append(matched.group(1))
+        if len(set(scene_dates)) > 1:
+            errors.append(f"{path.name} Art. 50 finish dates differ across masters {sorted(set(scene_dates))}")
         # sha match
         note = (ROOT / "approvals" / f"{data['entry_id']}.md").read_text()
         import hashlib
@@ -195,11 +193,21 @@ def main() -> None:
         token = f"NL-01-{n:03d}"
         if token not in index:
             errors.append(f"index missing {token}")
+    # NL-01-001, 003, and 004 were rebuilt 2026-09-30 and are held Candidate
+    # for Cosmo re-audit. Do not treat that hold as a lost approval.
+    held_for_reaudit = {"NL-01-001", "NL-01-003", "NL-01-004"}
     for n in range(1, 11):
-        approved = json.loads((ROOT / "manifests" / f"NL-01-{n:03d}.json").read_text())
+        entry_id = f"NL-01-{n:03d}"
+        approved = json.loads((ROOT / "manifests" / f"{entry_id}.json").read_text())
+        if entry_id in held_for_reaudit:
+            if approved.get("approval_status") != "Candidate":
+                errors.append(f"{entry_id} architectural rework must stay Candidate")
+            if "Cosmo QC 5/5" in json.dumps(approved):
+                errors.append(f"{entry_id} must not carry a new Cosmo QC score")
+            continue
         if approved.get("approval_status") != "Approved":
-            errors.append(f"NL-01-{n:03d} lost Cosmo approval_status")
-        if f'"entry_id": "NL-01-{n:03d}"' not in index or '"approval_status": "Approved"' not in index:
+            errors.append(f"{entry_id} lost Cosmo approval_status")
+        if f'"entry_id": "{entry_id}"' not in index or '"approval_status": "Approved"' not in index:
             errors.append("index missing an Approved scene")
     if index.count('"file_16x9_day"') != 10:
         errors.append(f"expected 10 daylight masters in the gallery, found {index.count(chr(34)+'file_16x9_day'+chr(34))}")

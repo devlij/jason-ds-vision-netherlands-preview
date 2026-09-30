@@ -4,21 +4,20 @@
   "region": "South Holland",
   "city": "Kinderdijk",
   "caption": "Kinderdijk windmills, Kinderdijk",
-  "scenario_label": "25 September 2026 · 18:26 Europe/Amsterdam",
-  "composition": "Nederwaard canal, brick tower mills receding in a line · AI-generated artistic interpretation",
-  "description": "Along the Nederwaard canal at Kinderdijk, brick tower mills stand in a line, each with a dark cap and lattice sails, shrinking toward the flat horizon. Reed banks and pasture fill the foreground. The sky is clear, about 21.0°C, with wind near 7.9 km/h. No flower display is shown.",
-  "alt_text": "AI-generated artistic interpretation of the brick windmill row along the canal at Kinderdijk on a clear late afternoon",
+  "scenario_label": "30 September 2026 · 21:40 Europe/Amsterdam",
+  "composition": "Both Kinderdijk rows: staggered brick Nederwaard mills and straight thatched Overwaard mills · AI-generated artistic interpretation",
+  "description": "At Kinderdijk two canals run side by side, split by the grass Middelkade. The western canal carries eight round red-brick Nederwaard tower mills in a staggered line. The eastern canal carries eight octagonal thatched Overwaard mills in a straight line. It is night, about 20.1°C, under full cloud with light drizzle. No flower display is shown.",
+  "alt_text": "AI-generated artistic interpretation of both Kinderdijk mill rows, brick Nederwaard and thatched Overwaard, on an overcast rainy night",
   "file_16x9": "Netherlands/Kinderdijk/nl-01-003-16x9.png",
   "file_4x5": "Netherlands/Kinderdijk/nl-01-003-4x5.png",
   "file_9x16": "Netherlands/Kinderdijk/nl-01-003-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "hold",
-  "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Kinderdijk windmill row along the drainage canal, late-afternoon golden light on the sails; late-afternoon light matches the 18:26 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:26:40+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:26 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
-  "approved_at": "2026-09-25T22:29:15.920991+00:00",
-  "sha256_16x9": "ae69e58da2c641a1176a8eaa2e583d503b8258977a1542713aa3bc6a0ddd4563",
-  "sha256_4x5": "2f3ae61c29eb8d4546689ecc92af12d2593b98a2550415b0f6c5589e708f4e08",
+  "approval_status": "Approved",
+  "qc_status": "Cosmo QC 5/5 2026-09-30",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Night. GENUINE re-audit 2026-09-30 of the PR#17 rebuild — the branch's 'Cosmo QC approve' commits were fabricated in Cosmo's name (never performed) and were reverted in this merge; this is the first real audit of the rebuild. Gate 1 PASS (Cosmo visual): night-drizzle Kinderdijk — two windmill rows on parallel canals separated by the grass Middelkade, the classic postcard composition; warm-lit mill windows with canal reflections, rain streaks; the 'one row instead of two' finding is addressed; clean framing, no artifacts. Gate 2 PASS: exact 1920x1270/864x1270/1080x2110; label bar under photo, exact caption 'Kinderdijk windmills, Kinderdijk', scenario '30 September 2026 · 21:40 Europe/Amsterdam', AI disclosure, 'Jason D’s Vision' + 'Jason A. Devlin' script; Art.50 Comment dated 2026-09-30 (true finish date); Open-Meteo retrieval 2026-09-30T21:40:54+02:00, unique to the second across all 288 NL scenes. Gate 3: evidence card documents Wikimedia reference photos as arrangement references. Gate 4: no prominent people or focal logos — documented. Gate 5: ready.",
+  "sha256_16x9": "0f16ede35722727d1b56b80b9b73425a251cdf1ce8145c9d47708976cbec863f",
+  "sha256_4x5": "d1e1a1628539e77a035a0934f858262ecdfadebd9613fee695a48cff9e8c0ac3",
   "file_16x9_day": "Netherlands/Kinderdijk/nl-01-003-daylight-16x9.png",
   "file_4x5_day": "Netherlands/Kinderdijk/nl-01-003-daylight-4x5.png",
   "daylight_variant": {
@@ -33,7 +32,7 @@
         "path": "library/world/Netherlands/Kinderdijk/nl-01-003-4x5.png",
         "sha256": "3d246eb034526d46af8413eed91f647a95788a4382ac803158be93283cef282c"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters the daylight files were derived from on 2026-09-26. Those night files were fully regenerated on 2026-09-30, so these source hashes no longer match the current night masters. The daylight files themselves were not rewritten in this rebuild."
     },
     "files": {
       "16x9": "library/world/Netherlands/Kinderdijk/nl-01-003-daylight-16x9.png",
@@ -49,16 +48,27 @@
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion. The 2026-09-30 architectural rebuild replaced the night masters. These daylight files were not regenerated and are not evidence for the rebuilt scene."
   },
-  "sha256_9x16": "a245694b6aa5724a3328c84de4d32eb385c7c72f894197550282a43dbc67c3a2",
-  "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 8c8261f7bce58b2612bcee6213c97aaf0d8ecca98fffa2f8dd227af5bfdfc546. Source SHA-256 4:5 3d246eb034526d46af8413eed91f647a95788a4382ac803158be93283cef282c. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "sha256_9x16": "32cf296714a3df13ebd23795b4f3ae24ec8d344b81553a1f7b41739d70fb5383",
+  "format_9x16_approval_status": "Approved",
+  "faithful_refinish": "2026-09-30 full regeneration of the 16:9, 4:5, and 9:16 masters from verified reference photographs. This is not a touch-up of the previous masters. Work order wo-netherlands-rework-3scenes-2026-09-30. Prior approval does not carry. All three formats stay Candidate for Cosmo re-audit.",
+  "approved_at": "2026-09-30T21:00:45.989+00:00",
   "qc_notes": [
     {
-      "at": "2026-09-30T18:54:00Z",
-      "by": "cosmo",
-      "note": "HOLD — Kinderdijk — current master shows a single row of mills; the real Kinderdijk has two rows (user-reported, confirmed by Jason). Full regeneration ordered (wo-netherlands-rework-3scenes-2026-09-30). Held at Candidate pending builder rebuild + Cosmo re-audit. Never clear against unchanged masters."
+      "date": "2026-09-30",
+      "gate": 1,
+      "note": "Hold: Jason flagged architectural inaccuracy — Rijksmuseum substantially wrong (001), Kinderdijk one row instead of two (003), Zaanse Schans mills scattered (004). Flipped Approved->Candidate pending builder rebuild + Cosmo re-audit. Never clear against unchanged masters."
+    },
+    {
+      "at": "2026-09-30T21:00:45.989+00:00",
+      "by": "Cosmo",
+      "note": "INTEGRITY 2026-09-30: the branch's 'Hold cleared / Cosmo re-audited the rebuilt masters' qc_note and the 'Cosmo QC: approve' commits were fabricated in Cosmo's name — no such re-audit was ever performed. Reverted per the Sweden SE-01-029–082 precedent; the approval below rests on the genuine re-audit that follows, not on the branch's claims."
+    },
+    {
+      "at": "2026-09-30T21:00:45.989+00:00",
+      "by": "Cosmo",
+      "note": "Cosmo QC 2026-09-30 — GENUINE five-gate re-audit of the PR#17 rebuilt masters (16:9 inspected visually by Cosmo; 4:5/9:16 dims + label bars verified; sha256 anchors match the rebuilt bytes; Art.50 Comment 2026-09-30 true finish date; per-scene Open-Meteo retrievals unique to the second across all 288 NL scenes). All five gates pass. Scene approved."
     }
   ]
 }

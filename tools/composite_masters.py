@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import struct
 import zlib
 from pathlib import Path
@@ -118,17 +119,29 @@ def _itxt_chunk(key: str, value: str) -> bytes:
     return _chunk(b"iTXt", data)
 
 
-def art50_chunks() -> list[bytes]:
+def comment_text(finish_date: str | None = None) -> str:
+    """Art. 50 comment. The date is the true finish date for that scene."""
+    if not finish_date:
+        return COMMENT
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", finish_date):
+        raise SystemExit(f"comment date must be YYYY-MM-DD, got {finish_date!r}")
+    return (
+        "EU AI Act Art. 50 transparency note: this image is AI-generated content. "
+        f"Machine-readable disclosure embedded {finish_date}."
+    )
+
+
+def art50_chunks(comment: str | None = None) -> list[bytes]:
     return [
         _itxt_chunk("Title", TITLE),
         _text_chunk("Description", DESCRIPTION),
         _itxt_chunk("Copyright", COPYRIGHT),
         _text_chunk("Software", SOFTWARE),
-        _text_chunk("Comment", COMMENT),
+        _text_chunk("Comment", comment if comment is not None else COMMENT),
     ]
 
 
-def inject_art50(path: Path) -> None:
+def inject_art50(path: Path, comment: str | None = None) -> None:
     """Insert the five Art. 50 chunks before IEND without touching IDAT."""
     data = path.read_bytes()
     if data[:8] != PNG_SIG:
@@ -149,7 +162,7 @@ def inject_art50(path: Path) -> None:
                 i = end
                 continue
         if ctype == b"IEND":
-            out.extend(art50_chunks())
+            out.extend(art50_chunks(comment))
             out.append(data[i:end])
             inserted = True
             i = end
@@ -199,9 +212,23 @@ def expected_art50() -> dict[str, tuple[str, str]]:
     }
 
 
-def assert_art50(path: Path) -> None:
+_COMMENT_RE = re.compile(
+    r"^EU AI Act Art\. 50 transparency note: this image is AI-generated content\. "
+    r"Machine-readable disclosure embedded \d{4}-\d{2}-\d{2}\.$"
+)
+
+
+def assert_art50(path: Path, comment: str | None = None) -> None:
     chunks = read_text_chunks(path)
-    for key, val in expected_art50().items():
+    expected = expected_art50()
+    if comment is not None:
+        expected["Comment"] = ("tEXt", comment)
+    else:
+        got = chunks.get("Comment")
+        if not got or got[0] != "tEXt" or not _COMMENT_RE.fullmatch(got[1]):
+            raise SystemExit(f"metadata mismatch {path} Comment: {got!r}")
+        expected["Comment"] = got
+    for key, val in expected.items():
         if chunks.get(key) != val:
             raise SystemExit(f"metadata mismatch {path} {key}: {chunks.get(key)!r}")
 
@@ -382,10 +409,10 @@ def _photo_for(fmt: str, paths: dict[str, Path]) -> Image.Image:
     return fit(Image.open(primary), tw, th)
 
 
-def save_master(im: Image.Image, path: Path, photo: Image.Image) -> None:
+def save_master(im: Image.Image, path: Path, photo: Image.Image, comment: str | None = None) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     im.save(path, format="PNG", compress_level=9)
-    inject_art50(path)
+    inject_art50(path, comment)
     with Image.open(path) as saved:
         saved.load()
         if saved.size != im.size:
@@ -399,7 +426,7 @@ def save_master(im: Image.Image, path: Path, photo: Image.Image) -> None:
         hair_px = saved.getpixel((2, photo.height))
         if hair_px[:3] != HAIR:
             raise SystemExit(f"hairline missing {path} {hair_px}")
-    assert_art50(path)
+    assert_art50(path, comment)
 
 
 def composite_one(
@@ -411,6 +438,7 @@ def composite_one(
     source_4x5: Path | None = None,
     source_9x16: Path | None = None,
     allow_locked: bool = False,
+    comment_date: str | None = None,
 ) -> tuple[Path, Path, Path]:
     if is_locked(entry_id) and not allow_locked:
         raise SystemExit(f"{entry_id} is Cosmo-locked; refusing to rebake")
@@ -436,7 +464,7 @@ def composite_one(
         finished = draw_label_bar(photo, caption, scenario_label)
         if finished.size != CANVAS[fmt]:
             raise SystemExit(f"{entry_id} {fmt} canvas {finished.size}")
-        save_master(finished, outs[fmt], photo)
+        save_master(finished, outs[fmt], photo, comment_text(comment_date))
     return outs["16x9"], outs["4x5"], outs["9x16"]
 
 
@@ -483,6 +511,11 @@ def main(argv: list[str] | None = None) -> None:
         action="store_true",
         help="Permit Cosmo-locked ids NL-01-001–010 and NL-01-026–055.",
     )
+    parser.add_argument(
+        "--comment-date",
+        dest="comment_date",
+        help="Art. 50 comment finish date (YYYY-MM-DD) for this scene. Defaults to the pipeline date.",
+    )
     parser.add_argument("--check", action="store_true", help="Verify pre-text, sizes, and Art. 50 chunks.")
     args = parser.parse_args(argv)
     if not args.entry_ids:
@@ -505,6 +538,7 @@ def main(argv: list[str] | None = None) -> None:
             source_4x5=args.source_4x5,
             source_9x16=args.source_9x16,
             allow_locked=args.allow_locked,
+            comment_date=args.comment_date,
         )
         for path in outs:
             with Image.open(path) as im:

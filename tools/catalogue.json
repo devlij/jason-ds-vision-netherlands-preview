@@ -5,20 +5,22 @@
     "city": "Amsterdam",
     "folder": "Amsterdam",
     "caption": "Rijksmuseum, Amsterdam",
-    "composition": "Museumplein looking north at the south facade and central passageway · AI-generated artistic interpretation",
-    "description": "From the lawn on Museumplein the view looks north to the Rijksmuseum’s south facade. Two brick towers frame the central arched passageway through the building, with slate roofs over the gables. It is a clear late afternoon, about 20.8°C, and the sun is low in the west. The square is open grass and paths, without a letter sculpture.",
-    "alt_text": "AI-generated artistic interpretation of the Rijksmuseum south facade from Museumplein in Amsterdam on a clear late afternoon",
-    "viewpoint": "Tourist viewpoint on Museumplein, south of the museum, looking north at Pierre Cuypers’ south facade and the public passageway. A surveyed tripod mark on the lawn was not pinned; the open square is the viewpoint.",
+    "composition": "Museumplein looking north at Cuypers’ south facade, corner towers, and the open underpass · AI-generated artistic interpretation",
+    "description": "From Museumplein the view looks north at the Rijksmuseum’s south facade. Red brick is crossed by pale stone bands. Two square corner towers with spires frame an open central arched underpass, with ornate gables above it. It is night, about 20.5°C, under full cloud with moderate drizzle. The square is wet grass and paths, without a letter sculpture.",
+    "alt_text": "AI-generated artistic interpretation of the Rijksmuseum south facade from Museumplein in Amsterdam on an overcast rainy night",
+    "viewpoint": "Tourist viewpoint on Museumplein, south of the museum, looking north at Pierre Cuypers’ south facade, the two corner towers, and the public passageway. A surveyed tripod mark on the lawn was not pinned.",
     "references": [
       "https://www.rijksmuseum.nl/en",
       "https://en.wikipedia.org/wiki/Rijksmuseum"
     ],
     "anchors": [
-      "Museumplein lawn and paths occupy the foreground",
-      "Two towers flank a large central arch that opens through the building",
-      "Red-brown brick and slate roofs; no giant letter sculpture on the square"
+      "Red brick walls are crossed by pale stone bands",
+      "Two square corner towers with spires frame the south facade",
+      "A tall central arch is an open underpass through the building, under ornate gables"
     ],
-    "solar": "Clear late afternoon. Model sunset 19:32 Europe/Amsterdam, so the 18:26 scenario is about an hour before sunset, with the sun low in the west."
+    "solar": "Full night under full cloud and moderate drizzle. Model sunrise 07:39 and sunset 19:20 Europe/Amsterdam, model is_day 0. At 21:40 the sun is down. Floodlights pick out the brick and the open underpass. Wind is about 9.7 km/h.",
+    "source_notes": "Reference photographs were supplied to the generator for architectural arrangement. Reference photo URLs: https://commons.wikimedia.org/wiki/File:Rijksmuseum_from_Museumplein_2523.jpg; https://commons.wikimedia.org/wiki/File:Amsterdam-3422-Rijksmuseum-2008-gje.jpg. The two site links were consulted for arrangement as well. Pure pre-text files are kept under library/pretext/Netherlands/Amsterdam/. 4:5 and 9:16 are separate pure re-frames of the same viewpoint, not crops of a finished master. The finished masters add a 190px label bar under the photo. No scrim, tint, shadow, or text was drawn over the artwork. No credit is required. These notes are not a legal certification.",
+    "provenance_gate": "Reference photographs were supplied for architectural arrangement. The master is a new artistic interpretation. Still Candidate."
   },
   {
     "entry_id": "NL-01-002",
@@ -47,20 +49,23 @@
     "city": "Kinderdijk",
     "folder": "Kinderdijk",
     "caption": "Kinderdijk windmills, Kinderdijk",
-    "composition": "Nederwaard canal, brick tower mills receding in a line · AI-generated artistic interpretation",
-    "description": "Along the Nederwaard canal at Kinderdijk, brick tower mills stand in a line, each with a dark cap and lattice sails, shrinking toward the flat horizon. Reed banks and pasture fill the foreground. The sky is clear, about 21.0°C, with wind near 7.9 km/h. No flower display is shown.",
-    "alt_text": "AI-generated artistic interpretation of the brick windmill row along the canal at Kinderdijk on a clear late afternoon",
-    "viewpoint": "From the visitor path beside the Nederwaard canal, looking along the row of brick tower mills. The path is the usual tourist walk; an exact metre-mark on the bank was not surveyed.",
+    "composition": "Both Kinderdijk rows: staggered brick Nederwaard mills and straight thatched Overwaard mills · AI-generated artistic interpretation",
+    "description": "At Kinderdijk two canals run side by side, split by the grass Middelkade. The western canal carries eight round red-brick Nederwaard tower mills in a staggered line. The eastern canal carries eight octagonal thatched Overwaard mills in a straight line. It is night, about 20.1°C, under full cloud with light drizzle. No flower display is shown.",
+    "alt_text": "AI-generated artistic interpretation of both Kinderdijk mill rows, brick Nederwaard and thatched Overwaard, on an overcast rainy night",
+    "viewpoint": "Elevated view from the north end by the Lek, looking south so both boezems are in frame. The Nederwaard is the western canal. The Overwaard is the eastern canal. An exact tripod mark was not surveyed.",
     "references": [
       "https://kinderdijk.com/en/",
-      "https://whc.unesco.org/en/list/818/"
+      "https://whc.unesco.org/en/list/818/",
+      "https://kinderdijk.nl/en/blogs/the-secret-behind-the-double-row-of-windmills/"
     ],
     "anchors": [
-      "A straight canal leads past a receding row of brick tower mills",
-      "The nearest mill is larger, with smaller mills toward the horizon",
-      "Flat polder, grass, and reeds; no tulip color"
+      "Eight round red-brick Nederwaard tower mills stand in a staggered line on the western canal",
+      "Eight octagonal thatched Overwaard mills stand in a straight line on the eastern canal",
+      "The two canals run parallel, separated by the grass Middelkade"
     ],
-    "solar": "Clear late afternoon. Model sunset 19:33 Europe/Amsterdam. Side light from the west at 18:26 falls across the brick bodies and sails."
+    "solar": "Full night under full cloud and light drizzle. Model sunrise 07:40 and sunset 19:21 Europe/Amsterdam, model is_day 0. At 21:40 the sun is down. A few warm windows and path lamps mark the mills. Wind is about 8.3 km/h.",
+    "source_notes": "Reference photographs were supplied to the generator for architectural arrangement. Reference photo URLs: https://commons.wikimedia.org/wiki/File:Kinderdijk,_Overwaard_molens_no8tm3_RM30558tm3_en_Nederwaard_molens_no5en4_RM30547+6_IMG_9372_2021-06-13_11.20.jpg; https://commons.wikimedia.org/wiki/File:Kinderdijk,_Nederwaard_molens_no_1tm5_RM30543tm7_IMG_9354_2021-06-13_11.04.jpg; https://commons.wikimedia.org/wiki/File:Kinderdijk,_Overwaard_molens_no4_tm8_RM30554tm8_IMG_9357_2021-06-13_11.05.jpg. The site links were consulted for arrangement as well. Pure pre-text files are kept under library/pretext/Netherlands/Kinderdijk/. 4:5 and 9:16 are separate pure re-frames of the same viewpoint, not crops of a finished master. The finished masters add a 190px label bar under the photo. No scrim, tint, shadow, or text was drawn over the artwork. No credit is required. These notes are not a legal certification.",
+    "provenance_gate": "Reference photographs were supplied for architectural arrangement. The master is a new artistic interpretation. Still Candidate."
   },
   {
     "entry_id": "NL-01-004",
@@ -68,20 +73,22 @@
     "city": "Zaandam",
     "folder": "Zaandam",
     "caption": "Zaanse Schans, Zaandam",
-    "composition": "Green wooden mills along the river Zaan · AI-generated artistic interpretation",
-    "description": "From the riverbank at Zaanse Schans, green wooden mills and dark wooden houses stand over the Zaan, with a footbridge and reflections in the water. The mills are timber, unlike the brick towers at Kinderdijk. It is clear, about 21.1°C, and the wind is light, about 5.8 km/h. The low sun lights the green wood from the west.",
-    "alt_text": "AI-generated artistic interpretation of the green wooden windmills at Zaanse Schans in Zaandam on a clear late afternoon",
-    "viewpoint": "From the Zaan riverbank by the Kalverringdijk mill row, looking across the water at the wooden mills. The public bank is the viewpoint; a single tripod coordinate was not fixed.",
+    "composition": "One row of green wooden smock mills along the river Zaan · AI-generated artistic interpretation",
+    "description": "From the west bank of the Zaan, green wooden smock mills stand in a single row along the far bank at Zaanse Schans, parallel to the river, with dark caps and lattice sails. They are timber, unlike the brick towers at Kinderdijk. It is night, about 20.0°C, under full cloud with moderate drizzle, and the wind is about 12.6 km/h. The river fills the foreground.",
+    "alt_text": "AI-generated artistic interpretation of the green wooden windmills in a single row along the Zaan at Zaanse Schans on an overcast rainy night",
+    "viewpoint": "From the west bank of the Zaan, looking across the water at the Kalverringdijk mill row so the mills read as one line along the bank. A single tripod coordinate was not fixed.",
     "references": [
       "https://www.dezaanseschans.nl/en/",
       "https://en.wikipedia.org/wiki/Zaanse_Schans"
     ],
     "anchors": [
-      "The river Zaan fills the foreground",
-      "Green wooden mills with dark caps line the far bank",
-      "Dark wooden houses and a footbridge sit with the mills"
+      "Green wooden smock mills stand in one row along the riverbank",
+      "The Zaan runs parallel to that row and fills the foreground",
+      "The mills have dark caps and lattice sails on green timber bodies"
     ],
-    "solar": "Clear late afternoon. Model sunset 19:32 Europe/Amsterdam. At 18:26 the sun is low in the west, warming the green timber and the water."
+    "solar": "Full night under full cloud and moderate drizzle. Model sunrise 07:40 and sunset 19:20 Europe/Amsterdam, model is_day 0. At 21:40 the sun is down. Lamps and wet timber reflections mark the row. Wind is about 12.6 km/h.",
+    "source_notes": "Reference photographs were supplied to the generator for architectural arrangement. Reference photo URLs: https://commons.wikimedia.org/wiki/File:Zaanse_Schans_(NL),_Windmühlen_--_2026_--_0491.jpg; https://commons.wikimedia.org/wiki/File:Zaanse_Schans,_Windmühlen_--_2015_--_7270.jpg. The two site links were consulted for arrangement as well. Pure pre-text files are kept under library/pretext/Netherlands/Zaandam/. 4:5 and 9:16 are separate pure re-frames of the same viewpoint, not crops of a finished master. The finished masters add a 190px label bar under the photo. No scrim, tint, shadow, or text was drawn over the artwork. No credit is required. These notes are not a legal certification.",
+    "provenance_gate": "Reference photographs were supplied for architectural arrangement. The master is a new artistic interpretation. Still Candidate."
   },
   {
     "entry_id": "NL-01-005",

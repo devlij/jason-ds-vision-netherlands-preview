@@ -160,10 +160,10 @@ NL-01-209 through NL-01-224 swaps:
 - NL-01-224: uses America/Kralendijk. The Kralendijk waterfront, the salt pans, the slave huts, and the Willemstoren are other scenes. This is the white church in Rincon. The bell tower was added in the 1977-1984 works, so the tower is shown. No sign is readable. Night hills are dark.
 - The other suggested sites in this batch were not already used.
 
-- NL-01-001 — Rijksmuseum, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:37+02:00
+- NL-01-001 — Rijksmuseum, Amsterdam — 30 September 2026 · 21:40 Europe/Amsterdam — retrieved 2026-09-30T21:40:52+02:00
 - NL-01-002 — Prinsengracht, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:39+02:00
-- NL-01-003 — Kinderdijk windmills, Kinderdijk — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:40+02:00
-- NL-01-004 — Zaanse Schans, Zaandam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:42+02:00
+- NL-01-003 — Kinderdijk windmills, Kinderdijk — 30 September 2026 · 21:40 Europe/Amsterdam — retrieved 2026-09-30T21:40:54+02:00
+- NL-01-004 — Zaanse Schans, Zaandam — 30 September 2026 · 21:40 Europe/Amsterdam — retrieved 2026-09-30T21:40:57+02:00
 - NL-01-005 — Bulb fields, Lisse — 25 September 2026 · 18:27 Europe/Amsterdam — retrieved 2026-09-25T18:27:46+02:00
 - NL-01-006 — Giethoorn, Giethoorn — 25 September 2026 · 18:27 Europe/Amsterdam — retrieved 2026-09-25T18:27:48+02:00
 - NL-01-007 — Erasmus Bridge, Rotterdam — 25 September 2026 · 18:27 Europe/Amsterdam — retrieved 2026-09-25T18:27:50+02:00

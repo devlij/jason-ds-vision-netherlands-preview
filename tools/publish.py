@@ -104,11 +104,20 @@ def approval_md(row: dict, weather: dict, sha16: str, sha45: str, sha916: str | 
 - SHA-256 16:9: `{sha16}`
 - SHA-256 4:5: `{sha45}`"""
         art_scope = "both masters"
+    provenance = "text-prompt-only. No photographic input."
+    if row.get("source_notes"):
+        source_notes = row["source_notes"]
+        provenance = row.get(
+            "provenance_gate",
+            "Reference photographs were supplied for architectural arrangement. The master is a new artistic interpretation.",
+        )
     sky_words = {
         0: "Clear sky",
         1: "Mainly clear",
         2: "Partly cloudy",
         3: "Overcast",
+        51: "Light drizzle",
+        53: "Moderate drizzle",
     }.get(weather["weather_code"], "Model sky")
     return f"""# {row['entry_id']} — {row['caption']}
 
@@ -136,7 +145,7 @@ This note is an internal checklist for Cosmo QC. It does not approve the scene.
 
 1. Visual/location — internal checklist met on review. Still Candidate.
 2. Technical — {technical}
-3. Originality/provenance — text-prompt-only. No photographic input.
+3. Originality/provenance — {provenance}
 4. Commercial/IP — no prominent identifiable people, no focal logos, and no copyrighted artwork as the subject. Internal review only, not a legal certification.
 5. Publication readiness — {ready}
 
