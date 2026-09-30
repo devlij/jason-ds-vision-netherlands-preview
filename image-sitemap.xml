@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/#NL-01-001</loc>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Amsterdam/nl-01-001-16x9.png</image:loc>
-      <image:caption>Rijksmuseum, Amsterdam</image:caption>
-      <image:title>Rijksmuseum, Amsterdam</image:title>
-      <image:geo_location>Amsterdam, Netherlands</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Amsterdam/nl-01-001-4x5.png</image:loc>
-      <image:caption>Rijksmuseum, Amsterdam</image:caption>
-      <image:title>Rijksmuseum, Amsterdam</image:title>
-      <image:geo_location>Amsterdam, Netherlands</image:geo_location>
-    </image:image>
-  </url>
-  <url>
+    <url>
     <loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/#NL-01-002</loc>
     <image:image>
       <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Amsterdam/nl-01-002-16x9.png</image:loc>
@@ -31,37 +16,7 @@
       <image:geo_location>Amsterdam, Netherlands</image:geo_location>
     </image:image>
   </url>
-  <url>
-    <loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/#NL-01-003</loc>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Kinderdijk/nl-01-003-16x9.png</image:loc>
-      <image:caption>Kinderdijk windmills, Kinderdijk</image:caption>
-      <image:title>Kinderdijk windmills, Kinderdijk</image:title>
-      <image:geo_location>Kinderdijk, Netherlands</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Kinderdijk/nl-01-003-4x5.png</image:loc>
-      <image:caption>Kinderdijk windmills, Kinderdijk</image:caption>
-      <image:title>Kinderdijk windmills, Kinderdijk</image:title>
-      <image:geo_location>Kinderdijk, Netherlands</image:geo_location>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/#NL-01-004</loc>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Zaandam/nl-01-004-16x9.png</image:loc>
-      <image:caption>Zaanse Schans, Zaandam</image:caption>
-      <image:title>Zaanse Schans, Zaandam</image:title>
-      <image:geo_location>Zaandam, Netherlands</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Zaandam/nl-01-004-4x5.png</image:loc>
-      <image:caption>Zaanse Schans, Zaandam</image:caption>
-      <image:title>Zaanse Schans, Zaandam</image:title>
-      <image:geo_location>Zaandam, Netherlands</image:geo_location>
-    </image:image>
-  </url>
-  <url>
+      <url>
     <loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/#NL-01-005</loc>
     <image:image>
       <image:loc>https://devlij.github.io/jason-ds-vision-netherlands-preview/library/world/Netherlands/Lisse/nl-01-005-16x9.png</image:loc>

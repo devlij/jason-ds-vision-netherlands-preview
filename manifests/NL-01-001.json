@@ -4,21 +4,20 @@
   "region": "North Holland",
   "city": "Amsterdam",
   "caption": "Rijksmuseum, Amsterdam",
-  "scenario_label": "25 September 2026 · 18:26 Europe/Amsterdam",
-  "composition": "Museumplein looking north at the south facade and central passageway · AI-generated artistic interpretation",
-  "description": "From the lawn on Museumplein the view looks north to the Rijksmuseum’s south facade. Two brick towers frame the central arched passageway through the building, with slate roofs over the gables. It is a clear late afternoon, about 20.8°C, and the sun is low in the west. The square is open grass and paths, without a letter sculpture.",
-  "alt_text": "AI-generated artistic interpretation of the Rijksmuseum south facade from Museumplein in Amsterdam on a clear late afternoon",
+  "scenario_label": "30 September 2026 · 21:40 Europe/Amsterdam",
+  "composition": "Museumplein looking north at Cuypers’ south facade, corner towers, and the open underpass · AI-generated artistic interpretation",
+  "description": "From Museumplein the view looks north at the Rijksmuseum’s south facade. Red brick is crossed by pale stone bands. Two square corner towers with spires frame an open central arched underpass, with ornate gables above it. It is night, about 20.5°C, under full cloud with moderate drizzle. The square is wet grass and paths, without a letter sculpture.",
+  "alt_text": "AI-generated artistic interpretation of the Rijksmuseum south facade from Museumplein in Amsterdam on an overcast rainy night",
   "file_16x9": "Netherlands/Amsterdam/nl-01-001-16x9.png",
   "file_4x5": "Netherlands/Amsterdam/nl-01-001-4x5.png",
   "file_9x16": "Netherlands/Amsterdam/nl-01-001-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Cosmo QC 5/5 2026-09-25",
-  "approval_basis": "Cosmo QC 5/5 2026-09-25. Gate1: Rijksmuseum south facade with twin towers flanking the central passageway, Museumplein lawn in the foreground, no invented letter sculpture; late-afternoon light matches the 18:26 scenario. Gate2: Open-Meteo weather retrieval 2026-09-25T18:26:37+02:00 recorded per scene and unique across all 64 Netherlands scenes repo-wide; scenario 18:26 inside model-valid hour 18:00-18:59. Gate3: full evidence card (camera viewpoint, 2 reference links, 3 geometry anchors, independent description); AI disclosure on-image and Art.50 metadata on both masters. Gate4: license badge 'Free, no credit needed' documented; commercial/IP clearance is Jason's final call (recorded, not certified). Gate5: card complete (caption, scenario, composition, description, alt text, both file refs); exact 1920x1080 + 864x1080 masters, masters downloaded via the authoritative git blob API.",
-  "approved_at": "2026-09-25T22:29:06.914137+00:00",
-  "sha256_16x9": "08a5740bb26eab36f93d0be7ecc4bc83139041e8980a7923a8a3630833ec1c97",
-  "sha256_4x5": "129a075693cedbac549eeb65393599d2c8176744cc508d8055c5c7bc1a9064c6",
+  "approval_status": "Candidate",
+  "qc_status": "Held for Cosmo re-audit",
+  "approval_basis": "Rebuilt 2026-09-30 under work order wo-netherlands-rework-3scenes-2026-09-30. Fresh Open-Meteo retrieval unique to the second. New 16:9, 4:5, and 9:16 masters from verified reference photographs, with a 190px label bar and Art. 50 comment date 2026-09-30. Prior approval does not carry. Held Candidate for Cosmo re-audit. No QC score is recorded in this rebuild.",
+  "sha256_16x9": "f03bad48b8b2c48c59d00d7138a34857cd257f8bdcf872d5d350b27a3be74369",
+  "sha256_4x5": "e5c8a967faa10f8b10c2db2ecf7484627d7b410e4cace875041223c6657486c0",
   "file_16x9_day": "Netherlands/Amsterdam/nl-01-001-daylight-16x9.png",
   "file_4x5_day": "Netherlands/Amsterdam/nl-01-001-daylight-4x5.png",
   "daylight_variant": {
@@ -33,7 +32,7 @@
         "path": "library/world/Netherlands/Amsterdam/nl-01-001-4x5.png",
         "sha256": "643f350ff8f136cdf41f3d6c64810acd5c8ef374ec72701e1cc14573bfeb8ac6"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters the daylight files were derived from on 2026-09-26. Those night files were fully regenerated on 2026-09-30, so these source hashes no longer match the current night masters. The daylight files themselves were not rewritten in this rebuild."
     },
     "files": {
       "16x9": "library/world/Netherlands/Amsterdam/nl-01-001-daylight-16x9.png",
@@ -49,9 +48,9 @@
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion. The 2026-09-30 architectural rebuild replaced the night masters. These daylight files were not regenerated and are not evidence for the rebuilt scene."
   },
-  "sha256_9x16": "a132eaf22f83e5c84481ce24f292b2d9362dc844b7a6a57b95e311245df12ab0",
+  "sha256_9x16": "b743366386e63d29022883ff09eec7b66597e8646d53146d02cdeaacd04abe26",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 7b05158d1165b0c3466dd9b78315973df36e3067b71eafb9487e68bdfc4882e9. Source SHA-256 4:5 643f350ff8f136cdf41f3d6c64810acd5c8ef374ec72701e1cc14573bfeb8ac6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-30 full regeneration of the 16:9, 4:5, and 9:16 masters from verified reference photographs. This is not a touch-up of the previous masters. Work order wo-netherlands-rework-3scenes-2026-09-30. Prior approval does not carry. All three formats stay Candidate for Cosmo re-audit."
 }
