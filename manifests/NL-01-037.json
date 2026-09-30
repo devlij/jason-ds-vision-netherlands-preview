@@ -17,5 +17,8 @@
   "approval_basis": "Gate 1: I read the master — St. John's Cathedral of 's-Hertogenbosch floodlit at night, the tall ornate west tower with spire and the long gothic nave with flying buttresses over the empty square, plausible public-square viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'St. John's Cathedral, 's-Hertogenbosch' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:29+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:39:54.858902+00:00",
   "sha256_16x9": "a8f5917088ad50bac8c36234aa50ff5a646fa419c962cd16c3e45ab36438f289",
-  "sha256_4x5": "0dea2ddba2a12314ba25e696e56e02e5bb961de2e8e7ff1e378e6c69858e0d38"
+  "sha256_4x5": "0dea2ddba2a12314ba25e696e56e02e5bb961de2e8e7ff1e378e6c69858e0d38",
+  "file_9x16": "Netherlands/s-Hertogenbosch/nl-01-037-9x16.png",
+  "sha256_9x16": "b1d190a780890376f849ca5b628a199216f84f4a72c888527fbf1d3e3776664f",
+  "format_9x16_approval_status": "Candidate"
 }

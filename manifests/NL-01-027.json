@@ -17,5 +17,8 @@
   "approval_basis": "Gate 1: I read the master — the Markthal's huge arch of apartment windows spanning the frame from the Binnenrotte plaza, glowing market hall interior visible through the opening, evening paving foreground, plausible public-street viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Markthal, Rotterdam' + scenario '25 September 2026 · 23:05 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:05:28+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:00 model hour. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos; public plaza. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:37:43.532228+00:00",
   "sha256_16x9": "5ecc8484be419b120faa5f8335134d94219825ef6c1cf22264e9da813b814f9e",
-  "sha256_4x5": "9e43086cdd05b8a25a1534657316bc7732e22007e08f119d42a806a2472c8b11"
+  "sha256_4x5": "9e43086cdd05b8a25a1534657316bc7732e22007e08f119d42a806a2472c8b11",
+  "file_9x16": "Netherlands/Rotterdam/nl-01-027-9x16.png",
+  "sha256_9x16": "e740828e3b46ba6b6e90f76647d69aa6330e5865f933bc125d45cb23d385e00b",
+  "format_9x16_approval_status": "Candidate"
 }

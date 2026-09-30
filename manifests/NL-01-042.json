@@ -17,5 +17,8 @@
   "approval_basis": "Zierikzee's Noordhavenpoort at night: the twin round brick towers with banded speklagen and crenellations flanking the central pointed arch, floodlit against an overcast sky, harbour water and moored boats in the foreground, lit historic houses continuing behind the gate. Gate 1: unmistakable Noordhavenpoort, plausible harbour-side viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Noordhavenpoort, Zierikzee', scenario '25 September 2026 · 23:41 Europe/Amsterdam' inside model-valid hour 23:00-23:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-25T23:41:38+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:42:18.299113+00:00",
   "sha256_16x9": "d20ef81cf54587f2799301c320b846aa7218de292443e6b6e8addfd73153f25f",
-  "sha256_4x5": "40196912a808952892bdb072f83e23e6dcd892b23c37fc35986a38c622782878"
+  "sha256_4x5": "40196912a808952892bdb072f83e23e6dcd892b23c37fc35986a38c622782878",
+  "file_9x16": "Netherlands/Zierikzee/nl-01-042-9x16.png",
+  "sha256_9x16": "b4044e6aa9ad69c4772117ad6f3eb8b224937a07496e15fe5d43cce5e25215f4",
+  "format_9x16_approval_status": "Candidate"
 }

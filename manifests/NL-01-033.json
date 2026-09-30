@@ -17,5 +17,8 @@
   "approval_basis": "Gate 1: I read the master — the Oudegracht at night with the canal water below, arched brick wharf cellars opening onto the lower wharf and the gabled houses of the upper street above a retaining wall, warm lamplight reflecting, plausible bridge viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Oudegracht, Utrecht' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:24+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:38:54.610432+00:00",
   "sha256_16x9": "47aa67d17f148b62703dd478d7debf4e7c925d5fd98062b1ae5bd7b488f7e9ad",
-  "sha256_4x5": "195d05dd265dd37162d060e30a2216af2ae3c072a3abd6baa08f3970c7b04feb"
+  "sha256_4x5": "195d05dd265dd37162d060e30a2216af2ae3c072a3abd6baa08f3970c7b04feb",
+  "file_9x16": "Netherlands/Utrecht/nl-01-033-9x16.png",
+  "sha256_9x16": "ad4f8f51499fdfb98d66f734215a31190b6d97f0b7e0aff59229de84f91c210f",
+  "format_9x16_approval_status": "Candidate"
 }

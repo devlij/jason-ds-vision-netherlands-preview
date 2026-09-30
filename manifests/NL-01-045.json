@@ -17,5 +17,8 @@
   "approval_basis": "Deventer's Lebuinuskerk at night: the large Gothic hall church with its tall spired west tower floodlit on the empty plaza, brick nave and pointed-arch windows glowing against the dark sky. Gate 1: recognizable Lebuinuskerk massing, plausible plaza viewpoint; Gate 2: masters exact 1920x1080/864x1080, exact caption 'Lebuinuskerk, Deventer', scenario '25 September 2026 · 23:41 Europe/Amsterdam' inside model-valid hour 23:00-23:59, Art. 50 metadata present, Open-Meteo retrieval 2026-09-25T23:41:44+02:00 unique to the second repo-wide (zero duplicates across 272 scenes); Gate 3: text-prompt-only, no photographic input; Gate 4: no prominent identifiable people or focal logos, documented only; Gate 5: caption, scenario, composition, description, alt text, both file refs and license badge complete.",
   "approved_at": "2026-09-26T02:42:32.244833+00:00",
   "sha256_16x9": "aeb16bfe22a148a067efad90fff2ac7b60c1c676fbc92549d19f2fcfaef62de9",
-  "sha256_4x5": "4e11e67b8ed6dd9a583dca401a10ba504b5c697ca94f981a157bd861b4711e55"
+  "sha256_4x5": "4e11e67b8ed6dd9a583dca401a10ba504b5c697ca94f981a157bd861b4711e55",
+  "file_9x16": "Netherlands/Deventer/nl-01-045-9x16.png",
+  "sha256_9x16": "e7d7924f82153c084ce74e99bb866b7581e468d668944148ba9c7a49833fca88",
+  "format_9x16_approval_status": "Candidate"
 }

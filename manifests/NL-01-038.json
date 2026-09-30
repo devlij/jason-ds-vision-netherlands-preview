@@ -17,5 +17,8 @@
   "approval_basis": "Gate 1: I read the master — the Evoluon at night, its white flying-saucer disc on angled concrete pilotis glowing from under-disc lamps, dark glass band of windows, lawn foreground, plausible public-grounds viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Evoluon, Eindhoven' + scenario '25 September 2026 · 23:53 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:53:41+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:45 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:39:59.678359+00:00",
   "sha256_16x9": "9178e21dbe753e410154511510dcccca5ea9625ab1db9e9c3de346506e281e5e",
-  "sha256_4x5": "6c47fae9a83a10ad4efc3d75dd409581e6291c82c41116e7e2c27eaf6e2feab0"
+  "sha256_4x5": "6c47fae9a83a10ad4efc3d75dd409581e6291c82c41116e7e2c27eaf6e2feab0",
+  "file_9x16": "Netherlands/Eindhoven/nl-01-038-9x16.png",
+  "sha256_9x16": "11b892f3225200fc570bfcc07a0fa299b7f716b28c6fb710c949cc67daaac8f8",
+  "format_9x16_approval_status": "Candidate"
 }

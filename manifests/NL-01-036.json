@@ -17,5 +17,8 @@
   "approval_basis": "Gate 1: I read the master — Duurstede Castle at night from the park across the moat, the huge round brick Burgundian tower with conical roof standing beside the lower square donjon and broken walls, trees and path lighting, plausible park-path viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Duurstede Castle, Wijk bij Duurstede' + scenario '25 September 2026 · 23:41 Europe/Amsterdam' + AI disclosure bottom-left and 'Jason D's Vision' bottom-right legible on scrim, Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T23:41:27+02:00, verified unique to the second across all 224 Netherlands weather evidence files, scenario minute inside the cited 23:30 model interval. Gate 3: build note documents text-prompt-only lineage, no photographic input. Gate 4: no visible people or logos. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T01:39:49.885495+00:00",
   "sha256_16x9": "216e84a3cb45151b038071e07ea8b784890cca027da759a8dc2c30a8d6912a6c",
-  "sha256_4x5": "e5d2caef1cc70c2b34849b009716a459ec74b2f81d50943b31ab9d42354d420d"
+  "sha256_4x5": "e5d2caef1cc70c2b34849b009716a459ec74b2f81d50943b31ab9d42354d420d",
+  "file_9x16": "Netherlands/Wijk bij Duurstede/nl-01-036-9x16.png",
+  "sha256_9x16": "70839d7818337b3ada6209f53b28d934c4f83c15e07a1869eccc59a629c77eca",
+  "format_9x16_approval_status": "Candidate"
 }
