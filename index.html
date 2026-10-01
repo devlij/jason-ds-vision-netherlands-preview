@@ -482,7 +482,21 @@
       if (o[0]===me[0] || shared>0) out.push([(o[0]===me[0]?0:1), -shared, oid]);
     }
     out.sort(function(a,b){ return a[0]-b[0] || a[1]-b[1] || (a[2]<b[2]?-1:1); });
-    return out.slice(0,4).map(function(x){ return x[2]; });
+    /* Per-card rotation (2026-10-01): the sorted candidate list is the same
+       for every same-region card, so slice(0,4) repeated the same four scenes
+       on every card. Rotate the 4-window by a hash of this card's own id so
+       each card shows a different but still related set. */
+    var start = 0;
+    if (out.length > 4){
+      var hh = 0;
+      for (var k = 0; k < id.length; k++){ hh = ((hh * 31) + id.charCodeAt(k)) >>> 0; }
+      hh ^= hh >>> 16; hh = Math.imul(hh, 0x7feb352d); hh ^= hh >>> 15;
+      hh = Math.imul(hh, 0x846ca68b); hh ^= hh >>> 16; hh >>>= 0;
+      start = hh % out.length;
+    }
+    var rel = [];
+    for (var j = 0; j < 4 && j < out.length; j++){ rel.push(out[(start + j) % out.length][2]); }
+    return rel;
   }
   function enhance(){
     if (typeof NL_META === 'undefined') return;
