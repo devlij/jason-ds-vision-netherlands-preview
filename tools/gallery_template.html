@@ -383,7 +383,7 @@
               <span class="status ${esc((s.approval_status || 'Candidate').toLowerCase())}">${esc(s.approval_status || 'Candidate')}</span>
             </div>
             <h3 class="caption">${esc(s.caption)}</h3>
-            <p class="scenario" data-scenario="${esc(s.scenario_label)}">Scenario: ${esc(s.scenario_label)}</p>
+            <p class="scenario" data-scenario="${esc(s.scenario_label)}" data-day-marking="${esc((s.daylight_variant && s.daylight_variant.on_image_marking) || '☀ Daylight variant · derived from the night interpretation')}">Scenario: ${esc(s.scenario_label)}</p>
             <p class="composition">${esc(s.composition)}</p>
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
@@ -424,7 +424,7 @@
           if (u) a.href = u;
         });
         const sc = dcard.querySelector('p.scenario');
-        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+        if (sc) sc.textContent = isDay ? (sc.getAttribute('data-day-marking') || '\u2600 Daylight variant \u00b7 derived from the night interpretation') : 'Scenario: ' + sc.getAttribute('data-scenario');
         return;
       }
       const tab = event.target.closest('.fmt-tab');
@@ -592,9 +592,13 @@
         }
         if(!src){var a=c.querySelector('a.thumb');src=a?a.href:'';}
         var capT=t?t.textContent:'';
-        if(daySrc)capT=capT+' \u2014 \u2600 Daylight variant';
         var altT=(im&&im.alt)?im.alt:capT;
-        if(daySrc)altT=altT+' \u2014 \u2600 Daylight variant';
+        if(daySrc){
+          var scEl=c.querySelector('p.scenario');
+          var dayMark=(scEl&&scEl.getAttribute('data-day-marking'))||'\u2600 Daylight variant \u00b7 derived from the night interpretation';
+          capT=capT+' \u2014 '+dayMark;
+          altT=altT+' \u2014 '+dayMark;
+        }
         return{src:src,cap:capT,alt:altT};
       }).filter(function(x){return x.src;});
       if(!items.length)return;
