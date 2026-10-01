@@ -20,5 +20,43 @@
   "sha256_9x16": "6fc62879c3471ab2364ba33583e15b3f8953a8c927aadfea0a0326f6e2e523ad",
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a5a39c375fb6da6fda1b50562ce96c3a6bed22a1e4fbd3ecbf8fc84f4f83896c. Source SHA-256 4:5 10d0aef3acf9135aafcd9227f3807c5b40278937c760de4fe8372a2254a0088c. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "approved_at": "2026-09-27T02:33:07Z",
-  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:56:02+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation."
+  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:56:02+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation.",
+  "file_16x9_day": "Netherlands/Kampen/nl-01-202-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Kampen/nl-01-202-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-202",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Kampen/nl-01-202-16x9.png",
+        "sha256": "9a7ec2801291a0769acb84b35d560d9c453e22a9ecdfaaac245fe19d41b6b048"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Kampen/nl-01-202-4x5.png",
+        "sha256": "b1082c2f9336d23e6319a5915f54fa829048b5e05d293a1791c2ffd6f92f3dc8"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Kampen/nl-01-202-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Kampen/nl-01-202-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "a388f1b439b17afd7995b34ade5fe507f57316c1b2485fbe4da6455a102c7b64",
+      "4x5": "3ddd5671a6dc99b7e58f91f080f6876b31bbe13af0a1b091bef680cd05f958b1"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: overcast daylight under the day's Open-Meteo Amsterdam conditions (2026-10-01, weather_code 3, cloud_cover 100%). Bake-time reading 2026-10-01T19:45 Europe/Amsterdam was after sunset (is_day 0, sunset 19:17, about 18.1°C, wind about 9.4 km/h, precipitation 0.0 mm). Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was past sunset at bake time (Open-Meteo Amsterdam 2026-10-01T19:45 Europe/Amsterdam, is_day 0, sunrise 07:41, sunset 19:17, overcast, weather_code 3, cloud cover 100%, about 18.1°C, wind about 9.4 km/h, precipitation 0.0 mm). Genuine daylight capture was not obtainable: the sun had already set, and this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files for the Veenpark, the Peperbus, the Deventer Waag, the Koornmarktspoort, the Aa-kerk, the Jacobuskerk, the Plompe Toren, the Sint-Lievensmonstertoren, the Kerkje aan de Zee, De Meerpaal, Gemaal De Blocq van Kuffeler, Museum de Fundatie, the Bovenkerk, and the Bolsward stadhuis are CC BY or CC BY-SA, which require credit, so they were not copied as genuine masters. Battery De Windt photographs dated 2025-10-25 and the Niehove churchyard views that were sampled are also CC BY-SA. CC0 or public-domain files that were found and not used, because they are not captures at the approved viewpoint during this daylight window: 20130711 plaggenhut Veenpark Bargercompascuum.jpg (CC0, 11 July 2013), Zwolle Peperbus Brand 1815.PNG (public domain, 1815 drawing), Abraham Beerstraten Brink met Waag (public domain, 1665 painting), Kerk Zeerijp3.jpg (public domain, 12 July 2006), Plope Toren Burgh-Haamstede-Nachts.jpg (CC0, 21 October 2016, a night photograph), Hell's gate op Saba, Bestanddeelnr 252-8291.jpg (CC0, 1947), Anloo Magnuskerk.jpg (public domain, 23 May 2008), Hunebed D18+D17 bij Rolde.jpg (public domain, 1995/1996), Sint-JozefkathedraalGroningen.jpg (public domain, 14 July 2006, 389×518), and Kerk Kampen.jpg (public domain, 10 April 2006).",
+    "on_image_caption": "Koornmarktspoort, Kampen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

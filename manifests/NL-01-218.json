@@ -21,5 +21,43 @@
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 bb958a63894d769ff03199bad3ae47ea00158f436fa81380e4b79b9e512596d5. Source SHA-256 4:5 9e8bd68888793b157fc684e5e09151da5a58c95b12c66356cec22bca710efda7. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-218 (Stadhuis, Bolsward): A scroll gable crowns the brick front; A double stone stair rises to the door; A small tower sits on the roof, complete, without scaffold. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:25+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
-  "approved_at": "2026-09-27T14:33:00.073027+00:00"
+  "approved_at": "2026-09-27T14:33:00.073027+00:00",
+  "file_16x9_day": "Netherlands/Bolsward/nl-01-218-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Bolsward/nl-01-218-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-218",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Bolsward/nl-01-218-16x9.png",
+        "sha256": "44f1f3a543318014d98cec63f0d4062c9ef3c0c665162d48be73daaafa4a9eb9"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Bolsward/nl-01-218-4x5.png",
+        "sha256": "2b3b080c44a3c78fb6c3710a76f860e509e01915676dcc8d05b6bdf9839a1cd9"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Bolsward/nl-01-218-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Bolsward/nl-01-218-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "b7848939363c4ca0256f9eacc8b50436fddaf3bd44403bc6e025c28b095e8610",
+      "4x5": "03ee11721cb6c87f54106d3799243eb3dee60ba00c2a11e27ac90da1b288b719"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: overcast daylight under the day's Open-Meteo Amsterdam conditions (2026-10-01, weather_code 3, cloud_cover 100%). Bake-time reading 2026-10-01T19:45 Europe/Amsterdam was after sunset (is_day 0, sunset 19:17, about 18.1°C, wind about 9.4 km/h, precipitation 0.0 mm). Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was past sunset at bake time (Open-Meteo Amsterdam 2026-10-01T19:45 Europe/Amsterdam, is_day 0, sunrise 07:41, sunset 19:17, overcast, weather_code 3, cloud cover 100%, about 18.1°C, wind about 9.4 km/h, precipitation 0.0 mm). Genuine daylight capture was not obtainable: the sun had already set, and this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files for the Veenpark, the Peperbus, the Deventer Waag, the Koornmarktspoort, the Aa-kerk, the Jacobuskerk, the Plompe Toren, the Sint-Lievensmonstertoren, the Kerkje aan de Zee, De Meerpaal, Gemaal De Blocq van Kuffeler, Museum de Fundatie, the Bovenkerk, and the Bolsward stadhuis are CC BY or CC BY-SA, which require credit, so they were not copied as genuine masters. Battery De Windt photographs dated 2025-10-25 and the Niehove churchyard views that were sampled are also CC BY-SA. CC0 or public-domain files that were found and not used, because they are not captures at the approved viewpoint during this daylight window: 20130711 plaggenhut Veenpark Bargercompascuum.jpg (CC0, 11 July 2013), Zwolle Peperbus Brand 1815.PNG (public domain, 1815 drawing), Abraham Beerstraten Brink met Waag (public domain, 1665 painting), Kerk Zeerijp3.jpg (public domain, 12 July 2006), Plope Toren Burgh-Haamstede-Nachts.jpg (CC0, 21 October 2016, a night photograph), Hell's gate op Saba, Bestanddeelnr 252-8291.jpg (CC0, 1947), Anloo Magnuskerk.jpg (public domain, 23 May 2008), Hunebed D18+D17 bij Rolde.jpg (public domain, 1995/1996), Sint-JozefkathedraalGroningen.jpg (public domain, 14 July 2006, 389×518), and Kerk Kampen.jpg (public domain, 10 April 2006).",
+    "on_image_caption": "Stadhuis, Bolsward",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
