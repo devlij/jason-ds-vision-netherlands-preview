@@ -24,5 +24,43 @@
   ],
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: tidal sluice set in the grass sea-dike — brick arch with closed wooden doors, wall-mounted lamp, dike slopes, small white sluice-keeper's house, Wadden mudflats and dark cloud beyond — exactly Noordpolderzijl harbour; no artifacts. Gate 2: exact dims; legible bar ('Harbour, Noordpolderzijl', scenario 03:37 Europe/Amsterdam, disclosure, exact signature/script); 03:37 inside 03:00; retrieval 2026-09-26T03:37:44+02:00, unique repo-wide; Art. 50 chunks + note, Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
-  "approved_at": "2026-09-29T10:42:49.402703+00:00"
+  "approved_at": "2026-09-29T10:42:49.402703+00:00",
+  "file_16x9_day": "Netherlands/Noordpolderzijl/nl-01-229-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Noordpolderzijl/nl-01-229-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-229",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Noordpolderzijl/nl-01-229-16x9.png",
+        "sha256": "a558c2929c47eb793caa70e105d2e0dbbc2d9a561e7ffe865f3eff045ffd1fa7"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Noordpolderzijl/nl-01-229-4x5.png",
+        "sha256": "a3ded3836dd684d29da40470c48f6a4a0cca8ba8d370ac149cbcb35481484b22"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Noordpolderzijl/nl-01-229-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Noordpolderzijl/nl-01-229-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "b026ad86c045cbc2914fc53ca0603c685a12aaccc254edae6e08f627afed7c05",
+      "4x5": "15511a518e757b51380c62f58d16fe0d11e2ace1ad85d7dd83a1214712917f3d"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: overcast daylight under the day's Open-Meteo Amsterdam conditions (2026-10-01, weather_code 3, cloud_cover 99%). Bake-time reading retrieved 2026-10-01T20:17:22+02:00 was after sunset (model current time 2026-10-01T20:15 Europe/Amsterdam, is_day 0, sunset 19:17, about 17.8°C, wind about 7.9 km/h, precipitation 0.0 mm). Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was past sunset at bake time (Open-Meteo Amsterdam retrieved 2026-10-01T20:17:22+02:00, model current time 2026-10-01T20:15 Europe/Amsterdam, is_day 0, sunrise 07:41, sunset 19:17, overcast, weather_code 3, cloud cover 99%, about 17.8°C, wind about 7.9 km/h, precipitation 0.0 mm). Genuine daylight capture was not obtainable: the sun had already set, and this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files that require credit were not copied as genuine masters: the 2026-08-03 Bornrif photograph and other Bornrif views (CC BY 4.0 or CC BY-SA 4.0); Bonnefantenmuseum views (CC BY-SA 4.0 and CC BY 4.0); Onze Lieve Vrouwetoren views (CC BY-SA); Koepelkerk views (CC BY-SA); the Rincon church photographs (CC BY-SA 4.0, CC BY 2.0, CC BY-SA 3.0); Waterloopbos photographs dated 2024-06-24 (CC BY-SA 4.0); Marker Wadden harbour panoramas dated 2024-09-18 (CC BY-SA 4.0); De Wachter photographs (CC BY-SA); Tweede Gesticht gate views (CC BY-SA 4.0); Noordpolderzijl harbour views (CC BY-SA 4.0 and CC BY 4.0); Borg Verhildersum photographs (CC BY-SA 4.0); Campveerse Toren views that are not CC0 (CC BY-SA and CC BY); Belfort Sluis views (CC BY-SA); Spanjaardsgat views (CC BY-SA 4.0 and CC BY 4.0); Kasteel Heeswijk photographs (CC BY-SA); Heksenwaag views (CC BY-SA); Bergkerk photographs that are not public domain (CC BY 4.0 and CC BY-SA 4.0); and the 2023 Sint Eustatius Waterfort ruin photographs (CC BY-SA 4.0). CC0 or public-domain files that were found and not used, because they are not captures at the approved viewpoint during this Europe/Amsterdam daylight window: Hollum Monumentaal woonhuis bij Bornrif vuurtoren, signatuur 61472.jpg (CC0, 17 November 1995, a house beside the tower); Vuurtoren Bornrif en duinen op Ameland, signatuur 25369.jpg (CC0, 22 September 1992); Vue van vuurtoren Bornrif en gebouwen in Hollum (public domain, 28 July 1903); Eijsden-Kasteel Eijsden (18).JPG and the rest of that 22 October 2010 and 22 November 2010 CC0 series; 2019 Campveerse Toren Veere (1).jpg (CC0, 14 April 2019); 20180622 Binnenplaats Tweede gesticht Veenhuizen.jpg (public domain, 22 June 2018, the inner courtyard, which this viewpoint excludes) and Tweede gesticht Veenhuizen.jpg (public domain, 14 August 2007); Bergkerk Deventer vanuit Bergstraat.jpg (public domain, 10 March 2007); Ladder Bay, Saba, with The Ladder and Old Customs House.jpg (CC0, 8 July 2019) and Gezicht op de kust van Saba, Bestanddeelnr 252-8280.jpg (CC0, 1947); Beckeringh - Borg Verhildersum, Leens.jpg (public domain, 1781 drawing); Heeswijk Castle 1610 343-001206.png (public domain drawing); Fort Amsterdam, 1660.jpg (public domain drawing). Public-domain hits for Marker Wadden were newspaper scans, not the harbour.",
+    "on_image_caption": "Harbour, Noordpolderzijl",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
