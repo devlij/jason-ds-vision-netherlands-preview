@@ -53,5 +53,40 @@
   },
   "sha256_9x16": "56d1d69e3721db74e924be2835de7bcb3fd613cc8f120096299a4d054c963df7",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2629d5a6ba292d8caa9fa766999c053f895e359f1a5b06e67dab9fd2e5d0009f. Source SHA-256 4:5 c7b802aa88fb6430610b729cfbb36492b9d726039c03b543a68d3de50fb26329. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2629d5a6ba292d8caa9fa766999c053f895e359f1a5b06e67dab9fd2e5d0009f. Source SHA-256 4:5 c7b802aa88fb6430610b729cfbb36492b9d726039c03b543a68d3de50fb26329. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_motion_10s_4x5": "Netherlands/Lisse/nl-01-005-motion-10s-4x5.mp4",
+  "file_motion_poster": "Netherlands/Lisse/nl-01-005-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_orders": [
+      "wo-netherlands-360-daylight-priority-2026-10-01",
+      "wo-grok-360-clips-2026-09-30"
+    ],
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "anchor": "Netherlands/Lisse/nl-01-005-daylight-16x9.png",
+    "label_bar_px_cropped": 190,
+    "weather_gate": "skipped: weather gate",
+    "weather": {
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-01T22:34:54+02:00",
+      "model_time": "2026-10-01T22:30",
+      "is_day": 0,
+      "cloud_cover": 9,
+      "weather_code": 0,
+      "temperature_2m": 15.0
+    },
+    "sweep": "synthetic 180 degree orbit (keyframes about 0/60/120/180); subject held; optical-flow blend can ghost between keyframes",
+    "metrics": {
+      "entry_id": "NL-01-005",
+      "start_vs_daylight_4x5_crop": 2.51,
+      "end_vs_180_key": 4.69,
+      "start_vs_end": 29.33,
+      "start_vs_mid": 19.33
+    },
+    "provenance": "Candidate 360 clip. Genuine capture skipped: weather gate (Open-Meteo current retrieval on 2026-10-01 was night, is_day 0, so not mostly-clear daylight). Shipped from the finished daylight 16:9 master after the 190px label bar was cropped. 10.0s 864x1080 24fps 4:5 synthetic orbit: daylight 4:5 crop at 0 degrees, generated views at about 60, 120, and 180 degrees, joined by optical-flow interpolation. First frame is that daylight crop. Not a field capture. Not a drift-only push-in. In-between frames are motion-compensated blends and can ghost. Not Cosmo-approved. The night master was not modified."
+  }
 }
