@@ -21,5 +21,43 @@
   "file_9x16": "Netherlands/Maastricht/nl-01-143-9x16.png",
   "sha256_9x16": "871e5b5d60d3d227896a67883c925559c12e5651d745101f07c94c9fb1f8b51a",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 3843c7d229662ca3d857188a31b018de6c25ae39123cddfe45ce401650d85714. Source SHA-256 4:5 821c65dbb4ee919767c14778b0fd81b6f12439996e6abbc54ad5d2e9326e5bb0. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 3843c7d229662ca3d857188a31b018de6c25ae39123cddfe45ce401650d85714. Source SHA-256 4:5 821c65dbb4ee919767c14778b0fd81b6f12439996e6abbc54ad5d2e9326e5bb0. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Maastricht/nl-01-143-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Maastricht/nl-01-143-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-143",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Maastricht/nl-01-143-16x9.png",
+        "sha256": "717093d6ac517bb6ea9204355a605de105da17152666276794abdb0debf9ef58"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Maastricht/nl-01-143-4x5.png",
+        "sha256": "6511ca3c40fbb9c2b73b7c475a7605d5b2f469428f9a785b38dd0edd97699133"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Maastricht/nl-01-143-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Maastricht/nl-01-143-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "c4cf8d4bd3af942cb1a8063cca26d69c32c581a9e322e75e14e24dfe05ee3955",
+      "4x5": "91d0a588d5d2cf6bd61a30c42bb45926360d5178d51e7a23b1e1ee9f25f7ef4d"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: Open-Meteo Amsterdam 2026-10-01T17:30 Europe/Amsterdam, is_day 1, weather_code 3, cloud_cover 100%, temperature about 19.5°C, sunset 19:17. Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was in daylight at bake time (Open-Meteo 2026-10-01T17:30 Europe/Amsterdam, is_day 1, sunset 19:17, overcast, weather_code 3, cloud cover 100%, about 19.5°C). Genuine capture was blocked: this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files for Huis Van Gijn, the Helpoort, the Magere Brug, the Maeslantkering, the Poldertoren, Forum Groningen, De Adriaan, and the Eusebiuskerk are CC BY or CC BY-SA, which require credit, so they were not copied as genuine masters. One CC0 file, Maastricht-Helpoort (2).jpg (5 August 2025, portrait), is not a capture at the approved field-side viewpoint during this daylight window, so it was not used.",
+    "on_image_caption": "Helpoort, Maastricht",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
