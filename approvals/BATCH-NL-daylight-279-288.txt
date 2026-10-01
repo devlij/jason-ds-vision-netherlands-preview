@@ -1,0 +1,130 @@
+BATCH NL daylight variants NL-01-279 through NL-01-288
+Date: 2026-10-01
+Work order: wo-netherlands-360-daylight-priority-2026-10-01
+Status: Candidate. Not Cosmo QC. Not Approved.
+Country: Netherlands
+Scenes: 10. Variant masters: 20 (16x9 1920x1270 and 4x5 864x1270).
+Provenance: interim-ai. Genuine daylight stills: 0.
+Night masters: byte-unchanged. SHA-256 of the files recorded before any write and again after.
+Manifest sha256 fields for the night masters were not rewritten. On-disk night hashes match the stored manifest hashes for every 16:9, 4:5, and 9:16 file in this pack.
+On-image text, exact, on every variant: caption identical to the night master;
+signature Jason D’s Vision (curly apostrophe U+2019); name Jason A. Devlin (Allura);
+disclosure AI-generated artistic interpretation · Not a photograph.;
+middle line ☀ Interim AI daylight · not a genuine photograph
+No weather claim. No scenario timestamp on the variant.
+The 190px #0e0e12 label bar sits under the photo. No text or tint over the artwork.
+The 4:5 frame is a center crop of the 16:9 daylight pre-text.
+
+Amsterdam was past sunset at bake time (Open-Meteo Amsterdam retrieved 2026-10-01T22:07:30+02:00, model current time 2026-10-01T22:00 Europe/Amsterdam, is_day 0, sunrise 07:41, sunset 19:17, partly cloudy, weather_code 2, cloud cover 65%, about 17.6°C, wind about 7.6 km/h, precipitation 0.0 mm). Genuine daylight capture was not obtainable: the sun had already set, and this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files that require credit were not copied as genuine masters: Bonaire obelisk photographs that are not CC0 (CC BY-SA 3.0, 1964; CC BY-SA 4.0, 1966 and 1971), including frames of the red pan and of slave huts, which are other scenes; Honen Dalim photographs that are not CC0 (CC BY-SA 4.0, 1966, 2014, and 2023; CC BY-SA 3.0, 2012); Sint Odiliënberg church photographs that are not public domain (CC BY-SA 4.0, including 1894 views); Drogenapstoren photographs that are not CC0 (CC BY-SA 4.0, 1888, 2016, and 2021; CC BY-SA 3.0, 2008 and 2011); Gevangenpoort photographs that are not CC0 (CC BY-SA 4.0, 2015 and 2020; CC BY 4.0, 2019); Stadhuis Zierikzee photographs (CC BY-SA 4.0 and CC BY-SA 3.0, 2008); Gemaal Wortman photographs that are not CC0 (CC BY-SA 3.0, 2005 and 2011); Stadhuis Sneek photographs that are not public domain (CC BY-SA 4.0, 1960, 1972, and 2000; CC BY-SA 3.0, 2011); Goudkantoor photographs (CC BY-SA 3.0 nl, 2004; CC BY-SA 3.0; CC BY-SA 4.0, 2010 and 2022); and Sint-Pancratiuskerk photographs that are not public domain (CC BY-SA 4.0, 1938, 1955, and 1971; CC BY 3.0, 2009). CC0 or public-domain files that were found and not used, because they are not captures at the approved viewpoint during this Europe/Amsterdam daylight window: Bonaire. Obelisk met op de achtergrond voormalige slavenhutjes (CC0, 1941/1944, slave huts in frame, another scene) and Island of Bonaire. An Obelisk in Witte Pan (CC0, 1940–1945, the white pan, not the blue obelisk); De ruïne van de Honin Dalim synagoge (CC0, 1947) and St. Eustatius. De ruïne van de oude Joodse synagoge (CC0, 1940–1945); 12e-eeuws reliëf van St-Jacobus (CC0, 2015, a museum relief, not the basilica), Kerk van St. Odiliënberg.jpg (public domain, 1940, before the 1949–1951 tower reconstruction the scene shows), and Reproductie van een tekening met het koor (CC0, 1880–1920, a drawing); 20160917 Drogenapsteeg Drogenapstoren Zutphen.jpg (CC0, 17 September 2016); Woudrichem Gevangenpoort 1.JPG, 2.JPG, and 3.JPG (CC0, 27 April 2015); Bouw gemaal en sluis Lelystad (CC0, 25 April 1955, the station under construction, not the finished hall); Townhall in Sneek.JPG (public domain, date not stated); Cook in her pantry, Kitchen piece - Zierikzee.jpg (public-domain painting inside the town hall, not the Meelstraat view); Sint-Pancratiuskerk Diever.jpg (public domain, 6 May 2008). No CC0 or public-domain file of the approved Meelstraat view of the Stadhuis at Zierikzee, or of the Waagplein view of the Goudkantoor, turned up in the sample.
+
+NL-01-279  Blue obelisk, Bonaire
+  provenance     interim-ai
+  genuine        no
+  night 16x9     53aa983fe1e651d7c80a1a5ac59416b9539f077fb440e736e7f3224ded4f702f  IDENTICAL
+  night 4x5      36543ac7cc8f709df184fbf52a4c64021ec2cb6e576119f798507d7dd0970cea  IDENTICAL
+  night 9x16     933b6b6537866ba42a26179f1d0ce325cf0c606ca928475578a03f9388e870ee  IDENTICAL
+  variant 16x9   e7d1afdc801c40c359504e0194b8d879559439fd765b0ebe1631318cdef921d2
+  variant 4x5    d2c990b603e2cad84b43711539770ceb66ed5f7a6c0a5a72bf224f9f3efadc9f
+  files          Netherlands/Bonaire/nl-01-279-daylight-16x9.png
+                 Netherlands/Bonaire/nl-01-279-daylight-4x5.png
+
+NL-01-280  Honen Dalim, Oranjestad
+  provenance     interim-ai
+  genuine        no
+  night 16x9     ec2e2e698d00c6717effda28abb8972e551a36d05f8d8fce6fae8626def7560b  IDENTICAL
+  night 4x5      d7b21b17e35202c3c6b03909eb10f060925770a9bee0db5de8467e9d0ab5e9f3  IDENTICAL
+  night 9x16     556dd7eefc6a6c00abdd6bba50c33f8c76f6a06c24b9246e15aaa65d96c5063a  IDENTICAL
+  variant 16x9   c12f44b0abf0fa3afd3eff512fa385047e10a1328a6599a039469629f494ef3f
+  variant 4x5    a860016b41d36a8e0c38b620fb0edbe3a8e4419b5377242ef64ae7f9c4f07fc9
+  files          Netherlands/Oranjestad/nl-01-280-daylight-16x9.png
+                 Netherlands/Oranjestad/nl-01-280-daylight-4x5.png
+
+NL-01-281  Basiliek, Sint Odiliënberg
+  provenance     interim-ai
+  genuine        no
+  night 16x9     7737f11239cd29c50561f5f29dea061af907262b8f65c21cf72bfc9ee66b4d02  IDENTICAL
+  night 4x5      2c1796c572bf545d63a91786ec05d4681f9be359dce7585e33ced2522460dd79  IDENTICAL
+  night 9x16     dd1ad715f28b2486dc0ef7ed63a24b5b8edea43c32702db54a3075c7644f3702  IDENTICAL
+  variant 16x9   a52a92a4a0536cdaa76b8ffac97d527057cb370d27d57318665c8fddd007e56b
+  variant 4x5    e2c77084edda38184bb2403794200de19625ee6b63261401650b72d20c3d0b2c
+  files          Netherlands/Sint Odiliënberg/nl-01-281-daylight-16x9.png
+                 Netherlands/Sint Odiliënberg/nl-01-281-daylight-4x5.png
+
+NL-01-282  Drogenapstoren, Zutphen
+  provenance     interim-ai
+  genuine        no
+  night 16x9     fdf609f701aeed9dd38997e48cc8cd557510a7a7dc0e09f0c31e2f1ec69b8ccf  IDENTICAL
+  night 4x5      40a5c8051de0f14c95334e7267d8d36c906bd73ce456a5cef88c35905e680624  IDENTICAL
+  night 9x16     b6275b971f19dc098888b0b960a4e9c797a745fd241565cdc224b44eb3b1e6d2  IDENTICAL
+  variant 16x9   7137adcbe0011c4af5841901d1c8cc7b6579c859691ce6bf912799a43798ae38
+  variant 4x5    ef5be61b9774a5135f084b70505f30a9b50f35efdeb726b09f0f42322227bafa
+  files          Netherlands/Zutphen/nl-01-282-daylight-16x9.png
+                 Netherlands/Zutphen/nl-01-282-daylight-4x5.png
+
+NL-01-283  Gevangenpoort, Woudrichem
+  provenance     interim-ai
+  genuine        no
+  night 16x9     613352fd4628a7f67ffc11c8b885d2d56b1dd340fb374c101667015c6e45f689  IDENTICAL
+  night 4x5      cf4ae219456115469094280d869ba5795331057d10d8f9d328360fe0da80110b  IDENTICAL
+  night 9x16     5d901391e3f2fd31b25d9b6d7d7be9e28069548bdea6b6a8c5eebfc9edf10ead  IDENTICAL
+  variant 16x9   1f8da498399fc6ac2a13e172eb1fe8a47929440ab1eec3b6613e8da81b7047a1
+  variant 4x5    72c07fb2e69b556022ea11e5feb63bffa7a578dd802a871ccee7d0f120b81c79
+  files          Netherlands/Woudrichem/nl-01-283-daylight-16x9.png
+                 Netherlands/Woudrichem/nl-01-283-daylight-4x5.png
+
+NL-01-284  Stadhuis, Zierikzee
+  provenance     interim-ai
+  genuine        no
+  night 16x9     540bc48715008f7e9b6f92dd72a5799e482f50198d4a8ac686b0af4d1eeeb868  IDENTICAL
+  night 4x5      bce2790cc7b9b3ef5a675c5f16d286eedf49426d7edb9e17e65931285cd65cfb  IDENTICAL
+  night 9x16     dbd49310ce6dbbd2bf51c9cf9a5cda65590727de608e6c1127637dd6a8cf64b1  IDENTICAL
+  variant 16x9   a6e84b934a8d9db9d469f324ad3df017e86d632dbd2e08417e8c35091710cf4b
+  variant 4x5    70abad605785369c17530014eee3fb7d4ee9af8ac5844fd5d03c0b3b7f116091
+  files          Netherlands/Zierikzee/nl-01-284-daylight-16x9.png
+                 Netherlands/Zierikzee/nl-01-284-daylight-4x5.png
+
+NL-01-285  Gemaal Wortman, Lelystad
+  provenance     interim-ai
+  genuine        no
+  night 16x9     d30ca62d9d2bd2ca369a0c7646d10b332c6626720346475786b51f8e5bbe8f1b  IDENTICAL
+  night 4x5      868dd037631add9f5f75e41ee53b8136af9a1fcc157ed3d1986adaa1f71ca771  IDENTICAL
+  night 9x16     d0b1041a6ca1b660b09ae918f2ad8adb74521db95b7e9a5bb2d61ab3e6c831b3  IDENTICAL
+  variant 16x9   099e1ed8733aea8e18a7a51887105f316a8985990e2310a27ea22c6294040d09
+  variant 4x5    d22e3c484ed3c513e1ece01b6544c684eb6d88240c9bfb15f6585af169300efa
+  files          Netherlands/Lelystad/nl-01-285-daylight-16x9.png
+                 Netherlands/Lelystad/nl-01-285-daylight-4x5.png
+
+NL-01-286  Stadhuis, Sneek
+  provenance     interim-ai
+  genuine        no
+  night 16x9     938dee5edb964d6e66b4499a3af7c44bd0e29f7e7cb9f9f01805b4b031b6e6e4  IDENTICAL
+  night 4x5      49ced1332434d831cea7540c7edd49fc16c3d37c836d043477eae5d6431372c8  IDENTICAL
+  night 9x16     2e33ff4146a91b35fd3ed7e93a0441b2400fd402b12f5b0be8af2cf6cecbcc0d  IDENTICAL
+  variant 16x9   ad3cc379670c207e4d15c6d77e9ec971c7733a82b03ec7a72eeb31c3935df89b
+  variant 4x5    ef9b8013f9ee673abb017b65fe4276efa0f51cd8f9e68640ab4f9256f57baf05
+  files          Netherlands/Sneek/nl-01-286-daylight-16x9.png
+                 Netherlands/Sneek/nl-01-286-daylight-4x5.png
+
+NL-01-287  Goudkantoor, Groningen
+  provenance     interim-ai
+  genuine        no
+  night 16x9     1c2de60424f311d68aa2c879846d62a317db0f86e8ad70addd5cc8bb0418af65  IDENTICAL
+  night 4x5      c80eec35978fa23d62f387302722f769ebd98748f30e864a2e1a75927bb5a7dd  IDENTICAL
+  night 9x16     14bf6878e10620328bdb3c7cabb1b49e487a6b8ab65f9a9aa7625e8884b0f835  IDENTICAL
+  variant 16x9   243e96c27376a4f890a2e8536db1c1f86c4f2f0c5bca957a4209f3fbd177357e
+  variant 4x5    e2120ba66ad88dab6f14aaa59f3f4cb04c78430b73068bc11d33c7ef1959d60b
+  files          Netherlands/Groningen/nl-01-287-daylight-16x9.png
+                 Netherlands/Groningen/nl-01-287-daylight-4x5.png
+
+NL-01-288  Sint-Pancratiuskerk, Diever
+  provenance     interim-ai
+  genuine        no
+  night 16x9     297749cf2815342577f2ba3ab0b1c0ca497c2ccfc2fe24c52e34e1bf1fbc9551  IDENTICAL
+  night 4x5      0ea93583b53fc0a054c05975223416457e19ff0f9a531cb0656449cc2a7fd325  IDENTICAL
+  night 9x16     f8788ec353c8492cd5b33b23bb4c7a7024e7bf12ae9248b47c671e566e67eed3  IDENTICAL
+  variant 16x9   088db8ad6cb52a5381f1f6d2c63c602f607f85308d41768ac7593cf634c0450a
+  variant 4x5    2bf0c16d421ae224cc9c8e1c71acbbb8a384e1d60fb2ce09e5882416a68f0da5
+  files          Netherlands/Diever/nl-01-288-daylight-16x9.png
+                 Netherlands/Diever/nl-01-288-daylight-4x5.png
+
+Confirmation: all 20 night masters (10 scenes x 16x9 and 4x5) are byte-unchanged, and the 10 night 9:16 files are byte-unchanged. Pre-work and post-work SHA-256 match for every night file.
