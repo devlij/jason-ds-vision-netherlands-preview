@@ -21,5 +21,43 @@
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b8f9b6a1402fecdbdf8701bd4ca9c2781d367ec42100204085ba95e3223878f4. Source SHA-256 4:5 bb81f804df4dd3e5d24120b48e7ca6334d9a1effd9676835442182fc79f72e1b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "approved",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. G1: floodlit brick city-gate tower with tall spire, crenellated parapet, corner turrets, adjacent ruined wall fragment, street lamp right; Drogenapstoren is Zutphen's real brick gate tower; plausible, clean framing, no artifacts. G2: exact dims; label bar exact (\"Drogenapstoren, Zutphen\"/scenario/disclosure/signature); Art. 50 chunks present; Open-Meteo retrieval 2026-09-26T04:37:55+02:00, scenario minute inside 04:00 valid hour, unique repo-wide. G3: text-prompt-only lineage claimed. G4: no people/logos visible. G5: card fields complete.",
-  "approved_at": "2026-09-29T19:05:00-04:00"
+  "approved_at": "2026-09-29T19:05:00-04:00",
+  "file_16x9_day": "Netherlands/Zutphen/nl-01-282-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Zutphen/nl-01-282-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-282",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Zutphen/nl-01-282-16x9.png",
+        "sha256": "fdf609f701aeed9dd38997e48cc8cd557510a7a7dc0e09f0c31e2f1ec69b8ccf"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Zutphen/nl-01-282-4x5.png",
+        "sha256": "40a5c8051de0f14c95334e7267d8d36c906bd73ce456a5cef88c35905e680624"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Zutphen/nl-01-282-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zutphen/nl-01-282-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "7137adcbe0011c4af5841901d1c8cc7b6579c859691ce6bf912799a43798ae38",
+      "4x5": "ef5be61b9774a5135f084b70505f30a9b50f35efdeb726b09f0f42322227bafa"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: partly cloudy daylight under the day's Open-Meteo Amsterdam conditions (2026-10-01, weather_code 2, cloud_cover 65%). Bake-time reading retrieved 2026-10-01T22:07:30+02:00 was after sunset (model current time 2026-10-01T22:00 Europe/Amsterdam, is_day 0, sunset 19:17, about 17.6°C, wind about 7.6 km/h, precipitation 0.0 mm). Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was past sunset at bake time (Open-Meteo Amsterdam retrieved 2026-10-01T22:07:30+02:00, model current time 2026-10-01T22:00 Europe/Amsterdam, is_day 0, sunrise 07:41, sunset 19:17, partly cloudy, weather_code 2, cloud cover 65%, about 17.6°C, wind about 7.6 km/h, precipitation 0.0 mm). Genuine daylight capture was not obtainable: the sun had already set, and this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files that require credit were not copied as genuine masters: Bonaire obelisk photographs that are not CC0 (CC BY-SA 3.0, 1964; CC BY-SA 4.0, 1966 and 1971), including frames of the red pan and of slave huts, which are other scenes; Honen Dalim photographs that are not CC0 (CC BY-SA 4.0, 1966, 2014, and 2023; CC BY-SA 3.0, 2012); Sint Odiliënberg church photographs that are not public domain (CC BY-SA 4.0, including 1894 views); Drogenapstoren photographs that are not CC0 (CC BY-SA 4.0, 1888, 2016, and 2021; CC BY-SA 3.0, 2008 and 2011); Gevangenpoort photographs that are not CC0 (CC BY-SA 4.0, 2015 and 2020; CC BY 4.0, 2019); Stadhuis Zierikzee photographs (CC BY-SA 4.0 and CC BY-SA 3.0, 2008); Gemaal Wortman photographs that are not CC0 (CC BY-SA 3.0, 2005 and 2011); Stadhuis Sneek photographs that are not public domain (CC BY-SA 4.0, 1960, 1972, and 2000; CC BY-SA 3.0, 2011); Goudkantoor photographs (CC BY-SA 3.0 nl, 2004; CC BY-SA 3.0; CC BY-SA 4.0, 2010 and 2022); and Sint-Pancratiuskerk photographs that are not public domain (CC BY-SA 4.0, 1938, 1955, and 1971; CC BY 3.0, 2009). CC0 or public-domain files that were found and not used, because they are not captures at the approved viewpoint during this Europe/Amsterdam daylight window: Bonaire. Obelisk met op de achtergrond voormalige slavenhutjes (CC0, 1941/1944, slave huts in frame, another scene) and Island of Bonaire. An Obelisk in Witte Pan (CC0, 1940–1945, the white pan, not the blue obelisk); De ruïne van de Honin Dalim synagoge (CC0, 1947) and St. Eustatius. De ruïne van de oude Joodse synagoge (CC0, 1940–1945); 12e-eeuws reliëf van St-Jacobus (CC0, 2015, a museum relief, not the basilica), Kerk van St. Odiliënberg.jpg (public domain, 1940, before the 1949–1951 tower reconstruction the scene shows), and Reproductie van een tekening met het koor (CC0, 1880–1920, a drawing); 20160917 Drogenapsteeg Drogenapstoren Zutphen.jpg (CC0, 17 September 2016); Woudrichem Gevangenpoort 1.JPG, 2.JPG, and 3.JPG (CC0, 27 April 2015); Bouw gemaal en sluis Lelystad (CC0, 25 April 1955, the station under construction, not the finished hall); Townhall in Sneek.JPG (public domain, date not stated); Cook in her pantry, Kitchen piece - Zierikzee.jpg (public-domain painting inside the town hall, not the Meelstraat view); Sint-Pancratiuskerk Diever.jpg (public domain, 6 May 2008). No CC0 or public-domain file of the approved Meelstraat view of the Stadhuis at Zierikzee, or of the Waagplein view of the Goudkantoor, turned up in the sample.",
+    "on_image_caption": "Drogenapstoren, Zutphen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
