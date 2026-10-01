@@ -383,7 +383,7 @@
               <span class="status ${esc((s.approval_status || 'Candidate').toLowerCase())}">${esc(s.approval_status || 'Candidate')}</span>
             </div>
             <h3 class="caption">${esc(s.caption)}</h3>
-            <p class="scenario" data-scenario="${esc(s.scenario_label)}">Scenario: ${esc(s.scenario_label)}</p>
+            <p class="scenario" data-scenario="${esc(s.scenario_label)}"${s.daylight_variant && s.daylight_variant.on_image_marking ? ` data-day-marking="${esc(s.daylight_variant.on_image_marking)}"` : ""}>Scenario: ${esc(s.scenario_label)}</p>
             <p class="composition">${esc(s.composition)}</p>
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
@@ -424,7 +424,10 @@
           if (u) a.href = u;
         });
         const sc = dcard.querySelector('p.scenario');
-        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+        if (sc) {
+          const mark = sc.getAttribute('data-day-marking') || '\u2600 Daylight variant \u00b7 derived from the night interpretation';
+          sc.textContent = isDay ? mark : 'Scenario: ' + sc.getAttribute('data-scenario');
+        }
         return;
       }
       const tab = event.target.closest('.fmt-tab');
