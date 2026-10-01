@@ -21,5 +21,43 @@
   "file_9x16": "Netherlands/Zwolle/nl-01-070-9x16.png",
   "sha256_9x16": "e3919ae2cf26398e7f0fc52df8ae758b893e80fd96479a1477a84470674d723b",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 80b1c15fcea6337f424100f0e890e76ce6e9258283d8b061100a95b410d1883f. Source SHA-256 4:5 0fdf70eca1ff36d179fcceceadb954d89fa79e77851a4f18a1b35374a3d45129. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 80b1c15fcea6337f424100f0e890e76ce6e9258283d8b061100a95b410d1883f. Source SHA-256 4:5 0fdf70eca1ff36d179fcceceadb954d89fa79e77851a4f18a1b35374a3d45129. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Zwolle/nl-01-070-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Zwolle/nl-01-070-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-070",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Zwolle/nl-01-070-16x9.png",
+        "sha256": "445074333ccc90e3de4d07bf09185e07e7f359dda41ac4281adc98fe4eecdb9f"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Zwolle/nl-01-070-4x5.png",
+        "sha256": "995a4e98153511715d413889e43f003bf9f90801a32bd8621b41558324d5ff50"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Zwolle/nl-01-070-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zwolle/nl-01-070-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "603a84600c23fb60cca9ee414b411bad100d1165b5e647885edc75e0a07923d4",
+      "4x5": "34f6f14b9e95dff3852763f93683b92332e3ba71c414aeb9f260b84f97913807"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: Open-Meteo Amsterdam 2026-10-01T16:00 Europe/Amsterdam, is_day 1, weather_code 0, cloud_cover 9%, temperature about 20.1°C, sunset 19:17. Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was in daylight at bake time (Open-Meteo 2026-10-01T16:00 Europe/Amsterdam, is_day 1, sunset 19:17, clear, weather_code 0, cloud cover 9%, about 20.1°C). Genuine capture was blocked: this run has no camera at the approved viewpoint, and live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied.",
+    "on_image_caption": "Sassenpoort, Zwolle",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

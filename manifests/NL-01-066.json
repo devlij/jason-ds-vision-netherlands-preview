@@ -21,5 +21,43 @@
   "file_9x16": "Netherlands/The Bottom/nl-01-066-9x16.png",
   "sha256_9x16": "10f44bbeaf7643ca126640e7c061f8df163ed1381bec392e566eaddc99dbc97f",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d68c25d2b1212771ac12e7f7ba3d55cc6681f075f8cbe92676cd3e75ecf5514f. Source SHA-256 4:5 653c8a51a5ea2406127925772e37cdfbe05d9bd11ffd144ddff29b1fa16609ce. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d68c25d2b1212771ac12e7f7ba3d55cc6681f075f8cbe92676cd3e75ecf5514f. Source SHA-256 4:5 653c8a51a5ea2406127925772e37cdfbe05d9bd11ffd144ddff29b1fa16609ce. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/The Bottom/nl-01-066-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/The Bottom/nl-01-066-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-066",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/The Bottom/nl-01-066-16x9.png",
+        "sha256": "920727850573a105b2b90e8969ac88923b882a38bc534d18411d8605bbb1cc49"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/The Bottom/nl-01-066-4x5.png",
+        "sha256": "2a75ef640dc4d0954f52d97cba264b106fb16d34c9f61ac5b9899ba34be54296"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/The Bottom/nl-01-066-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/The Bottom/nl-01-066-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "f9bbd17bce387ce23574494223029e62f7798ddff4f83fed5e66136ce6a8db2c",
+      "4x5": "630dba37dc8b498496d7970433f1fd7c01407c32237245648daf7e8a8b0dc358"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: Open-Meteo Amsterdam 2026-10-01T16:00 Europe/Amsterdam, is_day 1, weather_code 0, cloud_cover 9%, temperature about 20.1°C, sunset 19:17. Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was in daylight at bake time (Open-Meteo 2026-10-01T16:00 Europe/Amsterdam, is_day 1, sunset 19:17, clear, weather_code 0, cloud cover 9%, about 20.1°C). Genuine capture was blocked: this run has no camera at the approved viewpoint, and live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied.",
+    "on_image_caption": "The Bottom, The Bottom",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion. NL-01-065 and NL-01-066 use America/Kralendijk (Sint Eustatius and Saba). The Open-Meteo reading is the Amsterdam bake-time daylight check, not a local observation for those islands."
+  }
 }
