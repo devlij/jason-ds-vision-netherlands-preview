@@ -32,5 +32,43 @@
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: 16:9 shows the floodlit brick west tower with its slender dark spire crowned by a cross, rising over the Gothic nave with steep gables, cobbled market square with lamp posts and brick row houses under an overcast night sky; 4:5 agrees on the identical spired crown - the earlier inter-format crown discrepancy is resolved in the 20:49 UTC re-render. Gate 2: on-image label bar exact - 'Sint-Petrusbasiliek, Oirschot', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', 'AI-generated artistic interpretation · Not a photograph.', 'Jason D's Vision' + 'Jason A. Devlin' script; Open-Meteo retrieval 2026-09-26T03:59:55+02:00, unique to the second across all Netherlands scenes, scenario minute 03:59 inside model-valid hour 03:00-03:59; PNG Title/Description/Copyright/Software/Comment present with EU AI Act Art. 50 note. Gate 3: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos, no credit required - documented only, no chain certified. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:41:01.886168+00:00",
   "sha256_16x9": "2689362e3072017daedce66508a2a49085548b674cc2b2f9d1f539df27328624",
-  "sha256_4x5": "b3a67946f79bd5f826d17a06410da0b91b8b55e575e4259e700038878fa75f83"
+  "sha256_4x5": "b3a67946f79bd5f826d17a06410da0b91b8b55e575e4259e700038878fa75f83",
+  "file_16x9_day": "Netherlands/Oirschot/nl-01-256-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Oirschot/nl-01-256-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-256",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Oirschot/nl-01-256-16x9.png",
+        "sha256": "2689362e3072017daedce66508a2a49085548b674cc2b2f9d1f539df27328624"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Oirschot/nl-01-256-4x5.png",
+        "sha256": "b3a67946f79bd5f826d17a06410da0b91b8b55e575e4259e700038878fa75f83"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Oirschot/nl-01-256-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Oirschot/nl-01-256-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "4ce0379a12edadc2a5f559a721bb16de3e7bf148fec0c0a40c2f74db23496259",
+      "4x5": "d299489e820ee48f4cf31c47488fddf753f1060358893de05f58b20b4df6373c"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: mainly clear daylight under the day's Open-Meteo Amsterdam conditions (2026-10-01, weather_code 1, cloud_cover 28%). Bake-time reading retrieved 2026-10-01T20:51:29+02:00 was after sunset (model current time 2026-10-01T20:45 Europe/Amsterdam, is_day 0, sunset 19:17, about 17.9°C, wind about 7.2 km/h, precipitation 0.0 mm). Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was past sunset at bake time (Open-Meteo Amsterdam retrieved 2026-10-01T20:51:29+02:00, model current time 2026-10-01T20:45 Europe/Amsterdam, is_day 0, sunrise 07:41, sunset 19:17, mainly clear, weather_code 1, cloud cover 28%, about 17.9°C, wind about 7.2 km/h, precipitation 0.0 mm). Genuine daylight capture was not obtainable: the sun had already set, and this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files that require credit were not copied as genuine masters: Makkum sluis photographs (CC BY-SA 3.0, CC BY-SA 4.0, and CC BY 3.0); Onze-Lieve-Vrouwebasiliek views (CC BY-SA 4.0, CC BY-SA 3.0 nl, CC BY-SA 3.0, and CC BY 2.0); Gemeenteweg Staphorst photographs (CC BY-SA 3.0 and CC BY-SA 4.0); Kasteel Rechteren photographs that are not CC0 (CC BY-SA 3.0 and CC BY-SA 3.0 nl); Sint-Clemenskerk photographs that are not public domain (CC BY-SA 3.0, CC BY-SA 3.0 nl, and CC BY 4.0); Slot Zuylen photographs that are not CC0 (CC BY-SA 3.0); Kasteel Loenersloot photographs that are not public domain (CC BY-SA 4.0 and CC BY-SA 3.0 nl); Fort Honswijk photographs (CC BY-SA 4.0); Oostvaardersplassen photographs (CC BY-SA 4.0); Zeewolde harbour photograph Zeewolde-haven.jpg (CC BY 4.0); Bronkhorst chapel photographs (CC BY-SA 4.0); Kasteel Ammersoyen photographs (CC BY-SA 3.0 and CC BY-SA 4.0); Sint-Nicolaaskerk photographs that are not public domain (CC BY-SA 4.0); Boog van Ziel photographs (CC BY-SA 4.0); Schierstins photographs that are not public domain (CC BY-SA 3.0, CC BY-SA 4.0, and CC BY-SA 3.0 nl); Watersnoodmuseum photographs that are not public domain (CC BY 4.0 and CC BY-SA 3.0); Kasteel Arcen photographs (CC BY-SA 3.0, CC BY-SA 2.5, and CC BY-SA 4.0); Sint-Petrusbasiliek photographs that are not CC0 (CC BY-SA 4.0, CC BY 4.0, and CC BY-SA 3.0); 1000 Steps photographs that are not public domain (CC BY 2.0); and the Sint Eustatius Reformed Church photographs (CC BY-SA 4.0). CC0 or public-domain files that were found and not used, because they are not captures at the approved viewpoint during this Europe/Amsterdam daylight window: 20130930 Kasteel Rechteren3a.jpg (CC0, 30 September 2013) and 20130930 Vazen entree kasteel Rechteren.jpg (CC0, 30 September 2013, the entrance vases); Rechteren 1729.png (public domain, 1729 drawing); Clemenskerk Kerkstraat 22 Steenwijk.jpg (public domain, 10 May 2010), Molenstraat 23 Steenwijk.jpg (public domain, 10 May 2010, a street rather than the church tower), and Steenwijk Clemensparochie.JPG (public domain, 2010); J. Grau - Front view of the renovated Slot Zuylen (Zuylen Castle), 1753.jpg (public domain drawing, circa 1753) and Slot Zuylen 5.JPG (CC0, 18 April 2016); Kasteel loenersloot.jpg (public domain, 2006); Zeewolde, Open Haventoren.jpg (public domain, 30 October 2009, the Open Haven church tower, not the harbour); Dwingeloo St. Nicolaaskerk 20050729.jpg and Dwingeloo St. Nicolaaskerk 20051113.jpg (public domain, 2005) and Sint Nicolaaskerk Dwingeloo.jpg (public domain, 6 May 2008); Schierstins Veenwouden.jpg (public domain, 13 September 2010); Ouwerkerk Watersnoodmuseum Omgeving.JPG (public domain, 3 September 2005); Exterieur van de Sint-Petrusbasiliek te Oirschot, RP-F-00-2636.jpg (CC0, about 1887–1900); Bonaire 1000 steps.jpg (public domain, 4 June 2006) and Bonaire 1000 steps (cropped).jpg (public domain, 9 June 2018).",
+    "on_image_caption": "Sint-Petrusbasiliek, Oirschot",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
