@@ -21,5 +21,43 @@
   "file_9x16": "Netherlands/Groningen/nl-01-164-9x16.png",
   "sha256_9x16": "8a36542ab364582946161cdfd99d428eae9223b9436bb27054142551123b2986",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6857249c7bb15de98c09ab338c3ee4624f30c9a5c17fb26e45b29fa1ae78aba9. Source SHA-256 4:5 0a7f086e27a7fe10b861fb9f195a0edc2a7cc8f5fa37d952483fb2fde4dca5a2. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6857249c7bb15de98c09ab338c3ee4624f30c9a5c17fb26e45b29fa1ae78aba9. Source SHA-256 4:5 0a7f086e27a7fe10b861fb9f195a0edc2a7cc8f5fa37d952483fb2fde4dca5a2. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Groningen/nl-01-164-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Groningen/nl-01-164-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-164",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Groningen/nl-01-164-16x9.png",
+        "sha256": "b804e8b1e37b49285f22b98d110c3c6f1ab371a8ffd764d9fa481a1d74d86595"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Groningen/nl-01-164-4x5.png",
+        "sha256": "3222fc434c4cddf28c0ca794f708fdb9b051c552391df4edb6effa6331bbc0d3"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Groningen/nl-01-164-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Groningen/nl-01-164-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "c7323cafe255982b17dee32b7f8fb891bb1fd73c9b1006cf11ac1b37a9dd79dd",
+      "4x5": "dbfd9aca9833cf44331559060a2d93bb2e0d0eb2a072187dc31341e323dc5f27"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: Open-Meteo Amsterdam 2026-10-01T18:15 Europe/Amsterdam, is_day 1, weather_code 3, cloud_cover 100%, temperature about 19.1°C, wind about 14.0 km/h, precipitation 0.0 mm, sunset 19:17. Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was in daylight at bake time (Open-Meteo Amsterdam 2026-10-01T18:15 Europe/Amsterdam, is_day 1, sunrise 07:41, sunset 19:17, overcast, weather_code 3, cloud cover 100%, about 19.1°C, wind about 14.0 km/h, precipitation 0.0 mm). Genuine capture was blocked: this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files for the Sint Servaasbrug, the Oudenbosch basilica, the Waterpoort, Menkemaborg, the Groninger Museum, the Laurenskerk, Delfshaven, the Stadhuis in Middelburg, Slot Haamstede, the Egmond aan Zee lighthouse, the Willemstoren, Museum Nagele, and the Almere Stadhuis are CC BY or CC BY-SA, which require credit, so they were not copied as genuine masters. CC0 or public-domain files that were found and not used, because they are not captures at the approved viewpoint during this daylight window: Ir D F Woudagemaal Lemmer.jpg (CC0, 14 October 2011), Kerk Enschede.jpg (public domain, 2006, 323×506), Cuneratoren Rhenen, RP-F-2013-10.jpg (CC0, about 1915–1920), Heerlen-Kasteel Hoensbroek-1.JPG (CC0, 30 January 2009), and Huis Bergh.JPG (public domain, 2010).",
+    "on_image_caption": "Groninger Museum, Groningen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
