@@ -20,5 +20,43 @@
   "sha256_4x5": "0dea2ddba2a12314ba25e696e56e02e5bb961de2e8e7ff1e378e6c69858e0d38",
   "file_9x16": "Netherlands/s-Hertogenbosch/nl-01-037-9x16.png",
   "sha256_9x16": "b1d190a780890376f849ca5b628a199216f84f4a72c888527fbf1d3e3776664f",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/s-Hertogenbosch/nl-01-037-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/s-Hertogenbosch/nl-01-037-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-037",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/s-Hertogenbosch/nl-01-037-16x9.png",
+        "sha256": "a8f5917088ad50bac8c36234aa50ff5a646fa419c962cd16c3e45ab36438f289"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/s-Hertogenbosch/nl-01-037-4x5.png",
+        "sha256": "0dea2ddba2a12314ba25e696e56e02e5bb961de2e8e7ff1e378e6c69858e0d38"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/s-Hertogenbosch/nl-01-037-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/s-Hertogenbosch/nl-01-037-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "ed9f0b335941ff3c75bb304431c47f3ef665416dc80a4bc9df3906dcdeac41f7",
+      "4x5": "7f2124da9fe20cc1f575d5d20335217281a7a49746d5f843bf9d3a1a3c35e421"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: Open-Meteo Amsterdam 2026-10-01T15:30 Europe/Amsterdam, is_day 1, weather_code 2, cloud_cover 55%, temperature about 20.5°C, sunset 19:17. Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was in daylight at bake time (Open-Meteo 2026-10-01T15:30 Europe/Amsterdam, is_day 1, sunset 19:17, partly cloudy, weather_code 2, cloud cover 55%). Genuine capture was blocked: this run has no camera at the approved viewpoint, and live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied.",
+    "on_image_caption": "St. John's Cathedral, 's-Hertogenbosch",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

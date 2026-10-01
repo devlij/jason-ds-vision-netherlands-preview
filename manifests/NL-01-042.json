@@ -20,5 +20,43 @@
   "sha256_4x5": "40196912a808952892bdb072f83e23e6dcd892b23c37fc35986a38c622782878",
   "file_9x16": "Netherlands/Zierikzee/nl-01-042-9x16.png",
   "sha256_9x16": "b4044e6aa9ad69c4772117ad6f3eb8b224937a07496e15fe5d43cce5e25215f4",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/Zierikzee/nl-01-042-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Zierikzee/nl-01-042-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-042",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Zierikzee/nl-01-042-16x9.png",
+        "sha256": "d20ef81cf54587f2799301c320b846aa7218de292443e6b6e8addfd73153f25f"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Zierikzee/nl-01-042-4x5.png",
+        "sha256": "40196912a808952892bdb072f83e23e6dcd892b23c37fc35986a38c622782878"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Zierikzee/nl-01-042-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zierikzee/nl-01-042-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "90f4f0863fddaadf2ad7115378bc5a04e8bb6cd932a4a0db2e0ef0af0d48b135",
+      "4x5": "22fc7af78c3d9e052b25ec6b39d5f128c6888a76d166b75823b1933224793fbc"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: Open-Meteo Amsterdam 2026-10-01T15:30 Europe/Amsterdam, is_day 1, weather_code 2, cloud_cover 55%, temperature about 20.5°C, sunset 19:17. Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was in daylight at bake time (Open-Meteo 2026-10-01T15:30 Europe/Amsterdam, is_day 1, sunset 19:17, partly cloudy, weather_code 2, cloud cover 55%). Genuine capture was blocked: this run has no camera at the approved viewpoint, and live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied.",
+    "on_image_caption": "Noordhavenpoort, Zierikzee",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
