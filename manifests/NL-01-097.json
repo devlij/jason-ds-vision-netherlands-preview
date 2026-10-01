@@ -21,5 +21,43 @@
   "file_9x16": "Netherlands/Bergen op Zoom/nl-01-097-9x16.png",
   "sha256_9x16": "d218a54df910a6a7fd719b4d7a06e84dce274b31dbf763cbbb82262903205575",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 16418c45f657cda9b5d6b678ca1130a4828c5d3c239f5cdfb7590e38bf465ce6. Source SHA-256 4:5 7ad0d7285865d5a1dbcc9405aba940d1579d09d8308954d16fd2c0e75e4c1ed7. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 16418c45f657cda9b5d6b678ca1130a4828c5d3c239f5cdfb7590e38bf465ce6. Source SHA-256 4:5 7ad0d7285865d5a1dbcc9405aba940d1579d09d8308954d16fd2c0e75e4c1ed7. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Bergen op Zoom/nl-01-097-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Bergen op Zoom/nl-01-097-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-097",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Bergen op Zoom/nl-01-097-16x9.png",
+        "sha256": "546b84c2d207fdab41bdfb96373fdf04aa26ec8b4e1f53cccd1a6a97bfa3de2d"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Bergen op Zoom/nl-01-097-4x5.png",
+        "sha256": "970c883088793795e6fe2b7f4b508990258d26db1d0a16941c288cdc44816d15"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Bergen op Zoom/nl-01-097-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Bergen op Zoom/nl-01-097-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "ab5e471709c87f06d114747de44eeff7f425a0c8c6b49f1202fd67d7a97fd458",
+      "4x5": "78ee3f18931baf44a6b892824404b2b342922fd7c01bdd4de08364e95f040a6a"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: Open-Meteo Amsterdam 2026-10-01T16:30 Europe/Amsterdam, is_day 1, weather_code 1, cloud_cover 33%, temperature about 20.1°C, sunset 19:17. Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was in daylight at bake time (Open-Meteo 2026-10-01T16:30 Europe/Amsterdam, is_day 1, sunset 19:17, mainly clear, weather_code 1, cloud cover 33%, about 20.1°C). Genuine capture was blocked: this run has no camera at the approved viewpoint, and live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied.",
+    "on_image_caption": "Markiezenhof, Bergen op Zoom",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
