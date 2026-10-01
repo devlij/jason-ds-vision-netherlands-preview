@@ -209,8 +209,9 @@ def main() -> None:
             errors.append(f"{entry_id} lost Cosmo approval_status")
         if f'"entry_id": "{entry_id}"' not in index or '"approval_status": "Approved"' not in index:
             errors.append("index missing an Approved scene")
-    if index.count('"file_16x9_day"') != 10:
-        errors.append(f"expected 10 daylight masters in the gallery, found {index.count(chr(34)+'file_16x9_day'+chr(34))}")
+    # Main carries daylight for NL-01-001–010. This pack adds NL-01-239–258.
+    if index.count('"file_16x9_day"') != 30:
+        errors.append(f"expected 30 daylight masters in the gallery, found {index.count(chr(34)+'file_16x9_day'+chr(34))}")
     if "View image" in index:
         errors.append("index still has a View image control over the artwork")
     if "position: absolute; top: 1.05rem; left: 1.05rem" in index:
