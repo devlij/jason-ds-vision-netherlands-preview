@@ -1,0 +1,235 @@
+BATCH NL daylight variants NL-01-099 through NL-01-118
+Date: 2026-10-01
+Status: Candidate. Not Cosmo QC. Not Approved.
+Country: Netherlands
+Scenes: 20. Variant masters: 40 (16x9 1920x1270 and 4x5 864x1270).
+Provenance: interim-ai. Genuine daylight stills: 0.
+Night masters: byte-unchanged. SHA-256 recorded before any write and again after.
+On-image text, exact, on every variant: caption identical to the night master;
+signature Jason D’s Vision (curly apostrophe U+2019); name Jason A. Devlin (Allura);
+disclosure AI-generated artistic interpretation · Not a photograph.;
+middle line ☀ Interim AI daylight · not a genuine photograph
+No weather claim. No scenario timestamp on the variant.
+The 190px #0e0e12 label bar sits under the photo. No text or tint over the artwork.
+
+Amsterdam was in daylight at bake time (Open-Meteo 2026-10-01T16:45 Europe/Amsterdam, is_day 1, sunset 19:17, overcast, weather_code 3, cloud cover 89%, about 20.1°C). Genuine capture was blocked: this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files for LocHal, Helmond Castle, the Brandaris, and the Vlietermonument are CC BY or CC BY-SA, which require credit, so they were not copied as genuine masters.
+
+NL-01-099  LocHal, Tilburg
+  provenance     interim-ai
+  genuine        no
+  night 16x9     c8d31e1e1bb1a1fc55da49e9a0d9e8f55ba8782dcf13a404f93fb9de36588d13  IDENTICAL
+  night 4x5      4e8e12c086a5204c2557089c6fb4610dbdf043dfb231cc2fb9bdd43b73cb6cf1  IDENTICAL
+  night 9x16     9a087d063c155a63f1cbae3f15a3b7d4eaaf8238e3f20127a2029469333fdd91  IDENTICAL
+  variant 16x9   7891cde2c28abba261648d4885939b217414116a420639d5c63904a7b8376e28
+  variant 4x5    724cd1f51f652079d7e39f6c9992f693fbb09010265ab9fb452d7165bd63b688
+  files          Netherlands/Tilburg/nl-01-099-daylight-16x9.png
+                 Netherlands/Tilburg/nl-01-099-daylight-4x5.png
+
+NL-01-100  Helmond Castle, Helmond
+  provenance     interim-ai
+  genuine        no
+  night 16x9     5a55d578e9f07c9efec95d983a82e3760c6fea8377446dd3d456c7d13c8eeb30  IDENTICAL
+  night 4x5      b828f36fdac80368321e14129eb49e4d337e38e3bbf41acfb6b9b745bafa2409  IDENTICAL
+  night 9x16     b858a9288e1a83a0479988794ddea483cba117af2bef12d769b360c12730cae1  IDENTICAL
+  variant 16x9   ea71fcf6f8e61e7065141cf70db265f15bfa7215364360b70591a14bc4282b5d
+  variant 4x5    e34abe2bee94eff8a79f3606502b498f836cfc7eca5185ed2e70e765c4d99fb0
+  files          Netherlands/Helmond/nl-01-100-daylight-16x9.png
+                 Netherlands/Helmond/nl-01-100-daylight-4x5.png
+
+NL-01-101  St. Martinuskerk, Venlo
+  provenance     interim-ai
+  genuine        no
+  night 16x9     3b337c723671dc0c3ca430e8062cf0ee2e812132127417df00237ab85e9dfff5  IDENTICAL
+  night 4x5      1b5238f003b9705b37d6154ae8bc48f3d7acc3deed84cd8d572ab45f2a0988fb  IDENTICAL
+  night 9x16     3e9616ad9cc480e7c225f9126cd8777f498366209656fca32c11ea9747eec975  IDENTICAL
+  variant 16x9   83cc977b03cb8e1b153946c66e22a2897ea8bafd4468f0ece42db244ce231f4f
+  variant 4x5    e28f3c80c1e0d6159dba34b68d353b23bda6df4c9dddfef6c6db9e6af21b2b4f
+  files          Netherlands/Venlo/nl-01-101-daylight-16x9.png
+                 Netherlands/Venlo/nl-01-101-daylight-4x5.png
+
+NL-01-102  St. Peter's Basilica, Sittard
+  provenance     interim-ai
+  genuine        no
+  night 16x9     a022d18d1861b196edb7c720e39c85ba9fc5a4f157f7bd68cc61e487833b1582  IDENTICAL
+  night 4x5      e9ce77688bfa618063d61f9dc7be1d0ac30951e61981a62cdfe42b1f7d7450fd  IDENTICAL
+  night 9x16     7c01f47324ed78b0f95d450546c5ec70f3cef3317753597860c093a291578149  IDENTICAL
+  variant 16x9   c1a3bb024229d2ea5228850933f79b01fbea5f8e0aac80d4e5bd50c0d39bd217
+  variant 4x5    f54005eb1dd29a439b47d621266d393a831cece622aff80d20012d3999154d2f
+  files          Netherlands/Sittard/nl-01-102-daylight-16x9.png
+                 Netherlands/Sittard/nl-01-102-daylight-4x5.png
+
+NL-01-103  Pancratiuskerk, Heerlen
+  provenance     interim-ai
+  genuine        no
+  night 16x9     83d3f95562924219dbe04bf2d22a03277b9213b71c707251bcfd01c91845f0bb  IDENTICAL
+  night 4x5      2d9a54ff8f52e4d3e4db7bda1ad4c3c52588bcc8af0e8eb61dbd676e285a665e  IDENTICAL
+  night 9x16     bea206fb87fa5dcebf2bbf8f1fabf7b41d3a319e31f0e15dd569f2841db428c1  IDENTICAL
+  variant 16x9   ed69b7e3c72e3a8e7e587dd163e8d38e2147621c363b7cf0c564756b5bca49a5
+  variant 4x5    dba198a90dadc068cfe15e22c7c9ba4f836707174c896f7e1f0cf840e437b571
+  files          Netherlands/Heerlen/nl-01-103-daylight-16x9.png
+                 Netherlands/Heerlen/nl-01-103-daylight-4x5.png
+
+NL-01-104  Rolduc Abbey, Kerkrade
+  provenance     interim-ai
+  genuine        no
+  night 16x9     03b0b3d7198b7439c190fc30f4492cd2dc2d9aa87623982726e7d36ea5539147  IDENTICAL
+  night 4x5      d3bc4b37b323b8d073561e0b308e0b88c7c901f9af8f6c1347aef96c7a74c03d  IDENTICAL
+  night 9x16     95c3b2d89d1bd3bcafa65464fe283b52dbece38abeca7f7f652d867a518d3d8d  IDENTICAL
+  variant 16x9   df8b8083fc375de18ac01e4f43bf1c118817c61b65656c8b2c50e5bd16e02242
+  variant 4x5    69d4e824d12f8ee7b0634fe6ed1e60cb5ef16d8597fbfcded9850133a2f61c11
+  files          Netherlands/Kerkrade/nl-01-104-daylight-16x9.png
+                 Netherlands/Kerkrade/nl-01-104-daylight-4x5.png
+
+NL-01-105  Boulevard, Vlissingen
+  provenance     interim-ai
+  genuine        no
+  night 16x9     1ca774fdf5abaaef25cbd81c699cd7886eeee028739ab229e9fbf53ee8b104c8  IDENTICAL
+  night 4x5      41a57215723659c01da21c5177af9f50bda9896340e2f522e83a9e069cdea14d  IDENTICAL
+  night 9x16     52d804f4c606e8c1c6b050fac429dc4a204763164028093335b7511a8bbbae2e  IDENTICAL
+  variant 16x9   e01dde3b48ddeedd00f0488bb7a3d43c7074c9f028d4446379b1e454e4fc4add
+  variant 4x5    7e8e4ff7c0700b6411165501728e9d0c88d2f25231696291f349d9466c65d9d5
+  files          Netherlands/Vlissingen/nl-01-105-daylight-16x9.png
+                 Netherlands/Vlissingen/nl-01-105-daylight-4x5.png
+
+NL-01-106  Lighthouse, Westkapelle
+  provenance     interim-ai
+  genuine        no
+  night 16x9     4b63fda16f0890db4af25b0bf719aa098b717f5fabdbb6330f5a983bacc144e6  IDENTICAL
+  night 4x5      413ab185c4e393bb3fa5d5d2715290c24d39d41c32781f96480ba95778ed50db  IDENTICAL
+  night 9x16     8d547d82380f9646ce7d24925c1a4cfe949bb9c7b3f78819a6a3ed7d5d57e34d  IDENTICAL
+  variant 16x9   6aa014edb702fd02f636975aa6f985eb87c07da922169f22d06c4b3d91362250
+  variant 4x5    90a53b9c9c9a63afd42d39ccebb8e8755baa3281e732207d724d6ba086e4bcf9
+  files          Netherlands/Westkapelle/nl-01-106-daylight-16x9.png
+                 Netherlands/Westkapelle/nl-01-106-daylight-4x5.png
+
+NL-01-107  Oyster harbour, Yerseke
+  provenance     interim-ai
+  genuine        no
+  night 16x9     37ba738a3e44c952639ec7cbbf345d0e917da583b92205eaafaa3ed2df1d6f5e  IDENTICAL
+  night 4x5      e686ad2ff71adff381d23d4f58c78c9e979566a2883aa9862e6667775e9da822  IDENTICAL
+  night 9x16     f25f6b2244f611f8dbd5e6d14ebbfdd0ca4dc531def3a63e6d708dc7eeb4dadc  IDENTICAL
+  variant 16x9   b918d830fef685075f0e4f961ae9c18a82de03737f902f594bef48fb87259dfc
+  variant 4x5    e05a20986f74b9a5748d32520c1ae367d2b3b41857520b04d2012251a71bb656
+  files          Netherlands/Yerseke/nl-01-107-daylight-16x9.png
+                 Netherlands/Yerseke/nl-01-107-daylight-4x5.png
+
+NL-01-108  Harbour, Goes
+  provenance     interim-ai
+  genuine        no
+  night 16x9     6bd278e30ef7e0048e4b62dd77549adc93568260e229fa84367de73cceda798a  IDENTICAL
+  night 4x5      1d11b83d2f21a782c5f4f6f7a2c0c40eafc0653746c21eb0f48e0654627d3ca5  IDENTICAL
+  night 9x16     e4f846951c705cc8ccf87dd7e5f86d97ac58fda163161812b977f49c9372b9e5  IDENTICAL
+  variant 16x9   76a3295398b04b4f4c68fdefc8439f72e3868a938467d5da2ce428a2c3c56609
+  variant 4x5    4c70f94775b8b8681276a8a9e9cd588c07ab546fe6358e816a98a5ba622c300a
+  files          Netherlands/Goes/nl-01-108-daylight-16x9.png
+                 Netherlands/Goes/nl-01-108-daylight-4x5.png
+
+NL-01-109  Lek bridge, Culemborg
+  provenance     interim-ai
+  genuine        no
+  night 16x9     96f95fe1db792bc03a5dc702305ad52daccfa290fc2cbb91d3db6143ca969608  IDENTICAL
+  night 4x5      2e133fca7dad8f04c98de21a850a3721f186b758a07c7eddb5245a95f234daef  IDENTICAL
+  night 9x16     a9d12fd393c9521ddd55cb89bcb8acd3a10dff48812cba96b7fb84a3593d08cf  IDENTICAL
+  variant 16x9   08cb994dbc353f574f63e606bdb631fdab73a1abc1dd6ce4e671aacceab76b84
+  variant 4x5    373ba06fd7756115cd72edf42b9763ffce8b659882e2b097da4ad10552afc0e2
+  files          Netherlands/Culemborg/nl-01-109-daylight-16x9.png
+                 Netherlands/Culemborg/nl-01-109-daylight-4x5.png
+
+NL-01-110  Waterfront, Tiel
+  provenance     interim-ai
+  genuine        no
+  night 16x9     90f98ce09cd12957a024a4e4eddc321fba45b63b6c3a66db96217a714026b1d8  IDENTICAL
+  night 4x5      20f2bdda7cbb2484726e15ae64f308e533946eb70dc6f1653f67b946f80b10d6  IDENTICAL
+  night 9x16     04a22ae1cb0607d2b783b2ce26c86696e85962533be72f521ea17b16a56233e0  IDENTICAL
+  variant 16x9   faa795441512bc7442c2060086ab5099bbc5ee299331c66be887b9e4506a5e3d
+  variant 4x5    531d06ae4331d1ad13dc828e2ed5c854dcff99bbd9a736dd1a06ff9ff59002dd
+  files          Netherlands/Tiel/nl-01-110-daylight-16x9.png
+                 Netherlands/Tiel/nl-01-110-daylight-4x5.png
+
+NL-01-111  Hotel De Wereld, Wageningen
+  provenance     interim-ai
+  genuine        no
+  night 16x9     0f14bbd6bf1ce80cb9a3ac7b430df577d445f0397b44be128c485add3f21794e  IDENTICAL
+  night 4x5      4ea23956255ba4d53ce12f513850880ac40b6f2d1fe78601a1027240fc2ca517  IDENTICAL
+  night 9x16     f6fcc59c2e09cd7ee652266e4488256ff8bb6ba90a7a2a351cfc1c28deef1cf1  IDENTICAL
+  variant 16x9   2486e292189993d0cb0dd86ec0465e7d3d5e7d0f456b1b6b7ffee6b6324ec902
+  variant 4x5    dc218e16ee1916c2d6610f559487cc76295838dc2bb81f6a8ed1dd5b11ac5422
+  files          Netherlands/Wageningen/nl-01-111-daylight-16x9.png
+                 Netherlands/Wageningen/nl-01-111-daylight-4x5.png
+
+NL-01-112  Radio Kootwijk
+  provenance     interim-ai
+  genuine        no
+  night 16x9     799df49e8a2f258601ee2018fb80f433ffc6ccc551e010ce7bd602fdb478d30a  IDENTICAL
+  night 4x5      207bb57c114b4de3454cc27de1a8974f92f73cb282922e4cceb6dd2dea3e0e25  IDENTICAL
+  night 9x16     0c78b566308735856b299a9da728fdcd06c93c26ebb7f57656772333c6f9e2c3  IDENTICAL
+  variant 16x9   89232391c4343142ad786d23088af476363fd869e631a878818d54ee49022079
+  variant 4x5    12d2e30b3c7c07d48b72b2df256328221adc8b0a6c9ec2eabc99ab601afe5874
+  files          Netherlands/Radio Kootwijk/nl-01-112-daylight-16x9.png
+                 Netherlands/Radio Kootwijk/nl-01-112-daylight-4x5.png
+
+NL-01-113  Waddenhaven, Nes
+  provenance     interim-ai
+  genuine        no
+  night 16x9     fddcd4f3e2586128281e5a5c064310e68ae0eaff0d51461da6bf1724bb3bb8ab  IDENTICAL
+  night 4x5      80580ac4d2acd0659adfc30398c95c9a4b72124a20fc610860f8c03b3fe968fd  IDENTICAL
+  night 9x16     747a94fea9da103d9aa98173b137eff9e4d639c84b377f479f2dc632e63059b1  IDENTICAL
+  variant 16x9   264bc575a715f9b92cc098d1d0d9a82ff37d212ebec99f9e50be8cc05f1fda2b
+  variant 4x5    29f7300a33cedca430effe80ba651c5695b464a36b1c5faccfb5b25b4670b780
+  files          Netherlands/Nes/nl-01-113-daylight-16x9.png
+                 Netherlands/Nes/nl-01-113-daylight-4x5.png
+
+NL-01-114  Brandaris, West-Terschelling
+  provenance     interim-ai
+  genuine        no
+  night 16x9     2e323a31c93a217e98f4005b0480179d312a82ab8ba71a049c4f30e077091293  IDENTICAL
+  night 4x5      0bf4595765d80c0274fef036bb1e0423b88b8f900d73e823bf47a90a97caa738  IDENTICAL
+  night 9x16     6de1e3b2094fb60d18c4b53df60600a3af8071173493ba374104b3fc44b5ed94  IDENTICAL
+  variant 16x9   204a79b4642c96833b6fd5dd9ac6254116a8a7132b77b48fcf898fb5df8c3f06
+  variant 4x5    653235c8412afc9762342f3374d3a08b0b310f973470c5a9cf508ec8dfb58f22
+  files          Netherlands/West-Terschelling/nl-01-114-daylight-16x9.png
+                 Netherlands/West-Terschelling/nl-01-114-daylight-4x5.png
+
+NL-01-115  Veerdam, Oost-Vlieland
+  provenance     interim-ai
+  genuine        no
+  night 16x9     54f18ada1e5d11dfceb092ed0991c24dbf0993bb2ac2eb6c4be37dbc50f67aed  IDENTICAL
+  night 4x5      1bfa0d1b99a10bd02d8f9e561cdb998aafd9855f5f05dd65267c8ac5b7ae559c  IDENTICAL
+  night 9x16     bca1c4725770c028972f9b12402527a9709ede5b0cf68a3df860944a4eb2db9f  IDENTICAL
+  variant 16x9   f7e7cc0bc92e23d6200a1d6cd661f5419ff1d9e22431afb3f6a7a4cd87cdfd59
+  variant 4x5    eed94f2c812ec4c2e747dc58349ceed4edca83f86d7bab24f34530ecd0955480
+  files          Netherlands/Oost-Vlieland/nl-01-115-daylight-16x9.png
+                 Netherlands/Oost-Vlieland/nl-01-115-daylight-4x5.png
+
+NL-01-116  Noordertoren, Schiermonnikoog
+  provenance     interim-ai
+  genuine        no
+  night 16x9     d58f5d990c6f3b2342064340aadc4964aae897f1dc5f0edaf7070773c9b5ecb0  IDENTICAL
+  night 4x5      ad549104aec099bc7baab27921b044c5cc639cbae7776a3eaee16d5436cc2c87  IDENTICAL
+  night 9x16     48f3e243593cb071805664f4ecea74cd28a62a1628490823ecb1c552e2eb92ff  IDENTICAL
+  variant 16x9   6862d88d1db5e607d9aaf757d504ebd4beb3382f5f934b6e92f7c087a314e048
+  variant 4x5    5419d6c78363d71ccb879b61ba8c45d2b607edd11cf7660983dabdce9a3ded2d
+  files          Netherlands/Schiermonnikoog/nl-01-116-daylight-16x9.png
+                 Netherlands/Schiermonnikoog/nl-01-116-daylight-4x5.png
+
+NL-01-117  Harbour, Den Oever
+  provenance     interim-ai
+  genuine        no
+  night 16x9     99dde1de720e2d5e61d42b364bf0c26453b74eb31ff4cae6c7517c36c74b798c  IDENTICAL
+  night 4x5      cd001e2341c3ab4f0f115b4c9d44ba0843941e0494bea76e2eadacade6ddf1ec  IDENTICAL
+  night 9x16     e52cace079df5313db78136229b870a39f8744b241cc85232d01a58124799ac4  IDENTICAL
+  variant 16x9   8fae6112ccd041a733ada06edd9f80d18a409234bfc3d0923a96c7506f418c5f
+  variant 4x5    706a1d14d5923f9ce3a3fb0f95f58120751dd484d0f7ccde0fa111515e458ee3
+  files          Netherlands/Den Oever/nl-01-117-daylight-16x9.png
+                 Netherlands/Den Oever/nl-01-117-daylight-4x5.png
+
+NL-01-118  Vlietermonument, Afsluitdijk
+  provenance     interim-ai
+  genuine        no
+  night 16x9     8d2b3841330b3a59652abc52353987db926a1b4dd384c3ca550a8764fdb0f3b6  IDENTICAL
+  night 4x5      c51bbcb6d7c8507c6a6c98375b79f88922fa1766b0fc664f9913834421876b73  IDENTICAL
+  night 9x16     e884c92602ce91b61aebf11affa86cd6d7031fc6041792ada3934e5300755350  IDENTICAL
+  variant 16x9   7015e38b554fa4bdbdf31fcd40983d4bb53436063ec2b131a63d81b35d17a0b9
+  variant 4x5    0b18c295a5b7552a9f3f6a0a1fff43a8b6f9f1ca5c5a5553a828149b1acd6bbe
+  files          Netherlands/Afsluitdijk/nl-01-118-daylight-16x9.png
+                 Netherlands/Afsluitdijk/nl-01-118-daylight-4x5.png
