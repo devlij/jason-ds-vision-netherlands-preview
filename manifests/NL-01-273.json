@@ -32,5 +32,43 @@
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: two round-based brick towers with tall spires flanking a rectangular gatehouse with a central arched passage, park grass and path in the foreground, floodlit brick under an overcast night sky - matching the real Cellebroederspoort (independently verified: 'twee grote torens met een spits', 1616 mannerist form); the 16:9 and 4:5 agree on every defining feature, and the earlier hold's single-tower premise was factually wrong. Gate 2: label bar exact - 'Cellebroederspoort, Kampen', 'Scenario: 26 September 2026 · 04:36 Europe/Amsterdam', 'AI-generated artistic interpretation · Not a photograph.', signature pair; Open-Meteo retrieval 2026-09-26T04:36:42+02:00, unique to the second repo-wide, scenario minute 04:36 inside model-valid hour 04:00-04:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos, Free no-credit badge - documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:43:33.811637+00:00",
   "sha256_16x9": "89f159a7c21ebfafc5de297660d4b3214f0ab626bff2ca40f3aeb4b0ba0ea173",
-  "sha256_4x5": "6155ffdf3abbada5c4de419b19515ee49b20993f5e8b2e617ace67e0580b81ab"
+  "sha256_4x5": "6155ffdf3abbada5c4de419b19515ee49b20993f5e8b2e617ace67e0580b81ab",
+  "file_16x9_day": "Netherlands/Kampen/nl-01-273-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Kampen/nl-01-273-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-273",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Kampen/nl-01-273-16x9.png",
+        "sha256": "89f159a7c21ebfafc5de297660d4b3214f0ab626bff2ca40f3aeb4b0ba0ea173"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Kampen/nl-01-273-4x5.png",
+        "sha256": "6155ffdf3abbada5c4de419b19515ee49b20993f5e8b2e617ace67e0580b81ab"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Kampen/nl-01-273-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Kampen/nl-01-273-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "b8f89110060de72f29d072342f3155beb592afb79ded66c35c8f792c580a9f9a",
+      "4x5": "436a6dfd8ca4dc7fee1ee487403737b1e3e18581c1ed4e762e33fff90290f97c"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: mainly clear daylight under the day's Open-Meteo Amsterdam conditions (2026-10-01, weather_code 1, cloud_cover 33%). Bake-time reading retrieved 2026-10-01T21:21:58+02:00 was after sunset (model current time 2026-10-01T21:15 Europe/Amsterdam, is_day 0, sunset 19:17, about 17.8°C, wind about 7.2 km/h, precipitation 0.0 mm). Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was past sunset at bake time (Open-Meteo Amsterdam retrieved 2026-10-01T21:21:58+02:00, model current time 2026-10-01T21:15 Europe/Amsterdam, is_day 0, sunrise 07:41, sunset 19:17, mainly clear, weather_code 1, cloud cover 33%, about 17.8°C, wind about 7.2 km/h, precipitation 0.0 mm). Genuine daylight capture was not obtainable: the sun had already set, and this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files that require credit were not copied as genuine masters: Havezate De Havixhorst photographs (CC BY 4.0, CC BY-SA 4.0, and CC BY-SA 3.0 nl); Sint-Margaretakerk photographs that are not public domain (CC BY-SA 4.0); Abdijkerk Aduard photographs (CC BY-SA 4.0 and CC BY-SA 3.0); Borg Nienoord photographs that are not CC0 (CC BY-SA 3.0, CC BY-SA 3.0 nl, CC BY-SA 4.0, and CC BY 2.0); Zuidertoren photographs that are not public domain (CC BY-SA 4.0 and CC BY 3.0); Sint-Gertrudiskerk photographs that are not CC0 (CC BY-SA 3.0, CC BY-SA 4.0, and CC BY 3.0); Schokland kerkruïne photographs (CC BY 2.0); Houtribsluizen photographs (CC BY-SA 4.0); Grote Kerk Veere photographs (CC BY-SA 4.0, CC BY 4.0, and CC BY-SA 3.0); Brouwershaven harbour photographs (CC BY-SA 3.0 nl, CC BY-SA 3.0, and CC BY-SA 4.0); Fort Sint Pieter photographs that are not CC0 (CC BY-SA 4.0); Meerssen basilica photographs that are not CC0 (CC BY-SA 4.0); Begijnhof Breda photographs (CC BY-SA 4.0, CC BY-SA 2.0, and CC BY-SA 3.0); Hampoort photographs that are not public domain (CC BY-SA 3.0 and CC BY-SA 4.0); Cellebroederspoort photographs that are not public domain (CC BY-SA 3.0 nl, CC BY-SA 4.0, and CC BY 3.0); Sint-Stephanuskerk photographs that are not public domain (CC BY-SA 4.0, CC BY-SA 3.0 nl, and CC BY 4.0); Kasteel Het Nijenhuis photographs that are not CC0 (CC BY-SA 4.0); Slot Zeist photographs (CC BY-SA 3.0 and CC BY-SA 4.0); Sint-Nicolaasbasiliek photographs (CC BY-SA 3.0 and CC BY-SA 4.0); and Kasteel Groeneveld photographs (CC BY-SA 4.0). CC0 or public-domain files that were found and not used, because they are not captures at the approved viewpoint during this Europe/Amsterdam daylight window: Havixhorst De Schiphorst.jpg (public domain, 13 January 2010) and Havixhorst de Wijk door Cornelis Pronk 1732.jpg (public domain drawing, 1732); 20171016 Sint-Margaretakerk Norg1.jpg and 20171016 Sint-Margaretakerk Norg2.jpg (public domain, 16 October 2017), Margarethakerk Norg2.jpg (public domain, 12 October 2009), Sint-Margaretakerk van Norg.jpg (public domain, 6 June 2008), and Margarethakerk Norg ingang.jpg (CC0, 9 April 2023, the entrance rather than the brink view); Beckeringh - Nienoord, Midwolde.jpg (public domain drawing, 1781), Borg Nienoord.JPG (public domain, 26 August 2005), Borg van Nienoord (1525-1850).jpg (public domain, pre-1850), Nienoord 1540.jpg (public domain drawing, circa 1540), Ingang van borg Nienoord te Leek, RP-F-00-10168.jpg, Poort van borg Nienoord te Leek, RP-F-00-10170.jpg, and Portaal van borg Nienoord te Leek, RP-F-00-10169.jpg (CC0, 1897), and Kerk en restaurant in Midwolde.jpg (CC0, 10 June 2018, a different building); Watertorenschiermonnikoog.jpg (public domain, 17 October 2003); Grote of Sint-Gertrudiskerk Workum.jpg (CC0, 15 August 2011); Hampoort Grave 1925.jpg (public domain, 1925); C. Springer - De Cellebroederspoort in Kampen (public domain painting, 1863); 20131018 Zicht op Hasselt met Stenendijk molen de Zwaluw Grote Kerk en rk Stephanuskerk.jpg (CC0, 18 October 2013, a town view) and Sint Stephanuskerk Hasselt.jpg (public domain, 15 April 2010); 20150716 Het Nijenhuis achterzijde.jpg (CC0, 16 July 2015, the rear, not the bridge view) and the 1963 Dirk Hannema portraits at Kasteel Nijenhuis (CC0, not the manor viewpoint); Maastricht-Fort Sint Pieter (4).jpg, (7).jpg, (9).jpg, (10).jpg, and (12).jpg (CC0, 13 September 2019) and Maastricht-Fort Sint Pieter (13).jpg (CC0, 17 November 2019); Meerssen-Basiliek (2).JPG and Meerssen-Basiliek (3).JPG (CC0, 31 October 2010); Sint-Nicolaasbasiliek IJsselstein wapen.svg (CC0, 2018, a coat of arms drawing, not the church). No CC0 or public-domain file of the approved viewpoint turned up in the sample for the Abdijkerk at Aduard, the Houtribsluizen, the Grote Kerk at Veere, the Brouwershaven harbour, the Begijnhof at Breda, Slot Zeist, or Kasteel Groeneveld.",
+    "on_image_caption": "Cellebroederspoort, Kampen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
