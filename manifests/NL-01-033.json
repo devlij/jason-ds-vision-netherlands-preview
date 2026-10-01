@@ -20,5 +20,43 @@
   "sha256_4x5": "195d05dd265dd37162d060e30a2216af2ae3c072a3abd6baa08f3970c7b04feb",
   "file_9x16": "Netherlands/Utrecht/nl-01-033-9x16.png",
   "sha256_9x16": "ad4f8f51499fdfb98d66f734215a31190b6d97f0b7e0aff59229de84f91c210f",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/Utrecht/nl-01-033-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Utrecht/nl-01-033-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-033",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Utrecht/nl-01-033-16x9.png",
+        "sha256": "47aa67d17f148b62703dd478d7debf4e7c925d5fd98062b1ae5bd7b488f7e9ad"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Utrecht/nl-01-033-4x5.png",
+        "sha256": "195d05dd265dd37162d060e30a2216af2ae3c072a3abd6baa08f3970c7b04feb"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Utrecht/nl-01-033-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Utrecht/nl-01-033-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "44d6fc2864dbc47f0c6a7910de21ddd166485fafbb0f5ab5a453856e138557be",
+      "4x5": "a8997337bd156af286256262f9286c5883df360eb7499bc77f1dec5028bbcf8d"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: Open-Meteo Amsterdam 2026-10-01T15:00 Europe/Amsterdam, is_day 1, weather_code 3, cloud_cover 84%, temperature about 20.6°C, sunset 19:17. Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was in daylight at bake time (Open-Meteo 2026-10-01T15:00 Europe/Amsterdam, is_day 1, sunset 19:17, overcast, cloud cover 84%). Genuine capture was blocked: this run has no camera at the approved viewpoint, and live third-party webcams (including Dam Square) are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied.",
+    "on_image_caption": "Oudegracht, Utrecht",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
