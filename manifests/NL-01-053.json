@@ -20,5 +20,43 @@
   "sha256_4x5": "bbb7e63e9c3f1364b8b394703e227bed690398434c8d50d3a85421c627159190",
   "file_9x16": "Netherlands/Lelystad/nl-01-053-9x16.png",
   "sha256_9x16": "0b84765ab921f56a3661873ba77c1c4bf54ec1cee976424385663ecf1417c0bd",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_motion_10s_4x5": "Netherlands/Lelystad/nl-01-053-motion-10s-4x5.mp4",
+  "file_motion_poster": "Netherlands/Lelystad/nl-01-053-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_orders": [
+      "wo-netherlands-360-daylight-priority-2026-10-01",
+      "wo-grok-360-clips-2026-09-30",
+      "wo-netherlands-friday-completion-2026-10-01 PART B"
+    ],
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "anchor": "Netherlands/Lelystad/nl-01-053-daylight-16x9.png",
+    "anchor_pr": "https://github.com/devlij/jason-ds-vision-netherlands-preview/pull/19",
+    "anchor_tip": "5d0ac66c54d61ebe933feeb8f18cb86d9038d754",
+    "label_bar_px_cropped": 190,
+    "weather_gate": "skipped: weather gate",
+    "weather": {
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T01:04:58+02:00",
+      "model_time": "2026-10-02T01:00",
+      "is_day": 0,
+      "cloud_cover": 0,
+      "weather_code": 0,
+      "temperature_2m": 16.5
+    },
+    "sweep": "synthetic 180 degree orbit (keyframes about 0/60/120/180); subject held; optical-flow blend can ghost between keyframes; 120-degree key still has a few small figures on the quay",
+    "metrics": {
+      "entry_id": "NL-01-053",
+      "start_vs_daylight_4x5_crop": 1.43,
+      "end_vs_180_key": 3.08,
+      "start_vs_end": 53.35,
+      "start_vs_mid": 52.33
+    },
+    "provenance": "Candidate 360 clip. Genuine capture skipped: weather gate (Open-Meteo current retrieval on 2026-10-02 01:04 Europe/Amsterdam was night, is_day 0, so not mostly-clear daylight). Shipped from the finished daylight 16:9 master on Candidate draft PR #19 tip 5d0ac66c54d61ebe933feeb8f18cb86d9038d754 after the 190px label bar was cropped. 10.0s 864x1080 24fps 4:5 synthetic orbit: daylight 4:5 crop at 0 degrees, generated views at about 60, 120, and 180 degrees, joined by optical-flow interpolation. First frame is that daylight crop. Not a field capture. Not a drift-only push-in. In-between frames are motion-compensated blends and can ghost. Not Cosmo-approved. The night master was not modified. The 120-degree key still shows a few small figures on the quay after repeated empty-scene attempts; the ship stays framed."
+  }
 }
