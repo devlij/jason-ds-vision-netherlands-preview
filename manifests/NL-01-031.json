@@ -20,5 +20,42 @@
   "sha256_4x5": "614561887069150faf82e8265d0a0a363f6d8574e531caea60b8471471aeacc0",
   "file_9x16": "Netherlands/Gouda/nl-01-031-9x16.png",
   "sha256_9x16": "6572aac880ff49d5b5395d076efb25cf43e7b5c2530c4013199fbe611ab512f6",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_motion_10s_4x5": "Netherlands/Gouda/nl-01-031-motion-10s-4x5.mp4",
+  "file_motion_poster": "Netherlands/Gouda/nl-01-031-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_orders": [
+      "wo-netherlands-360-daylight-priority-2026-10-01",
+      "wo-grok-360-clips-2026-09-30"
+    ],
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "anchor": "Netherlands/Gouda/nl-01-031-daylight-16x9.png",
+    "anchor_pr": "https://github.com/devlij/jason-ds-vision-netherlands-preview/pull/18",
+    "anchor_tip": "d60df573fe297c1e5975954be9b09965c4a8bf13",
+    "label_bar_px_cropped": 190,
+    "weather_gate": "skipped: weather gate",
+    "weather": {
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-01T23:38:52+02:00",
+      "model_time": "2026-10-01T23:30",
+      "is_day": 0,
+      "cloud_cover": 0,
+      "weather_code": 0,
+      "temperature_2m": 13.5
+    },
+    "sweep": "synthetic 180 degree orbit (keyframes about 0/60/120/180); subject held; optical-flow blend can ghost between keyframes",
+    "metrics": {
+      "entry_id": "NL-01-031",
+      "start_vs_daylight_4x5_crop": 2.2,
+      "end_vs_180_key": 3.59,
+      "start_vs_end": 61.55,
+      "start_vs_mid": 68.36
+    },
+    "provenance": "Candidate 360 clip. Genuine capture skipped: weather gate (Open-Meteo current retrieval on 2026-10-01 was night, is_day 0, so not mostly-clear daylight). Shipped from the finished daylight 16:9 master on Candidate draft PR #18 tip d60df573fe297c1e5975954be9b09965c4a8bf13 after the 190px label bar was cropped. 10.0s 864x1080 24fps 4:5 synthetic orbit: daylight 4:5 crop at 0 degrees, generated views at about 60, 120, and 180 degrees, joined by optical-flow interpolation. First frame is that daylight crop. Not a field capture. Not a drift-only push-in. In-between frames are motion-compensated blends and can ghost. Not Cosmo-approved. The night master was not modified."
+  }
 }
