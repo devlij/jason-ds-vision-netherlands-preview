@@ -21,5 +21,43 @@
   "file_9x16": "Netherlands/Vlissingen/nl-01-105-9x16.png",
   "sha256_9x16": "52d804f4c606e8c1c6b050fac429dc4a204763164028093335b7511a8bbbae2e",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5e5408f173041790500d85ec75d0f433a5c78021c35b8f6d2c1d946d6e4ee2b7. Source SHA-256 4:5 b385700cc29f857aab7469115bc438919c5065f979e78c8884e55a9527fbb459. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5e5408f173041790500d85ec75d0f433a5c78021c35b8f6d2c1d946d6e4ee2b7. Source SHA-256 4:5 b385700cc29f857aab7469115bc438919c5065f979e78c8884e55a9527fbb459. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Vlissingen/nl-01-105-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Vlissingen/nl-01-105-daylight-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-105",
+    "approval_status": "Candidate",
+    "provenance": "interim-ai",
+    "genuine_daylight": false,
+    "derived_from": "Approved night composition of the same scene. Interim AI daylight interpretation, not a genuine photograph and not an independently modelled weather scenario.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Vlissingen/nl-01-105-16x9.png",
+        "sha256": "1ca774fdf5abaaef25cbd81c699cd7886eeee028739ab229e9fbf53ee8b104c8"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Vlissingen/nl-01-105-4x5.png",
+        "sha256": "41a57215723659c01da21c5177af9f50bda9896340e2f522e83a9e069cdea14d"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Vlissingen/nl-01-105-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Vlissingen/nl-01-105-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "e01dde3b48ddeedd00f0488bb7a3d43c7074c9f028d4446379b1e454e4fc4add",
+      "4x5": "7e8e4ff7c0700b6411165501728e9d0c88d2f25231696291f349d9466c65d9d5"
+    },
+    "created_date": "2026-10-01",
+    "lighting_target": "Lighting target only: Open-Meteo Amsterdam 2026-10-01T16:45 Europe/Amsterdam, is_day 1, weather_code 3, cloud_cover 89%, temperature about 20.1°C, sunset 19:17. Not a weather claim for the picture and not an on-site observation.",
+    "genuine_blocked": "Amsterdam was in daylight at bake time (Open-Meteo 2026-10-01T16:45 Europe/Amsterdam, is_day 1, sunset 19:17, overcast, weather_code 3, cloud cover 89%, about 20.1°C). Genuine capture was blocked: this run has no camera at the approved viewpoint. Live third-party webcams are not licensed for redistribution under the gallery's Free · no credit needed badge and do not match the approved composition. Those frames were not copied. Sampled Wikimedia Commons files for LocHal, Helmond Castle, the Brandaris, and the Vlietermonument are CC BY or CC BY-SA, which require credit, so they were not copied as genuine masters.",
+    "on_image_caption": "Boulevard, Vlissingen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Interim AI daylight · not a genuine photograph",
+    "derivative_disclosure": "Derivative interim AI daylight interpretation of the approved night composition of this same viewpoint. Not a genuine daylight photograph. Not a new scene. Not an independently modelled weather scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "Interim AI daylight interpretation of the same viewpoint and composition as the approved night master. Not a new scene. Not a genuine daylight photograph and not an on-site capture. Architecture and landscape were kept; lighting was interpreted as daylight. No weather evidence was invented for the variant. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

@@ -209,8 +209,12 @@ def main() -> None:
             errors.append(f"{entry_id} lost Cosmo approval_status")
         if f'"entry_id": "{entry_id}"' not in index or '"approval_status": "Approved"' not in index:
             errors.append("index missing an Approved scene")
-    if index.count('"file_16x9_day"') != 10:
-        errors.append(f"expected 10 daylight masters in the gallery, found {index.count(chr(34)+'file_16x9_day'+chr(34))}")
+    # Main carries 10 daylight masters (NL-01-001–010). This pack adds
+    # Candidate interim-AI daylight for NL-01-099 through NL-01-118.
+    # Packs 1–4 (017–098, excluding daylight-primary 064 and 067) are
+    # separate drafts and are not on this branch.
+    if index.count('"file_16x9_day"') != 30:
+        errors.append(f"expected 30 daylight masters in the gallery, found {index.count(chr(34)+'file_16x9_day'+chr(34))}")
     if "View image" in index:
         errors.append("index still has a View image control over the artwork")
     if "position: absolute; top: 1.05rem; left: 1.05rem" in index:
