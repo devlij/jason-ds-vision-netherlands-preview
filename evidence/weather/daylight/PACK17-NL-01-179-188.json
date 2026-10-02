@@ -1,0 +1,325 @@
+{
+  "pack": 17,
+  "scenes": [
+    {
+      "entry_id": "NL-01-179",
+      "caption": "Hunebed D53, Havelte",
+      "folder": "Havelte",
+      "city": "Havelte",
+      "retrieval_timestamp": "2026-10-02T12:54:57+02:00",
+      "generation_timestamp": "2026-10-02T12:57:05+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:57:05+02:00",
+        "4x5": "2026-10-02T12:58:48+02:00",
+        "9x16": "2026-10-02T12:58:46+02:00"
+      },
+      "scenario_label": "2 October 2026 \u00b7 12:57 Europe/Amsterdam",
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 18.4,
+      "wind_speed_10m": 7.9,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:38",
+      "sunset": "2026-10-02T19:09",
+      "sha256": {
+        "16x9": "b3e3780ab331d150d9e1e0fcab20400b8a66632f7041609cbc6fc365f6ae1474",
+        "4x5": "08c27764981aa681e7b2fbbe0608ec0d6aa49337e1376d81b6752a27c973b18a",
+        "9x16": "34859de82f6f8259d55cb08ef690a17e64b6daa4b38c62659b36d1f77e22c01a"
+      },
+      "files": {
+        "16x9": "Netherlands/Havelte/nl-01-179-daylight-16x9.png",
+        "4x5": "Netherlands/Havelte/nl-01-179-daylight-4x5.png",
+        "9x16": "Netherlands/Havelte/nl-01-179-daylight-9x16.png"
+      }
+    },
+    {
+      "entry_id": "NL-01-180",
+      "caption": "Koloniehuisjes, Frederiksoord",
+      "folder": "Frederiksoord",
+      "city": "Frederiksoord",
+      "retrieval_timestamp": "2026-10-02T12:42:46+02:00",
+      "generation_timestamp": "2026-10-02T12:45:36+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:45:36+02:00",
+        "4x5": "2026-10-02T12:46:29+02:00",
+        "9x16": "2026-10-02T12:48:01+02:00"
+      },
+      "scenario_label": "2 October 2026 \u00b7 12:45 Europe/Amsterdam",
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 18.2,
+      "wind_speed_10m": 7.9,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:38",
+      "sunset": "2026-10-02T19:10",
+      "sha256": {
+        "16x9": "0146eb0b689df27a0ad2a12cfcd567d29b55ba063f6d47525e2efa54a7c6a997",
+        "4x5": "5bd8a32d3c33416d4089a71ac4ad50eeec77ed9c33f6b39b704a9437eb63837e",
+        "9x16": "b64bc4dd2f1b678243aea906ae12c6a1a65221bc06b5ec74ac6c613af2d377f3"
+      },
+      "files": {
+        "16x9": "Netherlands/Frederiksoord/nl-01-180-daylight-16x9.png",
+        "4x5": "Netherlands/Frederiksoord/nl-01-180-daylight-4x5.png",
+        "9x16": "Netherlands/Frederiksoord/nl-01-180-daylight-9x16.png"
+      }
+    },
+    {
+      "entry_id": "NL-01-181",
+      "caption": "Meppeler Toren, Meppel",
+      "folder": "Meppel",
+      "city": "Meppel",
+      "retrieval_timestamp": "2026-10-02T12:55:02+02:00",
+      "generation_timestamp": "2026-10-02T12:56:35+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:56:35+02:00",
+        "4x5": "2026-10-02T12:57:37+02:00",
+        "9x16": "2026-10-02T12:57:55+02:00"
+      },
+      "scenario_label": "2 October 2026 \u00b7 12:56 Europe/Amsterdam",
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 18.7,
+      "wind_speed_10m": 7.9,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:37",
+      "sunset": "2026-10-02T19:10",
+      "sha256": {
+        "16x9": "1faf3ed92c4ebbe4e52127df868b0fd93adae8cf9d4576f01e7dc90ebca10725",
+        "4x5": "8737881afbbd1d952817f22e02bece202544dd0e2543dcfb9a45ad734decfc09",
+        "9x16": "5eaa7d084be24cc3f80b13eaad19eceb3f4e5a7ed77d0684c341e29084536f1a"
+      },
+      "files": {
+        "16x9": "Netherlands/Meppel/nl-01-181-daylight-16x9.png",
+        "4x5": "Netherlands/Meppel/nl-01-181-daylight-4x5.png",
+        "9x16": "Netherlands/Meppel/nl-01-181-daylight-9x16.png"
+      }
+    },
+    {
+      "entry_id": "NL-01-182",
+      "caption": "Havenkolk, Blokzijl",
+      "folder": "Blokzijl",
+      "city": "Blokzijl",
+      "retrieval_timestamp": "2026-10-02T12:42:53+02:00",
+      "generation_timestamp": "2026-10-02T12:44:15+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:44:15+02:00",
+        "4x5": "2026-10-02T12:46:47+02:00",
+        "9x16": "2026-10-02T12:48:13+02:00"
+      },
+      "scenario_label": "2 October 2026 \u00b7 12:44 Europe/Amsterdam",
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 17.8,
+      "wind_speed_10m": 9.0,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:38",
+      "sunset": "2026-10-02T19:10",
+      "sha256": {
+        "16x9": "d0702fab416dd905f8ded512a936f1db7a60effad64df006b3e07de074260f11",
+        "4x5": "06316cb76721784c2578fe0936b366cbe17fadb5d553ae2d6eb4cc94497d2b70",
+        "9x16": "8b829e36691af40ecc582256513e75039d53f77bcd9fe2ba0f19fe507b3e2b57"
+      },
+      "files": {
+        "16x9": "Netherlands/Blokzijl/nl-01-182-daylight-16x9.png",
+        "4x5": "Netherlands/Blokzijl/nl-01-182-daylight-4x5.png",
+        "9x16": "Netherlands/Blokzijl/nl-01-182-daylight-9x16.png"
+      }
+    },
+    {
+      "entry_id": "NL-01-183",
+      "caption": "Oude Haven, Vollenhove",
+      "folder": "Vollenhove",
+      "city": "Vollenhove",
+      "retrieval_timestamp": "2026-10-02T12:42:57+02:00",
+      "generation_timestamp": "2026-10-02T12:44:14+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:44:14+02:00",
+        "4x5": "2026-10-02T12:46:48+02:00",
+        "9x16": "2026-10-02T12:48:16+02:00"
+      },
+      "scenario_label": "2 October 2026 \u00b7 12:44 Europe/Amsterdam",
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 17.8,
+      "wind_speed_10m": 7.9,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:39",
+      "sunset": "2026-10-02T19:11",
+      "sha256": {
+        "16x9": "7d43fc4e7cb19e301567aa54f28de1c52dfe2d370713127e4af8d401a5623130",
+        "4x5": "e246f93073c8e0b1702e15c73a2b16f7694aa44ace7c91555e3ba239b9450a84",
+        "9x16": "3bfaa1477c4a2e49dd789188a8a33b61b55972c3ef051b721a9fc4cd014dc06a"
+      },
+      "files": {
+        "16x9": "Netherlands/Vollenhove/nl-01-183-daylight-16x9.png",
+        "4x5": "Netherlands/Vollenhove/nl-01-183-daylight-4x5.png",
+        "9x16": "Netherlands/Vollenhove/nl-01-183-daylight-9x16.png"
+      }
+    },
+    {
+      "entry_id": "NL-01-184",
+      "caption": "Plechelmusbasiliek, Oldenzaal",
+      "folder": "Oldenzaal",
+      "city": "Oldenzaal",
+      "retrieval_timestamp": "2026-10-02T12:55:07+02:00",
+      "generation_timestamp": "2026-10-02T12:55:50+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:55:50+02:00",
+        "4x5": "2026-10-02T12:57:52+02:00",
+        "9x16": "2026-10-02T12:57:53+02:00"
+      },
+      "scenario_label": "2 October 2026 \u00b7 12:55 Europe/Amsterdam",
+      "weather_code": 2,
+      "cloud_cover": 54,
+      "temperature_2m": 18.4,
+      "wind_speed_10m": 5.0,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:34",
+      "sunset": "2026-10-02T19:07",
+      "sha256": {
+        "16x9": "5df880bd3101a3d117a36ee0db6b923f8495c71c75cdef64cdaefceaf225fb49",
+        "4x5": "f738a35b53ed6c9377132b3f936f8fe5699428dc2abbba5f2bd6c40021f6026d",
+        "9x16": "96d1a5d19bc31b8d5d5d22f485644228da50849691d64420cf736508ce881bbc"
+      },
+      "files": {
+        "16x9": "Netherlands/Oldenzaal/nl-01-184-daylight-16x9.png",
+        "4x5": "Netherlands/Oldenzaal/nl-01-184-daylight-4x5.png",
+        "9x16": "Netherlands/Oldenzaal/nl-01-184-daylight-9x16.png"
+      }
+    },
+    {
+      "entry_id": "NL-01-185",
+      "caption": "Fraeylemaborg, Slochteren",
+      "folder": "Slochteren",
+      "city": "Slochteren",
+      "retrieval_timestamp": "2026-10-02T12:43:04+02:00",
+      "generation_timestamp": "2026-10-02T12:46:32+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:46:32+02:00",
+        "4x5": "2026-10-02T12:47:50+02:00",
+        "9x16": "2026-10-02T12:49:34+02:00"
+      },
+      "scenario_label": "2 October 2026 \u00b7 12:46 Europe/Amsterdam",
+      "weather_code": 0,
+      "cloud_cover": 0,
+      "temperature_2m": 18.0,
+      "wind_speed_10m": 8.6,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:35",
+      "sunset": "2026-10-02T19:07",
+      "sha256": {
+        "16x9": "c72de8671647008c51aec8525d20f613f1d673ece941b1da10d5f4dcddd15fbd",
+        "4x5": "03dff6f5f5a3a12b6557d139ff620fad8b276b66da184b62a4ad0a7f76bc33a9",
+        "9x16": "a0d0076ac4c28478bf7f30fb88cfa3c1165ea3cedd5dcdfb47c745ffbffb3ddc"
+      },
+      "files": {
+        "16x9": "Netherlands/Slochteren/nl-01-185-daylight-16x9.png",
+        "4x5": "Netherlands/Slochteren/nl-01-185-daylight-4x5.png",
+        "9x16": "Netherlands/Slochteren/nl-01-185-daylight-9x16.png"
+      }
+    },
+    {
+      "entry_id": "NL-01-186",
+      "caption": "Klooster Ter Apel, Ter Apel",
+      "folder": "Ter Apel",
+      "city": "Ter Apel",
+      "retrieval_timestamp": "2026-10-02T12:55:12+02:00",
+      "generation_timestamp": "2026-10-02T12:55:58+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:55:58+02:00",
+        "4x5": "2026-10-02T12:58:07+02:00",
+        "9x16": "2026-10-02T12:58:06+02:00"
+      },
+      "scenario_label": "2 October 2026 \u00b7 12:55 Europe/Amsterdam",
+      "weather_code": 2,
+      "cloud_cover": 74,
+      "temperature_2m": 17.8,
+      "wind_speed_10m": 7.6,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:34",
+      "sunset": "2026-10-02T19:06",
+      "sha256": {
+        "16x9": "f48f298fa10e998064339313310a6748db29e0ab7d21de0861d53c59070389e8",
+        "4x5": "d77b22377dce3f1c108732212ba89fa1cd39274dcf81ce27e95031c347177b9b",
+        "9x16": "7cbe58b42dfeed5c453a48383e35933f8798820e8e0fafdc8055540a6b5af187"
+      },
+      "files": {
+        "16x9": "Netherlands/Ter Apel/nl-01-186-daylight-16x9.png",
+        "4x5": "Netherlands/Ter Apel/nl-01-186-daylight-4x5.png",
+        "9x16": "Netherlands/Ter Apel/nl-01-186-daylight-9x16.png"
+      }
+    },
+    {
+      "entry_id": "NL-01-187",
+      "caption": "Lemsterpoort, Sloten",
+      "folder": "Sloten",
+      "city": "Sloten",
+      "retrieval_timestamp": "2026-10-02T12:55:18+02:00",
+      "generation_timestamp": "2026-10-02T12:56:04+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:56:04+02:00",
+        "4x5": "2026-10-02T12:58:11+02:00",
+        "9x16": "2026-10-02T12:58:22+02:00"
+      },
+      "scenario_label": "2 October 2026 \u00b7 12:56 Europe/Amsterdam",
+      "weather_code": 1,
+      "cloud_cover": 28,
+      "temperature_2m": 17.7,
+      "wind_speed_10m": 10.8,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:40",
+      "sunset": "2026-10-02T19:12",
+      "sha256": {
+        "16x9": "2a92e60ff3a5314baaaa464b099eafd12a02447a1c8589ef79ea15259bbed617",
+        "4x5": "eb4be24d693cc1ad5c2f7a777600cbca376c524be3798ee7ababe81e33f1da0b",
+        "9x16": "06bf31a7303af47806225ef13f455ecc40a346bf24b50f6e3fae0ac3f40cee8a"
+      },
+      "files": {
+        "16x9": "Netherlands/Sloten/nl-01-187-daylight-16x9.png",
+        "4x5": "Netherlands/Sloten/nl-01-187-daylight-4x5.png",
+        "9x16": "Netherlands/Sloten/nl-01-187-daylight-9x16.png"
+      }
+    },
+    {
+      "entry_id": "NL-01-188",
+      "caption": "Stadhuis, Dokkum",
+      "folder": "Dokkum",
+      "city": "Dokkum",
+      "retrieval_timestamp": "2026-10-02T13:01:16+02:00",
+      "generation_timestamp": "2026-10-02T13:01:39+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T13:01:39+02:00",
+        "4x5": "2026-10-02T13:01:55+02:00",
+        "9x16": "2026-10-02T13:01:54+02:00"
+      },
+      "scenario_label": "2 October 2026 \u00b7 13:01 Europe/Amsterdam",
+      "weather_code": 0,
+      "cloud_cover": 11,
+      "temperature_2m": 19.4,
+      "wind_speed_10m": 10.1,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:39",
+      "sunset": "2026-10-02T19:10",
+      "sha256": {
+        "16x9": "b12c53a38ab08f27171e30eed6020926efc70e1bdb2d04217bd07ceb9b8cac40",
+        "4x5": "fc389c6fac93c96f6d75656a6ec9e5f47c6c169620fa5c3048b4aa74192858e1",
+        "9x16": "87260d6ebd199802e2602155cba9eca2f820a3197d85e289d55bc5695cf74e28"
+      },
+      "files": {
+        "16x9": "Netherlands/Dokkum/nl-01-188-daylight-16x9.png",
+        "4x5": "Netherlands/Dokkum/nl-01-188-daylight-4x5.png",
+        "9x16": "Netherlands/Dokkum/nl-01-188-daylight-9x16.png"
+      }
+    }
+  ]
+}
