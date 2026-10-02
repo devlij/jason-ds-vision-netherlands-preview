@@ -4,22 +4,56 @@
   "region": "Friesland",
   "city": "Hindeloopen",
   "caption": "Waterfront, Hindeloopen",
-  "scenario_label": "26 September 2026 · 00:01 Europe/Amsterdam",
-  "composition": "Harbour and lock toward the IJsselmeer, church tower behind · AI-generated artistic interpretation",
-  "description": "The Hindeloopen waterfront opens through a small harbour and lock toward the dark IJsselmeer, with traditional houses along the dike and a brick church tower behind them. The sky is partly cloudy and the wind is the lightest of this group, about 1.8 km/h. It is about 12.7°C. Sunset was 19:27. There is no ice and no readable shop lettering.",
+  "scenario_label": "26 September 2026 \u00b7 00:01 Europe/Amsterdam",
+  "composition": "Harbour and lock toward the IJsselmeer, church tower behind \u00b7 AI-generated artistic interpretation",
+  "description": "The Hindeloopen waterfront opens through a small harbour and lock toward the dark IJsselmeer, with traditional houses along the dike and a brick church tower behind them. The sky is partly cloudy and the wind is the lightest of this group, about 1.8 km/h. It is about 12.7\u00b0C. Sunset was 19:27. There is no ice and no readable shop lettering.",
   "alt_text": "AI-generated artistic interpretation of the Hindeloopen harbour and church tower on a partly cloudy night",
   "file_16x9": "Netherlands/Hindeloopen/nl-01-059-16x9.png",
   "file_4x5": "Netherlands/Hindeloopen/nl-01-059-4x5.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "G1 visual pass: night waterfront at Hindeloopen — church tower rising over gabled houses with lit windows, moored sailboats and a stone quay, lamp reflections on the water, dramatic clouded sky. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Waterfront, Hindeloopen', scenario '26 September 2026 · 00:01 Europe/Amsterdam' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:01:04+02:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "G1 visual pass: night waterfront at Hindeloopen \u2014 church tower rising over gabled houses with lit windows, moored sailboats and a stone quay, lamp reflections on the water, dramatic clouded sky. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Waterfront, Hindeloopen', scenario '26 September 2026 \u00b7 00:01 Europe/Amsterdam' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:01:04+02:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free \u00b7 no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:09.883073+00:00",
   "sha256_16x9": "1fc1051c29a6ce955ff621829d1dad8a3e4db35b73a24b1486fb380b43a2bad2",
   "sha256_4x5": "29240b718eb7347e4b95ce098553e245db18af07c82bd965d7aa475e38ceb903",
   "file_9x16": "Netherlands/Hindeloopen/nl-01-059-9x16.png",
   "sha256_9x16": "f444fef0d1941c4a4b33c30ec379a54df018037c583cba44777899dc62c69c3c",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 3ae30f897ce3d02938414089db36f61da473cfb3a08781738be1ec637c17f508. Source SHA-256 4:5 1352f438aced5891ff498dc18d58ac7b58bbd308aeee0bb9a6a6e7b4d5d5f121. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 3ae30f897ce3d02938414089db36f61da473cfb3a08781738be1ec637c17f508. Source SHA-256 4:5 1352f438aced5891ff498dc18d58ac7b58bbd308aeee0bb9a6a6e7b4d5d5f121. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Hindeloopen/nl-01-059-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Hindeloopen/nl-01-059-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Hindeloopen/nl-01-059-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-059",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 11:35 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:02+02:00",
+    "generation_timestamp": "2026-10-02T11:35:54+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-059.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Hindeloopen/nl-01-059-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Hindeloopen/nl-01-059-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Hindeloopen/nl-01-059-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "ac82387145d6df7cef96396fabcfaae96a6a3b73c1b01d29e8bc1baf3f9c17e2",
+      "4x5": "50b3bf96192be0a066bbb1a396ee82522c725614a30d81c90461eceb3415a2c7",
+      "9x16": "ee8296de21cce97a9fdf8cda9bc8fbe6f77683a1b4ad441b79f2e8069fce3ecc"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Waterfront, Hindeloopen",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 11:35 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

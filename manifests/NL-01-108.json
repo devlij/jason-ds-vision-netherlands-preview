@@ -4,22 +4,56 @@
   "region": "Zeeland",
   "city": "Goes",
   "caption": "Harbour, Goes",
-  "scenario_label": "26 September 2026 · 01:04 Europe/Amsterdam",
-  "composition": "Stadshaven quay and the distant crossing tower of the Grote Kerk · AI-generated artistic interpretation",
-  "description": "The stadshaven at Goes is a still basin with brick quay walls and a few moored boats. Behind the roofs, the stone crossing tower of the Grote of Maria Magdalenakerk rises. The church itself stands inland, not in the water. The sky is mainly clear, about 16.8°C, with wind near 10.4 km/h. This is not the town hall on the market.",
+  "scenario_label": "26 September 2026 \u00b7 01:04 Europe/Amsterdam",
+  "composition": "Stadshaven quay and the distant crossing tower of the Grote Kerk \u00b7 AI-generated artistic interpretation",
+  "description": "The stadshaven at Goes is a still basin with brick quay walls and a few moored boats. Behind the roofs, the stone crossing tower of the Grote of Maria Magdalenakerk rises. The church itself stands inland, not in the water. The sky is mainly clear, about 16.8\u00b0C, with wind near 10.4 km/h. This is not the town hall on the market.",
   "alt_text": "AI-generated artistic interpretation of the town harbour in Goes on a mainly clear night, with the Grote Kerk crossing tower behind the roofs",
   "file_16x9": "Netherlands/Goes/nl-01-108-16x9.png",
   "file_4x5": "Netherlands/Goes/nl-01-108-4x5.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "G1: night view along the Goes stadshaven: brick quay walls, moored boats, gabled houses with lit windows, stone church tower behind the roofs, lamp reflections in still water; clean composition. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Harbour, Goes', scenario '26 September 2026 · 01:04 Europe/Amsterdam', disclosure and signature legible; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:04:40+02:00, unique across all 288 NL scenes; scenario minute inside model hour 01:00. G3: builder note documents text-prompt-only generation, no photographic input. G4: no prominent people or focal logos; documented only. G5: card fields complete.",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "G1: night view along the Goes stadshaven: brick quay walls, moored boats, gabled houses with lit windows, stone church tower behind the roofs, lamp reflections in still water; clean composition. G2: masters exact 1920x1080 / 864x1080; on-image caption 'Harbour, Goes', scenario '26 September 2026 \u00b7 01:04 Europe/Amsterdam', disclosure and signature legible; Art. 50 metadata on both; Open-Meteo retrieval 2026-09-26T01:04:40+02:00, unique across all 288 NL scenes; scenario minute inside model hour 01:00. G3: builder note documents text-prompt-only generation, no photographic input. G4: no prominent people or focal logos; documented only. G5: card fields complete.",
   "approved_at": "2026-09-26T06:39:20.279612+00:00",
   "sha256_16x9": "6bd278e30ef7e0048e4b62dd77549adc93568260e229fa84367de73cceda798a",
   "sha256_4x5": "1d11b83d2f21a782c5f4f6f7a2c0c40eafc0653746c21eb0f48e0654627d3ca5",
   "file_9x16": "Netherlands/Goes/nl-01-108-9x16.png",
   "sha256_9x16": "e4f846951c705cc8ccf87dd7e5f86d97ac58fda163161812b977f49c9372b9e5",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 9b36111207a927999ce5abf131b5636604af119c19256fd563969fb5dc6995a2. Source SHA-256 4:5 39b28490943a516d9037db151be8c0e65d89046495fa29f51869ab128b851ad6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 9b36111207a927999ce5abf131b5636604af119c19256fd563969fb5dc6995a2. Source SHA-256 4:5 39b28490943a516d9037db151be8c0e65d89046495fa29f51869ab128b851ad6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Goes/nl-01-108-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Goes/nl-01-108-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Goes/nl-01-108-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-108",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 11:36 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:16+02:00",
+    "generation_timestamp": "2026-10-02T11:36:33+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-108.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Goes/nl-01-108-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Goes/nl-01-108-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Goes/nl-01-108-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "199d9cf310efb233b3246752611d031afa4ce808935ccb1e337c715e0b3a8eec",
+      "4x5": "725f9f1cf083cf186cc6ab5d5671bfcf1153115fc780dd7d814c70c98b09f995",
+      "9x16": "94909b6456338bc9aa2b868b69abfdd2987f59355b7e00ce07475b0d8440a85b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Harbour, Goes",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 11:36 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
