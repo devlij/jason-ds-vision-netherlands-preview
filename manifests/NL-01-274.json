@@ -4,14 +4,14 @@
   "region": "Overijssel",
   "city": "Hasselt",
   "caption": "Sint-Stephanuskerk, Hasselt",
-  "scenario_label": "26 September 2026 · 04:36 Europe/Amsterdam",
-  "composition": "Late Gothic hall church and heavy west tower from the market · AI-generated artistic interpretation",
-  "description": "The Sint-Stephanuskerk at Hasselt in Overijssel is a late Gothic brick hall church with a heavy west tower built into the church. The present spire dates from the rebuild after the 1725 fire. It is partly cloudy, about 9.4°C, with wind near 3.2 km/h and cloud cover about 73%. The church is closed. This is not Hasselt in Belgium.",
+  "scenario_label": "26 September 2026 \u00b7 04:36 Europe/Amsterdam",
+  "composition": "Late Gothic hall church and heavy west tower from the market \u00b7 AI-generated artistic interpretation",
+  "description": "The Sint-Stephanuskerk at Hasselt in Overijssel is a late Gothic brick hall church with a heavy west tower built into the church. The present spire dates from the rebuild after the 1725 fire. It is partly cloudy, about 9.4\u00b0C, with wind near 3.2 km/h and cloud cover about 73%. The church is closed. This is not Hasselt in Belgium.",
   "alt_text": "AI-generated artistic interpretation of the Sint-Stephanuskerk in Hasselt, Overijssel, at night",
   "file_16x9": "Netherlands/Hasselt/nl-01-274-16x9.png",
   "file_4x5": "Netherlands/Hasselt/nl-01-274-4x5.png",
   "file_9x16": "Netherlands/Hasselt/nl-01-274-9x16.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
   "sha256_16x9": "0106ec25d334a98e78c94eb7da94e850c0718f8912d8be119fcd092a9e3e069f",
@@ -19,7 +19,41 @@
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "3f2648401692cdb9388cbee6afe46d02f615d8bbabfa9169734b0e2dd3649cb3",
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a84c41478e054b9f92eadb4a5374b1f615767aab5bfab16eb820546187dd24c1. Source SHA-256 4:5 f767f12a801ae59eede6e0e6d85377e2efc42a4771b89fc0a7be5440c827ed97. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Brick Gothic church with needle spire, cobbled square, lamps, overcast night. Exact caption/scenario '26 September 2026 · 04:36 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:36:44+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
-  "approved_at": "2026-09-29T04:24:52.305089+00:00"
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night. Brick Gothic church with needle spire, cobbled square, lamps, overcast night. Exact caption/scenario '26 September 2026 \u00b7 04:36 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:36:44+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00",
+  "file_16x9_day": "Netherlands/Hasselt/nl-01-274-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Hasselt/nl-01-274-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Hasselt/nl-01-274-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-274",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 13:11 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:10:03+02:00",
+    "generation_timestamp": "2026-10-02T13:11:18+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-274.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Hasselt/nl-01-274-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Hasselt/nl-01-274-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Hasselt/nl-01-274-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "af9eaf11005e23efde570e5d21594bee3b054c396bec5a2c8c8f9cbb17a1d7ad",
+      "4x5": "1cccaf472d0a29396ef7583b1607d047c6c7a44ba2b30d066c760b5ea8c700d4",
+      "9x16": "f066f604404543390297b6b9e027610a170064b28116e75bdb481fd171b2cf2d"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Sint-Stephanuskerk, Hasselt",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 13:11 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

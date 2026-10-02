@@ -4,14 +4,14 @@
   "region": "North Brabant",
   "city": "Breda",
   "caption": "Begijnhof, Breda",
-  "scenario_label": "26 September 2026 · 04:18 Europe/Amsterdam",
-  "composition": "Long court of low brick houses and a small neoclassical chapel · AI-generated artistic interpretation",
-  "description": "The Begijnhof at Breda is a long court of low brick houses, mostly from the 17th century and raised by a storey early in the 18th. The beguine chapel of 1836-1838 is a single-aisle neoclassical front on the court. It is overcast, about 15.3°C, with wind near 11.2 km/h and cloud cover about 100%. No sign is readable. The castle, the Grote Kerk, and the Spanjaardsgat are other scenes and are not in this frame.",
+  "scenario_label": "26 September 2026 \u00b7 04:18 Europe/Amsterdam",
+  "composition": "Long court of low brick houses and a small neoclassical chapel \u00b7 AI-generated artistic interpretation",
+  "description": "The Begijnhof at Breda is a long court of low brick houses, mostly from the 17th century and raised by a storey early in the 18th. The beguine chapel of 1836-1838 is a single-aisle neoclassical front on the court. It is overcast, about 15.3\u00b0C, with wind near 11.2 km/h and cloud cover about 100%. No sign is readable. The castle, the Grote Kerk, and the Spanjaardsgat are other scenes and are not in this frame.",
   "alt_text": "AI-generated artistic interpretation of the Begijnhof in Breda at night",
   "file_16x9": "Netherlands/Breda/nl-01-271-16x9.png",
   "file_4x5": "Netherlands/Breda/nl-01-271-4x5.png",
   "file_9x16": "Netherlands/Breda/nl-01-271-9x16.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
   "sha256_16x9": "9ca5df686e216888b0622fd4d33580bae8035277109633c034f2e0f685fca921",
@@ -19,7 +19,41 @@
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "02ff2be77f808afcaba24f2b086bb7afd8aa476b1001ff3e2a3ff6ed953b1d7f",
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 0b553ef1f633b8f135cfb1b222620c2af1a6da70bbdd6d80dcfa1ec49a0dac3a. Source SHA-256 4:5 d346fb804702bbd17aeae586efa3f0e8323f166a99ea0d9b2c2da1c088d3317b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Beguinage courtyard: brick houses, walled garden, white chapel, lamps, overcast night. Exact caption/scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:18:57+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
-  "approved_at": "2026-09-29T04:24:52.305089+00:00"
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night. Beguinage courtyard: brick houses, walled garden, white chapel, lamps, overcast night. Exact caption/scenario '26 September 2026 \u00b7 04:18 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:18:57+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00",
+  "file_16x9_day": "Netherlands/Breda/nl-01-271-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Breda/nl-01-271-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Breda/nl-01-271-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-271",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 13:22 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:21:00+02:00",
+    "generation_timestamp": "2026-10-02T13:22:21+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-271.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Breda/nl-01-271-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Breda/nl-01-271-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Breda/nl-01-271-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "7508fc914ffbec5bb7a2dfa845d5977ac8784efb3f08210aa88ed30e91e4f99b",
+      "4x5": "01d9971563b3b62ac3e2d6ceb87220b2eb3aa74d535210998943b3bdab9fc83a",
+      "9x16": "a911ee095c1cbc37e8075b9005d1ede42882c424f46026e73e5452a119b0cf1c"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Begijnhof, Breda",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 13:22 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

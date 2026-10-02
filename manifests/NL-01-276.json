@@ -4,14 +4,14 @@
   "region": "Utrecht",
   "city": "Zeist",
   "caption": "Slot Zeist, Zeist",
-  "scenario_label": "26 September 2026 · 04:36 Europe/Amsterdam",
-  "composition": "Classicist palace across the moat from the stone bridge · AI-generated artistic interpretation",
-  "description": "Slot Zeist is the classicist palace finished in 1686. A seven-bay main block under a slate hipped roof is linked by one-storey flat-roofed wings to two-storey side houses around a forecourt. It is overcast, about 11.5°C, with wind near 6.1 km/h and cloud cover about 100%. The interior is closed. The year on the door is not readable. The medieval castle is gone and is not rebuilt. The Broederplein houses are not this frame.",
+  "scenario_label": "26 September 2026 \u00b7 04:36 Europe/Amsterdam",
+  "composition": "Classicist palace across the moat from the stone bridge \u00b7 AI-generated artistic interpretation",
+  "description": "Slot Zeist is the classicist palace finished in 1686. A seven-bay main block under a slate hipped roof is linked by one-storey flat-roofed wings to two-storey side houses around a forecourt. It is overcast, about 11.5\u00b0C, with wind near 6.1 km/h and cloud cover about 100%. The interior is closed. The year on the door is not readable. The medieval castle is gone and is not rebuilt. The Broederplein houses are not this frame.",
   "alt_text": "AI-generated artistic interpretation of Slot Zeist at night",
   "file_16x9": "Netherlands/Zeist/nl-01-276-16x9.png",
   "file_4x5": "Netherlands/Zeist/nl-01-276-4x5.png",
   "file_9x16": "Netherlands/Zeist/nl-01-276-9x16.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
   "sha256_16x9": "60e7696689f0d87f333c8a31b98418e8a7554885affb79e64b0754a5e11dadc3",
@@ -19,7 +19,41 @@
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "3ba21482694f809bfcdc1f315b3b41d02bb9b702fee6bd91e1d9a733054b874c",
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 84236f415011bafffdbd6d680a6e66ca4c2b25c5b730d474e3f002e80c384510. Source SHA-256 4:5 f9417b277bc721558a10718793ef0acc3683b7205da9e41698fc1910ef5f8670. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Brick manor with side pavilions, stone bridge over the moat, lit windows, overcast night. Exact caption/scenario '26 September 2026 · 04:36 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:36:48+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
-  "approved_at": "2026-09-29T04:24:52.305089+00:00"
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night. Brick manor with side pavilions, stone bridge over the moat, lit windows, overcast night. Exact caption/scenario '26 September 2026 \u00b7 04:36 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:36:48+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00",
+  "file_16x9_day": "Netherlands/Zeist/nl-01-276-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Zeist/nl-01-276-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Zeist/nl-01-276-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-276",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 13:11 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:10:09+02:00",
+    "generation_timestamp": "2026-10-02T13:11:33+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-276.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Zeist/nl-01-276-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zeist/nl-01-276-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Zeist/nl-01-276-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8e9ab6522c2e7da5c73b7de9fa2c0f694e298b0aa705635e52812d1a8649f602",
+      "4x5": "df3a4f7f660a6747485c3e420f2db7dd4ee6a2c55fc32e67a4914cd1f8a82b03",
+      "9x16": "f01f607bccbcf49453210924cd12f92371afb9d693a0f524993d968aa1a554c3"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Slot Zeist, Zeist",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 13:11 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
