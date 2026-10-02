@@ -3,9 +3,10 @@ Date: 2026-10-02
 Status: Candidate. Not Cosmo QC. Not Approved. Not self-certified.
 Country: Netherlands
 Scenes: 10. Genuine daylight sets: 10. Skips inside this slice: 0.
-Masters per scene: 16:9 1920x1270, 4:5 864x1270, 9:16 1080x2110.
-Each 9:16 canvas is a 1080x1920 photo plus the 190px label bar.
-Exact 1080x1920 proof of that photo: approvals/pack11-genuine-daylight/proofs/
+Masters per scene: 16:9 1920x1270, 4:5 864x1270, 9:16 1080x1920.
+Each 9:16 file is 1080x1920 total, including the 190px label bar inside that canvas. The bar is not appended past 1920. Photo rows above the bar are the legacy photo, unscaled.
+9:16 rework 2026-10-02: the prior masters were 1080x2110 (1080x1920 photo plus a 190px bar stacked under it). Those bytes are replaced. Status remains Candidate. Not Cosmo QC. Not Approved.
+Exact 1080x1920 proof of the full legacy photo (no bar): approvals/pack11-genuine-daylight/proofs/
 Provenance: genuine-daylight. Text-prompt only. No photographic reference.
 Night masters were not used as image anchors and were not regenerated.
 Interim-ai daylight stills (PRs #18–#31 and the daylight-pack branches) are not these files and are not counted.
@@ -17,7 +18,7 @@ Each retrieval falls between that site's model sunrise and sunset on 2 October 2
 Scenario line is the Europe/Amsterdam minute of the 16:9 generation, inside the retrieval's model hour 12:00–12:59.
 The 9:16 frame is a second text prompt of the same viewpoint and the same retrieval, a few minutes later in that hour.
 The 4:5 frame is a center crop of the genuine 16:9 daylight pre-text. It is not a crop of the night master.
-Label bar: 190px #0e0e12 under the photo, 2px hairline, no tint and no type on the artwork.
+Label bar: 190px #0e0e12, 2px hairline, no tint and no type on the artwork. On 16:9 and 4:5 the bar sits under the photo. On 9:16 the same bar is composed inside the 1080x1920 canvas.
 On-image text: caption; Scenario: <gen minute> Europe/Amsterdam; AI-generated artistic interpretation · Not a photograph.; Jason D’s Vision; Jason A. Devlin.
 Art. 50: Title and Copyright iTXt, Description, Software, and Comment tEXt. Comment date 2026-10-02.
 
@@ -35,7 +36,7 @@ NL-01-119  Drommedaris, Enkhuizen
   night 9x16     b367136ad68ee8522e0ba5b0f642fc88dd19fc733c8160cc402aea28baa60278  IDENTICAL
   variant 16x9   018af9d6ebe93fbc217338d9557489c4ebf94ac2f98ceedf20669868c9e80cbf  1920x1270
   variant 4x5    33c83a41410f2f648a3047f205d74c651d08b7cde141fc2d4aa580c05045519c  864x1270
-  variant 9x16   512223b19c56e340fe8534a20a29460a706cd76ff438c4009b3858bd276c705b  1080x2110
+  variant 9x16   da7447e9b08bb0a730f97aa2cd84b6476ddc6cbf6e5c9f66daa268363670636a  1080x1920
   proof 9x16     a991cb0fef3e95328a1a60afb05dc8da9377dfdc4beaa371aa02c38f1b7c0932  1080x1920
   files          Netherlands/Enkhuizen/nl-01-119-daylight-16x9.png
                  Netherlands/Enkhuizen/nl-01-119-daylight-4x5.png
@@ -55,7 +56,7 @@ NL-01-120  Radboud Castle, Medemblik
   night 9x16     7858951b6e156d38abb668e4ee1e057a4535f4d3bc1ea76f60796f1fe8f77fe6  IDENTICAL
   variant 16x9   8e89ad38fb8ca86735a29ab453fb9acaac0dc18ee0e90979b2ae5e982f738db0  1920x1270
   variant 4x5    c15d71da2e086e1512b71077c2a7af93b5169c6da0fc942564a702be25812c02  864x1270
-  variant 9x16   c72147de802fe328b107ae90b5b6283be05462b04db9e14342535ddbba8cd412  1080x2110
+  variant 9x16   7f2d4b79a62d468fbbfb98e1ea9677ff2bbd0e6df0a771b72da73228dc85ed1b  1080x1920
   proof 9x16     54f73790a072e6a9a2dfcae9dbb638be8cfeff45ae5c0db2fde5cf69ba5b861c  1080x1920
   files          Netherlands/Medemblik/nl-01-120-daylight-16x9.png
                  Netherlands/Medemblik/nl-01-120-daylight-4x5.png
@@ -75,7 +76,7 @@ NL-01-121  Kaasmarkt, Purmerend
   night 9x16     2e542b68ba4533c67104312c97fb58f114662e17b324aca518ddf075255387dc  IDENTICAL
   variant 16x9   39ef515eab73b5c11b194c56ff5340769118562ca8eec9c48dbd6c4d9c7326a9  1920x1270
   variant 4x5    4a5d7fb8f35f8f0f5eaf3a5a60e64efb8c21cf9188c5ec47db8db739835b0298  864x1270
-  variant 9x16   751be0b09e9d2013b4b924645583e589284b5757d1dc5782dcb1c3f5728a116e  1080x2110
+  variant 9x16   d5b4357ba31a02e4d67e6661e0d8fa2010b6e18a73aea9fd67c0295616828d58  1080x1920
   proof 9x16     caeccf302e7b8b30cdb285c78840ba3341b87f03144e7aa2d34df6998fe6332c  1080x1920
   files          Netherlands/Purmerend/nl-01-121-daylight-16x9.png
                  Netherlands/Purmerend/nl-01-121-daylight-4x5.png
@@ -95,7 +96,7 @@ NL-01-122  Lange Vechtbrug, Weesp
   night 9x16     70d8b1669c135a450c083a5d094d6752f4af8502005e6ce04a7b31aa014c547d  IDENTICAL
   variant 16x9   5592556c18977f1467bc6443ed11b9d951b6e07e2accb762dbe6e26efbaeee05  1920x1270
   variant 4x5    2718da8e7d2d79b89f463ea24d8dfa52f01f757b1af1ab82c6a2d084648ad333  864x1270
-  variant 9x16   4810ec37f5a7196034625459c3b7282195d63bef78a25f1d45035694fc3b3728  1080x2110
+  variant 9x16   d0b5bc65d02141bbbb2014fb798acb89c1e341a0b0499c9e8bd2556aabf77242  1080x1920
   proof 9x16     e960eba1d4c0c8601c5778e8c9e3d980c3e0f1345631396991784d59492b652f  1080x1920
   files          Netherlands/Weesp/nl-01-122-daylight-16x9.png
                  Netherlands/Weesp/nl-01-122-daylight-4x5.png
@@ -115,7 +116,7 @@ NL-01-123  Nijenrode Castle, Breukelen
   night 9x16     08caf9325f98b31cd7d2b426097c1a3103ba6f3871a8633b2d747f753addbf47  IDENTICAL
   variant 16x9   e48249b1952771348bd5aba5a179fa9a7080b8ed369f9207e489a44185f00020  1920x1270
   variant 4x5    2c77d2dd7b153de8dedd41d661274437bc5809097955c11c93f21c6c41d1fe35  864x1270
-  variant 9x16   41e1bc9efb1c4192567fa5a9538a09ca46cf9479ac34d9102aaa5f33d4c001f8  1080x2110
+  variant 9x16   3955f89cd9cad43e9ff60bde00f0101468dc172c9578fafdb1e26fc4f25dbd59  1080x1920
   proof 9x16     182edba05769455c9771fd2d63a62afbad2b62eda2de23f1a41328696ba90470  1080x1920
   files          Netherlands/Breukelen/nl-01-123-daylight-16x9.png
                  Netherlands/Breukelen/nl-01-123-daylight-4x5.png
@@ -135,7 +136,7 @@ NL-01-124  Woerden Castle, Woerden
   night 9x16     58fc597609c31ea2a74beed003de4c9df7b8a4700dac3afab661b09a973e89e1  IDENTICAL
   variant 16x9   97d83154a3d400a6d16d9714fda9e5783f4c0b4bf9e5f096bd753a2ade24a00b  1920x1270
   variant 4x5    b7bb30b7d1be78a836323847c7abd414163e96dc28cfb208fb371d9fc0937cbe  864x1270
-  variant 9x16   e29a723cea8332b77f1168e7756ac0aa5867076b5eacad28a3b463da574a548c  1080x2110
+  variant 9x16   49e937179130e3c05542214d1a91e9cbe3a6df37d254b1c340f5baaff9ae6197  1080x1920
   proof 9x16     f499c02a056962f051dfed2a6bacc68ab8833978918ed93169eeb41d9515be88  1080x1920
   files          Netherlands/Woerden/nl-01-124-daylight-16x9.png
                  Netherlands/Woerden/nl-01-124-daylight-4x5.png
@@ -155,7 +156,7 @@ NL-01-125  Waag, Gouda
   night 9x16     b801bc30ae78431be49cddc2ffe3e19113198c744350214de216c096dfb3f1e4  IDENTICAL
   variant 16x9   d47b3b594bf3b5d3f4f9c8215329ff73748d054f8c93cdcd1ef31b80fee799cf  1920x1270
   variant 4x5    cb1b808d4ec6dd8b1124662c407b986b5f5043bbad6f433d13a1d9104183f61a  864x1270
-  variant 9x16   318e64f50c13f290dc552d575945da063d8aae36fce31bc6eba9aede18621f9a  1080x2110
+  variant 9x16   21b40aaf2d5bdb7a646a69e8f4a1607300d9745a5884b736327de36b67fa2055  1080x1920
   proof 9x16     751e60ed1030206a53839de86e71ddc83fef895dbbe5d9b10077be83088a973d  1080x1920
   files          Netherlands/Gouda/nl-01-125-daylight-16x9.png
                  Netherlands/Gouda/nl-01-125-daylight-4x5.png
@@ -175,7 +176,7 @@ NL-01-126  Hoge Molen, Nieuw-Lekkerland
   night 9x16     0bae7a1877ff3d50f081a176ff8d48d99ae2f452a3dacd3bcb53037183abbacb  IDENTICAL
   variant 16x9   97841730d987c8ff90a3e89dbb877dca0aae1ba8574350be2a93df28177a90ab  1920x1270
   variant 4x5    e435e4b4bcee634e1f91c028e5fb4e1f6245cef6df609d79a22479ec129cee2d  864x1270
-  variant 9x16   ddf9092a824b5bf6efeb2107c0a71b3accf3543a6f84f8e4f2b56a99c7bdd27c  1080x2110
+  variant 9x16   1df2f308ea4aee45e40f130a8125ed25b2b5c945f2850d5ff00a96ad02801fc4  1080x1920
   proof 9x16     2c1fec1f8f0702b01dde4b4d7fd77c5ab233047030743856d4aedafef39c9166  1080x1920
   files          Netherlands/Nieuw-Lekkerland/nl-01-126-daylight-16x9.png
                  Netherlands/Nieuw-Lekkerland/nl-01-126-daylight-4x5.png
@@ -195,7 +196,7 @@ NL-01-127  Waag, Schoonhoven
   night 9x16     82ae5bcd471ff735688fa5b0a2cf7f7c0176a02ce2c6d06140050cdde83bce0e  IDENTICAL
   variant 16x9   af04d282d5577ae3026ada43c13b3e2ac18221fdbdf3582d38fea518ecd04426  1920x1270
   variant 4x5    83bb546a0235efc6367eced1aa91affa507a41550d792cf36dc6cee647494afe  864x1270
-  variant 9x16   f48fc90b129cfb39d0c50d96291e8530265490ac7bf86387fdaea2ce301b76ce  1080x2110
+  variant 9x16   71aea09a1f014a9ee960cc933c5a1c8ca257181a2b91f2e1b51ebd931bc0180c  1080x1920
   proof 9x16     9731b377ae5d9532fd977c7deb69fecd11427f59d39bd3195e8e5252f8fc53bc  1080x1920
   files          Netherlands/Schoonhoven/nl-01-127-daylight-16x9.png
                  Netherlands/Schoonhoven/nl-01-127-daylight-4x5.png
@@ -215,7 +216,7 @@ NL-01-128  Grote Kerk, Vianen
   night 9x16     dead4617b182024a17eafcb4ba3b00ccd8b40227bf9419d5ba6f44c6709e0b00  IDENTICAL
   variant 16x9   ec4e3be27fc5d9b2b628b7f5529a4f7ee426c87c02011dc731dfd8852e698e7e  1920x1270
   variant 4x5    a0c1442a82f7d378656ec831da34bba0911f5cc3fce086f41bfd65d9a90c262d  864x1270
-  variant 9x16   a52abcc8d07338b98c4a64d390819b59c5aee7d8b896d3cd482f76e65fc6d212  1080x2110
+  variant 9x16   9379526daa674eb1abd0b9099b575fe9fbe35539c58fd213e970a233423f691e  1080x1920
   proof 9x16     f213eb230f05b1f27db2c208bbb52fb0f2d1507ced3eb263d9b40ea8f332fff0  1080x1920
   files          Netherlands/Vianen/nl-01-128-daylight-16x9.png
                  Netherlands/Vianen/nl-01-128-daylight-4x5.png
