@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Arnhem/nl-01-157-9x16.png",
   "sha256_9x16": "8093d8debf2228d5703ae5af5a01e3f1976c2eaf426a2e37d25dd5185916fad8",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5dd49c10fefd792bc61bbf11334dcfbd3c20e5f044f29fc36036114baa8456a2. Source SHA-256 4:5 36b8b712621659f585def19c7ea3e31400be8c4a6fc156290a42f046964c93c0. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5dd49c10fefd792bc61bbf11334dcfbd3c20e5f044f29fc36036114baa8456a2. Source SHA-256 4:5 36b8b712621659f585def19c7ea3e31400be8c4a6fc156290a42f046964c93c0. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Arnhem/nl-01-157-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Arnhem/nl-01-157-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Arnhem/nl-01-157-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-157",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:25 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:24:38+02:00",
+    "generation_timestamp": "2026-10-02T12:25:56+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-157.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Arnhem/nl-01-157-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Arnhem/nl-01-157-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Arnhem/nl-01-157-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "24874df780c4630c12e85a36944bc22788119f23ccd3f2c211ae8f68ee3fd7c5",
+      "4x5": "308f9c85d89c524f22f94ba32bbf07a62536517eef870adde9757c6b2cfed45c",
+      "9x16": "c3f6a046d08998ea77d734ddf560a997c37468f24e2466035e9ebe96dd7fb98b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Eusebiuskerk, Arnhem",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:25 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

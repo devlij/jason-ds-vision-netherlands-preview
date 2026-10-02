@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Dwingeloo/nl-01-150-9x16.png",
   "sha256_9x16": "c1d56c5ff7efd17b5f35217e0e3a092e107e8cb98bfde36329460c9b99aac675",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 afa696f2ff588c8c70e2d5075564d7993f6448b7de8c281a02a13bbbe0640c5c. Source SHA-256 4:5 7f6aa43a058ea6fec03e388837e8d7e5bacccb7d1e42575af0a90093d3aaca2b. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 afa696f2ff588c8c70e2d5075564d7993f6448b7de8c281a02a13bbbe0640c5c. Source SHA-256 4:5 7f6aa43a058ea6fec03e388837e8d7e5bacccb7d1e42575af0a90093d3aaca2b. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Dwingeloo/nl-01-150-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Dwingeloo/nl-01-150-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Dwingeloo/nl-01-150-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-150",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:25 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:24:19+02:00",
+    "generation_timestamp": "2026-10-02T12:25:24+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-150.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Dwingeloo/nl-01-150-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Dwingeloo/nl-01-150-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Dwingeloo/nl-01-150-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "4b58e037b17d52e753c81d218e4dc93efe5072ded02545ac575a5d2c13ae49d6",
+      "4x5": "801f6de34555eb3b66ca394d24cd2a952b05b3e31601116d327c45f1eb859648",
+      "9x16": "d9830df4fc974cd13956dcdea357cf7c5629e9038516af8b2a2a9bc008802179"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Dwingeloo telescope, Dwingeloo",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:25 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

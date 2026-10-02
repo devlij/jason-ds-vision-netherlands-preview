@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Appingedam/nl-01-151-9x16.png",
   "sha256_9x16": "5df9197ae52797d35988701abfa6cc7d4b26e0f4a8e7ad5ca53b3c543edf6dd9",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 035a97f9be2cc5e402ef778a333b1298b55a0f7e17e0b46444df78739840ef15. Source SHA-256 4:5 b37df958b63ef10ed0584d6620a152a6828560b075623d46b1381897842962e2. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 035a97f9be2cc5e402ef778a333b1298b55a0f7e17e0b46444df78739840ef15. Source SHA-256 4:5 b37df958b63ef10ed0584d6620a152a6828560b075623d46b1381897842962e2. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Appingedam/nl-01-151-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Appingedam/nl-01-151-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Appingedam/nl-01-151-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-151",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:25 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:24:22+02:00",
+    "generation_timestamp": "2026-10-02T12:25:21+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-151.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Appingedam/nl-01-151-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Appingedam/nl-01-151-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Appingedam/nl-01-151-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "e0acd9ecbbdeb41ba92c8c3778c8be59707c506043eec3029a1a3d239a614087",
+      "4x5": "8ae920b7ed6d2a98ab3fc6931dba8ad573014b4e992ab94e23248862dfef77fe",
+      "9x16": "c4023b29a95419e9b296be27c9b567622e8ac299d97ae1b17dbb7f36ea5c3bc4"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Hanging kitchens, Appingedam",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:25 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
