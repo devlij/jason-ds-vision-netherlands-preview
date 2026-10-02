@@ -20,5 +20,39 @@
   "sha256_9x16": "6e0d3da529d3398df9d177c0c8feab4a5ecd278ea80d116d3f235d7ce08e2e14",
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 0e12409cb7efb9c123eaa346707450d4e72cc43474bd66bab9241c859bdb1c10. Source SHA-256 4:5 74fb78b37e2ae775d8f71ccf63bb8f4143e8322d725fb4d827275bff8028ab82. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "approved_at": "2026-09-27T02:33:07Z",
-  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:56:08+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation."
+  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:56:08+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation.",
+  "file_16x9_day": "Netherlands/Zeerijp/nl-01-204-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Zeerijp/nl-01-204-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Zeerijp/nl-01-204-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-204",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:43:21+02:00",
+    "generation_timestamp": "2026-10-02T12:44:57+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-204.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Zeerijp/nl-01-204-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zeerijp/nl-01-204-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Zeerijp/nl-01-204-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9f8a73ef50ce4d632999fdfc4eb3005dc5f3bae2b2c4f97cc717567221a01ec0",
+      "4x5": "2af637c0ceeafa4e0a2bc0ffc0bdbcca734054f6b3b392dc42e4956826e01105",
+      "9x16": "9c92cc2d0b72b7f5cf9a589d6be9d9d8cdac6f33ee8674d91f079d06dd74540b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Jacobuskerk, Zeerijp",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:44 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

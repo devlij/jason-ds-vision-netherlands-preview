@@ -1,0 +1,552 @@
+[
+  {
+    "entry_id": "NL-01-199",
+    "caption": "Veenpark, Barger-Compascuum",
+    "folder": "Barger-Compascuum",
+    "weather": {
+      "entry_id": "NL-01-199",
+      "provenance": "genuine-daylight",
+      "site": "Veenpark",
+      "city": "Barger-Compascuum",
+      "latitude": 52.7563806,
+      "longitude": 7.0268358,
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T12:42:30+02:00",
+      "retrieval_display": "2 October 2026 12:42:30 Europe/Amsterdam",
+      "request_started": "2026-10-02T12:42:30+02:00",
+      "model_time": "2026-10-02T12:30",
+      "model_interval_seconds": 900,
+      "timezone": "Europe/Amsterdam",
+      "temperature_2m": 17.1,
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "wind_speed_10m": 6.1,
+      "is_day": 1,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:34",
+      "sunset": "2026-10-02T19:06",
+      "model_valid_hour_start": "2026-10-02T12:00",
+      "note": "Fresh Open-Meteo current retrieval for a genuine daylight generation. Not a copy of the night-card weather file.",
+      "gate": "open",
+      "amsterdam_retrieval": "2026-10-02T12:42:30+02:00",
+      "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+      "generation_timestamp": "2026-10-02T12:44:38+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:44:38+02:00",
+        "4x5": "2026-10-02T12:46:48+02:00",
+        "9x16": "2026-10-02T12:46:49+02:00"
+      },
+      "scenario_basis": "Scenario minute is the Europe/Amsterdam mtime of the text-prompt 16:9 generation. Weather fields are only the Open-Meteo current retrieval at retrieval_timestamp. Not a fixed label and not copied from the night card."
+    },
+    "sha256": {
+      "16x9": "33e205be86e6b1b0c0ed4ca97b1d104a73cd19316341e9ad2b43eba9d56ac6d9",
+      "4x5": "e147e6f488ef84e4f1890b617f03a4f27d0eb668c8014340ec35cbbae0e39be0",
+      "9x16": "8ca8382351e9c1cfb69d91d30daeb13ddce5a7ebd967e22fc31a97bdbccef184"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Barger-Compascuum/nl-01-199-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Barger-Compascuum/nl-01-199-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Barger-Compascuum/nl-01-199-daylight-9x16.png"
+    }
+  },
+  {
+    "entry_id": "NL-01-200",
+    "caption": "Peperbus, Zwolle",
+    "folder": "Zwolle",
+    "weather": {
+      "entry_id": "NL-01-200",
+      "provenance": "genuine-daylight",
+      "site": "Peperbus",
+      "city": "Zwolle",
+      "latitude": 52.5121828,
+      "longitude": 6.0897359,
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T12:42:32+02:00",
+      "retrieval_display": "2 October 2026 12:42:32 Europe/Amsterdam",
+      "request_started": "2026-10-02T12:42:32+02:00",
+      "model_time": "2026-10-02T12:30",
+      "model_interval_seconds": 900,
+      "timezone": "Europe/Amsterdam",
+      "temperature_2m": 19.4,
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "wind_speed_10m": 6.5,
+      "is_day": 1,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:38",
+      "sunset": "2026-10-02T19:10",
+      "model_valid_hour_start": "2026-10-02T12:00",
+      "note": "Fresh Open-Meteo current retrieval for a genuine daylight generation. Not a copy of the night-card weather file.",
+      "gate": "open",
+      "amsterdam_retrieval": "2026-10-02T12:42:32+02:00",
+      "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+      "generation_timestamp": "2026-10-02T12:44:38+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:44:38+02:00",
+        "4x5": "2026-10-02T12:46:45+02:00",
+        "9x16": "2026-10-02T12:49:49+02:00"
+      },
+      "scenario_basis": "Scenario minute is the Europe/Amsterdam mtime of the text-prompt 16:9 generation. Weather fields are only the Open-Meteo current retrieval at retrieval_timestamp. Not a fixed label and not copied from the night card."
+    },
+    "sha256": {
+      "16x9": "134ae95e8b899e4f0c335cb1fb39ac3fca03c4ee8d949478da04781dbcb99fe6",
+      "4x5": "d94220a8530ef9fcf4de96092f09c740c1065d7baa7be0f0bd580686cffb020b",
+      "9x16": "1ac4b35d5f83e95e775298d5239706a78f567e13a0c46d192e209724c8c8380c"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Zwolle/nl-01-200-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zwolle/nl-01-200-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Zwolle/nl-01-200-daylight-9x16.png"
+    }
+  },
+  {
+    "entry_id": "NL-01-201",
+    "caption": "Waag, Deventer",
+    "folder": "Deventer",
+    "weather": {
+      "entry_id": "NL-01-201",
+      "provenance": "genuine-daylight",
+      "site": "Waag",
+      "city": "Deventer",
+      "latitude": 52.2515098,
+      "longitude": 6.160037,
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T12:42:34+02:00",
+      "retrieval_display": "2 October 2026 12:42:34 Europe/Amsterdam",
+      "request_started": "2026-10-02T12:42:34+02:00",
+      "model_time": "2026-10-02T12:30",
+      "model_interval_seconds": 900,
+      "timezone": "Europe/Amsterdam",
+      "temperature_2m": 18.5,
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "wind_speed_10m": 7.2,
+      "is_day": 1,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:37",
+      "sunset": "2026-10-02T19:10",
+      "model_valid_hour_start": "2026-10-02T12:00",
+      "note": "Fresh Open-Meteo current retrieval for a genuine daylight generation. Not a copy of the night-card weather file.",
+      "gate": "open",
+      "amsterdam_retrieval": "2026-10-02T12:42:34+02:00",
+      "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+      "generation_timestamp": "2026-10-02T12:44:40+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:44:40+02:00",
+        "4x5": "2026-10-02T12:47:04+02:00",
+        "9x16": "2026-10-02T12:47:05+02:00"
+      },
+      "scenario_basis": "Scenario minute is the Europe/Amsterdam mtime of the text-prompt 16:9 generation. Weather fields are only the Open-Meteo current retrieval at retrieval_timestamp. Not a fixed label and not copied from the night card."
+    },
+    "sha256": {
+      "16x9": "9ec58a9c8b7e4dd564eb352c8c7c98832717db4ed36c328d7f80c4e6efbd284b",
+      "4x5": "c857e18ebed49328f2b957eae2592bbdd2accbb97fcdde6648c4958be1c1d872",
+      "9x16": "af132a969325f42d3c8b41c98b256ac8b801fcb0f6278c85e13729c7971dadad"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Deventer/nl-01-201-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Deventer/nl-01-201-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Deventer/nl-01-201-daylight-9x16.png"
+    }
+  },
+  {
+    "entry_id": "NL-01-202",
+    "caption": "Koornmarktspoort, Kampen",
+    "folder": "Kampen",
+    "weather": {
+      "entry_id": "NL-01-202",
+      "provenance": "genuine-daylight",
+      "site": "Koornmarktspoort",
+      "city": "Kampen",
+      "latitude": 52.5554269,
+      "longitude": 5.92155,
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T12:43:16+02:00",
+      "retrieval_display": "2 October 2026 12:43:16 Europe/Amsterdam",
+      "request_started": "2026-10-02T12:42:36+02:00",
+      "model_time": "2026-10-02T12:30",
+      "model_interval_seconds": 900,
+      "timezone": "Europe/Amsterdam",
+      "temperature_2m": 18.1,
+      "weather_code": 3,
+      "cloud_cover": 95,
+      "wind_speed_10m": 7.9,
+      "is_day": 1,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:39",
+      "sunset": "2026-10-02T19:11",
+      "model_valid_hour_start": "2026-10-02T12:00",
+      "note": "Fresh Open-Meteo current retrieval for a genuine daylight generation. Not a copy of the night-card weather file.",
+      "gate": "open",
+      "amsterdam_retrieval": "2026-10-02T12:43:16+02:00",
+      "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+      "generation_timestamp": "2026-10-02T12:44:56+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:44:56+02:00",
+        "4x5": "2026-10-02T12:47:12+02:00",
+        "9x16": "2026-10-02T12:47:20+02:00"
+      },
+      "scenario_basis": "Scenario minute is the Europe/Amsterdam mtime of the text-prompt 16:9 generation. Weather fields are only the Open-Meteo current retrieval at retrieval_timestamp. Not a fixed label and not copied from the night card."
+    },
+    "sha256": {
+      "16x9": "181f8c53a9be68612723b73cd53b536d6d0878bf280122eff06b5a0629967306",
+      "4x5": "69db0520ab6dddfd8499206492b379161044da56543309e2a8a524a8f7d64200",
+      "9x16": "1badc140c856470d85c48455900c2a6ee92f6a764fab26c7d293b661230483ad"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Kampen/nl-01-202-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Kampen/nl-01-202-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Kampen/nl-01-202-daylight-9x16.png"
+    }
+  },
+  {
+    "entry_id": "NL-01-203",
+    "caption": "Aa-kerk, Groningen",
+    "folder": "Groningen",
+    "weather": {
+      "entry_id": "NL-01-203",
+      "provenance": "genuine-daylight",
+      "site": "Aa-kerk",
+      "city": "Groningen",
+      "latitude": 53.21638889,
+      "longitude": 6.56222222,
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T12:43:18+02:00",
+      "retrieval_display": "2 October 2026 12:43:18 Europe/Amsterdam",
+      "request_started": "2026-10-02T12:43:18+02:00",
+      "model_time": "2026-10-02T12:30",
+      "model_interval_seconds": 900,
+      "timezone": "Europe/Amsterdam",
+      "temperature_2m": 18.8,
+      "weather_code": 1,
+      "cloud_cover": 46,
+      "wind_speed_10m": 7.6,
+      "is_day": 1,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:36",
+      "sunset": "2026-10-02T19:08",
+      "model_valid_hour_start": "2026-10-02T12:00",
+      "note": "Fresh Open-Meteo current retrieval for a genuine daylight generation. Not a copy of the night-card weather file.",
+      "gate": "open",
+      "amsterdam_retrieval": "2026-10-02T12:43:18+02:00",
+      "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+      "generation_timestamp": "2026-10-02T12:44:54+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:44:54+02:00",
+        "4x5": "2026-10-02T12:49:50+02:00",
+        "9x16": "2026-10-02T12:47:27+02:00"
+      },
+      "scenario_basis": "Scenario minute is the Europe/Amsterdam mtime of the text-prompt 16:9 generation. Weather fields are only the Open-Meteo current retrieval at retrieval_timestamp. Not a fixed label and not copied from the night card."
+    },
+    "sha256": {
+      "16x9": "81a1372727c1cae213bb0bdb6f970423903f093fc37c146acbee12ee2ab9c014",
+      "4x5": "a1b6fc9e709cb5b4c34626e458c3c9fc01b211def92e1ff3badd69f9cdb93eed",
+      "9x16": "0383574ec1137f3b0792845167a0b5d344600ec2684f82b74917b4e4f9854145"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Groningen/nl-01-203-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Groningen/nl-01-203-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Groningen/nl-01-203-daylight-9x16.png"
+    }
+  },
+  {
+    "entry_id": "NL-01-204",
+    "caption": "Jacobuskerk, Zeerijp",
+    "folder": "Zeerijp",
+    "weather": {
+      "entry_id": "NL-01-204",
+      "provenance": "genuine-daylight",
+      "site": "Jacobuskerk",
+      "city": "Zeerijp",
+      "latitude": 53.34598889,
+      "longitude": 6.75678333,
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T12:43:21+02:00",
+      "retrieval_display": "2 October 2026 12:43:21 Europe/Amsterdam",
+      "request_started": "2026-10-02T12:43:20+02:00",
+      "model_time": "2026-10-02T12:30",
+      "model_interval_seconds": 900,
+      "timezone": "Europe/Amsterdam",
+      "temperature_2m": 18.3,
+      "weather_code": 1,
+      "cloud_cover": 38,
+      "wind_speed_10m": 6.1,
+      "is_day": 1,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:36",
+      "sunset": "2026-10-02T19:07",
+      "model_valid_hour_start": "2026-10-02T12:00",
+      "note": "Fresh Open-Meteo current retrieval for a genuine daylight generation. Not a copy of the night-card weather file.",
+      "gate": "open",
+      "amsterdam_retrieval": "2026-10-02T12:43:21+02:00",
+      "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+      "generation_timestamp": "2026-10-02T12:44:57+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:44:57+02:00",
+        "4x5": "2026-10-02T12:47:57+02:00",
+        "9x16": "2026-10-02T12:49:50+02:00"
+      },
+      "scenario_basis": "Scenario minute is the Europe/Amsterdam mtime of the text-prompt 16:9 generation. Weather fields are only the Open-Meteo current retrieval at retrieval_timestamp. Not a fixed label and not copied from the night card."
+    },
+    "sha256": {
+      "16x9": "9f8a73ef50ce4d632999fdfc4eb3005dc5f3bae2b2c4f97cc717567221a01ec0",
+      "4x5": "2af637c0ceeafa4e0a2bc0ffc0bdbcca734054f6b3b392dc42e4956826e01105",
+      "9x16": "9c92cc2d0b72b7f5cf9a589d6be9d9d8cdac6f33ee8674d91f079d06dd74540b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Zeerijp/nl-01-204-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zeerijp/nl-01-204-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Zeerijp/nl-01-204-daylight-9x16.png"
+    }
+  },
+  {
+    "entry_id": "NL-01-205",
+    "caption": "Plompe Toren, Burgh-Haamstede",
+    "folder": "Burgh-Haamstede",
+    "weather": {
+      "entry_id": "NL-01-205",
+      "provenance": "genuine-daylight",
+      "site": "Plompe Toren",
+      "city": "Burgh-Haamstede",
+      "latitude": 51.6816,
+      "longitude": 3.77245,
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T12:43:23+02:00",
+      "retrieval_display": "2 October 2026 12:43:23 Europe/Amsterdam",
+      "request_started": "2026-10-02T12:43:23+02:00",
+      "model_time": "2026-10-02T12:30",
+      "model_interval_seconds": 900,
+      "timezone": "Europe/Amsterdam",
+      "temperature_2m": 17.4,
+      "weather_code": 0,
+      "cloud_cover": 0,
+      "wind_speed_10m": 14.4,
+      "is_day": 1,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:47",
+      "sunset": "2026-10-02T19:20",
+      "model_valid_hour_start": "2026-10-02T12:00",
+      "note": "Fresh Open-Meteo current retrieval for a genuine daylight generation. Not a copy of the night-card weather file.",
+      "gate": "open",
+      "amsterdam_retrieval": "2026-10-02T12:43:23+02:00",
+      "scenario_label": "2 October 2026 · 12:45 Europe/Amsterdam",
+      "generation_timestamp": "2026-10-02T12:45:10+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:45:10+02:00",
+        "4x5": "2026-10-02T12:47:55+02:00",
+        "9x16": "2026-10-02T12:50:05+02:00"
+      },
+      "scenario_basis": "Scenario minute is the Europe/Amsterdam mtime of the text-prompt 16:9 generation. Weather fields are only the Open-Meteo current retrieval at retrieval_timestamp. Not a fixed label and not copied from the night card."
+    },
+    "sha256": {
+      "16x9": "90aff79517a6edbff54ec638033db6ce8b1fd9af761d62233d0da72f6ac14d00",
+      "4x5": "490c539b9979b0bf556b91212032acf47e7b03354c55c44a3d2788ce18e9d7c8",
+      "9x16": "39aecb59146a4fa7483b71a931d0faf6e50723f43a658d1a96beb2c969389d1b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Burgh-Haamstede/nl-01-205-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Burgh-Haamstede/nl-01-205-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Burgh-Haamstede/nl-01-205-daylight-9x16.png"
+    }
+  },
+  {
+    "entry_id": "NL-01-206",
+    "caption": "Sint-Lievensmonstertoren, Zierikzee",
+    "folder": "Zierikzee",
+    "weather": {
+      "entry_id": "NL-01-206",
+      "provenance": "genuine-daylight",
+      "site": "Sint-Lievensmonstertoren",
+      "city": "Zierikzee",
+      "latitude": 51.6502809,
+      "longitude": 3.9147517,
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T12:43:25+02:00",
+      "retrieval_display": "2 October 2026 12:43:25 Europe/Amsterdam",
+      "request_started": "2026-10-02T12:43:25+02:00",
+      "model_time": "2026-10-02T12:30",
+      "model_interval_seconds": 900,
+      "timezone": "Europe/Amsterdam",
+      "temperature_2m": 18.0,
+      "weather_code": 0,
+      "cloud_cover": 0,
+      "wind_speed_10m": 10.4,
+      "is_day": 1,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:46",
+      "sunset": "2026-10-02T19:19",
+      "model_valid_hour_start": "2026-10-02T12:00",
+      "note": "Fresh Open-Meteo current retrieval for a genuine daylight generation. Not a copy of the night-card weather file.",
+      "gate": "open",
+      "amsterdam_retrieval": "2026-10-02T12:43:25+02:00",
+      "scenario_label": "2 October 2026 · 12:45 Europe/Amsterdam",
+      "generation_timestamp": "2026-10-02T12:45:13+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:45:13+02:00",
+        "4x5": "2026-10-02T12:48:13+02:00",
+        "9x16": "2026-10-02T12:48:14+02:00"
+      },
+      "scenario_basis": "Scenario minute is the Europe/Amsterdam mtime of the text-prompt 16:9 generation. Weather fields are only the Open-Meteo current retrieval at retrieval_timestamp. Not a fixed label and not copied from the night card."
+    },
+    "sha256": {
+      "16x9": "579145980704454ee497632901324ffabbf853ebb83ad9b663409e1721d03490",
+      "4x5": "3e68eabec698b204edb376870aeb064f0ee9b64850bfed58225eb2098b9a74f7",
+      "9x16": "af46df67323a3ec1bfd61e874c68f44c72d7d7f1de8a1becdc5ff3022ea4418b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Zierikzee/nl-01-206-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zierikzee/nl-01-206-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Zierikzee/nl-01-206-daylight-9x16.png"
+    }
+  },
+  {
+    "entry_id": "NL-01-207",
+    "caption": "Batterij De Windt, Sint Eustatius",
+    "folder": "Sint Eustatius",
+    "weather": {
+      "entry_id": "NL-01-207",
+      "provenance": "genuine-daylight",
+      "site": "Batterij De Windt",
+      "city": "Sint Eustatius",
+      "latitude": 17.465678,
+      "longitude": -62.9639628,
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T06:43:27-04:00",
+      "retrieval_display": "2 October 2026 06:43:27 America/Kralendijk",
+      "request_started": "2026-10-02T06:43:27-04:00",
+      "model_time": "2026-10-02T06:30",
+      "model_interval_seconds": 900,
+      "timezone": "America/Kralendijk",
+      "temperature_2m": 27.4,
+      "weather_code": 0,
+      "cloud_cover": 9,
+      "wind_speed_10m": 15.6,
+      "is_day": 1,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T06:01",
+      "sunset": "2026-10-02T17:59",
+      "model_valid_hour_start": "2026-10-02T06:00",
+      "note": "Fresh Open-Meteo current retrieval for a genuine daylight generation. Not a copy of the night-card weather file.",
+      "gate": "open",
+      "amsterdam_retrieval": "2026-10-02T12:43:27+02:00",
+      "scenario_label": "2 October 2026 · 12:45 Europe/Amsterdam",
+      "generation_timestamp": "2026-10-02T12:45:16+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:45:16+02:00",
+        "4x5": "2026-10-02T12:48:24+02:00",
+        "9x16": "2026-10-02T12:48:30+02:00"
+      },
+      "scenario_basis": "Scenario minute is the Europe/Amsterdam mtime of the text-prompt 16:9 generation. Weather fields are only the Open-Meteo current retrieval at retrieval_timestamp. Not a fixed label and not copied from the night card."
+    },
+    "sha256": {
+      "16x9": "a517d254fbbf699a604f7d006d562e2a1ac3bd5bc3b1cf652158744fb26c6da9",
+      "4x5": "644e06696469348dd87e3b099fc2e9545082886bea872b40a29e5f2ad4aeaab5",
+      "9x16": "3a7f316bd6bac41b3da3e5422d32a2c237bde2ef06e933d1741c29920fbbb870"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Sint Eustatius/nl-01-207-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Sint Eustatius/nl-01-207-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Sint Eustatius/nl-01-207-daylight-9x16.png"
+    }
+  },
+  {
+    "entry_id": "NL-01-208",
+    "caption": "Hell's Gate, Saba",
+    "folder": "Saba",
+    "weather": {
+      "entry_id": "NL-01-208",
+      "provenance": "genuine-daylight",
+      "site": "Hell's Gate",
+      "city": "Saba",
+      "latitude": 17.639036,
+      "longitude": -63.2290788,
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T06:43:34-04:00",
+      "retrieval_display": "2 October 2026 06:43:34 America/Kralendijk",
+      "request_started": "2026-10-02T06:43:29-04:00",
+      "model_time": "2026-10-02T06:30",
+      "model_interval_seconds": 900,
+      "timezone": "America/Kralendijk",
+      "temperature_2m": 26.1,
+      "weather_code": 53,
+      "cloud_cover": 51,
+      "wind_speed_10m": 27.1,
+      "is_day": 1,
+      "precipitation": 0.2,
+      "sunrise": "2026-10-02T06:03",
+      "sunset": "2026-10-02T18:00",
+      "model_valid_hour_start": "2026-10-02T06:00",
+      "note": "Fresh Open-Meteo current retrieval for a genuine daylight generation. Not a copy of the night-card weather file.",
+      "gate": "open",
+      "amsterdam_retrieval": "2026-10-02T12:43:34+02:00",
+      "scenario_label": "2 October 2026 · 12:45 Europe/Amsterdam",
+      "generation_timestamp": "2026-10-02T12:45:29+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:45:29+02:00",
+        "4x5": "2026-10-02T12:48:31+02:00",
+        "9x16": "2026-10-02T12:48:41+02:00"
+      },
+      "scenario_basis": "Scenario minute is the Europe/Amsterdam mtime of the text-prompt 16:9 generation. Weather fields are only the Open-Meteo current retrieval at retrieval_timestamp. Not a fixed label and not copied from the night card."
+    },
+    "sha256": {
+      "16x9": "e02deef3db02cacd09e9646c6795b8a4e4ecbce1f92807c622610e986760af12",
+      "4x5": "2725fee074f41b3ed59638d577f915e9e4b50e4d449cf5271e635f293b958aaf",
+      "9x16": "f7203dd99c360b3e7421a1d1a3bc7dc174ae7621bd425b4068a59bb430e2f03b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Saba/nl-01-208-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Saba/nl-01-208-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Saba/nl-01-208-daylight-9x16.png"
+    }
+  }
+]
