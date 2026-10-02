@@ -54,5 +54,27 @@
     "on_image_signature": "Jason D’s Vision",
     "on_image_name": "Jason A. Devlin",
     "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  },
+  "file_motion_10s_4x5": "Netherlands/Breda/nl-01-039-motion-10s-4x5.mp4",
+  "file_motion_poster": "Netherlands/Breda/nl-01-039-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-nl-360-rebuild-2026-10-02",
+    "batch": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "locked",
+    "anchor": "Netherlands/Breda/nl-01-039-daylight-4x5.png",
+    "anchor_kind": "genuine-daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "life": "moat water, cloud drift, and tree sway; the towers stay locked",
+    "forbidden_method_not_used": "orbit, sweep, viewpoint interpolation, optical-flow blend between generated views",
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "cosmo_qc_required": true,
+    "do_not_merge": true
   }
 }
