@@ -32,5 +32,39 @@
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: L-shaped brick manor with dark slate hipped roofs, dormers and chimneys, warmly lit windows, foreground moat with golden reflections, brick gatehouse with a tall slender slate spire at the right connected by a wall, full moon and stars; 4:5 is a tighter crop on the manor corner with the gatehouse out of frame (framing choice, not a subject change) - the earlier pediment/curved-staircase massing discrepancy is resolved in the 20:49 UTC re-render. Gate 2: label bar exact - 'Kasteel Arcen, Arcen', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T03:59:53+02:00, unique to the second repo-wide, scenario minute 03:59 inside model-valid hour 03:00-03:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos, Free no-credit badge - documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:43:04.408947+00:00",
   "sha256_16x9": "6300132f668d4bef61fbd6717434291991654970a4493142398cbd9c3b304c6a",
-  "sha256_4x5": "342ce1b54e04a3043ab84e8bd6147ba5b32206d9c9b5cd3da24fdfe6f11b084f"
+  "sha256_4x5": "342ce1b54e04a3043ab84e8bd6147ba5b32206d9c9b5cd3da24fdfe6f11b084f",
+  "file_16x9_day": "Netherlands/Arcen/nl-01-255-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Arcen/nl-01-255-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Arcen/nl-01-255-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-255",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:14 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:10:05+02:00",
+    "generation_timestamp": "2026-10-02T13:14:07+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-255.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Arcen/nl-01-255-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Arcen/nl-01-255-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Arcen/nl-01-255-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "f638d8b956ca9c9b198c1aaf7fd0f4f4e229b69b87f0487439e7a5b11db1dcaa",
+      "4x5": "d285efbdb5410edcc05abd4b36528978f5b3c94da1494e9dee4a544eb86f3647",
+      "9x16": "6bb8a3bfd9f64afaedab90c8719f57071a95f05c9706d607fd9aac22526f235a"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Kasteel Arcen, Arcen",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:14 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

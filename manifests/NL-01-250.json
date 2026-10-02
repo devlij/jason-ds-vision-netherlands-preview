@@ -21,5 +21,39 @@
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 1ce0e2cd6ff5f5a13c47b9b67d231a6c06c22923ec2c0af1679ce86dbeb8af74. Source SHA-256 4:5 d009964b274389a32444d8edfcc78ff4e1db41ab898cbfb721b653eb0446e21e. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: moated brick castle with four round corner towers and gatehouse, starry sky, moat reflections — matches anchors; plausible approach viewpoint. Gate 2: exact dims; legible bar + exact signature/script; scenario 03:59 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:59:40+02:00, unique repo-wide; Art. 50 metadata verified (2026-09-28). Gate 3: text-prompt-only. Gate 4: no people/logos/copyrighted subject — documented only. Gate 5: card complete.",
-  "approved_at": "2026-09-28T22:13:52.022656+00:00"
+  "approved_at": "2026-09-28T22:13:52.022656+00:00",
+  "file_16x9_day": "Netherlands/Ammerzoden/nl-01-250-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Ammerzoden/nl-01-250-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Ammerzoden/nl-01-250-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-250",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:10 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:09:52+02:00",
+    "generation_timestamp": "2026-10-02T13:10:58+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-250.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Ammerzoden/nl-01-250-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Ammerzoden/nl-01-250-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Ammerzoden/nl-01-250-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "5e8bdd9ab8b5051fe912bd9a8c83f8e58e04ba74036c122949eb91c80be35a97",
+      "4x5": "b7a305f203e54fcdd2755451bd0c3e5377f1064834053056734f0419e05b0212",
+      "9x16": "e128ea433667c55655a17a515768fafe799464a5b8778a0111c0fb777861dd06"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Kasteel Ammersoyen, Ammerzoden",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:10 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

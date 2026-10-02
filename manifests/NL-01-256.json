@@ -32,5 +32,39 @@
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: 16:9 shows the floodlit brick west tower with its slender dark spire crowned by a cross, rising over the Gothic nave with steep gables, cobbled market square with lamp posts and brick row houses under an overcast night sky; 4:5 agrees on the identical spired crown - the earlier inter-format crown discrepancy is resolved in the 20:49 UTC re-render. Gate 2: on-image label bar exact - 'Sint-Petrusbasiliek, Oirschot', 'Scenario: 26 September 2026 · 03:59 Europe/Amsterdam', 'AI-generated artistic interpretation · Not a photograph.', 'Jason D's Vision' + 'Jason A. Devlin' script; Open-Meteo retrieval 2026-09-26T03:59:55+02:00, unique to the second across all Netherlands scenes, scenario minute 03:59 inside model-valid hour 03:00-03:59; PNG Title/Description/Copyright/Software/Comment present with EU AI Act Art. 50 note. Gate 3: evidence card documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos, no credit required - documented only, no chain certified. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:41:01.886168+00:00",
   "sha256_16x9": "2689362e3072017daedce66508a2a49085548b674cc2b2f9d1f539df27328624",
-  "sha256_4x5": "b3a67946f79bd5f826d17a06410da0b91b8b55e575e4259e700038878fa75f83"
+  "sha256_4x5": "b3a67946f79bd5f826d17a06410da0b91b8b55e575e4259e700038878fa75f83",
+  "file_16x9_day": "Netherlands/Oirschot/nl-01-256-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Oirschot/nl-01-256-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Oirschot/nl-01-256-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-256",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:11 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:10:08+02:00",
+    "generation_timestamp": "2026-10-02T13:11:27+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-256.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Oirschot/nl-01-256-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Oirschot/nl-01-256-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Oirschot/nl-01-256-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "175db0a4b15dfe0770996b0af3ad7057fe47178f8518ea01d9f2ba3dd3f062f3",
+      "4x5": "2445498d57d57db340e2e9d33d7166620df865a269cffd276ef3feb100790921",
+      "9x16": "27434c130eac2bd934c72432dde23c69037050bb75d0bb9bec575e4272086eb4"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Sint-Petrusbasiliek, Oirschot",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:11 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
