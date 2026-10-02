@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Spakenburg/nl-01-093-9x16.png",
   "sha256_9x16": "12abbcbfc89d7fc76653e57469f7efd69ec1784eba5ec0513c031a8ac8ee13d5",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d9cd2b166aac284babf41d2ffa2c53ff88c5648091281353a5342c9cc489ff89. Source SHA-256 4:5 a651f61a1ac57f1de6d8f3d81862cff59553ab6d23658ce96d81192e8689cd06. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d9cd2b166aac284babf41d2ffa2c53ff88c5648091281353a5342c9cc489ff89. Source SHA-256 4:5 a651f61a1ac57f1de6d8f3d81862cff59553ab6d23658ce96d81192e8689cd06. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Spakenburg/nl-01-093-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Spakenburg/nl-01-093-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Spakenburg/nl-01-093-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-093",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:39 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:36:17+02:00",
+    "generation_timestamp": "2026-10-02T11:39:41+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-093.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Spakenburg/nl-01-093-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Spakenburg/nl-01-093-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Spakenburg/nl-01-093-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "1fdc375bb44634de03973a44b103d155f133c09f6f5d2ec78651c8646436e00d",
+      "4x5": "0cf53ae790816f294425c9a6e1f7edd17bb97b922934d5554454cd80b43576f5",
+      "9x16": "444fc6f828933a433f6960175d15ece0e384bea24864b385e87081c990c4363d"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Botter harbour, Spakenburg",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:39 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

@@ -28,5 +28,39 @@
   "file_9x16": "Netherlands/Katwijk/nl-01-089-9x16.png",
   "sha256_9x16": "a45463a83fe25ab243e57f937c985faf45ec5b750f598ec918ee1bf8fe24bfa6",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 665e8f39e4ec1bf7aa12d112ce751ca2a90a617c392ee3b3eb627fdb378e358f. Source SHA-256 4:5 ba0f7db25399f2d670e70eb57ecb98ab70a2adaee85d065056f0529e7956f85a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 665e8f39e4ec1bf7aa12d112ce751ca2a90a617c392ee3b3eb627fdb378e358f. Source SHA-256 4:5 ba0f7db25399f2d670e70eb57ecb98ab70a2adaee85d065056f0529e7956f85a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Katwijk/nl-01-089-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Katwijk/nl-01-089-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Katwijk/nl-01-089-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-089",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:39 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:38+02:00",
+    "generation_timestamp": "2026-10-02T11:39:41+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-089.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Katwijk/nl-01-089-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Katwijk/nl-01-089-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Katwijk/nl-01-089-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "484a721a2acf89ccf212811ebbf10d8b9bcd82e2ac0f4b15a94658dc46d65019",
+      "4x5": "42a133b505c4d66edb89b32829da6ea36ae8242a9644d8b8018325b4ce80fae6",
+      "9x16": "f4904e77a3bd83055679fe3fcc33cec813b6a1390514ad97593d5325e9f8af4c"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Lighthouse, Katwijk",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:39 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

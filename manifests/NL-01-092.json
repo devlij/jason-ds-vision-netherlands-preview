@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Monnickendam/nl-01-092-9x16.png",
   "sha256_9x16": "291f81e1a43bc8ce6aebd591e2b8ed26e0ab6f48941ebfb5d099edac31b4707e",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 72622787c31e5f1e2c3b80fa90b40cd4471729af7db73181977bb5a2e434a850. Source SHA-256 4:5 940a695921f3d4fe84a5d41c819ebdb2fab0922fc68b728d023bd2e8bd3f2ace. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 72622787c31e5f1e2c3b80fa90b40cd4471729af7db73181977bb5a2e434a850. Source SHA-256 4:5 940a695921f3d4fe84a5d41c819ebdb2fab0922fc68b728d023bd2e8bd3f2ace. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Monnickendam/nl-01-092-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Monnickendam/nl-01-092-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Monnickendam/nl-01-092-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-092",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:38 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:36:14+02:00",
+    "generation_timestamp": "2026-10-02T11:38:02+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-092.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Monnickendam/nl-01-092-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Monnickendam/nl-01-092-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Monnickendam/nl-01-092-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "17cc55ceee366f1015928afc10de983d49f9352518fa80e638b0edd51aa1880c",
+      "4x5": "ff8049cd6c92ed202f909f3bc3c3363ee460ccacf00422a0a331dc3b6d49db50",
+      "9x16": "e9e00e2d7e99ebe23cb754bc965e1d6fb02d5d9255f5791f3236eefa3c72100c"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Harbour, Monnickendam",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:38 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
