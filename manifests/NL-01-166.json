@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Enschede/nl-01-166-9x16.png",
   "sha256_9x16": "91651652ed09918b79201f17b1074bf89d9f8ba4f55c976791ef0cf8ed921602",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 15c9a38108d0c129a8933b948766994a02f434bda09aeec526e04c0ec37822f2. Source SHA-256 4:5 9b8f2b8f2b3bdbd506677b93174716f3aadd7f0ffe0a5c7d96eb6a18278127d6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 15c9a38108d0c129a8933b948766994a02f434bda09aeec526e04c0ec37822f2. Source SHA-256 4:5 9b8f2b8f2b3bdbd506677b93174716f3aadd7f0ffe0a5c7d96eb6a18278127d6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Enschede/nl-01-166-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Enschede/nl-01-166-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Enschede/nl-01-166-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-166",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:26 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:24:48+02:00",
+    "generation_timestamp": "2026-10-02T12:26:06+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-166.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Enschede/nl-01-166-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Enschede/nl-01-166-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Enschede/nl-01-166-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8b5e457e6dedec66c1839cf11165fe6a7df3f211f17c0d527b15609bcf23753e",
+      "4x5": "cf5a5cfd02ab00b2bd3beb4940117928ef11237bb9666202a5ebad80d9257176",
+      "9x16": "b09e8cd255bacc26ebca43d5d85cc09d51e4e28d2e3549d9cdaaeb3236e83393"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Grote Kerk, Enschede",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:26 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

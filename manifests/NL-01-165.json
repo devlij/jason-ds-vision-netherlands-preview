@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Orvelte/nl-01-165-9x16.png",
   "sha256_9x16": "77e2431e1a7fe1df41f76d7d9624a9386a7075802dadcb23a3b0ab542482b4ca",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ec25e843cb5d40a949428fb0be770ea3ed76cee9627e327d113d8497d66e246f. Source SHA-256 4:5 5cafe6561de6b8a63f512e0ddf06348295b841e993020255a1aae78ab5b2b8f0. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ec25e843cb5d40a949428fb0be770ea3ed76cee9627e327d113d8497d66e246f. Source SHA-256 4:5 5cafe6561de6b8a63f512e0ddf06348295b841e993020255a1aae78ab5b2b8f0. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Orvelte/nl-01-165-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Orvelte/nl-01-165-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Orvelte/nl-01-165-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-165",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:29 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:24:45+02:00",
+    "generation_timestamp": "2026-10-02T12:29:45+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-165.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Orvelte/nl-01-165-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Orvelte/nl-01-165-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Orvelte/nl-01-165-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "87c858d4aa1676e362195715f4ed0023950e4a48790f7539c5e11a25c87e346c",
+      "4x5": "210d0f070255837cbd16506d79aca5a3dc8f1f2ec815b71cdf32a16233f68414",
+      "9x16": "14da8bab1a4abd14d3aad94694648504703cf75e012126eb0a0b915c9a7b790b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Brink, Orvelte",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:29 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
