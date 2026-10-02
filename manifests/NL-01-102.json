@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Sittard/nl-01-102-9x16.png",
   "sha256_9x16": "7c01f47324ed78b0f95d450546c5ec70f3cef3317753597860c093a291578149",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 99a255bcdae1c004db232fdece174ffd0e21677a081f39766917b627e7476060. Source SHA-256 4:5 9e08a5f66d94caf12e20ef68f9a8de4051c035a9509dca606dab52c3e3af0bd7. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 99a255bcdae1c004db232fdece174ffd0e21677a081f39766917b627e7476060. Source SHA-256 4:5 9e08a5f66d94caf12e20ef68f9a8de4051c035a9509dca606dab52c3e3af0bd7. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Sittard/nl-01-102-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Sittard/nl-01-102-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Sittard/nl-01-102-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-102",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:35 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:34:20+02:00",
+    "generation_timestamp": "2026-10-02T11:35:27+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-102.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Sittard/nl-01-102-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Sittard/nl-01-102-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Sittard/nl-01-102-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "bee51ba30944e08eab44613bd27392098c26a2fc14c8535846d56e12e21d8884",
+      "4x5": "b682dc5a4c9000f3a3bad5f3f5a6e976c0f24e57fbca0357434b7e2c747537c7",
+      "9x16": "82a5a47ebba814ec0dfbf97312d75a673ca02f30d3eab1c278d37c509f425aaf"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "St. Peter's Basilica, Sittard",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:35 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

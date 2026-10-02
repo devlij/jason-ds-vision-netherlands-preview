@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Vlissingen/nl-01-105-9x16.png",
   "sha256_9x16": "52d804f4c606e8c1c6b050fac429dc4a204763164028093335b7511a8bbbae2e",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5e5408f173041790500d85ec75d0f433a5c78021c35b8f6d2c1d946d6e4ee2b7. Source SHA-256 4:5 b385700cc29f857aab7469115bc438919c5065f979e78c8884e55a9527fbb459. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 5e5408f173041790500d85ec75d0f433a5c78021c35b8f6d2c1d946d6e4ee2b7. Source SHA-256 4:5 b385700cc29f857aab7469115bc438919c5065f979e78c8884e55a9527fbb459. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Vlissingen/nl-01-105-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Vlissingen/nl-01-105-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Vlissingen/nl-01-105-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-105",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:35 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:34:27+02:00",
+    "generation_timestamp": "2026-10-02T11:35:43+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-105.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Vlissingen/nl-01-105-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Vlissingen/nl-01-105-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Vlissingen/nl-01-105-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "39ebbb9180de1723fffec0a7995181e1b40571e183f1f51ef8bebf50f212d51a",
+      "4x5": "da64f39eea4b32bde9957218388468a12b251266095cd8e61386b54aecd4d84b",
+      "9x16": "44f5f6ee4f9ae708ea84a4f6f8d33df343b2ac0673064e981aaa359d4fd70d2c"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Boulevard, Vlissingen",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:35 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
