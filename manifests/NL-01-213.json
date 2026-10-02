@@ -21,5 +21,39 @@
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a6ce93d537cee79a3bb86d96c07bc5b4bd93bc6988cb91c54bbad9dd001be293. Source SHA-256 4:5 bc91d603e1b8f5f643bbc9f3ea95b057bd749ede7ae3eabcd40ccef2200c5034. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-213 (Hunebedden, Rolde): Two separate chambers of capstones on uprights; Old oaks stand among the stones; The church roof is distant and is not the subject. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:11+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
-  "approved_at": "2026-09-27T14:33:00.073027+00:00"
+  "approved_at": "2026-09-27T14:33:00.073027+00:00",
+  "file_16x9_day": "Netherlands/Rolde/nl-01-213-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Rolde/nl-01-213-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Rolde/nl-01-213-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-213",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:43 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:42:42+02:00",
+    "generation_timestamp": "2026-10-02T12:43:39+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-213.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Rolde/nl-01-213-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Rolde/nl-01-213-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Rolde/nl-01-213-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "2ab14288398ee46c8973ef21614e5c5b81db13bc1ed2da54ed79b46d2080c83f",
+      "4x5": "8720777413d6dc50cbdeb9f821f2c9a030f2cccde9ec54035452eaef39735f47",
+      "9x16": "674fd409e3eb70c5786a1e938587bdcdb83ee88480d08dc700c277b4d2d6a3ab"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Hunebedden, Rolde",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:43 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
