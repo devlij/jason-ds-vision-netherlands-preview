@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Muiden/nl-01-077-9x16.png",
   "sha256_9x16": "b13d934290497113e9084d69e6230af0413c27177055586bb15b7c2793719602",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 126c510217f42ced45a42f80a7095b589733003f893d64c816143d11ad13a27f. Source SHA-256 4:5 9eac8987d9dc5c6af99d58d8c257fe218eb1df0d16e63808cb4fa4f2afe1bc58. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 126c510217f42ced45a42f80a7095b589733003f893d64c816143d11ad13a27f. Source SHA-256 4:5 9eac8987d9dc5c6af99d58d8c257fe218eb1df0d16e63808cb4fa4f2afe1bc58. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Muiden/nl-01-077-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Muiden/nl-01-077-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Muiden/nl-01-077-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-077",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:35 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:34:18+02:00",
+    "generation_timestamp": "2026-10-02T11:35:51+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-077.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Muiden/nl-01-077-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Muiden/nl-01-077-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Muiden/nl-01-077-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "0a3017aec1b4ecfaaa1a5a2a0a17c3f52be71fb77d797fc3751493699e125877",
+      "4x5": "64831e20bf2c6f46927c661494c730f6cd928ae59cbc672ff976590cdfdb1907",
+      "9x16": "d645b06c5cd6575f49e0a8d26fbb587179f0656aa69cfe42e13bc75d45cc6a75"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Muiderslot, Muiden",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:35 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
