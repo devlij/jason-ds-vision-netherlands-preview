@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Heusden/nl-01-068-9x16.png",
   "sha256_9x16": "1750e7d0ebc19f008b961d47e053c7bb2cb849973ba15a5eb8bcd03bc9b26b21",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 905c6381916b3d7603b73e7e8eca6e7b701435f3eb7f3dd041c86204d992e889. Source SHA-256 4:5 7348a3a9411f4f6abd1c6775dba667d54945135eaaba9bcd7dd2099d222cb731. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 905c6381916b3d7603b73e7e8eca6e7b701435f3eb7f3dd041c86204d992e889. Source SHA-256 4:5 7348a3a9411f4f6abd1c6775dba667d54945135eaaba9bcd7dd2099d222cb731. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Heusden/nl-01-068-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Heusden/nl-01-068-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Heusden/nl-01-068-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-068",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:36 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:33:54+02:00",
+    "generation_timestamp": "2026-10-02T11:36:55+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-068.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Heusden/nl-01-068-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Heusden/nl-01-068-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Heusden/nl-01-068-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "ff4ad8c03066b244e9294ffc6e0ac4a1692ebdd5d5b34c1f106d18191f0892ac",
+      "4x5": "ad606cd7962fa7d1c71baa7fc83419fcf404452ad9f241199b32dbd2ab52e965",
+      "9x16": "3229b8c0ad26830f92d05a09cfaf061eb64b8b2117472285034ec3b5477aaecb"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Harbour, Heusden",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:36 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

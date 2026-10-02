@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Zutphen/nl-01-073-9x16.png",
   "sha256_9x16": "78879fdf2cb7dd2357d2faa4e5aa37c402073a1e2ffa8fa84dab233427996766",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 fe42dccc231656d18e5e62756647a9953497807668147c56b251e51e1abf6cb3. Source SHA-256 4:5 6c7094a22c046ff1e2e6da67df04aeab2e33af4344e9b535c555218247f30d42. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 fe42dccc231656d18e5e62756647a9953497807668147c56b251e51e1abf6cb3. Source SHA-256 4:5 6c7094a22c046ff1e2e6da67df04aeab2e33af4344e9b535c555218247f30d42. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Zutphen/nl-01-073-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Zutphen/nl-01-073-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Zutphen/nl-01-073-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-073",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:35 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:34:07+02:00",
+    "generation_timestamp": "2026-10-02T11:35:22+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-073.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Zutphen/nl-01-073-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zutphen/nl-01-073-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Zutphen/nl-01-073-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "0c8b4580ff12790664705c4e608296e81fbf33dfa2333e0766227488d2eadb8d",
+      "4x5": "53194199d4fa301c2793a89fbd8bbf72b06f982e39e65e726552977a091777fe",
+      "9x16": "d4e69e5de11f47935a347a7a20f3fe7a20f54bb648f91986263357b12526a157"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Berkelpoort, Zutphen",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:35 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
