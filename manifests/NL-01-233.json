@@ -24,5 +24,39 @@
   ],
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: twin round brick towers with copper domes flanking the stone water-gate arch, floodlit, lamp reflections trailing on dark water, dramatic cloudy sky — the iconic Spanjaardsgat, Breda; no artifacts. Gate 2: exact dims; legible bar ('Spanjaardsgat, Breda', scenario 03:37 Europe/Amsterdam, disclosure, exact signature/script); 03:37 inside 03:00; retrieval 2026-09-26T03:37:53+02:00, unique repo-wide; Art. 50 chunks + note, Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
-  "approved_at": "2026-09-29T10:42:49.402703+00:00"
+  "approved_at": "2026-09-29T10:42:49.402703+00:00",
+  "file_16x9_day": "Netherlands/Breda/nl-01-233-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Breda/nl-01-233-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Breda/nl-01-233-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-233",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:11 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:10:26+02:00",
+    "generation_timestamp": "2026-10-02T13:11:40+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-233.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Breda/nl-01-233-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Breda/nl-01-233-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Breda/nl-01-233-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9aa063214891a488e33074125cd239ec949d7acdd8e176e9e548d000df1ae4a2",
+      "4x5": "a3d8e4c23ebe5a6cbed53f7d2bf977c6ab83dd4777f9ce9546f130a101630322",
+      "9x16": "33d69cebf6ec2331d06a2f36853806033e8723084af28e653bf15e7dd238b195"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Spanjaardsgat, Breda",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:11 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
