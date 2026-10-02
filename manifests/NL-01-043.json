@@ -20,5 +20,39 @@
   "sha256_4x5": "6ae137e71664c52898b8789d4c3808caaea234d3310eb5ac648e3fa51a72e223",
   "file_9x16": "Netherlands/Neeltje Jans/nl-01-043-9x16.png",
   "sha256_9x16": "2042afdfc6b385019830ab046facaf5510bdc9ed63aa2664a763a2db2ab70c5a",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/Neeltje Jans/nl-01-043-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Neeltje Jans/nl-01-043-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Neeltje Jans/nl-01-043-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-043",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 10:02 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T10:01:12+02:00",
+    "generation_timestamp": "2026-10-02T10:02:31+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-043.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Neeltje Jans/nl-01-043-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Neeltje Jans/nl-01-043-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Neeltje Jans/nl-01-043-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d7bb52bebc86bbccac24b3702888691b16096cbdee20ae97f82ff14a1b5f345a",
+      "4x5": "488fcf08034efe1c580318ca8988399a335be5811e58744edbfeceddd450698b",
+      "9x16": "f77deb84dd9aeceb29ae33e9af0cae4f48ccdb5cda69d90f8753ba69935a582b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Oosterscheldekering, Neeltje Jans",
+    "on_image_scenario": "Scenario: 2 October 2026 · 10:02 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

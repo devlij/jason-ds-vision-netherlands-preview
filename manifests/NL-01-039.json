@@ -20,5 +20,39 @@
   "sha256_4x5": "d45c42025e2e754228b66513e33be619b3fdd5cfbcbd0af3ffdd56583fdb8f43",
   "file_9x16": "Netherlands/Breda/nl-01-039-9x16.png",
   "sha256_9x16": "a19bb4ed38cdb2a605f9be00c02dcd5195aab5ae201f1e10449448a64e76badf",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/Breda/nl-01-039-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Breda/nl-01-039-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Breda/nl-01-039-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-039",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 10:02 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T10:01:03+02:00",
+    "generation_timestamp": "2026-10-02T10:02:07+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-039.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Breda/nl-01-039-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Breda/nl-01-039-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Breda/nl-01-039-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "1bd3afc938b332f182a6194659fdc814828c2b1ee781060ed04ea1fd0bde17fc",
+      "4x5": "741fc71311d562f103ce90bec8d3b6618af12c7303456b4d24474a6102768cce",
+      "9x16": "a787745b205ed0854e39fe8833f8506939c4631bece66fe8a316a5081a8ba9b6"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Breda Castle, Breda",
+    "on_image_scenario": "Scenario: 2 October 2026 · 10:02 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
