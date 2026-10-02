@@ -180,6 +180,8 @@ FILE_KEYS = (
     "file_16x9_day",
     "file_4x5_day",
     "file_9x16_day",
+    "file_motion_10s_4x5",
+    "file_motion_poster",
 )
 
 
@@ -230,6 +232,22 @@ def prepare_scene(scene: dict) -> dict | None:
         out.pop("file_9x16_day", None)
     if out.get("file_9x16") and not master_exists(out.get("file_9x16")):
         out.pop("file_9x16", None)
+    # The 360 control is emitted only when the clip file is on disk.
+    rel16 = out.get("file_16x9")
+    entry_id = out.get("entry_id")
+    if isinstance(rel16, str) and isinstance(entry_id, str) and entry_id:
+        folder = str(Path(rel16).parent)
+        slug = entry_id.lower()
+        motion = f"{folder}/{slug}-motion-10s-4x5.mp4"
+        poster = f"{folder}/{slug}-motion-10s-4x5-poster.jpg"
+        if master_exists(motion):
+            out["file_motion_10s_4x5"] = motion
+        else:
+            out.pop("file_motion_10s_4x5", None)
+        if master_exists(poster):
+            out["file_motion_poster"] = poster
+        else:
+            out.pop("file_motion_poster", None)
     return out
 
 

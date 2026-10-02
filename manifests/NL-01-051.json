@@ -54,5 +54,27 @@
     "on_image_signature": "Jason D’s Vision",
     "on_image_name": "Jason A. Devlin",
     "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  },
+  "file_motion_10s_4x5": "Netherlands/Thorn/nl-01-051-motion-10s-4x5.mp4",
+  "file_motion_poster": "Netherlands/Thorn/nl-01-051-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-nl-360-rebuild-2026-10-02",
+    "batch": 4,
+    "method": "subject-pinned-slow-pan",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "frames": 240,
+    "format": "4:5",
+    "camera": "subject-pinned slow pan, sine, max 14px, returns to anchor",
+    "anchor": "Netherlands/Thorn/nl-01-051-daylight-4x5.png",
+    "anchor_kind": "genuine-daylight 4:5 master; night master not used; finished master not used",
+    "label_bar_px_cropped": 190,
+    "life": "In-frame life was too thin to carry a locked camera. Slow pan of this one daylight plate, sine of 14px with a matching zoom so the edge is not smeared. The subject stays framed. The white abbey fills the square. Canal, trees, and flags are too thin, and the white walls read as cloud, so the camera eases and the abbey stays framed.",
+    "pedestrians": "Left on the plate. A warp would smear limbs, so people are not a life mask.",
+    "forbidden_method_not_used": "orbit, sweep, viewpoint interpolation, optical-flow blend between generated views, night plate",
+    "qc": "Candidate only. cosmo_qc_required=true. Not Cosmo QC. Not approved. Do not merge."
   }
 }

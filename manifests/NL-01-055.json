@@ -54,5 +54,27 @@
     "on_image_signature": "Jason D’s Vision",
     "on_image_name": "Jason A. Devlin",
     "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  },
+  "file_motion_10s_4x5": "Netherlands/Schokland/nl-01-055-motion-10s-4x5.mp4",
+  "file_motion_poster": "Netherlands/Schokland/nl-01-055-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-nl-360-rebuild-2026-10-02",
+    "batch": 4,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "frames": 240,
+    "format": "4:5",
+    "camera": "locked",
+    "anchor": "Netherlands/Schokland/nl-01-055-daylight-4x5.png",
+    "anchor_kind": "genuine-daylight 4:5 master; night master not used; finished master not used",
+    "label_bar_px_cropped": 190,
+    "life": "Clouds and the grass on the former island. The wooden church and museum houses stay locked.",
+    "pedestrians": "Left on the plate. A warp would smear limbs, so people are not a life mask.",
+    "forbidden_method_not_used": "orbit, sweep, viewpoint interpolation, optical-flow blend between generated views, night plate",
+    "qc": "Candidate only. cosmo_qc_required=true. Not Cosmo QC. Not approved. Do not merge."
   }
 }
