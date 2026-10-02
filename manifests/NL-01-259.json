@@ -32,5 +32,39 @@
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: both formats show the same symmetrical two-storey brick havezate across its moat - hipped roof, central pedimented entrance, 8 upper windows (2 dark, 6 warm-lit) matching in both, lit wing buildings flanking the forecourt, stone bridge and dark water in the foreground; the earlier dormer-count inter-format discrepancy is resolved in the 20:49 UTC re-render. Gate 2: label bar exact - 'Havezate De Havixhorst, De Wijk', 'Scenario: 26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T04:18:27+02:00, unique to the second repo-wide, scenario minute 04:18 inside model-valid hour 04:00-04:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage per evidence card, no photographic inputs. Gate 4: no identifiable people, no logos, no credit required - documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:41:25.349731+00:00",
   "sha256_16x9": "bcd57b897f224b627a77cd64941f1d4074a41bd6f52f17970e850d1de11c61a6",
-  "sha256_4x5": "d99dec461ae8fb8e779fe9521a160152356299f85d162952cb9393d75bfde0bc"
+  "sha256_4x5": "d99dec461ae8fb8e779fe9521a160152356299f85d162952cb9393d75bfde0bc",
+  "file_16x9_day": "Netherlands/De Wijk/nl-01-259-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/De Wijk/nl-01-259-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/De Wijk/nl-01-259-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-259",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:10 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:10:24+02:00",
+    "generation_timestamp": "2026-10-02T13:10:48+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-259.json",
+    "files": {
+      "16x9": "library/world/Netherlands/De Wijk/nl-01-259-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/De Wijk/nl-01-259-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/De Wijk/nl-01-259-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "5f7411538a3d70f9b07d468e4608b1127da5e51fccc48ae627e7656512d57bda",
+      "4x5": "830cbbbbb99a5d46f546ec22ef234dec67c179f8e286735e848162c24e8f223e",
+      "9x16": "63173bc9f157b77299b2b57d62134581d1327169b2b620981b93b7f3cf2e1160"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Havezate De Havixhorst, De Wijk",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:10 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

@@ -21,5 +21,39 @@
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 78f652d20046a615190576f37f46c900747af9909573dbdafc3e33f9fe45dde1. Source SHA-256 4:5 7889459b3ed33ad25b2b6a24b190f43464e3450619bfe3bfeef9732e3aee0a27. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Church-ruin foundations on a grassy terp: low brick walls, gravel path, lamp, memorial stone under overcast night. Exact caption, scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure on the bar. Retrieval 2026-09-26T04:18:42+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
-  "approved_at": "2026-09-29T04:24:52.305089+00:00"
+  "approved_at": "2026-09-29T04:24:52.305089+00:00",
+  "file_16x9_day": "Netherlands/Schokland/nl-01-265-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Schokland/nl-01-265-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Schokland/nl-01-265-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-265",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:14 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:12:04+02:00",
+    "generation_timestamp": "2026-10-02T13:14:46+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-265.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Schokland/nl-01-265-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Schokland/nl-01-265-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Schokland/nl-01-265-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d864a4a2a4d0d8533d2acf40ed337bacc31dd5a3e6fdb2155f7db88179830a3a",
+      "4x5": "43215174354d15d567013b4a69bfde27b506441dff466c0756378b46d702010b",
+      "9x16": "e5f49de5dba8949aef140761e212d6dae2ca9c6f9fc6f00f76b7aeb852fbf91a"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Kerkruïne, Schokland",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:14 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
