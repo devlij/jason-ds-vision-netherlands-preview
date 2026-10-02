@@ -237,15 +237,15 @@
       <span class="sep" aria-hidden="true">|</span>
       <a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a>
       <span class="sep" aria-hidden="true">|</span>
-      <a href="https://devlij.github.io/jason-ds-vision-norway-preview/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a>
+      <a href="https://norway.jdvision.org/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a>
       <span class="sep" aria-hidden="true">|</span>
-      <a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a>
+      <a href="https://denmark.jdvision.org/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a>
       <span class="sep" aria-hidden="true">|</span>
       <a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a>
       <span class="sep" aria-hidden="true">|</span>
       <span aria-current="page"><span class="flag-chip" aria-hidden="true"><svg viewBox="0 0 27 18" xmlns="http://www.w3.org/2000/svg"><rect width="27" height="18" fill="#fff"/><rect width="27" height="6" fill="#AE1C28"/><rect y="12" width="27" height="6" fill="#21468B"/></svg></span>Netherlands</span>
     </nav>
-    <p class="sub">The Netherlands · Candidate scenes until an independent QC pass</p>
+    <p class="sub" id="gallery-sub">The Netherlands</p>
   </header>
 <div class="wotd" id="wotd" lang="nl">
   <span class="kicker">Woord van de dag · Word of the day</span>
@@ -337,6 +337,25 @@
       const slash = path.lastIndexOf("/");
       return slash >= 0 ? path.slice(slash + 1) : path;
     }
+    /* 16:9, 4:5, and 9:16 share one daylight rule: the day master when the
+       toggle is on and that file is on the card, otherwise the night master. */
+    function srcFor(img, fmt, isDay) {
+      if (!img) return "";
+      const nightKey = fmt === "4x5" ? "data-src-45" : fmt === "9x16" ? "data-src-916" : "data-src-16";
+      const dayKey = fmt === "4x5" ? "data-src-45-day" : fmt === "9x16" ? "data-src-916-day" : "data-src-16-day";
+      const night = img.getAttribute(nightKey) || "";
+      const day = img.getAttribute(dayKey) || "";
+      return isDay ? (day || night) : night;
+    }
+    function syncDownloads(card, img, isDay) {
+      if (!img) return;
+      card.querySelectorAll("a.download").forEach(function (a) {
+        const url = srcFor(img, a.getAttribute("data-dl"), isDay);
+        if (!url) return;
+        a.href = url;
+        a.setAttribute("download", fileName(url));
+      });
+    }
 
     function render() {
       const query = q.value.trim().toLowerCase();
@@ -356,8 +375,17 @@
       noResults.style.display = filtered.length ? 'none' : 'block';
       countEl.textContent = filtered.length + ' scene' + (filtered.length === 1 ? '' : 's');
       const approvedN = SCENES.filter(function (x) { return x.approval_status === "Approved"; }).length;
+      const candidateN = SCENES.length - approvedN;
       const qcCountEl = document.getElementById("qc-count");
-      if (qcCountEl) { qcCountEl.textContent = approvedN + " of " + SCENES.length + " independently approved · " + (SCENES.length - approvedN) + " awaiting QC"; }
+      if (qcCountEl) { qcCountEl.textContent = approvedN + " of " + SCENES.length + " Approved · " + candidateN + " Candidate"; }
+      const subEl = document.getElementById("gallery-sub");
+      if (subEl) {
+        subEl.textContent = candidateN === 0
+          ? "The Netherlands · " + approvedN + " Approved"
+          : approvedN === 0
+            ? "The Netherlands · Candidate scenes until an independent QC pass"
+            : "The Netherlands · " + approvedN + " Approved · " + candidateN + " Candidate";
+      }
       for (const s of filtered) {
         const card = document.createElement('article');
         card.className = 'card';
@@ -413,16 +441,10 @@
         const dlink = dcard.querySelector('a.thumb');
         const dimg = dlink && dlink.querySelector('img');
         if (dimg && dlink) {
-          const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
-          const dnext = dimg.getAttribute(dkey);
+          const dnext = srcFor(dimg, dfmt, isDay);
           if (dnext) { dimg.src = dnext; dlink.href = dnext; }
         }
-        dcard.querySelectorAll('a.download').forEach((a) => {
-          const f = a.getAttribute('data-dl');
-          const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : f === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
-          const u = dimg && dimg.getAttribute(dk);
-          if (u) a.href = u;
-        });
+        syncDownloads(dcard, dimg, isDay);
         const sc = dcard.querySelector('p.scenario');
         if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
         return;
@@ -443,15 +465,12 @@
       if (!img || !link) return;
       const dayOn = card.querySelector('.day-tab.is-active');
       const useDay = dayOn && dayOn.getAttribute('data-daynight') === 'day';
-      const next = fmt === "4x5"
-        ? (useDay && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
-        : fmt === "9x16"
-        ? (useDay && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
-        : (useDay && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
+      const next = srcFor(img, fmt, !!useDay);
       if (next) {
         img.src = next;
         link.href = next;
       }
+      syncDownloads(card, img, !!useDay);
       link.classList.toggle('tall', fmt === '4x5');
       link.classList.toggle('tall916', fmt === '9x16');
     });
