@@ -4,22 +4,56 @@
   "region": "Gelderland",
   "city": "Poederoijen",
   "caption": "Slot Loevestein, Poederoijen",
-  "scenario_label": "26 September 2026 · 00:38 Europe/Amsterdam",
-  "composition": "Two square towers, a gate wall, and a round powder tower · AI-generated artistic interpretation",
-  "description": "Slot Loevestein stands in its moat at Poederoijen, a medieval brick castle with two square towers joined by a gate wall, and a round powder tower on the grass rampart. The museum is closed and no ferry is at the bank. The sky is clear, about 12.9°C, with wind near 11.2 km/h. Sunset was 19:29. The windows are dark.",
+  "scenario_label": "26 September 2026 \u00b7 00:38 Europe/Amsterdam",
+  "composition": "Two square towers, a gate wall, and a round powder tower \u00b7 AI-generated artistic interpretation",
+  "description": "Slot Loevestein stands in its moat at Poederoijen, a medieval brick castle with two square towers joined by a gate wall, and a round powder tower on the grass rampart. The museum is closed and no ferry is at the bank. The sky is clear, about 12.9\u00b0C, with wind near 11.2 km/h. Sunset was 19:29. The windows are dark.",
   "alt_text": "AI-generated artistic interpretation of Slot Loevestein at Poederoijen on a clear night",
   "file_16x9": "Netherlands/Poederoijen/nl-01-085-16x9.png",
   "file_4x5": "Netherlands/Poederoijen/nl-01-085-4x5.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "G1 PASS: Slot Loevestein Poederoijen — medieval brick castle with towers by the river at night, lamp glow at the arched entrance, reflections in water (4x5 text crop spot-checked legible); plausible. G2 PASS: exact dims; on-image caption 'Slot Loevestein, Poederoijen', scenario '26 September 2026 · 00:38 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:38:10+02:00 unique repo-wide; scenario 00:38 inside model window 00:30–00:45. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public monument. G5 PASS: card fields complete.",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "G1 PASS: Slot Loevestein Poederoijen \u2014 medieval brick castle with towers by the river at night, lamp glow at the arched entrance, reflections in water (4x5 text crop spot-checked legible); plausible. G2 PASS: exact dims; on-image caption 'Slot Loevestein, Poederoijen', scenario '26 September 2026 \u00b7 00:38 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:38:10+02:00 unique repo-wide; scenario 00:38 inside model window 00:30\u201300:45. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos; public monument. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:51.588002+00:00",
   "sha256_16x9": "78a4a1c0e996ed9ca78362db7e089dee6093142a03e7943cad7085b8748a8b02",
   "sha256_4x5": "b072175181a32e01e6f6e85e862566c721fd8b493adb2dcb0ead18086bb46645",
   "file_9x16": "Netherlands/Poederoijen/nl-01-085-9x16.png",
   "sha256_9x16": "5953efc43553f95c34632aaff5edaee0f99c85101e1f19ae1ebe558694c8d145",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4bd867f12fe852a18bffb4bbd450d129dd8dee47802ca4588e00f95c4dc3e65b. Source SHA-256 4:5 276cf5a6d64ad51c6c5cc6bf66391f209c39ec5af5835c7eba6e8bd91d84e6f3. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4bd867f12fe852a18bffb4bbd450d129dd8dee47802ca4588e00f95c4dc3e65b. Source SHA-256 4:5 276cf5a6d64ad51c6c5cc6bf66391f209c39ec5af5835c7eba6e8bd91d84e6f3. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Poederoijen/nl-01-085-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Poederoijen/nl-01-085-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Poederoijen/nl-01-085-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-085",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 11:37 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:47+02:00",
+    "generation_timestamp": "2026-10-02T11:37:21+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-085.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Poederoijen/nl-01-085-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Poederoijen/nl-01-085-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Poederoijen/nl-01-085-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a84258ad225e39db9b82057a6b18df193e11f6c977929fa70fbd9aa1f74fafb2",
+      "4x5": "a098a74c4aa3979e536e631a15b824c7da46f7e0fb3cea1e58ede12933b3a848",
+      "9x16": "39d983e1436f12fdd7832ade2ada14afbac5f8b681297559a14ed4e510928a35"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Slot Loevestein, Poederoijen",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 11:37 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
