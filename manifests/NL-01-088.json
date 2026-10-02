@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Hoek van Holland/nl-01-088-9x16.png",
   "sha256_9x16": "83fac41c7adf511dc66ad410a570491b6990005c66e4743b57a7877f2f7de66d",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ad0bbae77404e79fbf9c641d5b5b0f8e1d535de5d70003439ad39b7657e4a038. Source SHA-256 4:5 3c4a82d3dbe12b5e5df1fedc5e542d695259540728882448c23a1a24dd5e68ca. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ad0bbae77404e79fbf9c641d5b5b0f8e1d535de5d70003439ad39b7657e4a038. Source SHA-256 4:5 3c4a82d3dbe12b5e5df1fedc5e542d695259540728882448c23a1a24dd5e68ca. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Hoek van Holland/nl-01-088-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Hoek van Holland/nl-01-088-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Hoek van Holland/nl-01-088-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-088",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:37 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:35+02:00",
+    "generation_timestamp": "2026-10-02T11:37:39+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-088.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Hoek van Holland/nl-01-088-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Hoek van Holland/nl-01-088-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Hoek van Holland/nl-01-088-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "4e425945dafed3846b33619761afa10f34749f16106b236af11a3e84d3c0124f",
+      "4x5": "8b02fbd8d8691a64d316aa4b083ed351b83de73dd1b0d4e1313d4c84f03e1c20",
+      "9x16": "9067318b75a2ee997ff911e22dd163a05d835edfde4635d9a8866f8ad10c2381"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Beach, Hoek van Holland",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:37 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
