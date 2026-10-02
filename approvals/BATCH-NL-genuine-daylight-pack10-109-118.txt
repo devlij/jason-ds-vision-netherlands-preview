@@ -1,0 +1,150 @@
+BATCH NL genuine daylight Part A pack 10
+Date: 2026-10-02
+Country: Netherlands
+Status: Candidate. Cosmo QC. Do not merge. Not a Friday-complete certificate.
+Provenance: genuine daylight. Not interim-ai. Text-prompt only. Night masters were not image anchors and were not rewritten.
+Gallery: index.html was not rebuilt. Daylight is not the card primary. The later work order wo-netherlands-daylight-primary does the toggle flip.
+
+Gate: 2026-10-02T12:24+02:00 was open. Each site's sunrise and sunset are the Open-Meteo values on that retrieval. Every retrieval has is_day 1 and the generation minute sits inside that site's sunrise–sunset and inside the retrieval clock hour.
+
+Inventory
+- 288 NL-01 scenes. Night-primary (Open-Meteo is_day 0 on the scene weather file): 273. Day-primary (is_day 1): 15, which are NL-01-002, NL-01-005 through NL-01-016, NL-01-064, and NL-01-067. Those are not night gaps.
+- Genuine daylight masters on main before this pack: 0. Files named *-daylight-* already on main for NL-01-001 through NL-01-010 are the 2026-09-26 interim derivatives (no weather scenario, derived from the night interpretation). They are not genuine daylight.
+- Unmerged interim-ai daylight in PRs #18–#31 is held by Cosmo and is not counted as a genuine master.
+- Packs 1–9 are done as unmerged Candidate genuine sets and are not repeated here: NL-01-017–046, NL-01-047–056, NL-01-057–063 plus NL-01-065, NL-01-066, and NL-01-108, NL-01-068–077, NL-01-078–087, NL-01-088–097, and NL-01-098–107.
+- Skipped NL-01-001, NL-01-003, and NL-01-004: held architectural rework until rebuilt. They are outside this slice.
+- Skipped day-primary NL-01-002, NL-01-005–016, NL-01-064, and NL-01-067.
+- Sibling packs launching NL-01-119 through NL-01-168 were not used.
+- This pack fills the night-primary slice NL-01-109 through NL-01-118. All ten are is_day 0 on the night card. None is day-primary.
+- Genuine daylight count in this pack: 10.
+- Night-primary scenes still without a genuine daylight master on main: 273. After unmerged packs 1–9 and this Candidate pack, 173 night-primary scenes still have no genuine set, including the three holds.
+
+Finish
+- Label bar under the photo for 16:9 (1920×1270, photo 1920×1080) and 4:5 (864×1270, photo 864×1080).
+- 9:16 finished file is exact 1080×1920 (true 9:16). The 190px bar is inside that frame (photo 1080×1730, top-aligned crop of the text-prompt 9:16). It is not 1080×2110.
+- 4:5 is a separate text-prompt 3:4 re-frame fitted to 864×1080, not a crop of a night master.
+- Art. 50 five PNG chunks on all three masters. Comment finish date 2026-10-02.
+- On-image left: caption, Scenario line, AI-generated artistic interpretation · Not a photograph. Right: Jason D’s Vision and Jason A. Devlin.
+- Each scene has one Open-Meteo retrieval, unique to the second against the 288 night weather files and against this pack. Weather numbers below are only those retrievals. The scenario minute is the Europe/Amsterdam mtime of that scene's 16:9 generation file.
+- Night master SHA-256 before this pack matches SHA-256 after. Night files were not rewritten.
+
+Scenes
+NL-01-109  Lek bridge, Culemborg
+  retrieval 2026-10-02T12:24:05+02:00  generation 2026-10-02T12:26:50+02:00
+  scenario 2 October 2026 · 12:26 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 71%  17.6°C  wind 7.6 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:41  sunset 2026-10-02T19:14
+  night 16x9 library/world/Netherlands/Culemborg/nl-01-109-16x9.png  sha256 before and after  96f95fe1db792bc03a5dc702305ad52daccfa290fc2cbb91d3db6143ca969608
+  night 4x5  sha256 before and after  2e133fca7dad8f04c98de21a850a3721f186b758a07c7eddb5245a95f234daef
+  night 9x16 sha256 before and after  a9d12fd393c9521ddd55cb89bcb8acd3a10dff48812cba96b7fb84a3593d08cf
+  16x9 library/world/Netherlands/Culemborg/nl-01-109-daylight-16x9.png  310982767e5f9a4d63a0c9434b88a82e7acbb4bf812f943ca943c1fbee36b4f3
+  4x5  library/world/Netherlands/Culemborg/nl-01-109-daylight-4x5.png  69fecd77e587fe28407f6ec2e4ac0bf0797708cdb830b82221b60268542a337e
+  9x16 library/world/Netherlands/Culemborg/nl-01-109-daylight-9x16.png  1080x1920  3ead4aaac7b873c88f3a5fbcd6fd2be4ee70ff41e1801301ef179506cb40953d
+
+NL-01-110  Waterfront, Tiel
+  retrieval 2026-10-02T12:24:08+02:00  generation 2026-10-02T12:25:06+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 87%  17.5°C  wind 7.2 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:40  sunset 2026-10-02T19:13
+  night 16x9 library/world/Netherlands/Tiel/nl-01-110-16x9.png  sha256 before and after  90f98ce09cd12957a024a4e4eddc321fba45b63b6c3a66db96217a714026b1d8
+  night 4x5  sha256 before and after  20f2bdda7cbb2484726e15ae64f308e533946eb70dc6f1653f67b946f80b10d6
+  night 9x16 sha256 before and after  04a22ae1cb0607d2b783b2ce26c86696e85962533be72f521ea17b16a56233e0
+  16x9 library/world/Netherlands/Tiel/nl-01-110-daylight-16x9.png  f7b9a15c65333424f32bbd60a9d893f44954190a2b28ac125003e1a7efc1c92e
+  4x5  library/world/Netherlands/Tiel/nl-01-110-daylight-4x5.png  a85ef03bde1faa2ca8c603da8324fc03190d6ae780a9ef56faba7b26e90e7e2a
+  9x16 library/world/Netherlands/Tiel/nl-01-110-daylight-9x16.png  1080x1920  9e29329a117962f9260c0077fa8dcca65a9dff044e8f61d16245f0dbe35deecf
+
+NL-01-111  Hotel De Wereld, Wageningen
+  retrieval 2026-10-02T12:24:10+02:00  generation 2026-10-02T12:25:05+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 98%  17.6°C  wind 6.5 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:39  sunset 2026-10-02T19:12
+  night 16x9 library/world/Netherlands/Wageningen/nl-01-111-16x9.png  sha256 before and after  0f14bbd6bf1ce80cb9a3ac7b430df577d445f0397b44be128c485add3f21794e
+  night 4x5  sha256 before and after  4ea23956255ba4d53ce12f513850880ac40b6f2d1fe78601a1027240fc2ca517
+  night 9x16 sha256 before and after  f6fcc59c2e09cd7ee652266e4488256ff8bb6ba90a7a2a351cfc1c28deef1cf1
+  16x9 library/world/Netherlands/Wageningen/nl-01-111-daylight-16x9.png  2ffac1dd67726a6582bb16b1adee4c057ebea0b843090e9e3a7b2270fc2dbd29
+  4x5  library/world/Netherlands/Wageningen/nl-01-111-daylight-4x5.png  844ca5fa9343ebfec804575a2eff1ee6845af08cc08a79c71eff1cf6b286980b
+  9x16 library/world/Netherlands/Wageningen/nl-01-111-daylight-9x16.png  1080x1920  dc899ddcd61e316bbeee627720ffcbeb73e521ffe32ac7f1f7a0ba63f7700b98
+
+NL-01-112  Radio Kootwijk
+  retrieval 2026-10-02T12:24:13+02:00  generation 2026-10-02T12:25:20+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 94%  17.3°C  wind 5.4 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:39  sunset 2026-10-02T19:11
+  night 16x9 library/world/Netherlands/Radio Kootwijk/nl-01-112-16x9.png  sha256 before and after  799df49e8a2f258601ee2018fb80f433ffc6ccc551e010ce7bd602fdb478d30a
+  night 4x5  sha256 before and after  207bb57c114b4de3454cc27de1a8974f92f73cb282922e4cceb6dd2dea3e0e25
+  night 9x16 sha256 before and after  0c78b566308735856b299a9da728fdcd06c93c26ebb7f57656772333c6f9e2c3
+  16x9 library/world/Netherlands/Radio Kootwijk/nl-01-112-daylight-16x9.png  30536981bcbbd14477b5bd4af6edcd258e0e80a79e7f2959d22e548b7592a894
+  4x5  library/world/Netherlands/Radio Kootwijk/nl-01-112-daylight-4x5.png  8b22d495f9ef314f3059f3f6f55149c2dbfd974191601207a9694a0cf18fbc5d
+  9x16 library/world/Netherlands/Radio Kootwijk/nl-01-112-daylight-9x16.png  1080x1920  ef6ea804988f1f2247d1b4ceae45e7dfd490149a4b030c2eaf04509a573b10f2
+
+NL-01-113  Waddenhaven, Nes
+  retrieval 2026-10-02T12:24:15+02:00  generation 2026-10-02T12:25:22+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0  cloud 5%  18.1°C  wind 12.2 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:40  sunset 2026-10-02T19:11
+  night 16x9 library/world/Netherlands/Nes/nl-01-113-16x9.png  sha256 before and after  fddcd4f3e2586128281e5a5c064310e68ae0eaff0d51461da6bf1724bb3bb8ab
+  night 4x5  sha256 before and after  80580ac4d2acd0659adfc30398c95c9a4b72124a20fc610860f8c03b3fe968fd
+  night 9x16 sha256 before and after  747a94fea9da103d9aa98173b137eff9e4d639c84b377f479f2dc632e63059b1
+  16x9 library/world/Netherlands/Nes/nl-01-113-daylight-16x9.png  587ffcedb3b2260c29d653163e84a5d401d1636497739969fcd24b530937ade8
+  4x5  library/world/Netherlands/Nes/nl-01-113-daylight-4x5.png  214f32347c8db24a06d82b901faa51b52630c9ad18414c2673370857e4c0be79
+  9x16 library/world/Netherlands/Nes/nl-01-113-daylight-9x16.png  1080x1920  69ea0ad268f9c1e8a7db6744c0eaa441a818233ee984a9ef54d0d0c8689a21ec
+
+NL-01-114  Brandaris, West-Terschelling
+  retrieval 2026-10-02T12:24:18+02:00  generation 2026-10-02T12:25:24+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 28%  18.2°C  wind 14.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:42  sunset 2026-10-02T19:13
+  night 16x9 library/world/Netherlands/West-Terschelling/nl-01-114-16x9.png  sha256 before and after  2e323a31c93a217e98f4005b0480179d312a82ab8ba71a049c4f30e077091293
+  night 4x5  sha256 before and after  0bf4595765d80c0274fef036bb1e0423b88b8f900d73e823bf47a90a97caa738
+  night 9x16 sha256 before and after  6de1e3b2094fb60d18c4b53df60600a3af8071173493ba374104b3fc44b5ed94
+  16x9 library/world/Netherlands/West-Terschelling/nl-01-114-daylight-16x9.png  6897e0af9f07eaa07ca09501c8d7f8b6aa638d64c2f8e08abeec161f1f1aa9a1
+  4x5  library/world/Netherlands/West-Terschelling/nl-01-114-daylight-4x5.png  0a88b9852373be0515d1879aefe560aa345a16d86a90eaa0f62bc8904e1cac30
+  9x16 library/world/Netherlands/West-Terschelling/nl-01-114-daylight-9x16.png  1080x1920  df4b9a7455d490efc039f4e48a980de0d82259d06f3f5b8f73e5ced1c657ca00
+
+NL-01-115  Veerdam, Oost-Vlieland
+  retrieval 2026-10-02T12:24:20+02:00  generation 2026-10-02T12:25:37+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 26%  18.2°C  wind 16.9 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:42  sunset 2026-10-02T19:14
+  night 16x9 library/world/Netherlands/Oost-Vlieland/nl-01-115-16x9.png  sha256 before and after  54f18ada1e5d11dfceb092ed0991c24dbf0993bb2ac2eb6c4be37dbc50f67aed
+  night 4x5  sha256 before and after  1bfa0d1b99a10bd02d8f9e561cdb998aafd9855f5f05dd65267c8ac5b7ae559c
+  night 9x16 sha256 before and after  bca1c4725770c028972f9b12402527a9709ede5b0cf68a3df860944a4eb2db9f
+  16x9 library/world/Netherlands/Oost-Vlieland/nl-01-115-daylight-16x9.png  6335f99f082a3367b3d9732e265fc69348172d0eab434654277e51e1bd791057
+  4x5  library/world/Netherlands/Oost-Vlieland/nl-01-115-daylight-4x5.png  6ec68ae3c9765be27271a069eac4b507c796f7f54fce76137f430606875f8e35
+  9x16 library/world/Netherlands/Oost-Vlieland/nl-01-115-daylight-9x16.png  1080x1920  e73c6cc0f2e61bc6fdbaedcb77a880bfe90cdf4b5084e300e31833e603091471
+
+NL-01-116  Noordertoren, Schiermonnikoog
+  retrieval 2026-10-02T12:24:23+02:00  generation 2026-10-02T12:25:39+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0  cloud 2%  17.9°C  wind 11.2 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:38  sunset 2026-10-02T19:09
+  night 16x9 library/world/Netherlands/Schiermonnikoog/nl-01-116-16x9.png  sha256 before and after  d58f5d990c6f3b2342064340aadc4964aae897f1dc5f0edaf7070773c9b5ecb0
+  night 4x5  sha256 before and after  ad549104aec099bc7baab27921b044c5cc639cbae7776a3eaee16d5436cc2c87
+  night 9x16 sha256 before and after  48f3e243593cb071805664f4ecea74cd28a62a1628490823ecb1c552e2eb92ff
+  16x9 library/world/Netherlands/Schiermonnikoog/nl-01-116-daylight-16x9.png  2cc0eee0832a633af0d214daad57f16ec9b3f4f2348db843aeb7b9fbeb374460
+  4x5  library/world/Netherlands/Schiermonnikoog/nl-01-116-daylight-4x5.png  b90181bf0751b05efe459bc0eebc26cb93c85cdaee0f8841940847c511b2d448
+  9x16 library/world/Netherlands/Schiermonnikoog/nl-01-116-daylight-9x16.png  1080x1920  2e06aeb4349c417236369e89621f2bba824746d34aec84ac51e10dd5e2f8f781
+
+NL-01-117  Harbour, Den Oever
+  retrieval 2026-10-02T12:24:25+02:00  generation 2026-10-02T12:26:53+02:00
+  scenario 2 October 2026 · 12:26 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0  cloud 9%  18.5°C  wind 10.4 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:42  sunset 2026-10-02T19:14
+  night 16x9 library/world/Netherlands/Den Oever/nl-01-117-16x9.png  sha256 before and after  99dde1de720e2d5e61d42b364bf0c26453b74eb31ff4cae6c7517c36c74b798c
+  night 4x5  sha256 before and after  cd001e2341c3ab4f0f115b4c9d44ba0843941e0494bea76e2eadacade6ddf1ec
+  night 9x16 sha256 before and after  e52cace079df5313db78136229b870a39f8744b241cc85232d01a58124799ac4
+  16x9 library/world/Netherlands/Den Oever/nl-01-117-daylight-16x9.png  863f6b18decda0f7eed2f79eafe0b09647a83adc1be795bddb03dff0875be755
+  4x5  library/world/Netherlands/Den Oever/nl-01-117-daylight-4x5.png  dd467bf8df2e6bd612d92d8d24f119a1683f1577d9dba3c95499b40974826ab3
+  9x16 library/world/Netherlands/Den Oever/nl-01-117-daylight-9x16.png  1080x1920  7881135ba4a07350dcf96cce0fd1853e1768f48271b7c782fbaff52509e21d7d
+
+NL-01-118  Vlietermonument, Afsluitdijk
+  retrieval 2026-10-02T12:24:28+02:00  generation 2026-10-02T12:26:51+02:00
+  scenario 2 October 2026 · 12:26 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0  cloud 0%  17.4°C  wind 15.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:42  sunset 2026-10-02T19:14
+  night 16x9 library/world/Netherlands/Afsluitdijk/nl-01-118-16x9.png  sha256 before and after  8d2b3841330b3a59652abc52353987db926a1b4dd384c3ca550a8764fdb0f3b6
+  night 4x5  sha256 before and after  c51bbcb6d7c8507c6a6c98375b79f88922fa1766b0fc664f9913834421876b73
+  night 9x16 sha256 before and after  e884c92602ce91b61aebf11affa86cd6d7031fc6041792ada3934e5300755350
+  16x9 library/world/Netherlands/Afsluitdijk/nl-01-118-daylight-16x9.png  7f402db67b06b0951225e85746c7b2383c02ace3a2864d7872a5c84e10068101
+  4x5  library/world/Netherlands/Afsluitdijk/nl-01-118-daylight-4x5.png  95e33cce2c1ba81918151c8cc4012181e9b8d64695ff514bec948b2a47b36194
+  9x16 library/world/Netherlands/Afsluitdijk/nl-01-118-daylight-9x16.png  1080x1920  5f259496ecc646fc89c80977f3f7a1edee5f16d8a1be5e0694a85b58ec574e6d

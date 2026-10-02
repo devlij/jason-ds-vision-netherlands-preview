@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/West-Terschelling/nl-01-114-9x16.png",
   "sha256_9x16": "6de1e3b2094fb60d18c4b53df60600a3af8071173493ba374104b3fc44b5ed94",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2a411d2d941062a6e9a32ea7b1f1973d001bc1cccdf358a5edea7fd028f40957. Source SHA-256 4:5 1b99d0f9d61bc9bfc288d1692dd29c2395eec2e1cc5fc93586403a984b148b7a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2a411d2d941062a6e9a32ea7b1f1973d001bc1cccdf358a5edea7fd028f40957. Source SHA-256 4:5 1b99d0f9d61bc9bfc288d1692dd29c2395eec2e1cc5fc93586403a984b148b7a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/West-Terschelling/nl-01-114-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/West-Terschelling/nl-01-114-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/West-Terschelling/nl-01-114-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-114",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:25 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:24:18+02:00",
+    "generation_timestamp": "2026-10-02T12:25:24+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-114.json",
+    "files": {
+      "16x9": "library/world/Netherlands/West-Terschelling/nl-01-114-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/West-Terschelling/nl-01-114-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/West-Terschelling/nl-01-114-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "6897e0af9f07eaa07ca09501c8d7f8b6aa638d64c2f8e08abeec161f1f1aa9a1",
+      "4x5": "0a88b9852373be0515d1879aefe560aa345a16d86a90eaa0f62bc8904e1cac30",
+      "9x16": "df4b9a7455d490efc039f4e48a980de0d82259d06f3f5b8f73e5ced1c657ca00"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Brandaris, West-Terschelling",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:25 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

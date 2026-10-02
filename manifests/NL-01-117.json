@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Den Oever/nl-01-117-9x16.png",
   "sha256_9x16": "e52cace079df5313db78136229b870a39f8744b241cc85232d01a58124799ac4",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 3d99c368766e1d13809c3365f21ceb0e6741e1ae395eaed515244334dd3a9334. Source SHA-256 4:5 f3d86f5f43eb70afa5843999786c4d7012cfcadea052fa0010e5a637457dc3c2. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 3d99c368766e1d13809c3365f21ceb0e6741e1ae395eaed515244334dd3a9334. Source SHA-256 4:5 f3d86f5f43eb70afa5843999786c4d7012cfcadea052fa0010e5a637457dc3c2. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Den Oever/nl-01-117-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Den Oever/nl-01-117-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Den Oever/nl-01-117-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-117",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:26 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:24:25+02:00",
+    "generation_timestamp": "2026-10-02T12:26:53+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-117.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Den Oever/nl-01-117-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Den Oever/nl-01-117-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Den Oever/nl-01-117-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "863f6b18decda0f7eed2f79eafe0b09647a83adc1be795bddb03dff0875be755",
+      "4x5": "dd467bf8df2e6bd612d92d8d24f119a1683f1577d9dba3c95499b40974826ab3",
+      "9x16": "7881135ba4a07350dcf96cce0fd1853e1768f48271b7c782fbaff52509e21d7d"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Harbour, Den Oever",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:26 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
