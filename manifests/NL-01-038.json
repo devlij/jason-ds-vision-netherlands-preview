@@ -20,5 +20,39 @@
   "sha256_4x5": "6c47fae9a83a10ad4efc3d75dd409581e6291c82c41116e7e2c27eaf6e2feab0",
   "file_9x16": "Netherlands/Eindhoven/nl-01-038-9x16.png",
   "sha256_9x16": "11b892f3225200fc570bfcc07a0fa299b7f716b28c6fb710c949cc67daaac8f8",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/Eindhoven/nl-01-038-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Eindhoven/nl-01-038-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Eindhoven/nl-01-038-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-038",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 10:02 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T10:01:00+02:00",
+    "generation_timestamp": "2026-10-02T10:02:06+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-038.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Eindhoven/nl-01-038-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Eindhoven/nl-01-038-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Eindhoven/nl-01-038-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "69d6dd6bde66256b10e97fa03af8260a6110f81d984253ed453b13d97738ed51",
+      "4x5": "6cda1b23eb4da7fcc988619786532d589bd0d61f365bebcabedd02405c2d65d8",
+      "9x16": "9d1af420a1368e94ace0b12a9f312e44e16ae89eba3ad1829ae64cf6391b7163"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Evoluon, Eindhoven",
+    "on_image_scenario": "Scenario: 2 October 2026 · 10:02 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
