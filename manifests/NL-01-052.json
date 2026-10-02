@@ -20,5 +20,39 @@
   "sha256_4x5": "48f243a6ff528cc32732c527dcf3525a8adea15bc6516e472f939cc66fd51c57",
   "file_9x16": "Netherlands/Vaals/nl-01-052-9x16.png",
   "sha256_9x16": "c350608c535003c80cf0315b7d8f2a96863e9340a03c2953df532fa2876fc968",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/Vaals/nl-01-052-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Vaals/nl-01-052-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Vaals/nl-01-052-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-052",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:43 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:48+02:00",
+    "generation_timestamp": "2026-10-02T11:43:18+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-052.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Vaals/nl-01-052-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Vaals/nl-01-052-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Vaals/nl-01-052-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "46594260a7c2fb2673023c90f6bad757f34770254b7677a8459fcb28e6dd06a2",
+      "4x5": "8c482f9964a80c8b1bdbca37eaeb3c9b8ed562956014b893d50dd718b0a43a7c",
+      "9x16": "38e8a0efe344291d83fdc4fa81403004077fb02de3c5e43f30291f329d92508f"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Vaalserberg, Vaals",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:43 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

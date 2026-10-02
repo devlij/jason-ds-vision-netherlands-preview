@@ -20,5 +20,39 @@
   "sha256_4x5": "32f62e48649452779e79c713d36ed5309cafcdab333141746deb78072cf03121",
   "file_9x16": "Netherlands/Urk/nl-01-054-9x16.png",
   "sha256_9x16": "1174ed5dfb534fa78ca1fc6007abad59a9c1852d9898b420b3d1ca5facf9373e",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/Urk/nl-01-054-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Urk/nl-01-054-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Urk/nl-01-054-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-054",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:38 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:53+02:00",
+    "generation_timestamp": "2026-10-02T11:38:50+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-054.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Urk/nl-01-054-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Urk/nl-01-054-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Urk/nl-01-054-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "c63b9f86ab566a0d0b3028b981595713eb88ab7c1edbf081d7fa222e4aa717a0",
+      "4x5": "d425781335b91498f4bd68f9324181b18e961207edd39805b7ec6468d6bc3b19",
+      "9x16": "a572b837f8aaa14410124afee12f2d9fe9e5952766ffd8c786a045af67ade2ad"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Harbour, Urk",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:38 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
