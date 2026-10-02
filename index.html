@@ -119,6 +119,12 @@
       border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
     }
     .fmt-tab:hover { border-color: var(--muted); }
+    .btn-360 {
+      background: rgba(20, 32, 47, 0.85); color: var(--text); border: 1px solid var(--accent);
+      border-radius: 8px; padding: 5px 12px; font: inherit; font-size: 12px; font-weight: 700;
+      cursor: pointer; margin-top: 6px;
+    }
+    .btn-360:hover { background: var(--accent); color: var(--bg); }
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
     }
@@ -456,6 +462,8 @@
         const day16 = s.file_16x9_day ? 'library/world/' + s.file_16x9_day : "";
         const day45 = s.file_4x5_day ? 'library/world/' + s.file_4x5_day : "";
         const day916 = s.file_9x16_day ? 'library/world/' + s.file_9x16_day : "";
+        const motionClip = s.motion_clip ? s.motion_clip : "";
+        const has360 = s.has_360 === true && !!motionClip;
         const dayPrimary = s.daylight_primary === true && !!day16;
         const dayKind = dayPrimary ? "genuine" : (day16 ? "derived" : "");
         const dayScenario = (dayPrimary && s.daylight_variant && s.daylight_variant.scenario_label) ? s.daylight_variant.scenario_label : "";
@@ -472,6 +480,7 @@
               ${(file45 || day45) ? `<button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>` : ""}
               ${(file916 || day916) ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
             </div>
+            ${has360 ? `<button type="button" class="btn-360" data-clip="${esc(motionClip)}">▶ 360°</button>` : ""}
           ${dayPrimary ? `<div class="day-row"><button type="button" class="night-tab" data-daynight="day" aria-pressed="false" title="Show the original night image">\uD83C\uDF19 Nighttime</button></div>` : (day16 ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : "")}
           <div class="card-body">
             <div class="status-row">
@@ -730,6 +739,43 @@
     document.querySelector('#wotd .wotd-body').innerHTML=h;
     document.getElementById('wotd-day').textContent='Day '+doy+' of 365';
   }catch(err){}
+})();
+</script>
+
+<script>
+(function() {
+  // 360° video player for Netherlands gallery
+  const modal = document.createElement('div');
+  modal.id = 'video360-modal';
+  modal.style.cssText = 'display:none;position:fixed;inset:0;background:rgba(0,0,0,0.9);z-index:9999;align-items:center;justify-content:center;';
+  modal.innerHTML = '<div style="position:relative;max-width:90vw;max-height:90vh;">' +
+    '<video id="video360-player" style="max-width:90vw;max-height:85vh;border-radius:8px;" autoplay muted loop playsinline></video>' +
+    '<button id="video360-close" style="position:absolute;top:-40px;right:0;background:#fff;border:none;border-radius:50%;width:32px;height:32px;font-size:18px;cursor:pointer;">✕</button>' +
+    '</div>';
+  document.body.appendChild(modal);
+  const player = modal.querySelector('#video360-player');
+  const closeBtn = modal.querySelector('#video360-close');
+  
+  function closeModal() {
+    player.pause();
+    player.src = '';
+    modal.style.display = 'none';
+  }
+  closeBtn.onclick = closeModal;
+  modal.onclick = function(e) { if (e.target === modal) closeModal(); };
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeModal(); });
+  
+  document.addEventListener('click', function(e) {
+    const btn = e.target.closest('.btn-360');
+    if (btn) {
+      const clip = btn.getAttribute('data-clip');
+      if (clip) {
+        player.src = clip;
+        modal.style.display = 'flex';
+        player.play().catch(function() {});
+      }
+    }
+  });
 })();
 </script>
 </body>
