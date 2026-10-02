@@ -20,5 +20,39 @@
   "sha256_9x16": "0f4a78bdf5fdc0ad10f3781f494f0bac08e4030d252db5047f5eed464b4bc8aa",
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 c56c55cd697c1a9ff5607ce1bbc596a2667e746f9da0da020f8b075770b09f25. Source SHA-256 4:5 53f30ee83c0b1da2acb4c0b652fbfa552a5664fe507129ffdddcafed387857eb. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "approved_at": "2026-09-27T02:33:07Z",
-  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:37:24+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation."
+  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:37:24+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation.",
+  "file_16x9_day": "Netherlands/Lauwersoog/nl-01-192-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Lauwersoog/nl-01-192-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Lauwersoog/nl-01-192-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-192",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:44:08+02:00",
+    "generation_timestamp": "2026-10-02T12:44:55+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-192.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Lauwersoog/nl-01-192-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Lauwersoog/nl-01-192-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Lauwersoog/nl-01-192-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "893de64d31951d924af01dc37effba1363cc529d267f134bf212226c9de6293b",
+      "4x5": "4e6672a92282ba488d1092ad14be82994446384f6c45d6ca1718890c3c5eca4a",
+      "9x16": "1823b8f7239cbacbf9f0c358b3684730d83674c1654225750ee0f8b8ed752f30"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Ferry terminal, Lauwersoog",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:44 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

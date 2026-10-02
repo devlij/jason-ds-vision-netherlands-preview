@@ -20,5 +20,39 @@
   "sha256_9x16": "36add51dca7a75ebb9447b4ed074c7b16181dd6e2d2506dd8da9bd1c2ae24bae",
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 fc1a4ed03810c46c91308c9f3915ecfbdd365b8c1f20401da6f5b48323aa8665. Source SHA-256 4:5 3096867df94a6aa92d0f28dda2ec871782b240df7ec4b35aa115e223cbfba5d9. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "approved_at": "2026-09-27T02:33:07Z",
-  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-25T20:37:21-04:00 (per-scene retrieval, unique to the second) — not a verified on-site observation."
+  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-25T20:37:21-04:00 (per-scene retrieval, unique to the second) — not a verified on-site observation.",
+  "file_16x9_day": "Netherlands/Bonaire/nl-01-191-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Bonaire/nl-01-191-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Bonaire/nl-01-191-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-191",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:46 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:44:07+02:00",
+    "generation_timestamp": "2026-10-02T12:46:27+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-191.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Bonaire/nl-01-191-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Bonaire/nl-01-191-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Bonaire/nl-01-191-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "01c32f9c5ba76771d6ab0f232d0ec538c9736842e27c3508822a2f355a4c8052",
+      "4x5": "24447dfc89297c6215dcd945de9b347f30d7d09912141af843e22e99380e9bd5",
+      "9x16": "6c3b0601255382a73a1a21004fbf2084c383f91d5d6e6eb085d0b5bcd9532361"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Slave huts, Bonaire",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:46 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

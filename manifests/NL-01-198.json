@@ -20,5 +20,39 @@
   "sha256_9x16": "d5bdf99444bf3466add3f48367f30bc5b7b81d298bbc68f6c6d73be2123155ab",
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 aa805cd835d5b41583ddf208ff44058c2a8afd8147a6d5897e4c790191b676a2. Source SHA-256 4:5 f47b26ba5c416baab745ad93787aaeaef0d498f84acb34b56366c511c2092db9. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "approved_at": "2026-09-27T02:33:07Z",
-  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:55:51+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation."
+  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:55:51+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation.",
+  "file_16x9_day": "Netherlands/Roden/nl-01-198-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Roden/nl-01-198-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Roden/nl-01-198-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-198",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:45 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:44:15+02:00",
+    "generation_timestamp": "2026-10-02T12:45:31+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-198.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Roden/nl-01-198-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Roden/nl-01-198-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Roden/nl-01-198-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "94a58f86eeaa8421722cc7f4511e63bab0ae857e3ef95495a4b63e97370012d7",
+      "4x5": "6ee7b9dab8c5e0e54918da0996d7072e2cb70a68f1b95b626086f93d61943b8c",
+      "9x16": "3e948d92fedf7cfaef92ba5eb1a47cac92d8c09b0ad5abcb4538bb6d3e34a24f"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Havezate Mensinge, Roden",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:45 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
