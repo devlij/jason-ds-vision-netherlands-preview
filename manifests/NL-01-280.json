@@ -59,13 +59,13 @@
     "sha256": {
       "16x9": "454a7619ccb3845b2f243f5b782f1fed3305879c4cb7583e543cfacc542bbbed",
       "4x5": "af18d0b23f4b354d13e044429421524908721f317227ac36d0e5fd8955bc7abc",
-      "9x16": "4b53b3c45b22457638768290ca8ba8e42ce2a3a713f8a288375caa4fad219997"
+      "9x16": "556e9466528997ad3d74600a99e9f656642536dfc49e5eacb576520ce91188a7"
     },
     "dimensions": {
       "16x9": "1920x1270",
       "4x5": "864x1270",
-      "9x16": "1080x2110",
-      "photo_9x16": "1080x1920"
+      "9x16": "1080x1920",
+      "photo_9x16": "1080x1730"
     },
     "created_date": "2026-10-02",
     "scenario_label": "2 October 2026 · 13:09 Europe/Amsterdam",

@@ -6,8 +6,8 @@ Scenes: 10. Genuine daylight sets: 10. Interim-AI counted as genuine: 0.
 Gate: Europe/Amsterdam daylight. Open-Meteo Amsterdam probe 2026-10-02T13:08 Europe/Amsterdam, is_day 1, sunrise 07:43, sunset 19:15. Scene retrievals followed inside that window.
 Provenance: genuine text-prompt-only. No night master was passed to the generator. No image anchor.
 Scenario: the Europe/Amsterdam clock of each scene's own Open-Meteo retrieval. One retrieval per scene, unique to the second, is_day 1.
-Masters: 1920×1270 (16:9), 864×1270 (4:5), 1080×2110 (9:16). Photo areas 1920×1080, 864×1080, and exact 1080×1920.
-Label bar: 190px #0e0e12 under the photo, 2px hairline, caption, Scenario line, disclosure, Jason D’s Vision, Jason A. Devlin.
+Masters: 1920×1270 (16:9), 864×1270 (4:5), 1080×1920 (9:16). 16:9 and 4:5 photo areas stay 1920×1080 and 864×1080. The 9:16 file is 1080×1920 including the 190px label bar; visible photo rows are the exact top 1730 of the 1080×1920 pretext.
+Label bar: 190px #0e0e12, 2px hairline, caption, Scenario line, disclosure, Jason D’s Vision, Jason A. Devlin. On 16:9 and 4:5 the bar sits under the photo. On 9:16 the same bar is inside the 1080×1920 canvas.
 Art. 50 comment date: 2026-10-02 (finish date).
 Gallery: night primary unchanged. index.html not rewritten. No primary flip.
 Night masters: SHA-256 recorded before the write and matched after. Not regenerated.
@@ -27,7 +27,7 @@ NL-01-279  Blue obelisk, Bonaire
   night 9x16     933b6b6537866ba42a26179f1d0ce325cf0c606ca928475578a03f9388e870ee  IDENTICAL
   day 16x9       d2411b000170ba5510ca9e196a754f57d243ee36bc5e4937f4d7da09d54a55fb
   day 4x5        ddba110af11b2d723606fec805f3eee4832871051b4f0e10adf605d64ef344d5
-  day 9x16       bae7d04d0c8fb535d8b78206b3fa026abdb4279932b10e7acd8638c4b3f94cd4
+  day 9x16       443866f1137f709fab8dbc0037c802709e3361f71c036c75faf82f3af772110b
   files          library/world/Netherlands/Bonaire/nl-01-279-daylight-16x9.png
                  library/world/Netherlands/Bonaire/nl-01-279-daylight-4x5.png
                  library/world/Netherlands/Bonaire/nl-01-279-daylight-9x16.png
@@ -46,7 +46,7 @@ NL-01-280  Honen Dalim, Oranjestad
   night 9x16     556dd7eefc6a6c00abdd6bba50c33f8c76f6a06c24b9246e15aaa65d96c5063a  IDENTICAL
   day 16x9       454a7619ccb3845b2f243f5b782f1fed3305879c4cb7583e543cfacc542bbbed
   day 4x5        af18d0b23f4b354d13e044429421524908721f317227ac36d0e5fd8955bc7abc
-  day 9x16       4b53b3c45b22457638768290ca8ba8e42ce2a3a713f8a288375caa4fad219997
+  day 9x16       556e9466528997ad3d74600a99e9f656642536dfc49e5eacb576520ce91188a7
   files          library/world/Netherlands/Oranjestad/nl-01-280-daylight-16x9.png
                  library/world/Netherlands/Oranjestad/nl-01-280-daylight-4x5.png
                  library/world/Netherlands/Oranjestad/nl-01-280-daylight-9x16.png
@@ -65,7 +65,7 @@ NL-01-281  Basiliek, Sint Odiliënberg
   night 9x16     dd1ad715f28b2486dc0ef7ed63a24b5b8edea43c32702db54a3075c7644f3702  IDENTICAL
   day 16x9       4ed5a95f9274a6dfe146ae37e855d11c46046ad6a2cc0a8e9ca477d2cc7762d3
   day 4x5        716fb198818ae69feed011868befa5a1d23aa7d11abaa7bf1e74704346c53f4e
-  day 9x16       c407c17342fe1e00b530ca5d34db424dc7db99deb3615e892fc4624ddcf1d850
+  day 9x16       cda0e5a4d32aab1882a7c6307ce68797070e974fd3cc8e0212ac81f0de5f53fd
   files          library/world/Netherlands/Sint Odiliënberg/nl-01-281-daylight-16x9.png
                  library/world/Netherlands/Sint Odiliënberg/nl-01-281-daylight-4x5.png
                  library/world/Netherlands/Sint Odiliënberg/nl-01-281-daylight-9x16.png
@@ -84,7 +84,7 @@ NL-01-282  Drogenapstoren, Zutphen
   night 9x16     b6275b971f19dc098888b0b960a4e9c797a745fd241565cdc224b44eb3b1e6d2  IDENTICAL
   day 16x9       90af68f2311575662c934112ab78601513b81dd3bf629f3075ed9f68a294fa78
   day 4x5        48cfe6808385f1849557541f1f0d5d8bfe83619261c979dec6064950f975b205
-  day 9x16       b8d9773a9e05477811a5d787f2d6de2f59bc48df6d3e690d7162f6edf25cb468
+  day 9x16       0dbd30233a80cff01a1c1f5e9c9c30515c5ef6110520ba9d9dff0aa8a1a0605a
   files          library/world/Netherlands/Zutphen/nl-01-282-daylight-16x9.png
                  library/world/Netherlands/Zutphen/nl-01-282-daylight-4x5.png
                  library/world/Netherlands/Zutphen/nl-01-282-daylight-9x16.png
@@ -103,7 +103,7 @@ NL-01-283  Gevangenpoort, Woudrichem
   night 9x16     5d901391e3f2fd31b25d9b6d7d7be9e28069548bdea6b6a8c5eebfc9edf10ead  IDENTICAL
   day 16x9       5cdc85c48bf65fc26384800b453b07c15e1ba90e64cdc7a39cd4a90f60b4ac35
   day 4x5        45e06ca6c5161b5d1ba2dce153f16ed389810ef4a7ac2c57c9f73504624f6fdb
-  day 9x16       29d17a438271994861bf7f6ecfe632162e61f6750956c6f5e983708a97292b77
+  day 9x16       daf0fdab24183a0f0a4a6adcc7db18bd26f948c2683b80f5fe68fe15b57fc837
   files          library/world/Netherlands/Woudrichem/nl-01-283-daylight-16x9.png
                  library/world/Netherlands/Woudrichem/nl-01-283-daylight-4x5.png
                  library/world/Netherlands/Woudrichem/nl-01-283-daylight-9x16.png
@@ -122,7 +122,7 @@ NL-01-284  Stadhuis, Zierikzee
   night 9x16     dbd49310ce6dbbd2bf51c9cf9a5cda65590727de608e6c1127637dd6a8cf64b1  IDENTICAL
   day 16x9       247535a60babd086835b88022c5e7be2761feca6f1866488c64e1f5e91759e53
   day 4x5        01dddaaaf744676026d2bcf2e7403d3742d86541f2d29f05ae2d7351082a7322
-  day 9x16       cf57e14442f93630290cdf50d1cde1758101eb05bf58a3daadc3d7fac03bbaac
+  day 9x16       28f31cb207ece0a6f756bdc062a03067a8a6ecd9abf689294441c8b85646f6ec
   files          library/world/Netherlands/Zierikzee/nl-01-284-daylight-16x9.png
                  library/world/Netherlands/Zierikzee/nl-01-284-daylight-4x5.png
                  library/world/Netherlands/Zierikzee/nl-01-284-daylight-9x16.png
@@ -141,7 +141,7 @@ NL-01-285  Gemaal Wortman, Lelystad
   night 9x16     d0b1041a6ca1b660b09ae918f2ad8adb74521db95b7e9a5bb2d61ab3e6c831b3  IDENTICAL
   day 16x9       07dbd55d9ae120749e4ee25c674fc076a3c1d79844b230f0f4e27ae2f90cc69b
   day 4x5        41a275d93a66be4899a024171456b1f55644aba5577247a735d62cb3b2fa53bb
-  day 9x16       00aebcd1d14819adeb48b512794f5c9a6b9e6e4674fc790d5eaf7dd787930fde
+  day 9x16       fd8db3b8b040a291c7f92da4120efcac2310da16cbe8987ffbf053ddd0cf363e
   files          library/world/Netherlands/Lelystad/nl-01-285-daylight-16x9.png
                  library/world/Netherlands/Lelystad/nl-01-285-daylight-4x5.png
                  library/world/Netherlands/Lelystad/nl-01-285-daylight-9x16.png
@@ -160,7 +160,7 @@ NL-01-286  Stadhuis, Sneek
   night 9x16     2e33ff4146a91b35fd3ed7e93a0441b2400fd402b12f5b0be8af2cf6cecbcc0d  IDENTICAL
   day 16x9       bf7e5b6d570c45d6d2876f1cf9ab055ea12d329434f2fe516e721673e218bf52
   day 4x5        8a3303736ee68b4c2b7ae81fe43c2554d5bb2271e113416026b3801f183ef3e7
-  day 9x16       f7a8262cef8e155e46f429ab709f368100d7f4f4fd39c4158fbf56f6530932da
+  day 9x16       5dcb9007d443def83baed32f60df8b8408a7fe59571ef7970356e2deac1aa4a9
   files          library/world/Netherlands/Sneek/nl-01-286-daylight-16x9.png
                  library/world/Netherlands/Sneek/nl-01-286-daylight-4x5.png
                  library/world/Netherlands/Sneek/nl-01-286-daylight-9x16.png
@@ -179,7 +179,7 @@ NL-01-287  Goudkantoor, Groningen
   night 9x16     14bf6878e10620328bdb3c7cabb1b49e487a6b8ab65f9a9aa7625e8884b0f835  IDENTICAL
   day 16x9       6ec9580ba6386651e9b3481af80e42cdfe08c69abac5356e0adc596d807a0463
   day 4x5        7830aa7affdce95add784cd6a154a8582ce4d2e90f150ab908b25e46c8197f0c
-  day 9x16       a43f03b12f56bf83c1517e540d5ac0f4c56d3f9a173f7b07ce1f882480a9623a
+  day 9x16       fb53be90a282da294aa58f38af2ab207b19fb07bd3fc1e200b8a047cbe7b4de3
   files          library/world/Netherlands/Groningen/nl-01-287-daylight-16x9.png
                  library/world/Netherlands/Groningen/nl-01-287-daylight-4x5.png
                  library/world/Netherlands/Groningen/nl-01-287-daylight-9x16.png
@@ -198,7 +198,7 @@ NL-01-288  Sint-Pancratiuskerk, Diever
   night 9x16     f8788ec353c8492cd5b33b23bb4c7a7024e7bf12ae9248b47c671e566e67eed3  IDENTICAL
   day 16x9       82a0916ec47601a0183f24d1448ae7d098e8c41bbf78b89ec7a492264e82cac2
   day 4x5        02d80dea55b0b45de4ff78a6da44ffc6d3a4ee9fbdb11786cbde3a14e56f1937
-  day 9x16       75626a1c8c078c104806ce6d95b5179b3130056743cebb48a932ec8c3cd8477a
+  day 9x16       52629d12251e526fb7ed4e9c45d9662ee1cff2061ebae6d956c78dce1369fe98
   files          library/world/Netherlands/Diever/nl-01-288-daylight-16x9.png
                  library/world/Netherlands/Diever/nl-01-288-daylight-4x5.png
                  library/world/Netherlands/Diever/nl-01-288-daylight-9x16.png
