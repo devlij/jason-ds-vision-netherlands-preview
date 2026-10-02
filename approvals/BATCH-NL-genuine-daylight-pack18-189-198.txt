@@ -1,0 +1,119 @@
+BATCH NL genuine daylight Part A pack 18
+Date: 2026-10-02
+Country: Netherlands
+Status: Candidate. Cosmo QC. Do not merge. Not a Friday-complete certificate.
+Provenance: genuine daylight. Not interim-ai. Text-prompt only. Night masters were not image anchors and were not rewritten.
+Gallery: index.html was not rebuilt. Daylight is not the card primary. The later work order wo-netherlands-daylight-primary does the toggle flip.
+
+Gate: 2026-10-02T12:42:33+02:00 Europe/Amsterdam was open. Open-Meteo for Amsterdam (52.3676, 4.9041) returned is_day 1, sunrise 2026-10-02T07:43, sunset 2026-10-02T19:15. Each scene has its own retrieval. Every scene retrieval has is_day 1. The 16:9 generation minute sits inside that site's sunrise–sunset and inside the retrieval clock hour (12:00–12:59 Europe/Amsterdam).
+
+Inventory
+- 288 NL-01 scenes. Night-primary (Open-Meteo is_day 0 on the scene weather file): 273. Day-primary (is_day 1): 15, which are NL-01-002, NL-01-005 through NL-01-016, NL-01-064, and NL-01-067. Those are not night gaps.
+- Genuine daylight masters on main before this pack: 0. Files named *-daylight-* already on main for NL-01-001 through NL-01-010 are the 2026-09-26 interim derivatives (no weather scenario, derived from the night interpretation). They are not genuine daylight.
+- Unmerged interim-ai daylight in PRs #18–#31 is held by Cosmo and is not counted as a genuine master. PR #26 covers NL-01-179 through NL-01-198 as interim-ai and is not counted.
+- Packs 1–15 are done as unmerged Candidate genuine sets covering the night-primary ids NL-01-017 through NL-01-168 except day-primary NL-01-064 and NL-01-067, and are not repeated here.
+- Parallel sibling packs own NL-01-169–188 (packs 16 and 17) and NL-01-199–228 (packs 19, 20, and 21). This pack does not use those scene IDs and does not count them as finished.
+- Skipped NL-01-001, NL-01-003, and NL-01-004: held architectural rework until rebuilt. They are outside this slice.
+- This pack fills the night-primary slice NL-01-189 through NL-01-198. All ten are is_day 0 on the night card. None is day-primary. No scene in the slice was skipped.
+- Genuine daylight count in this pack: 10.
+- Remaining night-primary scenes without a genuine daylight master on main: 273. After unmerged packs 1–15 and this Candidate pack, 113 night-primary scenes still have no genuine set, including the three holds. Sibling packs 16, 17, 19, 20, and 21 are not counted as finished.
+
+Finish
+- Label bar under the photo for 16:9 (1920×1270, photo 1920×1080) and 4:5 (864×1270, photo 864×1080).
+- 9:16 finished file is exact 1080×1920 (true 9:16). The 190px bar is inside that frame (photo 1080×1730, top-aligned crop of the text-prompt 9:16). It is not 1080×2110.
+- 4:5 is a separate text-prompt 3:4 re-frame fitted to 864×1080, not a crop of a night master.
+- Art. 50 five PNG chunks on all three masters. Comment finish date 2026-10-02.
+- On-image left: caption, Scenario line, AI-generated artistic interpretation · Not a photograph. Right: Jason D’s Vision and Jason A. Devlin.
+- Each scene has one Open-Meteo retrieval, unique to the second against the 288 night weather files and against this pack. Weather numbers below are only those retrievals. The scenario minute is the Europe/Amsterdam mtime of that scene's 16:9 generation file.
+- Caribbean sites NL-01-189, NL-01-190, and NL-01-191 were requested at their catalogue coordinates with timezone Europe/Amsterdam, so the scenario clock matches the generation clock. Sunrise and sunset below are that retrieval's values in Europe/Amsterdam.
+
+Scenes
+NL-01-189  Fort Bay, Saba
+  retrieval 2026-10-02T12:42:34+02:00  generation 2026-10-02T12:43:57+02:00
+  scenario 2 October 2026 · 12:43 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 53  cloud 55%  28.6°C  wind 26.2 km/h  precip 0.2 mm
+  sunrise 2026-10-02T12:03  sunset 2026-10-03T00:00
+  16x9 library/world/Netherlands/Saba/nl-01-189-daylight-16x9.png  5869f6f7d19a72ef605222e96375be2459049eb9bea3b3f086d381c2b9a9f67f
+  4x5  library/world/Netherlands/Saba/nl-01-189-daylight-4x5.png  43059e2fa8d385d88f0d027332dacb8209f645ad32f2de841c233ba7c47b5c19
+  9x16 library/world/Netherlands/Saba/nl-01-189-daylight-9x16.png  1080x1920  ec07757d9d8a50cc9bf9ead33095c29e6dd1725514ec3f2a022601a53bd2261a
+
+NL-01-190  Lower Town, Oranjestad
+  retrieval 2026-10-02T12:42:36+02:00  generation 2026-10-02T12:43:58+02:00
+  scenario 2 October 2026 · 12:43 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0  cloud 5%  28.5°C  wind 21.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T12:02  sunset 2026-10-02T23:59
+  16x9 library/world/Netherlands/Oranjestad/nl-01-190-daylight-16x9.png  fddcfa0dfe318e41cbf5bf8e8243bbcc3b66982bbd775bc58c660044a70d367f
+  4x5  library/world/Netherlands/Oranjestad/nl-01-190-daylight-4x5.png  06258586549cafaed4f61227eb7470e9bbce24d17b23ce3efd6d51a78e017e1b
+  9x16 library/world/Netherlands/Oranjestad/nl-01-190-daylight-9x16.png  1080x1920  7a845a917a6a24f4972c564e8eda5c90f6acb3f443321379e56297c73199da30
+
+NL-01-191  Slave huts, Bonaire
+  retrieval 2026-10-02T12:44:07+02:00  generation 2026-10-02T12:46:27+02:00
+  scenario 2 October 2026 · 12:46 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 34%  28.4°C  wind 29.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T12:21  sunset 2026-10-03T00:22
+  16x9 library/world/Netherlands/Bonaire/nl-01-191-daylight-16x9.png  01c32f9c5ba76771d6ab0f232d0ec538c9736842e27c3508822a2f355a4c8052
+  4x5  library/world/Netherlands/Bonaire/nl-01-191-daylight-4x5.png  24447dfc89297c6215dcd945de9b347f30d7d09912141af843e22e99380e9bd5
+  9x16 library/world/Netherlands/Bonaire/nl-01-191-daylight-9x16.png  1080x1920  6c3b0601255382a73a1a21004fbf2084c383f91d5d6e6eb085d0b5bcd9532361
+
+NL-01-192  Ferry terminal, Lauwersoog
+  retrieval 2026-10-02T12:44:08+02:00  generation 2026-10-02T12:44:55+02:00
+  scenario 2 October 2026 · 12:44 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0  cloud 15%  18.8°C  wind 9.7 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:38  sunset 2026-10-02T19:09
+  16x9 library/world/Netherlands/Lauwersoog/nl-01-192-daylight-16x9.png  893de64d31951d924af01dc37effba1363cc529d267f134bf212226c9de6293b
+  4x5  library/world/Netherlands/Lauwersoog/nl-01-192-daylight-4x5.png  4e6672a92282ba488d1092ad14be82994446384f6c45d6ca1718890c3c5eca4a
+  9x16 library/world/Netherlands/Lauwersoog/nl-01-192-daylight-9x16.png  1080x1920  1823b8f7239cbacbf9f0c358b3684730d83674c1654225750ee0f8b8ed752f30
+
+NL-01-193  Vuurtoren, Urk
+  retrieval 2026-10-02T12:44:09+02:00  generation 2026-10-02T12:44:55+02:00
+  scenario 2 October 2026 · 12:44 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 64%  17.5°C  wind 9.7 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:40  sunset 2026-10-02T19:12
+  16x9 library/world/Netherlands/Urk/nl-01-193-daylight-16x9.png  f9918fa2087732d4c5236d7500b366afea281f6be613dd170376527f1bd5c0c2
+  4x5  library/world/Netherlands/Urk/nl-01-193-daylight-4x5.png  74ad4c45baad87dc58037e3d65a27ca5d46866aad40689e56eead6731f8dddaf
+  9x16 library/world/Netherlands/Urk/nl-01-193-daylight-9x16.png  1080x1920  6f98b3fc5547633996758baa0974a7d4dcb0f3dab893d826cd03b92d58fce499
+
+NL-01-194  Buitencentrum, Lelystad
+  retrieval 2026-10-02T12:44:10+02:00  generation 2026-10-02T12:45:13+02:00
+  scenario 2 October 2026 · 12:45 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 53%  17.1°C  wind 7.2 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:40  sunset 2026-10-02T19:13
+  16x9 library/world/Netherlands/Lelystad/nl-01-194-daylight-16x9.png  394304e2b26ffb09e0e84e7050a416d3e6b19ba5a66f292cf1e3c07ce83d5300
+  4x5  library/world/Netherlands/Lelystad/nl-01-194-daylight-4x5.png  b5b4e397229f776aa07ecad9bf11e6a91bd1a3ab99562fe57f55df8575446fcf
+  9x16 library/world/Netherlands/Lelystad/nl-01-194-daylight-9x16.png  1080x1920  77c4aa35b62a5358e6a5bd188bf1734b169b12223a43914b481baf7bf95f13b7
+
+NL-01-195  The Wave, Almere
+  retrieval 2026-10-02T12:44:12+02:00  generation 2026-10-02T12:45:12+02:00
+  scenario 2 October 2026 · 12:45 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 51%  18.1°C  wind 7.9 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:41  sunset 2026-10-02T19:14
+  16x9 library/world/Netherlands/Almere/nl-01-195-daylight-16x9.png  2ba34522ddb2dfc4994c292cc1d08c57468587daa36684ab6fefa96bf258438a
+  4x5  library/world/Netherlands/Almere/nl-01-195-daylight-4x5.png  bce649aef05d30603b5102aa463a0267d672c3e75cd7ca1b6d9965ee71cef03f
+  9x16 library/world/Netherlands/Almere/nl-01-195-daylight-9x16.png  1080x1920  03e25b26f67e3f43fa2eb4a8ea527d22dc199d55846975b2f9f9fd5f626e8d32
+
+NL-01-196  Lichtwachterswoning, Schokland
+  retrieval 2026-10-02T12:44:13+02:00  generation 2026-10-02T12:45:12+02:00
+  scenario 2 October 2026 · 12:45 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 78%  17.2°C  wind 9.4 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:39  sunset 2026-10-02T19:11
+  16x9 library/world/Netherlands/Schokland/nl-01-196-daylight-16x9.png  9440d1e44dad0f8464be7313df988bb60d307f119648324912119e86cf072ee7
+  4x5  library/world/Netherlands/Schokland/nl-01-196-daylight-4x5.png  7004167d819c18eda8da989991242c6b86ce627175d5fae66c3e04200e2ea83f
+  9x16 library/world/Netherlands/Schokland/nl-01-196-daylight-9x16.png  1080x1920  3e480ea1ea5195d3f207c47081904b722c679083ab31d5e5dd7d7ef8a9d08c42
+
+NL-01-197  Papeloze Kerk, Schoonoord
+  retrieval 2026-10-02T12:44:14+02:00  generation 2026-10-02T12:45:29+02:00
+  scenario 2 October 2026 · 12:45 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 100%  17.4°C  wind 5.0 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:35  sunset 2026-10-02T19:07
+  16x9 library/world/Netherlands/Schoonoord/nl-01-197-daylight-16x9.png  bbcac0cc6054e6abfcb676cc49092bcb42d0a2b62772d3fe575bfb4fd6df4509
+  4x5  library/world/Netherlands/Schoonoord/nl-01-197-daylight-4x5.png  e4470bd16367283084ac52c935e399a3a9818d94768a16fd18a5b55b8809289a
+  9x16 library/world/Netherlands/Schoonoord/nl-01-197-daylight-9x16.png  1080x1920  2612c2cde00bc14f818ba5750e7ab7df7d7d495bc382f910558d86ae9cdbdfee
+
+NL-01-198  Havezate Mensinge, Roden
+  retrieval 2026-10-02T12:44:15+02:00  generation 2026-10-02T12:45:31+02:00
+  scenario 2 October 2026 · 12:45 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 49%  18.4°C  wind 6.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:37  sunset 2026-10-02T19:08
+  16x9 library/world/Netherlands/Roden/nl-01-198-daylight-16x9.png  94a58f86eeaa8421722cc7f4511e63bab0ae857e3ef95495a4b63e97370012d7
+  4x5  library/world/Netherlands/Roden/nl-01-198-daylight-4x5.png  6ee7b9dab8c5e0e54918da0996d7072e2cb70a68f1b95b626086f93d61943b8c
+  9x16 library/world/Netherlands/Roden/nl-01-198-daylight-9x16.png  1080x1920  3e948d92fedf7cfaef92ba5eb1a47cac92d8c09b0ad5abcb4538bb6d3e34a24f

@@ -20,5 +20,39 @@
   "sha256_9x16": "6ebab491473253bf960a9e73f49cf8568760b9840b6b1129dd620d4a5c5378f6",
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 9d83e168a05c0bb3eea3e099fbcda9abb2451da5abcc5eee012b797d0ccd50dd. Source SHA-256 4:5 74f023c2afc398e47c505e694c5a8b15768432b4dd03a3b2180c98dd322c8e7b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "approved_at": "2026-09-27T02:33:07Z",
-  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:55:41+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation."
+  "approval_basis": "Cosmo QC approve 2026-09-27: faithful re-finish pixel-verified against the pinned c3b8453-approved master — photo area above the scrim pixel-identical (734 rows, 0 changed pixels); scrim and burned-in on-image text removed without a new render; exact 1920x1270 / 864x1270 / 1080x2110 with separate 190px label bar (caption, scenario, AI disclosure, 'Jason D's Vision', script 'Jason A. Devlin'); 16:9 vs 4:5 subject identity confirmed. Weather: model data from Open-Meteo, retrieved 2026-09-26T02:55:41+02:00 (per-scene retrieval, unique to the second) — not a verified on-site observation.",
+  "file_16x9_day": "Netherlands/Lelystad/nl-01-194-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Lelystad/nl-01-194-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Lelystad/nl-01-194-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-194",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:45 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:44:10+02:00",
+    "generation_timestamp": "2026-10-02T12:45:13+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-194.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Lelystad/nl-01-194-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Lelystad/nl-01-194-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Lelystad/nl-01-194-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "394304e2b26ffb09e0e84e7050a416d3e6b19ba5a66f292cf1e3c07ce83d5300",
+      "4x5": "b5b4e397229f776aa07ecad9bf11e6a91bd1a3ab99562fe57f55df8575446fcf",
+      "9x16": "77c4aa35b62a5358e6a5bd188bf1734b169b12223a43914b481baf7bf95f13b7"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Buitencentrum, Lelystad",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:45 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
