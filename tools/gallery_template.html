@@ -122,6 +122,18 @@
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
     }
+    .motion-tab {
+      background: #243049; color: var(--text); border: 1px solid var(--line);
+      border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
+    }
+    .motion-tab:hover { border-color: var(--accent); }
+    .motion-tab.is-active {
+      background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
+    }
+    .thumb video.motion-clip {
+      width: 100%; height: auto; display: block; border-radius: 8px; background: #000;
+      aspect-ratio: 4 / 5; object-fit: cover;
+    }
     .day-row button.day-tab {
       display: inline-block; background: #243049; color: var(--text);
       border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
@@ -365,6 +377,8 @@
         const file16 = 'library/world/' + s.file_16x9;
         const file45 = s.file_4x5 ? 'library/world/' + s.file_4x5 : null;
         const file916 = (s.file_9x16 && s.format_9x16_approval_status === "Approved") ? 'library/world/' + s.file_9x16 : null;
+        const motion = s.file_motion_10s_4x5 ? 'library/world/' + s.file_motion_10s_4x5 : '';
+        const motionPoster = s.file_motion_poster ? 'library/world/' + s.file_motion_poster : '';
         card.innerHTML = `
           <div class="preview">
             <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
@@ -375,6 +389,7 @@
               <button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>
               ${file45 ? `<button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>` : ""}
               ${file916 ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
+              ${motion ? `<button type="button" class="motion-tab" data-motion="${esc(motion)}"${motionPoster ? ` data-poster="${esc(motionPoster)}"` : ""} title="Play the 360° daylight motion clip" aria-pressed="false">\u25B6 360\u00B0</button>` : ""}
             </div>
           ${s.file_16x9_day ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>` : ""}
           <div class="card-body">
@@ -398,12 +413,65 @@
       }
       if (typeof phase1Enhance === 'function') phase1Enhance();
     }
+    function stopCardMotion(card) {
+      const v = card.querySelector('video.motion-clip');
+      if (v) { v.pause(); v.remove(); }
+      const img = card.querySelector('a.thumb img');
+      if (img) img.style.display = '';
+      const mtab = card.querySelector('.motion-tab');
+      if (mtab) {
+        mtab.classList.remove('is-active');
+        mtab.setAttribute('aria-pressed', 'false');
+        mtab.innerHTML = '\u25B6 360\u00B0';
+      }
+      const link = card.querySelector('a.thumb');
+      const ftab = card.querySelector('.fmt-tab.is-active');
+      const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+      if (link) {
+        link.classList.toggle('tall', dfmt === '4x5');
+        link.classList.toggle('tall916', dfmt === '9x16');
+      }
+    }
     grid.addEventListener('click', (event) => {
+      if (event.target.closest('video.motion-clip')) {
+        event.preventDefault();
+        return;
+      }
+      const mtab = event.target.closest('.motion-tab');
+      if (mtab) {
+        event.preventDefault();
+        const mcard = mtab.closest('.card');
+        if (!mcard) return;
+        if (mcard.querySelector('video.motion-clip')) { stopCardMotion(mcard); return; }
+        const mlink = mcard.querySelector('a.thumb');
+        const mimg = mlink && mlink.querySelector('img');
+        const vid = document.createElement('video');
+        vid.className = 'motion-clip';
+        vid.src = mtab.getAttribute('data-motion');
+        const poster = mtab.getAttribute('data-poster');
+        if (poster) vid.poster = poster;
+        vid.autoplay = true; vid.loop = true; vid.muted = true; vid.playsInline = true; vid.controls = false;
+        vid.defaultMuted = true;
+        vid.setAttribute('muted', '');
+        vid.setAttribute('autoplay', '');
+        vid.setAttribute('loop', '');
+        vid.setAttribute('playsinline', '');
+        vid.disablePictureInPicture = true;
+        vid.setAttribute('controlsList', 'nodownload nofullscreen noremoteplayback');
+        if (mimg) mimg.style.display = 'none';
+        if (mlink) { mlink.classList.add('tall'); mlink.classList.remove('tall916'); mlink.appendChild(vid); }
+        mtab.classList.add('is-active');
+        mtab.setAttribute('aria-pressed', 'true');
+        mtab.innerHTML = '\u2715 Close';
+        vid.play().catch(function () {});
+        return;
+      }
       const dtab = event.target.closest('.day-tab');
       if (dtab) {
         event.preventDefault();
         const dcard = dtab.closest('.card');
         if (!dcard) return;
+        stopCardMotion(dcard);
         const isDay = !dtab.classList.contains('is-active');
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
@@ -432,6 +500,7 @@
       event.preventDefault();
       const card = tab.closest('.card');
       if (!card) return;
+      stopCardMotion(card);
       const fmt = tab.getAttribute('data-format');
       card.querySelectorAll('.fmt-tab').forEach((item) => {
         const on = item === tab;
