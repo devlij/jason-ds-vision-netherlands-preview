@@ -4,22 +4,56 @@
   "region": "Groningen",
   "city": "Groningen",
   "caption": "Martinitoren, Groningen",
-  "scenario_label": "26 September 2026 · 00:01 Europe/Amsterdam",
-  "composition": "Gothic brick tower and church from the Grote Markt · AI-generated artistic interpretation",
-  "description": "From the Grote Markt the Martinitoren rises as a tall Gothic brick tower with corner turrets, an open stone lantern, and a spire, beside the lower roof of the Martinikerk. The square is empty at midnight, with no market stalls. The sky is partly cloudy, about 12.9°C, with wind near 8.3 km/h. Sunset was 19:22.",
+  "scenario_label": "26 September 2026 \u00b7 00:01 Europe/Amsterdam",
+  "composition": "Gothic brick tower and church from the Grote Markt \u00b7 AI-generated artistic interpretation",
+  "description": "From the Grote Markt the Martinitoren rises as a tall Gothic brick tower with corner turrets, an open stone lantern, and a spire, beside the lower roof of the Martinikerk. The square is empty at midnight, with no market stalls. The sky is partly cloudy, about 12.9\u00b0C, with wind near 8.3 km/h. Sunset was 19:22.",
   "alt_text": "AI-generated artistic interpretation of the Martinitoren from the Grote Markt in Groningen on a partly cloudy night",
   "file_16x9": "Netherlands/Groningen/nl-01-060-16x9.png",
   "file_4x5": "Netherlands/Groningen/nl-01-060-4x5.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "G1 visual pass: night view of Groningen's Martinitoren — the tall floodlit tower and adjoining church on the empty Grote Markt, surrounding gabled façades with lit windows, dramatic clouds above. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Martinitoren, Groningen', scenario '26 September 2026 · 00:01 Europe/Amsterdam' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:01:07+02:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "G1 visual pass: night view of Groningen's Martinitoren \u2014 the tall floodlit tower and adjoining church on the empty Grote Markt, surrounding gabled fa\u00e7ades with lit windows, dramatic clouds above. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'Martinitoren, Groningen', scenario '26 September 2026 \u00b7 00:01 Europe/Amsterdam' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-26T00:01:07+02:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 00:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free \u00b7 no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:13.858618+00:00",
   "sha256_16x9": "642762dec6acaeedf975c028398804a81e9a4061e27c224eeeb2345d5db2e522",
   "sha256_4x5": "a9633fab3d335452aa1a7b9f9d5ac9483513937681307cac38183a86a430419e",
   "file_9x16": "Netherlands/Groningen/nl-01-060-9x16.png",
   "sha256_9x16": "00021268070fd6ed12145282e44bf0f3ddd3e3171d85f5c87c0c591ac973ec66",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6e976b85db93456dddde2a98ea8d4dd5af307a9aaf9f816951dcd55ef4b25a7d. Source SHA-256 4:5 f62163b6cb730d220cc61640ad0797beafbac9c45d3dcec92b4ae2285a0f2c49. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 6e976b85db93456dddde2a98ea8d4dd5af307a9aaf9f816951dcd55ef4b25a7d. Source SHA-256 4:5 f62163b6cb730d220cc61640ad0797beafbac9c45d3dcec92b4ae2285a0f2c49. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Groningen/nl-01-060-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Groningen/nl-01-060-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Groningen/nl-01-060-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-060",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 11:36 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:05+02:00",
+    "generation_timestamp": "2026-10-02T11:36:11+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-060.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Groningen/nl-01-060-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Groningen/nl-01-060-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Groningen/nl-01-060-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "97c1ae0de798aa24d05fcc4b0087fea520c36e4f343181f09f9b617bd91f1794",
+      "4x5": "a14bc6afa0dae3bd6af28174aff91911d16aa01dd17b46262eb804547ede835a",
+      "9x16": "75d6a191b7cc9b8cf16b0e4a36e9a5776caa519290e0adf6321863e8c7855681"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Martinitoren, Groningen",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 11:36 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

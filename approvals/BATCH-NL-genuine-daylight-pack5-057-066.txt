@@ -1,0 +1,121 @@
+BATCH NL genuine daylight Part A pack 5
+Date: 2026-10-02
+Country: Netherlands
+Status: Candidate. Cosmo QC. Do not merge. Not a Friday-complete certificate.
+Provenance: genuine daylight. Not interim-ai. Text-prompt only. Night masters were not image anchors and were not rewritten.
+Gallery: index.html was not rebuilt. Daylight is not the card primary.
+
+Gate: 2026-10-02 was open. Amsterdam-area sunrise about 07:34–07:46 and sunset about 19:05–19:19 Europe/Amsterdam on the European sites (Open-Meteo, confirmed on each retrieval). Caribbean sites NL-01-065 and NL-01-066 reach local sunrise at 12:02 and 12:03 Europe/Amsterdam (06:02 and 06:03 America/Kralendijk). Their retrievals were taken after Open-Meteo is_day flipped to 1. Every saved retrieval has is_day 1. Each generation minute sits inside that site's sunrise–sunset and inside the retrieval clock hour.
+
+Inventory
+- 288 NL-01 scenes. Night-primary (Open-Meteo is_day 0 on the scene weather file): 273. Day-primary (is_day 1): 15, which are NL-01-002, NL-01-005 through NL-01-016, NL-01-064, and NL-01-067. Those are not night gaps.
+- Genuine daylight masters on main before Pack 1: 0. Files named *-daylight-* already on main for NL-01-001 through NL-01-010 are the 2026-09-26 interim derivatives. They are not genuine daylight.
+- Unmerged interim-ai daylight in PRs #18–#31 is not counted as a genuine master.
+- Pack 1 Candidate (PR #39) holds genuine daylight for NL-01-017 through NL-01-026. Not repeated.
+- Pack 2 Candidate (PR #40) holds genuine daylight for NL-01-027 through NL-01-036. Not repeated.
+- Pack 3 Candidate (PR #41, tip 5f7fbf6) holds genuine daylight for NL-01-037 through NL-01-046. Not repeated.
+- Parallel packs are assigned NL-01-047–056, 068–077, 078–087, 088–097, and 098–107. Those ids are not used here.
+- Skipped NL-01-001, NL-01-003, and NL-01-004: held architectural rework.
+- Skipped day-primary scenes, including NL-01-064 and NL-01-067 inside or just after this slice.
+- This slice is the night-primary gaps in NL-01-057 through NL-01-066, which are 057, 058, 059, 060, 061, 062, 063, 065, and 066 (nine scenes). NL-01-108 Harbour, Goes is the next night-primary id that is not day-primary and not assigned to those parallel packs, added so the pack reaches 10.
+- Genuine daylight count in this pack: 10. Together with Packs 1–3, genuine daylight masters in candidate PRs are 40. Remaining night-primary scenes without a genuine daylight master from those four packs: 233, of which 3 are the held rework (001, 003, 004). In-flight parallel packs are not subtracted.
+
+Finish
+- Label bar under the photo for 16:9 (1920×1270, photo 1920×1080) and 4:5 (864×1270, photo 864×1080).
+- 9:16 finished file is exact 1080×1920. The 190px bar is inside that frame (photo 1080×1730, top-aligned crop of the text-prompt 9:16). It is not 1080×2110.
+- 4:5 is a separate text-prompt 3:4 re-frame fitted to 864×1080, not a crop of a night master.
+- Art. 50 five PNG chunks on all three masters. Comment finish date 2026-10-02.
+- On-image left: caption, Scenario line, AI-generated artistic interpretation · Not a photograph. Right: Jason D’s Vision and Jason A. Devlin.
+- Each scene has one Open-Meteo retrieval, unique to the second against the 288 night weather files and against this pack. Weather numbers below are only those retrievals. The scenario minute is the Europe/Amsterdam mtime of that scene's 16:9 generation file.
+- Caribbean retrieval timestamps are expressed in Europe/Amsterdam so the scenario hour and the retrieval hour are the same clock. is_day is the sun at the site. Local civil time is America/Kralendijk.
+
+Scenes
+NL-01-057  Harbour, Harlingen
+  retrieval 2026-10-02T11:34:57+02:00  generation 2026-10-02T11:37:23+02:00
+  scenario 2 October 2026 · 11:37 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0 Clear sky  cloud 12%  17.8°C  wind 13.0 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:41  sunset 2026-10-02T19:12
+  16x9 library/world/Netherlands/Harlingen/nl-01-057-daylight-16x9.png  631baa53dfd308fe452d3edf702d512435e02f1f6ad70fada07ce93360a7d997
+  4x5  library/world/Netherlands/Harlingen/nl-01-057-daylight-4x5.png  752be641e2a72ac1b6bcb01b4290a3f0d2ab6095472b6b3d0aa89bca9f1b7566
+  9x16 library/world/Netherlands/Harlingen/nl-01-057-daylight-9x16.png  1080x1920  da2d8a254c181c42c94b096fa33bb96d52d7a4a79c9e0f05928099ad8012aeb7
+
+NL-01-058  Eise Eisinga Planetarium, Franeker
+  retrieval 2026-10-02T11:35:00+02:00  generation 2026-10-02T11:35:59+02:00
+  scenario 2 October 2026 · 11:35 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0 Clear sky  cloud 0%  17.8°C  wind 10.1 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:40  sunset 2026-10-02T19:12
+  16x9 library/world/Netherlands/Franeker/nl-01-058-daylight-16x9.png  5916104556bea9befdd35b097abb501ac7b3df3f6707b3ce289f295f62d9c3fc
+  4x5  library/world/Netherlands/Franeker/nl-01-058-daylight-4x5.png  eb178fc52918d6376e12d000cc213c259dbc59a6f6b9f1f947e0c57f7fb947f2
+  9x16 library/world/Netherlands/Franeker/nl-01-058-daylight-9x16.png  1080x1920  95a2a176f1224a1ee5f75d6a71f9c367e4ec1bac1d0aad6ddb97a3651b101d23
+
+NL-01-059  Waterfront, Hindeloopen
+  retrieval 2026-10-02T11:35:02+02:00  generation 2026-10-02T11:35:54+02:00
+  scenario 2 October 2026 · 11:35 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1 Mainly clear  cloud 32%  17.3°C  wind 14.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:41  sunset 2026-10-02T19:13
+  16x9 library/world/Netherlands/Hindeloopen/nl-01-059-daylight-16x9.png  ac82387145d6df7cef96396fabcfaae96a6a3b73c1b01d29e8bc1baf3f9c17e2
+  4x5  library/world/Netherlands/Hindeloopen/nl-01-059-daylight-4x5.png  50b3bf96192be0a066bbb1a396ee82522c725614a30d81c90461eceb3415a2c7
+  9x16 library/world/Netherlands/Hindeloopen/nl-01-059-daylight-9x16.png  1080x1920  ee8296de21cce97a9fdf8cda9bc8fbe6f77683a1b4ad441b79f2e8069fce3ecc
+
+NL-01-060  Martinitoren, Groningen
+  retrieval 2026-10-02T11:35:05+02:00  generation 2026-10-02T11:36:11+02:00
+  scenario 2 October 2026 · 11:36 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1 Mainly clear  cloud 39%  17.1°C  wind 6.1 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:36  sunset 2026-10-02T19:08
+  16x9 library/world/Netherlands/Groningen/nl-01-060-daylight-16x9.png  97c1ae0de798aa24d05fcc4b0087fea520c36e4f343181f09f9b617bd91f1794
+  4x5  library/world/Netherlands/Groningen/nl-01-060-daylight-4x5.png  a14bc6afa0dae3bd6af28174aff91911d16aa01dd17b46262eb804547ede835a
+  9x16 library/world/Netherlands/Groningen/nl-01-060-daylight-9x16.png  1080x1920  75d6a191b7cc9b8cf16b0e4a36e9a5776caa519290e0adf6321863e8c7855681
+
+NL-01-061  Vesting Bourtange, Bourtange
+  retrieval 2026-10-02T11:35:08+02:00  generation 2026-10-02T11:37:24+02:00
+  scenario 2 October 2026 · 11:37 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3 Overcast  cloud 92%  16.4°C  wind 5.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:34  sunset 2026-10-02T19:05
+  16x9 library/world/Netherlands/Bourtange/nl-01-061-daylight-16x9.png  6b8d5ed1f25705b85780a1fde75c40c37f3591b73ad433f554723f733e1b715c
+  4x5  library/world/Netherlands/Bourtange/nl-01-061-daylight-4x5.png  b74ef35567bb59dac22816975a5a1beb0d39c3649f44c4ce3ef31115dcc8af17
+  9x16 library/world/Netherlands/Bourtange/nl-01-061-daylight-9x16.png  1080x1920  802560d95fd382c6d3230ae71a51c3a5d1145b7e9b4c38b24cf23bd8d7992b76
+
+NL-01-062  Hunebed D27, Borger
+  retrieval 2026-10-02T11:35:10+02:00  generation 2026-10-02T11:36:12+02:00
+  scenario 2 October 2026 · 11:36 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3 Overcast  cloud 100%  16.4°C  wind 5.0 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:35  sunset 2026-10-02T19:07
+  16x9 library/world/Netherlands/Borger/nl-01-062-daylight-16x9.png  3fe0a8f83bde3bbaea030c9681ecf25da19d8aebc8fbb27c4f68775e65775d17
+  4x5  library/world/Netherlands/Borger/nl-01-062-daylight-4x5.png  e86243ff702fd6ecd403ae291d79b0d19c4b054b916ba2b554af2a40daae9e0a
+  9x16 library/world/Netherlands/Borger/nl-01-062-daylight-9x16.png  1080x1920  a3c8ddf0277b70aadd2079d020730889787798c6dd1e24e66f060994c650dbd2
+
+NL-01-063  Dwingelderveld, Dwingeloo
+  retrieval 2026-10-02T11:35:13+02:00  generation 2026-10-02T11:36:26+02:00
+  scenario 2 October 2026 · 11:36 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3 Overcast  cloud 97%  16.2°C  wind 3.6 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:37  sunset 2026-10-02T19:09
+  16x9 library/world/Netherlands/Dwingeloo/nl-01-063-daylight-16x9.png  a79b66cffae940ba7a1556bdc6d5caf3edfdb3fc8bcabfc13a8899118c9efef8
+  4x5  library/world/Netherlands/Dwingeloo/nl-01-063-daylight-4x5.png  99d254c5a3d070646443cb63ef9d513e3756dccc26cf9650b1fecbf9b73a373a
+  9x16 library/world/Netherlands/Dwingeloo/nl-01-063-daylight-9x16.png  1080x1920  043f7dbff2a749e12a63fce12e438a8756f99caf582fba432025be9860abc6bb
+
+NL-01-065  Fort Oranje, Oranjestad
+  retrieval 2026-10-02T12:16:57+02:00  generation 2026-10-02T12:17:35+02:00
+  scenario 2 October 2026 · 12:17 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0 Clear sky  cloud 4%  28.1°C  wind 22.2 km/h  precip 0.0 mm
+  sunrise 2026-10-02T12:02  sunset 2026-10-02T23:59
+  16x9 library/world/Netherlands/Oranjestad/nl-01-065-daylight-16x9.png  7f9344730f0d8ca48d19384c85721f3bdbbec3b417e24dfef2a2d38a4031fac7
+  4x5  library/world/Netherlands/Oranjestad/nl-01-065-daylight-4x5.png  491251e58bc03bb97e121a71545c3cb4f08fb8983ed387505a0c2458af5d419d
+  9x16 library/world/Netherlands/Oranjestad/nl-01-065-daylight-9x16.png  1080x1920  1ba784745ca0520b5f1d2859466d799f87f48a76f6020f6e5d35ab5ad9bc858e
+
+NL-01-066  The Bottom, The Bottom
+  retrieval 2026-10-02T12:17:00+02:00  generation 2026-10-02T12:18:27+02:00
+  scenario 2 October 2026 · 12:18 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 53 Moderate drizzle  cloud 65%  27.3°C  wind 26.5 km/h  precip 0.2 mm
+  sunrise 2026-10-02T12:03  sunset 2026-10-03T00:00
+  16x9 library/world/Netherlands/The Bottom/nl-01-066-daylight-16x9.png  0955cca24414bcabb412165f03d9980d4107b05a9b84b7b006752927e76c2119
+  4x5  library/world/Netherlands/The Bottom/nl-01-066-daylight-4x5.png  f35947b3d5938b3ddcc72022ce38e9f62f60e506129b85ff3c70a4a3c4b0b367
+  9x16 library/world/Netherlands/The Bottom/nl-01-066-daylight-9x16.png  1080x1920  e4c2e70f300ed4508834ca7125465a387d15d4e14cb787c7170f14a8f112316e
+
+NL-01-108  Harbour, Goes
+  retrieval 2026-10-02T11:35:16+02:00  generation 2026-10-02T11:36:33+02:00
+  scenario 2 October 2026 · 11:36 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1 Mainly clear  cloud 41%  17.0°C  wind 10.1 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:46  sunset 2026-10-02T19:19
+  16x9 library/world/Netherlands/Goes/nl-01-108-daylight-16x9.png  199d9cf310efb233b3246752611d031afa4ce808935ccb1e337c715e0b3a8eec
+  4x5  library/world/Netherlands/Goes/nl-01-108-daylight-4x5.png  725f9f1cf083cf186cc6ab5d5671bfcf1153115fc780dd7d814c70c98b09f995
+  9x16 library/world/Netherlands/Goes/nl-01-108-daylight-9x16.png  1080x1920  94909b6456338bc9aa2b868b69abfdd2987f59355b7e00ce07475b0d8440a85b
