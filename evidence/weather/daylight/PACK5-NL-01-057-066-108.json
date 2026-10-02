@@ -8,11 +8,6 @@
       "scenario_label": "2 October 2026 \u00b7 11:37 Europe/Amsterdam",
       "retrieval_timestamp": "2026-10-02T11:34:57+02:00",
       "generation_timestamp": "2026-10-02T11:37:23+02:00",
-      "generation_timestamps": {
-        "16x9": "2026-10-02T11:37:23+02:00",
-        "4x5": "2026-10-02T11:40:21+02:00",
-        "9x16": "2026-10-02T11:40:54+02:00"
-      },
       "weather_code": 0,
       "cloud_cover": 12,
       "temperature_2m": 17.8,
@@ -26,11 +21,6 @@
         "4x5": "library/world/Netherlands/Harlingen/nl-01-057-daylight-4x5.png",
         "9x16": "library/world/Netherlands/Harlingen/nl-01-057-daylight-9x16.png"
       },
-      "pretext": {
-        "16x9": "library/pretext/Netherlands/Harlingen/nl-01-057-daylight-16x9.png",
-        "4x5": "library/pretext/Netherlands/Harlingen/nl-01-057-daylight-4x5.png",
-        "9x16": "library/pretext/Netherlands/Harlingen/nl-01-057-daylight-9x16.png"
-      },
       "sha256": {
         "16x9": "631baa53dfd308fe452d3edf702d512435e02f1f6ad70fada07ce93360a7d997",
         "4x5": "752be641e2a72ac1b6bcb01b4290a3f0d2ab6095472b6b3d0aa89bca9f1b7566",
@@ -40,7 +30,9 @@
         "16x9": "1920x1270",
         "4x5": "864x1270",
         "9x16": "1080x1920"
-      }
+      },
+      "city": "Harlingen",
+      "site": "Harbour"
     },
     {
       "entry_id": "NL-01-058",
@@ -49,11 +41,6 @@
       "scenario_label": "2 October 2026 \u00b7 11:35 Europe/Amsterdam",
       "retrieval_timestamp": "2026-10-02T11:35:00+02:00",
       "generation_timestamp": "2026-10-02T11:35:59+02:00",
-      "generation_timestamps": {
-        "16x9": "2026-10-02T11:35:59+02:00",
-        "4x5": "2026-10-02T11:39:00+02:00",
-        "9x16": "2026-10-02T11:40:55+02:00"
-      },
       "weather_code": 0,
       "cloud_cover": 0,
       "temperature_2m": 17.8,
@@ -67,11 +54,6 @@
         "4x5": "library/world/Netherlands/Franeker/nl-01-058-daylight-4x5.png",
         "9x16": "library/world/Netherlands/Franeker/nl-01-058-daylight-9x16.png"
       },
-      "pretext": {
-        "16x9": "library/pretext/Netherlands/Franeker/nl-01-058-daylight-16x9.png",
-        "4x5": "library/pretext/Netherlands/Franeker/nl-01-058-daylight-4x5.png",
-        "9x16": "library/pretext/Netherlands/Franeker/nl-01-058-daylight-9x16.png"
-      },
       "sha256": {
         "16x9": "5916104556bea9befdd35b097abb501ac7b3df3f6707b3ce289f295f62d9c3fc",
         "4x5": "eb178fc52918d6376e12d000cc213c259dbc59a6f6b9f1f947e0c57f7fb947f2",
@@ -81,7 +63,9 @@
         "16x9": "1920x1270",
         "4x5": "864x1270",
         "9x16": "1080x1920"
-      }
+      },
+      "city": "Franeker",
+      "site": "Eise Eisinga Planetarium"
     },
     {
       "entry_id": "NL-01-059",
@@ -90,11 +74,6 @@
       "scenario_label": "2 October 2026 \u00b7 11:35 Europe/Amsterdam",
       "retrieval_timestamp": "2026-10-02T11:35:02+02:00",
       "generation_timestamp": "2026-10-02T11:35:54+02:00",
-      "generation_timestamps": {
-        "16x9": "2026-10-02T11:35:54+02:00",
-        "4x5": "2026-10-02T11:40:32+02:00",
-        "9x16": "2026-10-02T11:39:17+02:00"
-      },
       "weather_code": 1,
       "cloud_cover": 32,
       "temperature_2m": 17.3,
@@ -108,11 +87,6 @@
         "4x5": "library/world/Netherlands/Hindeloopen/nl-01-059-daylight-4x5.png",
         "9x16": "library/world/Netherlands/Hindeloopen/nl-01-059-daylight-9x16.png"
       },
-      "pretext": {
-        "16x9": "library/pretext/Netherlands/Hindeloopen/nl-01-059-daylight-16x9.png",
-        "4x5": "library/pretext/Netherlands/Hindeloopen/nl-01-059-daylight-4x5.png",
-        "9x16": "library/pretext/Netherlands/Hindeloopen/nl-01-059-daylight-9x16.png"
-      },
       "sha256": {
         "16x9": "ac82387145d6df7cef96396fabcfaae96a6a3b73c1b01d29e8bc1baf3f9c17e2",
         "4x5": "50b3bf96192be0a066bbb1a396ee82522c725614a30d81c90461eceb3415a2c7",
@@ -122,7 +96,9 @@
         "16x9": "1920x1270",
         "4x5": "864x1270",
         "9x16": "1080x1920"
-      }
+      },
+      "city": "Hindeloopen",
+      "site": "Waterfront"
     },
     {
       "entry_id": "NL-01-060",
@@ -131,11 +107,6 @@
       "scenario_label": "2 October 2026 \u00b7 11:36 Europe/Amsterdam",
       "retrieval_timestamp": "2026-10-02T11:35:05+02:00",
       "generation_timestamp": "2026-10-02T11:36:11+02:00",
-      "generation_timestamps": {
-        "16x9": "2026-10-02T11:36:11+02:00",
-        "4x5": "2026-10-02T11:37:55+02:00",
-        "9x16": "2026-10-02T11:39:16+02:00"
-      },
       "weather_code": 1,
       "cloud_cover": 39,
       "temperature_2m": 17.1,
@@ -149,11 +120,6 @@
         "4x5": "library/world/Netherlands/Groningen/nl-01-060-daylight-4x5.png",
         "9x16": "library/world/Netherlands/Groningen/nl-01-060-daylight-9x16.png"
       },
-      "pretext": {
-        "16x9": "library/pretext/Netherlands/Groningen/nl-01-060-daylight-16x9.png",
-        "4x5": "library/pretext/Netherlands/Groningen/nl-01-060-daylight-4x5.png",
-        "9x16": "library/pretext/Netherlands/Groningen/nl-01-060-daylight-9x16.png"
-      },
       "sha256": {
         "16x9": "97c1ae0de798aa24d05fcc4b0087fea520c36e4f343181f09f9b617bd91f1794",
         "4x5": "a14bc6afa0dae3bd6af28174aff91911d16aa01dd17b46262eb804547ede835a",
@@ -163,7 +129,9 @@
         "16x9": "1920x1270",
         "4x5": "864x1270",
         "9x16": "1080x1920"
-      }
+      },
+      "city": "Groningen",
+      "site": "Martinitoren"
     },
     {
       "entry_id": "NL-01-061",
@@ -172,11 +140,6 @@
       "scenario_label": "2 October 2026 \u00b7 11:37 Europe/Amsterdam",
       "retrieval_timestamp": "2026-10-02T11:35:08+02:00",
       "generation_timestamp": "2026-10-02T11:37:24+02:00",
-      "generation_timestamps": {
-        "16x9": "2026-10-02T11:37:24+02:00",
-        "4x5": "2026-10-02T11:40:31+02:00",
-        "9x16": "2026-10-02T11:40:53+02:00"
-      },
       "weather_code": 3,
       "cloud_cover": 92,
       "temperature_2m": 16.4,
@@ -190,11 +153,6 @@
         "4x5": "library/world/Netherlands/Bourtange/nl-01-061-daylight-4x5.png",
         "9x16": "library/world/Netherlands/Bourtange/nl-01-061-daylight-9x16.png"
       },
-      "pretext": {
-        "16x9": "library/pretext/Netherlands/Bourtange/nl-01-061-daylight-16x9.png",
-        "4x5": "library/pretext/Netherlands/Bourtange/nl-01-061-daylight-4x5.png",
-        "9x16": "library/pretext/Netherlands/Bourtange/nl-01-061-daylight-9x16.png"
-      },
       "sha256": {
         "16x9": "6b8d5ed1f25705b85780a1fde75c40c37f3591b73ad433f554723f733e1b715c",
         "4x5": "b74ef35567bb59dac22816975a5a1beb0d39c3649f44c4ce3ef31115dcc8af17",
@@ -204,7 +162,9 @@
         "16x9": "1920x1270",
         "4x5": "864x1270",
         "9x16": "1080x1920"
-      }
+      },
+      "city": "Bourtange",
+      "site": "Vesting Bourtange"
     },
     {
       "entry_id": "NL-01-062",
@@ -213,11 +173,6 @@
       "scenario_label": "2 October 2026 \u00b7 11:36 Europe/Amsterdam",
       "retrieval_timestamp": "2026-10-02T11:35:10+02:00",
       "generation_timestamp": "2026-10-02T11:36:12+02:00",
-      "generation_timestamps": {
-        "16x9": "2026-10-02T11:36:12+02:00",
-        "4x5": "2026-10-02T11:38:03+02:00",
-        "9x16": "2026-10-02T11:41:09+02:00"
-      },
       "weather_code": 3,
       "cloud_cover": 100,
       "temperature_2m": 16.4,
@@ -231,11 +186,6 @@
         "4x5": "library/world/Netherlands/Borger/nl-01-062-daylight-4x5.png",
         "9x16": "library/world/Netherlands/Borger/nl-01-062-daylight-9x16.png"
       },
-      "pretext": {
-        "16x9": "library/pretext/Netherlands/Borger/nl-01-062-daylight-16x9.png",
-        "4x5": "library/pretext/Netherlands/Borger/nl-01-062-daylight-4x5.png",
-        "9x16": "library/pretext/Netherlands/Borger/nl-01-062-daylight-9x16.png"
-      },
       "sha256": {
         "16x9": "3fe0a8f83bde3bbaea030c9681ecf25da19d8aebc8fbb27c4f68775e65775d17",
         "4x5": "e86243ff702fd6ecd403ae291d79b0d19c4b054b916ba2b554af2a40daae9e0a",
@@ -245,7 +195,9 @@
         "16x9": "1920x1270",
         "4x5": "864x1270",
         "9x16": "1080x1920"
-      }
+      },
+      "city": "Borger",
+      "site": "Hunebed D27"
     },
     {
       "entry_id": "NL-01-063",
@@ -254,11 +206,6 @@
       "scenario_label": "2 October 2026 \u00b7 11:36 Europe/Amsterdam",
       "retrieval_timestamp": "2026-10-02T11:35:13+02:00",
       "generation_timestamp": "2026-10-02T11:36:26+02:00",
-      "generation_timestamps": {
-        "16x9": "2026-10-02T11:36:26+02:00",
-        "4x5": "2026-10-02T11:38:11+02:00",
-        "9x16": "2026-10-02T11:39:33+02:00"
-      },
       "weather_code": 3,
       "cloud_cover": 97,
       "temperature_2m": 16.2,
@@ -272,11 +219,6 @@
         "4x5": "library/world/Netherlands/Dwingeloo/nl-01-063-daylight-4x5.png",
         "9x16": "library/world/Netherlands/Dwingeloo/nl-01-063-daylight-9x16.png"
       },
-      "pretext": {
-        "16x9": "library/pretext/Netherlands/Dwingeloo/nl-01-063-daylight-16x9.png",
-        "4x5": "library/pretext/Netherlands/Dwingeloo/nl-01-063-daylight-4x5.png",
-        "9x16": "library/pretext/Netherlands/Dwingeloo/nl-01-063-daylight-9x16.png"
-      },
       "sha256": {
         "16x9": "a79b66cffae940ba7a1556bdc6d5caf3edfdb3fc8bcabfc13a8899118c9efef8",
         "4x5": "99d254c5a3d070646443cb63ef9d513e3756dccc26cf9650b1fecbf9b73a373a",
@@ -286,7 +228,75 @@
         "16x9": "1920x1270",
         "4x5": "864x1270",
         "9x16": "1080x1920"
-      }
+      },
+      "city": "Dwingeloo",
+      "site": "Dwingelderveld"
+    },
+    {
+      "entry_id": "NL-01-065",
+      "caption": "Fort Oranje, Oranjestad",
+      "folder": "Oranjestad",
+      "scenario_label": "2 October 2026 \u00b7 12:17 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:16:57+02:00",
+      "generation_timestamp": "2026-10-02T12:17:35+02:00",
+      "weather_code": 0,
+      "cloud_cover": 4,
+      "temperature_2m": 28.1,
+      "wind_speed_10m": 22.2,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T12:02",
+      "sunset": "2026-10-02T23:59",
+      "files": {
+        "16x9": "library/world/Netherlands/Oranjestad/nl-01-065-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Oranjestad/nl-01-065-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Oranjestad/nl-01-065-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "7f9344730f0d8ca48d19384c85721f3bdbbec3b417e24dfef2a2d38a4031fac7",
+        "4x5": "491251e58bc03bb97e121a71545c3cb4f08fb8983ed387505a0c2458af5d419d",
+        "9x16": "1ba784745ca0520b5f1d2859466d799f87f48a76f6020f6e5d35ab5ad9bc858e"
+      },
+      "sizes": {
+        "16x9": "1920x1270",
+        "4x5": "864x1270",
+        "9x16": "1080x1920"
+      },
+      "city": "Oranjestad",
+      "site": "Fort Oranje"
+    },
+    {
+      "entry_id": "NL-01-066",
+      "caption": "The Bottom, The Bottom",
+      "folder": "The Bottom",
+      "scenario_label": "2 October 2026 \u00b7 12:18 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:17:00+02:00",
+      "generation_timestamp": "2026-10-02T12:18:27+02:00",
+      "weather_code": 53,
+      "cloud_cover": 65,
+      "temperature_2m": 27.3,
+      "wind_speed_10m": 26.5,
+      "precipitation": 0.2,
+      "is_day": 1,
+      "sunrise": "2026-10-02T12:03",
+      "sunset": "2026-10-03T00:00",
+      "files": {
+        "16x9": "library/world/Netherlands/The Bottom/nl-01-066-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/The Bottom/nl-01-066-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/The Bottom/nl-01-066-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "0955cca24414bcabb412165f03d9980d4107b05a9b84b7b006752927e76c2119",
+        "4x5": "f35947b3d5938b3ddcc72022ce38e9f62f60e506129b85ff3c70a4a3c4b0b367",
+        "9x16": "e4c2e70f300ed4508834ca7125465a387d15d4e14cb787c7170f14a8f112316e"
+      },
+      "sizes": {
+        "16x9": "1920x1270",
+        "4x5": "864x1270",
+        "9x16": "1080x1920"
+      },
+      "city": "The Bottom",
+      "site": "The Bottom"
     },
     {
       "entry_id": "NL-01-108",
@@ -295,11 +305,6 @@
       "scenario_label": "2 October 2026 \u00b7 11:36 Europe/Amsterdam",
       "retrieval_timestamp": "2026-10-02T11:35:16+02:00",
       "generation_timestamp": "2026-10-02T11:36:33+02:00",
-      "generation_timestamps": {
-        "16x9": "2026-10-02T11:36:33+02:00",
-        "4x5": "2026-10-02T11:38:17+02:00",
-        "9x16": "2026-10-02T11:41:12+02:00"
-      },
       "weather_code": 1,
       "cloud_cover": 41,
       "temperature_2m": 17.0,
@@ -313,11 +318,6 @@
         "4x5": "library/world/Netherlands/Goes/nl-01-108-daylight-4x5.png",
         "9x16": "library/world/Netherlands/Goes/nl-01-108-daylight-9x16.png"
       },
-      "pretext": {
-        "16x9": "library/pretext/Netherlands/Goes/nl-01-108-daylight-16x9.png",
-        "4x5": "library/pretext/Netherlands/Goes/nl-01-108-daylight-4x5.png",
-        "9x16": "library/pretext/Netherlands/Goes/nl-01-108-daylight-9x16.png"
-      },
       "sha256": {
         "16x9": "199d9cf310efb233b3246752611d031afa4ce808935ccb1e337c715e0b3a8eec",
         "4x5": "725f9f1cf083cf186cc6ab5d5671bfcf1153115fc780dd7d814c70c98b09f995",
@@ -327,7 +327,9 @@
         "16x9": "1920x1270",
         "4x5": "864x1270",
         "9x16": "1080x1920"
-      }
+      },
+      "city": "Goes",
+      "site": "Harbour"
     }
   ]
 }

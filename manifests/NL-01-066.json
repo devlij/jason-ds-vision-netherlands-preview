@@ -4,22 +4,56 @@
   "region": "Caribbean Netherlands",
   "city": "The Bottom",
   "caption": "The Bottom, The Bottom",
-  "scenario_label": "25 September 2026 · 18:19 America/Kralendijk",
-  "composition": "Crater village and the dark mass of Mount Scenery at dusk · AI-generated artistic interpretation",
-  "description": "From the road just above The Bottom, small houses with red roofs sit in the green crater and Mount Scenery rises behind them. The stepped trail most visitors use starts in Windwardside, so this is the village view, not that trailhead and not the closed summit platform. It is clear and warm, about 27.9°C, with wind near 22.8 km/h. Sunset was 18:06 America/Kralendijk, so 18:19 is dusk, about thirteen minutes after sunset.",
+  "scenario_label": "25 September 2026 \u00b7 18:19 America/Kralendijk",
+  "composition": "Crater village and the dark mass of Mount Scenery at dusk \u00b7 AI-generated artistic interpretation",
+  "description": "From the road just above The Bottom, small houses with red roofs sit in the green crater and Mount Scenery rises behind them. The stepped trail most visitors use starts in Windwardside, so this is the village view, not that trailhead and not the closed summit platform. It is clear and warm, about 27.9\u00b0C, with wind near 22.8 km/h. Sunset was 18:06 America/Kralendijk, so 18:19 is dusk, about thirteen minutes after sunset.",
   "alt_text": "AI-generated artistic interpretation of The Bottom on Saba, with Mount Scenery behind the village at dusk",
   "file_16x9": "Netherlands/The Bottom/nl-01-066-16x9.png",
   "file_4x5": "Netherlands/The Bottom/nl-01-066-4x5.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "G1 visual pass: dusk view down over The Bottom, Saba — the village of lit houses nestled in green volcanic slopes, a winding road in the foreground, pink-tinged twilight sky over the ridges; the crater-village setting reads correctly. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'The Bottom, The Bottom', scenario '25 September 2026 · 18:19 America/Kralendijk' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T18:19:11-04:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 18:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free · no credit needed' (documented only). G5: manifest/card fields complete.",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "G1 visual pass: dusk view down over The Bottom, Saba \u2014 the village of lit houses nestled in green volcanic slopes, a winding road in the foreground, pink-tinged twilight sky over the ridges; the crater-village setting reads correctly. G2: 1920x1080 + 864x1080 exact; signature bottom-right, caption 'The Bottom, The Bottom', scenario '25 September 2026 \u00b7 18:19 America/Kralendijk' and AI disclosure legible; Art. 50 PNG metadata present; Open-Meteo retrieval 2026-09-25T18:19:11-04:00 unique repo-wide (288/288 via GitHub API), scenario minute inside model-valid hour 18:00. G3: text-prompt-only lineage, no photographic inputs. G4: no visible people or logos; license badge 'Free \u00b7 no credit needed' (documented only). G5: manifest/card fields complete.",
   "approved_at": "2026-09-26T03:42:40.075626+00:00",
   "sha256_16x9": "920727850573a105b2b90e8969ac88923b882a38bc534d18411d8605bbb1cc49",
   "sha256_4x5": "2a75ef640dc4d0954f52d97cba264b106fb16d34c9f61ac5b9899ba34be54296",
   "file_9x16": "Netherlands/The Bottom/nl-01-066-9x16.png",
   "sha256_9x16": "10f44bbeaf7643ca126640e7c061f8df163ed1381bec392e566eaddc99dbc97f",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d68c25d2b1212771ac12e7f7ba3d55cc6681f075f8cbe92676cd3e75ecf5514f. Source SHA-256 4:5 653c8a51a5ea2406127925772e37cdfbe05d9bd11ffd144ddff29b1fa16609ce. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d68c25d2b1212771ac12e7f7ba3d55cc6681f075f8cbe92676cd3e75ecf5514f. Source SHA-256 4:5 653c8a51a5ea2406127925772e37cdfbe05d9bd11ffd144ddff29b1fa16609ce. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/The Bottom/nl-01-066-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/The Bottom/nl-01-066-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/The Bottom/nl-01-066-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-066",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 12:18 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:17:00+02:00",
+    "generation_timestamp": "2026-10-02T12:18:27+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-066.json",
+    "files": {
+      "16x9": "library/world/Netherlands/The Bottom/nl-01-066-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/The Bottom/nl-01-066-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/The Bottom/nl-01-066-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "0955cca24414bcabb412165f03d9980d4107b05a9b84b7b006752927e76c2119",
+      "4x5": "f35947b3d5938b3ddcc72022ce38e9f62f60e506129b85ff3c70a4a3c4b0b367",
+      "9x16": "e4c2e70f300ed4508834ca7125465a387d15d4e14cb787c7170f14a8f112316e"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "The Bottom, The Bottom",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 12:18 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
