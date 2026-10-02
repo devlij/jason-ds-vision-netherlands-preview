@@ -24,5 +24,39 @@
   ],
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: man-made dune island with marram grass, wooden jetties into dark water, small wooden shelter hut, rock breakwaters curving offshore, flat overcast grey sky — plausible Marker Wadden, Lelystad; no artifacts. Gate 2: exact dims; legible bar ('Marker Wadden, Lelystad', scenario 03:37 Europe/Amsterdam, disclosure, exact signature/script); 03:37 inside 03:00; retrieval 2026-09-26T03:37:38+02:00, unique repo-wide; Art. 50 chunks + note, Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
-  "approved_at": "2026-09-29T10:42:49.402703+00:00"
+  "approved_at": "2026-09-29T10:42:49.402703+00:00",
+  "file_16x9_day": "Netherlands/Lelystad/nl-01-226-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Lelystad/nl-01-226-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Lelystad/nl-01-226-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-226",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:43:08+02:00",
+    "generation_timestamp": "2026-10-02T12:44:27+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-226.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Lelystad/nl-01-226-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Lelystad/nl-01-226-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Lelystad/nl-01-226-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "4364144819877412988584deafd3c95bde1d05ad87ed2b75a1cd84fe6340dd45",
+      "4x5": "92e1346b9c9ea4723261b05de5c6cb942842fad1481509e92c0c459ee16eebd9",
+      "9x16": "e6dab1ca5674fb835c4349b007c4c7b739d2bcaa136a6eb7eef9af721d3d9a6d"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Marker Wadden, Lelystad",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:44 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

@@ -24,5 +24,39 @@
   ],
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: whitewashed Caribbean church, square bell tower with arched belfry openings (one lamp-lit), tiled pyramidal roof with cross, arched wooden double door, floodlit facade, flanking lit houses, dark hills, starry sky — recognizably Sint-Ludovicuskerk, Rincon; street viewpoint; clean framing, no artifacts. Gate 2: exact 1920x1270/864x1270/1080x2110; legible bar (exact caption 'Sint-Ludovicuskerk, Rincon', 'Scenario: 25 September 2026 · 21:16 America/Kralendijk', AI disclosure, exact \"Jason D's Vision\" + 'Jason A. Devlin' script); scenario 21:16 inside model-valid hour 21:00; Open-Meteo retrieval 2026-09-25T21:16:41-04:00, unique repo-wide (288/288, 0 dups, re-verified 2026-09-29); Art. 50 five chunks + EU AI Act note, Comment date 2026-09-27 (true re-finish date, git-verified). Gate 3: text-prompt-only, no photographic inputs (evidence card). Gate 4: no people/logos/private property visible — documented only. Gate 5: manifest present, Candidate, card complete, no open qc_notes.",
-  "approved_at": "2026-09-29T10:42:49.402703+00:00"
+  "approved_at": "2026-09-29T10:42:49.402703+00:00",
+  "file_16x9_day": "Netherlands/Rincon/nl-01-224-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Rincon/nl-01-224-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Rincon/nl-01-224-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-224",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:48 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T06:43:03-04:00",
+    "generation_timestamp": "2026-10-02T12:48:39+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-224.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Rincon/nl-01-224-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Rincon/nl-01-224-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Rincon/nl-01-224-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "38e6a11ce2d7cf0012233c2cb23f362a1204071b693275faf4bc9385bc6d2986",
+      "4x5": "84374637a8c1684b3a917ed118ffbca2f8c551238ef08cfe231c134d7929b122",
+      "9x16": "a57eee200deb955a078e9be2084a92641e95c2feb02775f5e4af7456a6dbf479"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Sint-Ludovicuskerk, Rincon",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:48 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
