@@ -21,5 +21,39 @@
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4b7451fcbe757010104e19be7374af9196acc5f827ae834558499dc65fa63414. Source SHA-256 4:5 dacdbf65084efc574f914a790359d5f86dce30de7b1ed1b5607e3cb2bbcdb614. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. White neoclassical borg across forecourt water: carved stone gate piers, wrought-iron gate, balustraded roofline, lit windows, park trees. Exact caption/scenario '26 September 2026 · 04:18 Europe/Amsterdam' and AI disclosure on the label bar. Retrieval 2026-09-26T04:18:35+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
-  "approved_at": "2026-09-29T04:24:52.305089+00:00"
+  "approved_at": "2026-09-29T04:24:52.305089+00:00",
+  "file_16x9_day": "Netherlands/Leek/nl-01-262-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Leek/nl-01-262-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Leek/nl-01-262-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-262",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:13 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:11:55+02:00",
+    "generation_timestamp": "2026-10-02T13:13:35+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-262.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Leek/nl-01-262-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Leek/nl-01-262-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Leek/nl-01-262-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "7dcc2de1d77fb276f8c3b9dd1f6378848db7a03e19281fda32abea1dbcaf4c2a",
+      "4x5": "27090e7c865cd8438afebecad0b0b17c0f41f83cd58cc0a219c44652767999ca",
+      "9x16": "e63c9f0276da21ab417cda6c95bc0db3fc02786c602fc147517dd666d662821b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Borg Nienoord, Leek",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:13 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

@@ -32,5 +32,39 @@
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: both formats show the white round shaft of the Zuidertoren rising from marram-grass dunes under dark clouds, closed by the copper dome with its small finial figure, small square window near the crown and dark arched door at the base in both - matching the card's 'copper dome, not a glass lantern' anchor; the earlier inter-format discrepancy is resolved in the 20:49 UTC re-render. Gate 2: label bar exact - 'Zuidertoren, Schiermonnikoog', 'Scenario: 26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T04:18:37+02:00, unique to the second repo-wide, scenario minute 04:18 inside model-valid hour 04:00-04:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage per evidence card, no photographic inputs. Gate 4: no identifiable people, no logos, no credit required - documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:41:31.530361+00:00",
   "sha256_16x9": "1befc9bdbb40cb5dad89a0c2cafda0479ff3d64d796ec0a193423fc17247c558",
-  "sha256_4x5": "c04fbb829b409145b394815c84eaa21751ae782da4506eaadf0af669bc97c5e6"
+  "sha256_4x5": "c04fbb829b409145b394815c84eaa21751ae782da4506eaadf0af669bc97c5e6",
+  "file_16x9_day": "Netherlands/Schiermonnikoog/nl-01-263-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Schiermonnikoog/nl-01-263-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Schiermonnikoog/nl-01-263-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-263",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:14 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:11:58+02:00",
+    "generation_timestamp": "2026-10-02T13:14:10+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-263.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Schiermonnikoog/nl-01-263-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Schiermonnikoog/nl-01-263-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Schiermonnikoog/nl-01-263-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d4b96372d0ada0fd5ea079cf1ebdade3f2a1843ea089a06b8760ad8830851b31",
+      "4x5": "59b406b3e7a38d0c10386dc64ec8e28a70d9c7a0fa704e2117171801681cd88d",
+      "9x16": "2e3b65917d4624c10c9bd94851be351ffeef03b149b5cf8cf0e1b68219ba8c1a"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Zuidertoren, Schiermonnikoog",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:14 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

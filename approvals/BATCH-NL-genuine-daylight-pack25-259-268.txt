@@ -1,0 +1,150 @@
+BATCH NL genuine daylight Part A pack 25
+Date: 2026-10-02
+Country: Netherlands
+Status: Candidate. Cosmo QC. Do not merge. Not a Friday-complete certificate.
+Provenance: genuine daylight. Not interim-ai. Text-prompt only. Night masters were not image anchors and were not rewritten.
+Gallery: index.html was not rebuilt. Daylight is not the card primary. The later work order wo-netherlands-daylight-primary does the toggle flip.
+
+Gate: 2026-10-02T13:10+02:00 was open (Amsterdam sunrise–sunset about 07:43–19:15 CEST). Each site's sunrise and sunset are the Open-Meteo values on that retrieval. Every retrieval has is_day 1. The generation minute sits inside that site's sunrise–sunset and inside the retrieval clock hour. The scenario minute is the Europe/Amsterdam mtime of that scene's 16:9 generation file.
+
+Inventory
+- 288 NL-01 scenes. Night-primary (Open-Meteo is_day 0 on the scene weather file): 273. Day-primary (is_day 1): 15, which are NL-01-002, NL-01-005 through NL-01-016, NL-01-064, and NL-01-067. Those are not night gaps.
+- Genuine daylight masters on main before this pack: 0. Files named *-daylight-* already on main for NL-01-001 through NL-01-010 are the 2026-09-26 interim derivatives. They are not genuine daylight.
+- Unmerged interim-ai daylight in PRs #18–#31 is not counted as genuine.
+- Packs 1–21 cover NL-01-017 through NL-01-228 and are not repeated here.
+- Sibling packs own NL-01-229–238, NL-01-239–248, NL-01-249–258, NL-01-269–278, and NL-01-279–288. This pack does not use those scene IDs and does not count them as finished.
+- Skipped, outside this slice: held NL-01-001, NL-01-003, and NL-01-004. Skipped day-primary NL-01-002, NL-01-005 through NL-01-016, NL-01-064, and NL-01-067.
+- This pack fills the night-primary slice NL-01-259 through NL-01-268. All ten are is_day 0 on the night card. None is day-primary. Skips inside the slice: none.
+- Genuine daylight count in this pack: 10.
+- Remaining night-primary scenes without a genuine daylight master on main: 273. This pack is Candidate and unmerged, so it does not reduce the merged count.
+
+Finish
+- Label bar under the photo for 16:9 (1920×1270, photo 1920×1080) and 4:5 (864×1270, photo 864×1080).
+- 9:16 finished file is exact 1080×1920 (true 9:16). The 190px bar is inside that frame (photo 1080×1730, top-aligned crop of the text-prompt 9:16). It is not 1080×2110.
+- 4:5 is a separate text-prompt 3:4 re-frame fitted to 864×1080, not a crop of a night master.
+- Art. 50 five PNG chunks on all three masters. Comment finish date 2026-10-02.
+- On-image left: caption, Scenario line, AI-generated artistic interpretation · Not a photograph. Right: Jason D’s Vision and Jason A. Devlin.
+- Each scene has one Open-Meteo retrieval, unique to the second against the 288 night weather files and against packs 1–21 daylight retrievals and against this pack. Weather numbers below are only those retrievals.
+- QC contact sheets: approvals/qc/PACK25-masters-grid.png and approvals/qc/PACK25-9x16-proof.png.
+- Night-unchanged hashes below are the SHA-256 of the on-disk night masters, identical before and after this pack. On main, the manifest sha256 fields for NL-01-260 (all three formats) and the 9:16 of NL-01-261, NL-01-262, NL-01-265, NL-01-266, NL-01-267, and NL-01-268 already differed from those bytes. This pack did not rewrite those fields or those files.
+
+Scenes
+NL-01-259  Havezate De Havixhorst, De Wijk
+  retrieval 2026-10-02T13:10:24+02:00  generation 2026-10-02T13:10:48+02:00
+  scenario 2 October 2026 · 13:10 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 100%  18.6°C  wind 8.6 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:37  sunset 2026-10-02T19:09  timezone Europe/Amsterdam
+  16x9 library/world/Netherlands/De Wijk/nl-01-259-daylight-16x9.png  5f7411538a3d70f9b07d468e4608b1127da5e51fccc48ae627e7656512d57bda
+  4x5  library/world/Netherlands/De Wijk/nl-01-259-daylight-4x5.png  830cbbbbb99a5d46f546ec22ef234dec67c179f8e286735e848162c24e8f223e
+  9x16 library/world/Netherlands/De Wijk/nl-01-259-daylight-9x16.png  1080x1920  63173bc9f157b77299b2b57d62134581d1327169b2b620981b93b7f3cf2e1160
+  night unchanged 16x9 bcd57b897f224b627a77cd64941f1d4074a41bd6f52f17970e850d1de11c61a6
+  night unchanged 4x5 d99dec461ae8fb8e779fe9521a160152356299f85d162952cb9393d75bfde0bc
+  night unchanged 9x16 064155fe35f51ed0bee75b3f9003b9926a542448a15d06bed5e6eee473a98e17
+
+NL-01-260  Sint-Margaretakerk, Norg
+  retrieval 2026-10-02T13:11:48+02:00  generation 2026-10-02T13:12:51+02:00
+  scenario 2 October 2026 · 13:12 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 98%  18.8°C  wind 7.6 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:37  sunset 2026-10-02T19:08  timezone Europe/Amsterdam
+  16x9 library/world/Netherlands/Norg/nl-01-260-daylight-16x9.png  6dd88912eaad0f4a2cabac15763b92ae6c96f7a618523a6a2c136ccc4e3cfbb0
+  4x5  library/world/Netherlands/Norg/nl-01-260-daylight-4x5.png  c1482915dfdff612a72a3d781fbe366d8463cfa8d96d090194da0bb66a34da93
+  9x16 library/world/Netherlands/Norg/nl-01-260-daylight-9x16.png  1080x1920  e4c1285332cfcae758ad3c93371e9c4993b117e81754d6981baaf5816702fc2f
+  night unchanged 16x9 ad248cef14787c0381f48f5aa337de75182f8da2762dd78ac7eacda649de9767
+  night unchanged 4x5 7145131550b07c63bbb6cbb1f95062a2984721fc11f9dcda24a58fe74c1952f7
+  night unchanged 9x16 c9f09beb4fabad862391c55388462cf90718b0ea0daba992d44f9e26a001bc6b
+
+NL-01-261  Abdijkerk, Aduard
+  retrieval 2026-10-02T13:11:52+02:00  generation 2026-10-02T13:13:15+02:00
+  scenario 2 October 2026 · 13:13 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 32%  18.9°C  wind 7.9 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:37  sunset 2026-10-02T19:08  timezone Europe/Amsterdam
+  16x9 library/world/Netherlands/Aduard/nl-01-261-daylight-16x9.png  73982cdbfec98130785986afbbc45275823bc8a08a1d80d0e893edc88284e589
+  4x5  library/world/Netherlands/Aduard/nl-01-261-daylight-4x5.png  b1bdcf1d2561c94eb636aff5c938ecd464d7c93247264374738c500899e5eac3
+  9x16 library/world/Netherlands/Aduard/nl-01-261-daylight-9x16.png  1080x1920  1a7fa855f73292ce1e81a5323fa408dd6a0f35a858746d6499faf9247095f0fe
+  night unchanged 16x9 debe168965fc64e5c955cedad236b0e39652ca8d211c3721bfa70c905af33aa5
+  night unchanged 4x5 c61a74526f292b1e0e8829deb1a4b45129d709a4a52e76b2564bdf45132d8208
+  night unchanged 9x16 3eeb231e5d3dc7a08a2bf78d809e977270c8b4bf02eb186002a662565e67db1e
+
+NL-01-262  Borg Nienoord, Leek
+  retrieval 2026-10-02T13:11:55+02:00  generation 2026-10-02T13:13:35+02:00
+  scenario 2 October 2026 · 13:13 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 43%  19.1°C  wind 7.9 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:37  sunset 2026-10-02T19:08  timezone Europe/Amsterdam
+  16x9 library/world/Netherlands/Leek/nl-01-262-daylight-16x9.png  7dcc2de1d77fb276f8c3b9dd1f6378848db7a03e19281fda32abea1dbcaf4c2a
+  4x5  library/world/Netherlands/Leek/nl-01-262-daylight-4x5.png  27090e7c865cd8438afebecad0b0b17c0f41f83cd58cc0a219c44652767999ca
+  9x16 library/world/Netherlands/Leek/nl-01-262-daylight-9x16.png  1080x1920  e63c9f0276da21ab417cda6c95bc0db3fc02786c602fc147517dd666d662821b
+  night unchanged 16x9 f085f1aec6f7f58cf404a27e538863d6f55316823b3d96815b8a5f6d9c020d4d
+  night unchanged 4x5 c3fb6aeb884f9f5fc174e4796365c583e6bb5f23bd282fc79f90641cc0aca9e4
+  night unchanged 9x16 0bba232125dce4e267f197ca53b03b0b80b32fa328edb5b1c1f66d775bc91142
+
+NL-01-263  Zuidertoren, Schiermonnikoog
+  retrieval 2026-10-02T13:11:58+02:00  generation 2026-10-02T13:14:10+02:00
+  scenario 2 October 2026 · 13:14 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0  cloud 0%  18.3°C  wind 9.7 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:38  sunset 2026-10-02T19:09  timezone Europe/Amsterdam
+  16x9 library/world/Netherlands/Schiermonnikoog/nl-01-263-daylight-16x9.png  d4b96372d0ada0fd5ea079cf1ebdade3f2a1843ea089a06b8760ad8830851b31
+  4x5  library/world/Netherlands/Schiermonnikoog/nl-01-263-daylight-4x5.png  59b406b3e7a38d0c10386dc64ec8e28a70d9c7a0fa704e2117171801681cd88d
+  9x16 library/world/Netherlands/Schiermonnikoog/nl-01-263-daylight-9x16.png  1080x1920  2e3b65917d4624c10c9bd94851be351ffeef03b149b5cf8cf0e1b68219ba8c1a
+  night unchanged 16x9 1befc9bdbb40cb5dad89a0c2cafda0479ff3d64d796ec0a193423fc17247c558
+  night unchanged 4x5 c04fbb829b409145b394815c84eaa21751ae782da4506eaadf0af669bc97c5e6
+  night unchanged 9x16 5a81be102cd8c38c1a794db81c3b4d2b699b69ade7ac2ca469314160f6a29066
+
+NL-01-264  Sint-Gertrudiskerk, Workum
+  retrieval 2026-10-02T13:12:01+02:00  generation 2026-10-02T13:14:28+02:00
+  scenario 2 October 2026 · 13:14 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0  cloud 0%  18.8°C  wind 12.2 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:41  sunset 2026-10-02T19:12  timezone Europe/Amsterdam
+  16x9 library/world/Netherlands/Workum/nl-01-264-daylight-16x9.png  2c936905688c783daaf93f3fef5920d6fe9b7a2f4d43973ab5aaa8b29869484f
+  4x5  library/world/Netherlands/Workum/nl-01-264-daylight-4x5.png  96034a3d7c480c0045e4ff45e0d8f10f1e45dc9f50712eae7be324a12a4ae25a
+  9x16 library/world/Netherlands/Workum/nl-01-264-daylight-9x16.png  1080x1920  ece072ad739031f8bb2042a263da453ee9f7b76f3ff8835caf2a6ea9c4370088
+  night unchanged 16x9 1c3aeffb88b5df0e6369c1adbc59af133f6e0640dc68e3046cffa85cb5bdb6a7
+  night unchanged 4x5 4e17257363c6e8869cc21d14ae8799e1cd48c4ace4a53f917d760936210a8923
+  night unchanged 9x16 c56c3dd099059d21e5a470c0a730851aec7792c71bc4040d889911c43a32be01
+
+NL-01-265  Kerkruïne, Schokland
+  retrieval 2026-10-02T13:12:04+02:00  generation 2026-10-02T13:14:46+02:00
+  scenario 2 October 2026 · 13:14 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 63%  17.7°C  wind 10.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:39  sunset 2026-10-02T19:11  timezone Europe/Amsterdam
+  16x9 library/world/Netherlands/Schokland/nl-01-265-daylight-16x9.png  d864a4a2a4d0d8533d2acf40ed337bacc31dd5a3e6fdb2155f7db88179830a3a
+  4x5  library/world/Netherlands/Schokland/nl-01-265-daylight-4x5.png  43215174354d15d567013b4a69bfde27b506441dff466c0756378b46d702010b
+  9x16 library/world/Netherlands/Schokland/nl-01-265-daylight-9x16.png  1080x1920  e5f49de5dba8949aef140761e212d6dae2ca9c6f9fc6f00f76b7aeb852fbf91a
+  night unchanged 16x9 a9a80d309c643763043c5561577d16e163478950a0c133008c3467dcdc9fdaf0
+  night unchanged 4x5 c1d740c5ae42f7a25016e8c16bf9c95baddb3c95c1b6ff2695b180c0c63d7945
+  night unchanged 9x16 21162d569f4b94a927156a6269a7ee142988b3ea72e07921980ccab017903a8d
+
+NL-01-266  Houtribsluizen, Lelystad
+  retrieval 2026-10-02T13:12:07+02:00  generation 2026-10-02T13:15:22+02:00
+  scenario 2 October 2026 · 13:15 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0  cloud 19%  18.6°C  wind 9.7 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:40  sunset 2026-10-02T19:13  timezone Europe/Amsterdam
+  16x9 library/world/Netherlands/Lelystad/nl-01-266-daylight-16x9.png  2ef43ccc8bf1afee50e99973d300a672ad8be19f0ba8f09c390b74c30f624522
+  4x5  library/world/Netherlands/Lelystad/nl-01-266-daylight-4x5.png  f178f26600c7cabe8b12b5a703dd6eff87114ad087e74f652aaebe009dbc31f1
+  9x16 library/world/Netherlands/Lelystad/nl-01-266-daylight-9x16.png  1080x1920  69500958b8cd72c31decd9ddb6eb4a9584c9ce0f70842071b76f965808c21ee8
+  night unchanged 16x9 2c9f4669308a426ad1460297a3e6ed1f440b77abfe90e7cbf3e949d1e3e65e85
+  night unchanged 4x5 d55153efa4f66996e58a8b232afc324a46c24252fffdb86b047b9f287957b22a
+  night unchanged 9x16 d113aff8bf0d09bb37a23d8a1d8f372de3f9e1b9bf5fce18b475c858a73663f1
+
+NL-01-267  Grote Kerk, Veere
+  retrieval 2026-10-02T13:12:10+02:00  generation 2026-10-02T13:15:39+02:00
+  scenario 2 October 2026 · 13:15 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 25%  18.3°C  wind 11.2 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:47  sunset 2026-10-02T19:20  timezone Europe/Amsterdam
+  16x9 library/world/Netherlands/Veere/nl-01-267-daylight-16x9.png  a760849819579f2f19737f273c7b5b73c2054dde6124e75ee96818bd08ea748b
+  4x5  library/world/Netherlands/Veere/nl-01-267-daylight-4x5.png  c2f4fa07794a908b0974f4cc27b596fadc25522bb0d1b9cb1b233cdeac1f3191
+  9x16 library/world/Netherlands/Veere/nl-01-267-daylight-9x16.png  1080x1920  889b905fc3140e95fb3aa98173342be340acff4d6fa748323b1ee18faf072014
+  night unchanged 16x9 0acf47eaeea816e1a28259198b72f5be4a4bd7618640f4429a526be5f319dc70
+  night unchanged 4x5 e71f7bf634daea39a554c22105df3ae793c9861e612236cf520e818aa30a1abc
+  night unchanged 9x16 694cf237949736117339f52fe1025763d7c0f25b65c8e266b0917d58a8c11ca4
+
+NL-01-268  Haven, Brouwershaven
+  retrieval 2026-10-02T13:12:14+02:00  generation 2026-10-02T13:15:56+02:00
+  scenario 2 October 2026 · 13:15 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0  cloud 5%  18.1°C  wind 11.2 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:46  sunset 2026-10-02T19:19  timezone Europe/Amsterdam
+  16x9 library/world/Netherlands/Brouwershaven/nl-01-268-daylight-16x9.png  a4fa81b3bf948b523eb8d0d84f140ec687d80bc8ebbcaf3fd1ecccc645559add
+  4x5  library/world/Netherlands/Brouwershaven/nl-01-268-daylight-4x5.png  c715af42bf7ac1b1691586cab104d78241e6acf0a606a1816c01dda2f3185269
+  9x16 library/world/Netherlands/Brouwershaven/nl-01-268-daylight-9x16.png  1080x1920  41e957f9849328cbe2d6dbf0b8372b5d4745e87b5a0fd8b99f1eac2fa1063f2b
+  night unchanged 16x9 e2583ab6f23de067dbb20dbac052e36fb1433d2b99a33eb14dc8a15436509170
+  night unchanged 4x5 451f5a8370c524bf0b6f04dc60b7806c4e5402b232ed50ae9632ab452ce116d1
+  night unchanged 9x16 4f7fd4eb65717cb4974a12b6ae820537a3b38cf7c5a66e721d1cc13d56978943
