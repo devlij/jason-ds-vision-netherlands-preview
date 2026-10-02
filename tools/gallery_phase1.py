@@ -180,6 +180,8 @@ FILE_KEYS = (
     "file_16x9_day",
     "file_4x5_day",
     "file_9x16_day",
+    "file_motion_10s_4x5",
+    "file_motion_poster",
 )
 
 
