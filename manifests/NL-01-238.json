@@ -24,5 +24,39 @@
   ],
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: ruined stone fort walls on a rocky coastline at dusk with surf and orange horizon glow — matches the ruined coastal Fort Amsterdam, Sint Eustatius; no artifacts. Gate 2: exact dims; label bar 'Fort Amsterdam, Sint Eustatius' + 'Scenario: 25 September 2026 · 21:38 America/Kralendijk' + AI disclosure; exact signature; 21:38 inside model-valid hour 21:00; Open-Meteo retrieval 2026-09-25T21:38:03-04:00, unique repo-wide (288/288, 0 dups, re-verified 2026-09-29); Art. 50 metadata present. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or private property visible — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
-  "approved_at": "2026-09-29T10:42:49.402703+00:00"
+  "approved_at": "2026-09-29T10:42:49.402703+00:00",
+  "file_16x9_day": "Netherlands/Sint Eustatius/nl-01-238-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Sint Eustatius/nl-01-238-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Sint Eustatius/nl-01-238-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-238",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:12 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T07:10:39-04:00",
+    "generation_timestamp": "2026-10-02T13:12:11+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-238.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Sint Eustatius/nl-01-238-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Sint Eustatius/nl-01-238-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Sint Eustatius/nl-01-238-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "14e72116c09334d386e9ae45c5f9b997183c2ccc711a81946fc6364d0b0497e8",
+      "4x5": "a1d1d313793d292c154487242726c93b9e3b99c4bc958d77b30ca5c0e9e68318",
+      "9x16": "8e9db00c3446739b8cc38722d88d806caf4fd44b410ce82583ea75c1cd5ddede"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Fort Amsterdam, Sint Eustatius",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:12 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

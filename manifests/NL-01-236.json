@@ -24,5 +24,39 @@
   ],
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: twin-towered Romanesque Bergkerk on its hilltop cobbled square, floodlit, lit row houses both sides, dramatic cloudy night sky; 4x5 inter-format check: same twin towers, closer crop — agreement PASS; 4x5 bar legible; Bergkerk, Deventer. Gate 2: exact dims; legible bar ('Bergkerk, Deventer', scenario 03:37 Europe/Amsterdam, disclosure, exact signature/script); 03:37 inside 03:00; retrieval 2026-09-26T03:37:59+02:00, unique repo-wide; Art. 50 chunks + note (all 3 formats chunk-parsed), Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
-  "approved_at": "2026-09-29T10:42:49.402703+00:00"
+  "approved_at": "2026-09-29T10:42:49.402703+00:00",
+  "file_16x9_day": "Netherlands/Deventer/nl-01-236-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Deventer/nl-01-236-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Deventer/nl-01-236-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-236",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:12 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:10:34+02:00",
+    "generation_timestamp": "2026-10-02T13:12:00+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-236.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Deventer/nl-01-236-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Deventer/nl-01-236-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Deventer/nl-01-236-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "6872187697ab2782cff6f8ec895007106ea9fbbb7f9e144f36236f019369d572",
+      "4x5": "1d81e2f6274e2d5ace0be412e725f75bfc88e2911e1d8efd62c02b370250ec6d",
+      "9x16": "550ba38f970da3189a77b1707a4e3ed2b66b13075ad7a090f18a07359de0eff8"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Bergkerk, Deventer",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:12 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
