@@ -21,5 +21,39 @@
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2560c386a5e57e6bc0f717c24153a4ab39e340e32599f559c0170dc3fbeb0804. Source SHA-256 4:5 36611bfa6aa26b3aaa28bcc0f1156b9ab2506869d6135f6bb9d64e6ec37ec8bf. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: U-shaped moated brick house, octagonal corner turrets, waterside gatehouse, lamp light under overcast sky — matches anchors; plausible towpath viewpoint. Gate 2: exact dims; legible bar + exact signature/script; scenario 03:59 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:59:26+02:00, unique repo-wide; Art. 50 metadata verified (2026-09-28). Gate 3: text-prompt-only. Gate 4: no people/logos/copyrighted subject — documented only. Gate 5: card complete.",
-  "approved_at": "2026-09-28T22:13:28.952944+00:00"
+  "approved_at": "2026-09-28T22:13:28.952944+00:00",
+  "file_16x9_day": "Netherlands/Oud-Zuilen/nl-01-244-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Oud-Zuilen/nl-01-244-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Oud-Zuilen/nl-01-244-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-244",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:11 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:09:56+02:00",
+    "generation_timestamp": "2026-10-02T13:11:19+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-244.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Oud-Zuilen/nl-01-244-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Oud-Zuilen/nl-01-244-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Oud-Zuilen/nl-01-244-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "dec09ae53dd38b257e3e6a7a1d1c070b20b18d0a376b7c1f79b2927d22492416",
+      "4x5": "bbbd46c1e06ce30d74a1e5a7fccaddc1717161d36f0efc4fb7a72d428f201624",
+      "9x16": "130f1f24281edf0140b7e1d6a8ed2833ba271a1d0779e0cf35a1197f5362c183"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Slot Zuylen, Oud-Zuilen",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:11 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
