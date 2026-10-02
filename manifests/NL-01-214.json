@@ -21,5 +21,39 @@
   "faithful_refinish": "2026-09-27 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d1dfcb7b2fc735290e31868b8c79e53ceb2d163f7fcd77c9d28aa82b65cdcba7. Source SHA-256 4:5 3a37a6ad1e4dc9e2594be4b6de281d4d96d1a7666fe9d21e086486d003d99a79. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved 5/5 after faithful re-finish re-QC. NL-01-214 (Kerk, Niehove): The church is a long brick hall with a small ridge turret; Houses form a ring around the raised churchyard; Paths run outward; there is no moat. Pixel verification of this exact master set: label-bar finish correct, 16:9/4:5 agree on subject. Gate 2: Open-Meteo retrieval 2026-09-26T03:16:14+02:00, unique to this scene to the second; scenario minute sits inside its model-valid hour. Refinish inverted the scrim of the previously approved master without a new render; photo rows unchanged. Night scene.",
-  "approved_at": "2026-09-27T14:33:00.073027+00:00"
+  "approved_at": "2026-09-27T14:33:00.073027+00:00",
+  "file_16x9_day": "Netherlands/Niehove/nl-01-214-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Niehove/nl-01-214-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Niehove/nl-01-214-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-214",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:43 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:42:44+02:00",
+    "generation_timestamp": "2026-10-02T12:43:43+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-214.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Niehove/nl-01-214-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Niehove/nl-01-214-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Niehove/nl-01-214-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "b6cec36d1d5e5c0eabd9e4831936cc1323c2ddb399472c8c0ce52cddef1e66c1",
+      "4x5": "0155afeef9b8b953e762b6bb821a8458b6a6fa0b77a8481fbec9af03c5b35608",
+      "9x16": "e69bcb8fbbf1f0f4dfdcd287b2d3e42ce1bb2c4985954a12c654074590fb81e4"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Kerk, Niehove",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:43 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
