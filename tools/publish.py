@@ -17,7 +17,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from composite_masters import COPYRIGHT, DESCRIPTION, SOFTWARE, TITLE, COMMENT, composite_one
-from gallery_phase1 import render_gallery
+from gallery_phase1 import gallery_documents, render_gallery
 from image_sitemap import write_image_sitemap
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -165,7 +165,31 @@ Metadata only, on {art_scope}:
 """
 
 
+def write_gallery_from_manifests() -> None:
+    """Rebuild index.html and data.json from the manifests already on disk.
+
+    Does not composite masters, rewrite manifests, or touch approval notes.
+    """
+    scenes = [
+        json.loads(path.read_text())
+        for path in sorted((ROOT / "manifests").glob("NL-*.json"))
+    ]
+    html, document = gallery_documents(scenes)
+    (ROOT / "index.html").write_text(html)
+    (ROOT / "data.json").write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\n")
+    print(
+        f"gallery {document['scene_count']} scenes, "
+        f"daylight-primary {document['daylight_primary_count']}, "
+        f"night toggle {document['night_toggle_count']}, "
+        f"derivative daylight {document['derivative_daylight_count']}, "
+        f"night only {document['night_only_count']}"
+    )
+
+
 def main() -> None:
+    if "--gallery-only" in sys.argv:
+        write_gallery_from_manifests()
+        return
     catalogue = json.loads((ROOT / "tools" / "catalogue.json").read_text())
     scenes = []
     lines = [

@@ -211,12 +211,29 @@ def master_exists(rel: str | None) -> bool:
     return path.is_file()
 
 
+def is_genuine_daylight(scene: dict) -> bool:
+    """True only for a Netherlands genuine-daylight master that exists on disk.
+
+    Derivative daylight (a relight of the night master, no ``provenance`` of
+    ``genuine-daylight``) does not qualify. The flag is computed for the page
+    payload and is not written back onto the manifest.
+    """
+    variant = scene.get("daylight_variant")
+    if not isinstance(variant, dict) or variant.get("provenance") != "genuine-daylight":
+        return False
+    return master_exists(scene.get("file_16x9_day"))
+
+
 def prepare_scene(scene: dict) -> dict | None:
     """Copy a manifest for the page, dropping any master that is not on disk.
 
     The card is omitted when the 16:9 master is missing. Daylight controls
     require the 16:9 daylight master; a missing daylight file removes the
     daylight keys so the template does not render that button.
+
+    A genuine-daylight 16:9 master sets ``daylight_primary``. The card then
+    shows that daylight file by default and keeps the original night master
+    behind the nighttime toggle. Other daylight files stay on the sun toggle.
     """
     out = dict(scene)
     for key in FILE_KEYS:
@@ -230,6 +247,10 @@ def prepare_scene(scene: dict) -> dict | None:
         out.pop("file_9x16_day", None)
     if out.get("file_9x16") and not master_exists(out.get("file_9x16")):
         out.pop("file_9x16", None)
+    # Never trust a stale flag from a manifest. Recompute from provenance + file.
+    out.pop("daylight_primary", None)
+    if is_genuine_daylight(out):
+        out["daylight_primary"] = True
     return out
 
 
@@ -347,8 +368,15 @@ def build_meta(scenes: list[dict], catalogue: dict[str, dict]) -> dict[str, list
             continue
         row = catalogue.get(entry_id)
         moods = derive_moods(row, prepared)
-        thumb = f"library/world/{prepared['file_16x9']}"
-        if not master_exists(prepared["file_16x9"]):
+        # Related thumbnails follow the card default. Genuine daylight uses the
+        # daylight 16:9; every other card keeps the original master.
+        thumb_rel = (
+            prepared["file_16x9_day"]
+            if prepared.get("daylight_primary") and prepared.get("file_16x9_day")
+            else prepared["file_16x9"]
+        )
+        thumb = f"library/world/{thumb_rel}"
+        if not master_exists(thumb_rel):
             continue
         meta[entry_id] = [
             prepared.get("region") or (row or {}).get("region") or "",
@@ -360,7 +388,12 @@ def build_meta(scenes: list[dict], catalogue: dict[str, dict]) -> dict[str, list
     return meta
 
 
-def render_gallery(scenes: list[dict]) -> str:
+# Packs 11 and 27 are not on main. Their 9:16 rework is still in flight.
+# The gallery must not invent daylight primaries for these twenty scenes.
+HELD_SCENE_IDS = {f"NL-01-{n:03d}" for n in list(range(119, 129)) + list(range(279, 289))}
+
+
+def collect_page(scenes: list[dict]) -> tuple[list[dict], dict[str, list]]:
     catalogue = load_catalogue()
     page_scenes: list[dict] = []
     for scene in scenes:
@@ -371,6 +404,12 @@ def render_gallery(scenes: list[dict]) -> str:
         page_scenes.append(prepared)
     meta = build_meta(page_scenes, catalogue)
     _check_meta(meta)
+    return page_scenes, meta
+
+
+def gallery_documents(scenes: list[dict]) -> tuple[str, dict]:
+    """Return the gallery HTML and the ``data.json`` document from one payload."""
+    page_scenes, meta = collect_page(scenes)
     template = TEMPLATE.read_text()
     wotd = json.loads(WOTD.read_text())
     payload = json.dumps(page_scenes, ensure_ascii=False).replace("<", "\\u003c")
@@ -382,7 +421,49 @@ def render_gallery(scenes: list[dict]) -> str:
         .replace("__WOTD_JSON__", wotd_payload)
     )
     assert_phase1(html, meta)
+    _assert_daylight_law(page_scenes, html)
+    genuine = [s for s in page_scenes if s.get("daylight_primary") is True]
+    derivative = [s for s in page_scenes if s.get("file_16x9_day") and s.get("daylight_primary") is not True]
+    night_only = [s for s in page_scenes if not s.get("file_16x9_day")]
+    document = {
+        "country": "Netherlands",
+        "scene_count": len(page_scenes),
+        "daylight_primary_count": len(genuine),
+        "night_toggle_count": len(genuine),
+        "derivative_daylight_count": len(derivative),
+        "night_only_count": len(night_only),
+        "scenes": page_scenes,
+    }
+    return html, document
+
+
+def render_gallery(scenes: list[dict]) -> str:
+    html, _document = gallery_documents(scenes)
     return html
+
+
+def _assert_daylight_law(page_scenes: list[dict], html: str) -> None:
+    """Netherlands daylight-primary law. Does not approve anything."""
+    genuine = [s for s in page_scenes if s.get("daylight_primary") is True]
+    if html.count('"daylight_primary": true') != len(genuine):
+        raise SystemExit("daylight_primary flags in the page do not match the payload")
+    for scene in genuine:
+        entry_id = scene.get("entry_id")
+        variant = scene.get("daylight_variant") or {}
+        if variant.get("provenance") != "genuine-daylight":
+            raise SystemExit(f"{entry_id} is daylight-primary without genuine-daylight provenance")
+        if entry_id in HELD_SCENE_IDS:
+            raise SystemExit(f"held scene {entry_id} must stay on its existing card")
+        if not master_exists(scene.get("file_16x9_day")):
+            raise SystemExit(f"{entry_id} daylight primary points at a missing master")
+    for scene in page_scenes:
+        entry_id = scene.get("entry_id")
+        if entry_id not in HELD_SCENE_IDS:
+            continue
+        if scene.get("daylight_primary") or scene.get("file_16x9_day"):
+            raise SystemExit(f"held scene {entry_id} gained a daylight card")
+    if "night-tab" not in html or "nl-gallery-format" not in html:
+        raise SystemExit("gallery page is missing the nighttime toggle or format persistence")
 
 
 def _check_meta(meta: dict[str, list]) -> None:
