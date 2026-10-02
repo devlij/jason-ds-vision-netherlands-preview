@@ -175,8 +175,8 @@ def main() -> None:
         "#21468B",
         "#e8722a",
         "spain.jdvision.org",
-        "jason-ds-vision-denmark-preview",
-        "jason-ds-vision-norway-preview",
+        "https://denmark.jdvision.org/",
+        "https://norway.jdvision.org/",
         "jason-ds-vision-switzerland-preview",
         "germany.jdvision.org",
         "italy.jdvision.org",
@@ -187,6 +187,13 @@ def main() -> None:
     ):
         if needle not in index:
             errors.append(f"index missing {needle}")
+    nav_start = index.find('<nav class="country-switch"')
+    nav_end = index.find("</nav>", nav_start)
+    nav = index[nav_start:nav_end] if nav_start >= 0 else ""
+    if "jason-ds-vision-norway-preview" in nav or "jason-ds-vision-denmark-preview" in nav:
+        errors.append("country switcher still uses a Norway or Denmark github.io preview")
+    if "https://norway.jdvision.org/" not in nav or "https://denmark.jdvision.org/" not in nav:
+        errors.append("country switcher missing Norway or Denmark jdvision.org link")
     if "dataset.src45" in index or "dataset.src16" in index:
         errors.append("index uses camelCase dataset")
     for n in range(1, 289):
@@ -209,8 +216,10 @@ def main() -> None:
             errors.append(f"{entry_id} lost Cosmo approval_status")
         if f'"entry_id": "{entry_id}"' not in index or '"approval_status": "Approved"' not in index:
             errors.append("index missing an Approved scene")
-    if index.count('"file_16x9_day"') != 10:
-        errors.append(f"expected 10 daylight masters in the gallery, found {index.count(chr(34)+'file_16x9_day'+chr(34))}")
+    # 10 original daylight cards, plus the Approved 9:16 cards whose daylight
+    # 16:9, 4:5, and 9:16 masters were already on disk. Path keys only.
+    if index.count('"file_16x9_day"') != 230:
+        errors.append(f"expected 230 daylight masters in the gallery, found {index.count(chr(34)+'file_16x9_day'+chr(34))}")
     if "View image" in index:
         errors.append("index still has a View image control over the artwork")
     if "position: absolute; top: 1.05rem; left: 1.05rem" in index:
