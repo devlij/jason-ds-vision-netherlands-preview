@@ -21,5 +21,39 @@
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 45169c6fd94e90678bc0d69651488d1fa345f858942099a6d10fec9b316d2b7a. Source SHA-256 4:5 bfc87575618e33be0263aa28116bf83618b0534c2dcba9d16b7aeb662bf05818. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: brick tower with onion spire, Gothic nave, green and trees under overcast sky — matches anchors; plausible green viewpoint. Gate 2: exact dims; legible bar + exact signature/script; scenario 03:59 inside model-valid hour 03:00; Open-Meteo retrieval 2026-09-26T03:59:43+02:00, unique repo-wide; Art. 50 metadata verified (2026-09-28). Gate 3: text-prompt-only. Gate 4: no people/logos/copyrighted subject — documented only. Gate 5: card complete.",
-  "approved_at": "2026-09-28T22:13:56.653835+00:00"
+  "approved_at": "2026-09-28T22:13:56.653835+00:00",
+  "file_16x9_day": "Netherlands/Dwingeloo/nl-01-251-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Dwingeloo/nl-01-251-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Dwingeloo/nl-01-251-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-251",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 13:10 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:09:55+02:00",
+    "generation_timestamp": "2026-10-02T13:10:53+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-251.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Dwingeloo/nl-01-251-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Dwingeloo/nl-01-251-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Dwingeloo/nl-01-251-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "f26bb8bd680a8335fd4399de9f7ff39de7437599a89cc19e0852163984e8f01b",
+      "4x5": "e9b4c4f9f15abde05182514dba7c9054afe5758182658f2847a01bf10a461cec",
+      "9x16": "b3b57c8b102d0c26698188adad27b38c67cac5df47bf6fe8bfd8a72ed4ffda3d"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Sint-Nicolaaskerk, Dwingeloo",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:10 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
