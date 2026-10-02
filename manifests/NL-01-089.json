@@ -28,5 +28,51 @@
   "file_9x16": "Netherlands/Katwijk/nl-01-089-9x16.png",
   "sha256_9x16": "a45463a83fe25ab243e57f937c985faf45ec5b750f598ec918ee1bf8fe24bfa6",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 665e8f39e4ec1bf7aa12d112ce751ca2a90a617c392ee3b3eb627fdb378e358f. Source SHA-256 4:5 ba0f7db25399f2d670e70eb57ecb98ab70a2adaee85d065056f0529e7956f85a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 665e8f39e4ec1bf7aa12d112ce751ca2a90a617c392ee3b3eb627fdb378e358f. Source SHA-256 4:5 ba0f7db25399f2d670e70eb57ecb98ab70a2adaee85d065056f0529e7956f85a. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_motion_10s_4x5": "Netherlands/Katwijk/nl-01-089-motion-10s-4x5.mp4",
+  "file_motion_poster": "Netherlands/Katwijk/nl-01-089-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_orders": [
+      "wo-netherlands-360-daylight-priority-2026-10-01",
+      "wo-grok-360-clips-2026-09-30",
+      "wo-netherlands-friday-completion-2026-10-01 PART B"
+    ],
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "anchor": "Netherlands/Katwijk/nl-01-089-daylight-16x9.png",
+    "anchor_sha256": "484a721a2acf89ccf212811ebbf10d8b9bcd82e2ac0f4b15a94658dc46d65019",
+    "anchor_pr": "https://github.com/devlij/jason-ds-vision-netherlands-preview/pull/46",
+    "anchor_tip": "47f8507432cb8f7d94e41f63fdfd7091a9d0c1c1",
+    "label_bar_px_cropped": 190,
+    "weather_gate": "live capture blocked",
+    "weather": {
+      "provider": "Open-Meteo",
+      "retrieval_timestamp": "2026-10-02T13:41:04+02:00",
+      "model_time": "2026-10-02T13:30",
+      "timezone": "Europe/Amsterdam",
+      "is_day": 1,
+      "cloud_cover": 38,
+      "weather_code": 1,
+      "temperature_2m": 19.7,
+      "precipitation": 0.0
+    },
+    "sweep": "synthetic 180 degree orbit (keyframes about 0/60/120/180 at 0/3/6/9s); 180-degree view held through 10.0s; subject held; optical-flow blend can ghost between keyframes",
+    "metrics": {
+      "entry_id": "NL-01-089",
+      "duration": 10.0,
+      "nb_frames": "240",
+      "width": 864,
+      "height": 1080,
+      "fps": "24/1",
+      "start_vs_daylight_4x5_crop": 1.41,
+      "end_vs_180_key": 1.45,
+      "start_vs_end": 18.44,
+      "start_vs_mid": 10.72
+    },
+    "provenance": "Candidate 360 clip. Live capture blocked (Open-Meteo at 2026-10-02T13:41:04+02:00 was mostly clear daylight: is_day=1 cloud=38% wmo=1 precip=0; mostly clear daylight, but no on-site camera). Shipped from the finished genuine daylight 16:9 master on Candidate draft PR #46 tip 47f8507432cb8f7d94e41f63fdfd7091a9d0c1c1 after the 190px label bar was cropped. 10.0s 864x1080 24fps 4:5 synthetic orbit: daylight 4:5 crop at 0 degrees, generated views at about 60, 120, and 180 degrees (at 0s, 3s, 6s, and 9s), joined by optical-flow interpolation, with the 180-degree view held through 10.0s. First frame is that daylight crop. Not a field capture. Not a drift-only push-in. In-between frames are motion-compensated blends and can ghost. Not Cosmo-approved. The night master was not modified."
+  }
 }
