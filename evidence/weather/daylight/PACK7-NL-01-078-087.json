@@ -1,0 +1,505 @@
+{
+  "provenance": "genuine-daylight",
+  "scenes": [
+    {
+      "entry_id": "NL-01-078",
+      "caption": "Kasteel de Haar, Haarzuilens",
+      "folder": "Haarzuilens",
+      "scenario_label": "2 October 2026 \u00b7 11:36 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T11:35:27+02:00",
+      "generation_timestamp": "2026-10-02T11:36:44+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T11:36:44+02:00",
+        "4x5": "2026-10-02T11:38:48+02:00",
+        "9x16": "2026-10-02T11:38:50+02:00"
+      },
+      "weather_code": 2,
+      "cloud_cover": 59,
+      "temperature_2m": 15.8,
+      "wind_speed_10m": 7.2,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:42",
+      "sunset": "2026-10-02T19:15",
+      "files": {
+        "16x9": "library/world/Netherlands/Haarzuilens/nl-01-078-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Haarzuilens/nl-01-078-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Haarzuilens/nl-01-078-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Haarzuilens/nl-01-078-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Haarzuilens/nl-01-078-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Haarzuilens/nl-01-078-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "8d7620b22ba0fe73d8e7f7081a62e9e11fa081291d67e8f925ae2dc67fdbc866",
+        "4x5": "6791efbf96d3a598d5fd91fd1f7ad7edaed334e413fac68505d617f93d87d080",
+        "9x16": "29fff721b27d74551f8721a836476167b6b4f0af9d0c02b4c5b790d77e40ee97"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      }
+    },
+    {
+      "entry_id": "NL-01-079",
+      "caption": "Kurhaus, The Hague",
+      "folder": "The Hague",
+      "scenario_label": "2 October 2026 \u00b7 11:36 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T11:35:30+02:00",
+      "generation_timestamp": "2026-10-02T11:36:38+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T11:36:38+02:00",
+        "4x5": "2026-10-02T11:38:53+02:00",
+        "9x16": "2026-10-02T11:39:06+02:00"
+      },
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 17.6,
+      "wind_speed_10m": 11.2,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:45",
+      "sunset": "2026-10-02T19:18",
+      "files": {
+        "16x9": "library/world/Netherlands/The Hague/nl-01-079-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/The Hague/nl-01-079-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/The Hague/nl-01-079-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/The Hague/nl-01-079-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/The Hague/nl-01-079-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/The Hague/nl-01-079-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "1b1ac07199a3a3c4e39b07cf79bf93b19baba93730d0b65360ea9f3925099259",
+        "4x5": "dd0bac9ac77384920e704ae261f74eae88e268371c3a4347f23a986b15d639fa",
+        "9x16": "a29556082869b73a4acd2cb945a39ecec45f09bbd212f28bd8d895795a5419d0"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      }
+    },
+    {
+      "entry_id": "NL-01-080",
+      "caption": "Oude Kerk, Delft",
+      "folder": "Delft",
+      "scenario_label": "2 October 2026 \u00b7 11:36 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T11:35:33+02:00",
+      "generation_timestamp": "2026-10-02T11:36:43+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T11:36:43+02:00",
+        "4x5": "2026-10-02T11:44:44+02:00",
+        "9x16": "2026-10-02T11:42:36+02:00"
+      },
+      "weather_code": 2,
+      "cloud_cover": 68,
+      "temperature_2m": 17.7,
+      "wind_speed_10m": 9.4,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:45",
+      "sunset": "2026-10-02T19:17",
+      "files": {
+        "16x9": "library/world/Netherlands/Delft/nl-01-080-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Delft/nl-01-080-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Delft/nl-01-080-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Delft/nl-01-080-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Delft/nl-01-080-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Delft/nl-01-080-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "67ebf195d652740160bb19ed9b684c7fdb7f1d465f522455f27f2854758aa56d",
+        "4x5": "41d4a95db626915e44d61424a36d5b2b88263bf6b1c475c9e99e6a994447fe70",
+        "9x16": "cb0cabdadf0a385d965a8975937ce35d3b276961b4168c0c9841ad067aa1d7da"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      }
+    },
+    {
+      "entry_id": "NL-01-081",
+      "caption": "Ferry terminal, Holwerd",
+      "folder": "Holwerd",
+      "scenario_label": "2 October 2026 \u00b7 11:38 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T11:35:36+02:00",
+      "generation_timestamp": "2026-10-02T11:38:32+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T11:38:32+02:00",
+        "4x5": "2026-10-02T11:40:39+02:00",
+        "9x16": "2026-10-02T11:40:42+02:00"
+      },
+      "weather_code": 0,
+      "cloud_cover": 4,
+      "temperature_2m": 16.9,
+      "wind_speed_10m": 11.2,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:39",
+      "sunset": "2026-10-02T19:10",
+      "files": {
+        "16x9": "library/world/Netherlands/Holwerd/nl-01-081-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Holwerd/nl-01-081-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Holwerd/nl-01-081-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Holwerd/nl-01-081-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Holwerd/nl-01-081-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Holwerd/nl-01-081-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "48b95a8d8dfa054d9a428449d79d40e9804d07a82f3768c6296664f6288b66a1",
+        "4x5": "f4c139a99e42754cc7313e183d0482c420ec10a6cd9694e5d464f546b1bf6087",
+        "9x16": "e5e3faecd7905de68b9bb894dcad5293d8d4b204c3946519cda8f7cef772cdaa"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      }
+    },
+    {
+      "entry_id": "NL-01-082",
+      "caption": "Harbour, Zoutkamp",
+      "folder": "Zoutkamp",
+      "scenario_label": "2 October 2026 \u00b7 11:37 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T11:35:39+02:00",
+      "generation_timestamp": "2026-10-02T11:37:06+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T11:37:06+02:00",
+        "4x5": "2026-10-02T11:39:25+02:00",
+        "9x16": "2026-10-02T11:39:23+02:00"
+      },
+      "weather_code": 2,
+      "cloud_cover": 52,
+      "temperature_2m": 16.7,
+      "wind_speed_10m": 7.9,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:38",
+      "sunset": "2026-10-02T19:09",
+      "files": {
+        "16x9": "library/world/Netherlands/Zoutkamp/nl-01-082-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Zoutkamp/nl-01-082-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Zoutkamp/nl-01-082-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Zoutkamp/nl-01-082-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Zoutkamp/nl-01-082-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Zoutkamp/nl-01-082-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "88cf84251f044ef335c9587668624a8a86eeb215673b3762e603ba1d27053209",
+        "4x5": "5f1f552f9e44b8892fc5cc1a6c3bb4a79611c6774e61777a5169710eba33f21a",
+        "9x16": "75bae8b06b56b24be9108e8f995db9a4dc7838bb6fe38a0522a8c40b2e761497"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      }
+    },
+    {
+      "entry_id": "NL-01-083",
+      "caption": "Drents Museum, Assen",
+      "folder": "Assen",
+      "scenario_label": "2 October 2026 \u00b7 11:54 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T11:53:39+02:00",
+      "generation_timestamp": "2026-10-02T11:54:04+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T11:54:04+02:00",
+        "4x5": "2026-10-02T11:54:02+02:00",
+        "9x16": "2026-10-02T11:54:03+02:00"
+      },
+      "weather_code": 2,
+      "cloud_cover": 76,
+      "temperature_2m": 17.0,
+      "wind_speed_10m": 6.5,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:36",
+      "sunset": "2026-10-02T19:08",
+      "files": {
+        "16x9": "library/world/Netherlands/Assen/nl-01-083-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Assen/nl-01-083-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Assen/nl-01-083-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Assen/nl-01-083-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Assen/nl-01-083-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Assen/nl-01-083-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "8f1883f125d06f66de71749547d04ef98d5cdb72ad818a0d70edaede5fad301c",
+        "4x5": "98ad62a2a991cc39f4638f63f99c909363069634f4266d0e29c23b97432ec6a3",
+        "9x16": "a1998529afdd32f1047518e8d6bb6416827959beaec4c69ee06dd2ba8c53f45c"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      }
+    },
+    {
+      "entry_id": "NL-01-084",
+      "caption": "Amerongen Castle, Amerongen",
+      "folder": "Amerongen",
+      "scenario_label": "2 October 2026 \u00b7 11:50 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T11:49:34+02:00",
+      "generation_timestamp": "2026-10-02T11:50:12+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T11:50:12+02:00",
+        "4x5": "2026-10-02T11:50:13+02:00",
+        "9x16": "2026-10-02T11:50:13+02:00"
+      },
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 16.5,
+      "wind_speed_10m": 5.8,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:40",
+      "sunset": "2026-10-02T19:13",
+      "files": {
+        "16x9": "library/world/Netherlands/Amerongen/nl-01-084-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Amerongen/nl-01-084-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Amerongen/nl-01-084-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Amerongen/nl-01-084-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Amerongen/nl-01-084-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Amerongen/nl-01-084-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "2e1952c0348d7be052ee741e0ad91a7e08f57e7475ac3ed79e67e430d18daae9",
+        "4x5": "13bf80748df595b5bf4235258cf239410433ccd728df3e190cb7be6da36dc463",
+        "9x16": "a5edf329cd57f6ef5d16bc9293524f0400633d2f8706ee6d2e91e52abae84dce"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      }
+    },
+    {
+      "entry_id": "NL-01-085",
+      "caption": "Slot Loevestein, Poederoijen",
+      "folder": "Poederoijen",
+      "scenario_label": "2 October 2026 \u00b7 11:37 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T11:35:47+02:00",
+      "generation_timestamp": "2026-10-02T11:37:21+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T11:37:21+02:00",
+        "4x5": "2026-10-02T11:39:42+02:00",
+        "9x16": "2026-10-02T11:39:43+02:00"
+      },
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 15.5,
+      "wind_speed_10m": 7.9,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:42",
+      "sunset": "2026-10-02T19:15",
+      "files": {
+        "16x9": "library/world/Netherlands/Poederoijen/nl-01-085-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Poederoijen/nl-01-085-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Poederoijen/nl-01-085-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Poederoijen/nl-01-085-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Poederoijen/nl-01-085-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Poederoijen/nl-01-085-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "a84258ad225e39db9b82057a6b18df193e11f6c977929fa70fbd9aa1f74fafb2",
+        "4x5": "a098a74c4aa3979e536e631a15b824c7da46f7e0fb3cea1e58ede12933b3a848",
+        "9x16": "39d983e1436f12fdd7832ade2ada14afbac5f8b681297559a14ed4e510928a35"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      }
+    },
+    {
+      "entry_id": "NL-01-086",
+      "caption": "Linge harbour, Gorinchem",
+      "folder": "Gorinchem",
+      "scenario_label": "2 October 2026 \u00b7 11:50 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T11:49:37+02:00",
+      "generation_timestamp": "2026-10-02T11:50:31+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T11:50:31+02:00",
+        "4x5": "2026-10-02T11:50:30+02:00",
+        "9x16": "2026-10-02T11:52:15+02:00"
+      },
+      "weather_code": 3,
+      "cloud_cover": 98,
+      "temperature_2m": 16.4,
+      "wind_speed_10m": 8.6,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:42",
+      "sunset": "2026-10-02T19:15",
+      "files": {
+        "16x9": "library/world/Netherlands/Gorinchem/nl-01-086-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Gorinchem/nl-01-086-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Gorinchem/nl-01-086-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Gorinchem/nl-01-086-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Gorinchem/nl-01-086-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Gorinchem/nl-01-086-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "9e2e7196742f35fc6d7f89cef096f36306e571f1da5b074998b8e14d9b6474ec",
+        "4x5": "9982a3702f042181e0e27b466a6a3956bc5819f32cd1d5f75feac0f9f42eaa38",
+        "9x16": "999b935a3e2aad566292e0c9292563b6b1c6ff598e2365b8e17a7f3ced7fabd6"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      }
+    },
+    {
+      "entry_id": "NL-01-087",
+      "caption": "Harbour, Brielle",
+      "folder": "Brielle",
+      "scenario_label": "2 October 2026 \u00b7 11:50 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T11:49:41+02:00",
+      "generation_timestamp": "2026-10-02T11:50:44+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T11:50:44+02:00",
+        "4x5": "2026-10-02T11:50:49+02:00",
+        "9x16": "2026-10-02T11:50:49+02:00"
+      },
+      "weather_code": 1,
+      "cloud_cover": 20,
+      "temperature_2m": 17.5,
+      "wind_speed_10m": 9.0,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:45",
+      "sunset": "2026-10-02T19:18",
+      "files": {
+        "16x9": "library/world/Netherlands/Brielle/nl-01-087-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Brielle/nl-01-087-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Brielle/nl-01-087-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Brielle/nl-01-087-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Brielle/nl-01-087-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Brielle/nl-01-087-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "e1c202d0fb8298dfdf54d47bb83f15168f43bfdbdd36dbb4916cf3d49a43064f",
+        "4x5": "2da874ece42f78b47b40d35026d0d8f13926e74749ba019ae81c0ae0814a9784",
+        "9x16": "cab18f5266e519434e1db8279f549ee315b61f5a0269cd3176b656b19db89a2b"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      }
+    }
+  ]
+}

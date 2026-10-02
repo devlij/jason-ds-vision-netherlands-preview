@@ -4,22 +4,56 @@
   "region": "Groningen",
   "city": "Zoutkamp",
   "caption": "Harbour, Zoutkamp",
-  "scenario_label": "26 September 2026 · 00:38 Europe/Amsterdam",
-  "composition": "Painted cottages along the inner harbour on the Reitdiep · AI-generated artistic interpretation",
-  "description": "The inner harbour at Zoutkamp is quiet after midnight. Small wooden cottages painted red, ochre, green, and blue line the Reitdiep, and a few boats lie moored with sails down. This is not the Whitsun return of the shrimp fleet. The sky is partly cloudy, about 9.2°C, with wind near 5.8 km/h and no rain. Sunset was 19:23. Hulls carry no readable names.",
+  "scenario_label": "26 September 2026 \u00b7 00:38 Europe/Amsterdam",
+  "composition": "Painted cottages along the inner harbour on the Reitdiep \u00b7 AI-generated artistic interpretation",
+  "description": "The inner harbour at Zoutkamp is quiet after midnight. Small wooden cottages painted red, ochre, green, and blue line the Reitdiep, and a few boats lie moored with sails down. This is not the Whitsun return of the shrimp fleet. The sky is partly cloudy, about 9.2\u00b0C, with wind near 5.8 km/h and no rain. Sunset was 19:23. Hulls carry no readable names.",
   "alt_text": "AI-generated artistic interpretation of Zoutkamp harbour and the painted cottages on a partly cloudy night",
   "file_16x9": "Netherlands/Zoutkamp/nl-01-082-16x9.png",
   "file_4x5": "Netherlands/Zoutkamp/nl-01-082-4x5.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "G1 PASS: Zoutkamp harbour at night — row of coloured wooden sheds (red, yellow, green, blue) with lit windows, moored boats and reflections, stone quay right; plausible fishing-harbour scene. G2 PASS: exact dims; on-image caption 'Harbour, Zoutkamp', scenario '26 September 2026 · 00:38 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:38:02+02:00 unique repo-wide; scenario 00:38 inside model window 00:30–00:45. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos. G5 PASS: card fields complete.",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "G1 PASS: Zoutkamp harbour at night \u2014 row of coloured wooden sheds (red, yellow, green, blue) with lit windows, moored boats and reflections, stone quay right; plausible fishing-harbour scene. G2 PASS: exact dims; on-image caption 'Harbour, Zoutkamp', scenario '26 September 2026 \u00b7 00:38 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:38:02+02:00 unique repo-wide; scenario 00:38 inside model window 00:30\u201300:45. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:38.939574+00:00",
   "sha256_16x9": "120bf51b5940b13d79aab426f8f5bd13663c50d8ec603a1cfc1ec188f70b9469",
   "sha256_4x5": "70cc8cacbd1a76d2ef2469a5ac4f1d6798d4669ebf917a49a0818676267c48c5",
   "file_9x16": "Netherlands/Zoutkamp/nl-01-082-9x16.png",
   "sha256_9x16": "975d9dfcb35dcba34c23e989f8e33dd4283b7150d8ed1ca3c4785dcef8240e2c",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b4d377ae462036a979fe5c397b1f873c437abd7a1ac7d0d7051e79069175aba0. Source SHA-256 4:5 5e9c4b4840156330dc5bad522a74488d60fbc2b2286ea64718b57a758a0ea559. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b4d377ae462036a979fe5c397b1f873c437abd7a1ac7d0d7051e79069175aba0. Source SHA-256 4:5 5e9c4b4840156330dc5bad522a74488d60fbc2b2286ea64718b57a758a0ea559. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Zoutkamp/nl-01-082-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Zoutkamp/nl-01-082-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Zoutkamp/nl-01-082-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-082",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 11:37 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:39+02:00",
+    "generation_timestamp": "2026-10-02T11:37:06+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-082.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Zoutkamp/nl-01-082-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zoutkamp/nl-01-082-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Zoutkamp/nl-01-082-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "88cf84251f044ef335c9587668624a8a86eeb215673b3762e603ba1d27053209",
+      "4x5": "5f1f552f9e44b8892fc5cc1a6c3bb4a79611c6774e61777a5169710eba33f21a",
+      "9x16": "75bae8b06b56b24be9108e8f995db9a4dc7838bb6fe38a0522a8c40b2e761497"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Harbour, Zoutkamp",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 11:37 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

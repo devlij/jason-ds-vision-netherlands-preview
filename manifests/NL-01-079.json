@@ -4,22 +4,56 @@
   "region": "South Holland",
   "city": "The Hague",
   "caption": "Kurhaus, The Hague",
-  "scenario_label": "26 September 2026 · 00:19 Europe/Amsterdam",
-  "composition": "Cream seaside hotel and an empty beach, without the pier · AI-generated artistic interpretation",
-  "description": "The Kurhaus faces the Scheveningen beach: a cream curved hotel with a central dome, seen from the sand. The beach is almost empty, and the pier is not in this view. The sky is overcast, about 16.5°C, with wind near 8.6 km/h and no rain. Sunset was 19:32. A few hotel windows are lit. The building name is not written on the facade.",
+  "scenario_label": "26 September 2026 \u00b7 00:19 Europe/Amsterdam",
+  "composition": "Cream seaside hotel and an empty beach, without the pier \u00b7 AI-generated artistic interpretation",
+  "description": "The Kurhaus faces the Scheveningen beach: a cream curved hotel with a central dome, seen from the sand. The beach is almost empty, and the pier is not in this view. The sky is overcast, about 16.5\u00b0C, with wind near 8.6 km/h and no rain. Sunset was 19:32. A few hotel windows are lit. The building name is not written on the facade.",
   "alt_text": "AI-generated artistic interpretation of the Kurhaus at Scheveningen in The Hague on an overcast night",
   "file_16x9": "Netherlands/The Hague/nl-01-079-16x9.png",
   "file_4x5": "Netherlands/The Hague/nl-01-079-4x5.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "G1 PASS: Kurhaus The Hague — grand seaside hotel with domed rotunda and colonnade, lit windows against the beach at night, plausible Scheveningen viewpoint. G2 PASS: exact dims; on-image caption 'Kurhaus, The Hague', scenario '26 September 2026 · 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:46+02:00 unique repo-wide; scenario 00:19 in model window 00:15–00:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos visible; hotel exterior from public beach. G5 PASS: card fields complete.",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "G1 PASS: Kurhaus The Hague \u2014 grand seaside hotel with domed rotunda and colonnade, lit windows against the beach at night, plausible Scheveningen viewpoint. G2 PASS: exact dims; on-image caption 'Kurhaus, The Hague', scenario '26 September 2026 \u00b7 00:19 Europe/Amsterdam', disclosure + exact 'Jason D\\u2019s Vision' signature legible; Art. 50 metadata both masters; Open-Meteo retrieval 2026-09-26T00:19:46+02:00 unique repo-wide; scenario 00:19 in model window 00:15\u201300:30. G3 PASS: text-prompt-only lineage, no photographic inputs. G4 DOCUMENTED ONLY: no people/logos visible; hotel exterior from public beach. G5 PASS: card fields complete.",
   "approved_at": "2026-09-26T04:38:26.505866+00:00",
   "sha256_16x9": "eccccb1762bbb79fb8531e69273cf30e48e7d35733bf027ec61bb438d0816fff",
   "sha256_4x5": "9b286d114e3bfc7860190fe4746970ff67a6699da716dd131529427829c87b34",
   "file_9x16": "Netherlands/The Hague/nl-01-079-9x16.png",
   "sha256_9x16": "4ee8fcef5891d916115bb5fbe1268d71a0d3ecacaa6dcf0a1c6dead9337ee457",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 556df224e5b8f37033d9daa10896042d57262d89d6e5c1a72b8694df647e4975. Source SHA-256 4:5 dc8fa45cf359c4cc2c7b8aa35640c067d3caef7e701daf35514643f16f09d3a6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 556df224e5b8f37033d9daa10896042d57262d89d6e5c1a72b8694df647e4975. Source SHA-256 4:5 dc8fa45cf359c4cc2c7b8aa35640c067d3caef7e701daf35514643f16f09d3a6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/The Hague/nl-01-079-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/The Hague/nl-01-079-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/The Hague/nl-01-079-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-079",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 11:36 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:30+02:00",
+    "generation_timestamp": "2026-10-02T11:36:38+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-079.json",
+    "files": {
+      "16x9": "library/world/Netherlands/The Hague/nl-01-079-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/The Hague/nl-01-079-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/The Hague/nl-01-079-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "1b1ac07199a3a3c4e39b07cf79bf93b19baba93730d0b65360ea9f3925099259",
+      "4x5": "dd0bac9ac77384920e704ae261f74eae88e268371c3a4347f23a986b15d639fa",
+      "9x16": "a29556082869b73a4acd2cb945a39ecec45f09bbd212f28bd8d895795a5419d0"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Kurhaus, The Hague",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 11:36 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
