@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Oudenbosch/nl-01-160-9x16.png",
   "sha256_9x16": "92d36278d9066b4bece728c65ca64f7adc6ff33f71a0523ec6e8410f6b8f7f45",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 008dba949075a2cd87933c7508bb8163af28c539e24902b2842a9a00a1200c72. Source SHA-256 4:5 48a4be26df544ef76ccf4c2ba20ab215cfa896e1a96f22fb36820b5032514503. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 008dba949075a2cd87933c7508bb8163af28c539e24902b2842a9a00a1200c72. Source SHA-256 4:5 48a4be26df544ef76ccf4c2ba20ab215cfa896e1a96f22fb36820b5032514503. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Oudenbosch/nl-01-160-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Oudenbosch/nl-01-160-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Oudenbosch/nl-01-160-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-160",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:25 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:24:33+02:00",
+    "generation_timestamp": "2026-10-02T12:25:35+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-160.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Oudenbosch/nl-01-160-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Oudenbosch/nl-01-160-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Oudenbosch/nl-01-160-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "f87b1ebb8ed6cf2a7e907316ec84c889f3aa9d3d69db670eb6edf5c720a33409",
+      "4x5": "4a5ebbbe34054f95c8d9520e77c75825e5029f6db19bdd54d02634de3a136656",
+      "9x16": "e307e64b50d86cd788a3f8283f69c99d396050601c6fb48911ce05dd4e0d7486"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Basilica, Oudenbosch",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:25 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

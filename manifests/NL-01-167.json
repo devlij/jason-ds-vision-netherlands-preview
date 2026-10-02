@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Rhenen/nl-01-167-9x16.png",
   "sha256_9x16": "734ccd3d9484856d4968c3213d2590b579a353d90c0bff4a0eb836cc1075fcd2",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 82cbab402fddae778a19c8b5a6bb5ca8450dfebb803bfdefdb30f96f54d6e771. Source SHA-256 4:5 122ef6ef7635a329f2e58a4a6d4bb3b41a3406c77539cc472f47c94f2b095899. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 82cbab402fddae778a19c8b5a6bb5ca8450dfebb803bfdefdb30f96f54d6e771. Source SHA-256 4:5 122ef6ef7635a329f2e58a4a6d4bb3b41a3406c77539cc472f47c94f2b095899. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Rhenen/nl-01-167-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Rhenen/nl-01-167-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Rhenen/nl-01-167-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-167",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:27 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:24:50+02:00",
+    "generation_timestamp": "2026-10-02T12:27:37+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-167.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Rhenen/nl-01-167-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Rhenen/nl-01-167-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Rhenen/nl-01-167-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "e29d9f6ba84d9fcda490f9d5ddbd8c4492924b2d0cd2ea9fdad6fe4ccc3e7377",
+      "4x5": "3ef468e621c29dc30b901d52367920a71685d415454890936c0e73d4e6094a9d",
+      "9x16": "570d8ea2bb9e8df9a9e86ce094a4de56a7834014055822ac14899dd584d3a216"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Cuneratoren, Rhenen",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:27 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

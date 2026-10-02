@@ -1,0 +1,118 @@
+BATCH NL genuine daylight Part A pack 15
+Date: 2026-10-02
+Country: Netherlands
+Status: Candidate. Cosmo QC. Do not merge. Not a Friday-complete certificate.
+Provenance: genuine daylight. Not interim-ai. Text-prompt only. Night masters were not image anchors and were not rewritten.
+Gallery: index.html was not rebuilt. Daylight is not the card primary. The later work order wo-netherlands-daylight-primary does the toggle flip.
+
+Gate: 2026-10-02T12:24+02:00 was open. Each site's sunrise and sunset are the Open-Meteo values on that retrieval. Every retrieval has is_day 1 and the generation minute sits inside that site's sunrise–sunset and inside the retrieval clock hour.
+
+Inventory
+- 288 NL-01 scenes. Night-primary (Open-Meteo is_day 0 on the scene weather file): 273. Day-primary (is_day 1): 15, which are NL-01-002, NL-01-005 through NL-01-016, NL-01-064, and NL-01-067. Those are not night gaps.
+- Genuine daylight masters on main before this pack: 0. Files named *-daylight-* already on main for NL-01-001 through NL-01-010 are the 2026-09-26 interim derivatives (no weather scenario, derived from the night interpretation). They are not genuine daylight.
+- Unmerged interim-ai daylight in PRs #18–#31 is held by Cosmo and is not counted as a genuine master. PR #25 covers this same id range as interim-ai and is not counted.
+- Packs 1–9 are done as unmerged Candidate genuine sets (NL-01-017 through NL-01-107, plus the pack 5 fill NL-01-108) and are not repeated here.
+- Parallel packs 10–14 own NL-01-109–118, NL-01-119–128, NL-01-129–138, NL-01-139–148, and NL-01-149–158. This pack does not use those scene IDs and does not count them as finished.
+- Skipped NL-01-001, NL-01-003, and NL-01-004: held architectural rework until rebuilt. They are outside this slice.
+- This pack fills the night-primary slice NL-01-159 through NL-01-168. All ten are is_day 0 on the night card. None is day-primary.
+- Genuine daylight count in this pack: 10.
+- Remaining night-primary scenes without a genuine daylight master on main: 273. After unmerged packs 1–9 and this Candidate pack, 173 night-primary scenes still have no genuine set, including the three holds. Parallel packs 10–14 are not counted as finished.
+
+Finish
+- Label bar under the photo for 16:9 (1920×1270, photo 1920×1080) and 4:5 (864×1270, photo 864×1080).
+- 9:16 finished file is exact 1080×1920 (true 9:16). The 190px bar is inside that frame (photo 1080×1730, top-aligned crop of the text-prompt 9:16). It is not 1080×2110.
+- 4:5 is a separate text-prompt 3:4 re-frame fitted to 864×1080, not a crop of a night master.
+- Art. 50 five PNG chunks on all three masters. Comment finish date 2026-10-02.
+- On-image left: caption, Scenario line, AI-generated artistic interpretation · Not a photograph. Right: Jason D’s Vision and Jason A. Devlin.
+- Each scene has one Open-Meteo retrieval, unique to the second against the 288 night weather files and against this pack. Weather numbers below are only those retrievals. The scenario minute is the Europe/Amsterdam mtime of that scene's 16:9 generation file.
+
+Scenes
+NL-01-159  Sint Servaasbrug, Maastricht
+  retrieval 2026-10-02T12:24:30+02:00  generation 2026-10-02T12:25:38+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 95%  17.8°C  wind 5.0 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:39  sunset 2026-10-02T19:13
+  16x9 library/world/Netherlands/Maastricht/nl-01-159-daylight-16x9.png  c08849550b2f5b59f7dfb8691290f45c08dc3a17f29d9f133039072f8352f9de
+  4x5  library/world/Netherlands/Maastricht/nl-01-159-daylight-4x5.png  330ad4cd6f51b3c781e10925c15b626453b2a99bfeec2b82bf84b44e193a8b9c
+  9x16 library/world/Netherlands/Maastricht/nl-01-159-daylight-9x16.png  1080x1920  395925b5063261769a1f95ae19a60b9bf36ecf13075f77ddd8a0d74f4932ba0c
+
+NL-01-160  Basilica, Oudenbosch
+  retrieval 2026-10-02T12:24:33+02:00  generation 2026-10-02T12:25:35+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 78%  17.1°C  wind 7.6 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:44  sunset 2026-10-02T19:17
+  16x9 library/world/Netherlands/Oudenbosch/nl-01-160-daylight-16x9.png  f87b1ebb8ed6cf2a7e907316ec84c889f3aa9d3d69db670eb6edf5c720a33409
+  4x5  library/world/Netherlands/Oudenbosch/nl-01-160-daylight-4x5.png  4a5ebbbe34054f95c8d9520e77c75825e5029f6db19bdd54d02634de3a136656
+  9x16 library/world/Netherlands/Oudenbosch/nl-01-160-daylight-9x16.png  1080x1920  e307e64b50d86cd788a3f8283f69c99d396050601c6fb48911ce05dd4e0d7486
+
+NL-01-161  Waterpoort, Sneek
+  retrieval 2026-10-02T12:24:35+02:00  generation 2026-10-02T12:25:36+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 44%  19.0°C  wind 11.2 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:40  sunset 2026-10-02T19:12
+  16x9 library/world/Netherlands/Sneek/nl-01-161-daylight-16x9.png  758c7e0d4c8b0552e15be9df55f0e0b2a4e4f64eae07f1e61e545ba16253092d
+  4x5  library/world/Netherlands/Sneek/nl-01-161-daylight-4x5.png  acd4666120c4d7a8386a2617ce8243a0fc62a56fb26035753435d6f8fe16cb76
+  9x16 library/world/Netherlands/Sneek/nl-01-161-daylight-9x16.png  1080x1920  b30690dbbbe59ea1b48e884a98c854910b5f917343b9ae2eb16c9fed46bf4826
+
+NL-01-162  Woudagemaal, Lemmer
+  retrieval 2026-10-02T12:24:38+02:00  generation 2026-10-02T12:25:50+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 53%  17.6°C  wind 10.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:40  sunset 2026-10-02T19:11
+  16x9 library/world/Netherlands/Lemmer/nl-01-162-daylight-16x9.png  6559cc7b68db1dca098f4117709fe49d97b046220009ddc421125eebfb395bac
+  4x5  library/world/Netherlands/Lemmer/nl-01-162-daylight-4x5.png  1779b84b332ff288e76f8fdd2d1c0adb354ec129bc14facbd8d4b51a38f70c92
+  9x16 library/world/Netherlands/Lemmer/nl-01-162-daylight-9x16.png  1080x1920  8d3782705a224a558e32a17f9a57a548782e0bfffbc62070cc939d533a104135
+
+NL-01-163  Menkemaborg, Uithuizen
+  retrieval 2026-10-02T12:24:40+02:00  generation 2026-10-02T12:29:30+02:00
+  scenario 2 October 2026 · 12:29 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 76%  17.9°C  wind 6.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:36  sunset 2026-10-02T19:07
+  16x9 library/world/Netherlands/Uithuizen/nl-01-163-daylight-16x9.png  cf2b43ea38c95ccbd7a72e4ddfc01243031c7e5d734bb596976e21497ae942a7
+  4x5  library/world/Netherlands/Uithuizen/nl-01-163-daylight-4x5.png  2c3e02f7c7723abd9ef0f0b78aaf4696a79fc5fb0b3991a66cefc7a1700fd817
+  9x16 library/world/Netherlands/Uithuizen/nl-01-163-daylight-9x16.png  1080x1920  2ad461df4d75b4ae2252acaa4182d4a108e247e93a65fd6d439cf9e5f9604ddb
+
+NL-01-164  Groninger Museum, Groningen
+  retrieval 2026-10-02T12:24:43+02:00  generation 2026-10-02T12:27:24+02:00
+  scenario 2 October 2026 · 12:27 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 49%  18.5°C  wind 7.9 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:36  sunset 2026-10-02T19:08
+  16x9 library/world/Netherlands/Groningen/nl-01-164-daylight-16x9.png  4549791ee50cdc7556395745fedc81b720e8c7efc9f7376e03c381cb8623dab3
+  4x5  library/world/Netherlands/Groningen/nl-01-164-daylight-4x5.png  3a83a60315f4b5e2b68061315787e185062246bd8b57b772f8e0f537053203a7
+  9x16 library/world/Netherlands/Groningen/nl-01-164-daylight-9x16.png  1080x1920  2abb9f05e5906049332b62ae32d3502cb9a2fe46204093534923d75ec5c120af
+
+NL-01-165  Brink, Orvelte
+  retrieval 2026-10-02T12:24:45+02:00  generation 2026-10-02T12:29:45+02:00
+  scenario 2 October 2026 · 12:29 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 100%  17.7°C  wind 6.5 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:36  sunset 2026-10-02T19:08
+  16x9 library/world/Netherlands/Orvelte/nl-01-165-daylight-16x9.png  87c858d4aa1676e362195715f4ed0023950e4a48790f7539c5e11a25c87e346c
+  4x5  library/world/Netherlands/Orvelte/nl-01-165-daylight-4x5.png  210d0f070255837cbd16506d79aca5a3dc8f1f2ec815b71cdf32a16233f68414
+  9x16 library/world/Netherlands/Orvelte/nl-01-165-daylight-9x16.png  1080x1920  14da8bab1a4abd14d3aad94694648504703cf75e012126eb0a0b915c9a7b790b
+
+NL-01-166  Grote Kerk, Enschede
+  retrieval 2026-10-02T12:24:48+02:00  generation 2026-10-02T12:26:06+02:00
+  scenario 2 October 2026 · 12:26 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 50%  17.8°C  wind 5.4 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:34  sunset 2026-10-02T19:07
+  16x9 library/world/Netherlands/Enschede/nl-01-166-daylight-16x9.png  8b5e457e6dedec66c1839cf11165fe6a7df3f211f17c0d527b15609bcf23753e
+  4x5  library/world/Netherlands/Enschede/nl-01-166-daylight-4x5.png  cf5a5cfd02ab00b2bd3beb4940117928ef11237bb9666202a5ebad80d9257176
+  9x16 library/world/Netherlands/Enschede/nl-01-166-daylight-9x16.png  1080x1920  b09e8cd255bacc26ebca43d5d85cc09d51e4e28d2e3549d9cdaaeb3236e83393
+
+NL-01-167  Cuneratoren, Rhenen
+  retrieval 2026-10-02T12:24:50+02:00  generation 2026-10-02T12:27:37+02:00
+  scenario 2 October 2026 · 12:27 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 93%  17.6°C  wind 6.1 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:40  sunset 2026-10-02T19:12
+  16x9 library/world/Netherlands/Rhenen/nl-01-167-daylight-16x9.png  e29d9f6ba84d9fcda490f9d5ddbd8c4492924b2d0cd2ea9fdad6fe4ccc3e7377
+  4x5  library/world/Netherlands/Rhenen/nl-01-167-daylight-4x5.png  3ef468e621c29dc30b901d52367920a71685d415454890936c0e73d4e6094a9d
+  9x16 library/world/Netherlands/Rhenen/nl-01-167-daylight-9x16.png  1080x1920  570d8ea2bb9e8df9a9e86ce094a4de56a7834014055822ac14899dd584d3a216
+
+NL-01-168  Grote Kerk, Breda
+  retrieval 2026-10-02T12:24:53+02:00  generation 2026-10-02T12:27:45+02:00
+  scenario 2 October 2026 · 12:27 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 90%  17.4°C  wind 7.9 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:43  sunset 2026-10-02T19:16
+  16x9 library/world/Netherlands/Breda/nl-01-168-daylight-16x9.png  211cbf57a96e7ea8c48ccfec12e136976761d8f62d38c611fe65afa59e254064
+  4x5  library/world/Netherlands/Breda/nl-01-168-daylight-4x5.png  14a60fb285936d4207463e63b2ac02d90b28fbe2e23cf8ffbd381aeacbcba20e
+  9x16 library/world/Netherlands/Breda/nl-01-168-daylight-9x16.png  1080x1920  47a0cf39194052c80e9792f8d2e1dc2b8ff1dc89e95084a939908a64a31bb277
