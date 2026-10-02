@@ -230,6 +230,18 @@ def prepare_scene(scene: dict) -> dict | None:
         out.pop("file_9x16_day", None)
     if out.get("file_9x16") and not master_exists(out.get("file_9x16")):
         out.pop("file_9x16", None)
+    # Daylight motion clip, when a finished file is on disk. Night masters
+    # are not the anchor. Missing files leave the card without a 360 button.
+    entry_id = out.get("entry_id")
+    file_16 = out.get("file_16x9")
+    if isinstance(entry_id, str) and isinstance(file_16, str) and "/" in file_16:
+        folder = file_16.rsplit("/", 1)[0]
+        motion = f"{folder}/{entry_id.lower()}-motion-10s-4x5.mp4"
+        poster = f"{folder}/{entry_id.lower()}-motion-10s-4x5-poster.jpg"
+        if master_exists(motion):
+            out["file_motion_10s_4x5"] = motion
+            if master_exists(poster):
+                out["file_motion_poster"] = poster
     return out
 
 
