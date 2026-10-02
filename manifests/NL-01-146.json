@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Bonaire/nl-01-146-9x16.png",
   "sha256_9x16": "8ba4033947791718f1dd7f3650cb1fc5a32f0110be89486fd8c471468fafc690",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 976c35cd294f30ad87f654ca27f518c2f71b795675a029feb63acb7159b701f4. Source SHA-256 4:5 b2944bf1beffb3670967e35458a29196c66decceb0a6960d47c8ab75e12758fb. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 976c35cd294f30ad87f654ca27f518c2f71b795675a029feb63acb7159b701f4. Source SHA-256 4:5 b2944bf1beffb3670967e35458a29196c66decceb0a6960d47c8ab75e12758fb. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Bonaire/nl-01-146-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Bonaire/nl-01-146-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Bonaire/nl-01-146-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-146",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:32 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:31:07+02:00",
+    "generation_timestamp": "2026-10-02T12:32:23+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-146.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Bonaire/nl-01-146-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Bonaire/nl-01-146-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Bonaire/nl-01-146-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "92a036a16ab0ccd8c5080e83d787641d6b971e2c35378931d8d380ad0926eb64",
+      "4x5": "880f1ad3cb0cc0af8f074ca0055c7430b5c0ff04dd1d0d280f0c0203a931d8da",
+      "9x16": "0aa152ac2058bdbdbb09ccfa42e7c75c71ae4044eede6f441c1fdd6f41701a44"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Lac Bay, Bonaire",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:32 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
