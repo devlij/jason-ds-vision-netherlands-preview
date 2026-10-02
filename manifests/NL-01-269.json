@@ -4,14 +4,14 @@
   "region": "Limburg",
   "city": "Maastricht",
   "caption": "Fort Sint Pieter, Maastricht",
-  "scenario_label": "26 September 2026 · 04:18 Europe/Amsterdam",
-  "composition": "Low five-sided brick-and-marl fort above the city · AI-generated artistic interpretation",
-  "description": "Fort Sint Pieter is the five-sided fort of 1701-1702 on the north side of the Sint-Pietersberg. The walls are thick, with marl below and brick above, and two rows of loopholes. It is not a castle with round towers. It is clear, about 14.0°C, with wind near 11.5 km/h and cloud cover about 6%. The interior is closed. The caves are not the subject. Vrijthof and the other Maastricht churches are not in this frame.",
+  "scenario_label": "26 September 2026 \u00b7 04:18 Europe/Amsterdam",
+  "composition": "Low five-sided brick-and-marl fort above the city \u00b7 AI-generated artistic interpretation",
+  "description": "Fort Sint Pieter is the five-sided fort of 1701-1702 on the north side of the Sint-Pietersberg. The walls are thick, with marl below and brick above, and two rows of loopholes. It is not a castle with round towers. It is clear, about 14.0\u00b0C, with wind near 11.5 km/h and cloud cover about 6%. The interior is closed. The caves are not the subject. Vrijthof and the other Maastricht churches are not in this frame.",
   "alt_text": "AI-generated artistic interpretation of Fort Sint Pieter above Maastricht at night",
   "file_16x9": "Netherlands/Maastricht/nl-01-269-16x9.png",
   "file_4x5": "Netherlands/Maastricht/nl-01-269-4x5.png",
   "file_9x16": "Netherlands/Maastricht/nl-01-269-9x16.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
   "sha256_16x9": "85f4ca27a9ee4e41e878c546fcd3a57908a764744ed46ceb7db8c83ea36b52f8",
@@ -19,7 +19,41 @@
   "format_9x16_approval_status": "Candidate",
   "sha256_9x16": "b97c2f9cfc1342fe724844d834b0b8279416446bd9b2db5304492158bc082a36",
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 4b8098450c6b433072ddcdc86342a78e73b1191f0bb1b0ce332258eb4fc7d3d9. Source SHA-256 4:5 e335bcf60982556d2a951acfa41287171e353af3b94f01335d968e72be09e07b. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Approved · Cosmo QC 5/5 · Night. Brick fort with gun slits on the hill above the valley city lights, starry sky. Exact caption/scenario '26 September 2026 · 04:18 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:18:52+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
-  "approved_at": "2026-09-29T04:24:52.305089+00:00"
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approval_basis": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night. Brick fort with gun slits on the hill above the valley city lights, starry sky. Exact caption/scenario '26 September 2026 \u00b7 04:18 Europe/Amsterdam', AI disclosure. Retrieval 2026-09-26T04:18:52+02:00 unique repo-wide; Art. 50 dated 2026-09-28.",
+  "approved_at": "2026-09-29T04:24:52.305089+00:00",
+  "file_16x9_day": "Netherlands/Maastricht/nl-01-269-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Maastricht/nl-01-269-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Maastricht/nl-01-269-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-269",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 \u00b7 13:23 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T13:20:53+02:00",
+    "generation_timestamp": "2026-10-02T13:23:42+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-269.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Maastricht/nl-01-269-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Maastricht/nl-01-269-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Maastricht/nl-01-269-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "66dada3aa85d81b2e9251115bcae494c231abefb14998b8fb747983dc9845509",
+      "4x5": "364c2335bbc6f9754985ce4e284e27dc164321a6035ee8c119fac44a8d3545a0",
+      "9x16": "843b9e97805aab72f23857ed0ea9deaee5e4f0343f561d181f4e8ec6b938c81a"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Fort Sint Pieter, Maastricht",
+    "on_image_scenario": "Scenario: 2 October 2026 \u00b7 13:23 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
