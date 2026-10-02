@@ -2,7 +2,9 @@
 
 ## Gallery page
 
-`publish.py` writes `index.html` from `gallery_template.html`. Phase-1 (day/night and mood filters, result count, clear, four related thumbnails, copy link, and `#entry` deep links) is filled by `gallery_phase1.py`. Mood ids match Spain: `coastal`, `mountain`, `urban`, `historic`, derived from catalogue text. Day/night follows Open-Meteo `is_day`. A format control or related thumbnail is emitted only when that master file exists. Word-of-the-day entries live in `wotd.json`.
+`publish.py` writes `index.html` from `gallery_template.html`. `python3 tools/publish.py --gallery-only` rebuilds `index.html` and `data.json` from the manifests on disk and does not composite masters or rewrite approvals. Phase-1 (day/night and mood filters, result count, clear, four related thumbnails, copy link, and `#entry` deep links) is filled by `gallery_phase1.py`. Mood ids match Spain: `coastal`, `mountain`, `urban`, `historic`, derived from catalogue text. Day/night follows Open-Meteo `is_day`. A format control or related thumbnail is emitted only when that master file exists. The chosen format is stored as `nl-gallery-format` and applied again only when that master exists. Word-of-the-day entries live in `wotd.json`.
+
+Netherlands only: a scene whose daylight master has `daylight_variant.provenance` of `genuine-daylight` shows that daylight file as the card default. The original night master stays behind the nighttime toggle and is not rewritten. Derivative daylight (no genuine provenance) stays a sun toggle on the night card. This rule is not for other country galleries.
 
 ## Label-bar masters
 

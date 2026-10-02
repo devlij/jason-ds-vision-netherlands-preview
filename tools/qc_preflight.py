@@ -209,8 +209,58 @@ def main() -> None:
             errors.append(f"{entry_id} lost Cosmo approval_status")
         if f'"entry_id": "{entry_id}"' not in index or '"approval_status": "Approved"' not in index:
             errors.append("index missing an Approved scene")
-    if index.count('"file_16x9_day"') != 10:
-        errors.append(f"expected 10 daylight masters in the gallery, found {index.count(chr(34)+'file_16x9_day'+chr(34))}")
+    data_path = ROOT / "data.json"
+    page_scenes = []
+    if not data_path.is_file():
+        errors.append("missing data.json")
+    else:
+        payload = json.loads(data_path.read_text())
+        page_scenes = payload.get("scenes") or []
+        if not isinstance(page_scenes, list):
+            errors.append("data.json scenes is not a list")
+            page_scenes = []
+        if len(page_scenes) != len(manifests):
+            errors.append(f"data.json scenes {len(page_scenes)} != manifests {len(manifests)}")
+    by_id = {row.get("entry_id"): row for row in page_scenes if isinstance(row, dict)}
+    genuine = 0
+    with_day = 0
+    for path in manifests:
+        data = json.loads(path.read_text())
+        entry_id = data["entry_id"]
+        row = by_id.get(entry_id)
+        if row is None:
+            errors.append(f"data.json missing {entry_id}")
+            continue
+        if row.get("approval_status") != data.get("approval_status"):
+            errors.append(f"{entry_id} approval_status changed in the gallery")
+        if data.get("file_16x9_day"):
+            with_day += 1
+        provenance = (data.get("daylight_variant") or {}).get("provenance")
+        if provenance == "genuine-daylight":
+            genuine += 1
+            if row.get("daylight_primary") is not True:
+                errors.append(f"{entry_id} genuine daylight is not the card default")
+            if not str(row.get("file_16x9_day") or "").endswith("-daylight-16x9.png"):
+                errors.append(f"{entry_id} daylight primary is missing its 16:9 master")
+        elif row.get("daylight_primary"):
+            errors.append(f"{entry_id} is daylight-primary without genuine-daylight provenance")
+    held = [f"NL-01-{n:03d}" for n in list(range(119, 129)) + list(range(279, 289))]
+    for entry_id in held:
+        row = by_id.get(entry_id) or {}
+        if row.get("daylight_primary") or row.get("file_16x9_day"):
+            errors.append(f"held scene {entry_id} daylight state changed")
+        if row.get("format_9x16_approval_status") == "Approved":
+            errors.append(f"held scene {entry_id} 9:16 approval was flipped")
+    if index.count('"file_16x9_day"') != with_day:
+        errors.append(
+            f"expected {with_day} daylight masters in the gallery, "
+            f"found {index.count(chr(34)+'file_16x9_day'+chr(34))}"
+        )
+    if index.count('"daylight_primary": true') != genuine:
+        errors.append(
+            f"expected {genuine} daylight-primary cards, "
+            f"found {index.count(chr(34)+'daylight_primary'+chr(34)+': true')}"
+        )
     if "View image" in index:
         errors.append("index still has a View image control over the artwork")
     if "position: absolute; top: 1.05rem; left: 1.05rem" in index:
