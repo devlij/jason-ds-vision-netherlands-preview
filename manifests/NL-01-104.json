@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Kerkrade/nl-01-104-9x16.png",
   "sha256_9x16": "95c3b2d89d1bd3bcafa65464fe283b52dbece38abeca7f7f652d867a518d3d8d",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 e76b199fca130e982c768c4ab13c3eb601cce0660be991f2bbbe5564210ff2f1. Source SHA-256 4:5 95f6f83140c88af1a6c2ac783c857194d5a1ea9bed0d214bff0e9bd4f9747082. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 e76b199fca130e982c768c4ab13c3eb601cce0660be991f2bbbe5564210ff2f1. Source SHA-256 4:5 95f6f83140c88af1a6c2ac783c857194d5a1ea9bed0d214bff0e9bd4f9747082. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Kerkrade/nl-01-104-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Kerkrade/nl-01-104-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Kerkrade/nl-01-104-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-104",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:35 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:34:25+02:00",
+    "generation_timestamp": "2026-10-02T11:35:41+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-104.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Kerkrade/nl-01-104-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Kerkrade/nl-01-104-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Kerkrade/nl-01-104-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "96793273649bb26343c7522ccdbbccabcfb95d79757b01c751c8c7480c7573ac",
+      "4x5": "1311624b9b29eec3c551e2d0ca342e32590e31b72d13f1cc404277ee30634e3c",
+      "9x16": "9eb8e818ce78e57819ce130dbe476cf4878b601639e2f16fe1ff89ccdb0ce38f"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Rolduc Abbey, Kerkrade",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:35 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

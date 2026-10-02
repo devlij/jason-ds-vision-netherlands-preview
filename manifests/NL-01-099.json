@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Tilburg/nl-01-099-9x16.png",
   "sha256_9x16": "9a087d063c155a63f1cbae3f15a3b7d4eaaf8238e3f20127a2029469333fdd91",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 82b290396e4081adec8bb906d1ce0a779605eff63d5f7db9b6d3d23fb1a85e00. Source SHA-256 4:5 80d03e7a3d573a694f56d6aedeb218efa33e0d449abdfed0161499942780f50c. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 82b290396e4081adec8bb906d1ce0a779605eff63d5f7db9b6d3d23fb1a85e00. Source SHA-256 4:5 80d03e7a3d573a694f56d6aedeb218efa33e0d449abdfed0161499942780f50c. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Tilburg/nl-01-099-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Tilburg/nl-01-099-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Tilburg/nl-01-099-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-099",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:35 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:34:13+02:00",
+    "generation_timestamp": "2026-10-02T11:35:11+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-099.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Tilburg/nl-01-099-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Tilburg/nl-01-099-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Tilburg/nl-01-099-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "94d5d1d66b88cfe0da96199fd63823babdfb8b88496c47e0c3c13f141ea92cc6",
+      "4x5": "b14d8f3f00131b0a891ecb656455be0519affb9c3b2a71fb603a2196c7b891bf",
+      "9x16": "89f1dba1cd15146d250d160820e017807e3d63b57be890a1e5280b878072180a"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "LocHal, Tilburg",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:35 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

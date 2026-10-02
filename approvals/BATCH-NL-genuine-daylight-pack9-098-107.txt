@@ -1,0 +1,117 @@
+BATCH NL genuine daylight Part A pack 9
+Date: 2026-10-02
+Country: Netherlands
+Status: Candidate. Cosmo QC. Do not merge. Not a Friday-complete certificate.
+Provenance: genuine daylight. Not interim-ai. Text-prompt only. Night masters were not image anchors and were not rewritten.
+Gallery: index.html was not rebuilt. Daylight is not the card primary. The later work order wo-netherlands-daylight-primary does the toggle flip.
+
+Gate: 2026-10-02T11:34+02:00 was open. Each site's sunrise and sunset are the Open-Meteo values on that retrieval. Every retrieval has is_day 1 and the generation minute sits inside that site's sunrise–sunset and inside the retrieval clock hour.
+
+Inventory
+- 288 NL-01 scenes. Night-primary (Open-Meteo is_day 0 on the scene weather file): 273. Day-primary (is_day 1): 15, which are NL-01-002, NL-01-005 through NL-01-016, NL-01-064, and NL-01-067. Those are not night gaps.
+- Genuine daylight masters on main before this pack: 0. Files named *-daylight-* already on main for NL-01-001 through NL-01-010 are the 2026-09-26 interim derivatives (no weather scenario, derived from the night interpretation). They are not genuine daylight.
+- Unmerged interim-ai daylight in PRs #18–#31 is held by Cosmo and is not counted as a genuine master.
+- Packs 1–3 (NL-01-017 through NL-01-046) are done as unmerged Candidate genuine sets and are not repeated here.
+- Parallel packs 4–8 own NL-01-047–056, NL-01-057–066, NL-01-068–077, NL-01-078–087, and NL-01-088–097. This pack does not use those scene IDs.
+- Skipped NL-01-001, NL-01-003, and NL-01-004: held architectural rework until rebuilt. They are outside this slice.
+- This pack fills the night-primary slice NL-01-098 through NL-01-107. All ten are is_day 0 on the night card. None is day-primary.
+- Genuine daylight count in this pack: 10.
+
+Finish
+- Label bar under the photo for 16:9 (1920×1270, photo 1920×1080) and 4:5 (864×1270, photo 864×1080).
+- 9:16 finished file is exact 1080×1920 (true 9:16). The 190px bar is inside that frame (photo 1080×1730, top-aligned crop of the text-prompt 9:16). It is not 1080×2110.
+- 4:5 is a separate text-prompt 3:4 re-frame fitted to 864×1080, not a crop of a night master.
+- Art. 50 five PNG chunks on all three masters. Comment finish date 2026-10-02.
+- On-image left: caption, Scenario line, AI-generated artistic interpretation · Not a photograph. Right: Jason D’s Vision and Jason A. Devlin.
+- Each scene has one Open-Meteo retrieval, unique to the second against the 288 night weather files and against this pack. Weather numbers below are only those retrievals. The scenario minute is the Europe/Amsterdam mtime of that scene's 16:9 generation file.
+
+Scenes
+NL-01-098  Bossche Broek, 's-Hertogenbosch
+  retrieval 2026-10-02T11:34:10+02:00  generation 2026-10-02T11:35:12+02:00
+  scenario 2 October 2026 · 11:35 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 87%  16.4°C  wind 5.4 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:41  sunset 2026-10-02T19:14
+  16x9 library/world/Netherlands/s-Hertogenbosch/nl-01-098-daylight-16x9.png  075ce101d2e405c4c052613ac4ff410fcd90292e80954ff73c2eca4b8547e914
+  4x5  library/world/Netherlands/s-Hertogenbosch/nl-01-098-daylight-4x5.png  d2deccd8aa26aa8664602b4a5394fbf9d7d4f42998e367b099173dea46726469
+  9x16 library/world/Netherlands/s-Hertogenbosch/nl-01-098-daylight-9x16.png  1080x1920  29d6ccc4ff86ae417c08264a2f3a0aba21f2b25c0c11696d5fcd4ed82215dd36
+
+NL-01-099  LocHal, Tilburg
+  retrieval 2026-10-02T11:34:13+02:00  generation 2026-10-02T11:35:11+02:00
+  scenario 2 October 2026 · 11:35 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 90%  16.7°C  wind 6.5 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:41  sunset 2026-10-02T19:15
+  16x9 library/world/Netherlands/Tilburg/nl-01-099-daylight-16x9.png  94d5d1d66b88cfe0da96199fd63823babdfb8b88496c47e0c3c13f141ea92cc6
+  4x5  library/world/Netherlands/Tilburg/nl-01-099-daylight-4x5.png  b14d8f3f00131b0a891ecb656455be0519affb9c3b2a71fb603a2196c7b891bf
+  9x16 library/world/Netherlands/Tilburg/nl-01-099-daylight-9x16.png  1080x1920  89f1dba1cd15146d250d160820e017807e3d63b57be890a1e5280b878072180a
+
+NL-01-100  Helmond Castle, Helmond
+  retrieval 2026-10-02T11:34:15+02:00  generation 2026-10-02T11:37:16+02:00
+  scenario 2 October 2026 · 11:37 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 88%  16.6°C  wind 5.0 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:39  sunset 2026-10-02T19:12
+  16x9 library/world/Netherlands/Helmond/nl-01-100-daylight-16x9.png  339cda36228de4a9325f7c991b26cd0b6eb64f9375a561e94b4b35657d2a41ea
+  4x5  library/world/Netherlands/Helmond/nl-01-100-daylight-4x5.png  3a80a6081dd9580d9e50fc665f420a1dad86f0405b44043df29d0bfa08003020
+  9x16 library/world/Netherlands/Helmond/nl-01-100-daylight-9x16.png  1080x1920  c2f386475103991b98e68c57f85908bb62d76a943dc505e484e150f82cbe25af
+
+NL-01-101  St. Martinuskerk, Venlo
+  retrieval 2026-10-02T11:34:17+02:00  generation 2026-10-02T11:35:26+02:00
+  scenario 2 October 2026 · 11:35 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 100%  16.9°C  wind 6.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:37  sunset 2026-10-02T19:10
+  16x9 library/world/Netherlands/Venlo/nl-01-101-daylight-16x9.png  bcc81fbd4522764a604b1ff98eef60b1c4d93819ee5e296266024dda2f4e7fe5
+  4x5  library/world/Netherlands/Venlo/nl-01-101-daylight-4x5.png  b1e5f08f5a4f5548eb98954a4dca6e9b3460d5cb41bd6cabbd54680ba9bd57ce
+  9x16 library/world/Netherlands/Venlo/nl-01-101-daylight-9x16.png  1080x1920  7114d7a7a624460295fce08c6d032a771b67b74c461b9c3886c347668e38e09d
+
+NL-01-102  St. Peter's Basilica, Sittard
+  retrieval 2026-10-02T11:34:20+02:00  generation 2026-10-02T11:35:27+02:00
+  scenario 2 October 2026 · 11:35 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 98%  16.5°C  wind 6.5 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:38  sunset 2026-10-02T19:12
+  16x9 library/world/Netherlands/Sittard/nl-01-102-daylight-16x9.png  bee51ba30944e08eab44613bd27392098c26a2fc14c8535846d56e12e21d8884
+  4x5  library/world/Netherlands/Sittard/nl-01-102-daylight-4x5.png  b682dc5a4c9000f3a3bad5f3f5a6e976c0f24e57fbca0357434b7e2c747537c7
+  9x16 library/world/Netherlands/Sittard/nl-01-102-daylight-9x16.png  1080x1920  82a5a47ebba814ec0dfbf97312d75a673ca02f30d3eab1c278d37c509f425aaf
+
+NL-01-103  Pancratiuskerk, Heerlen
+  retrieval 2026-10-02T11:34:22+02:00  generation 2026-10-02T11:35:29+02:00
+  scenario 2 October 2026 · 11:35 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 93%  16.3°C  wind 4.7 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:37  sunset 2026-10-02T19:11
+  16x9 library/world/Netherlands/Heerlen/nl-01-103-daylight-16x9.png  6ebc5a2d88e90e0ff989cb32aa9d79b642e59cc891b9db91e8a4fe569231f3cc
+  4x5  library/world/Netherlands/Heerlen/nl-01-103-daylight-4x5.png  d3295aa85064f3cf8c0eebfc5e3fa7b7ceac6f6ee1c483b9fc5e4d3b723a2321
+  9x16 library/world/Netherlands/Heerlen/nl-01-103-daylight-9x16.png  1080x1920  67887472ee7b40cdac12b0d4a7850a8e96afc3b25ef45f3958a1bc71c9eecf27
+
+NL-01-104  Rolduc Abbey, Kerkrade
+  retrieval 2026-10-02T11:34:25+02:00  generation 2026-10-02T11:35:41+02:00
+  scenario 2 October 2026 · 11:35 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3  cloud 91%  16.3°C  wind 4.3 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:37  sunset 2026-10-02T19:11
+  16x9 library/world/Netherlands/Kerkrade/nl-01-104-daylight-16x9.png  96793273649bb26343c7522ccdbbccabcfb95d79757b01c751c8c7480c7573ac
+  4x5  library/world/Netherlands/Kerkrade/nl-01-104-daylight-4x5.png  1311624b9b29eec3c551e2d0ca342e32590e31b72d13f1cc404277ee30634e3c
+  9x16 library/world/Netherlands/Kerkrade/nl-01-104-daylight-9x16.png  1080x1920  9eb8e818ce78e57819ce130dbe476cf4878b601639e2f16fe1ff89ccdb0ce38f
+
+NL-01-105  Boulevard, Vlissingen
+  retrieval 2026-10-02T11:34:27+02:00  generation 2026-10-02T11:35:43+02:00
+  scenario 2 October 2026 · 11:35 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 26%  16.6°C  wind 13.0 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:47  sunset 2026-10-02T19:21
+  16x9 library/world/Netherlands/Vlissingen/nl-01-105-daylight-16x9.png  39ebbb9180de1723fffec0a7995181e1b40571e183f1f51ef8bebf50f212d51a
+  4x5  library/world/Netherlands/Vlissingen/nl-01-105-daylight-4x5.png  da64f39eea4b32bde9957218388468a12b251266095cd8e61386b54aecd4d84b
+  9x16 library/world/Netherlands/Vlissingen/nl-01-105-daylight-9x16.png  1080x1920  44f5f6ee4f9ae708ea84a4f6f8d33df343b2ac0673064e981aaa359d4fd70d2c
+
+NL-01-106  Lighthouse, Westkapelle
+  retrieval 2026-10-02T11:34:30+02:00  generation 2026-10-02T11:37:13+02:00
+  scenario 2 October 2026 · 11:37 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1  cloud 26%  16.7°C  wind 18.0 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:48  sunset 2026-10-02T19:21
+  16x9 library/world/Netherlands/Westkapelle/nl-01-106-daylight-16x9.png  93560eb231241b3e08daf8167b9709c6c8a35eef93ffd584764117905e96fd6d
+  4x5  library/world/Netherlands/Westkapelle/nl-01-106-daylight-4x5.png  0db23253ec54e76cefc71c5c4fc3c52521fa599f5d69385a989342253691c34c
+  9x16 library/world/Netherlands/Westkapelle/nl-01-106-daylight-9x16.png  1080x1920  32df1c9b5a778fe71b88ee66437bf7d5b9769c0baee5325110396bcc83035ed0
+
+NL-01-107  Oyster harbour, Yerseke
+  retrieval 2026-10-02T11:34:32+02:00  generation 2026-10-02T11:35:58+02:00
+  scenario 2 October 2026 · 11:35 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2  cloud 58%  16.2°C  wind 10.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:46  sunset 2026-10-02T19:19
+  16x9 library/world/Netherlands/Yerseke/nl-01-107-daylight-16x9.png  9232c070b047b9367c2d357d992b31f0d12eb7ecf6baf78e050dc103275ad9e8
+  4x5  library/world/Netherlands/Yerseke/nl-01-107-daylight-4x5.png  14c98a1519ddd0bb344d07e0aa2f80e3bf9112147273b2055c58f737fd38e186
+  9x16 library/world/Netherlands/Yerseke/nl-01-107-daylight-9x16.png  1080x1920  8efdd1fdf226a50d532d5680556a3c85bee48ace48df3a661601925ff02d669a

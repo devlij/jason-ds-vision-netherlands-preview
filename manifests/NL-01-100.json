@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Helmond/nl-01-100-9x16.png",
   "sha256_9x16": "b858a9288e1a83a0479988794ddea483cba117af2bef12d769b360c12730cae1",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 7efddc785e3ea16cfe58f084a16d43d8fd477e22747b43328d6f14f0ded5b302. Source SHA-256 4:5 444b3fb748eae2a32cdec8aff91d9768e974e20f19efc4ac50ea74851354f495. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 7efddc785e3ea16cfe58f084a16d43d8fd477e22747b43328d6f14f0ded5b302. Source SHA-256 4:5 444b3fb748eae2a32cdec8aff91d9768e974e20f19efc4ac50ea74851354f495. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Helmond/nl-01-100-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Helmond/nl-01-100-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Helmond/nl-01-100-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-100",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:37 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:34:15+02:00",
+    "generation_timestamp": "2026-10-02T11:37:16+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-100.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Helmond/nl-01-100-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Helmond/nl-01-100-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Helmond/nl-01-100-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "339cda36228de4a9325f7c991b26cd0b6eb64f9375a561e94b4b35657d2a41ea",
+      "4x5": "3a80a6081dd9580d9e50fc665f420a1dad86f0405b44043df29d0bfa08003020",
+      "9x16": "c2f386475103991b98e68c57f85908bb62d76a943dc505e484e150f82cbe25af"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Helmond Castle, Helmond",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:37 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

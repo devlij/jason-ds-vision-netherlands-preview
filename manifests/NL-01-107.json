@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Yerseke/nl-01-107-9x16.png",
   "sha256_9x16": "f25f6b2244f611f8dbd5e6d14ebbfdd0ca4dc531def3a63e6d708dc7eeb4dadc",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d622239117de007e0c916fa4dfe189aa863ca82322a00e8452f45a740a02bd9d. Source SHA-256 4:5 d7599e74b13f2bd0c3fb51e3e3ba0686dd1f6635d66e204c11d22080980cefe2. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 d622239117de007e0c916fa4dfe189aa863ca82322a00e8452f45a740a02bd9d. Source SHA-256 4:5 d7599e74b13f2bd0c3fb51e3e3ba0686dd1f6635d66e204c11d22080980cefe2. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Yerseke/nl-01-107-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Yerseke/nl-01-107-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Yerseke/nl-01-107-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-107",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:35 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:34:32+02:00",
+    "generation_timestamp": "2026-10-02T11:35:58+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-107.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Yerseke/nl-01-107-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Yerseke/nl-01-107-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Yerseke/nl-01-107-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9232c070b047b9367c2d357d992b31f0d12eb7ecf6baf78e050dc103275ad9e8",
+      "4x5": "14c98a1519ddd0bb344d07e0aa2f80e3bf9112147273b2055c58f737fd38e186",
+      "9x16": "8efdd1fdf226a50d532d5680556a3c85bee48ace48df3a661601925ff02d669a"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Oyster harbour, Yerseke",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:35 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
