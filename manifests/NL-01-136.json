@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/The Hague/nl-01-136-9x16.png",
   "sha256_9x16": "3397548888cc29b2c9ded22810d7e9603b45ab1ab8f269f2d315a3aa4b4046e7",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a4c6590f28e8d9513810be8ef7a9e545fdc413c8cce789e5648b25d6021af360. Source SHA-256 4:5 d6e4c826e43b51447227ed473390de900ae84a1c4c7271f8c94e0f0db61bc5b8. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a4c6590f28e8d9513810be8ef7a9e545fdc413c8cce789e5648b25d6021af360. Source SHA-256 4:5 d6e4c826e43b51447227ed473390de900ae84a1c4c7271f8c94e0f0db61bc5b8. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/The Hague/nl-01-136-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/The Hague/nl-01-136-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/The Hague/nl-01-136-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-136",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:27 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:26:11+02:00",
+    "generation_timestamp": "2026-10-02T12:27:46+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-136.json",
+    "files": {
+      "16x9": "library/world/Netherlands/The Hague/nl-01-136-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/The Hague/nl-01-136-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/The Hague/nl-01-136-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8d75505684cd7cbd76ff5b8fb870f64e0c6aa3502b8d4d21f248a1a6e0393fec",
+      "4x5": "0b548bd10ca5e8514ac975c75d94002d402f0c2fdbb17a04c90c02cfb309209f",
+      "9x16": "d2750c787775503d7d34924dc0f9d36de69fbffc25245cf2ff6c8e55819f39c2"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Paleis Noordeinde, The Hague",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:27 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
