@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Hoensbroek/nl-01-174-9x16.png",
   "sha256_9x16": "f7d4f894ff0ef22deee5bceb61ea4e1db38f6cef34f295cf84cad37c13d7fdd3",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 deba731e2e0839fa93aafa2c86f9ea286cf69f78cdfb3f795cfe80feefae5413. Source SHA-256 4:5 a636991d025dd5423df2aff60199ff37f2d1d1721e1a2ee03424e694b4ae62fd. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 deba731e2e0839fa93aafa2c86f9ea286cf69f78cdfb3f795cfe80feefae5413. Source SHA-256 4:5 a636991d025dd5423df2aff60199ff37f2d1d1721e1a2ee03424e694b4ae62fd. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Hoensbroek/nl-01-174-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Hoensbroek/nl-01-174-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Hoensbroek/nl-01-174-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-174",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:45 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:55:22+02:00",
+    "generation_timestamp": "2026-10-02T12:45:44+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-174.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Hoensbroek/nl-01-174-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Hoensbroek/nl-01-174-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Hoensbroek/nl-01-174-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "c0d64620868ef4acaa764e90a2e1a9a885a4546dceffb788a59d26fafa79feb7",
+      "4x5": "1a9a3268e7d19b9f2b53c3950ecdda80b05ddc56c9f2bff29564b29da09f4b11",
+      "9x16": "9f2eb3c701b41cafd7b07c193234e768c36d96fc51e5621fe72bbb83b897ff1e"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Kasteel Hoensbroek, Hoensbroek",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:45 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Egmond aan Zee/nl-01-173-9x16.png",
   "sha256_9x16": "f7f89038419f8389111d8978e07bafcbc3b26b06d780ae87db4e3c583e8f3185",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 eea5e3267a787c366e88dbf7e0af50c31ae463115abf9e7156ea298659af101f. Source SHA-256 4:5 60315c50fe1c91a48e9c70842ecf8eb7fd5e385042a82142ec70594dac078e4b. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 eea5e3267a787c366e88dbf7e0af50c31ae463115abf9e7156ea298659af101f. Source SHA-256 4:5 60315c50fe1c91a48e9c70842ecf8eb7fd5e385042a82142ec70594dac078e4b. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Egmond aan Zee/nl-01-173-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Egmond aan Zee/nl-01-173-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Egmond aan Zee/nl-01-173-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-173",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:45 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:55:20+02:00",
+    "generation_timestamp": "2026-10-02T12:45:44+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-173.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Egmond aan Zee/nl-01-173-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Egmond aan Zee/nl-01-173-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Egmond aan Zee/nl-01-173-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "7f92887ca8daa2d7fb9dffef1f230a71b847550f97800ef583367cece31a4b8c",
+      "4x5": "f9fa529c0367ec7068a3413ebb9e4ddb466e6b58f6aa477c93369b7babe6c07d",
+      "9x16": "d09a62763a21cc433d466b6bf6371ca42e4fd38ee20da9507a66137b9652e2d5"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Lighthouse, Egmond aan Zee",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:45 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

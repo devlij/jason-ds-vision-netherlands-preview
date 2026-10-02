@@ -21,5 +21,39 @@
   "file_9x16": "Netherlands/Haamstede/nl-01-172-9x16.png",
   "sha256_9x16": "3cdb1d0179a78242b0e0d666c044fdececbff1ef4c0c59de06922775384f2914",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 60efe6ef20582eb58c1af08225895cf33f09226da2afab05d559f08c086f24ba. Source SHA-256 4:5 9aeeea1cfc5e38ca36b351ea29a5844fec7605f42d3462d23ea12db8a6922fb6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 60efe6ef20582eb58c1af08225895cf33f09226da2afab05d559f08c086f24ba. Source SHA-256 4:5 9aeeea1cfc5e38ca36b351ea29a5844fec7605f42d3462d23ea12db8a6922fb6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_day": "Netherlands/Haamstede/nl-01-172-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Haamstede/nl-01-172-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Haamstede/nl-01-172-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-172",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:43:20+02:00",
+    "generation_timestamp": "2026-10-02T12:44:27+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-172.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Haamstede/nl-01-172-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Haamstede/nl-01-172-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Haamstede/nl-01-172-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "12e755d82dc6c917a21849de29314548dc5d6982502e8201385fea614dfb047d",
+      "4x5": "eee095cae2d93e9adc51494c154d8d187105254eed7d75fcf852bc528e1584f5",
+      "9x16": "d87108887a16fec8172557b9b560b6f184c72e9cb0365a2c02cb7c03b7a6782c"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Slot Haamstede, Haamstede",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:44 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
