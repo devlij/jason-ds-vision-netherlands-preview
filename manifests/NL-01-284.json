@@ -32,5 +32,76 @@
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: symmetrical stone-clad facade with ground-floor arched bays, cross-mullioned upper windows, oculus-medallion frieze band, and the central octagonal brick tower rising through the roof with open lantern, pear-shaped crown and Neptune weathervane - the 4:5 is a centered tighter crop of the 16:9 with no defining-feature disagreement; the earlier two-gable vs one-gable inter-format discrepancy is resolved in the 20:49 UTC re-render. Gate 2: label bar exact - 'Stadhuis, Zierikzee', 'Scenario: 26 September 2026 · 04:37 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T04:37:59+02:00, unique to the second repo-wide, scenario minute 04:37 inside model-valid hour 04:00-04:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: empty square, no people, no logos, Free no-credit badge - documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:43:39.796032+00:00",
   "sha256_16x9": "540bc48715008f7e9b6f92dd72a5799e482f50198d4a8ac686b0af4d1eeeb868",
-  "sha256_4x5": "bce2790cc7b9b3ef5a675c5f16d286eedf49426d7edb9e17e65931285cd65cfb"
+  "sha256_4x5": "bce2790cc7b9b3ef5a675c5f16d286eedf49426d7edb9e17e65931285cd65cfb",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-284",
+    "approval_status": "Candidate",
+    "qc_status": "Candidate · not Cosmo QC · not self-certified",
+    "provenance": "genuine-text-prompt",
+    "genuine_daylight": true,
+    "text_prompt_only": true,
+    "image_anchor": "none",
+    "derived_from": "New text-prompt daylight set of the catalogue viewpoint. No night-master image was supplied to the generator.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Zierikzee/nl-01-284-16x9.png",
+        "sha256": "540bc48715008f7e9b6f92dd72a5799e482f50198d4a8ac686b0af4d1eeeb868"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Zierikzee/nl-01-284-4x5.png",
+        "sha256": "bce2790cc7b9b3ef5a675c5f16d286eedf49426d7edb9e17e65931285cd65cfb"
+      },
+      "9x16": {
+        "path": "library/world/Netherlands/Zierikzee/nl-01-284-9x16.png",
+        "sha256": "dbd49310ce6dbbd2bf51c9cf9a5cda65590727de608e6c1127637dd6a8cf64b1"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight write. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Zierikzee/nl-01-284-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Zierikzee/nl-01-284-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Zierikzee/nl-01-284-daylight-9x16.png"
+    },
+    "pretext": {
+      "16x9": "library/pretext/Netherlands/Zierikzee/nl-01-284-daylight-16x9.png",
+      "4x5": "library/pretext/Netherlands/Zierikzee/nl-01-284-daylight-4x5.png",
+      "9x16": "library/pretext/Netherlands/Zierikzee/nl-01-284-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "247535a60babd086835b88022c5e7be2761feca6f1866488c64e1f5e91759e53",
+      "4x5": "01dddaaaf744676026d2bcf2e7403d3742d86541f2d29f05ae2d7351082a7322",
+      "9x16": "cf57e14442f93630290cdf50d1cde1758101eb05bf58a3daadc3d7fac03bbaac"
+    },
+    "dimensions": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x2110",
+      "photo_9x16": "1080x1920"
+    },
+    "created_date": "2026-10-02",
+    "scenario_label": "2 October 2026 · 13:09 Europe/Amsterdam",
+    "open_meteo": {
+      "retrieval_timestamp": "2026-10-02T13:09:57+02:00",
+      "model_time": "2026-10-02T13:00",
+      "timezone": "Europe/Amsterdam",
+      "location_timezone": "Europe/Amsterdam",
+      "location_local_time": "2026-10-02T13:09:57+02:00",
+      "is_day": 1,
+      "weather_code": 0,
+      "cloud_cover": 2,
+      "temperature_2m": 18.6,
+      "wind_speed_10m": 10.4,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:46",
+      "sunset": "2026-10-02T19:19"
+    },
+    "on_image_caption": "Stadhuis, Zierikzee",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:09 Europe/Amsterdam",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "art50_comment_date": "2026-10-02",
+    "gallery_primary": "night unchanged",
+    "note": "Candidate genuine daylight set for Cosmo QC. Not Approved. Not a Friday self-certification. The night master remains the gallery primary. No night image was used as a generator anchor."
+  }
 }
