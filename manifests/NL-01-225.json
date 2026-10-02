@@ -24,5 +24,39 @@
   ],
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. Gate 1: rectangular concrete model-basin in a dark forest clearing, small cascade over the far weir, single lamp glowing in the trees, dramatic cloudy night sky — the Waterloopbos delta-model basin, Marknesse; plausible clearing viewpoint; no artifacts. Gate 2: exact dims; legible bar ('Waterloopbos, Marknesse', 'Scenario: 26 September 2026 · 03:37 Europe/Amsterdam', disclosure, exact signature/script); 03:37 inside valid hour 03:00; retrieval 2026-09-26T03:37:36+02:00, unique repo-wide; Art. 50 chunks + note, Comment 2026-09-27 (true re-finish, git-verified). Gate 3: text-prompt-only. Gate 4: no people/logos — documented only. Gate 5: manifest Candidate, card complete, no open notes.",
-  "approved_at": "2026-09-29T10:42:49.402703+00:00"
+  "approved_at": "2026-09-29T10:42:49.402703+00:00",
+  "file_16x9_day": "Netherlands/Marknesse/nl-01-225-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Marknesse/nl-01-225-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Marknesse/nl-01-225-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-225",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 12:44 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T12:43:06+02:00",
+    "generation_timestamp": "2026-10-02T12:44:24+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-225.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Marknesse/nl-01-225-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Marknesse/nl-01-225-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Marknesse/nl-01-225-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "61d57fb4210c1e2ec3c043c425f85eb07b43833e659f203c196e1e4a2637d931",
+      "4x5": "4cb723333bd566741a86950d4e2960d6c35ced7c432b42779bee112b392614c0",
+      "9x16": "dd381b2471c0815baed2ccfed30e27d453ff556724927d5646d55d349d0f2f6b"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Waterloopbos, Marknesse",
+    "on_image_scenario": "Scenario: 2 October 2026 · 12:44 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
