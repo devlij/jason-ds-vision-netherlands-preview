@@ -6053,5 +6053,83 @@
       "Tile roofs of a three-aisle church wrap the tower"
     ],
     "solar": "Full night under an overcast sky. Model sunrise 07:27 and sunset 19:23 Europe/Amsterdam, model is_day 0. At 04:38 a village lamp lights the tower. Cloud cover is about 100%. The wind is about 3.2 km/h."
+  },
+  {
+    "entry_id": "NL-01-289",
+    "region": "Limburg",
+    "city": "Maastricht",
+    "folder": "Maastricht",
+    "category": "christmas",
+    "comment_date": "2026-10-02",
+    "work_order": "wo-christmas-sprinkle-grok-2026-10-01",
+    "caption": "Vrijthof Christmas market, Maastricht",
+    "composition": "Wooden chalets on Vrijthof, red Sint-Jan beside the grey Sint-Servaas westwork · AI-generated artistic interpretation",
+    "description": "Magisch Maastricht fills the Vrijthof with peaked wooden chalets, a tall Christmas tree, and warm string lights. From the square the view runs left to right from the tall red Maas-Gothic tower of Sint-Janskerk, to the heavy grey Romanesque westwork of the Sint-Servaasbasiliek, to the small white columned Hoofdwacht. This is a seasonal artistic interpretation of a December 2026 evening in Europe/Amsterdam. It is not a December 2026 forecast. The Open-Meteo row is generation-time model data and is not the sky in the picture. The late-day square without the market remains NL-01-014. The south side and Bergportaal remain NL-01-049. No stall name is readable. No face is readable, and no person is the subject.",
+    "alt_text": "AI-generated artistic interpretation of the Vrijthof Christmas market in Maastricht on a December evening, with Sint-Jan, Sint-Servaas, and the Hoofdwacht",
+    "viewpoint": "From the Vrijthof, looking toward the church pair. Left to right: the red Sint-Janskerk tower, the grey Sint-Servaas westwork, and the white Hoofdwacht. The square paving is the viewpoint. A surveyed tripod mark was not pinned.",
+    "references": [
+      "https://nl.wikipedia.org/wiki/Vrijthof_(Maastricht)",
+      "https://www.magischmaastricht.nl/"
+    ],
+    "anchors": [
+      "Peaked wooden chalets and a Christmas tree fill the paved square",
+      "The tall red tower of Sint-Janskerk stands left of the grey Romanesque westwork",
+      "The small white columned Hoofdwacht closes the row on the right"
+    ],
+    "solar": "Seasonal artistic interpretation of 19:20 in the evening, December 2026, Europe/Amsterdam, after the early winter sunset. Stall lanterns and a deep blue sky light the square. This depicted hour is not the Open-Meteo retrieval and is not a December 2026 forecast. The generation-time is_day flag stays on the evidence card.",
+    "source_notes": "Text-prompt-only lineage. No site photograph was supplied to the generator. The 4:5 and 9:16 plates are re-frames of that generated scene. The two reference links were consulted for arrangement only. Pure pre-text files are kept under library/pretext/Netherlands/Maastricht/. The finished masters add a 190px label bar under the photo. No scrim, tint, shadow, or text was drawn over the artwork. No credit is required. These notes are not a legal certification.",
+    "provenance_gate": "text-prompt-only. No photographic input."
+  },
+  {
+    "entry_id": "NL-01-290",
+    "region": "Limburg",
+    "city": "Valkenburg",
+    "folder": "Valkenburg",
+    "category": "christmas",
+    "comment_date": "2026-10-02",
+    "work_order": "wo-christmas-sprinkle-grok-2026-10-01",
+    "caption": "Cave Christmas market, Valkenburg",
+    "composition": "Wooden chalets in a cream marl quarry gallery of the Gemeentegrot · AI-generated artistic interpretation",
+    "description": "The Valkenburg Christmas market in this frame is the one inside the Gemeentegrot, a quarried marl cave, not a dripstone cavern. Cream and pale-yellow block walls, a flat sawn ceiling, and quarry pillars form a wide gallery. Peaked wooden chalets and warm string lights line the passage, with a Christmas tree in a widened chamber. This is a seasonal artistic interpretation of a December 2026 evening in Europe/Amsterdam. It is not a December 2026 forecast. The Open-Meteo row is generation-time model data and is not the air in the cave. Valkenburg Castle remains NL-01-050 and is not in this frame. The Fluweelengrot chapel is not this gallery. No stall name is readable. No face is readable, and no person is the subject.",
+    "alt_text": "AI-generated artistic interpretation of the Gemeentegrot Christmas market in Valkenburg, wooden chalets inside a cream marl cave",
+    "viewpoint": "Inside the Gemeentegrot gallery, looking along the passage between the stalls. The quarry floor is the viewpoint. A surveyed tripod mark was not pinned. The castle hill is outside the cave and is not shown.",
+    "references": [
+      "https://www.gemeentegrot.nl/",
+      "https://nl.wikipedia.org/wiki/Gemeentegrot"
+    ],
+    "anchors": [
+      "Cream marl walls and a flat sawn ceiling form a quarry gallery",
+      "Peaked wooden chalets line both sides of the passage",
+      "Warm string lights and a Christmas tree sit in the widened chamber"
+    ],
+    "solar": "Seasonal artistic interpretation of 20:05 in the evening, December 2026, Europe/Amsterdam. The gallery is underground, lit by stall lamps. This depicted hour is not the Open-Meteo retrieval and is not a December 2026 forecast. The generation-time is_day flag stays on the evidence card.",
+    "source_notes": "Text-prompt-only lineage. No site photograph was supplied to the generator. The 4:5 and 9:16 plates are re-frames of that generated scene. The two reference links were consulted for arrangement only. Pure pre-text files are kept under library/pretext/Netherlands/Valkenburg/. The finished masters add a 190px label bar under the photo. No scrim, tint, shadow, or text was drawn over the artwork. No credit is required. These notes are not a legal certification.",
+    "provenance_gate": "text-prompt-only. No photographic input."
+  },
+  {
+    "entry_id": "NL-01-291",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "folder": "Amsterdam",
+    "category": "christmas",
+    "comment_date": "2026-10-02",
+    "work_order": "wo-christmas-sprinkle-grok-2026-10-01",
+    "caption": "Ice Village, Museumplein, Amsterdam",
+    "composition": "Ice rink and wooden chalets on the lawn, Rijksmuseum south facade behind · AI-generated artistic interpretation",
+    "description": "The Ice Village occupies the Museumplein lawn: a smooth outdoor rink ringed by peaked wooden chalets with warm windows. Behind it, the Rijksmuseum south facade is red brick crossed by pale stone bands, with two square corner towers and spires framing an open central arch under ornate gables. This is a seasonal artistic interpretation of a December 2026 evening in Europe/Amsterdam. It is not a December 2026 forecast. The Open-Meteo row is generation-time model data and is not the sky in the picture. The museum night without the village remains NL-01-001. The letter sculpture is gone and is not restored. The Van Gogh Museum is outside the frame. No banner is readable. No face is readable, and no person is the subject.",
+    "alt_text": "AI-generated artistic interpretation of the Museumplein Ice Village in Amsterdam on a December evening, with the Rijksmuseum behind the rink",
+    "viewpoint": "From the south end of the Museumplein lawn, looking north. The rink and chalets fill the foreground. The Cuypers south facade closes the view. A surveyed tripod mark on the lawn was not pinned.",
+    "references": [
+      "https://www.rijksmuseum.nl/en",
+      "https://en.wikipedia.org/wiki/Museumplein"
+    ],
+    "anchors": [
+      "A smooth outdoor ice rink fills the foreground lawn",
+      "Peaked wooden chalets ring the rink",
+      "Red brick, pale stone bands, two corner towers, and an open central arch close the view"
+    ],
+    "solar": "Seasonal artistic interpretation of 17:35 in the evening, December 2026, Europe/Amsterdam, after the early winter sunset. Hut windows and a deep blue sky light the lawn. This depicted hour is not the Open-Meteo retrieval and is not a December 2026 forecast. The generation-time is_day flag stays on the evidence card.",
+    "source_notes": "Text-prompt-only lineage. No site photograph was supplied to the generator. The 4:5 and 9:16 plates are re-frames of that generated scene. The two reference links were consulted for arrangement only. Pure pre-text files are kept under library/pretext/Netherlands/Amsterdam/. The finished masters add a 190px label bar under the photo. No scrim, tint, shadow, or text was drawn over the artwork. No credit is required. These notes are not a legal certification.",
+    "provenance_gate": "text-prompt-only. No photographic input."
   }
 ]

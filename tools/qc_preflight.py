@@ -31,8 +31,8 @@ def main() -> None:
     errors: list[str] = []
     approvals = sorted((ROOT / "approvals").glob("NL-*.md"))
     manifests = sorted((ROOT / "manifests").glob("NL-*.json"))
-    if len(approvals) != 288 or len(manifests) != 288:
-        errors.append(f"expected 288 notes, found approvals={len(approvals)} manifests={len(manifests)}")
+    if len(approvals) != 291 or len(manifests) != 291:
+        errors.append(f"expected 291 notes, found approvals={len(approvals)} manifests={len(manifests)}")
     stamps = []
     for path in approvals:
         text = path.read_text()
@@ -60,11 +60,23 @@ def main() -> None:
             errors.append(f"{path.name} missing retrieval timestamp")
         else:
             stamps.append(m.group(1))
+        seasonal = "seasonal artistic interpretation" in text
         sm = re.search(
             r"Scenario: (\d+ \w+ \d+) · (\d{2}):(\d{2}) (Europe/Amsterdam|America/Kralendijk)",
             text,
         )
-        if not sm:
+        xmas = re.search(
+            r"Scenario: (\d{2}):(\d{2}) evening, December 2026 · Europe/Amsterdam · seasonal artistic interpretation",
+            text,
+        )
+        if seasonal:
+            if not xmas:
+                errors.append(f"{path.name} Christmas scenario label missing")
+            if "not a December 2026 forecast" not in text:
+                errors.append(f"{path.name} must say the retrieval is not a December 2026 forecast")
+            if "generation-time" not in text:
+                errors.append(f"{path.name} must label the Open-Meteo row as generation-time")
+        elif not sm:
             errors.append(f"{path.name} scenario label missing")
         elif m:
             # retrieval 2026-09-25T18:26:37+02:00
@@ -189,10 +201,14 @@ def main() -> None:
             errors.append(f"index missing {needle}")
     if "dataset.src45" in index or "dataset.src16" in index:
         errors.append("index uses camelCase dataset")
-    for n in range(1, 289):
+    for n in range(1, 292):
         token = f"NL-01-{n:03d}"
         if token not in index:
             errors.append(f"index missing {token}")
+    if 'id="christmas"' not in index or "xmas-medallion" not in index:
+        errors.append("index missing the Christmas Markets charm")
+    if not re.search(r'<section id="christmas"[^>]*\shidden>', index):
+        errors.append("Christmas Markets section must stay hidden by default")
     # NL-01-001, 003, and 004 were rebuilt 2026-09-30 and are held Candidate
     # for Cosmo re-audit. Do not treat that hold as a lost approval.
     held_for_reaudit = {"NL-01-001", "NL-01-003", "NL-01-004"}

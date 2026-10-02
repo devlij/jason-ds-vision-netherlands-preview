@@ -159,6 +159,11 @@ NL-01-209 through NL-01-224 swaps:
 - NL-01-223: Willemstad is in North Brabant, on the Hollands Diep. The church is octagonal brick with a dome and an unfinished low square tower. A tall spire was never built and is not invented. The moat around the churchyard remains.
 - NL-01-224: uses America/Kralendijk. The Kralendijk waterfront, the salt pans, the slave huts, and the Willemstoren are other scenes. This is the white church in Rincon. The bell tower was added in the 1977-1984 works, so the tower is shown. No sign is readable. Night hills are dark.
 - The other suggested sites in this batch were not already used.
+NL-01-289 through NL-01-291: Christmas Markets collection, category christmas. Candidate drafts only. No Cosmo QC score is recorded.
+- NL-01-289: Vrijthof Christmas market. The late-day square remains NL-01-014. The south side of Saint Servatius remains NL-01-049.
+- NL-01-290: the Gemeentegrot Christmas market, a marl quarry gallery. Valkenburg Castle remains NL-01-050 and is not in this frame.
+- NL-01-291: Museumplein Ice Village. The Rijksmuseum night without the village remains NL-01-001. The letter sculpture is not restored.
+- Each scene has its own Open-Meteo retrieval at generation time. The December evening on the label is a seasonal artistic interpretation and is not a December 2026 forecast.
 
 - NL-01-001 — Rijksmuseum, Amsterdam — 30 September 2026 · 21:40 Europe/Amsterdam — retrieved 2026-09-30T21:40:52+02:00
 - NL-01-002 — Prinsengracht, Amsterdam — 25 September 2026 · 18:26 Europe/Amsterdam — retrieved 2026-09-25T18:26:39+02:00
@@ -384,3 +389,70 @@ NL-01-209 through NL-01-224 swaps:
 - NL-01-222 — Onze Lieve Vrouwetoren, Amersfoort — 26 September 2026 · 03:16 Europe/Amsterdam — retrieved 2026-09-26T03:16:36+02:00
 - NL-01-223 — Koepelkerk, Willemstad — 26 September 2026 · 03:16 Europe/Amsterdam — retrieved 2026-09-26T03:16:39+02:00
 - NL-01-224 — Sint-Ludovicuskerk, Rincon — 25 September 2026 · 21:16 America/Kralendijk — retrieved 2026-09-25T21:16:41-04:00
+- NL-01-225 — Waterloopbos, Marknesse — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:36+02:00
+- NL-01-226 — Marker Wadden, Lelystad — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:38+02:00
+- NL-01-227 — De Wachter, Zuidlaren — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:40+02:00
+- NL-01-228 — Tweede Gesticht, Veenhuizen — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:42+02:00
+- NL-01-229 — Harbour, Noordpolderzijl — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:44+02:00
+- NL-01-230 — Borg Verhildersum, Leens — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:46+02:00
+- NL-01-231 — Campveerse Toren, Veere — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:48+02:00
+- NL-01-232 — Belfort, Sluis — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:51+02:00
+- NL-01-233 — Spanjaardsgat, Breda — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:53+02:00
+- NL-01-234 — Kasteel Heeswijk, Heeswijk-Dinther — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:55+02:00
+- NL-01-235 — Heksenwaag, Oudewater — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:57+02:00
+- NL-01-236 — Bergkerk, Deventer — 26 September 2026 · 03:37 Europe/Amsterdam — retrieved 2026-09-26T03:37:59+02:00
+- NL-01-237 — The Ladder, Saba — 25 September 2026 · 21:38 America/Kralendijk — retrieved 2026-09-25T21:38:01-04:00
+- NL-01-238 — Fort Amsterdam, Sint Eustatius — 25 September 2026 · 21:38 America/Kralendijk — retrieved 2026-09-25T21:38:03-04:00
+- NL-01-239 — Sluis, Makkum — 26 September 2026 · 03:38 Europe/Amsterdam — retrieved 2026-09-26T03:38:05+02:00
+- NL-01-240 — Onze-Lieve-Vrouwebasiliek, Maastricht — 26 September 2026 · 03:38 Europe/Amsterdam — retrieved 2026-09-26T03:38:07+02:00
+- NL-01-241 — Gemeenteweg, Staphorst — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:18+02:00
+- NL-01-242 — Kasteel Rechteren, Dalfsen — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:21+02:00
+- NL-01-243 — Sint-Clemenskerk, Steenwijk — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:23+02:00
+- NL-01-244 — Slot Zuylen, Oud-Zuilen — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:26+02:00
+- NL-01-245 — Kasteel Loenersloot, Loenersloot — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:28+02:00
+- NL-01-246 — Fort Honswijk, Schalkwijk — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:30+02:00
+- NL-01-247 — Oostvaardersplassen, Lelystad — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:33+02:00
+- NL-01-248 — Haven, Zeewolde — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:35+02:00
+- NL-01-249 — Kapel, Bronkhorst — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:38+02:00
+- NL-01-250 — Kasteel Ammersoyen, Ammerzoden — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:40+02:00
+- NL-01-251 — Sint-Nicolaaskerk, Dwingeloo — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:43+02:00
+- NL-01-252 — Boog van Ziel, Termunterzijl — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:45+02:00
+- NL-01-253 — Schierstins, Feanwâlden — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:48+02:00
+- NL-01-254 — Watersnoodmuseum, Ouwerkerk — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:50+02:00
+- NL-01-255 — Kasteel Arcen, Arcen — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:53+02:00
+- NL-01-256 — Sint-Petrusbasiliek, Oirschot — 26 September 2026 · 03:59 Europe/Amsterdam — retrieved 2026-09-26T03:59:55+02:00
+- NL-01-257 — 1000 Steps, Bonaire — 25 September 2026 · 22:18 America/Kralendijk — retrieved 2026-09-25T22:18:22-04:00
+- NL-01-258 — Dutch Reformed Church, Oranjestad — 25 September 2026 · 22:18 America/Kralendijk — retrieved 2026-09-25T22:18:25-04:00
+- NL-01-259 — Havezate De Havixhorst, De Wijk — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:27+02:00
+- NL-01-260 — Sint-Margaretakerk, Norg — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:30+02:00
+- NL-01-261 — Abdijkerk, Aduard — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:32+02:00
+- NL-01-262 — Borg Nienoord, Leek — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:35+02:00
+- NL-01-263 — Zuidertoren, Schiermonnikoog — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:37+02:00
+- NL-01-264 — Sint-Gertrudiskerk, Workum — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:40+02:00
+- NL-01-265 — Kerkruïne, Schokland — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:42+02:00
+- NL-01-266 — Houtribsluizen, Lelystad — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:45+02:00
+- NL-01-267 — Grote Kerk, Veere — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:47+02:00
+- NL-01-268 — Haven, Brouwershaven — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:50+02:00
+- NL-01-269 — Fort Sint Pieter, Maastricht — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:52+02:00
+- NL-01-270 — Basiliek, Meerssen — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:55+02:00
+- NL-01-271 — Begijnhof, Breda — 26 September 2026 · 04:18 Europe/Amsterdam — retrieved 2026-09-26T04:18:57+02:00
+- NL-01-272 — Hampoort, Grave — 26 September 2026 · 04:19 Europe/Amsterdam — retrieved 2026-09-26T04:19:00+02:00
+- NL-01-273 — Cellebroederspoort, Kampen — 26 September 2026 · 04:36 Europe/Amsterdam — retrieved 2026-09-26T04:36:42+02:00
+- NL-01-274 — Sint-Stephanuskerk, Hasselt — 26 September 2026 · 04:36 Europe/Amsterdam — retrieved 2026-09-26T04:36:44+02:00
+- NL-01-275 — Kasteel Het Nijenhuis, Heino — 26 September 2026 · 04:36 Europe/Amsterdam — retrieved 2026-09-26T04:36:46+02:00
+- NL-01-276 — Slot Zeist, Zeist — 26 September 2026 · 04:36 Europe/Amsterdam — retrieved 2026-09-26T04:36:48+02:00
+- NL-01-277 — Sint-Nicolaasbasiliek, IJsselstein — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:18+02:00
+- NL-01-278 — Kasteel Groeneveld, Baarn — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:47+02:00
+- NL-01-279 — Blue obelisk, Bonaire — 25 September 2026 · 22:37 America/Kralendijk — retrieved 2026-09-25T22:37:49-04:00
+- NL-01-280 — Honen Dalim, Oranjestad — 25 September 2026 · 22:37 America/Kralendijk — retrieved 2026-09-25T22:37:51-04:00
+- NL-01-281 — Basiliek, Sint Odiliënberg — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:53+02:00
+- NL-01-282 — Drogenapstoren, Zutphen — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:55+02:00
+- NL-01-283 — Gevangenpoort, Woudrichem — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:57+02:00
+- NL-01-284 — Stadhuis, Zierikzee — 26 September 2026 · 04:37 Europe/Amsterdam — retrieved 2026-09-26T04:37:59+02:00
+- NL-01-285 — Gemaal Wortman, Lelystad — 26 September 2026 · 04:38 Europe/Amsterdam — retrieved 2026-09-26T04:38:01+02:00
+- NL-01-286 — Stadhuis, Sneek — 26 September 2026 · 04:38 Europe/Amsterdam — retrieved 2026-09-26T04:38:03+02:00
+- NL-01-287 — Goudkantoor, Groningen — 26 September 2026 · 04:38 Europe/Amsterdam — retrieved 2026-09-26T04:38:06+02:00
+- NL-01-288 — Sint-Pancratiuskerk, Diever — 26 September 2026 · 04:38 Europe/Amsterdam — retrieved 2026-09-26T04:38:08+02:00
+- NL-01-289 — Vrijthof Christmas market, Maastricht — 19:20 evening, December 2026 · Europe/Amsterdam · seasonal artistic interpretation — retrieved 2026-10-02T18:07:15+02:00
+- NL-01-290 — Cave Christmas market, Valkenburg — 20:05 evening, December 2026 · Europe/Amsterdam · seasonal artistic interpretation — retrieved 2026-10-02T18:07:18+02:00
+- NL-01-291 — Ice Village, Museumplein, Amsterdam — 17:35 evening, December 2026 · Europe/Amsterdam · seasonal artistic interpretation — retrieved 2026-10-02T18:07:21+02:00

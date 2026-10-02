@@ -312,7 +312,13 @@ def time_of_day(entry_id: str, row: dict | None) -> str:
     night. The one-off index patch labeled those two dusk scenes day; the
     generator follows the weather record. If the weather file is missing,
     catalogue ``solar`` text is the fallback.
+
+    Christmas entries depict a December evening. Their Open-Meteo ``is_day``
+    flag is the generation-time retrieval, not the pictured hour, so the
+    filter follows the depicted evening.
     """
+    if (row or {}).get("category") == "christmas":
+        return "night"
     path = ROOT / "evidence" / "weather" / f"{entry_id}.json"
     if path.is_file():
         is_day = json.loads(path.read_text()).get("is_day")

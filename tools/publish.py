@@ -16,7 +16,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from composite_masters import COPYRIGHT, DESCRIPTION, SOFTWARE, TITLE, COMMENT, composite_one
+from composite_masters import COPYRIGHT, DESCRIPTION, SOFTWARE, TITLE, COMMENT, comment_text, composite_one
 from gallery_phase1 import render_gallery
 from image_sitemap import write_image_sitemap
 
@@ -119,6 +119,47 @@ def approval_md(row: dict, weather: dict, sha16: str, sha45: str, sha916: str | 
         51: "Light drizzle",
         53: "Moderate drizzle",
     }.get(weather["weather_code"], "Model sky")
+    comment = comment_text(row["comment_date"]) if row.get("comment_date") else COMMENT
+    if row.get("category") == "christmas":
+        weather_line = (
+            f"- **Weather:** Model data from Open-Meteo, retrieved {weather['retrieval_display']}, "
+            f"valid {valid_display_text} (model-valid hour {hour}:00–{hour}:59) — not a verified on-site observation. "
+            f"{sky_words} (WMO code {weather['weather_code']}), cloud cover {weather['cloud_cover']}%, "
+            f"about {weather['temperature_2m']}°C, wind about {weather['wind_speed_10m']} km/h, "
+            f"precipitation {weather['precipitation']} mm, model is_day {weather['is_day']}. "
+            f"Provider: Open-Meteo. Request coordinates: {weather['latitude']}, {weather['longitude']}. "
+            f"This row is generation-time model data. It is not a December 2026 forecast, and it is not the sky in the picture."
+        )
+        scenario_line = (
+            f"- **Scenario:** Scenario: {weather['scenario_label']}. "
+            f"The December evening is a seasonal artistic interpretation. "
+            f"It is not the Open-Meteo retrieval hour and it is not a December 2026 forecast."
+        )
+    else:
+        weather_line = (
+            f"- **Weather:** Model data from Open-Meteo, retrieved {weather['retrieval_display']}, "
+            f"valid {valid_display_text} (model-valid hour {hour}:00–{hour}:59) — not a verified on-site observation. "
+            f"{sky_words} (WMO code {weather['weather_code']}), cloud cover {weather['cloud_cover']}%, "
+            f"about {weather['temperature_2m']}°C, wind about {weather['wind_speed_10m']} km/h, "
+            f"precipitation {weather['precipitation']} mm, model is_day {weather['is_day']}. "
+            f"Provider: Open-Meteo. Request coordinates: {weather['latitude']}, {weather['longitude']}."
+        )
+        scenario_line = (
+            f"- **Scenario:** Scenario: {weather['scenario_label']}. "
+            f"The scenario minute sits inside the model-valid hour of this scene's own retrieval."
+        )
+    packet = ""
+    if row.get("work_order"):
+        packet = f"""
+## Review packet
+
+Work order {row['work_order']}. Candidate draft only. This packet does not approve the scene and does not record a QC score.
+
+- **Recognizability:** the named subject must be identifiable from the masters. The geometry anchors above are features of the subject, not incidental surroundings.
+- **Finish date in the Art. 50 comment:** {row.get('comment_date', 'pipeline default')} on all three masters.
+- **Label bar:** 190px bar under the pure photo. Left: site and city, scenario, AI disclosure. Right: Jason D’s Vision and the script name Jason A. Devlin. No text, tint, or scrim over the artwork.
+- **Weather labeling:** seasonal artistic interpretation of an evening in December 2026, Europe/Amsterdam. The Open-Meteo retrieval is generation-time model data and is not a December 2026 forecast.
+"""
     return f"""# {row['entry_id']} — {row['caption']}
 
 approval_status: Candidate
@@ -133,10 +174,10 @@ This note is an internal checklist for Cosmo QC. It does not approve the scene.
 {refs}
 - **Geometry anchors:**
 {anchors}
-- **Weather:** Model data from Open-Meteo, retrieved {weather['retrieval_display']}, valid {valid_display_text} (model-valid hour {hour}:00–{hour}:59) — not a verified on-site observation. {sky_words} (WMO code {weather['weather_code']}), cloud cover {weather['cloud_cover']}%, about {weather['temperature_2m']}°C, wind about {weather['wind_speed_10m']} km/h, precipitation {weather['precipitation']} mm, model is_day {weather['is_day']}. Provider: Open-Meteo. Request coordinates: {weather['latitude']}, {weather['longitude']}.
+{weather_line}
 - **Retrieval timestamp (unique to the second):** {weather['retrieval_timestamp']}
 - **Model time from this retrieval:** {weather['model_time']} ({weather['timezone']}, interval {weather['model_interval_seconds']} seconds)
-- **Scenario:** Scenario: {weather['scenario_label']}. The scenario minute sits inside the model-valid hour of this scene's own retrieval.
+{scenario_line}
 - **Solar / time of day:** {row['solar']}
 - **Independent description:** {row['description']}
 - **Source-use notes:** {source_notes}
@@ -161,8 +202,8 @@ Metadata only, on {art_scope}:
 - Description (tEXt): {DESCRIPTION}
 - Copyright (iTXt): {COPYRIGHT}
 - Software (tEXt): {SOFTWARE}
-- Comment (tEXt): {COMMENT}
-"""
+- Comment (tEXt): {comment}
+""" + packet
 
 
 def main() -> None:
@@ -330,6 +371,11 @@ def main() -> None:
         "- NL-01-223: Willemstad is in North Brabant, on the Hollands Diep. The church is octagonal brick with a dome and an unfinished low square tower. A tall spire was never built and is not invented. The moat around the churchyard remains.",
         "- NL-01-224: uses America/Kralendijk. The Kralendijk waterfront, the salt pans, the slave huts, and the Willemstoren are other scenes. This is the white church in Rincon. The bell tower was added in the 1977-1984 works, so the tower is shown. No sign is readable. Night hills are dark.",
         "- The other suggested sites in this batch were not already used.",
+        "NL-01-289 through NL-01-291: Christmas Markets collection, category christmas. Candidate drafts only. No Cosmo QC score is recorded.",
+        "- NL-01-289: Vrijthof Christmas market. The late-day square remains NL-01-014. The south side of Saint Servatius remains NL-01-049.",
+        "- NL-01-290: the Gemeentegrot Christmas market, a marl quarry gallery. Valkenburg Castle remains NL-01-050 and is not in this frame.",
+        "- NL-01-291: Museumplein Ice Village. The Rijksmuseum night without the village remains NL-01-001. The letter sculpture is not restored.",
+        "- Each scene has its own Open-Meteo retrieval at generation time. The December evening on the label is a seasonal artistic interpretation and is not a December 2026 forecast.",
         "",
     ]
     for row in catalogue:
@@ -359,7 +405,13 @@ def main() -> None:
         if locked:
             pass
         elif pretext.exists():
-            composite_one(row["entry_id"], row["folder"], row["caption"], weather["scenario_label"])
+            composite_one(
+                row["entry_id"],
+                row["folder"],
+                row["caption"],
+                weather["scenario_label"],
+                comment_date=row.get("comment_date"),
+            )
         else:
             have16 = (ROOT / "library" / "world" / "Netherlands" / row["folder"] / f"{row['entry_id'].lower()}-16x9.png").exists()
             have45 = (ROOT / "library" / "world" / "Netherlands" / row["folder"] / f"{row['entry_id'].lower()}-4x5.png").exists()
@@ -406,6 +458,10 @@ def main() -> None:
         )
         if digest916:
             manifest["file_9x16"] = file916
+            manifest.setdefault("format_9x16_approval_status", "Candidate")
+        if row.get("category"):
+            manifest["category"] = row["category"]
+        manifest.setdefault("approval_status", "Candidate")
         (ROOT / "manifests" / f"{row['entry_id']}.json").write_text(json.dumps(manifest, indent=2) + "\n")
         (ROOT / "approvals" / f"{row['entry_id']}.md").write_text(
             approval_md(row, weather, digest16, digest45, digest916)
@@ -418,7 +474,15 @@ def main() -> None:
 
     (ROOT / "approvals" / "CATALOGUE.md").write_text("\n".join(lines) + "\n")
     html = render_gallery(scenes)
-    (ROOT / "index.html").write_text(html)
+    # The live index carries narration and a curated daylight set. Replacing it
+    # from this template would drop Listen buttons and surface daylight masters
+    # that are still Candidate. Keep that page and patch new scenes into it.
+    live = ROOT / "index.html"
+    live_text = live.read_text() if live.exists() else ""
+    if "audio/nl-01-001-narration.mp3" in live_text:
+        print("index.html kept: live page has narration this template does not emit")
+    else:
+        live.write_text(html)
     (ROOT / "robots.txt").write_text(
         "User-agent: *\n"
         "Allow: /\n"
