@@ -20,5 +20,39 @@
   "sha256_4x5": "e90d7bc4ce0b7979b14ec117fa2e76efd19f97a745dc4a06f79f31550bd32a1c",
   "file_9x16": "Netherlands/Valkenburg/nl-01-050-9x16.png",
   "sha256_9x16": "99fd45010e6e8d2974b6782a207acde719c0f07aa34436b752ea02d517d6b850",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/Valkenburg/nl-01-050-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Valkenburg/nl-01-050-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Valkenburg/nl-01-050-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-050",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:38 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:44+02:00",
+    "generation_timestamp": "2026-10-02T11:38:34+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-050.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Valkenburg/nl-01-050-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Valkenburg/nl-01-050-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Valkenburg/nl-01-050-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "c1be0e40a52a40f46f2bc2baa21657a44e1732fb091e23bb9c72817ac39366a8",
+      "4x5": "de443b2b5d87421dbe2b7167223f303349500c275479775b35ce52c31162dd90",
+      "9x16": "48d02e054b5a19893d08aab79abe7776269bd661360f9605956ad470cfcc01b8"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Valkenburg Castle, Valkenburg",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:38 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }

@@ -20,5 +20,39 @@
   "sha256_4x5": "40704ecba9be7103ab02cda2e063b21f910b887caf15e6f519523c8e851386de",
   "file_9x16": "Netherlands/Thorn/nl-01-051-9x16.png",
   "sha256_9x16": "e666288a82969dc9462a427963dfd89edcd0468abbeb868d5d7d23da1cebec05",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/Thorn/nl-01-051-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Thorn/nl-01-051-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Thorn/nl-01-051-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-051",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 11:37 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T11:35:46+02:00",
+    "generation_timestamp": "2026-10-02T11:37:08+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-051.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Thorn/nl-01-051-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Thorn/nl-01-051-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Thorn/nl-01-051-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "dd5e3cf03e0e3112a952b34ae24082d134fb19a8b8e6f1995ec4505ec121e27a",
+      "4x5": "cc3d9c2bebef76f88e4ac4110b911976724296a5ec871d3be135f5b68f1a3892",
+      "9x16": "13d2c1490140794da56ad7c1eecec3be174f28bc4a1aad9db99ce70160dfcff2"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Abbey square, Thorn",
+    "on_image_scenario": "Scenario: 2 October 2026 · 11:37 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
