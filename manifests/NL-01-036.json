@@ -20,5 +20,39 @@
   "sha256_4x5": "e5d2caef1cc70c2b34849b009716a459ec74b2f81d50943b31ab9d42354d420d",
   "file_9x16": "Netherlands/Wijk bij Duurstede/nl-01-036-9x16.png",
   "sha256_9x16": "70839d7818337b3ada6209f53b28d934c4f83c15e07a1869eccc59a629c77eca",
-  "format_9x16_approval_status": "Candidate"
+  "format_9x16_approval_status": "Candidate",
+  "file_16x9_day": "Netherlands/Wijk bij Duurstede/nl-01-036-daylight-16x9.png",
+  "file_4x5_day": "Netherlands/Wijk bij Duurstede/nl-01-036-daylight-4x5.png",
+  "file_9x16_day": "Netherlands/Wijk bij Duurstede/nl-01-036-daylight-9x16.png",
+  "daylight_variant": {
+    "provenance": "genuine-daylight",
+    "approval_status": "Candidate",
+    "variant_of_entry_id": "NL-01-036",
+    "derived_from": "Text-prompt-only generation during Europe/Amsterdam daylight. Not derived from the night master. No image anchor.",
+    "scenario_label": "2 October 2026 · 09:48 Europe/Amsterdam",
+    "retrieval_timestamp": "2026-10-02T09:46:53+02:00",
+    "generation_timestamp": "2026-10-02T09:48:24+02:00",
+    "weather_evidence": "evidence/weather/daylight/NL-01-036.json",
+    "files": {
+      "16x9": "library/world/Netherlands/Wijk bij Duurstede/nl-01-036-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Wijk bij Duurstede/nl-01-036-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Wijk bij Duurstede/nl-01-036-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9a0fc1605d1807343f0ab55b9350193fcd90479a9d13c74b8a9c34f1c2efbf86",
+      "4x5": "f2265f802f95cbd219463e280e4cfcfa2aecc79481cf7c524133fd6436498096",
+      "9x16": "4b006639bb2bd97b1a7697186d394baa9763adad4e2c880142a895dade9dbb5f"
+    },
+    "sizes": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920"
+    },
+    "on_image_caption": "Duurstede Castle, Wijk bij Duurstede",
+    "on_image_scenario": "Scenario: 2 October 2026 · 09:48 Europe/Amsterdam",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
+  }
 }
