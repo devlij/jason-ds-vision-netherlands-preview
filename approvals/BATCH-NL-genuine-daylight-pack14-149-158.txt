@@ -1,0 +1,118 @@
+BATCH NL genuine daylight Part A pack 14
+Date: 2026-10-02
+Country: Netherlands
+Status: Candidate. Cosmo QC. Do not merge. Not a Friday-complete certificate.
+Provenance: genuine daylight. Not interim-ai. Text-prompt only. Night masters were not image anchors and were not rewritten.
+Gallery: index.html was not rebuilt. Daylight is not the card primary. The later work order wo-netherlands-daylight-primary does the toggle flip.
+
+Gate: 2026-10-02T12:24+02:00 was open (Amsterdam sunrise–sunset window about 07:43–19:15 CEST). Each site's sunrise and sunset are the Open-Meteo values on that retrieval. Every retrieval has is_day 1 and the generation minute sits inside that site's sunrise–sunset and inside the retrieval clock hour.
+
+Inventory
+- 288 NL-01 scenes. Night-primary (Open-Meteo is_day 0 on the scene weather file): 273. Day-primary (is_day 1): 15, which are NL-01-002, NL-01-005 through NL-01-016, NL-01-064, and NL-01-067. Those are not night gaps.
+- Genuine daylight masters on main before this pack: 0. Files named *-daylight-* already on main for NL-01-001 through NL-01-010 are the 2026-09-26 interim derivatives (no weather scenario, derived from the night interpretation). They are not genuine daylight.
+- Unmerged interim-ai daylight in PRs #18–#31 is held by Cosmo and is not counted as a genuine master.
+- Packs 1–9 (NL-01-017 through NL-01-107, plus pack 5 fill NL-01-108) are done as unmerged Candidate genuine sets and are not repeated here.
+- Sibling packs own NL-01-109–118 (pack 10), NL-01-119–128 (pack 11), NL-01-129–138 (pack 12), NL-01-139–148 (pack 13), and NL-01-159–168 (pack 15). This pack does not use those scene IDs.
+- Skipped NL-01-001, NL-01-003, and NL-01-004: held architectural rework until rebuilt. They are outside this slice.
+- This pack fills the night-primary slice NL-01-149 through NL-01-158. All ten are is_day 0 on the night card. None is day-primary. No scene inside the slice was skipped.
+- Genuine daylight count in this pack: 10.
+- Remaining night-primary scenes without a genuine daylight master on main: 273. After unmerged packs 1–9 (90) and this Candidate pack (10), 173 night-primary scenes still have no genuine set, including the three holds. Parallel packs 10–13 and 15 are not counted as finished.
+
+Finish
+- Label bar under the photo for 16:9 (1920×1270, photo 1920×1080) and 4:5 (864×1270, photo 864×1080).
+- 9:16 finished file is exact 1080×1920 (true 9:16). The 190px bar is inside that frame (photo 1080×1730, top-aligned crop of the text-prompt 9:16). It is not 1080×2110.
+- 4:5 is a separate text-prompt 3:4 re-frame fitted to 864×1080, not a crop of a night master.
+- Art. 50 five PNG chunks on all three masters. Comment finish date 2026-10-02.
+- On-image left: caption, Scenario line, AI-generated artistic interpretation · Not a photograph. Right: Jason D’s Vision and Jason A. Devlin.
+- Each scene has one Open-Meteo retrieval, unique to the second against the 288 night weather files and against this pack. Weather numbers below are only those retrievals. The scenario minute is the Europe/Amsterdam mtime of that scene's 16:9 generation file.
+
+Scenes
+NL-01-149  Coevorden Castle, Coevorden
+  retrieval 2026-10-02T12:24:17+02:00  generation 2026-10-02T12:25:23+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3 (Overcast)  cloud 100%  18.2°C  wind 6.5 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:35  sunset 2026-10-02T19:07
+  16x9 library/world/Netherlands/Coevorden/nl-01-149-daylight-16x9.png  d108f000c01e5efaffe4694f1ea4514ce20d529d8d47b4f2755c6ea388dc1e2f
+  4x5  library/world/Netherlands/Coevorden/nl-01-149-daylight-4x5.png  b07333efc428307484e826fce145e55b2be7409f19ff76ea606abef708d14f24
+  9x16 library/world/Netherlands/Coevorden/nl-01-149-daylight-9x16.png  1080x1920  6c756474b9bdcd9053664155d8cdd13f2f2915dc5d057dce55058fff0d0f0052
+
+NL-01-150  Dwingeloo telescope, Dwingeloo
+  retrieval 2026-10-02T12:24:19+02:00  generation 2026-10-02T12:25:24+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3 (Overcast)  cloud 100%  18.0°C  wind 5.0 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:37  sunset 2026-10-02T19:09
+  16x9 library/world/Netherlands/Dwingeloo/nl-01-150-daylight-16x9.png  4b58e037b17d52e753c81d218e4dc93efe5072ded02545ac575a5d2c13ae49d6
+  4x5  library/world/Netherlands/Dwingeloo/nl-01-150-daylight-4x5.png  801f6de34555eb3b66ca394d24cd2a952b05b3e31601116d327c45f1eb859648
+  9x16 library/world/Netherlands/Dwingeloo/nl-01-150-daylight-9x16.png  1080x1920  d9830df4fc974cd13956dcdea357cf7c5629e9038516af8b2a2a9bc008802179
+
+NL-01-151  Hanging kitchens, Appingedam
+  retrieval 2026-10-02T12:24:22+02:00  generation 2026-10-02T12:25:21+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1 (Mainly clear)  cloud 39%  18.2°C  wind 5.8 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:35  sunset 2026-10-02T19:07
+  16x9 library/world/Netherlands/Appingedam/nl-01-151-daylight-16x9.png  e0acd9ecbbdeb41ba92c8c3778c8be59707c506043eec3029a1a3d239a614087
+  4x5  library/world/Netherlands/Appingedam/nl-01-151-daylight-4x5.png  8ae920b7ed6d2a98ab3fc6931dba8ad573014b4e992ab94e23248862dfef77fe
+  9x16 library/world/Netherlands/Appingedam/nl-01-151-daylight-9x16.png  1080x1920  c4023b29a95419e9b296be27c9b567622e8ac299d97ae1b17dbb7f36ea5c3bc4
+
+NL-01-152  Markt, Ootmarsum
+  retrieval 2026-10-02T12:24:25+02:00  generation 2026-10-02T12:27:03+02:00
+  scenario 2 October 2026 · 12:27 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2 (Partly cloudy)  cloud 65%  17.5°C  wind 5.4 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:35  sunset 2026-10-02T19:07
+  16x9 library/world/Netherlands/Ootmarsum/nl-01-152-daylight-16x9.png  4ce1115c0870d7313191a5824b4e1b1ff3325d32f170bfb1baed50953a367fbd
+  4x5  library/world/Netherlands/Ootmarsum/nl-01-152-daylight-4x5.png  fd47aaf9f55c97fa51a6eda563be303b57402e34cc7510cfd8d9db4e27858bc1
+  9x16 library/world/Netherlands/Ootmarsum/nl-01-152-daylight-9x16.png  1080x1920  6fee18fa2d51e0521b9eaae187d7b6c0033fb54d62694021584088434b7ebfde
+
+NL-01-153  Windmills, Schiedam
+  retrieval 2026-10-02T12:24:27+02:00  generation 2026-10-02T12:25:38+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0 (Clear sky)  cloud 16%  18.3°C  wind 9.7 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:44  sunset 2026-10-02T19:17
+  16x9 library/world/Netherlands/Schiedam/nl-01-153-daylight-16x9.png  a931a657eacfcce01fa20536c0422ee3c15a7269312ef7caf4c38bd4e354c4de
+  4x5  library/world/Netherlands/Schiedam/nl-01-153-daylight-4x5.png  1b8cfd110a9505f0a6bf472f94aa6346915f195ae58add8e4ea6a7ce3c8c1c49
+  9x16 library/world/Netherlands/Schiedam/nl-01-153-daylight-9x16.png  1080x1920  3c8f8dde38a441278f1b6708e144e017ca920f5f59644bfa89ce74da089b492f
+
+NL-01-154  Maeslantkering, Hoek van Holland
+  retrieval 2026-10-02T12:24:30+02:00  generation 2026-10-02T12:25:36+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 0 (Clear sky)  cloud 5%  18.3°C  wind 9.4 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:45  sunset 2026-10-02T19:18
+  16x9 library/world/Netherlands/Hoek van Holland/nl-01-154-daylight-16x9.png  af4be377e44c96c0aa5a1c17841937457f90e76e145fd904eeba0676823069d2
+  4x5  library/world/Netherlands/Hoek van Holland/nl-01-154-daylight-4x5.png  45923d9979885a14019cf0fca10ea082b44a114960359384d2a7e762174b37be
+  9x16 library/world/Netherlands/Hoek van Holland/nl-01-154-daylight-9x16.png  1080x1920  3fd6a1da17bea707f366fdb3a3243174c0f164da6911c5fb6ec3fc26e4bcdec8
+
+NL-01-155  Magere Brug, Amsterdam
+  retrieval 2026-10-02T12:24:32+02:00  generation 2026-10-02T12:25:52+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 2 (Partly cloudy)  cloud 60%  18.5°C  wind 8.3 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:43  sunset 2026-10-02T19:15
+  16x9 library/world/Netherlands/Amsterdam/nl-01-155-daylight-16x9.png  31f3dd98da9a0a69000d3e7b4bf96f3dfd4974ab1b9971534fe08ef7ae00d3dc
+  4x5  library/world/Netherlands/Amsterdam/nl-01-155-daylight-4x5.png  45649a64caecde89338c7411564a4437e31197ce7f459c748fb79f54b66d5405
+  9x16 library/world/Netherlands/Amsterdam/nl-01-155-daylight-9x16.png  1080x1920  10510c3891a94879cd3b11e445d6abf78a45119ddc1983abd44a2cb91b855cc6
+
+NL-01-156  De Adriaan, Haarlem
+  retrieval 2026-10-02T12:24:35+02:00  generation 2026-10-02T12:25:54+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 1 (Mainly clear)  cloud 39%  18.7°C  wind 7.9 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:44  sunset 2026-10-02T19:16
+  16x9 library/world/Netherlands/Haarlem/nl-01-156-daylight-16x9.png  ba9a94a382d44d3fbf34a8a3db4c250d6ecbbdb95c105c086d13d06e69a6f64f
+  4x5  library/world/Netherlands/Haarlem/nl-01-156-daylight-4x5.png  882837fcbb4c85feeb73331f1710112c6af728a507dc5c566a63e7548ba14649
+  9x16 library/world/Netherlands/Haarlem/nl-01-156-daylight-9x16.png  1080x1920  5d39ad4b22f86ca8a97ededd0bb0a53137f576d47eef9d96cb0a3c8af4292b66
+
+NL-01-157  Eusebiuskerk, Arnhem
+  retrieval 2026-10-02T12:24:38+02:00  generation 2026-10-02T12:25:56+02:00
+  scenario 2 October 2026 · 12:25 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3 (Overcast)  cloud 100%  17.9°C  wind 6.5 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:38  sunset 2026-10-02T19:11
+  16x9 library/world/Netherlands/Arnhem/nl-01-157-daylight-16x9.png  24874df780c4630c12e85a36944bc22788119f23ccd3f2c211ae8f68ee3fd7c5
+  4x5  library/world/Netherlands/Arnhem/nl-01-157-daylight-4x5.png  308f9c85d89c524f22f94ba32bbf07a62536517eef870adde9757c6b2cfed45c
+  9x16 library/world/Netherlands/Arnhem/nl-01-157-daylight-9x16.png  1080x1920  c3f6a046d08998ea77d734ddf560a997c37468f24e2466035e9ebe96dd7fb98b
+
+NL-01-158  Basilica, Hulst
+  retrieval 2026-10-02T12:24:40+02:00  generation 2026-10-02T12:27:02+02:00
+  scenario 2 October 2026 · 12:27 Europe/Amsterdam
+  Open-Meteo is_day 1  WMO 3 (Overcast)  cloud 92%  16.6°C  wind 7.2 km/h  precip 0.0 mm
+  sunrise 2026-10-02T07:45  sunset 2026-10-02T19:19
+  16x9 library/world/Netherlands/Hulst/nl-01-158-daylight-16x9.png  b6d89fcc9647820fd0952c7e5177d786d84a2316b98a8953985b54a62175709c
+  4x5  library/world/Netherlands/Hulst/nl-01-158-daylight-4x5.png  92f8511812040a89cfc951eebf68353ff7a859cd566094887463aeda6f7ab923
+  9x16 library/world/Netherlands/Hulst/nl-01-158-daylight-9x16.png  1080x1920  2e1eb49f9aa32325e6ffa8a9e57e3c0c96e739a6995751443b5e159a7c76bb19

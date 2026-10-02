@@ -1,0 +1,555 @@
+{
+  "provenance": "genuine-daylight",
+  "scenes": [
+    {
+      "entry_id": "NL-01-149",
+      "caption": "Coevorden Castle, Coevorden",
+      "folder": "Coevorden",
+      "scenario_label": "2 October 2026 \u00b7 12:25 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:24:17+02:00",
+      "generation_timestamp": "2026-10-02T12:25:23+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:25:23+02:00",
+        "4x5": "2026-10-02T12:27:02+02:00",
+        "9x16": "2026-10-02T12:27:18+02:00"
+      },
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 18.2,
+      "wind_speed_10m": 6.5,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:35",
+      "sunset": "2026-10-02T19:07",
+      "files": {
+        "16x9": "library/world/Netherlands/Coevorden/nl-01-149-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Coevorden/nl-01-149-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Coevorden/nl-01-149-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Coevorden/nl-01-149-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Coevorden/nl-01-149-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Coevorden/nl-01-149-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "d108f000c01e5efaffe4694f1ea4514ce20d529d8d47b4f2755c6ea388dc1e2f",
+        "4x5": "b07333efc428307484e826fce145e55b2be7409f19ff76ea606abef708d14f24",
+        "9x16": "6c756474b9bdcd9053664155d8cdd13f2f2915dc5d057dce55058fff0d0f0052"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      },
+      "night_sha256_unchanged": {
+        "16x9": "6051286295927f751c051541fdea43f8e13be8637b9fbe49d5200cef39896cb6",
+        "4x5": "aa259856a8f08984a343bc4bb1e9168ee68d2ad25b992dc0bebd9718ec970af0",
+        "9x16": "234eefb1faaaed8e98616bad0e5e61d0f77b23f615963ddebdd4a73b7ec2df0b"
+      }
+    },
+    {
+      "entry_id": "NL-01-150",
+      "caption": "Dwingeloo telescope, Dwingeloo",
+      "folder": "Dwingeloo",
+      "scenario_label": "2 October 2026 \u00b7 12:25 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:24:19+02:00",
+      "generation_timestamp": "2026-10-02T12:25:24+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:25:24+02:00",
+        "4x5": "2026-10-02T12:27:19+02:00",
+        "9x16": "2026-10-02T12:27:17+02:00"
+      },
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 18.0,
+      "wind_speed_10m": 5.0,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:37",
+      "sunset": "2026-10-02T19:09",
+      "files": {
+        "16x9": "library/world/Netherlands/Dwingeloo/nl-01-150-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Dwingeloo/nl-01-150-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Dwingeloo/nl-01-150-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Dwingeloo/nl-01-150-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Dwingeloo/nl-01-150-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Dwingeloo/nl-01-150-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "4b58e037b17d52e753c81d218e4dc93efe5072ded02545ac575a5d2c13ae49d6",
+        "4x5": "801f6de34555eb3b66ca394d24cd2a952b05b3e31601116d327c45f1eb859648",
+        "9x16": "d9830df4fc974cd13956dcdea357cf7c5629e9038516af8b2a2a9bc008802179"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      },
+      "night_sha256_unchanged": {
+        "16x9": "af4482964097d49b29da1afc57355a84a4f65e39d9105dd605078a775e3a204c",
+        "4x5": "44b4c0a31919f69d049f869ad482afe96e350c1257a21d2ab39c33ca13d2a234",
+        "9x16": "c1d56c5ff7efd17b5f35217e0e3a092e107e8cb98bfde36329460c9b99aac675"
+      }
+    },
+    {
+      "entry_id": "NL-01-151",
+      "caption": "Hanging kitchens, Appingedam",
+      "folder": "Appingedam",
+      "scenario_label": "2 October 2026 \u00b7 12:25 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:24:22+02:00",
+      "generation_timestamp": "2026-10-02T12:25:21+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:25:21+02:00",
+        "4x5": "2026-10-02T12:29:59+02:00",
+        "9x16": "2026-10-02T12:29:58+02:00"
+      },
+      "weather_code": 1,
+      "cloud_cover": 39,
+      "temperature_2m": 18.2,
+      "wind_speed_10m": 5.8,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:35",
+      "sunset": "2026-10-02T19:07",
+      "files": {
+        "16x9": "library/world/Netherlands/Appingedam/nl-01-151-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Appingedam/nl-01-151-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Appingedam/nl-01-151-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Appingedam/nl-01-151-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Appingedam/nl-01-151-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Appingedam/nl-01-151-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "e0acd9ecbbdeb41ba92c8c3778c8be59707c506043eec3029a1a3d239a614087",
+        "4x5": "8ae920b7ed6d2a98ab3fc6931dba8ad573014b4e992ab94e23248862dfef77fe",
+        "9x16": "c4023b29a95419e9b296be27c9b567622e8ac299d97ae1b17dbb7f36ea5c3bc4"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      },
+      "night_sha256_unchanged": {
+        "16x9": "c68ccc6e22aaca6aa104bd739f062d571b8d161eab32075ce8ffb2d2e2f9b5db",
+        "4x5": "09a7937fcc43a53b29986b7449b94e65f4a7f9b07e7348ce8703b7f04ff3f5cb",
+        "9x16": "5df9197ae52797d35988701abfa6cc7d4b26e0f4a8e7ad5ca53b3c543edf6dd9"
+      }
+    },
+    {
+      "entry_id": "NL-01-152",
+      "caption": "Markt, Ootmarsum",
+      "folder": "Ootmarsum",
+      "scenario_label": "2 October 2026 \u00b7 12:27 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:24:25+02:00",
+      "generation_timestamp": "2026-10-02T12:27:03+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:27:03+02:00",
+        "4x5": "2026-10-02T12:29:04+02:00",
+        "9x16": "2026-10-02T12:29:05+02:00"
+      },
+      "weather_code": 2,
+      "cloud_cover": 65,
+      "temperature_2m": 17.5,
+      "wind_speed_10m": 5.4,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:35",
+      "sunset": "2026-10-02T19:07",
+      "files": {
+        "16x9": "library/world/Netherlands/Ootmarsum/nl-01-152-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Ootmarsum/nl-01-152-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Ootmarsum/nl-01-152-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Ootmarsum/nl-01-152-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Ootmarsum/nl-01-152-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Ootmarsum/nl-01-152-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "4ce1115c0870d7313191a5824b4e1b1ff3325d32f170bfb1baed50953a367fbd",
+        "4x5": "fd47aaf9f55c97fa51a6eda563be303b57402e34cc7510cfd8d9db4e27858bc1",
+        "9x16": "6fee18fa2d51e0521b9eaae187d7b6c0033fb54d62694021584088434b7ebfde"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      },
+      "night_sha256_unchanged": {
+        "16x9": "ee2d413ec248b6d6bf749f2e30050843dedaa204693417a7f62083b88a01199f",
+        "4x5": "5511927d772974d45bd2e8dbeaf3e97c2c0e9feac3bd7767237b9ce441e96b71",
+        "9x16": "111f5e9fe94eda7b54895fbc3a76b35e83ed189262f3285f65fd007b7bacbde0"
+      }
+    },
+    {
+      "entry_id": "NL-01-153",
+      "caption": "Windmills, Schiedam",
+      "folder": "Schiedam",
+      "scenario_label": "2 October 2026 \u00b7 12:25 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:24:27+02:00",
+      "generation_timestamp": "2026-10-02T12:25:38+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:25:38+02:00",
+        "4x5": "2026-10-02T12:27:35+02:00",
+        "9x16": "2026-10-02T12:27:47+02:00"
+      },
+      "weather_code": 0,
+      "cloud_cover": 16,
+      "temperature_2m": 18.3,
+      "wind_speed_10m": 9.7,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:44",
+      "sunset": "2026-10-02T19:17",
+      "files": {
+        "16x9": "library/world/Netherlands/Schiedam/nl-01-153-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Schiedam/nl-01-153-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Schiedam/nl-01-153-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Schiedam/nl-01-153-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Schiedam/nl-01-153-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Schiedam/nl-01-153-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "a931a657eacfcce01fa20536c0422ee3c15a7269312ef7caf4c38bd4e354c4de",
+        "4x5": "1b8cfd110a9505f0a6bf472f94aa6346915f195ae58add8e4ea6a7ce3c8c1c49",
+        "9x16": "3c8f8dde38a441278f1b6708e144e017ca920f5f59644bfa89ce74da089b492f"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      },
+      "night_sha256_unchanged": {
+        "16x9": "611c04aacf672bd69c14ae2f32f96fb176cdbb1d5b4b7c07c501033f8423160b",
+        "4x5": "43097c48dffc0fd781e36060904b92fb5d8ba166ad24f25c5231417bb146615b",
+        "9x16": "d9d2b869db9eb59880f94c2d7b98221f6b652f5bf45afed0d252b37432e630b3"
+      }
+    },
+    {
+      "entry_id": "NL-01-154",
+      "caption": "Maeslantkering, Hoek van Holland",
+      "folder": "Hoek van Holland",
+      "scenario_label": "2 October 2026 \u00b7 12:25 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:24:30+02:00",
+      "generation_timestamp": "2026-10-02T12:25:36+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:25:36+02:00",
+        "4x5": "2026-10-02T12:28:13+02:00",
+        "9x16": "2026-10-02T12:28:13+02:00"
+      },
+      "weather_code": 0,
+      "cloud_cover": 5,
+      "temperature_2m": 18.3,
+      "wind_speed_10m": 9.4,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:45",
+      "sunset": "2026-10-02T19:18",
+      "files": {
+        "16x9": "library/world/Netherlands/Hoek van Holland/nl-01-154-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Hoek van Holland/nl-01-154-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Hoek van Holland/nl-01-154-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Hoek van Holland/nl-01-154-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Hoek van Holland/nl-01-154-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Hoek van Holland/nl-01-154-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "af4be377e44c96c0aa5a1c17841937457f90e76e145fd904eeba0676823069d2",
+        "4x5": "45923d9979885a14019cf0fca10ea082b44a114960359384d2a7e762174b37be",
+        "9x16": "3fd6a1da17bea707f366fdb3a3243174c0f164da6911c5fb6ec3fc26e4bcdec8"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      },
+      "night_sha256_unchanged": {
+        "16x9": "d1d19488dd0089da7eb016e4b96ed957b14081f5fc954ff99b7eff54c9e093f9",
+        "4x5": "7d7aff0675c5e9d32fdd8b6fd1431cb91ccd0ca1ba60d45e964dc9c1283c7612",
+        "9x16": "b61ce4c5e59fcc74ddd1d76a3ddb9e3a5a953aa12b0f8d84b4e7907ca18c9482"
+      }
+    },
+    {
+      "entry_id": "NL-01-155",
+      "caption": "Magere Brug, Amsterdam",
+      "folder": "Amsterdam",
+      "scenario_label": "2 October 2026 \u00b7 12:25 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:24:32+02:00",
+      "generation_timestamp": "2026-10-02T12:25:52+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:25:52+02:00",
+        "4x5": "2026-10-02T12:28:09+02:00",
+        "9x16": "2026-10-02T12:28:29+02:00"
+      },
+      "weather_code": 2,
+      "cloud_cover": 60,
+      "temperature_2m": 18.5,
+      "wind_speed_10m": 8.3,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:43",
+      "sunset": "2026-10-02T19:15",
+      "files": {
+        "16x9": "library/world/Netherlands/Amsterdam/nl-01-155-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Amsterdam/nl-01-155-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Amsterdam/nl-01-155-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Amsterdam/nl-01-155-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Amsterdam/nl-01-155-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Amsterdam/nl-01-155-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "31f3dd98da9a0a69000d3e7b4bf96f3dfd4974ab1b9971534fe08ef7ae00d3dc",
+        "4x5": "45649a64caecde89338c7411564a4437e31197ce7f459c748fb79f54b66d5405",
+        "9x16": "10510c3891a94879cd3b11e445d6abf78a45119ddc1983abd44a2cb91b855cc6"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      },
+      "night_sha256_unchanged": {
+        "16x9": "ec76816cc98a162b1113a69ada45037ade3932b41b41db0a45083d6dcb91e4dd",
+        "4x5": "871decfb489882e463864c5b3462bc89c572e34a655abf0ebccdca0e2653bb93",
+        "9x16": "1715ded5e740aeab8449079985d8d99ad46e6254a403326b46cb0992560fec1b"
+      }
+    },
+    {
+      "entry_id": "NL-01-156",
+      "caption": "De Adriaan, Haarlem",
+      "folder": "Haarlem",
+      "scenario_label": "2 October 2026 \u00b7 12:25 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:24:35+02:00",
+      "generation_timestamp": "2026-10-02T12:25:54+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:25:54+02:00",
+        "4x5": "2026-10-02T12:28:31+02:00",
+        "9x16": "2026-10-02T12:28:28+02:00"
+      },
+      "weather_code": 1,
+      "cloud_cover": 39,
+      "temperature_2m": 18.7,
+      "wind_speed_10m": 7.9,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:44",
+      "sunset": "2026-10-02T19:16",
+      "files": {
+        "16x9": "library/world/Netherlands/Haarlem/nl-01-156-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Haarlem/nl-01-156-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Haarlem/nl-01-156-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Haarlem/nl-01-156-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Haarlem/nl-01-156-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Haarlem/nl-01-156-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "ba9a94a382d44d3fbf34a8a3db4c250d6ecbbdb95c105c086d13d06e69a6f64f",
+        "4x5": "882837fcbb4c85feeb73331f1710112c6af728a507dc5c566a63e7548ba14649",
+        "9x16": "5d39ad4b22f86ca8a97ededd0bb0a53137f576d47eef9d96cb0a3c8af4292b66"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      },
+      "night_sha256_unchanged": {
+        "16x9": "d4f65b46a201145d39a4eab384a95604b94f059a39fd45a8ad33e8cd200890c6",
+        "4x5": "10c6f005250724084c404a8953482557b25b4897dfbd9412005b27d74229dd78",
+        "9x16": "e4495e005217140a4059f59286305ef1422c23597345cefdbc55410717cd7ada"
+      }
+    },
+    {
+      "entry_id": "NL-01-157",
+      "caption": "Eusebiuskerk, Arnhem",
+      "folder": "Arnhem",
+      "scenario_label": "2 October 2026 \u00b7 12:25 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:24:38+02:00",
+      "generation_timestamp": "2026-10-02T12:25:56+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:25:56+02:00",
+        "4x5": "2026-10-02T12:28:44+02:00",
+        "9x16": "2026-10-02T12:28:46+02:00"
+      },
+      "weather_code": 3,
+      "cloud_cover": 100,
+      "temperature_2m": 17.9,
+      "wind_speed_10m": 6.5,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:38",
+      "sunset": "2026-10-02T19:11",
+      "files": {
+        "16x9": "library/world/Netherlands/Arnhem/nl-01-157-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Arnhem/nl-01-157-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Arnhem/nl-01-157-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Arnhem/nl-01-157-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Arnhem/nl-01-157-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Arnhem/nl-01-157-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "24874df780c4630c12e85a36944bc22788119f23ccd3f2c211ae8f68ee3fd7c5",
+        "4x5": "308f9c85d89c524f22f94ba32bbf07a62536517eef870adde9757c6b2cfed45c",
+        "9x16": "c3f6a046d08998ea77d734ddf560a997c37468f24e2466035e9ebe96dd7fb98b"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      },
+      "night_sha256_unchanged": {
+        "16x9": "e57c78794f7b6eea1d6670a1a203c7ae33cab2cd97a262f81e4c92dbe1932e5f",
+        "4x5": "6256ea96d34c62f33170640fd19b33a937ad18d27af7f2b3ee8863576dcaf4d9",
+        "9x16": "8093d8debf2228d5703ae5af5a01e3f1976c2eaf426a2e37d25dd5185916fad8"
+      }
+    },
+    {
+      "entry_id": "NL-01-158",
+      "caption": "Basilica, Hulst",
+      "folder": "Hulst",
+      "scenario_label": "2 October 2026 \u00b7 12:27 Europe/Amsterdam",
+      "retrieval_timestamp": "2026-10-02T12:24:40+02:00",
+      "generation_timestamp": "2026-10-02T12:27:02+02:00",
+      "generation_timestamps": {
+        "16x9": "2026-10-02T12:27:02+02:00",
+        "4x5": "2026-10-02T12:29:07+02:00",
+        "9x16": "2026-10-02T12:29:19+02:00"
+      },
+      "weather_code": 3,
+      "cloud_cover": 92,
+      "temperature_2m": 16.6,
+      "wind_speed_10m": 7.2,
+      "precipitation": 0.0,
+      "is_day": 1,
+      "sunrise": "2026-10-02T07:45",
+      "sunset": "2026-10-02T19:19",
+      "files": {
+        "16x9": "library/world/Netherlands/Hulst/nl-01-158-daylight-16x9.png",
+        "4x5": "library/world/Netherlands/Hulst/nl-01-158-daylight-4x5.png",
+        "9x16": "library/world/Netherlands/Hulst/nl-01-158-daylight-9x16.png"
+      },
+      "pretext": {
+        "16x9": "library/pretext/Netherlands/Hulst/nl-01-158-daylight-16x9.png",
+        "4x5": "library/pretext/Netherlands/Hulst/nl-01-158-daylight-4x5.png",
+        "9x16": "library/pretext/Netherlands/Hulst/nl-01-158-daylight-9x16.png"
+      },
+      "sha256": {
+        "16x9": "b6d89fcc9647820fd0952c7e5177d786d84a2316b98a8953985b54a62175709c",
+        "4x5": "92f8511812040a89cfc951eebf68353ff7a859cd566094887463aeda6f7ab923",
+        "9x16": "2e1eb49f9aa32325e6ffa8a9e57e3c0c96e739a6995751443b5e159a7c76bb19"
+      },
+      "sizes": {
+        "16x9": [
+          1920,
+          1270
+        ],
+        "4x5": [
+          864,
+          1270
+        ],
+        "9x16": [
+          1080,
+          1920
+        ]
+      },
+      "night_sha256_unchanged": {
+        "16x9": "71f69ce7a4def8180dbb2cf4c665ee22e38fa8ff8b15bcefcacd39e6c782e4fe",
+        "4x5": "3f944c11236d6f13a5294aa75e41f6efc877a5e28a5d45246a62b288159cc4d9",
+        "9x16": "5f603f3dd0217d837b055cca02bb5b4d18cf9255665e2a8cd43713b8de274757"
+      }
+    }
+  ]
+}
