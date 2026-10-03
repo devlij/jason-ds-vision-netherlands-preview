@@ -2674,7 +2674,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Arnhem/nl-01-046-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-047",
@@ -2855,7 +2857,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Maastricht/nl-01-049-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-050",
@@ -2914,7 +2918,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Valkenburg/nl-01-050-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-051",
@@ -2973,7 +2979,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Thorn/nl-01-051-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-052",
@@ -3032,7 +3040,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Vaals/nl-01-052-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-053",
@@ -3091,7 +3101,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Lelystad/nl-01-053-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-054",
@@ -3150,7 +3162,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Urk/nl-01-054-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-055",
@@ -3209,7 +3223,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Schokland/nl-01-055-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-056",
@@ -3393,7 +3409,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Franeker/nl-01-058-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-059",
@@ -3453,7 +3471,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Hindeloopen/nl-01-059-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-060",
@@ -3575,7 +3595,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Bourtange/nl-01-061-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-062",
@@ -3635,7 +3657,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true
+      "daylight_primary": true,
+      "motion_clip": "library/world/Netherlands/Borger/nl-01-062-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-063",
