@@ -954,18 +954,21 @@ SWEEP_SCENES = (
         "window_start": 259.0,
         "window_end": 349.0,
     },
-    # The square tower and the outer-bailey roofs run x 977–1636, wider
-    # than an 18% glide can hold. This clip eases only across the slack
-    # that keeps that mass inside every frame with a 12px pad. The main
-    # tower already touches the top row of the daylight plate, so the
-    # frame keeps that edge. The default center sweep is unchanged.
+    # The keep and the cone turrets, including the far-left round turret,
+    # run x 890–1642. That is wider than an 18% glide can hold. The previous
+    # window ended at 965 and cut that left turret. This clip shortens the
+    # glide so the left turret, the keep, and the other cone turrets stay
+    # inside every frame with a 12px pad. The right curtain wall past that
+    # span stays out. The main tower already touches the top row of the
+    # daylight plate, so the frame keeps that edge. The default center
+    # sweep is unchanged.
     {
         "entry_id": "NL-01-175",
         "folder": "'s-Heerenberg",
-        "subject_x": 1306.5,
-        "subject_span": (977.0, 1636.0),
-        "window_start": 784.0,
-        "window_end": 965.0,
+        "subject_x": 1266.0,
+        "subject_span": (890.0, 1642.0),
+        "window_start": 790.0,
+        "window_end": 878.0,
     },
     # The white column and its red stripe stand left of plate center.
     # Same glide, aimed at the tower measured on this daylight plate
@@ -1035,19 +1038,22 @@ SWEEP_SCENES = (
     # plate and the off-centre tower stands near x 1457, so a 4:5 frame
     # cannot keep the manor and that tower.
     #
-    # The south-church gables and spire stand on the left of the plate.
-    # An 18% glide on their center would leave the plate. This clip eases
-    # a shorter distance from the left edge and stops while every gable
-    # (x 40–450) is still inside the 864 frame. The spire tip is near the
-    # top of the daylight plate, so the frame keeps that edge. The default
-    # center sweep is unchanged.
+    # The chapel is one brick nave. Its roof rises from about x 540 to the
+    # right edge of the plate, so the whole building is wider than 864.
+    # The near gable is that tall end: the roof meets the top of the
+    # daylight plate around x 1820 and the wall continues to the plate
+    # edge. This clip holds the largest portion that still includes that
+    # gable and the nave windows (about x 1061–1899), eased only across
+    # the slack that keeps them inside the 864 frame. The far end of the
+    # nave, left of this window, does not fit. The default center sweep
+    # is unchanged.
     {
         "entry_id": "NL-01-186",
         "folder": "Ter Apel",
-        "subject_x": 245.0,
-        "subject_span": (40.0, 450.0),
-        "window_start": 0.0,
-        "window_end": 28.0,
+        "subject_x": 1480.0,
+        "subject_span": (1068.0, 1892.0),
+        "window_start": 1040.0,
+        "window_end": 1056.0,
     },
     # NL-01-187 is not swept. The water gate and the stage mill's sails
     # together run wider than 864, so a 4:5 frame cannot keep both.
