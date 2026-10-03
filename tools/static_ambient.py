@@ -412,6 +412,50 @@ SWEEP_SCENES = (
         "subject_x": 1207.0,
         "subject_span": (1012.0, 1402.0),
     },
+    # The lighthouse stands left of plate center. Same glide, aimed as close
+    # to the tower as the plate allows (measured x 464–710). The tower center
+    # would put the window off the plate. The shaft stays inside the 864 frame.
+    # The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-090",
+        "folder": "Noordwijk",
+        "subject_x": 605.0,
+        "subject_span": (464.0, 710.0),
+    },
+    # The Speeltoren stands left of plate center. Same glide, aimed at the
+    # tower measured on this daylight plate (x 613–860), so the shaft stays
+    # inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-091",
+        "folder": "Edam",
+        "subject_x": 736.5,
+        "subject_span": (613.0, 860.0),
+    },
+    {"entry_id": "NL-01-092", "folder": "Monnickendam"},
+    {"entry_id": "NL-01-093", "folder": "Spakenburg"},
+    # The Vischpoort stands left of plate center. Same glide, aimed at the
+    # gate measured on this daylight plate (x 521–707), so the arch stays
+    # inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-094",
+        "folder": "Harderwijk",
+        "subject_x": 614.0,
+        "subject_span": (521.0, 707.0),
+    },
+    {"entry_id": "NL-01-095", "folder": "Doesburg"},
+    {"entry_id": "NL-01-096", "folder": "Roermond"},
+    {"entry_id": "NL-01-097", "folder": "Bergen op Zoom"},
+    {"entry_id": "NL-01-098", "folder": "s-Hertogenbosch"},
+    {"entry_id": "NL-01-099", "folder": "Tilburg"},
+    {"entry_id": "NL-01-100", "folder": "Helmond"},
+    # The basilica stands right of plate center. Same glide, aimed as close
+    # to the nave and onion dome (measured x 947–1675) as the plate allows.
+    # The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-101",
+        "folder": "Venlo",
+        "subject_x": 1315.2,
+    },
 )
 
 
