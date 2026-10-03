@@ -380,6 +380,18 @@ SWEEP_SCENES = (
     {"entry_id": "NL-01-059", "folder": "Hindeloopen"},
     {"entry_id": "NL-01-061", "folder": "Bourtange"},
     {"entry_id": "NL-01-062", "folder": "Borger"},
+    {"entry_id": "NL-01-063", "folder": "Dwingeloo"},
+    {"entry_id": "NL-01-065", "folder": "Oranjestad"},
+    {"entry_id": "NL-01-066", "folder": "The Bottom"},
+    {"entry_id": "NL-01-068", "folder": "Heusden"},
+    {"entry_id": "NL-01-069", "folder": "Nuenen"},
+    {"entry_id": "NL-01-070", "folder": "Zwolle"},
+    {"entry_id": "NL-01-071", "folder": "Kampen"},
+    {"entry_id": "NL-01-072", "folder": "Elburg"},
+    {"entry_id": "NL-01-073", "folder": "Zutphen"},
+    {"entry_id": "NL-01-074", "folder": "Arnhem"},
+    {"entry_id": "NL-01-075", "folder": "Nijmegen"},
+    {"entry_id": "NL-01-076", "folder": "Naarden"},
 )
 
 
