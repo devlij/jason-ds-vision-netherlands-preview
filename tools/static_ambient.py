@@ -1091,6 +1091,181 @@ SWEEP_SCENES = (
         "subject_x": 1314.0,
         "subject_span": (1255.0, 1499.0),
     },
+    # The timber barn's raised roof, glass gable, and lookout measure about
+    # x 688–1216. That is wider than an 18% glide can hold. This clip eases
+    # only across the slack that keeps that roof inside every frame with a
+    # 12px pad. The reed bank left of the roof stays out. The default center
+    # sweep is unchanged.
+    {
+        "entry_id": "NL-01-194",
+        "folder": "Lelystad",
+        "subject_x": 952.0,
+        "subject_span": (688.0, 1216.0),
+        "window_start": 364.0,
+        "window_end": 676.0,
+    },
+    # NL-01-195 is not swept. The Wave's bays run about x 336–1580, wider
+    # than 864, so a 4:5 frame cannot keep every crest.
+    #
+    # The keeper's house measures about x 660–1236. That is wider than an
+    # 18% glide can hold. This clip eases only across the slack that keeps
+    # the house inside every frame with a 12px pad. The default center
+    # sweep is unchanged.
+    {
+        "entry_id": "NL-01-196",
+        "folder": "Schokland",
+        "subject_x": 948.0,
+        "subject_span": (660.0, 1236.0),
+        "window_start": 384.0,
+        "window_end": 648.0,
+    },
+    # The Papeloze Kerk mound and its open capstones sit inside about
+    # x 620–1280. That is wider than an 18% glide can hold. This clip eases
+    # only across the slack that keeps the chamber inside every frame with
+    # a 12px pad. The pines on either side stay out. The default center
+    # sweep is unchanged.
+    {
+        "entry_id": "NL-01-197",
+        "folder": "Schoonoord",
+        "subject_x": 950.0,
+        "subject_span": (620.0, 1280.0),
+        "window_start": 428.0,
+        "window_end": 608.0,
+    },
+    # NL-01-198 is not swept. Havezate Mensinge's two wings run about
+    # x 400–1600, wider than 864, so a 4:5 frame cannot keep both wings.
+    #
+    # NL-01-199 is not swept. The sod-hut roofs run about x 0–925, wider
+    # than 864, so a 4:5 frame cannot keep every roof.
+    #
+    # The Peperbus stands too far right for an 18% glide on its own center
+    # to stay on the plate. Same glide, aimed as close to the dome as the
+    # plate allows (shaft and dome about x 1124–1544), so the copper dome
+    # stays inside the 864 frame. The dome already reaches near the top of
+    # the daylight plate. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-200",
+        "folder": "Zwolle",
+        "subject_x": 1314.0,
+        "subject_span": (1124.0, 1544.0),
+    },
+    # NL-01-201 is not swept. The Waag's corner turrets and stair tower run
+    # about x 688–1678, wider than 864, so a 4:5 frame cannot keep every turret.
+    #
+    # The two Koornmarktspoort towers, taken together, measure about
+    # x 332–1140. That is wider than an 18% glide can hold. This clip eases
+    # only across the slack that keeps both slate spires inside every frame
+    # with a 12px pad. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-202",
+        "folder": "Kampen",
+        "subject_x": 736.0,
+        "subject_span": (332.0, 1140.0),
+        "window_start": 288.0,
+        "window_end": 320.0,
+    },
+    # The Aa-kerk roof and its baroque spire measure about x 820–1560.
+    # That is wider than an 18% glide can hold. An 18% glide aimed at the
+    # spire leaves the left roof. This clip eases only across the slack that
+    # keeps the nave roof and the spire inside every frame with a 12px pad.
+    # The spire already reaches near the top of the daylight plate. The
+    # default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-203",
+        "folder": "Groningen",
+        "subject_x": 1190.0,
+        "subject_span": (820.0, 1560.0),
+        "window_start": 708.0,
+        "window_end": 808.0,
+    },
+    # NL-01-204 is not swept. The Jacobuskerk nave (about x 515–1089) and
+    # the free-standing saddle-roof tower (about x 1269–1490) together run
+    # wider than 864, so a 4:5 frame cannot keep both roofs.
+    #
+    # The Plompe Toren stands left of plate center. Same glide, aimed at the
+    # shaft measured on this daylight plate (x 530–688), so the brick tower
+    # stays inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-205",
+        "folder": "Burgh-Haamstede",
+        "subject_x": 609.0,
+        "subject_span": (530.0, 688.0),
+    },
+    # The unfinished Sint-Lievensmonstertoren measures about x 748–1266.
+    # That is wider than an 18% glide can hold. This clip eases only across
+    # the slack that keeps the tower inside every frame with a 12px pad.
+    # The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-206",
+        "folder": "Zierikzee",
+        "subject_x": 1007.0,
+        "subject_span": (748.0, 1266.0),
+        "window_start": 414.0,
+        "window_end": 736.0,
+    },
+    # NL-01-207 is not swept. Batterij De Windt runs about x 0–961, wider
+    # than 864, and meets the left edge of the plate.
+    #
+    # NL-01-208 is not swept. The red roofs at Hell's Gate step down from
+    # the left edge to about x 1240, so a 4:5 frame cannot keep every roof.
+    #
+    # De Meerpaal's columned roof and tiled fly tower measure about
+    # x 807–1311. That is wider than an 18% glide can hold. This clip eases
+    # only across the slack that keeps that roof inside every frame with a
+    # 12px pad. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-209",
+        "folder": "Dronten",
+        "subject_x": 1059.0,
+        "subject_span": (807.0, 1311.0),
+        "window_start": 459.0,
+        "window_end": 795.0,
+    },
+    # The pumping-station hall measures about x 508–1033. That is wider than
+    # an 18% glide can hold. This clip eases only across the slack that keeps
+    # the hall inside every frame with a 12px pad. The default center sweep
+    # is unchanged.
+    {
+        "entry_id": "NL-01-210",
+        "folder": "Almere",
+        "subject_x": 770.5,
+        "subject_span": (508.0, 1033.0),
+        "window_start": 181.0,
+        "window_end": 496.0,
+    },
+    # The Kerkje aan de Zee and its onion lantern measure about x 285–750.
+    # An 18% glide on that center would leave the plate, and an 18% glide
+    # pushed to the left edge still cannot hold the nave. This clip eases a
+    # shorter distance from the left edge so the onion spire and the church
+    # stay inside every frame with a 12px pad. The default center sweep is
+    # unchanged.
+    {
+        "entry_id": "NL-01-211",
+        "folder": "Urk",
+        "subject_x": 517.5,
+        "subject_span": (285.0, 750.0),
+        "window_start": 0.0,
+        "window_end": 273.0,
+    },
+    # NL-01-212 is not swept. The Magnuskerk nave and its saddle-roof tower
+    # run about x 520–1500, wider than 864, so a 4:5 frame cannot keep both roofs.
+    #
+    # NL-01-213 is not swept. The two Rolde chambers sit apart under the
+    # oaks, about x 400–1500, so a 4:5 frame cannot keep both.
+    #
+    # The Niehove hall is one brick roof with a ridge turret near x 1010.
+    # The hall runs wider than 864. This clip eases only across the slack
+    # that keeps the turret and the roof that still fits (x 600–1420) inside
+    # every frame with a 12px pad. The far ends of the hall stay out. The
+    # default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-214",
+        "folder": "Niehove",
+        "subject_x": 1010.0,
+        "subject_span": (600.0, 1420.0),
+        "window_start": 568.0,
+        "window_end": 588.0,
+    },
 )
 
 
