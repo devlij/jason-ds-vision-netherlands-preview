@@ -461,6 +461,72 @@ SWEEP_SCENES = (
         "window_start": 912.0,
         "window_end": 1056.0,
     },
+    {"entry_id": "NL-01-102", "folder": "Sittard"},
+    # The Pancratiuskerk tower stands left of plate center. The 18% glide
+    # cannot hold the shaft (x 301–526) without running off the plate. This
+    # clip eases a shorter distance and starts against the plate's left edge,
+    # so the tower stays inside the 864 frame. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-103",
+        "folder": "Heerlen",
+        "subject_x": 413.5,
+        "subject_span": (301.0, 526.0),
+        "window_start": 0.0,
+        "window_end": 289.0,
+    },
+    {"entry_id": "NL-01-104", "folder": "Kerkrade"},
+    # The Gevangentoren stands left of plate center. The 18% glide cannot
+    # hold the round tower (x 267–528) without running off the plate. This
+    # clip eases a shorter distance and starts against the plate's left edge,
+    # so the tower stays inside the 864 frame. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-105",
+        "folder": "Vlissingen",
+        "subject_x": 397.5,
+        "subject_span": (267.0, 528.0),
+        "window_start": 0.0,
+        "window_end": 255.0,
+    },
+    # The lighthouse stands right of plate center. Same glide, aimed at the
+    # tower measured on this daylight plate (x 1048–1210), so the shaft stays
+    # inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-106",
+        "folder": "Westkapelle",
+        "subject_x": 1129.0,
+        "subject_span": (1048.0, 1210.0),
+    },
+    {"entry_id": "NL-01-107", "folder": "Yerseke"},
+    {"entry_id": "NL-01-108", "folder": "Goes"},
+    # The tied arch stands right of plate center. Same glide, aimed at the
+    # arch measured on this daylight plate (x 956–1443), so the arch stays
+    # inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-109",
+        "folder": "Culemborg",
+        "subject_x": 1199.5,
+        "subject_span": (956.0, 1443.0),
+    },
+    # The Waterpoort stands right of plate center. Same glide, aimed at the
+    # gate measured on this daylight plate (x 1119–1345), so the gate stays
+    # inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-110",
+        "folder": "Tiel",
+        "subject_x": 1232.0,
+        "subject_span": (1119.0, 1345.0),
+    },
+    {"entry_id": "NL-01-111", "folder": "Wageningen"},
+    # The tower and dome stand right of plate center. Same glide, aimed at
+    # that mass measured on this daylight plate (x 852–1249), so the tower
+    # and dome stay inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-112",
+        "folder": "Radio Kootwijk",
+        "subject_x": 1050.5,
+        "subject_span": (852.0, 1249.0),
+    },
+    {"entry_id": "NL-01-113", "folder": "Nes"},
 )
 
 
