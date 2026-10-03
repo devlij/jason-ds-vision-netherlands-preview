@@ -732,18 +732,19 @@ SWEEP_SCENES = (
         "window_start": 514.0,
         "window_end": 534.0,
     },
-    # The stage mill stands left of plate center. The 18% glide cannot
-    # hold the cap and sails (x 270–754) without running off the plate.
-    # This clip eases a shorter distance and starts against the plate's
-    # left edge, so the mill stays inside the 864 frame. The default
-    # center sweep is unchanged.
+    # The near stage mill stands left of plate center. An 18% glide
+    # cannot hold its sails (tips about x 272 and x 740, top sail on the
+    # plate's top row) without running off the plate. This clip eases a
+    # shorter distance from the left edge and stops while every sail is
+    # still inside the 864 frame, so the glide does not walk past the
+    # mill. The default center sweep is unchanged.
     {
         "entry_id": "NL-01-153",
         "folder": "Schiedam",
-        "subject_x": 512.0,
-        "subject_span": (270.0, 754.0),
+        "subject_x": 509.0,
+        "subject_span": (248.0, 770.0),
         "window_start": 0.0,
-        "window_end": 258.0,
+        "window_end": 140.0,
     },
     # The parked barrier arm's lattice runs wider than 864. This clip
     # eases only across the slack that keeps the main truss (x 240–1060)
