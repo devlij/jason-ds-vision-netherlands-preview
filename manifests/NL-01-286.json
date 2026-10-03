@@ -20,5 +20,76 @@
   "approval_basis": "Five-gate Cosmo QC 5/5, night scene. Gate 1: rococo cream facade with a grand double-curved stone staircase and balustrade rising to the central door, wrought-iron balcony above, cartouche window surrounds, hipped roof with a small lit octagonal cupola - matching the card's independent description (rococo front 1760-1763, 1745 stair and balcony, cupola) from a plausible Marktstraat viewpoint; 16:9 and 4:5 agree on every defining feature. Gate 2: label bar exact - 'Stadhuis, Sneek', 'Scenario: 26 September 2026 · 04:38 Europe/Amsterdam', AI disclosure, signature pair; Open-Meteo retrieval 2026-09-26T04:38:03+02:00, unique to the second repo-wide, scenario minute 04:38 inside model-valid hour 04:00-04:59; PNG Title/Description/Copyright/Software/Comment with EU AI Act Art. 50 note. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: lit windows only, no identifiable people, no logos, Free no-credit badge - documented only. Gate 5: card fields complete.",
   "approved_at": "2026-09-26T21:43:44.530668+00:00",
   "sha256_16x9": "938dee5edb964d6e66b4499a3af7c44bd0e29f7e7cb9f9f01805b4b031b6e6e4",
-  "sha256_4x5": "49ced1332434d831cea7540c7edd49fc16c3d37c836d043477eae5d6431372c8"
+  "sha256_4x5": "49ced1332434d831cea7540c7edd49fc16c3d37c836d043477eae5d6431372c8",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-286",
+    "approval_status": "Candidate",
+    "qc_status": "Candidate · not Cosmo QC · not self-certified",
+    "provenance": "genuine-text-prompt",
+    "genuine_daylight": true,
+    "text_prompt_only": true,
+    "image_anchor": "none",
+    "derived_from": "New text-prompt daylight set of the catalogue viewpoint. No night-master image was supplied to the generator.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Sneek/nl-01-286-16x9.png",
+        "sha256": "938dee5edb964d6e66b4499a3af7c44bd0e29f7e7cb9f9f01805b4b031b6e6e4"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Sneek/nl-01-286-4x5.png",
+        "sha256": "49ced1332434d831cea7540c7edd49fc16c3d37c836d043477eae5d6431372c8"
+      },
+      "9x16": {
+        "path": "library/world/Netherlands/Sneek/nl-01-286-9x16.png",
+        "sha256": "2e33ff4146a91b35fd3ed7e93a0441b2400fd402b12f5b0be8af2cf6cecbcc0d"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight write. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Sneek/nl-01-286-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Sneek/nl-01-286-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Sneek/nl-01-286-daylight-9x16.png"
+    },
+    "pretext": {
+      "16x9": "library/pretext/Netherlands/Sneek/nl-01-286-daylight-16x9.png",
+      "4x5": "library/pretext/Netherlands/Sneek/nl-01-286-daylight-4x5.png",
+      "9x16": "library/pretext/Netherlands/Sneek/nl-01-286-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "bf7e5b6d570c45d6d2876f1cf9ab055ea12d329434f2fe516e721673e218bf52",
+      "4x5": "8a3303736ee68b4c2b7ae81fe43c2554d5bb2271e113416026b3801f183ef3e7",
+      "9x16": "5dcb9007d443def83baed32f60df8b8408a7fe59571ef7970356e2deac1aa4a9"
+    },
+    "dimensions": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920",
+      "photo_9x16": "1080x1730"
+    },
+    "created_date": "2026-10-02",
+    "scenario_label": "2 October 2026 · 13:10 Europe/Amsterdam",
+    "open_meteo": {
+      "retrieval_timestamp": "2026-10-02T13:10:02+02:00",
+      "model_time": "2026-10-02T13:00",
+      "timezone": "Europe/Amsterdam",
+      "location_timezone": "Europe/Amsterdam",
+      "location_local_time": "2026-10-02T13:10:02+02:00",
+      "is_day": 1,
+      "weather_code": 0,
+      "cloud_cover": 3,
+      "temperature_2m": 19.0,
+      "wind_speed_10m": 12.2,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:40",
+      "sunset": "2026-10-02T19:12"
+    },
+    "on_image_caption": "Stadhuis, Sneek",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:10 Europe/Amsterdam",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "art50_comment_date": "2026-10-02",
+    "gallery_primary": "night unchanged",
+    "note": "Candidate genuine daylight set for Cosmo QC. Not Approved. Not a Friday self-certification. The night master remains the gallery primary. No night image was used as a generator anchor."
+  }
 }

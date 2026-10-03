@@ -21,5 +21,76 @@
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 b39666510d2ef272692ae013dd65208b611342aaccfd8fe9d4bf2812b4d8a701. Source SHA-256 4:5 2dcee4439aaa8d45517440935bfabb802456db0da6ee43bb16d549171592716d. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "approved",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. G1: tall blue obelisk on a pale coral-rock shoreline at night, dark sea, long trestle pier receding right under a star field; the blue obelisk is Bonaire's real coastal landmark; plausible viewpoint, clean framing (minor foreground rock texture blockiness noted, review-based, not a fail). G2: exact dims; label bar exact (\"Blue obelisk, Bonaire\"/scenario/disclosure/signature); Art. 50 chunks present, Comment date 2026-09-28 (true finish date per Art. 50 merge); Open-Meteo retrieval 2026-09-25T22:37:49-04:00, scenario minute inside 22:00 valid hour, unique repo-wide. Post Art. 50-merge bytes verified byte-identical to audited artwork (sha256 match). G3: text-prompt-only lineage claimed. G4: no people/logos visible. G5: card fields complete.",
-  "approved_at": "2026-09-29T19:05:00-04:00"
+  "approved_at": "2026-09-29T19:05:00-04:00",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-279",
+    "approval_status": "Candidate",
+    "qc_status": "Candidate · not Cosmo QC · not self-certified",
+    "provenance": "genuine-text-prompt",
+    "genuine_daylight": true,
+    "text_prompt_only": true,
+    "image_anchor": "none",
+    "derived_from": "New text-prompt daylight set of the catalogue viewpoint. No night-master image was supplied to the generator.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Bonaire/nl-01-279-16x9.png",
+        "sha256": "53aa983fe1e651d7c80a1a5ac59416b9539f077fb440e736e7f3224ded4f702f"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Bonaire/nl-01-279-4x5.png",
+        "sha256": "36543ac7cc8f709df184fbf52a4c64021ec2cb6e576119f798507d7dd0970cea"
+      },
+      "9x16": {
+        "path": "library/world/Netherlands/Bonaire/nl-01-279-9x16.png",
+        "sha256": "933b6b6537866ba42a26179f1d0ce325cf0c606ca928475578a03f9388e870ee"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight write. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Bonaire/nl-01-279-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Bonaire/nl-01-279-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Bonaire/nl-01-279-daylight-9x16.png"
+    },
+    "pretext": {
+      "16x9": "library/pretext/Netherlands/Bonaire/nl-01-279-daylight-16x9.png",
+      "4x5": "library/pretext/Netherlands/Bonaire/nl-01-279-daylight-4x5.png",
+      "9x16": "library/pretext/Netherlands/Bonaire/nl-01-279-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d2411b000170ba5510ca9e196a754f57d243ee36bc5e4937f4d7da09d54a55fb",
+      "4x5": "ddba110af11b2d723606fec805f3eee4832871051b4f0e10adf605d64ef344d5",
+      "9x16": "443866f1137f709fab8dbc0037c802709e3361f71c036c75faf82f3af772110b"
+    },
+    "dimensions": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920",
+      "photo_9x16": "1080x1730"
+    },
+    "created_date": "2026-10-02",
+    "scenario_label": "2 October 2026 · 13:09 Europe/Amsterdam",
+    "open_meteo": {
+      "retrieval_timestamp": "2026-10-02T13:09:17+02:00",
+      "model_time": "2026-10-02T13:00",
+      "timezone": "Europe/Amsterdam",
+      "location_timezone": "America/Kralendijk",
+      "location_local_time": "2026-10-02T07:09:17-04:00",
+      "is_day": 1,
+      "weather_code": 2,
+      "cloud_cover": 52,
+      "temperature_2m": 28.5,
+      "wind_speed_10m": 29.8,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T12:21",
+      "sunset": "2026-10-03T00:22"
+    },
+    "on_image_caption": "Blue obelisk, Bonaire",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:09 Europe/Amsterdam",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "art50_comment_date": "2026-10-02",
+    "gallery_primary": "night unchanged",
+    "note": "Candidate genuine daylight set for Cosmo QC. Not Approved. Not a Friday self-certification. The night master remains the gallery primary. No night image was used as a generator anchor."
+  }
 }
