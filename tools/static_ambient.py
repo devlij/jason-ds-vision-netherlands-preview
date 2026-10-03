@@ -847,18 +847,18 @@ SWEEP_SCENES = (
         "window_start": 543.0,
         "window_end": 743.0,
     },
-    # The disc, the gold tower, and the blue pavilion, taken together, are
-    # wider than an 18% glide can hold. This clip eases only across the
-    # slack that keeps all three (x 460–1070) inside every frame with a
-    # 12px pad. The window stays on the plate. The default center sweep
-    # is unchanged.
+    # The silver cylinder (x 391–668) and the gold block (x 759–1061)
+    # stay inside every frame. The blue pavilion begins near x 1104 and
+    # runs past what an 864 frame can hold with them, so this clip does
+    # not walk onto it. A short glide, window 216–236, keeps both buildings
+    # inside with a 12px pad. The default center sweep is unchanged.
     {
         "entry_id": "NL-01-164",
         "folder": "Groningen",
-        "subject_x": 765.0,
-        "subject_span": (460.0, 1070.0),
-        "window_start": 218.0,
-        "window_end": 448.0,
+        "subject_x": 726.0,
+        "subject_span": (384.0, 1068.0),
+        "window_start": 216.0,
+        "window_end": 236.0,
     },
     # NL-01-165 is not swept. The thatched hall-farmhouses around the brink
     # run wider than 864, so a 4:5 frame cannot keep every roof.
