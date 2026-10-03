@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Bake Postcard-collection plates with the label bar inside the frame.
 
-The finished files stay the exact postcard sizes. The 190px signature bar
-is drawn inside the bottom of that frame. It is not an extra strip.
+The finished files stay the exact postcard sizes. A solid black 190px bar
+sits inside the bottom of that frame, under the photograph. It is not an
+extra strip, and no type is drawn on the picture.
 
   16:9  1920×1080
   4:5  1080×1350
@@ -18,15 +19,12 @@ import argparse
 import json
 from pathlib import Path
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 
 from composite_masters import (
-    BAR_BG,
     BAR_H,
     BRAND,
     DISCLOSURE,
-    HAIR,
-    HAIRLINE,
     INK,
     INK_DISCLOSURE,
     INK_SCENARIO,
@@ -42,79 +40,158 @@ from composite_masters import (
 ROOT = Path(__file__).resolve().parents[1]
 SCENARIO = "Postcard collection"
 CANVAS = {"16x9": (1920, 1080), "4x5": (1080, 1350), "9x16": (1080, 1920)}
+# Solid black, matching the postcard plates. Not the night-master charcoal.
+BAR_BLACK = (0, 0, 0)
+SERIF = Path("/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf")
+# Clear gap between the roman brand line and the script, both on the black.
+RIGHT_GAP_PX = 16
+INK_PAD = 8
+
+
+def _ink_columns(layer: Image.Image, bar_top: int) -> list[int]:
+    alpha = layer.split()[-1].crop((0, bar_top, layer.width, layer.height))
+    raw = alpha.tobytes()
+    width = alpha.width
+    height = alpha.height
+    columns: list[int] = []
+    for x in range(width):
+        if any(raw[y * width + x] for y in range(height)):
+            columns.append(x)
+    return columns
 
 
 def draw_bar_inside(photo: Image.Image, caption: str) -> Image.Image:
-    """Paint the signature bar over the bottom of an exact-size plate."""
+    """Place a solid black bar under the photograph, inside the frame.
+
+    The photograph occupies only the area above the bar. Type is drawn on a
+    separate layer and must sit entirely inside the black, including the
+    script. Nothing is painted over the picture.
+    """
     photo = photo.convert("RGB")
     pw, ph = photo.size
     if ph <= BAR_H + 40:
         raise SystemExit(f"plate {pw}x{ph} is too short for a {BAR_H}px inside bar")
-    canvas = photo.copy()
-    draw = ImageDraw.Draw(canvas)
     bar_top = ph - BAR_H
-    draw.rectangle((0, bar_top, pw - 1, bar_top + HAIRLINE - 1), fill=HAIR)
-    draw.rectangle((0, bar_top + HAIRLINE, pw - 1, ph - 1), fill=BAR_BG)
+    band = photo.crop((0, bar_top, pw, ph))
+    if band.getcolors(maxcolors=1) != [(pw * BAR_H, BAR_BLACK)]:
+        raise SystemExit("postcard bar must already be solid black under the photo")
+
+    if not SERIF.exists():
+        raise SystemExit(f"roman face missing: {SERIF}")
 
     fonts, gap = layout_fonts(pw, caption, SCENARIO)
+    brand_px = max(15, int(round(fonts["brand"].size * 1.05)))
+    fonts["brand"] = ImageFont.truetype(str(SERIF), brand_px)
     margin = max(20, int(round(pw * 0.028)))
     col_gap = max(16, int(round(pw * 0.018)))
-    left = [
+    right_gap = max(RIGHT_GAP_PX, gap + 8)
+    left_rows = [
         (caption, fonts["cap"], INK),
         (SCENARIO, fonts["sc"], INK_SCENARIO),
         (DISCLOSURE, fonts["disc"], INK_DISCLOSURE),
     ]
-    right = [
-        (BRAND, fonts["brand"], INK),
-        (SIGNATURE_NAME, fonts["name"], INK),
-    ]
+    roman = (BRAND, fonts["brand"], INK)
+    script = (SIGNATURE_NAME, fonts["name"], INK)
 
-    def stack_height(rows: list[tuple[str, ImageFontFree, tuple[int, int, int]]]) -> int:
+    def row_size(text: str, font: ImageFont.FreeTypeFont) -> tuple[int, int]:
+        return _measure(font, text)
+
+    def stack_height(rows: list[tuple[str, ImageFont.FreeTypeFont, tuple[int, int, int]]], row_gap: int) -> int:
         total = 0
         for index, (text, font, _ink) in enumerate(rows):
-            total += _measure(font, text)[1]
+            total += row_size(text, font)[1]
             if index:
-                total += gap
+                total += row_gap
         return total
 
-    def stack_width(rows: list[tuple[str, ImageFontFree, tuple[int, int, int]]]) -> int:
-        return max(_measure(font, text)[0] for text, font, _ink in rows)
+    def stack_width(rows: list[tuple[str, ImageFont.FreeTypeFont, tuple[int, int, int]]]) -> int:
+        return max(row_size(text, font)[0] for text, font, _ink in rows)
 
-    left_w = stack_width(left)
-    right_w = stack_width(right)
+    left_w = stack_width(left_rows)
+    right_rows = [roman, script]
+    right_w = stack_width(right_rows)
     if margin + left_w + col_gap + right_w + margin > pw:
         raise SystemExit(f"label overflow on {pw}px: caption {caption!r}")
+    if stack_height(left_rows, gap) > BAR_H - 2 * INK_PAD:
+        raise SystemExit(f"left label taller than the black bar: {caption!r}")
+    if stack_height(right_rows, right_gap) > BAR_H - 2 * INK_PAD:
+        raise SystemExit(f"signature taller than the black bar: {caption!r}")
 
-    content_top = bar_top + HAIRLINE
-    content_h = BAR_H - HAIRLINE
-
-    def draw_stack(rows: list[tuple[str, ImageFontFree, tuple[int, int, int]]], align: str) -> None:
-        block_h = stack_height(rows)
-        y = content_top + max(0, (content_h - block_h) // 2)
+    def paint(
+        rows: list[tuple[str, ImageFont.FreeTypeFont, tuple[int, int, int]]],
+        align: str,
+        row_gap: int,
+    ) -> Image.Image:
+        layer = Image.new("RGBA", (pw, ph), (0, 0, 0, 0))
+        draw = ImageDraw.Draw(layer)
+        block_h = stack_height(rows, row_gap)
+        y = bar_top + max(0, (BAR_H - block_h) // 2)
         block_w = stack_width(rows)
         for text, font, ink in rows:
-            text_w, text_h = _measure(font, text)
+            text_w, text_h = row_size(text, font)
             left_edge, top_edge, _right, _bottom = _bbox(font, text)
             x = margin if align == "left" else pw - margin - block_w
             if align == "right":
                 x = x + (block_w - text_w)
-            draw.text((x - left_edge, y - top_edge), text, font=font, fill=ink, anchor="lt")
-            y += text_h + gap
+            draw.text((x - left_edge, y - top_edge), text, font=font, fill=ink + (255,), anchor="lt")
+            y += text_h + row_gap
+        return layer
 
-    draw_stack(left, "left")
-    draw_stack(right, "right")
-    return canvas
+    left_layer = paint(left_rows, "left", gap)
+    right_layer = paint(right_rows, "right", right_gap)
+    # Split the right-hand stack so the roman line and the script each have
+    # their own ink box. A single centered line would hide a missing gap.
+    right_block_h = stack_height(right_rows, right_gap)
+    y = bar_top + max(0, (BAR_H - right_block_h) // 2)
+    block_w = stack_width(right_rows)
+    line_layers: list[Image.Image] = []
+    for text, font, ink in right_rows:
+        layer = Image.new("RGBA", (pw, ph), (0, 0, 0, 0))
+        draw = ImageDraw.Draw(layer)
+        text_w, text_h = row_size(text, font)
+        left_edge, top_edge, _right, _bottom = _bbox(font, text)
+        x = pw - margin - block_w + (block_w - text_w)
+        draw.text((x - left_edge, y - top_edge), text, font=font, fill=ink + (255,), anchor="lt")
+        line_layers.append(layer)
+        y += text_h + right_gap
+    roman_layer, script_layer = line_layers
+    roman_box = roman_layer.getbbox()
+    script_box = script_layer.getbbox()
+    if roman_box is None or script_box is None:
+        raise SystemExit("roman line and script must both be present")
+    if script_box[1] - roman_box[3] < 8:
+        raise SystemExit("gap between Jason D's Vision and the script is too small")
 
+    overlay = Image.alpha_composite(left_layer, roman_layer)
+    overlay = Image.alpha_composite(overlay, script_layer)
+    ink_box = overlay.getbbox()
+    if ink_box is None:
+        raise SystemExit("postcard label drew no type")
+    if ink_box[1] < bar_top + INK_PAD or ink_box[3] > ph - INK_PAD:
+        raise SystemExit(
+            f"signature leaves the black bar: ink y {ink_box[1]}:{ink_box[3]}, bar {bar_top}:{ph}"
+        )
+    if ink_box[0] < INK_PAD or ink_box[2] > pw - INK_PAD:
+        raise SystemExit(f"signature leaves the side margins: ink x {ink_box[0]}:{ink_box[2]}")
 
-# Pillow font type is only used for annotations; keep the alias local.
-ImageFontFree = object
+    left_cols = _ink_columns(left_layer, bar_top)
+    right_cols = _ink_columns(right_layer, bar_top)
+    if not left_cols or not right_cols:
+        raise SystemExit(f"label missing a column: {caption!r}")
+    if min(right_cols) - max(left_cols) < col_gap:
+        raise SystemExit(f"caption and signature collide: {caption!r}")
+    photo.paste(overlay, (0, 0), overlay)
+    return photo
 
 
 def bake_one(src: Path, dest: Path, fmt: str, caption: str, comment: str) -> None:
     tw, th = CANVAS[fmt]
-    plate = fit(Image.open(src), tw, th)
-    if plate.size != (tw, th):
-        raise SystemExit(f"{src} fit to {plate.size}, expected {(tw, th)}")
+    photo_h = th - BAR_H
+    photo = fit(Image.open(src), tw, photo_h)
+    if photo.size != (tw, photo_h):
+        raise SystemExit(f"{src} fit to {photo.size}, expected {(tw, photo_h)}")
+    plate = Image.new("RGB", (tw, th), BAR_BLACK)
+    plate.paste(photo, (0, 0))
     finished = draw_bar_inside(plate, caption)
     if finished.size != (tw, th):
         raise SystemExit(f"{dest} size changed to {finished.size}")
@@ -125,10 +202,13 @@ def bake_one(src: Path, dest: Path, fmt: str, caption: str, comment: str) -> Non
         saved.load()
         if saved.size != (tw, th):
             raise SystemExit(f"bad size {dest} {saved.size}")
-        if saved.getpixel((2, th - 1))[:3] != BAR_BG:
-            raise SystemExit(f"label bar background {dest}")
-        if saved.getpixel((2, th - BAR_H))[:3] != HAIR:
-            raise SystemExit(f"hairline missing {dest}")
+        bar_top = th - BAR_H
+        if saved.getpixel((2, th - 1))[:3] != BAR_BLACK:
+            raise SystemExit(f"label bar is not black {dest}")
+        if saved.getpixel((2, bar_top))[:3] != BAR_BLACK:
+            raise SystemExit(f"black bar does not start under the photo {dest}")
+        # The photograph keeps its last row. A black photo pixel is allowed;
+        # a repainted bar would have moved that row down by the bar height.
 
 
 def main(argv: list[str] | None = None) -> None:
