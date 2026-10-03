@@ -797,6 +797,126 @@ SWEEP_SCENES = (
     {"entry_id": "NL-01-158", "folder": "Hulst"},
     # NL-01-159 is not swept. Seven limestone arches run about x 559–1662,
     # wider than 864, so a 4:5 frame cannot keep every arch.
+    #
+    # The Oudenbosch colonnade and dome run about x 833–1755, wider than
+    # 864. This clip eases only across the slack that keeps the dome and
+    # the facade that still fits (x 932–1748) inside every frame with a
+    # 12px pad. The far left of the colonnade stays out. The default
+    # center sweep is unchanged.
+    {
+        "entry_id": "NL-01-160",
+        "folder": "Oudenbosch",
+        "subject_x": 1340.0,
+        "subject_span": (932.0, 1748.0),
+        "window_start": 896.0,
+        "window_end": 920.0,
+    },
+    # The two Waterpoort towers, taken together, are wider than an 18%
+    # glide can hold. This clip eases only across the slack that keeps
+    # both spires (x 620–1296) inside every frame with a 12px pad. The
+    # window stays on the plate. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-161",
+        "folder": "Sneek",
+        "subject_x": 958.0,
+        "subject_span": (620.0, 1296.0),
+        "window_start": 444.0,
+        "window_end": 608.0,
+    },
+    # The Woudagemaal halls run about x 333–1600, wider than 864. This
+    # clip eases only across the slack that keeps the chimney and the
+    # hall through its right wall (x 820–1620) inside every frame with a
+    # 12px pad. The left gables stay out. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-162",
+        "folder": "Lemmer",
+        "subject_x": 1220.0,
+        "subject_span": (820.0, 1620.0),
+        "window_start": 800.0,
+        "window_end": 808.0,
+    },
+    # Menkemaborg's hipped roof is wider than an 18% glide can hold. This
+    # clip eases only across the slack that keeps the house (x 755–1395)
+    # inside every frame with a 12px pad. The window stays on the plate.
+    # The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-163",
+        "folder": "Uithuizen",
+        "subject_x": 1075.0,
+        "subject_span": (755.0, 1395.0),
+        "window_start": 543.0,
+        "window_end": 743.0,
+    },
+    # The disc, the gold tower, and the blue pavilion, taken together, are
+    # wider than an 18% glide can hold. This clip eases only across the
+    # slack that keeps all three (x 460–1070) inside every frame with a
+    # 12px pad. The window stays on the plate. The default center sweep
+    # is unchanged.
+    {
+        "entry_id": "NL-01-164",
+        "folder": "Groningen",
+        "subject_x": 765.0,
+        "subject_span": (460.0, 1070.0),
+        "window_start": 218.0,
+        "window_end": 448.0,
+    },
+    # NL-01-165 is not swept. The thatched hall-farmhouses around the brink
+    # run wider than 864, so a 4:5 frame cannot keep every roof.
+    #
+    # The sandstone tower stands right of plate center. Same glide, aimed
+    # at the shaft measured on this daylight plate (x 992–1281), so the
+    # 1926 spire stays inside the 864 frame. The default center anchor is
+    # unchanged.
+    {
+        "entry_id": "NL-01-166",
+        "folder": "Enschede",
+        "subject_x": 1136.5,
+        "subject_span": (992.0, 1281.0),
+    },
+    # The Cuneratoren stands left of plate center. Same glide, aimed at
+    # the shaft measured on this daylight plate (x 727–936). The spire
+    # already reaches y 4 of the daylight plate, so the frame keeps that
+    # top edge. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-167",
+        "folder": "Rhenen",
+        "subject_x": 831.5,
+        "subject_span": (727.0, 936.0),
+    },
+    # The Breda tower stands right of plate center. Same glide, aimed at
+    # the crown measured on this daylight plate (x 1005–1278), so the
+    # 1702 slate spire stays inside the 864 frame. The default center
+    # anchor is unchanged.
+    {
+        "entry_id": "NL-01-168",
+        "folder": "Breda",
+        "subject_x": 1141.5,
+        "subject_span": (1005.0, 1278.0),
+    },
+    # The Laurenskerk tower stands left of plate center. Same glide, aimed
+    # at the crown measured on this daylight plate (x 484–776), so the
+    # shaft stays inside the 864 frame. The default center anchor is
+    # unchanged.
+    {
+        "entry_id": "NL-01-169",
+        "folder": "Rotterdam",
+        "subject_x": 630.0,
+        "subject_span": (484.0, 776.0),
+    },
+    # NL-01-170 is not swept. The Delfshaven mill and the Pelgrimvaderskerk
+    # turret together run wider than 864, so a 4:5 frame cannot keep the
+    # sails and the turret.
+    #
+    # The octagonal lantern stands too far right for an 18% glide on its
+    # own center to stay on the plate. Same glide, aimed as close to the
+    # lantern as the plate allows (measured x 1210–1462), so the lantern
+    # stays inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-171",
+        "folder": "Middelburg",
+        "subject_x": 1314.0,
+        "subject_span": (1210.0, 1462.0),
+    },
 )
 
 
