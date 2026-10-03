@@ -448,13 +448,18 @@ SWEEP_SCENES = (
     {"entry_id": "NL-01-098", "folder": "s-Hertogenbosch"},
     {"entry_id": "NL-01-099", "folder": "Tilburg"},
     {"entry_id": "NL-01-100", "folder": "Helmond"},
-    # The basilica stands right of plate center. Same glide, aimed as close
-    # to the nave and onion dome (measured x 947–1675) as the plate allows.
-    # The default center anchor is unchanged.
+    # The onion dome and the square tower stand too far right for the 18%
+    # glide to hold them without running off the plate. This clip eases a
+    # shorter distance and finishes against the plate's right edge, so the
+    # dome and tower (x 1476–1764) stay inside the 864 frame. The left nave
+    # is what leaves. The default center sweep is unchanged.
     {
         "entry_id": "NL-01-101",
         "folder": "Venlo",
-        "subject_x": 1315.2,
+        "subject_x": 1620.0,
+        "subject_span": (1476.0, 1764.0),
+        "window_start": 912.0,
+        "window_end": 1056.0,
     },
 )
 
@@ -487,17 +492,28 @@ def load_sweep_plate(path: Path) -> np.ndarray:
     return plate
 
 
-def sweep_x(n: int, subject_x: float = SUBJECT_X) -> float:
+def sweep_x(
+    n: int,
+    subject_x: float = SUBJECT_X,
+    bounds: tuple[float, float] | None = None,
+) -> float:
     """Origin of the 864-wide window. Left to right, ease in and out, no vertical.
 
     ``subject_x`` defaults to the plate center. Passing the same center leaves
     the glide identical. An off-center landmark passes its own center.
+
+    ``bounds`` is an explicit (start, end) pair for one scene whose subject
+    cannot be held by that centered 18% glide without leaving the plate.
+    The default path does not use it.
     """
+    u = n / (FRAMES - 1)
+    ease = 0.5 - 0.5 * math.cos(math.pi * u)
+    if bounds is not None:
+        start, end = bounds
+        return start + (end - start) * ease
     travel = PLATE_W * SWEEP_TRAVEL_FRAC
     # Mid-glide puts the subject on the center of the 864 frame.
     mid = subject_x - (PHOTO_W / 2.0)
-    u = n / (FRAMES - 1)
-    ease = 0.5 - 0.5 * math.cos(math.pi * u)
     return (mid - travel / 2.0) + travel * ease
 
 
@@ -527,26 +543,60 @@ def assert_sweep_path(subject_x: float = SUBJECT_X) -> None:
             raise SystemExit("window traveled past the subject")
 
 
-def assert_span_in_frame(subject_x: float, span: tuple[float, float]) -> None:
+def assert_span_in_frame(
+    subject_x: float,
+    span: tuple[float, float],
+    bounds: tuple[float, float] | None = None,
+) -> None:
     """The whole subject, not only its center, stays inside every frame."""
     left, right = span
     if not (left < subject_x < right):
         raise SystemExit("subject center is outside its span")
     pad = 12.0
     for n in range(FRAMES):
-        x = sweep_x(n, subject_x)
+        x = sweep_x(n, subject_x, bounds)
         if left < x + pad or right > x + PHOTO_W - pad:
             raise SystemExit(
                 f"subject {left:.1f}-{right:.1f} leaves the frame at {n} window {x:.1f}"
             )
 
 
-def render_sweep_frame(plate: np.ndarray, n: int, subject_x: float = SUBJECT_X) -> np.ndarray:
-    x = np.float32(sweep_x(n, subject_x))
+def assert_held_glide(bounds: tuple[float, float]) -> None:
+    """A shorter left-to-right glide that stays on the plate.
+
+    Used only when the centered 18% path cannot hold the subject. The default
+    center sweep is not checked here.
+    """
+    start, end = bounds
+    if not end > start:
+        raise SystemExit("held glide does not move left to right")
+    xs = [sweep_x(n, bounds=bounds) for n in range(FRAMES)]
+    if abs(xs[0] - start) > 1e-6 or abs(xs[-1] - end) > 1e-6:
+        raise SystemExit("held glide did not ease across its window")
+    for i in range(1, FRAMES):
+        if xs[i] + 1e-6 < xs[i - 1]:
+            raise SystemExit("held glide reversed direction")
+    for x in xs:
+        if x < -1e-3 or x + PHOTO_W > PLATE_W + 1e-3:
+            raise SystemExit(f"held glide window {x:.2f} leaves the plate")
+
+
+def render_sweep_frame(
+    plate: np.ndarray,
+    n: int,
+    subject_x: float = SUBJECT_X,
+    bounds: tuple[float, float] | None = None,
+) -> np.ndarray:
+    x = np.float32(sweep_x(n, subject_x, bounds))
     map_x = np.broadcast_to(np.arange(PHOTO_W, dtype=np.float32) + x, (PHOTO_H, PHOTO_W)).copy()
     map_y = np.broadcast_to(np.arange(PHOTO_H, dtype=np.float32)[:, None], (PHOTO_H, PHOTO_W)).copy()
     # One source pixel per output pixel, and the row index never changes.
-    if abs(float(map_x[0, 1] - map_x[0, 0]) - 1.0) > 1e-5:
+    # A window origin past 1024 is not an exact float32, so the first step
+    # can be off by one ulp. That is not a scale change. The default glide
+    # stays under that origin and still uses the tighter check.
+    step = float(map_x[0, 1] - map_x[0, 0])
+    limit = 2e-4 if bounds is not None else 1e-5
+    if abs(step - 1.0) > limit:
         raise SystemExit("sweep changed scale")
     if float(map_y[0, 0]) != 0.0 or float(map_y[-1, 0]) != float(PHOTO_H - 1):
         raise SystemExit("sweep moved vertically")
@@ -563,7 +613,12 @@ def render_sweep_frame(plate: np.ndarray, n: int, subject_x: float = SUBJECT_X) 
     return frame
 
 
-def encode_sweep(plate: np.ndarray, dest: Path, subject_x: float = SUBJECT_X) -> float:
+def encode_sweep(
+    plate: np.ndarray,
+    dest: Path,
+    subject_x: float = SUBJECT_X,
+    bounds: tuple[float, float] | None = None,
+) -> float:
     dest.parent.mkdir(parents=True, exist_ok=True)
     cmd = [
         "ffmpeg",
@@ -604,7 +659,7 @@ def encode_sweep(plate: np.ndarray, dest: Path, subject_x: float = SUBJECT_X) ->
     first = last = None
     try:
         for n in range(FRAMES):
-            frame = render_sweep_frame(plate, n, subject_x)
+            frame = render_sweep_frame(plate, n, subject_x, bounds)
             if n == 0:
                 first = frame
             elif n == FRAMES - 1:
@@ -653,12 +708,16 @@ def run_sweep(only: list[str]) -> None:
         anchor, dest = sweep_paths(scene)
         subject_x = float(scene.get("subject_x", SUBJECT_X))
         span = scene.get("subject_span")
-        if subject_x != SUBJECT_X or span is not None:
+        bounds = None
+        if "window_start" in scene:
+            bounds = (float(scene["window_start"]), float(scene["window_end"]))
+            assert_held_glide(bounds)
+        elif subject_x != SUBJECT_X or span is not None:
             assert_sweep_path(subject_x)
         if span is not None:
-            assert_span_in_frame(subject_x, span)
+            assert_span_in_frame(subject_x, span, bounds)
         plate = load_sweep_plate(anchor)
-        mae = encode_sweep(plate, dest, subject_x)
+        mae = encode_sweep(plate, dest, subject_x, bounds)
         info = probe_sweep(dest)
         stream = info["streams"][0]
         duration = float(info["format"]["duration"])
@@ -677,7 +736,11 @@ def run_sweep(only: list[str]) -> None:
                     "method": "sideways-sweep",
                     "anchor": str(anchor.relative_to(ROOT)),
                     "out": str(dest.relative_to(ROOT)),
-                    "travel_frac": SWEEP_TRAVEL_FRAC,
+                    "travel_frac": (
+                        round((bounds[1] - bounds[0]) / PLATE_W, 4)
+                        if bounds is not None
+                        else SWEEP_TRAVEL_FRAC
+                    ),
                     "ends_mae": round(mae, 3),
                     "width": int(stream["width"]),
                     "height": int(stream["height"]),
