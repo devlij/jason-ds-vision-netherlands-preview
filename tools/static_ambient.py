@@ -689,6 +689,114 @@ SWEEP_SCENES = (
     },
     {"entry_id": "NL-01-146", "folder": "Bonaire"},
     {"entry_id": "NL-01-147", "folder": "Windwardside"},
+    # The Poldertoren stands on the plate center (shaft x 870–1049). The
+    # default 18% glide holds it. The center anchor is unchanged.
+    {"entry_id": "NL-01-148", "folder": "Emmeloord"},
+    # The brick wing and the round tower, taken together, run x 432–1476,
+    # wider than 864. This clip eases only across the slack that keeps the
+    # round tower and the wing that still fits (x 652–1476) inside every
+    # frame with a 12px pad. The far left of the wing stays out. The
+    # default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-149",
+        "folder": "Coevorden",
+        "subject_x": 1064.0,
+        "subject_span": (652.0, 1476.0),
+        "window_start": 624.0,
+        "window_end": 640.0,
+    },
+    # The radio dish (rim to rim, x 540–1356) is wider than an 18% glide
+    # can hold. This clip eases only across the slack that keeps the whole
+    # dish inside every frame with a 12px pad. The window stays on the
+    # plate. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-150",
+        "folder": "Dwingeloo",
+        "subject_x": 948.0,
+        "subject_span": (540.0, 1356.0),
+        "window_start": 504.0,
+        "window_end": 528.0,
+    },
+    # NL-01-151 is not swept. The three hanging kitchens span about
+    # x 483–1801, wider than 864, so a 4:5 frame cannot keep every kitchen.
+    #
+    # The low Bentheimer hall is wider than 864. This clip eases only
+    # across the slack that keeps the ridge turret and the hall that still
+    # fits (x 546–1366) inside every frame with a 12px pad. The right end
+    # of the hall stays out. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-152",
+        "folder": "Ootmarsum",
+        "subject_x": 956.0,
+        "subject_span": (546.0, 1366.0),
+        "window_start": 514.0,
+        "window_end": 534.0,
+    },
+    # The near stage mill stands left of plate center. An 18% glide
+    # cannot hold its sails (tips about x 272 and x 740, top sail on the
+    # plate's top row) without running off the plate. This clip eases a
+    # shorter distance from the left edge and stops while every sail is
+    # still inside the 864 frame, so the glide does not walk past the
+    # mill. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-153",
+        "folder": "Schiedam",
+        "subject_x": 509.0,
+        "subject_span": (248.0, 770.0),
+        "window_start": 0.0,
+        "window_end": 140.0,
+    },
+    # The parked barrier arm's lattice runs wider than 864. This clip
+    # eases only across the slack that keeps the main truss (x 240–1060)
+    # inside every frame with a 12px pad. The window stays on the plate.
+    # The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-154",
+        "folder": "Hoek van Holland",
+        "subject_x": 650.0,
+        "subject_span": (240.0, 1060.0),
+        "window_start": 208.0,
+        "window_end": 228.0,
+    },
+    # The white balance bridge is wider than 864. This clip eases only
+    # across the slack that keeps the central arch (x 560–1380) inside
+    # every frame with a 12px pad. The approaches stay out, so one end
+    # does not leave as the other comes in. The default center sweep is
+    # unchanged.
+    {
+        "entry_id": "NL-01-155",
+        "folder": "Amsterdam",
+        "subject_x": 970.0,
+        "subject_span": (560.0, 1380.0),
+        "window_start": 528.0,
+        "window_end": 548.0,
+    },
+    # De Adriaan stands right of plate center. Same glide, aimed at the
+    # mill measured on this daylight plate (sails x 992–1358), so the cap
+    # and sails stay inside the 864 frame. The default center anchor is
+    # unchanged.
+    {
+        "entry_id": "NL-01-156",
+        "folder": "Haarlem",
+        "subject_x": 1175.0,
+        "subject_span": (992.0, 1358.0),
+    },
+    # The Eusebius tower stands right of plate center. Same glide, aimed
+    # at the crown measured on this daylight plate (x 840–1300), so the
+    # shaft and the 1964 crown stay inside the 864 frame. The default
+    # center anchor is unchanged.
+    {
+        "entry_id": "NL-01-157",
+        "folder": "Arnhem",
+        "subject_x": 1070.0,
+        "subject_span": (840.0, 1300.0),
+    },
+    # The crossing tower and its 1957 crown stand on the plate center
+    # (x 828–1102). The default 18% glide holds them. The center anchor
+    # is unchanged.
+    {"entry_id": "NL-01-158", "folder": "Hulst"},
+    # NL-01-159 is not swept. Seven limestone arches run about x 559–1662,
+    # wider than 864, so a 4:5 frame cannot keep every arch.
 )
 
 
@@ -821,9 +929,13 @@ def render_sweep_frame(
     # One source pixel per output pixel, and the row index never changes.
     # A window origin past 1024 is not an exact float32, so the first step
     # can be off by one ulp. That is not a scale change. The default glide
-    # stays under that origin and still uses the tighter check.
+    # stays under that origin and still uses the tighter check. An aimed
+    # origin below 1024 can miss the same way; one ulp there is still not
+    # a scale change, and the default center math is untouched.
     step = float(map_x[0, 1] - map_x[0, 0])
     limit = 2e-4 if bounds is not None else 1e-5
+    if bounds is None and subject_x != SUBJECT_X:
+        limit = max(limit, 6.2e-5)
     if abs(step - 1.0) > limit:
         raise SystemExit("sweep changed scale")
     if float(map_y[0, 0]) != 0.0 or float(map_y[-1, 0]) != float(PHOTO_H - 1):
