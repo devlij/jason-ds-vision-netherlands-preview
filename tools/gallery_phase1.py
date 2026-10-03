@@ -418,9 +418,29 @@ MOTION_CLIPS = {
 
 
 def _published_motion() -> dict[str, dict]:
-    """Keep the twelve published 360° clips across a gallery rebuild."""
+    """Keep every published 360° clip across a gallery rebuild.
+
+    The clips are not on the manifests. Later sweep packs added files beyond
+    the original twelve, so a rebuild also picks up every motion mp4 that is
+    already on disk under library/world/Netherlands.
+    """
     found: dict[str, dict] = {}
+    name = re.compile(r"^(nl-\d{2}-\d{3})-motion-.+\.mp4$", re.IGNORECASE)
+    netherlands = WORLD / "Netherlands"
+    if netherlands.is_dir():
+        for path in sorted(netherlands.rglob("*-motion-*.mp4")):
+            match = name.match(path.name)
+            if match is None:
+                continue
+            entry_id = match.group(1).upper()
+            rel = path.relative_to(WORLD).as_posix()
+            found[entry_id] = {
+                "motion_clip": f"library/world/{rel}",
+                "has_360": True,
+            }
     for entry_id, clip in MOTION_CLIPS.items():
+        if entry_id in found:
+            continue
         rel = clip.removeprefix("library/world/")
         if ".." in Path(rel).parts or not (WORLD / rel).is_file():
             continue
