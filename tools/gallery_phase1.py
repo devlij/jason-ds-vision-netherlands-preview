@@ -180,6 +180,9 @@ FILE_KEYS = (
     "file_16x9_day",
     "file_4x5_day",
     "file_9x16_day",
+    "file_16x9_postcard",
+    "file_4x5_postcard",
+    "file_9x16_postcard",
 )
 
 
@@ -368,13 +371,15 @@ def build_meta(scenes: list[dict], catalogue: dict[str, dict]) -> dict[str, list
             continue
         row = catalogue.get(entry_id)
         moods = derive_moods(row, prepared)
-        # Related thumbnails follow the card default. Genuine daylight uses the
-        # daylight 16:9; every other card keeps the original master.
-        thumb_rel = (
-            prepared["file_16x9_day"]
-            if prepared.get("daylight_primary") and prepared.get("file_16x9_day")
-            else prepared["file_16x9"]
-        )
+        # Related thumbnails follow the card default. A postcard plate is the
+        # default when that 16:9 exists. Genuine daylight is next. Every other
+        # card keeps the original master.
+        if prepared.get("file_16x9_postcard"):
+            thumb_rel = prepared["file_16x9_postcard"]
+        elif prepared.get("daylight_primary") and prepared.get("file_16x9_day"):
+            thumb_rel = prepared["file_16x9_day"]
+        else:
+            thumb_rel = prepared["file_16x9"]
         thumb = f"library/world/{thumb_rel}"
         if not master_exists(thumb_rel):
             continue
@@ -393,14 +398,48 @@ def build_meta(scenes: list[dict], catalogue: dict[str, dict]) -> dict[str, list
 HELD_SCENE_IDS = {f"NL-01-{n:03d}" for n in list(range(119, 129)) + list(range(279, 289))}
 
 
+# The twelve 360° clips already wired in the gallery. They are not on the
+# manifests. data.json once stored a broken apostrophe in the NL-01-037 path;
+# the page itself uses the folder that is on disk.
+MOTION_CLIPS = {
+    "NL-01-005": "library/world/Netherlands/Lisse/nl-01-005-motion-10s-4x5.mp4",
+    "NL-01-035": "library/world/Netherlands/Amersfoort/nl-01-035-motion-10s-4x5.mp4",
+    "NL-01-037": "library/world/Netherlands/s-Hertogenbosch/nl-01-037-motion-10s-4x5.mp4",
+    "NL-01-038": "library/world/Netherlands/Eindhoven/nl-01-038-motion-10s-4x5.mp4",
+    "NL-01-040": "library/world/Netherlands/Middelburg/nl-01-040-motion-10s-4x5.mp4",
+    "NL-01-041": "library/world/Netherlands/Veere/nl-01-041-motion-10s-4x5.mp4",
+    "NL-01-047": "library/world/Netherlands/Nijmegen/nl-01-047-motion-10s-4x5.mp4",
+    "NL-01-048": "library/world/Netherlands/Apeldoorn/nl-01-048-motion-10s-4x5.mp4",
+    "NL-01-056": "library/world/Netherlands/Leeuwarden/nl-01-056-motion-10s-4x5.mp4",
+    "NL-01-057": "library/world/Netherlands/Harlingen/nl-01-057-motion-10s-4x5.mp4",
+    "NL-01-060": "library/world/Netherlands/Groningen/nl-01-060-motion-10s-4x5.mp4",
+    "NL-01-077": "library/world/Netherlands/Muiden/nl-01-077-motion-10s-4x5.mp4",
+}
+
+
+def _published_motion() -> dict[str, dict]:
+    """Keep the twelve published 360° clips across a gallery rebuild."""
+    found: dict[str, dict] = {}
+    for entry_id, clip in MOTION_CLIPS.items():
+        rel = clip.removeprefix("library/world/")
+        if ".." in Path(rel).parts or not (WORLD / rel).is_file():
+            continue
+        found[entry_id] = {"motion_clip": clip, "has_360": True}
+    return found
+
+
 def collect_page(scenes: list[dict]) -> tuple[list[dict], dict[str, list]]:
     catalogue = load_catalogue()
+    motion = _published_motion()
     page_scenes: list[dict] = []
     for scene in scenes:
         prepared = prepare_scene(scene)
         if prepared is None:
             print("skip gallery card, missing 16:9 master", scene.get("entry_id"))
             continue
+        entry_id = prepared.get("entry_id")
+        if entry_id in motion and not prepared.get("motion_clip"):
+            prepared.update(motion[entry_id])
         page_scenes.append(prepared)
     meta = build_meta(page_scenes, catalogue)
     _check_meta(meta)

@@ -53,5 +53,8 @@
   },
   "sha256_9x16": "56d1d69e3721db74e924be2835de7bcb3fd613cc8f120096299a4d054c963df7",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2629d5a6ba292d8caa9fa766999c053f895e359f1a5b06e67dab9fd2e5d0009f. Source SHA-256 4:5 c7b802aa88fb6430610b729cfbb36492b9d726039c03b543a68d3de50fb26329. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 2629d5a6ba292d8caa9fa766999c053f895e359f1a5b06e67dab9fd2e5d0009f. Source SHA-256 4:5 c7b802aa88fb6430610b729cfbb36492b9d726039c03b543a68d3de50fb26329. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_postcard": "Netherlands/Lisse/nl-01-005-postcard-16x9.png",
+  "file_4x5_postcard": "Netherlands/Lisse/nl-01-005-postcard-4x5.png",
+  "file_9x16_postcard": "Netherlands/Lisse/nl-01-005-postcard-9x16.png"
 }

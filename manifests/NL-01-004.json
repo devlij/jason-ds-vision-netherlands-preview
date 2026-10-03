@@ -70,5 +70,8 @@
       "by": "Cosmo",
       "note": "Cosmo QC 2026-09-30 — GENUINE five-gate re-audit of the PR#17 rebuilt masters (16:9 inspected visually by Cosmo; 4:5/9:16 dims + label bars verified; sha256 anchors match the rebuilt bytes; Art.50 Comment 2026-09-30 true finish date; per-scene Open-Meteo retrievals unique to the second across all 288 NL scenes). All five gates pass. Scene approved."
     }
-  ]
+  ],
+  "file_16x9_postcard": "Netherlands/Zaandam/nl-01-004-postcard-16x9.png",
+  "file_4x5_postcard": "Netherlands/Zaandam/nl-01-004-postcard-4x5.png",
+  "file_9x16_postcard": "Netherlands/Zaandam/nl-01-004-postcard-9x16.png"
 }
