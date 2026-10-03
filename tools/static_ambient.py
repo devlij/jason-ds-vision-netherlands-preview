@@ -392,6 +392,26 @@ SWEEP_SCENES = (
     {"entry_id": "NL-01-074", "folder": "Arnhem"},
     {"entry_id": "NL-01-075", "folder": "Nijmegen"},
     {"entry_id": "NL-01-076", "folder": "Naarden"},
+    {"entry_id": "NL-01-078", "folder": "Haarzuilens"},
+    {"entry_id": "NL-01-079", "folder": "The Hague"},
+    {"entry_id": "NL-01-080", "folder": "Delft"},
+    {"entry_id": "NL-01-081", "folder": "Holwerd"},
+    {"entry_id": "NL-01-082", "folder": "Zoutkamp"},
+    {"entry_id": "NL-01-083", "folder": "Assen"},
+    {"entry_id": "NL-01-084", "folder": "Amerongen"},
+    {"entry_id": "NL-01-085", "folder": "Poederoijen"},
+    {"entry_id": "NL-01-086", "folder": "Gorinchem"},
+    {"entry_id": "NL-01-087", "folder": "Brielle"},
+    {"entry_id": "NL-01-088", "folder": "Hoek van Holland"},
+    # The lighthouse stands right of plate center. Same glide, aimed at the
+    # tower measured on this daylight plate (x 1012–1402), so the shaft stays
+    # inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-089",
+        "folder": "Katwijk",
+        "subject_x": 1207.0,
+        "subject_span": (1012.0, 1402.0),
+    },
 )
 
 
@@ -423,18 +443,22 @@ def load_sweep_plate(path: Path) -> np.ndarray:
     return plate
 
 
-def sweep_x(n: int) -> float:
-    """Origin of the 864-wide window. Left to right, ease in and out, no vertical."""
+def sweep_x(n: int, subject_x: float = SUBJECT_X) -> float:
+    """Origin of the 864-wide window. Left to right, ease in and out, no vertical.
+
+    ``subject_x`` defaults to the plate center. Passing the same center leaves
+    the glide identical. An off-center landmark passes its own center.
+    """
     travel = PLATE_W * SWEEP_TRAVEL_FRAC
     # Mid-glide puts the subject on the center of the 864 frame.
-    mid = SUBJECT_X - (PHOTO_W / 2.0)
+    mid = subject_x - (PHOTO_W / 2.0)
     u = n / (FRAMES - 1)
     ease = 0.5 - 0.5 * math.cos(math.pi * u)
     return (mid - travel / 2.0) + travel * ease
 
 
-def assert_sweep_path() -> None:
-    xs = [sweep_x(n) for n in range(FRAMES)]
+def assert_sweep_path(subject_x: float = SUBJECT_X) -> None:
+    xs = [sweep_x(n, subject_x) for n in range(FRAMES)]
     travel = xs[-1] - xs[0]
     frac = travel / PLATE_W
     if not (0.15 - 1e-9 <= frac <= 0.20 + 1e-9):
@@ -448,19 +472,33 @@ def assert_sweep_path() -> None:
     for x in xs:
         if x < -1e-3 or x + PHOTO_W > PLATE_W + 1e-3:
             raise SystemExit(f"window {x:.2f} leaves the plate")
-        subject_in_frame = SUBJECT_X - x
+        subject_in_frame = subject_x - x
         if not (0.0 <= subject_in_frame <= PHOTO_W):
             raise SystemExit("subject left the frame")
         # Middle half of the frame. The glide is symmetric about the subject,
         # so the window never runs past it to the edge of the plate.
         if not (PHOTO_W * 0.25 <= subject_in_frame <= PHOTO_W * 0.75):
             raise SystemExit(f"subject left the middle half at window {x:.2f}")
-        if abs((x + half) - SUBJECT_X) - (travel / 2.0) > 0.05:
+        if abs((x + half) - subject_x) - (travel / 2.0) > 0.05:
             raise SystemExit("window traveled past the subject")
 
 
-def render_sweep_frame(plate: np.ndarray, n: int) -> np.ndarray:
-    x = np.float32(sweep_x(n))
+def assert_span_in_frame(subject_x: float, span: tuple[float, float]) -> None:
+    """The whole subject, not only its center, stays inside every frame."""
+    left, right = span
+    if not (left < subject_x < right):
+        raise SystemExit("subject center is outside its span")
+    pad = 12.0
+    for n in range(FRAMES):
+        x = sweep_x(n, subject_x)
+        if left < x + pad or right > x + PHOTO_W - pad:
+            raise SystemExit(
+                f"subject {left:.1f}-{right:.1f} leaves the frame at {n} window {x:.1f}"
+            )
+
+
+def render_sweep_frame(plate: np.ndarray, n: int, subject_x: float = SUBJECT_X) -> np.ndarray:
+    x = np.float32(sweep_x(n, subject_x))
     map_x = np.broadcast_to(np.arange(PHOTO_W, dtype=np.float32) + x, (PHOTO_H, PHOTO_W)).copy()
     map_y = np.broadcast_to(np.arange(PHOTO_H, dtype=np.float32)[:, None], (PHOTO_H, PHOTO_W)).copy()
     # One source pixel per output pixel, and the row index never changes.
@@ -481,7 +519,7 @@ def render_sweep_frame(plate: np.ndarray, n: int) -> np.ndarray:
     return frame
 
 
-def encode_sweep(plate: np.ndarray, dest: Path) -> float:
+def encode_sweep(plate: np.ndarray, dest: Path, subject_x: float = SUBJECT_X) -> float:
     dest.parent.mkdir(parents=True, exist_ok=True)
     cmd = [
         "ffmpeg",
@@ -522,7 +560,7 @@ def encode_sweep(plate: np.ndarray, dest: Path) -> float:
     first = last = None
     try:
         for n in range(FRAMES):
-            frame = render_sweep_frame(plate, n)
+            frame = render_sweep_frame(plate, n, subject_x)
             if n == 0:
                 first = frame
             elif n == FRAMES - 1:
@@ -569,8 +607,14 @@ def run_sweep(only: list[str]) -> None:
         raise SystemExit("refusing ids outside the sideways-sweep pack")
     for scene in scenes:
         anchor, dest = sweep_paths(scene)
+        subject_x = float(scene.get("subject_x", SUBJECT_X))
+        span = scene.get("subject_span")
+        if subject_x != SUBJECT_X or span is not None:
+            assert_sweep_path(subject_x)
+        if span is not None:
+            assert_span_in_frame(subject_x, span)
         plate = load_sweep_plate(anchor)
-        mae = encode_sweep(plate, dest)
+        mae = encode_sweep(plate, dest, subject_x)
         info = probe_sweep(dest)
         stream = info["streams"][0]
         duration = float(info["format"]["duration"])
