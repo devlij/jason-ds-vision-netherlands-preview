@@ -113,12 +113,18 @@
     }
     .preview { position: relative; }
     .fmt-tabs { display: flex; gap: 6px; padding: 0.75rem 1.05rem 0; line-height: 1.4; }
-    .day-row { padding: 0.5rem 1.05rem 0; }
+    .day-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 0.5rem 1.05rem 0; }
     .fmt-tab {
       background: rgba(20, 32, 47, 0.85); color: var(--text); border: 1px solid var(--line);
       border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
     }
     .fmt-tab:hover { border-color: var(--muted); }
+    .btn-360 {
+      background: rgba(20, 32, 47, 0.85); color: var(--text); border: 1px solid var(--accent);
+      border-radius: 8px; padding: 5px 12px; font: inherit; font-size: 12px; font-weight: 700;
+      cursor: pointer; margin-top: 6px;
+    }
+    .btn-360:hover { background: var(--accent); color: var(--bg); }
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
     }
@@ -130,6 +136,9 @@
     .day-row button.day-tab:hover { border-color: var(--accent); }
     .day-row button.day-tab.is-active {
       background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
+    }
+    .day-row button.day-tab.pc-tab.is-active {
+      background: #1f6b4a; border-color: #1f6b4a; color: #f4fff8; font-weight: 700;
     }
     .day-row button.night-tab {
       display: inline-block; background: #243049; color: var(--text);
@@ -364,6 +373,11 @@
     }
     function srcFor(img, fmt, mode) {
       if (!img) return "";
+      if (mode === "postcard") {
+        if (fmt === "4x5") return img.getAttribute("data-src-45-pc") || "";
+        if (fmt === "9x16") return img.getAttribute("data-src-916-pc") || "";
+        return img.getAttribute("data-src-16-pc") || "";
+      }
       if (mode === "day") {
         if (fmt === "4x5") return img.getAttribute("data-src-45-day") || "";
         if (fmt === "9x16") return img.getAttribute("data-src-916-day") || "";
@@ -374,9 +388,10 @@
       return img.getAttribute("data-src-16") || "";
     }
     function lightMode(card) {
+      if (card.querySelector(".pc-tab.is-active")) return "postcard";
       const nightTab = card.querySelector(".night-tab");
       if (nightTab) return nightTab.classList.contains("is-active") ? "night" : "day";
-      const dayTab = card.querySelector(".day-tab");
+      const dayTab = card.querySelector(".day-tab:not(.pc-tab)");
       if (dayTab && dayTab.classList.contains("is-active")) return "day";
       return "night";
     }
@@ -416,7 +431,9 @@
       const sc = card.querySelector("p.scenario");
       if (sc) {
         const kind = card.getAttribute("data-day-kind") || "";
-        if (mode === "day" && kind === "derived") {
+        if (mode === "postcard") {
+          sc.textContent = "Postcard collection";
+        } else if (mode === "day" && kind === "derived") {
           sc.textContent = "\u2600 Daylight variant \u00b7 derived from the night interpretation";
         } else if (mode === "day" && sc.getAttribute("data-scenario-day")) {
           sc.textContent = "Scenario: " + sc.getAttribute("data-scenario-day");
@@ -456,37 +473,53 @@
         const day16 = s.file_16x9_day ? 'library/world/' + s.file_16x9_day : "";
         const day45 = s.file_4x5_day ? 'library/world/' + s.file_4x5_day : "";
         const day916 = s.file_9x16_day ? 'library/world/' + s.file_9x16_day : "";
+        const pc16 = s.file_16x9_postcard ? 'library/world/' + s.file_16x9_postcard : "";
+        const pc45 = s.file_4x5_postcard ? 'library/world/' + s.file_4x5_postcard : "";
+        const pc916 = s.file_9x16_postcard ? 'library/world/' + s.file_9x16_postcard : "";
+        const hasPc = !!(pc16 || pc45 || pc916);
+        const motionClip = s.motion_clip ? s.motion_clip : "";
+        const has360 = s.has_360 === true && !!motionClip;
         const dayPrimary = s.daylight_primary === true && !!day16;
         const dayKind = dayPrimary ? "genuine" : (day16 ? "derived" : "");
         const dayScenario = (dayPrimary && s.daylight_variant && s.daylight_variant.scenario_label) ? s.daylight_variant.scenario_label : "";
-        const hero = dayPrimary ? day16 : file16;
+        const sceneHero = dayPrimary ? day16 : file16;
+        const hero = hasPc ? (pc16 || pc45 || pc916) : sceneHero;
+        const dl16 = (hasPc && pc16) ? pc16 : sceneHero;
+        const dl45 = (hasPc && pc45) ? pc45 : (dayPrimary ? day45 : file45);
+        const dl916 = (hasPc && pc916) ? pc916 : (dayPrimary ? day916 : file916);
+        const lightControl = dayPrimary
+          ? `<button type="button" class="night-tab" data-daynight="day" aria-pressed="false" title="Show the original night image">\uD83C\uDF19 Nighttime</button>`
+          : (day16 ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : "");
+        const pcControl = hasPc ? `<button type="button" class="day-tab pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">\u{1F4E9} Postcard</button>` : "";
+        const scenarioText = hasPc ? "Postcard collection" : ("Scenario: " + (dayScenario || s.scenario_label));
         card.setAttribute("data-day-kind", dayKind);
         card.innerHTML = `
           <div class="preview">
             <a class="thumb" href="${esc(hero)}" target="_blank" rel="noopener">
-              <img src="${esc(hero)}" alt="${esc(imageAlt(s))}" loading="lazy" data-src-16="${esc(file16)}"${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
+              <img src="${esc(hero)}" alt="${esc(imageAlt(s))}" loading="lazy" data-src-16="${esc(file16)}"${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""}${pc16 ? ` data-src-16-pc="${esc(pc16)}"` : ""}${pc45 ? ` data-src-45-pc="${esc(pc45)}"` : ""}${pc916 ? ` data-src-916-pc="${esc(pc916)}"` : ""} />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
               <button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>
-              ${(file45 || day45) ? `<button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>` : ""}
-              ${(file916 || day916) ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
+              ${(file45 || day45 || pc45) ? `<button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>` : ""}
+              ${(file916 || day916 || pc916) ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
             </div>
-          ${dayPrimary ? `<div class="day-row"><button type="button" class="night-tab" data-daynight="day" aria-pressed="false" title="Show the original night image">\uD83C\uDF19 Nighttime</button></div>` : (day16 ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : "")}
+            ${has360 ? `<button type="button" class="btn-360" data-clip="${esc(motionClip)}">▶ 360°</button>` : ""}
+          ${(lightControl || pcControl) ? `<div class="day-row">${lightControl}${pcControl}</div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
               <span class="status ${esc((s.approval_status || 'Candidate').toLowerCase())}">${esc(s.approval_status || 'Candidate')}</span>
             </div>
             <h3 class="caption">${esc(s.caption)}</h3>
-            <p class="scenario" data-scenario="${esc(s.scenario_label)}"${dayScenario ? ` data-scenario-day="${esc(dayScenario)}"` : ""}>Scenario: ${esc(dayScenario || s.scenario_label)}</p>
+            <p class="scenario" data-scenario="${esc(s.scenario_label)}"${dayScenario ? ` data-scenario-day="${esc(dayScenario)}"` : ""}>${esc(scenarioText)}</p>
             <p class="composition">${esc(s.composition)}</p>
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="${esc(s.license_anchor)}">${esc(s.license_badge)}</a>
-              <a class="download" data-dl="16x9" href="${esc(hero)}" download="${esc(fileName(hero))}">Download 16:9</a>
-              ${(file45 || day45) ? `<a class="download" data-dl="4x5" href="${esc(dayPrimary ? day45 : file45)}" download="${esc(fileName(dayPrimary ? day45 : file45))}">Download 4:5</a>` : ""}
-              ${(file916 || day916) ? `<a class="download" data-dl="9x16" href="${esc(dayPrimary ? day916 : file916)}" download="${esc(fileName(dayPrimary ? day916 : file916))}">Download 9:16</a>` : ""}
+              <a class="download" data-dl="16x9" href="${esc(dl16)}" download="${esc(fileName(dl16))}">Download 16:9</a>
+              ${(file45 || day45 || pc45) ? `<a class="download" data-dl="4x5" href="${esc(dl45)}" download="${esc(fileName(dl45))}">Download 4:5</a>` : ""}
+              ${(file916 || day916 || pc916) ? `<a class="download" data-dl="9x16" href="${esc(dl916)}" download="${esc(fileName(dl916))}">Download 9:16</a>` : ""}
               
             </div>
           </div>`;
@@ -497,8 +530,36 @@
       if (typeof phase1Enhance === 'function') phase1Enhance();
     }
     grid.addEventListener('click', (event) => {
+      const ptab = event.target.closest('.pc-tab');
+      if (ptab) {
+        event.preventDefault();
+        const card = ptab.closest('.card');
+        if (!card) return;
+        const on = !ptab.classList.contains('is-active');
+        ptab.classList.toggle('is-active', on);
+        ptab.setAttribute('aria-pressed', on ? 'true' : 'false');
+        ptab.setAttribute('data-postcard', on ? 'on' : 'off');
+        if (on) {
+          card.querySelectorAll('.night-tab, .day-tab:not(.pc-tab)').forEach((btn) => {
+            btn.classList.remove('is-active');
+            btn.setAttribute('aria-pressed', 'false');
+            if (btn.classList.contains('night-tab')) {
+              btn.setAttribute('data-daynight', 'day');
+              btn.title = 'Show the original night image';
+            } else {
+              btn.setAttribute('data-daynight', 'night');
+            }
+          });
+        }
+        const activeFmt = card.querySelector('.fmt-tab.is-active');
+        const keepFmt = (activeFmt && !activeFmt.hidden && activeFmt.getAttribute('data-format'))
+          || card.dataset.wantedFormat
+          || preferredFormat();
+        applyView(card, lightMode(card), keepFmt);
+        return;
+      }
       const lightBtn = event.target.closest('.night-tab, .day-tab');
-      if (lightBtn) {
+      if (lightBtn && !lightBtn.classList.contains('pc-tab')) {
         event.preventDefault();
         const card = lightBtn.closest('.card');
         if (!card) return;
@@ -510,6 +571,14 @@
           lightBtn.title = turnOn ? 'Return to the daylight image' : 'Show the original night image';
         } else {
           lightBtn.setAttribute('data-daynight', turnOn ? 'day' : 'night');
+        }
+        if (turnOn) {
+          const pc = card.querySelector('.pc-tab');
+          if (pc) {
+            pc.classList.remove('is-active');
+            pc.setAttribute('aria-pressed', 'false');
+            pc.setAttribute('data-postcard', 'off');
+          }
         }
         const activeFmt = card.querySelector('.fmt-tab.is-active');
         const keepFmt = (activeFmt && !activeFmt.hidden && activeFmt.getAttribute('data-format'))
@@ -653,9 +722,15 @@
     var INTERVAL=6000;
     var lbFormat='16x9';
     var lbDay='night';
+    var lbPost='off';
     function visibleCards(){return Array.prototype.filter.call(document.querySelectorAll('.card'),function(c){return c.style.display!=='none';});}
     function pickSrc(im, mode, fmt){
       if(!im) return '';
+      if(mode==='postcard'){
+        if(fmt==='4x5') return im.getAttribute('data-src-45-pc')||'';
+        if(fmt==='9x16') return im.getAttribute('data-src-916-pc')||'';
+        return im.getAttribute('data-src-16-pc')||'';
+      }
       if(mode==='day'){
         if(fmt==='4x5') return im.getAttribute('data-src-45-day')||'';
         if(fmt==='9x16') return im.getAttribute('data-src-916-day')||'';
@@ -668,15 +743,19 @@
     function show(i){
       items=visibleCards().map(function(c){
         var im=c.querySelector('a.thumb img');var t=c.querySelector('h3.caption');
-        var src=pickSrc(im, lbDay, lbFormat)||pickSrc(im, lbDay, '16x9');
-        if(!src && lbDay!=='night') src=pickSrc(im, 'night', '16x9');
+        var mode=lbPost==='on'?'postcard':lbDay;
+        var src=pickSrc(im, mode, lbFormat)||pickSrc(im, mode, '16x9');
+        if(!src && mode!=='night') src=pickSrc(im, 'night', '16x9');
         if(!src){var a=c.querySelector('a.thumb');src=a?a.getAttribute('href')||'':'';}
         var capT=t?t.textContent:'';
         var kind=c.getAttribute('data-day-kind')||'';
-        var showingDay=lbDay==='day' && !!pickSrc(im, 'day', lbFormat || '16x9');
-        if(showingDay && kind==='derived') capT=capT+' \u2014 \u2600 Daylight variant';
+        var showingPc=lbPost==='on' && !!pickSrc(im, 'postcard', lbFormat || '16x9');
+        var showingDay=!showingPc && lbDay==='day' && !!pickSrc(im, 'day', lbFormat || '16x9');
+        if(showingPc) capT=capT+' \u2014 Postcard collection';
+        else if(showingDay && kind==='derived') capT=capT+' \u2014 \u2600 Daylight variant';
         var altT=(im&&im.alt)?im.alt:capT;
-        if(showingDay && kind==='derived') altT=altT+' \u2014 \u2600 Daylight variant';
+        if(showingPc) altT=altT+' \u2014 Postcard collection';
+        else if(showingDay && kind==='derived') altT=altT+' \u2014 \u2600 Daylight variant';
         return{src:src,cap:capT,alt:altT};
       }).filter(function(x){return x.src;});
       if(!items.length)return;
@@ -695,7 +774,7 @@
     function hide(){stopSlideshow();overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
     document.addEventListener('click',function(e){
       var a=e.target.closest?e.target.closest('a.thumb'):null;
-      if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active:not([hidden])');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var nightTab=card.querySelector('.night-tab');var dayTab=card.querySelector('.day-tab');lbDay=nightTab?(nightTab.classList.contains('is-active')?'night':'day'):(dayTab&&dayTab.classList.contains('is-active')?'day':'night');show(cards.indexOf(card));return;}
+      if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active:not([hidden])');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var ptab=card.querySelector('.pc-tab.is-active');lbPost=ptab?'on':'off';var nightTab=card.querySelector('.night-tab');var dayTab=card.querySelector('.day-tab:not(.pc-tab)');lbDay=nightTab?(nightTab.classList.contains('is-active')?'night':'day'):(dayTab&&dayTab.classList.contains('is-active')?'day':'night');if(lbPost==='on')lbDay='night';show(cards.indexOf(card));return;}
       if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();
       else if(e.target.closest&&e.target.closest('.lb-play'))togglePlay();
       else if(e.target.closest&&e.target.closest('.lb-prev'))nav(-1);
@@ -730,6 +809,42 @@
     document.querySelector('#wotd .wotd-body').innerHTML=h;
     document.getElementById('wotd-day').textContent='Day '+doy+' of 365';
   }catch(err){}
+})();
+</script>
+<script>
+(function() {
+  // 360° video player for Netherlands gallery
+  const modal = document.createElement('div');
+  modal.id = 'video360-modal';
+  modal.style.cssText = 'display:none;position:fixed;inset:0;background:rgba(0,0,0,0.9);z-index:9999;align-items:center;justify-content:center;';
+  modal.innerHTML = '<div style="position:relative;max-width:90vw;max-height:90vh;">' +
+    '<video id="video360-player" style="max-width:90vw;max-height:85vh;border-radius:8px;" autoplay muted loop playsinline></video>' +
+    '<button id="video360-close" style="position:absolute;top:-40px;right:0;background:#fff;border:none;border-radius:50%;width:32px;height:32px;font-size:18px;cursor:pointer;">✕</button>' +
+    '</div>';
+  document.body.appendChild(modal);
+  const player = modal.querySelector('#video360-player');
+  const closeBtn = modal.querySelector('#video360-close');
+
+  function closeModal() {
+    player.pause();
+    player.src = '';
+    modal.style.display = 'none';
+  }
+  closeBtn.onclick = closeModal;
+  modal.onclick = function(e) { if (e.target === modal) closeModal(); };
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeModal(); });
+
+  document.addEventListener('click', function(e) {
+    const btn = e.target.closest('.btn-360');
+    if (btn) {
+      const clip = btn.getAttribute('data-clip');
+      if (clip) {
+        player.src = clip;
+        modal.style.display = 'flex';
+        player.play().catch(function() {});
+      }
+    }
+  });
 })();
 </script>
 </body>

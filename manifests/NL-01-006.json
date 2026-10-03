@@ -53,5 +53,8 @@
   },
   "sha256_9x16": "dd5e270563226e0b51eb54bd23616de7515f6dbcb9873055edc52bc5a097c5e0",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 f8998be313196246c6853ea5c004d93d9551bdbbad8daab7ef041102ae16099e. Source SHA-256 4:5 9b591349bedeb83b0380c869b5c51da9a68b101876d33e1772d0502c0937bb4f. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 f8998be313196246c6853ea5c004d93d9551bdbbad8daab7ef041102ae16099e. Source SHA-256 4:5 9b591349bedeb83b0380c869b5c51da9a68b101876d33e1772d0502c0937bb4f. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_postcard": "Netherlands/Giethoorn/nl-01-006-postcard-16x9.png",
+  "file_4x5_postcard": "Netherlands/Giethoorn/nl-01-006-postcard-4x5.png",
+  "file_9x16_postcard": "Netherlands/Giethoorn/nl-01-006-postcard-9x16.png"
 }
