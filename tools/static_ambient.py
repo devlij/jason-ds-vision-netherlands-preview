@@ -917,6 +917,180 @@ SWEEP_SCENES = (
         "subject_x": 1314.0,
         "subject_span": (1210.0, 1462.0),
     },
+    # The round keep and the later wings are one mass, x 784–1394, wider
+    # than an 18% glide can hold. This clip eases only across the slack
+    # that keeps the keep and the wings inside every frame with a 12px
+    # pad. The white church across the street stays out. The default
+    # center sweep is unchanged.
+    {
+        "entry_id": "NL-01-172",
+        "folder": "Haamstede",
+        "subject_x": 1089.0,
+        "subject_span": (784.0, 1394.0),
+        "window_start": 542.0,
+        "window_end": 772.0,
+    },
+    # The white tower stands left of plate center. An 18% glide on the
+    # tower's own center would leave the plate. Same glide, aimed as close
+    # to the shaft as the plate allows (watch room and lantern x 458–616),
+    # so the tower stays inside the 864 frame. The default center anchor
+    # is unchanged.
+    {
+        "entry_id": "NL-01-173",
+        "folder": "Egmond aan Zee",
+        "subject_x": 605.0,
+        "subject_span": (458.0, 616.0),
+    },
+    # The two onion-roof gate towers and the round keep, taken together,
+    # are wider than an 18% glide can hold. This clip eases only across
+    # the slack that keeps both onion roofs and the keep (x 361–1111)
+    # inside every frame with a 12px pad. The far right wing stays out.
+    # The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-174",
+        "folder": "Hoensbroek",
+        "subject_x": 736.0,
+        "subject_span": (361.0, 1111.0),
+        "window_start": 259.0,
+        "window_end": 349.0,
+    },
+    # The keep and the cone turrets, including the far-left round turret,
+    # run x 890–1642. That is wider than an 18% glide can hold. The previous
+    # window ended at 965 and cut that left turret. This clip shortens the
+    # glide so the left turret, the keep, and the other cone turrets stay
+    # inside every frame with a 12px pad. The right curtain wall past that
+    # span stays out. The main tower already touches the top row of the
+    # daylight plate, so the frame keeps that edge. The default center
+    # sweep is unchanged.
+    {
+        "entry_id": "NL-01-175",
+        "folder": "'s-Heerenberg",
+        "subject_x": 1266.0,
+        "subject_span": (890.0, 1642.0),
+        "window_start": 790.0,
+        "window_end": 878.0,
+    },
+    # The white column and its red stripe stand left of plate center.
+    # Same glide, aimed at the tower measured on this daylight plate
+    # (x 719–817), so the shaft and the stripe stay inside the 864 frame.
+    # The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-176",
+        "folder": "Bonaire",
+        "subject_x": 768.0,
+        "subject_span": (719.0, 817.0),
+    },
+    # The former church's flat roof stands right of plate center. Same
+    # glide, aimed at that roof measured on this daylight plate
+    # (x 1049–1224), so the church stays inside the 864 frame. The
+    # default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-177",
+        "folder": "Nagele",
+        "subject_x": 1136.5,
+        "subject_span": (1049.0, 1224.0),
+    },
+    # NL-01-178 is not swept. The Almere city hall's two wings run about
+    # x 250–1360, wider than 864, so a 4:5 frame cannot keep both wings.
+    #
+    # Hunebed D53's capstones sit inside about x 410–1210. That is wider
+    # than an 18% glide can hold. This clip eases only across the slack
+    # that keeps the chamber inside every frame with a 12px pad. The
+    # default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-179",
+        "folder": "Havelte",
+        "subject_x": 810.0,
+        "subject_span": (410.0, 1210.0),
+        "window_start": 358.0,
+        "window_end": 398.0,
+    },
+    # NL-01-180 is not swept. The colony houses form two groups, about
+    # x 228–701 and x 1270–1722, so a 4:5 frame cannot keep every roof.
+    #
+    # The Meppeler Toren stands left of plate center. Same glide, aimed
+    # at the shaft and cupola measured on this daylight plate (x 670–935),
+    # so the 1827 cupola stays inside the 864 frame. The default center
+    # anchor is unchanged.
+    {
+        "entry_id": "NL-01-181",
+        "folder": "Meppel",
+        "subject_x": 802.5,
+        "subject_span": (670.0, 935.0),
+    },
+    # NL-01-182 is not swept. The merchant houses around the basin and
+    # the lock run wider than 864, so a 4:5 frame cannot keep every gable.
+    #
+    # NL-01-183 is not swept. The church and the detached squat tower
+    # together run wider than 864, so a 4:5 frame cannot keep both roofs.
+    #
+    # The sandstone west tower stands left of plate center. Same glide,
+    # aimed at the shaft measured on this daylight plate (x 540–908), so
+    # the spire stays inside the 864 frame. The default center anchor is
+    # unchanged.
+    {
+        "entry_id": "NL-01-184",
+        "folder": "Oldenzaal",
+        "subject_x": 724.0,
+        "subject_span": (540.0, 908.0),
+    },
+    # NL-01-185 is not swept. The U-shaped manor reaches the left of the
+    # plate and the off-centre tower stands near x 1457, so a 4:5 frame
+    # cannot keep the manor and that tower.
+    #
+    # The chapel is one brick nave. Its roof rises from about x 540 to the
+    # right edge of the plate, so the whole building is wider than 864.
+    # The near gable is that tall end: the roof meets the top of the
+    # daylight plate around x 1820 and the wall continues to the plate
+    # edge. This clip holds the largest portion that still includes that
+    # gable and the nave windows (about x 1061–1899), eased only across
+    # the slack that keeps them inside the 864 frame. The far end of the
+    # nave, left of this window, does not fit. The default center sweep
+    # is unchanged.
+    {
+        "entry_id": "NL-01-186",
+        "folder": "Ter Apel",
+        "subject_x": 1480.0,
+        "subject_span": (1068.0, 1892.0),
+        "window_start": 1040.0,
+        "window_end": 1056.0,
+    },
+    # NL-01-187 is not swept. The water gate and the stage mill's sails
+    # together run wider than 864, so a 4:5 frame cannot keep both.
+    #
+    # The open bell cupola stands just left of plate center. Same glide,
+    # aimed at the cupola measured on this daylight plate (x 836–1088), so
+    # the cupola stays inside the 864 frame. The long cornice outside that
+    # span stays out. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-188",
+        "folder": "Dokkum",
+        "subject_x": 962.0,
+        "subject_span": (836.0, 1088.0),
+    },
+    # NL-01-189 is not swept. The piers and the cliff behind them fill
+    # more of the plate than 864, so a 4:5 frame cannot keep the pier line.
+    #
+    # NL-01-190 is not swept. The ruined warehouse gables are a row of
+    # separate roofs along the bay, so a 4:5 frame cannot keep every gable.
+    #
+    # NL-01-191 is not swept. The coral-stone huts run from about x 64 to
+    # the right edge, so a 4:5 frame cannot keep every roof.
+    #
+    # NL-01-192 is not swept. The ferry terminal runs about x 900–1850,
+    # wider than 864, so a 4:5 frame cannot keep the whole building.
+    #
+    # The Urk lighthouse stands too far right for an 18% glide on its own
+    # center to stay on the plate. Same glide, aimed as close to the tower
+    # as the plate allows (measured x 1255–1499), so the shaft and the
+    # copper dome stay inside the 864 frame. The default center anchor is
+    # unchanged.
+    {
+        "entry_id": "NL-01-193",
+        "folder": "Urk",
+        "subject_x": 1314.0,
+        "subject_span": (1255.0, 1499.0),
+    },
 )
 
 
