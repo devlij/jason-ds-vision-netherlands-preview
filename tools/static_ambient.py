@@ -532,6 +532,54 @@ SWEEP_SCENES = (
         "subject_span": (852.0, 1249.0),
     },
     {"entry_id": "NL-01-113", "folder": "Nes"},
+    {"entry_id": "NL-01-114", "folder": "West-Terschelling"},
+    {"entry_id": "NL-01-115", "folder": "Oost-Vlieland"},
+    # The Noordertoren stands right of plate center. Same glide, aimed at the
+    # tower measured on this daylight plate (x 1156–1330), so the shaft stays
+    # inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-116",
+        "folder": "Schiermonnikoog",
+        "subject_x": 1243.0,
+        "subject_span": (1156.0, 1330.0),
+    },
+    {"entry_id": "NL-01-117", "folder": "Den Oever"},
+    # The Dudok tower and its canopy stand right of plate center. Same glide,
+    # aimed at the tower measured on this daylight plate (canopy x 1233–1438),
+    # so the monument stays inside the 864 frame. The default center anchor
+    # is unchanged.
+    {
+        "entry_id": "NL-01-118",
+        "folder": "Afsluitdijk",
+        "subject_x": 1299.0,
+        "subject_span": (1233.0, 1438.0),
+    },
+    {"entry_id": "NL-01-129", "folder": "Haarlem"},
+    {"entry_id": "NL-01-130", "folder": "Amsterdam"},
+    # The Overhoeks tower stands right of plate center. Same glide, aimed at
+    # the shaft measured on this daylight plate (x 1095–1381), so the tower
+    # stays inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-131",
+        "folder": "Amsterdam",
+        "subject_x": 1238.0,
+        "subject_span": (1095.0, 1381.0),
+    },
+    {"entry_id": "NL-01-132", "folder": "Amsterdam"},
+    {"entry_id": "NL-01-133", "folder": "Rotterdam"},
+    # The three glass slabs, taken together, are wider than an 18% glide can
+    # hold. This clip eases only across the slack that keeps those slabs
+    # (x 620–1186) inside every frame with a 12px pad. The window stays on
+    # the plate. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-134",
+        "folder": "Rotterdam",
+        "subject_x": 903.0,
+        "subject_span": (620.0, 1186.0),
+        "window_start": 338.0,
+        "window_end": 604.0,
+    },
+    {"entry_id": "NL-01-135", "folder": "The Hague"},
 )
 
 
