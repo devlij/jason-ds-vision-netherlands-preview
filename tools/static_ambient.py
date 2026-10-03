@@ -580,6 +580,113 @@ SWEEP_SCENES = (
         "window_end": 604.0,
     },
     {"entry_id": "NL-01-135", "folder": "The Hague"},
+    # Paleis Noordeinde's facade is wider than the 864 frame. This clip
+    # eases only across the slack that remains after the largest central
+    # portion (the pediment and the equestrian statue, x 564–1356) is held
+    # inside every frame with a 12px pad. The outer wings stay out, so one
+    # end does not leave as the other comes in. The window stays on the
+    # plate. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-136",
+        "folder": "The Hague",
+        "subject_x": 960.0,
+        "subject_span": (564.0, 1356.0),
+        "window_start": 504.0,
+        "window_end": 552.0,
+    },
+    # The Burcht shell keep stands left of plate center. Same glide, aimed
+    # at the keep measured on this daylight plate (x 655–1035), so the
+    # brick ring stays inside the 864 frame. The default center anchor is
+    # unchanged.
+    {
+        "entry_id": "NL-01-137",
+        "folder": "Leiden",
+        "subject_x": 843.5,
+        "subject_span": (655.0, 1035.0),
+    },
+    # Oostpoort's two towers, taken together, are wider than an 18% glide
+    # can hold. This clip eases only across the slack that keeps both
+    # towers (x 694–1504) inside every frame with a 12px pad. The window
+    # stays on the plate. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-138",
+        "folder": "Delft",
+        "subject_x": 1099.0,
+        "subject_span": (694.0, 1504.0),
+        "window_start": 652.0,
+        "window_end": 682.0,
+    },
+    # Huis Van Gijn's straight cornice, taken as the house, is wider than
+    # an 18% glide can hold. This clip eases only across the slack that
+    # keeps the house (x 600–1340) inside every frame with a 12px pad. The
+    # window stays on the plate. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-139",
+        "folder": "Dordrecht",
+        "subject_x": 970.0,
+        "subject_span": (600.0, 1340.0),
+        "window_start": 488.0,
+        "window_end": 588.0,
+    },
+    # The unfinished west wall of the Domkerk stands right of plate center.
+    # Same glide, aimed at the wall measured on this daylight plate
+    # (x 1100–1500), so the Gothic front stays inside the 864 frame. The
+    # default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-140",
+        "folder": "Utrecht",
+        "subject_x": 1299.0,
+        "subject_span": (1100.0, 1500.0),
+    },
+    {"entry_id": "NL-01-141", "folder": "Breda"},
+    # The Lichttoren stands right of plate center. Same glide, aimed at the
+    # shaft measured on this daylight plate (x 840–1260), so the tower stays
+    # inside the 864 frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-142",
+        "folder": "Eindhoven",
+        "subject_x": 1050.5,
+        "subject_span": (840.0, 1260.0),
+    },
+    # Helpoort's two round towers, taken together, are wider than an 18%
+    # glide can hold. This clip eases only across the slack that keeps both
+    # towers (x 270–1090) inside every frame with a 12px pad. The window
+    # stays on the plate. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-143",
+        "folder": "Maastricht",
+        "subject_x": 680.0,
+        "subject_span": (270.0, 1090.0),
+        "window_start": 238.0,
+        "window_end": 258.0,
+    },
+    # Forum's stacked blocks, taken together, are wider than an 18% glide
+    # can hold. This clip eases only across the slack that keeps the
+    # building (x 900–1620) inside every frame with a 12px pad. The window
+    # stays on the plate. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-144",
+        "folder": "Groningen",
+        "subject_x": 1260.0,
+        "subject_span": (900.0, 1620.0),
+        "window_start": 768.0,
+        "window_end": 888.0,
+    },
+    # The Quill's cone is wider than the 864 frame. This clip eases only
+    # across the slack that remains after the largest portion that fits
+    # (the peak and the upper slopes, x 590–1410) is held inside every
+    # frame with a 12px pad. One slope does not leave as the other comes
+    # in. The window stays on the plate. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-145",
+        "folder": "Oranjestad",
+        "subject_x": 1000.0,
+        "subject_span": (590.0, 1410.0),
+        "window_start": 558.0,
+        "window_end": 578.0,
+    },
+    {"entry_id": "NL-01-146", "folder": "Bonaire"},
+    {"entry_id": "NL-01-147", "folder": "Windwardside"},
 )
 
 
