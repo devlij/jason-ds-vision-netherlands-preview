@@ -648,19 +648,19 @@ SWEEP_SCENES = (
         "subject_x": 1050.5,
         "subject_span": (840.0, 1260.0),
     },
-    # Helpoort's two round towers, taken together, are wider than an 18%
-    # glide can hold. The right cone's tip sits near x 1110 and the roof
-    # runs out to about x 1200; the left tower is x 430–660. This clip
-    # eases only across the slack that keeps both towers and both roofs
-    # (x 430–1240) inside every frame with a 12px pad. The window stays
-    # on the plate. The default center sweep is unchanged.
+    # Helpoort's left round tower (x 210–340) and the right cone (tip at
+    # x 1036, eave near x 1112) are wider than 864. This clip eases only
+    # across the slack that keeps that tower and the cone tip inside every
+    # frame with a 12px pad. The right slope past the tip is the part that
+    # does not fit. The window stays on the plate. The default center
+    # sweep is unchanged.
     {
         "entry_id": "NL-01-143",
         "folder": "Maastricht",
-        "subject_x": 835.0,
-        "subject_span": (430.0, 1240.0),
-        "window_start": 388.0,
-        "window_end": 418.0,
+        "subject_x": 625.0,
+        "subject_span": (210.0, 1040.0),
+        "window_start": 190.0,
+        "window_end": 198.0,
     },
     # Forum's stacked blocks, taken together, are wider than an 18% glide
     # can hold. This clip eases only across the slack that keeps the
