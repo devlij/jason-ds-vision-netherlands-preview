@@ -498,14 +498,19 @@ SWEEP_SCENES = (
     },
     {"entry_id": "NL-01-107", "folder": "Yerseke"},
     {"entry_id": "NL-01-108", "folder": "Goes"},
-    # The tied arch stands right of plate center. Same glide, aimed at the
-    # arch measured on this daylight plate (x 956–1443), so the arch stays
-    # inside the 864 frame. The default center anchor is unchanged.
+    # The tied arch, springing to springing, is x 788–1660 on this daylight
+    # plate. That is wider than the 864 frame, so an 18% glide travels past
+    # it and cuts one foot off as the other comes in. This clip eases only
+    # across the slack that remains after the largest portion that fits
+    # (x 808–1641, crown included) is held inside every frame with a 12px
+    # pad. The window stays on the plate. The default center sweep is unchanged.
     {
         "entry_id": "NL-01-109",
         "folder": "Culemborg",
-        "subject_x": 1199.5,
-        "subject_span": (956.0, 1443.0),
+        "subject_x": 1224.5,
+        "subject_span": (808.0, 1641.0),
+        "window_start": 789.0,
+        "window_end": 796.0,
     },
     # The Waterpoort stands right of plate center. Same glide, aimed at the
     # gate measured on this daylight plate (x 1119–1345), so the gate stays
