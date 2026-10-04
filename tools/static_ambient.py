@@ -1575,6 +1575,202 @@ SWEEP_SCENES = (
         "window_start": 580.0,
         "window_end": 609.0,
     },
+    # The Sint-Nicolaaskerk roof, onion spire included, measures about
+    # x 570–1577, wider than 864. The only distinct tip is the onion
+    # (x 735, y 10, under the top of the plate). This clip eases only
+    # across the slack that keeps the spire and the nave that still fits
+    # (x 570–1386) inside every frame with a 12px pad. The far end of the
+    # nave stays out. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-251",
+        "folder": "Dwingeloo",
+        "subject_x": 978.0,
+        "subject_span": (570.0, 1386.0),
+        "window_start": 534.0,
+        "window_end": 558.0,
+    },
+    # NL-01-252 is not swept. The Boog van Ziel parapet runs about
+    # x 0–1742, wider than 864, and already meets the left edge.
+    #
+    # The Schierstins tower (x 436–977, crown y 30 at x 702) and the
+    # neck-gable wing (peak x 1162, roof on toward x 1460) together run
+    # wider than 864. This clip eases only across the slack that keeps
+    # the tower crown and the neck gable (x 436–1252) inside every frame
+    # with a 12px pad. The far eave of the wing stays out. The default
+    # center sweep is unchanged.
+    {
+        "entry_id": "NL-01-253",
+        "folder": "Feanwalden",
+        "subject_x": 844.0,
+        "subject_span": (436.0, 1252.0),
+        "window_start": 400.0,
+        "window_end": 424.0,
+    },
+    # NL-01-254 is not swept. The four caissons measure about
+    # x 195–656, 671–1001, 1106–1395, and 1548–1792. Outer span
+    # x 195–1792 is wider than 864, so a 4:5 frame cannot keep every caisson.
+    #
+    # Kasteel Arcen's gatehouse, octagonal spire (tip x 818, y 63), and
+    # the manor roof's right hip measure about x 674–1505. That is wider
+    # than an 18% glide can hold. This clip eases only across the slack
+    # that keeps the spire and that hip inside every frame with a 12px
+    # pad. The trees past the hip stay out. The default center sweep is
+    # unchanged.
+    {
+        "entry_id": "NL-01-255",
+        "folder": "Arcen",
+        "subject_x": 1089.5,
+        "subject_span": (674.0, 1505.0),
+        "window_start": 653.0,
+        "window_end": 662.0,
+    },
+    # The Sint-Petrusbasiliek, spire included, measures about x 528–1768,
+    # wider than 864. The only distinct tip is the spire (x 671, y 29).
+    # This clip eases only across the slack that keeps the spire and the
+    # nave that still fits (x 528–1344) inside every frame with a 12px
+    # pad. The far end of the nave stays out. The default center sweep
+    # is unchanged.
+    {
+        "entry_id": "NL-01-256",
+        "folder": "Oirschot",
+        "subject_x": 936.0,
+        "subject_span": (528.0, 1344.0),
+        "window_start": 492.0,
+        "window_end": 516.0,
+    },
+    # NL-01-257 is not swept. The cliff and the stair run from the left
+    # edge (skyline about y 299 at x 0) to the cove drop near x 1440,
+    # wider than 864.
+    #
+    # The Oranjestad ruin's tower (x 402–655) and the roofless nave,
+    # which continues to about x 1600, together run wider than 864. This
+    # clip eases only across the slack that keeps the tower and the nave
+    # that still fits (x 402–1218) inside every frame with a 12px pad.
+    # The far end of the nave stays out. The default center sweep is
+    # unchanged.
+    {
+        "entry_id": "NL-01-258",
+        "folder": "Oranjestad",
+        "subject_x": 810.0,
+        "subject_span": (402.0, 1218.0),
+        "window_start": 366.0,
+        "window_end": 390.0,
+    },
+    # NL-01-259 is not swept. Havezate De Havixhorst's hipped roof runs
+    # about x 400–1480, wider than 864, so a 4:5 frame cannot keep both ends.
+    #
+    # The Sint-Margaretakerk, saddle-roof tower included, measures about
+    # x 649–1297. That is wider than an 18% glide can hold. This clip
+    # eases only across the slack that keeps the tower and the choir
+    # inside every frame with a 12px pad. The trees past the choir stay
+    # out. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-260",
+        "folder": "Norg",
+        "subject_x": 973.0,
+        "subject_span": (649.0, 1297.0),
+        "window_start": 445.0,
+        "window_end": 637.0,
+    },
+    # NL-01-261 is not swept. The west gable (about x 426–794) and the
+    # stair turret (about x 1666–1703) together run wider than 864.
+    #
+    # NL-01-262 is not swept. The 1708 gate (about x 123–464, crown at
+    # y 3) and the villa (about x 624–1710) together run wider than 864.
+    #
+    # The Zuidertoren stands right of plate center. Same glide, aimed at
+    # the shaft measured on this daylight plate (x 1203–1368), so the
+    # copper dome and the monk finial stay inside the 864 frame. The
+    # finial is at y 81, under the top of the plate. The default center
+    # anchor is unchanged.
+    {
+        "entry_id": "NL-01-263",
+        "folder": "Schiermonnikoog",
+        "subject_x": 1285.5,
+        "subject_span": (1203.0, 1368.0),
+    },
+    # NL-01-264 is not swept. The unfinished nave (about x 378–1004) and
+    # the separate tower (about x 1261–1516) together run wider than 864.
+    #
+    # NL-01-265 is not swept. The foundation walls are separate low runs
+    # from about x 84 to x 1034, wider than 864, with no tower to hold.
+    #
+    # The seven Houtribsluizen lift towers measure about x 622–1394.
+    # That is wider than an 18% glide can hold. This clip eases only
+    # across the slack that keeps every tower inside every frame with a
+    # 12px pad. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-266",
+        "folder": "Lelystad",
+        "subject_x": 1008.0,
+        "subject_span": (622.0, 1394.0),
+        "window_start": 542.0,
+        "window_end": 610.0,
+    },
+    # The Grote Kerk at Veere, low tower roof included, measures about
+    # x 576–1522, wider than 864. The tower roof is x 707–1010 (peak
+    # x 859, y 145). This clip eases only across the slack that keeps
+    # that roof and the basilica that still fits (x 576–1392) inside
+    # every frame with a 12px pad. The far end stays out. The default
+    # center sweep is unchanged.
+    {
+        "entry_id": "NL-01-267",
+        "folder": "Veere",
+        "subject_x": 984.0,
+        "subject_span": (576.0, 1392.0),
+        "window_start": 540.0,
+        "window_end": 564.0,
+    },
+    # NL-01-268 is not swept. The quay roofs meet the left edge (skyline
+    # y 360 at x 0) and the row runs past x 989, wider than 864.
+    #
+    # NL-01-269 is not swept. Fort Sint Pieter's wall is a flat skyline
+    # at about y 440 from x 0 to x 1919, so a 4:5 frame cannot keep both ends.
+    #
+    # The Meerssen basilica's roof, turret, and pinnacles measure about
+    # x 686–1506 (turret x 962–997, a pinnacle near x 1275). That is
+    # wider than an 18% glide can hold. This clip eases only across the
+    # slack that keeps the turret and those pinnacles inside every frame
+    # with a 12px pad. The trees outside that span stay out. The default
+    # center sweep is unchanged.
+    {
+        "entry_id": "NL-01-270",
+        "folder": "Meerssen",
+        "subject_x": 1096.0,
+        "subject_span": (686.0, 1506.0),
+        "window_start": 654.0,
+        "window_end": 674.0,
+    },
+    # NL-01-271 is not swept. The Begijnhof roofs run the full plate
+    # width, and the right-hand roofs already meet the top edge.
+    #
+    # The Hampoort measures about x 491–1443, wider than 864. The pediment
+    # is x 696–1258 (peak x 927, y 129). This clip eases only across the
+    # slack that keeps the pediment and the gate that still fits
+    # (x 491–1307) inside every frame with a 12px pad. The right flank
+    # stays out. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-272",
+        "folder": "Grave",
+        "subject_x": 899.0,
+        "subject_span": (491.0, 1307.0),
+        "window_start": 455.0,
+        "window_end": 479.0,
+    },
+    # The Cellebroederspoort's two spires, taken together, measure about
+    # x 727–1224 (tips near x 820 and x 1133, the right tip at y 97).
+    # That is wider than an 18% glide can hold. This clip eases only
+    # across the slack that keeps both spires inside every frame with a
+    # 12px pad. The trees to the right stay out. The default center
+    # sweep is unchanged.
+    {
+        "entry_id": "NL-01-273",
+        "folder": "Kampen",
+        "subject_x": 975.5,
+        "subject_span": (727.0, 1224.0),
+        "window_start": 372.0,
+        "window_end": 715.0,
+    },
 )
 
 
