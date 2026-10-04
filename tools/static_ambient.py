@@ -344,6 +344,21 @@ SWEEP_TRAVEL_FRAC = 0.18
 SUBJECT_X = PLATE_W / 2.0
 
 SWEEP_SCENES = (
+    # The Eierland lighthouse stands right of plate center on the approved
+    # 16:9 master (there is no daylight filename). Brick, gallery, lantern,
+    # and finial measure about x 1140–1298, with the dark lantern near y 80
+    # and the base near y 979. The shaft fits an 864 window easily. This clip
+    # eases only 48px, window 754–802, so both ends keep the whole tower,
+    # finial included, inside the frame. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-015",
+        "folder": "De Cocksdorp",
+        "plate": "nl-01-015-16x9.png",
+        "subject_x": 1219.0,
+        "subject_span": (1140.0, 1298.0),
+        "window_start": 754.0,
+        "window_end": 802.0,
+    },
     {"entry_id": "NL-01-017", "folder": "Amsterdam"},
     {"entry_id": "NL-01-018", "folder": "Amsterdam"},
     {"entry_id": "NL-01-019", "folder": "Amsterdam"},
@@ -1850,7 +1865,9 @@ def sweep_paths(scene: dict) -> tuple[Path, Path]:
     slug = scene["entry_id"].lower()
     folder = scene["folder"]
     base = ROOT / "library" / "world" / "Netherlands" / folder
-    anchor = base / f"{slug}-daylight-16x9.png"
+    # One scene can name its own plate. Every other sweep still uses the
+    # daylight 16:9 master.
+    anchor = base / scene.get("plate", f"{slug}-daylight-16x9.png")
     dest = base / f"{slug}-motion-10s-4x5.mp4"
     return anchor, dest
 
