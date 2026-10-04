@@ -12348,9 +12348,7 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
-      "daylight_primary": true,
-      "motion_clip": "library/world/Netherlands/Dronten/nl-01-209-motion-10s-4x5.mp4",
-      "has_360": true
+      "daylight_primary": true
     },
     {
       "entry_id": "NL-01-210",

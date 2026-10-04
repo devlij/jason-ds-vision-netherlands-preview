@@ -1091,18 +1091,20 @@ SWEEP_SCENES = (
         "subject_x": 1314.0,
         "subject_span": (1255.0, 1499.0),
     },
-    # The timber barn's raised roof, glass gable, and lookout measure about
-    # x 688–1216. That is wider than an 18% glide can hold. This clip eases
-    # only across the slack that keeps that roof inside every frame with a
-    # 12px pad. The reed bank left of the roof stays out. The default center
+    # The timber barn, including the low left wing, the glass gable, and the
+    # lookout, measures about x 73–1196. That is wider than 864, so a 4:5
+    # frame cannot keep the left end and the gable together. This clip eases
+    # only across the slack that keeps the largest portion still including
+    # the glass gable and the lookout (about x 396–1204) inside every frame
+    # with a 12px pad. The left end of the wing stays out. The default center
     # sweep is unchanged.
     {
         "entry_id": "NL-01-194",
         "folder": "Lelystad",
-        "subject_x": 952.0,
-        "subject_span": (688.0, 1216.0),
-        "window_start": 364.0,
-        "window_end": 676.0,
+        "subject_x": 800.0,
+        "subject_span": (396.0, 1204.0),
+        "window_start": 352.0,
+        "window_end": 384.0,
     },
     # NL-01-195 is not swept. The Wave's bays run about x 336–1580, wider
     # than 864, so a 4:5 frame cannot keep every crest.
@@ -1119,18 +1121,19 @@ SWEEP_SCENES = (
         "window_start": 384.0,
         "window_end": 648.0,
     },
-    # The Papeloze Kerk mound and its open capstones sit inside about
-    # x 620–1280. That is wider than an 18% glide can hold. This clip eases
-    # only across the slack that keeps the chamber inside every frame with
-    # a 12px pad. The pines on either side stay out. The default center
-    # sweep is unchanged.
+    # The Papeloze Kerk chamber and its right capstones measure about
+    # x 880–1632. That is wider than an 18% glide can hold, and a longer
+    # glide walks into the stones. This clip eases only across the slack
+    # that keeps the chamber, including those capstones, inside every frame
+    # with a 12px pad. The pines and the mound outside that span stay out.
+    # The default center sweep is unchanged.
     {
         "entry_id": "NL-01-197",
         "folder": "Schoonoord",
-        "subject_x": 950.0,
-        "subject_span": (620.0, 1280.0),
-        "window_start": 428.0,
-        "window_end": 608.0,
+        "subject_x": 1256.0,
+        "subject_span": (880.0, 1632.0),
+        "window_start": 792.0,
+        "window_end": 824.0,
     },
     # NL-01-198 is not swept. Havezate Mensinge's two wings run about
     # x 400–1600, wider than 864, so a 4:5 frame cannot keep both wings.
@@ -1209,43 +1212,37 @@ SWEEP_SCENES = (
     # NL-01-208 is not swept. The red roofs at Hell's Gate step down from
     # the left edge to about x 1240, so a 4:5 frame cannot keep every roof.
     #
-    # De Meerpaal's columned roof and tiled fly tower measure about
-    # x 807–1311. That is wider than an 18% glide can hold. This clip eases
-    # only across the slack that keeps that roof inside every frame with a
-    # 12px pad. The default center sweep is unchanged.
-    {
-        "entry_id": "NL-01-209",
-        "folder": "Dronten",
-        "subject_x": 1059.0,
-        "subject_span": (807.0, 1311.0),
-        "window_start": 459.0,
-        "window_end": 795.0,
-    },
-    # The pumping-station hall measures about x 508–1033. That is wider than
-    # an 18% glide can hold. This clip eases only across the slack that keeps
-    # the hall inside every frame with a 12px pad. The default center sweep
-    # is unchanged.
+    # NL-01-209 is not swept. The curved roof starts at about x 322 and the
+    # red tile tower's right face is about x 1236. That span is 914px, wider
+    # than 864, so a 4:5 frame cannot keep the curved roof and the red tower
+    # together.
+    #
+    # The pumping-station hall, the dark upper volume, and the white boxes
+    # measure about x 512–1088. That is wider than an 18% glide can hold.
+    # This clip eases only across the slack that keeps the dark volume's
+    # right end and the white boxes inside every frame with a 12px pad. The
+    # default center sweep is unchanged.
     {
         "entry_id": "NL-01-210",
         "folder": "Almere",
-        "subject_x": 770.5,
-        "subject_span": (508.0, 1033.0),
-        "window_start": 181.0,
-        "window_end": 496.0,
+        "subject_x": 800.0,
+        "subject_span": (512.0, 1088.0),
+        "window_start": 260.0,
+        "window_end": 300.0,
     },
-    # The Kerkje aan de Zee and its onion lantern measure about x 285–750.
-    # An 18% glide on that center would leave the plate, and an 18% glide
-    # pushed to the left edge still cannot hold the nave. This clip eases a
-    # shorter distance from the left edge so the onion spire and the church
-    # stay inside every frame with a 12px pad. The default center sweep is
-    # unchanged.
+    # The Kerkje aan de Zee, its onion lantern, and the far end of the nave
+    # measure about x 268–984. An 18% glide on that center would leave the
+    # plate. This clip eases a shorter distance so the tower, the lantern,
+    # and the nave end stay inside every frame with a 12px pad. The lantern
+    # already reaches near the top of the daylight plate. The default center
+    # sweep is unchanged.
     {
         "entry_id": "NL-01-211",
         "folder": "Urk",
-        "subject_x": 517.5,
-        "subject_span": (285.0, 750.0),
-        "window_start": 0.0,
-        "window_end": 273.0,
+        "subject_x": 626.0,
+        "subject_span": (268.0, 984.0),
+        "window_start": 156.0,
+        "window_end": 196.0,
     },
     # NL-01-212 is not swept. The Magnuskerk nave and its saddle-roof tower
     # run about x 520–1500, wider than 864, so a 4:5 frame cannot keep both roofs.
