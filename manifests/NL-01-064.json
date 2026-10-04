@@ -21,5 +21,8 @@
   "file_9x16": "Netherlands/Kralendijk/nl-01-064-9x16.png",
   "sha256_9x16": "145fc4760ef3d9240a8b4c43a4c828dfa385c268f8c2f71fef50bcc5e4dcc40f",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ae3f5fea676cc4824f29f6a011dce7113d0ae5adb020f36357510fc0daa9204d. Source SHA-256 4:5 0aee0feabdb2b4912072705f7f794e4d953fd425d4379aefcdbee4d7a66785c6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 ae3f5fea676cc4824f29f6a011dce7113d0ae5adb020f36357510fc0daa9204d. Source SHA-256 4:5 0aee0feabdb2b4912072705f7f794e4d953fd425d4379aefcdbee4d7a66785c6. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_postcard": "Netherlands/Kralendijk/nl-01-064-postcard-16x9.png",
+  "file_4x5_postcard": "Netherlands/Kralendijk/nl-01-064-postcard-4x5.png",
+  "file_9x16_postcard": "Netherlands/Kralendijk/nl-01-064-postcard-9x16.png"
 }
