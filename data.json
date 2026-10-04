@@ -797,7 +797,9 @@
       "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 a5ab45ad851363131d261ea7fba0bede6e11b03a4c0f5052da8dc9f162d549cc. Source SHA-256 4:5 52da12ec8f575200c846c27e82be54b6cb853ac5706de9d042ca35c0e91c7694. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
       "file_16x9_postcard": "Netherlands/De Cocksdorp/nl-01-015-postcard-16x9.png",
       "file_4x5_postcard": "Netherlands/De Cocksdorp/nl-01-015-postcard-4x5.png",
-      "file_9x16_postcard": "Netherlands/De Cocksdorp/nl-01-015-postcard-9x16.png"
+      "file_9x16_postcard": "Netherlands/De Cocksdorp/nl-01-015-postcard-9x16.png",
+      "motion_clip": "library/world/Netherlands/De Cocksdorp/nl-01-015-motion-10s-4x5.mp4",
+      "has_360": true
     },
     {
       "entry_id": "NL-01-016",
