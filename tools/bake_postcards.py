@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Bake Postcard-collection plates with the label bar inside the frame.
 
-The finished files stay the exact postcard sizes. A 190px bar sits inside
+The finished files stay the exact postcard sizes. A 158px bar sits inside
 the bottom of that frame, under the photograph. It is not an extra strip,
 and no type is drawn on the picture. The bar is #0e0e12 (14, 14, 18), with
-a 2px hairline along its top edge.
+a 1px hairline of (60, 60, 70) along its top edge. Night masters keep the
+taller bar in composite_masters.py.
 
   16:9  1920×1080
   4:5  1080×1350
@@ -24,11 +25,8 @@ from PIL import Image, ImageChops, ImageDraw, ImageFont
 
 from composite_masters import (
     BAR_BG,
-    BAR_H,
     BRAND,
     DISCLOSURE,
-    HAIR,
-    HAIRLINE,
     INK,
     INK_DISCLOSURE,
     INK_SCENARIO,
@@ -39,7 +37,15 @@ from composite_masters import (
     fit,
     inject_art50,
     layout_fonts,
+    read_text_chunks,
 )
+
+# Locked postcard bar. Night masters do not use these values.
+BAR_H = 158
+HAIRLINE = 1
+HAIR = (60, 60, 70)
+# Plates baked before this bar: 190px, including a 2px light hairline.
+OLD_BAR_H = 190
 
 ROOT = Path(__file__).resolve().parents[1]
 SCENARIO = "Postcard collection"
@@ -66,10 +72,10 @@ def _ink_columns(layer: Image.Image, bar_top: int) -> list[int]:
 def draw_bar_inside(photo: Image.Image, caption: str) -> Image.Image:
     """Place the signature on the bar under the photograph, inside the frame.
 
-    The photograph occupies only the area above the bar. A 2px hairline, then
-    the #0e0e12 bar, already fill the bottom 190px. Type is drawn on a
-    separate layer and must sit entirely on that bar, including the script.
-    Nothing is painted over the picture.
+    The photograph occupies only the area above the bar. A 1px (60, 60, 70)
+    hairline, then the #0e0e12 bar, already fill the bottom 158px. Type is
+    drawn on a separate layer and must sit entirely on that bar, including
+    the script. Nothing is painted over the picture.
     """
     photo = photo.convert("RGB")
     pw, ph = photo.size
@@ -225,12 +231,60 @@ def bake_one(src: Path, dest: Path, fmt: str, caption: str, comment: str) -> Non
             raise SystemExit(f"bar does not start under the hairline {dest}")
 
 
+def recompose_finished(path: Path, caption: str, comment: str) -> None:
+    """Replace the bar on a finished plate. The photograph above the old bar stays.
+
+    The picture is scaled to the taller window above the shorter bar. Framing
+    does not change, and no new photograph is generated.
+    """
+    with Image.open(path) as im:
+        im.load()
+        src = im.convert("RGB")
+    tw, th = src.size
+    if (tw, th) not in CANVAS.values():
+        raise SystemExit(f"{path} is {tw}x{th}, not a postcard canvas")
+    if th <= OLD_BAR_H + 40:
+        raise SystemExit(f"{path} is too short to lift a {OLD_BAR_H}px bar")
+    photo = src.crop((0, 0, tw, th - OLD_BAR_H))
+    photo_h = th - BAR_H
+    if photo.size != (tw, photo_h):
+        photo = photo.resize((tw, photo_h), Image.Resampling.LANCZOS)
+    plate = Image.new("RGB", (tw, th), BAR_BG)
+    plate.paste(photo, (0, 0))
+    bar_draw = ImageDraw.Draw(plate)
+    bar_draw.rectangle((0, photo_h, tw - 1, photo_h + HAIRLINE - 1), fill=HAIR)
+    finished = draw_bar_inside(plate, caption)
+    if finished.size != (tw, th):
+        raise SystemExit(f"{path} size changed to {finished.size}")
+    picture = finished.crop((0, 0, tw, photo_h))
+    if ImageChops.difference(picture, photo).getbbox() is not None:
+        raise SystemExit(f"photograph pixels were altered: {path}")
+    finished.save(path, format="PNG", compress_level=9)
+    inject_art50(path, comment)
+    with Image.open(path) as saved:
+        saved.load()
+        bar_top = th - BAR_H
+        if saved.size != (tw, th):
+            raise SystemExit(f"bad size {path} {saved.size}")
+        if saved.getpixel((2, th - 1))[:3] != BAR_BG:
+            raise SystemExit(f"label bar is not (14, 14, 18) {path}")
+        if saved.getpixel((2, bar_top))[:3] != HAIR:
+            raise SystemExit(f"hairline missing just above the bar {path}")
+        if saved.getpixel((2, bar_top + HAIRLINE))[:3] != BAR_BG:
+            raise SystemExit(f"bar does not start under the hairline {path}")
+
+
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Bake inside-frame postcard plates.")
-    parser.add_argument("--raw-dir", type=Path, required=True)
+    parser.add_argument("--raw-dir", type=Path)
+    parser.add_argument("--recompose", action="store_true", help="Keep the photograph; replace the bar.")
     parser.add_argument("--comment-date", default="2026-10-03")
     parser.add_argument("entry_ids", nargs="+")
     args = parser.parse_args(argv)
+    if args.recompose and args.raw_dir is not None:
+        raise SystemExit("pass either --recompose or --raw-dir")
+    if not args.recompose and args.raw_dir is None:
+        raise SystemExit("--raw-dir is required unless --recompose is set")
     catalogue = json.loads((ROOT / "tools" / "catalogue.json").read_text())
     by_id = {row["entry_id"]: row for row in catalogue}
     comment = comment_text(args.comment_date)
@@ -241,13 +295,20 @@ def main(argv: list[str] | None = None) -> None:
         stem = entry_id.lower()
         folder = ROOT / "library" / "world" / "Netherlands" / row["folder"]
         for fmt in ("16x9", "4x5", "9x16"):
-            src = args.raw_dir / f"{stem}-{fmt}-raw.jpg"
-            if not src.exists():
-                src = args.raw_dir / f"{stem}-{fmt}-raw.png"
-            if not src.exists():
-                raise SystemExit(f"missing raw plate {src}")
             dest = folder / f"{stem}-postcard-{fmt}.png"
-            bake_one(src, dest, fmt, row["caption"], comment)
+            if args.recompose:
+                if not dest.exists():
+                    raise SystemExit(f"missing finished plate {dest}")
+                kept = read_text_chunks(dest).get("Comment")
+                plate_comment = kept[1] if kept else comment
+                recompose_finished(dest, row["caption"], plate_comment)
+            else:
+                src = args.raw_dir / f"{stem}-{fmt}-raw.jpg"
+                if not src.exists():
+                    src = args.raw_dir / f"{stem}-{fmt}-raw.png"
+                if not src.exists():
+                    raise SystemExit(f"missing raw plate {src}")
+                bake_one(src, dest, fmt, row["caption"], comment)
             with Image.open(dest) as im:
                 print(f"baked {entry_id} {dest.relative_to(ROOT)} {im.size[0]}x{im.size[1]}")
 
