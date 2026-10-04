@@ -1263,6 +1263,133 @@ SWEEP_SCENES = (
         "window_start": 568.0,
         "window_end": 588.0,
     },
+    # The Sint-Jozefkathedraal is one basilica: nave, hexagonal tower, and
+    # open iron spire, about x 916–1654. That is wider than an 18% glide can
+    # hold. This clip eases only across the slack that keeps the nave, the
+    # tower, and the spire inside every frame with a 12px pad. The spire
+    # tip is near y 35, under the top of the plate. The default center
+    # sweep is unchanged.
+    {
+        "entry_id": "NL-01-215",
+        "folder": "Groningen",
+        "subject_x": 1285.0,
+        "subject_span": (916.0, 1654.0),
+        "window_start": 802.0,
+        "window_end": 904.0,
+    },
+    # Museum de Fundatie's neoclassical front and the ceramic ellipse measure
+    # about x 620–1440. That is wider than an 18% glide can hold. This clip
+    # eases only across the slack that keeps the ellipse and that front
+    # inside every frame with a 12px pad. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-216",
+        "folder": "Zwolle",
+        "subject_x": 1030.0,
+        "subject_span": (620.0, 1440.0),
+        "window_start": 588.0,
+        "window_end": 608.0,
+    },
+    # The Bovenkerk tower and the nave, including the roof pinnacles, measure
+    # about x 480–1300. That is wider than an 18% glide can hold. This clip
+    # eases only across the slack that keeps the spire and the nave inside
+    # every frame with a 12px pad. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-217",
+        "folder": "Kampen",
+        "subject_x": 890.0,
+        "subject_span": (480.0, 1300.0),
+        "window_start": 448.0,
+        "window_end": 468.0,
+    },
+    # The Bolsward scroll gable and the roof tower, taken together, measure
+    # about x 464–1291. That is wider than an 18% glide can hold. This clip
+    # eases only across the slack that keeps the gable and the tower inside
+    # every frame with a 12px pad. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-218",
+        "folder": "Bolsward",
+        "subject_x": 877.5,
+        "subject_span": (464.0, 1291.0),
+        "window_start": 439.0,
+        "window_end": 452.0,
+    },
+    # The Hollum lighthouse stands right of plate center. Same glide, aimed
+    # at the shaft measured on this daylight plate (x 1112–1348), so the
+    # banded tower and the red lantern stay inside the 864 frame. The
+    # default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-219",
+        "folder": "Hollum",
+        "subject_x": 1230.0,
+        "subject_span": (1112.0, 1348.0),
+    },
+    # The Bonnefantenmuseum's E-shaped wings run wider than 864. This clip
+    # eases only across the slack that keeps the zinc dome and the central
+    # mass that still fits (x 500–1320) inside every frame with a 12px pad.
+    # The outer wings stay out, so one end does not leave as the other comes
+    # in. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-220",
+        "folder": "Maastricht",
+        "subject_x": 910.0,
+        "subject_span": (500.0, 1320.0),
+        "window_start": 468.0,
+        "window_end": 488.0,
+    },
+    # Kasteel Eijsden has no clip. The stepped gable left of the round tower
+    # and the three helmet roofs do not fit together inside 864. On this
+    # daylight plate the gable's leftmost brick is x 354 and the right helmet
+    # roof reaches x 1471, a span of 1117. Holding the gable would drop a
+    # helmet. Holding the helmets would drop the gable. The default center
+    # sweep is unchanged.
+    # The Onze Lieve Vrouwetoren stands just left of plate center. Same glide,
+    # aimed at the shaft and onion crown measured on this daylight plate
+    # (x 810–1100), so the free-standing tower stays inside the 864 frame.
+    # The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-222",
+        "folder": "Amersfoort",
+        "subject_x": 955.0,
+        "subject_span": (810.0, 1100.0),
+    },
+    # The Koepelkerk dome and the unfinished square tower, taken together,
+    # measure about x 560–1380. That is wider than an 18% glide can hold.
+    # This clip eases only across the slack that keeps the dome and the
+    # tower inside every frame with a 12px pad. The default center sweep
+    # is unchanged.
+    {
+        "entry_id": "NL-01-223",
+        "folder": "Willemstad",
+        "subject_x": 970.0,
+        "subject_span": (560.0, 1380.0),
+        "window_start": 528.0,
+        "window_end": 548.0,
+    },
+    # The white church and its bell tower sit left of plate center. On this
+    # daylight plate the tower, including its top, and the church wall run
+    # about x 598–756. The same 18% glide, aimed at that mass, holds both for
+    # every frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-224",
+        "folder": "Rincon",
+        "subject_x": 677.0,
+        "subject_span": (598.0, 756.0),
+    },
+    # The Waterloopbos wave basin sits on the plate center. The default 18%
+    # glide holds the concrete basin. The center anchor is unchanged.
+    {"entry_id": "NL-01-225", "folder": "Marknesse"},
+    # The Marker Wadden timber pavilion, roof included, measures about
+    # x 830–1220. An 18% glide is too long for that roof and walks past it.
+    # This clip eases across a shorter window that keeps the whole pavilion
+    # inside every frame. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-226",
+        "folder": "Lelystad",
+        "subject_x": 1025.0,
+        "subject_span": (830.0, 1220.0),
+        "window_start": 520.0,
+        "window_end": 640.0,
+    },
 )
 
 
