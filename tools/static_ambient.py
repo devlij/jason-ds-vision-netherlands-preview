@@ -1771,6 +1771,78 @@ SWEEP_SCENES = (
         "window_start": 372.0,
         "window_end": 715.0,
     },
+    # The Sint-Stephanuskerk, needle spire included, measures about
+    # x 404–1620, wider than 864. The only distinct tip is the needle
+    # (x 618–647, y 0, already on the top of this daylight plate). This
+    # clip eases only across the slack that keeps the spire and the nave
+    # that still fits (x 404–1220) inside every frame with a 12px pad.
+    # The far slope stays out. The sweep does not crop the needle
+    # further. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-274",
+        "folder": "Hasselt",
+        "subject_x": 812.0,
+        "subject_span": (404.0, 1220.0),
+        "window_start": 368.0,
+        "window_end": 392.0,
+    },
+    # Kasteel Het Nijenhuis's roof, chimneys included, measures about
+    # x 518–1424, wider than 864. The chimney tips are x 613, 867, 1056,
+    # and 1293 (the right stack runs x 1274–1316). This clip eases only
+    # across the slack that keeps every chimney and the roof that still
+    # fits (x 518–1334) inside every frame with a 12px pad. The far
+    # right eave stays out. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-275",
+        "folder": "Heino",
+        "subject_x": 926.0,
+        "subject_span": (518.0, 1334.0),
+        "window_start": 482.0,
+        "window_end": 506.0,
+    },
+    # Slot Zeist's hipped roof, both hips included, measures about
+    # x 618–1310 (peaks near x 960 and x 1200, y 302). That is wider
+    # than an 18% glide can hold. This clip eases only across the slack
+    # that keeps the whole roof inside every frame with a 12px pad. The
+    # trees past either hip stay out. The default center sweep is
+    # unchanged.
+    {
+        "entry_id": "NL-01-276",
+        "folder": "Zeist",
+        "subject_x": 964.0,
+        "subject_span": (618.0, 1310.0),
+        "window_start": 458.0,
+        "window_end": 606.0,
+    },
+    # The Sint-Nicolaasbasiliek, spire and corner pinnacles included,
+    # measures about x 388–1600, wider than 864. The spire already
+    # touches the top of this daylight plate (x 536–681, y 0), and the
+    # pinnacles sit at about x 450 and x 760. This clip eases only
+    # across the slack that keeps the tower and the nave that still fits
+    # (x 388–1208) inside every frame with a 12px pad. The far nave
+    # stays out. The sweep does not crop the spire further. The default
+    # center sweep is unchanged.
+    {
+        "entry_id": "NL-01-277",
+        "folder": "IJsselstein",
+        "subject_x": 798.0,
+        "subject_span": (388.0, 1208.0),
+        "window_start": 356.0,
+        "window_end": 376.0,
+    },
+    # Kasteel Groeneveld's pantile roof, both eaves included, measures
+    # about x 604–1376. That is wider than an 18% glide can hold. This
+    # clip eases only across the slack that keeps the whole roof inside
+    # every frame with a 12px pad. The trees past either eave stay out.
+    # The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-278",
+        "folder": "Baarn",
+        "subject_x": 990.0,
+        "subject_span": (604.0, 1376.0),
+        "window_start": 524.0,
+        "window_end": 592.0,
+    },
 )
 
 
