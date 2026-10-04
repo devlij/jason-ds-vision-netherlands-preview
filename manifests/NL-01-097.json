@@ -55,5 +55,8 @@
     "on_image_signature": "Jason D’s Vision",
     "on_image_name": "Jason A. Devlin",
     "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
-  }
+  },
+  "file_16x9_postcard": "Netherlands/Bergen op Zoom/nl-01-097-postcard-16x9.png",
+  "file_4x5_postcard": "Netherlands/Bergen op Zoom/nl-01-097-postcard-4x5.png",
+  "file_9x16_postcard": "Netherlands/Bergen op Zoom/nl-01-097-postcard-9x16.png"
 }

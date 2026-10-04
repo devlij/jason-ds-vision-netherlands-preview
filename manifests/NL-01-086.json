@@ -56,5 +56,8 @@
     "on_image_name": "Jason A. Devlin",
     "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped.",
     "qc_note": "9:16 still shows one small figure on a boat after repeated text-only prompts. The figure was not painted out. The 16:9 and 4:5 of this scene show no figures. Candidate only; not certified."
-  }
+  },
+  "file_16x9_postcard": "Netherlands/Gorinchem/nl-01-086-postcard-16x9.png",
+  "file_4x5_postcard": "Netherlands/Gorinchem/nl-01-086-postcard-4x5.png",
+  "file_9x16_postcard": "Netherlands/Gorinchem/nl-01-086-postcard-9x16.png"
 }
