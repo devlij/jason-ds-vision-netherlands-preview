@@ -21,5 +21,8 @@
   "file_9x16": "Netherlands/Bonaire/nl-01-067-9x16.png",
   "sha256_9x16": "f65ca5f0f94e989282d79aa1dcced10ac31a0b630a9c2937d14d713abaa8e033",
   "format_9x16_approval_status": "Candidate",
-  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 033a46d75b621561587169b7eaa1e2847ed3de166746a1078de3d1a17628b8ca. Source SHA-256 4:5 a4e8fb962d5352f9d5589e6d95dc939bc80bf1630fb31c68407c90cc8fd5d407. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged."
+  "faithful_refinish": "2026-09-26 faithful re-finish of the origin/main approved master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 033a46d75b621561587169b7eaa1e2847ed3de166746a1078de3d1a17628b8ca. Source SHA-256 4:5 a4e8fb962d5352f9d5589e6d95dc939bc80bf1630fb31c68407c90cc8fd5d407. Photo rows above the scrim match that approved master. The 9:16 frame is new pixels from a center crop and stays Candidate. It does not inherit the 16:9 or 4:5 approval. Those finished-format SHA-256 anchors are unchanged.",
+  "file_16x9_postcard": "Netherlands/Bonaire/nl-01-067-postcard-16x9.png",
+  "file_4x5_postcard": "Netherlands/Bonaire/nl-01-067-postcard-4x5.png",
+  "file_9x16_postcard": "Netherlands/Bonaire/nl-01-067-postcard-9x16.png"
 }
