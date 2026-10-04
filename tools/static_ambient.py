@@ -1336,19 +1336,12 @@ SWEEP_SCENES = (
         "window_start": 468.0,
         "window_end": 488.0,
     },
-    # Kasteel Eijsden's three helmet roofs — the left round tower, the middle
-    # tower, and the right stair turret — measure about x 740–1500. That is
-    # wider than an 18% glide can hold. This clip eases only across the slack
-    # that keeps all three roofs inside every frame with a 12px pad. The
-    # default center sweep is unchanged.
-    {
-        "entry_id": "NL-01-221",
-        "folder": "Eijsden",
-        "subject_x": 1120.0,
-        "subject_span": (740.0, 1500.0),
-        "window_start": 648.0,
-        "window_end": 728.0,
-    },
+    # Kasteel Eijsden has no clip. The stepped gable left of the round tower
+    # and the three helmet roofs do not fit together inside 864. On this
+    # daylight plate the gable's leftmost brick is x 354 and the right helmet
+    # roof reaches x 1471, a span of 1117. Holding the gable would drop a
+    # helmet. Holding the helmets would drop the gable. The default center
+    # sweep is unchanged.
     # The Onze Lieve Vrouwetoren stands just left of plate center. Same glide,
     # aimed at the shaft and onion crown measured on this daylight plate
     # (x 810–1100), so the free-standing tower stays inside the 864 frame.
@@ -1372,21 +1365,30 @@ SWEEP_SCENES = (
         "window_start": 528.0,
         "window_end": 548.0,
     },
-    # The white church and its bell tower sit on the plate center. The
-    # default 18% glide holds them. The center anchor is unchanged.
-    {"entry_id": "NL-01-224", "folder": "Rincon"},
+    # The white church and its bell tower sit left of plate center. On this
+    # daylight plate the tower, including its top, and the church wall run
+    # about x 598–756. The same 18% glide, aimed at that mass, holds both for
+    # every frame. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-224",
+        "folder": "Rincon",
+        "subject_x": 677.0,
+        "subject_span": (598.0, 756.0),
+    },
     # The Waterloopbos wave basin sits on the plate center. The default 18%
     # glide holds the concrete basin. The center anchor is unchanged.
     {"entry_id": "NL-01-225", "folder": "Marknesse"},
-    # The Marker Wadden timber pavilion stands right of plate center. Same
-    # glide, aimed at the pavilion measured on this daylight plate
-    # (x 1050–1500), so the roof stays inside the 864 frame. The default
-    # center anchor is unchanged.
+    # The Marker Wadden timber pavilion, roof included, measures about
+    # x 830–1220. An 18% glide is too long for that roof and walks past it.
+    # This clip eases across a shorter window that keeps the whole pavilion
+    # inside every frame. The default center sweep is unchanged.
     {
         "entry_id": "NL-01-226",
         "folder": "Lelystad",
-        "subject_x": 1275.0,
-        "subject_span": (1050.0, 1500.0),
+        "subject_x": 1025.0,
+        "subject_span": (830.0, 1220.0),
+        "window_start": 520.0,
+        "window_end": 640.0,
     },
 )
 
