@@ -1417,17 +1417,15 @@ SWEEP_SCENES = (
         "window_start": 520.0,
         "window_end": 560.0,
     },
-    # The Noordpolderzijl harbour building's red roof measures
-    # x 809–1451. That is wider than an 18% glide can hold. This clip
-    # eases only across the slack that keeps the whole roof inside
-    # every frame with a 12px pad. The default center sweep is unchanged.
+    # The Noordpolderzijl sluice house's pale wall measures x 709–998.
+    # Same glide, aimed at that wall on this daylight plate, so both
+    # ends stay inside the 864 frame and clear of either edge. The
+    # default center anchor is unchanged.
     {
         "entry_id": "NL-01-229",
         "folder": "Noordpolderzijl",
-        "subject_x": 1130.0,
-        "subject_span": (809.0, 1451.0),
-        "window_start": 599.0,
-        "window_end": 797.0,
+        "subject_x": 853.5,
+        "subject_span": (709.0, 998.0),
     },
     # Borg Verhildersum's roof, chimneys included, measures about
     # x 739–1297. That is wider than an 18% glide can hold. This clip
