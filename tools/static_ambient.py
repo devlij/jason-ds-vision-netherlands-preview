@@ -1390,6 +1390,191 @@ SWEEP_SCENES = (
         "window_start": 520.0,
         "window_end": 640.0,
     },
+    # De Wachter's sails, cap to the lower right sail tip, measure
+    # x 979–1496. That is wider than an 18% glide can hold. This clip
+    # eases only across the slack that keeps every sail inside every
+    # frame with a 12px pad. The trees beside the mill stay out. The
+    # default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-227",
+        "folder": "Zuidlaren",
+        "subject_x": 1237.5,
+        "subject_span": (979.0, 1496.0),
+        "window_start": 644.0,
+        "window_end": 967.0,
+    },
+    # The Tweede Gesticht's brick front runs about x 265–1784, wider
+    # than 864. The only tower is the clock turret over the gate
+    # (x 947–998). This clip eases only across the slack that keeps
+    # that turret and the central bays (x 572–1372) inside every frame
+    # with a 12px pad. The outer ends of the front stay out. The
+    # default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-228",
+        "folder": "Veenhuizen",
+        "subject_x": 972.0,
+        "subject_span": (572.0, 1372.0),
+        "window_start": 520.0,
+        "window_end": 560.0,
+    },
+    # The Noordpolderzijl sluice house's pale wall measures x 709–998.
+    # Same glide, aimed at that wall on this daylight plate, so both
+    # ends stay inside the 864 frame and clear of either edge. The
+    # default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-229",
+        "folder": "Noordpolderzijl",
+        "subject_x": 853.5,
+        "subject_span": (709.0, 998.0),
+    },
+    # Borg Verhildersum's roof, chimneys included, measures about
+    # x 739–1297. That is wider than an 18% glide can hold. This clip
+    # eases only across the slack that keeps the roof and both chimney
+    # stacks inside every frame with a 12px pad. The trees at the plate
+    # edges stay out. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-230",
+        "folder": "Leens",
+        "subject_x": 1018.0,
+        "subject_span": (739.0, 1297.0),
+        "window_start": 445.0,
+        "window_end": 727.0,
+    },
+    # The Campveerse Toren stands right of plate center. Same glide,
+    # aimed at the shaft measured on this daylight plate (x 1053–1439),
+    # so the spire stays inside the 864 frame. The default center
+    # anchor is unchanged.
+    {
+        "entry_id": "NL-01-231",
+        "folder": "Veere",
+        "subject_x": 1246.0,
+        "subject_span": (1053.0, 1439.0),
+    },
+    # The Sluis belfry stands right of plate center. Same glide, aimed
+    # at the shaft measured on this daylight plate (x 1053–1348), so
+    # the open lantern stays inside the 864 frame. The default center
+    # anchor is unchanged.
+    {
+        "entry_id": "NL-01-232",
+        "folder": "Sluis",
+        "subject_x": 1200.5,
+        "subject_span": (1053.0, 1348.0),
+    },
+    # NL-01-233 is not swept. The Spanjaardsgat's two pepperpot towers
+    # run about x 500–1480, wider than 864, so a 4:5 frame cannot keep
+    # both spires.
+    #
+    # NL-01-234 is not swept. Kasteel Heeswijk's towers run about
+    # x 405–1530, wider than 864, so a 4:5 frame cannot keep every tower.
+    #
+    # The Heksenwaag's stepped gable (x 834–1009, tip at x 914) and the
+    # long side together run x 713–1633, wider than 864. This clip eases
+    # only across the slack that keeps the gable and the wall that still
+    # fits (x 713–1529) inside every frame with a 12px pad. The far right
+    # eave stays out. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-235",
+        "folder": "Oudewater",
+        "subject_x": 1121.0,
+        "subject_span": (713.0, 1529.0),
+        "window_start": 677.0,
+        "window_end": 701.0,
+    },
+    # The Bergkerk's two spires, both of which already touch the top of
+    # this daylight plate, measure about x 726–1258. That is wider than
+    # an 18% glide can hold. This clip eases only across the slack that
+    # keeps both spires inside every frame with a 12px pad. The sweep
+    # does not crop them further at the top. The default center sweep
+    # is unchanged.
+    {
+        "entry_id": "NL-01-236",
+        "folder": "Deventer",
+        "subject_x": 992.0,
+        "subject_span": (726.0, 1258.0),
+        "window_start": 406.0,
+        "window_end": 714.0,
+    },
+    # NL-01-237 is not swept. The Ladder's stone steps run about
+    # x 2–1462, wider than 864, so a 4:5 frame cannot keep the flight.
+    #
+    # NL-01-238 is not swept. Fort Amsterdam's headland runs from the
+    # left edge of the plate past x 1383, wider than 864.
+    #
+    # NL-01-239 is not swept. The Makkum lock house meets the left edge
+    # of the plate (non-sky from y 198 at x 0), so a lateral sweep would
+    # crop that wall further.
+    #
+    # The Onze-Lieve-Vrouwebasiliek's two west towers measure about
+    # x 474–1291. That is wider than an 18% glide can hold. This clip
+    # eases only across the slack that keeps both towers inside every
+    # frame with a 12px pad. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-240",
+        "folder": "Maastricht",
+        "subject_x": 882.5,
+        "subject_span": (474.0, 1291.0),
+        "window_start": 439.0,
+        "window_end": 462.0,
+    },
+    # NL-01-241 is not swept. The Staphorst farm roofs run from the left
+    # edge (x 0) to a second row at x 1680–1919, wider than 864.
+    #
+    # Kasteel Rechteren's round tower (tip x 463–515) stands on a wing
+    # that continues past x 1500, wider than 864. This clip eases only
+    # across the slack that keeps the tower and the wing that still fits
+    # (x 400–1200) inside every frame with a 12px pad. The far wing stays
+    # out. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-242",
+        "folder": "Dalfsen",
+        "subject_x": 800.0,
+        "subject_span": (400.0, 1200.0),
+        "window_start": 348.0,
+        "window_end": 388.0,
+    },
+    # The Sint-Clemenskerk spire already touches the top of this daylight
+    # plate. The shaft stands left of plate center (x 451–730). The same
+    # 18% glide, aimed as close to the tower as the plate allows, keeps
+    # the shaft inside the 864 frame. The sweep does not crop the spire
+    # further. The default center anchor is unchanged.
+    {
+        "entry_id": "NL-01-243",
+        "folder": "Steenwijk",
+        "subject_x": 604.8,
+        "subject_span": (451.0, 730.0),
+    },
+    # NL-01-244 is not swept. Slot Zuylen's roof runs about x 465–1827,
+    # wider than 864, so a 4:5 frame cannot keep both ends.
+    #
+    # NL-01-245 is not swept. Kasteel Loenersloot's tower and the long
+    # wing run about x 633–1919, wider than 864.
+    #
+    # NL-01-246 is not swept. Fort Honswijk's earthwork skyline runs the
+    # full plate width, so a 4:5 frame cannot keep both ends.
+    #
+    # NL-01-247 is not swept. The Oostvaardersplassen horizon runs the
+    # full plate width, with no bounded roof inside 864.
+    #
+    # NL-01-248 is not swept. The Zeewolde harbour roofs run from about
+    # x 1263 to the right edge of the plate, wider than 864, and the
+    # right-hand building already meets that edge.
+    #
+    # NL-01-249 is not swept. Bronkhorst's roofs run about x 0–1536,
+    # wider than 864, and the left roof already meets the plate edge.
+    #
+    # Kasteel Ammersoyen's two round towers measure about x 621–1432
+    # (tips near x 697 and x 1356). That is wider than an 18% glide can
+    # hold. This clip eases only across the slack that keeps both towers
+    # inside every frame with a 12px pad. The trees at the right edge
+    # stay out. The default center sweep is unchanged.
+    {
+        "entry_id": "NL-01-250",
+        "folder": "Ammerzoden",
+        "subject_x": 1026.5,
+        "subject_span": (621.0, 1432.0),
+        "window_start": 580.0,
+        "window_end": 609.0,
+    },
 )
 
 
