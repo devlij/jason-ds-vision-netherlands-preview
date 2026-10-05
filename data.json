@@ -11674,6 +11674,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Bonaire/nl-01-191-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Bonaire/nl-01-191-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Bonaire/nl-01-191-postcard-9x16.png",
       "daylight_primary": true
     },
     {
@@ -11733,6 +11736,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Lauwersoog/nl-01-192-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Lauwersoog/nl-01-192-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Lauwersoog/nl-01-192-postcard-9x16.png",
       "daylight_primary": true
     },
     {
@@ -11792,6 +11798,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Urk/nl-01-193-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Urk/nl-01-193-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Urk/nl-01-193-postcard-9x16.png",
       "daylight_primary": true,
       "motion_clip": "library/world/Netherlands/Urk/nl-01-193-motion-10s-4x5.mp4",
       "has_360": true
@@ -11853,6 +11862,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Lelystad/nl-01-194-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Lelystad/nl-01-194-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Lelystad/nl-01-194-postcard-9x16.png",
       "daylight_primary": true,
       "motion_clip": "library/world/Netherlands/Lelystad/nl-01-194-motion-10s-4x5.mp4",
       "has_360": true
@@ -11914,6 +11926,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Almere/nl-01-195-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Almere/nl-01-195-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Almere/nl-01-195-postcard-9x16.png",
       "daylight_primary": true
     },
     {
@@ -11973,6 +11988,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Schokland/nl-01-196-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Schokland/nl-01-196-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Schokland/nl-01-196-postcard-9x16.png",
       "daylight_primary": true,
       "motion_clip": "library/world/Netherlands/Schokland/nl-01-196-motion-10s-4x5.mp4",
       "has_360": true
@@ -12034,6 +12052,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Schoonoord/nl-01-197-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Schoonoord/nl-01-197-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Schoonoord/nl-01-197-postcard-9x16.png",
       "daylight_primary": true,
       "motion_clip": "library/world/Netherlands/Schoonoord/nl-01-197-motion-10s-4x5.mp4",
       "has_360": true
@@ -12095,6 +12116,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Roden/nl-01-198-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Roden/nl-01-198-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Roden/nl-01-198-postcard-9x16.png",
       "daylight_primary": true
     },
     {
@@ -12154,6 +12178,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Barger-Compascuum/nl-01-199-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Barger-Compascuum/nl-01-199-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Barger-Compascuum/nl-01-199-postcard-9x16.png",
       "daylight_primary": true
     },
     {
@@ -12213,6 +12240,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Zwolle/nl-01-200-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Zwolle/nl-01-200-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Zwolle/nl-01-200-postcard-9x16.png",
       "daylight_primary": true,
       "motion_clip": "library/world/Netherlands/Zwolle/nl-01-200-motion-10s-4x5.mp4",
       "has_360": true
@@ -12274,6 +12304,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Deventer/nl-01-201-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Deventer/nl-01-201-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Deventer/nl-01-201-postcard-9x16.png",
       "daylight_primary": true
     },
     {
@@ -12333,6 +12366,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Kampen/nl-01-202-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Kampen/nl-01-202-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Kampen/nl-01-202-postcard-9x16.png",
       "daylight_primary": true,
       "motion_clip": "library/world/Netherlands/Kampen/nl-01-202-motion-10s-4x5.mp4",
       "has_360": true
@@ -12394,6 +12430,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Groningen/nl-01-203-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Groningen/nl-01-203-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Groningen/nl-01-203-postcard-9x16.png",
       "daylight_primary": true,
       "motion_clip": "library/world/Netherlands/Groningen/nl-01-203-motion-10s-4x5.mp4",
       "has_360": true
@@ -12455,6 +12494,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Zeerijp/nl-01-204-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Zeerijp/nl-01-204-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Zeerijp/nl-01-204-postcard-9x16.png",
       "daylight_primary": true
     },
     {
@@ -12526,6 +12568,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Burgh-Haamstede/nl-01-205-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Burgh-Haamstede/nl-01-205-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Burgh-Haamstede/nl-01-205-postcard-9x16.png",
       "daylight_primary": true,
       "motion_clip": "library/world/Netherlands/Burgh-Haamstede/nl-01-205-motion-10s-4x5.mp4",
       "has_360": true
@@ -12587,6 +12632,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Zierikzee/nl-01-206-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Zierikzee/nl-01-206-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Zierikzee/nl-01-206-postcard-9x16.png",
       "daylight_primary": true,
       "motion_clip": "library/world/Netherlands/Zierikzee/nl-01-206-motion-10s-4x5.mp4",
       "has_360": true
@@ -12648,6 +12696,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Sint Eustatius/nl-01-207-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Sint Eustatius/nl-01-207-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Sint Eustatius/nl-01-207-postcard-9x16.png",
       "daylight_primary": true
     },
     {
@@ -12708,6 +12759,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Saba/nl-01-208-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Saba/nl-01-208-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Saba/nl-01-208-postcard-9x16.png",
       "daylight_primary": true
     },
     {
@@ -12768,6 +12822,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Dronten/nl-01-209-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Dronten/nl-01-209-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Dronten/nl-01-209-postcard-9x16.png",
       "daylight_primary": true
     },
     {
@@ -12828,6 +12885,9 @@
         "on_image_name": "Jason A. Devlin",
         "note": "Genuine daylight text-prompt capture. Not interim-ai. Weather numbers are the Open-Meteo retrieval at retrieval_timestamp. The scenario line is the Europe/Amsterdam generation time of the 16:9 still. Night masters were not rewritten. Gallery primary and the daylight toggle were not flipped."
       },
+      "file_16x9_postcard": "Netherlands/Almere/nl-01-210-postcard-16x9.png",
+      "file_4x5_postcard": "Netherlands/Almere/nl-01-210-postcard-4x5.png",
+      "file_9x16_postcard": "Netherlands/Almere/nl-01-210-postcard-9x16.png",
       "daylight_primary": true,
       "motion_clip": "library/world/Netherlands/Almere/nl-01-210-motion-10s-4x5.mp4",
       "has_360": true
