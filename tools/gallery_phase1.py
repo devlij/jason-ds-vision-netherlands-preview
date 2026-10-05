@@ -575,10 +575,44 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
     nav = html[nav_start:nav_end] if nav_start >= 0 else ""
     if nav.count(">Netherlands<") != 1 or nav.count('aria-current="page"') != 1:
         raise SystemExit("country switcher must mark Netherlands once as the current page")
-    if "jason-ds-vision-netherlands-preview" in nav:
+    if "jason-ds-vision-netherlands-preview" in nav or "https://netherlands.jdvision.org/" in nav:
         raise SystemExit("country switcher must not link this page to itself")
-    if nav.find("Switzerland") > nav.find('aria-current="page"'):
-        raise SystemExit("Netherlands is out of the shared switcher order")
+    order = (
+        "Germany",
+        "Italy",
+        "France",
+        "Spain",
+        "Greece",
+        "Norway",
+        "Denmark",
+        "Netherlands",
+        "Finland",
+        "Sweden",
+        "Ireland",
+        "United Kingdom",
+        "Switzerland",
+    )
+    positions = [nav.find(f">{name}<") for name in order]
+    if any(pos < 0 for pos in positions) or positions != sorted(positions):
+        raise SystemExit("country switcher is missing the shared gallery order")
+    if "Belgium" in nav or "Austria" in nav:
+        raise SystemExit("country switcher includes a gallery that is not live")
+    if "home-link" not in nav or "https://jdvision.org/" not in nav:
+        raise SystemExit("country switcher is missing Home")
+    current = nav[nav.find('aria-current="page"') : nav.find('aria-current="page"') + 500]
+    if ">Netherlands<" not in current or "<a " in current.split(">Netherlands<", 1)[0]:
+        raise SystemExit("Netherlands must be the current page, not a link")
+    for url in (
+        "https://norway.jdvision.org/",
+        "https://denmark.jdvision.org/",
+        "https://devlij.github.io/jason-ds-vision-finland-preview/",
+        "https://sweden.jdvision.org/",
+        "https://ireland.jdvision.org/",
+        "https://uk.jdvision.org/",
+        "https://devlij.github.io/jason-ds-vision-switzerland-preview/",
+    ):
+        if url not in nav:
+            raise SystemExit(f"country switcher missing {url}")
     if "linear-gradient(#fff,#fff) center/45% 22%" not in html:
         raise SystemExit("Swiss flag chip is missing the white cross")
     if not meta:
