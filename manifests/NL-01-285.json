@@ -21,5 +21,76 @@
   "faithful_refinish": "2026-09-28 faithful re-finish of the pre-merge origin/main approved scrim master. The 4c6f044 scrim and on-image text were removed without a new render. Source SHA-256 16:9 25d027d4ff37d0819a4b97f173879a65d9f868a0d990ee10fbe34787cf7d6c4e. Source SHA-256 4:5 2b2711c68493c14ea2dd152f71b42f6bdd6df5aa39db9bb7c8637fabe15814fc. Photo rows above the scrim match that approved master. The prior Cosmo approval does not carry onto these new masters. 16:9, 4:5, and 9:16 are Candidate for Cosmo re-QC. The 9:16 frame is a center crop and does not inherit any approval.",
   "qc_status": "approved",
   "approval_basis": "Approved · Cosmo QC 5/5 · Night. G1: long brick pumping station with six tall chimneys and a glass-walled engine hall beside a canal at night, lit windows reflecting on water, lamp at the corner, industrial lights on the horizon; Gemaal Wortman is the real historic steam pumping station near Lelystad; plausible, clean framing. G2: exact dims; label bar exact (\"Gemaal Wortman, Lelystad\"/scenario/disclosure/signature); Art. 50 chunks present; Open-Meteo retrieval 2026-09-26T04:38:01+02:00, scenario minute 04:38 inside 04:00 valid hour, unique repo-wide. G3: text-prompt-only lineage claimed. G4: no people/logos visible. G5: card fields complete.",
-  "approved_at": "2026-09-29T19:05:00-04:00"
+  "approved_at": "2026-09-29T19:05:00-04:00",
+  "daylight_variant": {
+    "variant_of_entry_id": "NL-01-285",
+    "approval_status": "Candidate",
+    "qc_status": "Candidate · not Cosmo QC · not self-certified",
+    "provenance": "genuine-text-prompt",
+    "genuine_daylight": true,
+    "text_prompt_only": true,
+    "image_anchor": "none",
+    "derived_from": "New text-prompt daylight set of the catalogue viewpoint. No night-master image was supplied to the generator.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Netherlands/Lelystad/nl-01-285-16x9.png",
+        "sha256": "d30ca62d9d2bd2ca369a0c7646d10b332c6626720346475786b51f8e5bbe8f1b"
+      },
+      "4x5": {
+        "path": "library/world/Netherlands/Lelystad/nl-01-285-4x5.png",
+        "sha256": "868dd037631add9f5f75e41ee53b8136af9a1fcc157ed3d1986adaa1f71ca771"
+      },
+      "9x16": {
+        "path": "library/world/Netherlands/Lelystad/nl-01-285-9x16.png",
+        "sha256": "d0b1041a6ca1b660b09ae918f2ad8adb74521db95b7e9a5bb2d61ab3e6c831b3"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight write. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Netherlands/Lelystad/nl-01-285-daylight-16x9.png",
+      "4x5": "library/world/Netherlands/Lelystad/nl-01-285-daylight-4x5.png",
+      "9x16": "library/world/Netherlands/Lelystad/nl-01-285-daylight-9x16.png"
+    },
+    "pretext": {
+      "16x9": "library/pretext/Netherlands/Lelystad/nl-01-285-daylight-16x9.png",
+      "4x5": "library/pretext/Netherlands/Lelystad/nl-01-285-daylight-4x5.png",
+      "9x16": "library/pretext/Netherlands/Lelystad/nl-01-285-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "07dbd55d9ae120749e4ee25c674fc076a3c1d79844b230f0f4e27ae2f90cc69b",
+      "4x5": "41a275d93a66be4899a024171456b1f55644aba5577247a735d62cb3b2fa53bb",
+      "9x16": "fd8db3b8b040a291c7f92da4120efcac2310da16cbe8987ffbf053ddd0cf363e"
+    },
+    "dimensions": {
+      "16x9": "1920x1270",
+      "4x5": "864x1270",
+      "9x16": "1080x1920",
+      "photo_9x16": "1080x1730"
+    },
+    "created_date": "2026-10-02",
+    "scenario_label": "2 October 2026 · 13:09 Europe/Amsterdam",
+    "open_meteo": {
+      "retrieval_timestamp": "2026-10-02T13:09:59+02:00",
+      "model_time": "2026-10-02T13:00",
+      "timezone": "Europe/Amsterdam",
+      "location_timezone": "Europe/Amsterdam",
+      "location_local_time": "2026-10-02T13:09:59+02:00",
+      "is_day": 1,
+      "weather_code": 0,
+      "cloud_cover": 17,
+      "temperature_2m": 19.0,
+      "wind_speed_10m": 8.6,
+      "precipitation": 0.0,
+      "sunrise": "2026-10-02T07:40",
+      "sunset": "2026-10-02T19:13"
+    },
+    "on_image_caption": "Gemaal Wortman, Lelystad",
+    "on_image_scenario": "Scenario: 2 October 2026 · 13:09 Europe/Amsterdam",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_name": "Jason A. Devlin",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "art50_comment_date": "2026-10-02",
+    "gallery_primary": "night unchanged",
+    "note": "Candidate genuine daylight set for Cosmo QC. Not Approved. Not a Friday self-certification. The night master remains the gallery primary. No night image was used as a generator anchor."
+  }
 }

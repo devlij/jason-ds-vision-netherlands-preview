@@ -1,0 +1,205 @@
+BATCH NL genuine daylight PACK 27 — NL-01-279 through NL-01-288
+Date: 2026-10-02
+Status: Candidate. Not Cosmo QC. Not Approved. Not a Friday self-certification.
+Country: Netherlands
+Scenes: 10. Genuine daylight sets: 10. Interim-AI counted as genuine: 0.
+Gate: Europe/Amsterdam daylight. Open-Meteo Amsterdam probe 2026-10-02T13:08 Europe/Amsterdam, is_day 1, sunrise 07:43, sunset 19:15. Scene retrievals followed inside that window.
+Provenance: genuine text-prompt-only. No night master was passed to the generator. No image anchor.
+Scenario: the Europe/Amsterdam clock of each scene's own Open-Meteo retrieval. One retrieval per scene, unique to the second, is_day 1.
+Masters: 1920×1270 (16:9), 864×1270 (4:5), 1080×1920 (9:16). 16:9 and 4:5 photo areas stay 1920×1080 and 864×1080. The 9:16 file is 1080×1920 including the 190px label bar; visible photo rows are the exact top 1730 of the 1080×1920 pretext.
+Label bar: 190px #0e0e12, 2px hairline, caption, Scenario line, disclosure, Jason D’s Vision, Jason A. Devlin. On 16:9 and 4:5 the bar sits under the photo. On 9:16 the same bar is inside the 1080×1920 canvas.
+Art. 50 comment date: 2026-10-02 (finish date).
+Gallery: night primary unchanged. index.html not rewritten. No primary flip.
+Night masters: SHA-256 recorded before the write and matched after. Not regenerated.
+Skips: none. Catalogue ends at NL-01-288. Held 001/003/004, day-primary 002/005–016/064/067, packs 1–26 through 278, and interim-ai #18–#31 are outside this slice.
+
+NL-01-279  Blue obelisk, Bonaire
+  provenance     genuine-text-prompt
+  genuine        yes
+  approval       Candidate
+  scenario       2 October 2026 · 13:09 Europe/Amsterdam
+  retrieval      2026-10-02T13:09:17+02:00  unique second  is_day 1
+  local          2026-10-02T07:09:17-04:00 America/Kralendijk
+  weather        code 2  cloud 52%  28.5°C  wind 29.8 km/h  precip 0.0 mm
+  sunrise/set    2026-10-02T12:21 / 2026-10-03T00:22 (Europe/Amsterdam display)
+  night 16x9     53aa983fe1e651d7c80a1a5ac59416b9539f077fb440e736e7f3224ded4f702f  IDENTICAL
+  night 4x5      36543ac7cc8f709df184fbf52a4c64021ec2cb6e576119f798507d7dd0970cea  IDENTICAL
+  night 9x16     933b6b6537866ba42a26179f1d0ce325cf0c606ca928475578a03f9388e870ee  IDENTICAL
+  day 16x9       d2411b000170ba5510ca9e196a754f57d243ee36bc5e4937f4d7da09d54a55fb
+  day 4x5        ddba110af11b2d723606fec805f3eee4832871051b4f0e10adf605d64ef344d5
+  day 9x16       443866f1137f709fab8dbc0037c802709e3361f71c036c75faf82f3af772110b
+  files          library/world/Netherlands/Bonaire/nl-01-279-daylight-16x9.png
+                 library/world/Netherlands/Bonaire/nl-01-279-daylight-4x5.png
+                 library/world/Netherlands/Bonaire/nl-01-279-daylight-9x16.png
+
+NL-01-280  Honen Dalim, Oranjestad
+  provenance     genuine-text-prompt
+  genuine        yes
+  approval       Candidate
+  scenario       2 October 2026 · 13:09 Europe/Amsterdam
+  retrieval      2026-10-02T13:09:19+02:00  unique second  is_day 1
+  local          2026-10-02T07:09:19-04:00 America/Kralendijk
+  weather        code 0  cloud 7%  28.4°C  wind 21.3 km/h  precip 0.0 mm
+  sunrise/set    2026-10-02T12:02 / 2026-10-02T23:59 (Europe/Amsterdam display)
+  night 16x9     ec2e2e698d00c6717effda28abb8972e551a36d05f8d8fce6fae8626def7560b  IDENTICAL
+  night 4x5      d7b21b17e35202c3c6b03909eb10f060925770a9bee0db5de8467e9d0ab5e9f3  IDENTICAL
+  night 9x16     556dd7eefc6a6c00abdd6bba50c33f8c76f6a06c24b9246e15aaa65d96c5063a  IDENTICAL
+  day 16x9       454a7619ccb3845b2f243f5b782f1fed3305879c4cb7583e543cfacc542bbbed
+  day 4x5        af18d0b23f4b354d13e044429421524908721f317227ac36d0e5fd8955bc7abc
+  day 9x16       556e9466528997ad3d74600a99e9f656642536dfc49e5eacb576520ce91188a7
+  files          library/world/Netherlands/Oranjestad/nl-01-280-daylight-16x9.png
+                 library/world/Netherlands/Oranjestad/nl-01-280-daylight-4x5.png
+                 library/world/Netherlands/Oranjestad/nl-01-280-daylight-9x16.png
+
+NL-01-281  Basiliek, Sint Odiliënberg
+  provenance     genuine-text-prompt
+  genuine        yes
+  approval       Candidate
+  scenario       2 October 2026 · 13:09 Europe/Amsterdam
+  retrieval      2026-10-02T13:09:49+02:00  unique second  is_day 1
+  local          2026-10-02T13:09:49+02:00 Europe/Amsterdam
+  weather        code 3  cloud 100%  17.6°C  wind 5.8 km/h  precip 0.0 mm
+  sunrise/set    2026-10-02T07:37 / 2026-10-02T19:11 (Europe/Amsterdam display)
+  night 16x9     7737f11239cd29c50561f5f29dea061af907262b8f65c21cf72bfc9ee66b4d02  IDENTICAL
+  night 4x5      2c1796c572bf545d63a91786ec05d4681f9be359dce7585e33ced2522460dd79  IDENTICAL
+  night 9x16     dd1ad715f28b2486dc0ef7ed63a24b5b8edea43c32702db54a3075c7644f3702  IDENTICAL
+  day 16x9       4ed5a95f9274a6dfe146ae37e855d11c46046ad6a2cc0a8e9ca477d2cc7762d3
+  day 4x5        716fb198818ae69feed011868befa5a1d23aa7d11abaa7bf1e74704346c53f4e
+  day 9x16       cda0e5a4d32aab1882a7c6307ce68797070e974fd3cc8e0212ac81f0de5f53fd
+  files          library/world/Netherlands/Sint Odiliënberg/nl-01-281-daylight-16x9.png
+                 library/world/Netherlands/Sint Odiliënberg/nl-01-281-daylight-4x5.png
+                 library/world/Netherlands/Sint Odiliënberg/nl-01-281-daylight-9x16.png
+
+NL-01-282  Drogenapstoren, Zutphen
+  provenance     genuine-text-prompt
+  genuine        yes
+  approval       Candidate
+  scenario       2 October 2026 · 13:09 Europe/Amsterdam
+  retrieval      2026-10-02T13:09:51+02:00  unique second  is_day 1
+  local          2026-10-02T13:09:51+02:00 Europe/Amsterdam
+  weather        code 3  cloud 99%  19.2°C  wind 7.9 km/h  precip 0.0 mm
+  sunrise/set    2026-10-02T07:37 / 2026-10-02T19:10 (Europe/Amsterdam display)
+  night 16x9     fdf609f701aeed9dd38997e48cc8cd557510a7a7dc0e09f0c31e2f1ec69b8ccf  IDENTICAL
+  night 4x5      40a5c8051de0f14c95334e7267d8d36c906bd73ce456a5cef88c35905e680624  IDENTICAL
+  night 9x16     b6275b971f19dc098888b0b960a4e9c797a745fd241565cdc224b44eb3b1e6d2  IDENTICAL
+  day 16x9       90af68f2311575662c934112ab78601513b81dd3bf629f3075ed9f68a294fa78
+  day 4x5        48cfe6808385f1849557541f1f0d5d8bfe83619261c979dec6064950f975b205
+  day 9x16       0dbd30233a80cff01a1c1f5e9c9c30515c5ef6110520ba9d9dff0aa8a1a0605a
+  files          library/world/Netherlands/Zutphen/nl-01-282-daylight-16x9.png
+                 library/world/Netherlands/Zutphen/nl-01-282-daylight-4x5.png
+                 library/world/Netherlands/Zutphen/nl-01-282-daylight-9x16.png
+
+NL-01-283  Gevangenpoort, Woudrichem
+  provenance     genuine-text-prompt
+  genuine        yes
+  approval       Candidate
+  scenario       2 October 2026 · 13:09 Europe/Amsterdam
+  retrieval      2026-10-02T13:09:54+02:00  unique second  is_day 1
+  local          2026-10-02T13:09:54+02:00 Europe/Amsterdam
+  weather        code 2  cloud 61%  18.0°C  wind 9.7 km/h  precip 0.0 mm
+  sunrise/set    2026-10-02T07:42 / 2026-10-02T19:15 (Europe/Amsterdam display)
+  night 16x9     613352fd4628a7f67ffc11c8b885d2d56b1dd340fb374c101667015c6e45f689  IDENTICAL
+  night 4x5      cf4ae219456115469094280d869ba5795331057d10d8f9d328360fe0da80110b  IDENTICAL
+  night 9x16     5d901391e3f2fd31b25d9b6d7d7be9e28069548bdea6b6a8c5eebfc9edf10ead  IDENTICAL
+  day 16x9       5cdc85c48bf65fc26384800b453b07c15e1ba90e64cdc7a39cd4a90f60b4ac35
+  day 4x5        45e06ca6c5161b5d1ba2dce153f16ed389810ef4a7ac2c57c9f73504624f6fdb
+  day 9x16       daf0fdab24183a0f0a4a6adcc7db18bd26f948c2683b80f5fe68fe15b57fc837
+  files          library/world/Netherlands/Woudrichem/nl-01-283-daylight-16x9.png
+                 library/world/Netherlands/Woudrichem/nl-01-283-daylight-4x5.png
+                 library/world/Netherlands/Woudrichem/nl-01-283-daylight-9x16.png
+
+NL-01-284  Stadhuis, Zierikzee
+  provenance     genuine-text-prompt
+  genuine        yes
+  approval       Candidate
+  scenario       2 October 2026 · 13:09 Europe/Amsterdam
+  retrieval      2026-10-02T13:09:57+02:00  unique second  is_day 1
+  local          2026-10-02T13:09:57+02:00 Europe/Amsterdam
+  weather        code 0  cloud 2%  18.6°C  wind 10.4 km/h  precip 0.0 mm
+  sunrise/set    2026-10-02T07:46 / 2026-10-02T19:19 (Europe/Amsterdam display)
+  night 16x9     540bc48715008f7e9b6f92dd72a5799e482f50198d4a8ac686b0af4d1eeeb868  IDENTICAL
+  night 4x5      bce2790cc7b9b3ef5a675c5f16d286eedf49426d7edb9e17e65931285cd65cfb  IDENTICAL
+  night 9x16     dbd49310ce6dbbd2bf51c9cf9a5cda65590727de608e6c1127637dd6a8cf64b1  IDENTICAL
+  day 16x9       247535a60babd086835b88022c5e7be2761feca6f1866488c64e1f5e91759e53
+  day 4x5        01dddaaaf744676026d2bcf2e7403d3742d86541f2d29f05ae2d7351082a7322
+  day 9x16       28f31cb207ece0a6f756bdc062a03067a8a6ecd9abf689294441c8b85646f6ec
+  files          library/world/Netherlands/Zierikzee/nl-01-284-daylight-16x9.png
+                 library/world/Netherlands/Zierikzee/nl-01-284-daylight-4x5.png
+                 library/world/Netherlands/Zierikzee/nl-01-284-daylight-9x16.png
+
+NL-01-285  Gemaal Wortman, Lelystad
+  provenance     genuine-text-prompt
+  genuine        yes
+  approval       Candidate
+  scenario       2 October 2026 · 13:09 Europe/Amsterdam
+  retrieval      2026-10-02T13:09:59+02:00  unique second  is_day 1
+  local          2026-10-02T13:09:59+02:00 Europe/Amsterdam
+  weather        code 0  cloud 17%  19.0°C  wind 8.6 km/h  precip 0.0 mm
+  sunrise/set    2026-10-02T07:40 / 2026-10-02T19:13 (Europe/Amsterdam display)
+  night 16x9     d30ca62d9d2bd2ca369a0c7646d10b332c6626720346475786b51f8e5bbe8f1b  IDENTICAL
+  night 4x5      868dd037631add9f5f75e41ee53b8136af9a1fcc157ed3d1986adaa1f71ca771  IDENTICAL
+  night 9x16     d0b1041a6ca1b660b09ae918f2ad8adb74521db95b7e9a5bb2d61ab3e6c831b3  IDENTICAL
+  day 16x9       07dbd55d9ae120749e4ee25c674fc076a3c1d79844b230f0f4e27ae2f90cc69b
+  day 4x5        41a275d93a66be4899a024171456b1f55644aba5577247a735d62cb3b2fa53bb
+  day 9x16       fd8db3b8b040a291c7f92da4120efcac2310da16cbe8987ffbf053ddd0cf363e
+  files          library/world/Netherlands/Lelystad/nl-01-285-daylight-16x9.png
+                 library/world/Netherlands/Lelystad/nl-01-285-daylight-4x5.png
+                 library/world/Netherlands/Lelystad/nl-01-285-daylight-9x16.png
+
+NL-01-286  Stadhuis, Sneek
+  provenance     genuine-text-prompt
+  genuine        yes
+  approval       Candidate
+  scenario       2 October 2026 · 13:10 Europe/Amsterdam
+  retrieval      2026-10-02T13:10:02+02:00  unique second  is_day 1
+  local          2026-10-02T13:10:02+02:00 Europe/Amsterdam
+  weather        code 0  cloud 3%  19.0°C  wind 12.2 km/h  precip 0.0 mm
+  sunrise/set    2026-10-02T07:40 / 2026-10-02T19:12 (Europe/Amsterdam display)
+  night 16x9     938dee5edb964d6e66b4499a3af7c44bd0e29f7e7cb9f9f01805b4b031b6e6e4  IDENTICAL
+  night 4x5      49ced1332434d831cea7540c7edd49fc16c3d37c836d043477eae5d6431372c8  IDENTICAL
+  night 9x16     2e33ff4146a91b35fd3ed7e93a0441b2400fd402b12f5b0be8af2cf6cecbcc0d  IDENTICAL
+  day 16x9       bf7e5b6d570c45d6d2876f1cf9ab055ea12d329434f2fe516e721673e218bf52
+  day 4x5        8a3303736ee68b4c2b7ae81fe43c2554d5bb2271e113416026b3801f183ef3e7
+  day 9x16       5dcb9007d443def83baed32f60df8b8408a7fe59571ef7970356e2deac1aa4a9
+  files          library/world/Netherlands/Sneek/nl-01-286-daylight-16x9.png
+                 library/world/Netherlands/Sneek/nl-01-286-daylight-4x5.png
+                 library/world/Netherlands/Sneek/nl-01-286-daylight-9x16.png
+
+NL-01-287  Goudkantoor, Groningen
+  provenance     genuine-text-prompt
+  genuine        yes
+  approval       Candidate
+  scenario       2 October 2026 · 13:10 Europe/Amsterdam
+  retrieval      2026-10-02T13:10:04+02:00  unique second  is_day 1
+  local          2026-10-02T13:10:04+02:00 Europe/Amsterdam
+  weather        code 0  cloud 6%  19.2°C  wind 8.3 km/h  precip 0.0 mm
+  sunrise/set    2026-10-02T07:36 / 2026-10-02T19:08 (Europe/Amsterdam display)
+  night 16x9     1c2de60424f311d68aa2c879846d62a317db0f86e8ad70addd5cc8bb0418af65  IDENTICAL
+  night 4x5      c80eec35978fa23d62f387302722f769ebd98748f30e864a2e1a75927bb5a7dd  IDENTICAL
+  night 9x16     14bf6878e10620328bdb3c7cabb1b49e487a6b8ab65f9a9aa7625e8884b0f835  IDENTICAL
+  day 16x9       6ec9580ba6386651e9b3481af80e42cdfe08c69abac5356e0adc596d807a0463
+  day 4x5        7830aa7affdce95add784cd6a154a8582ce4d2e90f150ab908b25e46c8197f0c
+  day 9x16       fb53be90a282da294aa58f38af2ab207b19fb07bd3fc1e200b8a047cbe7b4de3
+  files          library/world/Netherlands/Groningen/nl-01-287-daylight-16x9.png
+                 library/world/Netherlands/Groningen/nl-01-287-daylight-4x5.png
+                 library/world/Netherlands/Groningen/nl-01-287-daylight-9x16.png
+
+NL-01-288  Sint-Pancratiuskerk, Diever
+  provenance     genuine-text-prompt
+  genuine        yes
+  approval       Candidate
+  scenario       2 October 2026 · 13:10 Europe/Amsterdam
+  retrieval      2026-10-02T13:10:07+02:00  unique second  is_day 1
+  local          2026-10-02T13:10:07+02:00 Europe/Amsterdam
+  weather        code 3  cloud 100%  18.2°C  wind 7.6 km/h  precip 0.0 mm
+  sunrise/set    2026-10-02T07:37 / 2026-10-02T19:09 (Europe/Amsterdam display)
+  night 16x9     297749cf2815342577f2ba3ab0b1c0ca497c2ccfc2fe24c52e34e1bf1fbc9551  IDENTICAL
+  night 4x5      0ea93583b53fc0a054c05975223416457e19ff0f9a531cb0656449cc2a7fd325  IDENTICAL
+  night 9x16     f8788ec353c8492cd5b33b23bb4c7a7024e7bf12ae9248b47c671e566e67eed3  IDENTICAL
+  day 16x9       82a0916ec47601a0183f24d1448ae7d098e8c41bbf78b89ec7a492264e82cac2
+  day 4x5        02d80dea55b0b45de4ff78a6da44ffc6d3a4ee9fbdb11786cbde3a14e56f1937
+  day 9x16       52629d12251e526fb7ed4e9c45d9662ee1cff2061ebae6d956c78dce1369fe98
+  files          library/world/Netherlands/Diever/nl-01-288-daylight-16x9.png
+                 library/world/Netherlands/Diever/nl-01-288-daylight-4x5.png
+                 library/world/Netherlands/Diever/nl-01-288-daylight-9x16.png
+
