@@ -766,10 +766,11 @@
     var narrBtn=overlay.querySelector('.lb-narrate');
     var tourBtn=overlay.querySelector('.lb-tour');
     var narrAudio=null, tourAudio=null, tourActive=false, tourPaused=false;
+    var lbCards=[];
     function stopNarr(){ if(narrAudio){narrAudio.pause();narrAudio=null;} if(narrBtn){narrBtn.classList.remove('playing');narrBtn.setAttribute('aria-label','Play scene narration');narrBtn.innerHTML='&#128266;';} }
     function toggleNarr(){
       if(tourActive) stopTour();
-      var card=visibleCards()[idx];
+      var card=lbCards[idx];
       var src=card?card.getAttribute('data-audio'):'';
       if(!src) return;
       if(narrAudio && !narrAudio.paused){stopNarr();return;}
@@ -791,14 +792,14 @@
     }
     function stopTour(){tourActive=false;tourPaused=false;stopTourAudio();renderTourBtn();}
     function tourAdvance(){
-      var cards=visibleCards();var j=idx+1;
-      while(j<cards.length&&!tourSrc(cards[j]))j++;
-      if(j<cards.length){show(j);}else{stopTour();}
+      var j=idx+1;
+      while(j<lbCards.length&&!tourSrc(lbCards[j]))j++;
+      if(j<lbCards.length){show(j);}else{stopTour();}
     }
     function playTourSlide(){
       if(!tourActive)return;
       stopTourAudio();tourPaused=false;
-      var card=visibleCards()[idx];
+      var card=lbCards[idx];
       var src=tourSrc(card);
       if(!src){tourAdvance();return;}
       tourAudio=new Audio(src);
@@ -859,10 +860,11 @@
       idx=(i+items.length)%items.length;
       img.src=items[idx].src;img.alt=items[idx].alt||items[idx].cap;cap.textContent=items[idx].cap;
       count.textContent=(idx+1)+' / '+items.length;
-      var curCard=visibleCards()[idx];
+      lbCards=visibleCards();
+      var curCard=lbCards[idx];
       var hasA=!!(curCard&&curCard.getAttribute('data-audio'));
       narrBtn.style.display=hasA?'':'none';
-      var anyAudio=visibleCards().some(function(c){return !!(c&&c.getAttribute('data-audio'));});
+      var anyAudio=lbCards.some(function(c){return !!(c&&c.getAttribute('data-audio'));});
       tourBtn.style.display=anyAudio?'':'none';
       stopNarr();stopTourAudio();
       overlay.classList.add('open');overlay.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
