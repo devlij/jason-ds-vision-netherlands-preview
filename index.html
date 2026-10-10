@@ -506,7 +506,9 @@
           : (day16 ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : "");
         const pcControl = hasPc ? `<button type="button" class="day-tab pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">\u{1F4E9} Postcard</button>` : "";
         const scenarioText = hasPc ? "Postcard collection" : ("Scenario: " + (dayScenario || s.scenario_label));
+        const audioUrl = s.audio ? s.audio : ("https://netherlands-assets.jdvision.org/audio/" + String(s.entry_id).toLowerCase() + "-narration.mp3");
         card.setAttribute("data-day-kind", dayKind);
+        card.setAttribute("data-audio", audioUrl);
         card.innerHTML = `
           <div class="preview">
             <a class="thumb" href="${esc(hero)}" target="_blank" rel="noopener">
