@@ -237,7 +237,10 @@
   .copy-link:hover { background: #24405e; }
   @media(max-width: 760px) { .related-row { grid-template-columns: repeat(2, 1fr); } }
 
-</style>
+
+      #xmas-charm { font-size: 1.2rem; padding: 0.3rem 0.6rem; border-radius: 8px; border: 1px solid var(--line); background: transparent; cursor: pointer; }
+      #xmas-charm.is-active { background: #1a472a; border-color: #2d7d46; }
+    </style>
 </head>
 <body>
   <div class="flag-band" aria-hidden="true"></div>
@@ -292,6 +295,7 @@
         <option value="">All moods</option><option value="coastal">Coastal</option><option value="mountain">Mountain</option><option value="urban">Urban</option><option value="historic">Historic</option>
       </select>
       <button type="button" id="clear">Clear</button>
+      <button type="button" id="xmas-charm" aria-pressed="false" title="Show the Christmas Markets collection">🎄</button>
       <span id="result-count"></span>
     </div>
     <div id="no-results">No scenes match that search.</div>
@@ -451,7 +455,9 @@
       const reg = region.value;
       const dn = document.getElementById('f-daynight').value;
       const mood = document.getElementById('f-mood').value;
+      const xmasOnly = document.getElementById('xmas-charm').getAttribute('aria-pressed') === 'true';
       const filtered = SCENES.filter(s => {
+        if (xmasOnly && s.scenario_label !== 'Christmas Markets collection') return false;
         if (reg && s.region !== reg) return false;
         var pm = (typeof NL_META !== 'undefined') ? NL_META[s.entry_id] : null;
         if (dn && pm && pm[1] !== dn) return false;
@@ -604,7 +610,14 @@
     region.addEventListener('change', render);
     document.getElementById('f-daynight').addEventListener('change', render);
     document.getElementById('f-mood').addEventListener('change', render);
-    clearBtn.addEventListener('click', () => { q.value = ''; region.value = ''; document.getElementById('f-daynight').value = ''; document.getElementById('f-mood').value = ''; render(); });
+    document.getElementById('xmas-charm').addEventListener('click', () => {
+        const btn = document.getElementById('xmas-charm');
+        const on = btn.getAttribute('aria-pressed') !== 'true';
+        btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        btn.classList.toggle('is-active', on);
+        render();
+      });
+      clearBtn.addEventListener('click', () => { q.value = ''; region.value = ''; document.getElementById('f-daynight').value = ''; document.getElementById('f-mood').value = ''; const xb = document.getElementById('xmas-charm'); xb.setAttribute('aria-pressed', 'false'); xb.classList.remove('is-active'); render(); });
     render();
   </script>
 
